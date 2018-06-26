@@ -39,6 +39,8 @@
 	<system:String x:Key="AddDrive.Device">Device</system:String>
 	<system:String x:Key="AddDrive.PrivateKey">Private Key</system:String>
 	<system:String x:Key="AddDrive.Charset">Charset</system:String>
+	<system:String x:Key="AddDrive.TransferMode">Transfer Mode</system:String>
+	<system:String x:Key="AddDrive.Encryption">Encryption</system:String>
 
 	<system:String x:Key="Vailidation.Volume">Please enter a valid volume label</system:String>
 	<system:String x:Key="Vailidation.VolumeExist">This name alreay exists</system:String>

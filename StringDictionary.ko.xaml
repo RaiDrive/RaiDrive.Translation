@@ -43,6 +43,9 @@
 	<system:String x:Key="AddDrive.Device">장비</system:String>
 	<system:String x:Key="AddDrive.PrivateKey">개인키</system:String>
 	<system:String x:Key="AddDrive.Charset">문자셋</system:String>
+	<system:String x:Key="AddDrive.TransferMode">전송모드</system:String>
+	<system:String x:Key="AddDrive.Encryption">암호화</system:String>
+
 
 	<system:String x:Key="Vailidation.Volume">드라이브 이름을 입력해 주세요</system:String>
 	<system:String x:Key="Vailidation.VolumeExist">이미 존재하는 이름입니다</system:String>
