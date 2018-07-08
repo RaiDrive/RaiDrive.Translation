@@ -4,6 +4,7 @@ Some of language source file is initialized, but not be translated completely ye
 
 File name | Language
 ----------|---------
+StringDictionary.ar.xaml | Arabic
 StringDictionary.da.xaml | Danish
 StringDictionary.de.xaml | German
 StringDictionary.en.xaml | English
