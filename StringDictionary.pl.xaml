@@ -11,7 +11,7 @@
 	<system:String x:Key="Settings.Facebook">Facebook</system:String>
 	<system:String x:Key="Settings.Facebook.Like">Polub</system:String>
 	<system:String x:Key="Settings.TemporaryPath">Cache</system:String>
-	<system:String x:Key="Settings.Default">Domyślne</system:String>
+	<system:String x:Key="Settings.Default">Domyślny</system:String>
 	<system:String x:Key="Settings.License">Licencja</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">Uruchom program wraz ze startem systemu</system:String>
@@ -28,7 +28,7 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">Sieć</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">Tylko do odczytu</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Automatyczne łączenie</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Połącz automatycznie</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Połącz przy użyciu innych poświadczeń</system:String>
 	<system:String x:Key="AddDrive.Account">Konto</system:String>
 	<system:String x:Key="AddDrive.Username">Użytkownik</system:String>
@@ -39,7 +39,7 @@
 	<system:String x:Key="AddDrive.Device">Urządzenie</system:String>
 	<system:String x:Key="AddDrive.PrivateKey">Klucz prywatny</system:String>
 	<system:String x:Key="AddDrive.Charset">Kodowanie</system:String>
-	<system:String x:Key="AddDrive.TransferMode">Tryb transfery</system:String>
+	<system:String x:Key="AddDrive.TransferMode">Tryb transferu</system:String>
 	<system:String x:Key="AddDrive.Encryption">Szyfrowanie</system:String>
 
 	<system:String x:Key="Vailidation.Volume">Wprowadź poprawne oznaczenie woliumu</system:String>
@@ -63,7 +63,7 @@
 	<system:String x:Key="Vailidation.Hint.Port">port</system:String>
 	<system:String x:Key="Vailidation.Hint.Path">ścieżka</system:String>
 	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">you may select private key file</system:String>
+	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">wybierz klucz prywatny</system:String>
 
 	<system:String x:Key="Button.Yes">Tak</system:String>
 	<system:String x:Key="Button.No">Nie</system:String>
@@ -159,7 +159,7 @@
 	<system:String x:Key="Help.ServiceDown.Press">Wciśnij przycisk, RaiDrive włączy się ponownie.</system:String>
 	<system:String x:Key="Help.InternetDown">Twoje połączenie zostało przerwane. Sprawdź czy masz dostęp do internetu.</system:String>
 	<system:String x:Key="Help.InternetDown.RetryAfter">Ponownie powtórzenie {0} second(s).</system:String>
-	<system:String x:Key="Help.License.ForBusiness">wersja dla biznesu</system:String>
+	<system:String x:Key="Help.License.ForBusiness">wprowadź klucz aktywacyjny</system:String>
 
 	<system:String x:Key="Upgrade">Aktualizacji</system:String>
 	<system:String x:Key="Upgrade.Uptodate">Świetnie! Używasz najnowszej wersji!</system:String>
