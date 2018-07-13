@@ -140,7 +140,7 @@
 
 	<system:String x:Key="Words.Reason">POwód</system:String>
 	<system:String x:Key="Words.Delegation.Stop">Delegacja została przerwana</system:String>
-	<system:String x:Key="Words.Drive">Dysk/system:String>
+	<system:String x:Key="Words.Drive">Dysk</system:String>
 	<system:String x:Key="Words.FreeSpace">Wolne miejsce</system:String>
 	<system:String x:Key="Words.Send.Opinion">Wyślij opcje</system:String>
 	<system:String x:Key="Words.Code">Kod</system:String>
@@ -206,6 +206,6 @@
 	<system:String x:Key="Backup.Count.Left">Lewy</system:String>
 	<system:String x:Key="Backup.Count.Processed">Wykonano</system:String>
 
-	<system:String x:Key="Message.Backup.BackupTargetFolder">Zaznacz folder, w ktorym będzie przechowywana kopia zapasowa/system:String>
+	<system:String x:Key="Message.Backup.BackupTargetFolder">Zaznacz folder, w ktorym będzie przechowywana kopia zapasowa</system:String>
 
 </ResourceDictionary>
