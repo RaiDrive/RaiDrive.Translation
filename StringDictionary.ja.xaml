@@ -14,7 +14,7 @@
 	<system:String x:Key="Settings.Default">初期設定</system:String>
 	<system:String x:Key="Settings.License">ライセンス</system:String>
 
-	<system:String x:Key="Settings.General.RunAtBoot">Windows起動時にRaidriveを自動的に実行</system:String>
+	<system:String x:Key="Settings.General.RunAtBoot">Windows起動時にRaiDriveを自動的に実行</system:String>
 	<system:String x:Key="Settings.General.RunAtConnect">ドライブがマウントされる時にエクスプローラーを起動</system:String>
 
 	<system:String x:Key="Notice">お知らせ</system:String>
