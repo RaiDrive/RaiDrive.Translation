@@ -156,7 +156,7 @@
 	<system:String x:Key="Help.Text">مساعدة</system:String>
 	<system:String x:Key="Help.Add.Drive">لنبدأ</system:String>
 	<system:String x:Key="Help.ServiceDown">تم إيقاف خدمة RaiDrive</system:String>
-	<system:String x:Key="Help.ServiceDown.Press">Please press button, RaiDrive will be alive.</system:String>
+	<system:String x:Key="Help.ServiceDown.Press">اضغط الزر وسيعود البرنامج البرنامج للعمل مجددا.</system:String>
 	<system:String x:Key="Help.InternetDown">يبدو أن لديك مشكلة اتصال بالانترنت. الرجاء مراجعة إعدادات الاتصال.</system:String>
 	<system:String x:Key="Help.InternetDown.RetryAfter">أعد المحاولة بعد {0} ثوان.</system:String>
 	<system:String x:Key="Help.License.ForBusiness">لنسخة الأعمال</system:String>
@@ -171,7 +171,7 @@
 	<system:String x:Key="NotifyIcon.Exit">خروج</system:String>
 	<system:String x:Key="NotifyIcon.Exit.Message">قطع كل الاتصالات قبل الخروج؟</system:String>
 
-	<system:String x:Key="State.Space.Format">{0} free of {1} {2}</system:String>
+	<system:String x:Key="State.Space.Format">{0} متاح من {1} {2}</system:String>
 	<system:String x:Key="State.Space.Used">المستخدم</system:String>
 
 	<system:String x:Key="Brand.Synology">Synology</system:String>
