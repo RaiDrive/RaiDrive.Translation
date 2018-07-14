@@ -171,7 +171,7 @@
 	<system:String x:Key="NotifyIcon.Exit">خروج</system:String>
 	<system:String x:Key="NotifyIcon.Exit.Message">قطع كل الاتصالات قبل الخروج؟</system:String>
 
-	<system:String x:Key="State.Space.Format">{0} {متاح من {1} {2}</system:String>
+	<system:String x:Key="State.Space.Format">{0}  {1} متاح من </system:String>
 	<system:String x:Key="State.Space.Used">المستخدم</system:String>
 
 	<system:String x:Key="Brand.Synology">Synology</system:String>
