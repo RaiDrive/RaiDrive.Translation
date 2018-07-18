@@ -10,6 +10,7 @@ StringDictionary.de.xaml | German
 StringDictionary.en.xaml | English
 StringDictionary.es.xaml | Spanish
 StringDictionary.fr.xaml | French
+StringDictionary.hr.xaml | Croatian
 StringDictionary.ja.xaml | Japanese
 StringDictionary.ko.xaml | Korean
 StringDictionary.pl.xaml | Polish
