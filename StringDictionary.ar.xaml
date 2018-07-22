@@ -3,14 +3,14 @@
 	<!--  Menu bar>Settings, General  -->
 	<system:String x:Key="Current.Language">ar</system:String>
 
-	<system:String x:Key="Settings">إعدادات</system:String>
-	<system:String x:Key="Settings.Header">إعدادات</system:String>
+	<system:String x:Key="Settings">الإعدادات</system:String>
+	<system:String x:Key="Settings.Header">الإعدادات</system:String>
 	<system:String x:Key="Settings.General">عام</system:String>
 	<system:String x:Key="Settings.Language">اللغة</system:String>
-	<system:String x:Key="Settings.Update">تحديث</system:String>
+	<system:String x:Key="Settings.Update">إصدارة جديدة</system:String>
 	<system:String x:Key="Settings.Facebook">Facebook</system:String>
 	<system:String x:Key="Settings.Facebook.Like">إعجاب</system:String>
-	<system:String x:Key="Settings.TemporaryPath">مؤقت</system:String>
+	<system:String x:Key="Settings.TemporaryPath">المسار المؤقت</system:String>
 	<system:String x:Key="Settings.Default">افتراضي</system:String>
 	<system:String x:Key="Settings.License">الترخيص</system:String>
 
@@ -20,7 +20,7 @@
 	<system:String x:Key="Notice">تنبيه</system:String>
 	<system:String x:Key="AddDrive">إضافة</system:String>
 	<system:String x:Key="AddDrive.Header">محرك أقراص جديد</system:String>
-	<system:String x:Key="AddDrive.Storage">التخرين</system:String>
+	<system:String x:Key="AddDrive.Storage">الخدمات</system:String>
 
 	<!--  Drive  -->
 	<system:String x:Key="AddDrive.Drive">محرك أقراص</system:String>
@@ -28,9 +28,9 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">شبكة</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">للقراءة فقط</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">توصيل عند تسجيل الدخول</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">إعادة الاتصال عند تسجيل الدخول</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">استخدام بيانات دخول مختلفة</system:String>
-	<system:String x:Key="AddDrive.Account">حساب</system:String>
+	<system:String x:Key="AddDrive.Account">الحساب</system:String>
 	<system:String x:Key="AddDrive.Username">اسم المستخدم</system:String>
 	<system:String x:Key="AddDrive.Password">كلمة المرور</system:String>
 	<system:String x:Key="AddDrive.Anonymous">وصول كمجهول</system:String>
@@ -70,7 +70,7 @@
 	<system:String x:Key="Button.OK">موافق</system:String>
 	<system:String x:Key="Button.Apply">تطبيق</system:String>
 	<system:String x:Key="Button.Cancel">إلغاء</system:String>
-	<system:String x:Key="Button.Check">اختبار</system:String>
+	<system:String x:Key="Button.Check">التحقق</system:String>
 	<system:String x:Key="Button.Edit">تحرير</system:String>
 	<system:String x:Key="Button.Retry">حاول مجددا</system:String>
 	<system:String x:Key="Button.ReAuth">تسجيل الدخول</system:String>
@@ -164,14 +164,14 @@
 	<system:String x:Key="Upgrade">التحديث</system:String>
 	<system:String x:Key="Upgrade.Uptodate">أنت تستخدم أحدث إصدارة</system:String>
 	<system:String x:Key="Upgrade.NewVersion">يمكنك التحديث إلى النسخة {0}</system:String>
-	<system:String x:Key="Upgrade.New">يمكنك التحديث البرنامج</system:String>
+	<system:String x:Key="Upgrade.New">يمكنك تحديث البرنامج</system:String>
 
 	<system:String x:Key="NotifyIcon.Open">تشغيل RaiDrive</system:String>
 	<system:String x:Key="NotifyIcon.CheckUpdate">البحث عن تحديثات</system:String>
 	<system:String x:Key="NotifyIcon.Exit">خروج</system:String>
 	<system:String x:Key="NotifyIcon.Exit.Message">قطع كل الاتصالات قبل الخروج؟</system:String>
 
-	<system:String x:Key="State.Space.Format">{0} متاح من {1} {2}</system:String>
+	<system:String x:Key="State.Space.Format">{0} {1} حرة من {2}</system:String>
 	<system:String x:Key="State.Space.Used">المستخدم</system:String>
 
 	<system:String x:Key="Brand.Synology">Synology</system:String>
