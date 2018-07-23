@@ -11,10 +11,10 @@
 	<system:String x:Key="Settings.Facebook">Facebook</system:String>
 	<system:String x:Key="Settings.Facebook.Like">いいね</system:String>
 	<system:String x:Key="Settings.TemporaryPath">一時フォルダ</system:String>
-	<system:String x:Key="Settings.Default">基本値</system:String>
+	<system:String x:Key="Settings.Default">初期設定</system:String>
 	<system:String x:Key="Settings.License">ライセンス</system:String>
 
-	<system:String x:Key="Settings.General.RunAtBoot">Windows起動時にプログラムを自動的に実行</system:String>
+	<system:String x:Key="Settings.General.RunAtBoot">Windows起動時にRaiDriveを自動的に実行</system:String>
 	<system:String x:Key="Settings.General.RunAtConnect">ドライブがマウントされる時にエクスプローラーを起動</system:String>
 
 	<system:String x:Key="Notice">お知らせ</system:String>
@@ -70,7 +70,7 @@
 	<system:String x:Key="Button.OK">OK</system:String>
 	<system:String x:Key="Button.Apply">適用</system:String>
 	<system:String x:Key="Button.Cancel">取り消し</system:String>
-	<system:String x:Key="Button.Check">チェック</system:String>
+	<system:String x:Key="Button.Check">確認</system:String>
 	<system:String x:Key="Button.Edit">編集</system:String>
 	<system:String x:Key="Button.Retry">リロード</system:String>
 	<system:String x:Key="Button.ReAuth">再ログイン</system:String>
