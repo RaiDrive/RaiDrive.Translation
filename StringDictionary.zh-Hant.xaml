@@ -119,7 +119,7 @@
 	<system:String x:Key="Message.ErrorInternet">無法連接到遠端存放. 請檢查您的網路連線並再試一次.</system:String>
 	<system:String x:Key="Message.ErrorDiskLetterExist">您必須變更磁碟機代號或磁碟機名稱.</system:String>
 
-	<system:String x:Key="Message.OAuth.InvalidClient">Active Directory 提供的非受控網域/system:String>
+	<system:String x:Key="Message.OAuth.InvalidClient">Active Directory 提供的非受控網域</system:String>
 	<system:String x:Key="Message.OAuth.InvalidClientDescription">您的帳號不受 Active Directory 管理. 您應該聯絡 Active Directory 或網域管理員或以個人帳號登入.</system:String>
 
 	<!--  ConnectResponse Message  -->
