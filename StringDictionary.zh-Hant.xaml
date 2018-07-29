@@ -70,12 +70,12 @@
 	<system:String x:Key="Button.OK">確定</system:String>
 	<system:String x:Key="Button.Apply">套用</system:String>
 	<system:String x:Key="Button.Cancel">取消</system:String>
-	<system:String x:Key="Button.Check">選取</system:String>
+	<system:String x:Key="Button.Check">檢查</system:String>
 	<system:String x:Key="Button.Edit">編輯</system:String>
 	<system:String x:Key="Button.Retry">重試</system:String>
 	<system:String x:Key="Button.ReAuth">登錄</system:String>
 	<system:String x:Key="Button.Login">登入</system:String>
-	<system:String x:Key="Button.SIGNIN">SIGIN-IN</system:String>
+	<system:String x:Key="Button.SIGNIN">登錄</system:String>
 
 	<system:String x:Key="ToolTip.Connect">連線</system:String>
 	<system:String x:Key="ToolTip.Disconnect">中斷連線</system:String>
@@ -93,33 +93,33 @@
 	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive 不支援磁碟機自行連線.</system:String>
 	<system:String x:Key="Message.Exist">此資料夾已包含在內.</system:String>
 	<system:String x:Key="Message.SelectedPath">選取的路徑</system:String>
-	<system:String x:Key="Message.DuplicatedPath">重複路徑</system:String>
+	<system:String x:Key="Message.DuplicatedPath">重複的路徑</system:String>
 
 	<system:String x:Key="Message.SureDelete">您確定要永久刪除 &quot;{0} ({1})&quot; 嗎?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">重啟 RaiDrive</system:String>
 	<system:String x:Key="Message.Title.Reconnect">RaiDrive 重新連線</system:String>
 	<system:String x:Key="Message.ServiceDown">請按 [確定] 按鈕, RaiDrive 會重新運作.</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">請按 [確定] 按鈕, 您必須重新連線遠端存放以便使變更的設定生效.</system:String>
+	<system:String x:Key="Message.Settings.Reconnect">請按 [確定] 按鈕, 您必須重新連線遠端儲存空間以便使變更的設定生效.</system:String>
 	<system:String x:Key="Message.NotReady.Reboot">RaiDrive 尚未準備好啟動, 您需要重新啟動系統.</system:String>
-	<system:String x:Key="Message.NotReady.Driver">系統上未安裝裝置驅動程式. 您需要重新安裝 RaiDrive.</system:String>
-	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox 支援 Internet Explorer 10,11. 您最好安裝 Internet Explorer 11.</system:String>
+	<system:String x:Key="Message.NotReady.Driver">系統內未安裝裝置驅動程式. 您需要重新安裝 RaiDrive.</system:String>
+	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox 支援 Internet Explorer 10, 11. 您最好安裝 Internet Explorer 11.</system:String>
 	<system:String x:Key="Message.Connect.By">已由 RaiDrive 連線</system:String>
 	<system:String x:Key="Message.Maximum.Drive">可在目前版本中建立多達 8 個磁碟機</system:String>
 	<system:String x:Key="Message.License.Expired">您的授權已過期. 您需要下載新版本. 按 [確定] 進行升級.</system:String>
 	<system:String x:Key="Message.License.NotReady">RaiDrive 無法驗證您的授權.</system:String>
-	<system:String x:Key="Message.UnknownSpace">未知空間</system:String>
+	<system:String x:Key="Message.UnknownSpace">未知的空間</system:String>
 	<system:String x:Key="Message.CurrentVersion">目前版本是 {0}</system:String>
 	<system:String x:Key="Message.Cache.Folder.NotSupport">暫存資料夾必須是本機磁碟機上的資料夾. 不支援網路磁碟機.</system:String>
 
 	<system:String x:Key="Message.ErrorRemoteDriveAuth">授權或身份驗證失敗. 是否要重新驗證?</system:String>
 	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">授權或身份驗證失敗. 是否要重新驗證? (如果仍然失敗, 請刪除該磁碟機並重新建立它.)</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveLimit">已超出下載配額. 下載限制是 {0} 的原則限制.</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">遠端存放的連接方法已變更. 您需要再次登入.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveLimit">已超出下載配額. 下載限制是受 {0} 的原則限制.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveRemake">遠端儲存空間的連線方式已變更. 您需要再次登入.</system:String>
 	<system:String x:Key="Message.ErrorCacheDiskFull">快取儲存空間不夠. 您最好增加儲存空間.</system:String>
-	<system:String x:Key="Message.ErrorInternet">無法連接到遠端存放. 請檢查您的網路連線並再試一次.</system:String>
+	<system:String x:Key="Message.ErrorInternet">無法連接到遠端儲存空間. 請檢查您的網路連線並再試一次.</system:String>
 	<system:String x:Key="Message.ErrorDiskLetterExist">您必須變更磁碟機代號或磁碟機名稱.</system:String>
 
-	<system:String x:Key="Message.OAuth.InvalidClient">Active Directory 提供的非受控網域</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClient">Active Directory 下提供的非受控網域</system:String>
 	<system:String x:Key="Message.OAuth.InvalidClientDescription">您的帳號不受 Active Directory 管理. 您應該聯絡 Active Directory 或網域管理員或以個人帳號登入.</system:String>
 
 	<!--  ConnectResponse Message  -->
@@ -134,7 +134,7 @@
 	<system:String x:Key="SocketError.TimedOut">請檢查位址.</system:String>
 	<system:String x:Key="SocketError.ConnectionRefused">請檢查連接埠{0}.</system:String>
 
-	<system:String x:Key="OtherResponseCode.2">找不到路徑。檢查路徑{0}.</system:String>
+	<system:String x:Key="OtherResponseCode.2">找不到路徑. 檢查路徑{0}.</system:String>
 	<system:String x:Key="OtherResponseCode.3">請仔細檢查協定{0}和連接埠{1}.</system:String>
 	<!--  ConnectResponse Message  -->
 
@@ -159,7 +159,7 @@
 	<system:String x:Key="Help.ServiceDown.Press">請按按鈕, RaiDrive 將重新運作.</system:String>
 	<system:String x:Key="Help.InternetDown">您的網路連線似乎已中斷. 請檢查您的網路連線.</system:String>
 	<system:String x:Key="Help.InternetDown.RetryAfter">在 {0} 秒後再試一次.</system:String>
-	<system:String x:Key="Help.License.ForBusiness">對於商業版</system:String>
+	<system:String x:Key="Help.License.ForBusiness">適用於商業版本</system:String>
 
 	<system:String x:Key="Upgrade">升級</system:String>
 	<system:String x:Key="Upgrade.Uptodate">您正在使用最新版本</system:String>
@@ -179,7 +179,7 @@
 	<system:String x:Key="Brand.Box_com">Box</system:String>
 	<system:String x:Key="Brand.ipTIME">ipTIME</system:String>
 	<system:String x:Key="Brand.WD">WD</system:String>
-	<system:String x:Key="Brand.etc">etc</system:String>
+	<system:String x:Key="Brand.etc">其他</system:String>
 
 	<!--  backup  -->
 	<system:String x:Key="Backup">備份</system:String>
@@ -202,7 +202,7 @@
 	<system:String x:Key="Backup.LogTab.Left">左側</system:String>
 	<system:String x:Key="Backup.LogTab.File">檔案</system:String>
 	<system:String x:Key="Backup.LogTab.Folder">資料夾</system:String>
-	<system:String x:Key="Backup.LogTab.FollowLatest">關注最新 (Follow Latest)</system:String>
+	<system:String x:Key="Backup.LogTab.FollowLatest">最新消息 (Follow Latest)</system:String>
 	<system:String x:Key="Backup.Count.Left">左側</system:String>
 	<system:String x:Key="Backup.Count.Processed">已處理</system:String>
 
