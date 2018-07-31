@@ -1,6 +1,6 @@
 ## RaiDrive Translation Project
 
-Some of language source file is initialized, but not be translated completely yet, except English and Korean.
+Some of language source files are initialized, but not be translated completely yet, except English and Korean.
 
 File name | Language
 ----------|---------
