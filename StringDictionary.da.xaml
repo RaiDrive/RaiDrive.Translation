@@ -13,6 +13,7 @@
 	<system:String x:Key="Settings.TemporaryPath">Midlertidig</system:String>
 	<system:String x:Key="Settings.Default">Standard</system:String>
 	<system:String x:Key="Settings.License">Licens</system:String>
+	<system:String x:Key="Settings.Proxy">Proxy</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">Kør program automatisk når Windows starter</system:String>
 	<system:String x:Key="Settings.General.RunAtConnect">Kør fil-explorer når et drev er forbundet</system:String>

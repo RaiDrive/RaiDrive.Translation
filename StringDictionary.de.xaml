@@ -13,6 +13,7 @@
 	<system:String x:Key="Settings.TemporaryPath">Temp Pfad</system:String>
 	<system:String x:Key="Settings.Default">Standard</system:String>
 	<system:String x:Key="Settings.License">Lizenz</system:String>
+	<system:String x:Key="Settings.Proxy">Proxy</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">Programm zusammen mit Windows starten</system:String>
 	<system:String x:Key="Settings.General.RunAtConnect">Starte Explorer bei Verbindung mit einem Laufwerk</system:String>

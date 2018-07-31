@@ -13,6 +13,7 @@
 	<system:String x:Key="Settings.TemporaryPath">Cache</system:String>
 	<system:String x:Key="Settings.Default">Domyślny</system:String>
 	<system:String x:Key="Settings.License">Licencja</system:String>
+	<system:String x:Key="Settings.Proxy">Proxy</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">Uruchom program wraz ze startem systemu</system:String>
 	<system:String x:Key="Settings.General.RunAtConnect">Otwórz folder dyskowy po jego poprawnym połączeniu</system:String>
