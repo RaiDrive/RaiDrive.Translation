@@ -13,6 +13,7 @@
 	<system:String x:Key="Settings.TemporaryPath">المسار المؤقت</system:String>
 	<system:String x:Key="Settings.Default">افتراضي</system:String>
 	<system:String x:Key="Settings.License">الترخيص</system:String>
+	<system:String x:Key="Settings.Proxy">مخدم بروكسي</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">تشغيل البرنامج مع بدء تشغيل الجهاز</system:String>
 	<system:String x:Key="Settings.General.RunAtConnect"> فتح مستكشف الملفات عند تفعيل محرك الأقراص</system:String>
@@ -171,7 +172,7 @@
 	<system:String x:Key="NotifyIcon.Exit">خروج</system:String>
 	<system:String x:Key="NotifyIcon.Exit.Message">قطع كل الاتصالات قبل الخروج؟</system:String>
 
-	<system:String x:Key="State.Space.Format">{0} {1} حرة من {2}</system:String>
+	<system:String x:Key="State.Space.Format">{0} free of {1} {2}</system:String>
 	<system:String x:Key="State.Space.Used">المستخدم</system:String>
 
 	<system:String x:Key="Brand.Synology">Synology</system:String>
