@@ -13,6 +13,7 @@
 	<system:String x:Key="Settings.TemporaryPath">Temporary</system:String>
 	<system:String x:Key="Settings.Default">Default</system:String>
 	<system:String x:Key="Settings.License">License</system:String>
+	<system:String x:Key="Settings.Proxy">Proxy</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">Run a program automatically when Windows starts</system:String>
 	<system:String x:Key="Settings.General.RunAtConnect">Run File Explorer when a drive has connected</system:String>
