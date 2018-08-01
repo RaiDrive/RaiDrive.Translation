@@ -13,7 +13,7 @@
 	<system:String x:Key="Settings.TemporaryPath">المسار المؤقت</system:String>
 	<system:String x:Key="Settings.Default">افتراضي</system:String>
 	<system:String x:Key="Settings.License">الترخيص</system:String>
-	<system:String x:Key="Settings.Proxy">مخدم بروكسي</system:String>
+	<system:String x:Key="Settings.Proxy">الوكيل</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">تشغيل البرنامج مع بدء تشغيل الجهاز</system:String>
 	<system:String x:Key="Settings.General.RunAtConnect"> فتح مستكشف الملفات عند تفعيل محرك الأقراص</system:String>
