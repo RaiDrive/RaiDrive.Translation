@@ -13,7 +13,7 @@
 	<system:String x:Key="Settings.TemporaryPath">暫存</system:String>
 	<system:String x:Key="Settings.Default">預設</system:String>
 	<system:String x:Key="Settings.License">授權</system:String>
-	<system:String x:Key="Settings.Proxy">代理伺服器</system:String>
+	<system:String x:Key="Settings.Proxy">Proxy</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">在 Windows 啟動時自動執行程式</system:String>
 	<system:String x:Key="Settings.General.RunAtConnect">在磁碟機連線後啟動檔案總管</system:String>
