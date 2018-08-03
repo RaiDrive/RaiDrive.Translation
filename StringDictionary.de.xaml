@@ -106,7 +106,7 @@
 	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox unterstützt Explorer 10, 11. Bitte installieren Sie Internet Explorer 11.</system:String>
 	<system:String x:Key="Message.Connect.By">Verbunden durch RaiDrive</system:String>
 	<system:String x:Key="Message.Maximum.Drive">In der aktuellen Version können 8 Services verbunden werden</system:String>
-	<system:String x:Key="Message.License.Expired">Ihre Lizenz ist abgelaufen. Bitte installieren Sie die neueste Version. Drücken sie OK zum aktualisieren.</system:String>
+	<system:String x:Key="Message.License.Expired">Ihre Lizenz ist abgelaufen. Bitte installieren Sie die neueste version. Drücken sie OK zum aktualisieren.</system:String>
 	<system:String x:Key="Message.License.NotReady">RaiDrive kann Ihre Lizenz nicht überprüfen.</system:String>
 	<system:String x:Key="Message.UnknownSpace">Unbekannt</system:String>
 	<system:String x:Key="Message.CurrentVersion">Aktuelle Version: {0}</system:String>
