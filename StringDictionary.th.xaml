@@ -1,0 +1,212 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:RaiDrive.Center.Languages" xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+	<!--  Menu bar>Settings, General  -->
+	<system:String x:Key="Current.Language">th</system:String>
+
+	<system:String x:Key="Settings">ตั้งค่า</system:String>
+	<system:String x:Key="Settings.Header">การตั้งค่า</system:String>
+	<system:String x:Key="Settings.General">ทั่วไป</system:String>
+	<system:String x:Key="Settings.Language">ภาษา</system:String>
+	<system:String x:Key="Settings.Update">อัปเดท</system:String>
+	<system:String x:Key="Settings.Facebook">Facebook</system:String>
+	<system:String x:Key="Settings.Facebook.Like">ชอบ</system:String>
+	<system:String x:Key="Settings.TemporaryPath">ชั่วคราว</system:String>
+	<system:String x:Key="Settings.Default">ค่าเริ่มต้น</system:String>
+	<system:String x:Key="Settings.License">ใบอนุญาต</system:String>
+	<system:String x:Key="Settings.Proxy">พร็อกซี่</system:String>
+
+	<system:String x:Key="Settings.General.RunAtBoot">เริ่มโปรแกรมพร้อมกับวินโดวส์</system:String>
+	<system:String x:Key="Settings.General.RunAtConnect">เริ่ม File Explorer เมื่อไดร์ฟถูกเชื่อมต่อ</system:String>
+
+	<system:String x:Key="Notice">แจ้งเตือน</system:String>
+	<system:String x:Key="AddDrive">เพิ่ม</system:String>
+	<system:String x:Key="AddDrive.Header">ไดร์ฟใหม่</system:String>
+	<system:String x:Key="AddDrive.Storage">พื้นที่จัดเก็บ</system:String>
+
+	<!--  Drive  -->
+	<system:String x:Key="AddDrive.Drive">ไดร์ฟ</system:String>
+
+	<!--  Add New Storage  -->
+	<system:String x:Key="AddDrive.Network">เครือข่าย</system:String>
+	<system:String x:Key="AddDrive.ReadOnly">อ่านอย่างเดียว</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">เชื่อมต่อใหม่เทื่อเข้าสู่ระบบ</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">เชื่อมต่อโดยใช้ใบรับรองที่ต่างกัน</system:String>
+	<system:String x:Key="AddDrive.Account">บัญชี</system:String>
+	<system:String x:Key="AddDrive.Username">ชื่อผู้ใช้</system:String>
+	<system:String x:Key="AddDrive.Password">รหัสผ่าน</system:String>
+	<system:String x:Key="AddDrive.Anonymous">ไม่ระบุตัวตน</system:String>
+	<system:String x:Key="AddDrive.Address">ที่อยู่</system:String>
+	<system:String x:Key="AddDrive.Port">พอร์ต</system:String>
+	<system:String x:Key="AddDrive.Device">อุปกรณ์</system:String>
+	<system:String x:Key="AddDrive.PrivateKey">คีย์ส่วยตัว</system:String>
+	<system:String x:Key="AddDrive.Charset">อักษร</system:String>
+	<system:String x:Key="AddDrive.TransferMode">โหมดถ่ายโอน</system:String>
+	<system:String x:Key="AddDrive.Encryption">การเข้ารหัส</system:String>
+
+	<system:String x:Key="Vailidation.Volume">โปรดกรอกชื่อไดร์ฟที่ถูกต้อง</system:String>
+	<system:String x:Key="Vailidation.VolumeExist">มีชื่อนี้อยู่แล้ว</system:String>
+	<system:String x:Key="Vailidation.VolumeInvalidChar">ชื่อไดร์ฟต้องไม่ประกอบด้วยตัวอักษรต่อไปนี้ : </system:String>
+	<system:String x:Key="Vailidation.VolumeInvalidStr">ห้ามใช้คำสงวนต่อไปนี้ : </system:String>
+	<system:String x:Key="Vailidation.Letter">โปรดเลือกอักษรระบุไดร์ฟที่ยังไม่เลือก</system:String>
+	<system:String x:Key="Vailidation.Address">โปรดกรอกชื่อโฮสต์หรือที่อยู่ไอพี</system:String>
+	<system:String x:Key="Vailidation.Address.WebDAV">โปรดกรอกลิ้งก์</system:String>
+	<system:String x:Key="Vailidation.Address.LocalDrive">โปรดเลือกโฟลเดอร์บนพีซีของคุณ</system:String>
+	<system:String x:Key="Vailidation.Port">โปรดกรอกหมายเลขพอร์ต (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Username">โปรดกรอกชื่อผู้ใช้</system:String>
+	<system:String x:Key="Vailidation.Password">โปรดกรอกรหัสผ่าน</system:String>
+
+	<!--  Menu bar>Settings, account, volume  -->
+	<system:String x:Key="Vailidation.Hint.Volume">ชื่อไดร์ฟ</system:String>
+	<system:String x:Key="Vailidation.Hint.Address">host.example.com</system:String>
+	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">โฟลเดอร์</system:String>
+	<system:String x:Key="Vailidation.Hint.Username">ชื่อผู้ใช้</system:String>
+	<system:String x:Key="Vailidation.Hint.Password">รหัสผ่าน</system:String>
+	<system:String x:Key="Vailidation.Hint.Port">พอร์ต</system:String>
+	<system:String x:Key="Vailidation.Hint.Path">ที่ตั้ง</system:String>
+	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
+	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">คุณอาจต้องเลือกไฟล์คีย์ส่วนตัว</system:String>
+
+	<system:String x:Key="Button.Yes">ใช่</system:String>
+	<system:String x:Key="Button.No">ไม่</system:String>
+	<system:String x:Key="Button.OK">ตกลง</system:String>
+	<system:String x:Key="Button.Apply">ใช้งาน</system:String>
+	<system:String x:Key="Button.Cancel">ยกเลิก</system:String>
+	<system:String x:Key="Button.Check">ตรวจสอบ</system:String>
+	<system:String x:Key="Button.Edit">แก้ไข</system:String>
+	<system:String x:Key="Button.Retry">ลองใหม่</system:String>
+	<system:String x:Key="Button.ReAuth">เข้าสู่ระบบ</system:String>
+	<system:String x:Key="Button.Login">เข้าสู่ระบบ</system:String>
+	<system:String x:Key="Button.SIGNIN">เข้าสู่ระบบ</system:String>
+
+	<system:String x:Key="ToolTip.Connect">เชื่อมต่อ</system:String>
+	<system:String x:Key="ToolTip.Disconnect">ตัดการเชื่อมต่อ</system:String>
+	<system:String x:Key="ToolTip.Edit">แก้ไข</system:String>
+	<system:String x:Key="ToolTip.Remove">นำออก</system:String>
+	<system:String x:Key="ToolTip.NetworkDrive">ไดร์ฟเครือข่าย</system:String>
+	<system:String x:Key="ToolTip.SecureProtocol">โปรโตคอลปลอดภัย</system:String>
+	<system:String x:Key="ToolTip.SecureConnection">การเชื่อมต่อปลอดภัย</system:String>
+	<system:String x:Key="ToolTip.Backup">สำรอง</system:String>
+
+	<system:String x:Key="Message.Title.SelectFolder">เลือกโฟลเดอร์</system:String>
+	<system:String x:Key="Message.Title.DeleteDrive">ลบไดร์ฟ</system:String>
+
+	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive ไม่รองรับไดร์ฟเครือข่าย</system:String>
+	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive ไม่รองรับไดร์ฟที่เชื่อมต่อด้วยตัวเอง</system:String>
+	<system:String x:Key="Message.Exist">มีโฟลเดอร์นี้อยู่แล้ว</system:String>
+	<system:String x:Key="Message.SelectedPath">เลือกที่ตั้ง</system:String>
+	<system:String x:Key="Message.DuplicatedPath">ที่ตั้งซ้ำ</system:String>
+
+	<system:String x:Key="Message.SureDelete">คุณต้องการที่จะลบ &quot;{0} ({1})&quot; ทันทีหรือไม่?</system:String>
+	<system:String x:Key="Message.Title.ServiceDown">ฟื้นฟู RaiDrive</system:String>
+	<system:String x:Key="Message.Title.Reconnect">เชื่อมต่อ RaiDrive ใหม่</system:String>
+	<system:String x:Key="Message.ServiceDown">โปรดกดปุ่มตกลงเพื่อฟื้น RaiDrive</system:String>
+	<system:String x:Key="Message.Settings.Reconnect">โปรดกดปุ่มตกลง คุณจำเป็นต้องเชื่อมต่อพื้นที่จัดเก็บระยะไกลใหม่ใช้ใช้การตั้งค่านี้</system:String>
+	<system:String x:Key="Message.NotReady.Reboot">RaiDrive ไม่พร้อมทำงาน คุณจำเป็นต้องเริ่มระบบใหม่ก่อน</system:String>
+	<system:String x:Key="Message.NotReady.Driver">ไดร์เวอร์อุปกรณ์ไม่ได้ถูกติดตั้งบนระบบของคุณ คุณจำเป็นต้องติดตั้ง RaiDrive ใหม่อีกครั้ง</system:String>
+	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox รองรับ Internet Explorer 10, 11  จะดีกว่าถ้าติดตั้ง Internet Explorer 11</system:String>
+	<system:String x:Key="Message.Connect.By">เชื่อมต่อโดย RaiDrive</system:String>
+	<system:String x:Key="Message.Maximum.Drive">เวอร์ชั่นนี้สามารถสร้างได้สูงสุด 8 ไดร์ฟ</system:String>
+	<system:String x:Key="Message.License.Expired">ใบอนุญาตของคุณหมดอายุแล้ว คุณจำเป็นต้องดาวน์โหลดเวอร์ชั่นใหม่ โปรดกดตกลงเพื่ออัปเดท</system:String>
+	<system:String x:Key="Message.License.NotReady">RaiDrive ไม่สามารถตรวจสอบใบอนุญาตของคุณได้</system:String>
+	<system:String x:Key="Message.UnknownSpace">ไม่รู้พื้นที่</system:String>
+	<system:String x:Key="Message.CurrentVersion">เวอร์ชั่นปัจจุบันคือ {0}</system:String>
+	<system:String x:Key="Message.Cache.Folder.NotSupport">โฟลเดอร์ชั่วคราวต้องอยู่ที่ดิสก์ในเครื่อง ไม่รองรับไดร์ฟบนเครือข่าย</system:String>
+
+	<system:String x:Key="Message.ErrorRemoteDriveAuth">การตรวจสอบสิทธิ์ล้มเหลว คุณต้องการตรวจสอบใหม่อีกครั้งหรือไม่?</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">การตรวจสอบสิทธิ์ล้มเหลว คุณต้องการตรวจสอบใหม่อีกครั้งหรือไม่? (หากยังล้มเหลวอยู่ ให้ลบแล้วสร้างไดร์ฟใหม่)</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveLimit">เกินโควตาการดาวน์โหลดแล้ว ขีดจำกัดการดาวน์โหลดเป็นไปตามนโยบายของ {0}</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveRemake">มีการเปลี่ยนแปลงการเชื่อมต่อไปยังพื้นที่จัดเก็บระยะไกล คุณจำเป็นต้องเข้าสู่ระบบใหม่อีกครั้ง</system:String>
+	<system:String x:Key="Message.ErrorCacheDiskFull">พื้นที่จัดเก็บแคชไม่เพียงพอ คุณต้องเพิ่มพื้นที่จัดเก็บให้มากขึ้น</system:String>
+	<system:String x:Key="Message.ErrorInternet">ไม่สามารถเชื่อมต่อกับพื้นที่จัดเก็บระยะไกลได้ โปรดตรวจสอบการเชื่อมต่อแล้วลองใหม่อีกครั้ง</system:String>
+	<system:String x:Key="Message.ErrorDiskLetterExist">คุณต้องเปลี่ยนอักษรไดร์ฟหรือชื่อไดร์ฟ</system:String>
+
+	<system:String x:Key="Message.OAuth.InvalidClient">โดเมนไม่ถูกจัดการโดย Active Directory</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClientDescription">บัญชีของคุณไม่ถูกจัดการโดย Active Directory คุณควรติดต่อ Active Directory หรือผู้ดูแลโดเมน หรือผู้ที่เข้าสู่ระบบด้วยบัญชีส่วนตัว</system:String>
+
+	<!--  ConnectResponse Message  -->
+	<system:String x:Key="WebExceptionStatus.ConnectFailure">โปรดตรวจสอบที่อยู่</system:String>
+	<system:String x:Key="WebExceptionStatus.ConnectionClosed">โปรดติ๊กโปรโตคอล {0} และพอร์ต {1}</system:String>
+	<system:String x:Key="WebExceptionStatus.SendFailure">โปรดติ๊กโปรโตคอล {0} และพอร์ต {1}</system:String>
+	<system:String x:Key="WebExceptionStatus.ReceiveFailure">">โปรดติ๊กโปรโตคอล {0} และพอร์ต {1}</system:String>
+
+	<system:String x:Key="HttpStatusCode.MethodNotAllowed">โปรดตรวจสอบหากที่ตั้ง {0} ไม่มีอยู่หรือไม่สามารถเข้าถึงได้</system:String>
+	<system:String x:Key="HttpStatusCode.Unauthorized">การรับรองล้มเหลว โปรดตรวจสอบบัญชีของคุณ (รหัสผ่าน)</system:String>
+
+	<system:String x:Key="SocketError.TimedOut">โปรดตรวจสอบที่อยู่</system:String>
+	<system:String x:Key="SocketError.ConnectionRefused">โปรดติ๊กพอร์ต {0}</system:String>
+
+	<system:String x:Key="OtherResponseCode.2">ไม่พบที่ตั้ง โปรดตรวจสอบที่ตั้ง {0}</system:String>
+	<system:String x:Key="OtherResponseCode.3">โปรดติ๊กโปรโตคอล {0} และพอร์ต {1}</system:String>
+	<!--  ConnectResponse Message  -->
+
+	<system:String x:Key="Words.Reason">เหตุผล</system:String>
+	<system:String x:Key="Words.Delegation.Stop">การมอบหมายถูกยกเลิก</system:String>
+	<system:String x:Key="Words.Drive">ไดร์ฟ</system:String>
+	<system:String x:Key="Words.FreeSpace">ที่ว่าง</system:String>
+	<system:String x:Key="Words.Send.Opinion">ส่งความคิดเห็น</system:String>
+	<system:String x:Key="Words.Code">โค้ด</system:String>
+	<system:String x:Key="Words.Path">ที่ตั้ง</system:String>
+	<system:String x:Key="Words.File">ไฟล์</system:String>
+	<system:String x:Key="Words.Ready">พร้อม</system:String>
+	<system:String x:Key="Words.Time">เวลา</system:String>
+	<system:String x:Key="Words.Error">ผิดพลาด</system:String>
+	<system:String x:Key="Words.State">สถานะ</system:String>
+	<system:String x:Key="Words.Size">ขนาด</system:String>
+	<system:String x:Key="Words.Description">คำอธิบาย</system:String>
+
+	<system:String x:Key="Help.Text">ช่วยเหลือ</system:String>
+	<system:String x:Key="Help.Add.Drive">ไปกันเลย~</system:String>
+	<system:String x:Key="Help.ServiceDown">บริการ RaiDrive ถูกหยุด</system:String>
+	<system:String x:Key="Help.ServiceDown.Press">โปรดกดปุ่มตกลงเพื่อฟื้น RaiDrive</system:String>
+	<system:String x:Key="Help.InternetDown">การเชื่อมต่ออินเทอร์เน็ตถูกตัดการเชื่อมต่อ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ</system:String>
+	<system:String x:Key="Help.InternetDown.RetryAfter">ลองใหม่หลัง {0} วินาที</system:String>
+	<system:String x:Key="Help.License.ForBusiness">สำหรับเวอร์ชั่นธุรกิจ</system:String>
+
+	<system:String x:Key="Upgrade">อัปเดท</system:String>
+	<system:String x:Key="Upgrade.Uptodate">เวอร์ชั่นที่ใช้อยู่เป็นเวอร์ชั่นล่าสุด</system:String>
+	<system:String x:Key="Upgrade.NewVersion">คุณสามารถอัปเดทเป็นเวอร์ชั่น {0}</system:String>
+	<system:String x:Key="Upgrade.New">คุณสามารถอัปเดทเป็นเวอร์ชั่นใหม่</system:String>
+
+	<system:String x:Key="NotifyIcon.Open">เปิด RaiDrive</system:String>
+	<system:String x:Key="NotifyIcon.CheckUpdate">ตรวจสอบการอัปเดท</system:String>
+	<system:String x:Key="NotifyIcon.Exit">ออก</system:String>
+	<system:String x:Key="NotifyIcon.Exit.Message">คุณต้องการตัดการเชื่อมต่อทั้งหมดก่อนจะออกหรือไม่?</system:String>
+
+	<system:String x:Key="State.Space.Format">{0} ว่างจาก {1} {2}</system:String>
+	<system:String x:Key="State.Space.Used">ใช้ไป</system:String>
+
+	<system:String x:Key="Brand.Synology">Synology</system:String>
+	<system:String x:Key="Brand.QNAP">QNAP</system:String>
+	<system:String x:Key="Brand.Box_com">Box</system:String>
+	<system:String x:Key="Brand.ipTIME">ipTIME</system:String>
+	<system:String x:Key="Brand.WD">WD</system:String>
+	<system:String x:Key="Brand.etc">etc</system:String>
+
+	<!--  backup  -->
+	<system:String x:Key="Backup">สำรอง</system:String>
+	<system:String x:Key="Backup.Add">เพิ่ม</system:String>
+	<system:String x:Key="Backup.Delete">ลบ</system:String>
+	<system:String x:Key="Backup.Start">เริ่ม</system:String>
+	<system:String x:Key="Backup.Stop">หยุด</system:String>
+	<system:String x:Key="Backup.BackupNOW">สำรองตอนนี้</system:String>
+	<system:String x:Key="Backup.NOW">ตอนนี้</system:String>
+	<system:String x:Key="Backup.Save">จัดเก็บ</system:String>
+	<system:String x:Key="Backup.ClearLog">ล้างบันทึก</system:String>
+	<system:String x:Key="Backup.DestRootFolder">โฟลเดอร์ระยะไกล</system:String>
+	<system:String x:Key="Backup.SourceFolders">โฟลเดอร์ต้นทาง</system:String>
+	<system:String x:Key="Backup.Progress">กระบวนการ</system:String>
+	<system:String x:Key="Backup.AutoStart">เริ่มอัตโนมัติ</system:String>
+	<system:String x:Key="Backup.LogTab.Current">ปัจจุบัน</system:String>
+	<system:String x:Key="Backup.LogTab.All">ทั้งหมด</system:String>
+	<system:String x:Key="Backup.LogTab.Error">ผิดพลาด</system:String>
+	<system:String x:Key="Backup.LogTab.Ready">พร้อม</system:String>
+	<system:String x:Key="Backup.LogTab.Left">เหลือ</system:String>
+	<system:String x:Key="Backup.LogTab.File">ไฟล์</system:String>
+	<system:String x:Key="Backup.LogTab.Folder">โฟลเดอร์</system:String>
+	<system:String x:Key="Backup.LogTab.FollowLatest">Follow Latest</system:String>
+	<system:String x:Key="Backup.Count.Left">เหลือ</system:String>
+	<system:String x:Key="Backup.Count.Processed">ดำเนินการแล้ว</system:String>
+
+	<system:String x:Key="Message.Backup.BackupTargetFolder">เลือกไฟล์จากโฟลเดอร์ระยะไกลที่คุณต้องการเก็บไว้</system:String>
+
+</ResourceDictionary>
