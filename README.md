@@ -17,6 +17,7 @@ StringDictionary.ko.xaml | Korean
 StringDictionary.pl.xaml | Polish
 StringDictionary.pt-PT.xaml | Portuguese
 StringDictionary.pt-BR.xaml | Brazilian Portuguese
+StringDictionary.th.xaml | Thai
 StringDictionary.zh-Hans.xaml | Chinese (Simplified)
 StringDictionary.zh-Hant.xaml | Chinese (Traditional)
 
