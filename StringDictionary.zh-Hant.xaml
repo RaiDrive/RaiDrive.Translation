@@ -108,7 +108,7 @@
 	<system:String x:Key="Message.Maximum.Drive">可在目前版本中建立多達 8 個磁碟機</system:String>
 	<system:String x:Key="Message.License.Expired">您的授權已過期. 您需要下載新版本. 按 [確定] 進行升級.</system:String>
 	<system:String x:Key="Message.License.NotReady">RaiDrive 無法驗證您的授權.</system:String>
-	<system:String x:Key="Message.UnknownSpace">未知的空間</system:String>
+	<system:String x:Key="Message.UnknownSpace">未知空間容量</system:String>
 	<system:String x:Key="Message.CurrentVersion">目前版本是 {0}</system:String>
 	<system:String x:Key="Message.Cache.Folder.NotSupport">暫存資料夾必須是本機磁碟機上的資料夾. 不支援網路磁碟機.</system:String>
 
