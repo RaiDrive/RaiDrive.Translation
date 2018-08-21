@@ -5,7 +5,7 @@
 	<!--  ja = 日本語  -->
 	<system:String x:Key="Settings">設定</system:String>
 	<system:String x:Key="Settings.Header">設定</system:String>
-	<system:String x:Key="Settings.General">General</system:String>
+	<system:String x:Key="Settings.General">一般</system:String>
 	<system:String x:Key="Settings.Language">言語</system:String>
 	<system:String x:Key="Settings.Update">アップデート</system:String>
 	<system:String x:Key="Settings.Facebook">Facebook</system:String>
@@ -154,13 +154,13 @@
 	<system:String x:Key="Words.Size">Size</system:String>
 	<system:String x:Key="Words.Description">説明</system:String>
 
-	<system:String x:Key="Help.Text">HELP</system:String>
+	<system:String x:Key="Help.Text">ヘルプ</system:String>
 	<system:String x:Key="Help.Add.Drive">さぁ、こっちをクリックして始めましょう</system:String>
 	<system:String x:Key="Help.ServiceDown">RaiDrive Serviceが中止されました</system:String>
 	<system:String x:Key="Help.ServiceDown.Press">ボタンをクリックしてください、RaiDriveが再起動します</system:String>
 	<system:String x:Key="Help.InternetDown">インターネット接続が切られています、インターネット接続を確認してください</system:String>
 	<system:String x:Key="Help.InternetDown.RetryAfter"> {0} 秒後に再度確認します</system:String>
-	<system:String x:Key="Help.License.ForBusiness">Business version用</system:String>
+	<system:String x:Key="Help.License.ForBusiness">ビジネスバージョン用</system:String>
 
 	<system:String x:Key="Upgrade">アップデート</system:String>
 	<system:String x:Key="Upgrade.Uptodate">最新バージョンです</system:String>
