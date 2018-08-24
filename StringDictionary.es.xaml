@@ -12,7 +12,7 @@
 	<system:String x:Key="Settings.Facebook.Like">Me Gusta</system:String>
 	<system:String x:Key="Settings.TemporaryPath">Temporal</system:String>
 	<system:String x:Key="Settings.Default">Default</system:String>
-	<system:String x:Key="Settings.License">Licensia</system:String>
+	<system:String x:Key="Settings.License">Licencia</system:String>
 	<system:String x:Key="Settings.Proxy">Proxy</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">Abrir el programa automaticamente cuando Windows inicia</system:String>
@@ -43,7 +43,7 @@
 	<system:String x:Key="AddDrive.TransferMode">Modo de Transferencia</system:String>
 	<system:String x:Key="AddDrive.Encryption">Encripción</system:String>
 
-	<system:String x:Key="Vailidation.Volume">Por favor escriba una etiqueta válida de volumen</system:String>
+	<system:String x:Key="Vailidation.Volume">Por favor escriba una etiqueta de volumen que sea válida </system:String>
 	<system:String x:Key="Vailidation.VolumeExist">Este nombre ya existe</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidChar">Una etiqueta de volumen no puede contener ninguno de los siguientes caracteres</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidStr">No use los siguientes nombres reservados:</system:String>
@@ -63,8 +63,8 @@
 	<system:String x:Key="Vailidation.Hint.Password">Contraseña</system:String>
 	<system:String x:Key="Vailidation.Hint.Port">Puerto</system:String>
 	<system:String x:Key="Vailidation.Hint.Path">Ruta</system:String>
-	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">puedes seleccionar un fichero-llave privado</system:String>
+	<system:String x:Key="Vailidation.Hint.Email">identificación@ejemplo.com</system:String>
+	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">puedes seleccionar un fichero de clave-privada</system:String>
 
 	<system:String x:Key="Button.Yes">Sí</system:String>
 	<system:String x:Key="Button.No">No</system:String>
@@ -174,7 +174,6 @@
 
 	<system:String x:Key="State.Space.Format">{0} libre de {1} {2}</system:String>
 	<system:String x:Key="State.Space.Used">usado</system:String>
-
 	<system:String x:Key="Brand.Synology">Synology</system:String>
 	<system:String x:Key="Brand.QNAP">QNAP</system:String>
 	<system:String x:Key="Brand.Box_com">Box</system:String>
