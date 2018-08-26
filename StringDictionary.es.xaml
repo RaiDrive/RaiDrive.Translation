@@ -52,7 +52,7 @@
 	<system:String x:Key="Vailidation.Address.WebDAV">Por favor escriba una dirección URL</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">Por favor seleccione una carpeta en su PC</system:String>
 	<system:String x:Key="Vailidation.Port">Por favor escriba un numero de puerto (0 ~ 65535)</system:String>
-	<system:String x:Key="Vailidation.Username">Por favor escriba un Nombre de Usuario</system:String>
+	<system:String x:Key="Vailidation.Username">Por favor escriba un nombre de Usuario</system:String>
 	<system:String x:Key="Vailidation.Password">Por favor escriba una Contraseña</system:String>
 
 	<!--  Menu bar>Settings, account, volume  -->
@@ -90,9 +90,9 @@
 	<system:String x:Key="Message.Title.SelectFolder">Seleccionar Carpeta</system:String>
 	<system:String x:Key="Message.Title.DeleteDrive">Eliminar Unidad</system:String>
 
-	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive no soporta una unidad de red.</system:String>
-	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive no soporta que una unidad se conecte por sí misma</system:String>
-	<system:String x:Key="Message.Exist">Esta carpeta ya esta incluída</system:String>
+	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive no admite una unidad de red.</system:String>
+	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive no admite que una unidad se conecte por sí misma</system:String>
+	<system:String x:Key="Message.Exist">Esta carpeta ya esta incluida</system:String>
 	<system:String x:Key="Message.SelectedPath">Ruta seleccionada</system:String>
 	<system:String x:Key="Message.DuplicatedPath">Ruta Duplicada</system:String>
 
