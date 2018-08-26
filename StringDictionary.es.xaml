@@ -3,23 +3,23 @@
 	<!--  Menu bar>Settings, General  -->
 	<system:String x:Key="Current.Language">es</system:String>
 
-	<system:String x:Key="Settings">ConfiguraciÛn</system:String>
-	<system:String x:Key="Settings.Header">ConfiguraciÛn</system:String>
+	<system:String x:Key="Settings">Configuraci√≥n</system:String>
+	<system:String x:Key="Settings.Header">Configuraci√≥n</system:String>
 	<system:String x:Key="Settings.General">General</system:String>
 	<system:String x:Key="Settings.Language">Idioma</system:String>
-	<system:String x:Key="Settings.Update">ActualizaciÛn</system:String>
+	<system:String x:Key="Settings.Update">Actualizaci√≥n</system:String>
 	<system:String x:Key="Settings.Facebook">Facebook</system:String>
 	<system:String x:Key="Settings.Facebook.Like">Me Gusta</system:String>
 	<system:String x:Key="Settings.TemporaryPath">Temporal</system:String>
-	<system:String x:Key="Settings.Default">Default</system:String>
+	<system:String x:Key="Settings.Default">Predeterminado</system:String>
 	<system:String x:Key="Settings.License">Licencia</system:String>
 	<system:String x:Key="Settings.Proxy">Proxy</system:String>
 
-	<system:String x:Key="Settings.General.RunAtBoot">Abrir el programa automaticamente cuando Windows inicia</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">Abrir el Explorador de Archivos cuando una unidad se ha conectado</system:String>
+	<system:String x:Key="Settings.General.RunAtBoot">Abrir el programa autom√°ticamente cuando Windows inicie</system:String>
+	<system:String x:Key="Settings.General.RunAtConnect">Abrir el Explorador de Archivos cuando una unidad se conecte</system:String>
 
 	<system:String x:Key="Notice">Anuncio</system:String>
-	<system:String x:Key="AddDrive">AÒadir</system:String>
+	<system:String x:Key="AddDrive">A√±adir</system:String>
 	<system:String x:Key="AddDrive.Header">Nueva Unidad</system:String>
 	<system:String x:Key="AddDrive.Storage">Almacenamiento</system:String>
 
@@ -29,44 +29,44 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">Red</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">Solo-Lectura</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconectar al iniciar sesiÛn</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Reconectar al iniciar sesi√≥n</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Conectar usando credenciales diferentes</system:String>
 	<system:String x:Key="AddDrive.Account">Cuenta</system:String>
 	<system:String x:Key="AddDrive.Username">Nombre de Usuario</system:String>
-	<system:String x:Key="AddDrive.Password">ContraseÒa</system:String>
-	<system:String x:Key="AddDrive.Anonymous">AnÛnimo</system:String>
-	<system:String x:Key="AddDrive.Address">DirecciÛn</system:String>
+	<system:String x:Key="AddDrive.Password">Contrase√±a</system:String>
+	<system:String x:Key="AddDrive.Anonymous">An√≥nimo</system:String>
+	<system:String x:Key="AddDrive.Address">Direcci√≥n</system:String>
 	<system:String x:Key="AddDrive.Port">Puerto</system:String>
 	<system:String x:Key="AddDrive.Device">Unidad</system:String>
-	<system:String x:Key="AddDrive.PrivateKey">Private Key</system:String>
+	<system:String x:Key="AddDrive.PrivateKey">Clave Privada</system:String>
 	<system:String x:Key="AddDrive.Charset">Charset</system:String>
 	<system:String x:Key="AddDrive.TransferMode">Modo de Transferencia</system:String>
-	<system:String x:Key="AddDrive.Encryption">EncripciÛn</system:String>
+	<system:String x:Key="AddDrive.Encryption">Encripci√≥n</system:String>
 
-	<system:String x:Key="Vailidation.Volume">Por favor escriba una etiqueta de volumen que sea v·lida </system:String>
+	<system:String x:Key="Vailidation.Volume">Por favor escriba una etiqueta de volumen que sea v√°lida </system:String>
 	<system:String x:Key="Vailidation.VolumeExist">Este nombre ya existe</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidChar">Una etiqueta de volumen no puede contener ninguno de los siguientes caracteres</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidStr">No use los siguientes nombres reservados:</system:String>
 	<system:String x:Key="Vailidation.Letter">Por favor seleccione una letra de unidad no haya sido asignada</system:String>
-	<system:String x:Key="Vailidation.Address">Por favor escriba el hostname o direcciÛn IP</system:String>
-	<system:String x:Key="Vailidation.Address.WebDAV">Por favor escriba una direcciÛn URL</system:String>
+	<system:String x:Key="Vailidation.Address">Por favor escriba el hostname o direcci√≥n IP</system:String>
+	<system:String x:Key="Vailidation.Address.WebDAV">Por favor escriba una direcci√≥n URL</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">Por favor seleccione una carpeta en su PC</system:String>
 	<system:String x:Key="Vailidation.Port">Por favor escriba un numero de puerto (0 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">Por favor escriba un Nombre de Usuario</system:String>
-	<system:String x:Key="Vailidation.Password">Por favor escriba una ContraseÒa</system:String>
+	<system:String x:Key="Vailidation.Password">Por favor escriba una Contrase√±a</system:String>
 
 	<!--  Menu bar>Settings, account, volume  -->
 	<system:String x:Key="Vailidation.Hint.Volume">Etiqueta de Volumen</system:String>
 	<system:String x:Key="Vailidation.Hint.Address">host.example.com</system:String>
 	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">Carpeta</system:String>
 	<system:String x:Key="Vailidation.Hint.Username">Nombre de Usuario</system:String>
-	<system:String x:Key="Vailidation.Hint.Password">ContraseÒa</system:String>
+	<system:String x:Key="Vailidation.Hint.Password">Contrase√±a</system:String>
 	<system:String x:Key="Vailidation.Hint.Port">Puerto</system:String>
 	<system:String x:Key="Vailidation.Hint.Path">Ruta</system:String>
-	<system:String x:Key="Vailidation.Hint.Email">identificaciÛn@ejemplo.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">puedes seleccionar un fichero de clave-privada</system:String>
+	<system:String x:Key="Vailidation.Hint.Email">identificaci√≥n@ejemplo.com</system:String>
+	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">inserte fichero de clave-privada</system:String>
 
-	<system:String x:Key="Button.Yes">SÌ</system:String>
+	<system:String x:Key="Button.Yes">S√≠</system:String>
 	<system:String x:Key="Button.No">No</system:String>
 	<system:String x:Key="Button.OK">OK</system:String>
 	<system:String x:Key="Button.Apply">Aplicar</system:String>
@@ -74,7 +74,7 @@
 	<system:String x:Key="Button.Check">Revisar</system:String>
 	<system:String x:Key="Button.Edit">Editar</system:String>
 	<system:String x:Key="Button.Retry">Reintentar</system:String>
-	<system:String x:Key="Button.ReAuth">Abrir sesiÛn</system:String>
+	<system:String x:Key="Button.ReAuth">Abrir sesi√≥n</system:String>
 	<system:String x:Key="Button.Login">Usuario</system:String>
 	<system:String x:Key="Button.SIGNIN">ACCEDER</system:String>
 
@@ -84,88 +84,88 @@
 	<system:String x:Key="ToolTip.Remove">Remover</system:String>
 	<system:String x:Key="ToolTip.NetworkDrive">Unidad de Red</system:String>
 	<system:String x:Key="ToolTip.SecureProtocol">Protocol Seguro</system:String>
-	<system:String x:Key="ToolTip.SecureConnection">ConexiÛn Segura</system:String>
+	<system:String x:Key="ToolTip.SecureConnection">Conexi√≥n Segura</system:String>
 	<system:String x:Key="ToolTip.Backup">Copia de Seguridad</system:String>
 
 	<system:String x:Key="Message.Title.SelectFolder">Seleccionar Carpeta</system:String>
 	<system:String x:Key="Message.Title.DeleteDrive">Eliminar Unidad</system:String>
 
 	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive no soporta una unidad de red.</system:String>
-	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive no soporta que una unidad se conecte por sÌ misma</system:String>
-	<system:String x:Key="Message.Exist">Esta carpeta ya esta incluÌda</system:String>
+	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive no soporta que una unidad se conecte por s√≠ misma</system:String>
+	<system:String x:Key="Message.Exist">Esta carpeta ya esta inclu√≠da</system:String>
 	<system:String x:Key="Message.SelectedPath">Ruta seleccionada</system:String>
 	<system:String x:Key="Message.DuplicatedPath">Ruta Duplicada</system:String>
 
-	<system:String x:Key="Message.SureDelete">Est· seguro que desea permanentemente eliminar &quot;{0} ({1})&quot; ?</system:String>
+	<system:String x:Key="Message.SureDelete">Est√° seguro que desea permanentemente eliminar &quot;{0} ({1})&quot; ?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">Revivir RaiDrive</system:String>
 	<system:String x:Key="Message.Title.Reconnect">Reconectar RaiDrive</system:String>
-	<system:String x:Key="Message.ServiceDown">Por favor presione el botÛn OK, RaiDrive revivir·.</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">Por favor presione el botÛn OK, Ud. Debe reconectar el almacenamiento remoto para que las opciones cambiadas tomen efecto.</system:String>
-	<system:String x:Key="Message.NotReady.Reboot">RaiDrive no est· listo para iniciar, Necesita reiniciar el sistema.</system:String>
-	<system:String x:Key="Message.NotReady.Driver">Los Drivers de su dispositivo no est·n instalados en su sistema. Necesita reistalar RaiDrive.</system:String>
+	<system:String x:Key="Message.ServiceDown">Por favor presione el bot√≥n OK, RaiDrive revivir√°.</system:String>
+	<system:String x:Key="Message.Settings.Reconnect">Por favor presione el bot√≥n OK, Ud. Debe reconectar el almacenamiento remoto para que las opciones cambiadas tomen efecto.</system:String>
+	<system:String x:Key="Message.NotReady.Reboot">RaiDrive no est√° listo para iniciar, Necesita reiniciar el sistema.</system:String>
+	<system:String x:Key="Message.NotReady.Driver">Los Drivers de su dispositivo no est√°n instalados en su sistema. Necesita reistalar RaiDrive.</system:String>
 	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox permite Internet Explorer 10, 11. Recomendamos que instale Internet Explorer 11.</system:String>
 	<system:String x:Key="Message.Connect.By">Conectedo por RaiDrive</system:String>
-	<system:String x:Key="Message.Maximum.Drive">Hasta 8 Unidades pueden ser creadas en la versiÛn actual</system:String>
-	<system:String x:Key="Message.License.Expired">Su licencia ha expirado. Necesita descargar la nueva versiÛn. Presione OK para actualizar.</system:String>
-	<system:String x:Key="Message.License.NotReady">RaiDrive no puede validad su licencia.</system:String>
-	<system:String x:Key="Message.UnknownSpace">Espacio desconocido</system:String>
-	<system:String x:Key="Message.CurrentVersion">La versiÛn actual es {0}</system:String>
+	<system:String x:Key="Message.Maximum.Drive">Solamente 8 Unidades pueden ser creadas en la versi√≥n actual</system:String>
+	<system:String x:Key="Message.License.Expired">Su licencia ha expirado. Necesita descargar la nueva versi√≥n. Presione OK para actualizar.</system:String>
+	<system:String x:Key="Message.License.NotReady">RaiDrive no puede validar su licencia.</system:String>
+	<system:String x:Key="Message.UnknownSpace">Capacidad desconocida</system:String>
+	<system:String x:Key="Message.CurrentVersion">La versi√≥n actual es {0}</system:String>
 	<system:String x:Key="Message.Cache.Folder.NotSupport">La carpeta temporal tiene que estar localizada en una unidad local. Unidad de Red no permitida.</system:String>
 
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">AutorizaciÛn o autenticaciÛn fallida.Le gustarÌa reintentar la autorizaciÛn?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">AutorizaciÛn o autenticaciÛn fallida.Le gustarÌa reintentar la autorizaciÛn? (Si el fallo continua, eliminar la unidad y re-crearla.)</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveLimit">La cuota de descarga ha alcanzado el lÌmite. Las Restricciones de descargas pertenecen a la pÛliza de {0}.</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">El mÈtodo de conexiÛn a la unidad de almacenamiento remoto ha cambiado. Necesita entrar a su sesiÛn nuevamente.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveAuth">Autorizaci√≥n o autenticaci√≥n fallida.Le gustar√≠a reintentar la autorizaci√≥n?</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Autorizaci√≥n o autenticaci√≥n fallida.Le gustar√≠a reintentar la autorizaci√≥n? (Si el fallo continua, eliminar la unidad y re-crearla.)</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveLimit">La cuota de descarga ha alcanzado el l√≠mite. Las Restricciones de descargas pertenecen a la p√≥liza de {0}.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveRemake">El m√©todo de conexi√≥n a la unidad de almacenamiento remoto ha cambiado. Necesita entrar a su sesi√≥n nuevamente.</system:String>
 	<system:String x:Key="Message.ErrorCacheDiskFull">El espacio de cache no es suficiente. Le recomendamos que aumente el espacio de almacenamiento</system:String>
 	<system:String x:Key="Message.ErrorInternet">No ha sido posible conectarse al almacenamiento remoto. Por favor revise su conexion a internet e intentelo de nuevo.</system:String>
 	<system:String x:Key="Message.ErrorDiskLetterExist">Necesita cambiar la letra de la Unidad o el Nombre de la unidad.</system:String>
 
 	<system:String x:Key="Message.OAuth.InvalidClient">Dominio no gestionado por Active Directory</system:String>
-	<system:String x:Key="Message.OAuth.InvalidClientDescription">Su Cuenta no est· siendo gestionada por Active Directory. Contacte Active Directory o Administrador de dominio o entre a la sesiÛn como cuenta personal.</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClientDescription">Su cuenta no est√° siendo gestionada por Active Directory. Contacte Active Directory o Administrador de dominio o entre a la sesi√≥n como cuenta personal.</system:String>
 
 	<!--  ConnectResponse Message  -->
-	<system:String x:Key="WebExceptionStatus.ConnectFailure">Por favor revise la direcciÛn.</system:String>
-	<system:String x:Key="WebExceptionStatus.ConnectionClosed">Por favor aseg˙rese que el protocolo{0} y puerto {1} estÈn correctos.</system:String>
-	<system:String x:Key="WebExceptionStatus.SendFailure">Por favor aseg˙rese que el protocolo {0} y puerto {1} estÈn correctos.</system:String>
-	<system:String x:Key="WebExceptionStatus.ReceiveFailure">Por favor aseg˙rese que el protocolo{0} y puerto {1} estÈn correctos.</system:String>
+	<system:String x:Key="WebExceptionStatus.ConnectFailure">Por favor revise la direcci√≥n.</system:String>
+	<system:String x:Key="WebExceptionStatus.ConnectionClosed">Por favor aseg√∫rese que el protocolo{0} y puerto {1} est√©n correctos.</system:String>
+	<system:String x:Key="WebExceptionStatus.SendFailure">Por favor aseg√∫rese que el protocolo {0} y puerto {1} est√©n correctos.</system:String>
+	<system:String x:Key="WebExceptionStatus.ReceiveFailure">Por favor aseg√∫rese que el protocolo{0} y puerto {1} est√©n correctos.</system:String>
 
 	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Por favor revise si la ruta {0} existe o si se le ha concedido acceso/permisos.</system:String>
-	<system:String x:Key="HttpStatusCode.Unauthorized">AutenticaciÛn fallida. Por favor revise su cuenta (contraseÒa).</system:String>
+	<system:String x:Key="HttpStatusCode.Unauthorized">Autenticaci√≥n fallida. Por favor revise su cuenta (contrase√±a).</system:String>
 
-	<system:String x:Key="SocketError.TimedOut">Por favor revise la direcciÛn</system:String>
+	<system:String x:Key="SocketError.TimedOut">Por favor revise la direcci√≥n</system:String>
 	<system:String x:Key="SocketError.ConnectionRefused">Por favor revise el puerto{0}.</system:String>
 
 	<system:String x:Key="OtherResponseCode.2">Ruta no encontrada. Revise la ruta {0}.</system:String>
-	<system:String x:Key="OtherResponseCode.3">Por favor aseg˙rese que el protocolo{0} y puerto {1} estÈn correctos.</system:String>
+	<system:String x:Key="OtherResponseCode.3">Por favor aseg√∫rese que el protocolo{0} y puerto {1} est√©n correctos.</system:String>
 	<!--  ConnectResponse Message  -->
 
-	<system:String x:Key="Words.Reason">RazÛn</system:String>
-	<system:String x:Key="Words.Delegation.Stop">DelegaciÛn abortada</system:String>
+	<system:String x:Key="Words.Reason">Raz√≥n</system:String>
+	<system:String x:Key="Words.Delegation.Stop">Delegaci√≥n abortada</system:String>
 	<system:String x:Key="Words.Drive">Unidad</system:String>
 	<system:String x:Key="Words.FreeSpace">Liberar Espacio</system:String>
-	<system:String x:Key="Words.Send.Opinion">Enviar opiniÛn</system:String>
-	<system:String x:Key="Words.Code">CÛdigo</system:String>
+	<system:String x:Key="Words.Send.Opinion">Enviar opini√≥n</system:String>
+	<system:String x:Key="Words.Code">C√≥digo</system:String>
 	<system:String x:Key="Words.Path">Ruta</system:String>
 	<system:String x:Key="Words.File">Archivo</system:String>
 	<system:String x:Key="Words.Ready">Listo</system:String>
 	<system:String x:Key="Words.Time">Tiempo</system:String>
 	<system:String x:Key="Words.Error">Error</system:String>
 	<system:String x:Key="Words.State">Estado</system:String>
-	<system:String x:Key="Words.Size">TamaÒo</system:String>
-	<system:String x:Key="Words.Description">DescripciÛn</system:String>
+	<system:String x:Key="Words.Size">Tama√±o</system:String>
+	<system:String x:Key="Words.Description">Descripci√≥n</system:String>
 
 	<system:String x:Key="Help.Text">AYUDA</system:String>
-	<system:String x:Key="Help.Add.Drive">ALL¡ VAMOS!~</system:String>
-	<system:String x:Key="Help.ServiceDown">El servicio de RaiDrive fuÈ detenido.</system:String>
-	<system:String x:Key="Help.ServiceDown.Press">Por favor presione el boton, RaiDrive revivir·.</system:String>
-	<system:String x:Key="Help.InternetDown">Al parecer ha perdido la conexiÛn a internet. Asegurese de estar conectado a internet.</system:String>
+	<system:String x:Key="Help.Add.Drive">ALL√Å VAMOS!~</system:String>
+	<system:String x:Key="Help.ServiceDown">El servicio de RaiDrive fu√© detenido.</system:String>
+	<system:String x:Key="Help.ServiceDown.Press">Por favor presione el boton, RaiDrive revivir√°.</system:String>
+	<system:String x:Key="Help.InternetDown">Al parecer ha perdido la conexi√≥n a internet. Asegurese de estar conectado a internet.</system:String>
 	<system:String x:Key="Help.InternetDown.RetryAfter">Reintentar despues de {0} segundo(s).</system:String>
-	<system:String x:Key="Help.License.ForBusiness">para la versiÛn de negocios</system:String>
+	<system:String x:Key="Help.License.ForBusiness">para la versi√≥n de negocios</system:String>
 
 	<system:String x:Key="Upgrade">Actualizar</system:String>
-	<system:String x:Key="Upgrade.Uptodate">Ya estas usando la versiÛn m·s reciente</system:String>
-	<system:String x:Key="Upgrade.NewVersion">Puede actualizar a la versiÛn {0}</system:String>
-	<system:String x:Key="Upgrade.New">Puede actualizar a la nueva versiÛn</system:String>
+	<system:String x:Key="Upgrade.Uptodate">Ya estas usando la versi√≥n m√°s reciente</system:String>
+	<system:String x:Key="Upgrade.NewVersion">Puede actualizar a la versi√≥n {0}</system:String>
+	<system:String x:Key="Upgrade.New">Puede actualizar a la nueva versi√≥n</system:String>
 
 	<system:String x:Key="NotifyIcon.Open">Abrir RaiDrive</system:String>
 	<system:String x:Key="NotifyIcon.CheckUpdate">Actualizar de ser posible</system:String>
@@ -202,10 +202,10 @@
 	<system:String x:Key="Backup.LogTab.Left">Restante</system:String>
 	<system:String x:Key="Backup.LogTab.File">Archivo</system:String>
 	<system:String x:Key="Backup.LogTab.Folder">Carpeta</system:String>
-	<system:String x:Key="Backup.LogTab.FollowLatest">Seguir ⁄ltimas</system:String>
+	<system:String x:Key="Backup.LogTab.FollowLatest">Seguir √öltimas</system:String>
 	<system:String x:Key="Backup.Count.Left">Restante</system:String>
 	<system:String x:Key="Backup.Count.Processed">Procesado</system:String>
 
-	<system:String x:Key="Message.Backup.BackupTargetFolder">Seleccione un directorio remoto donde los archivos ser·n guardados</system:String>
+	<system:String x:Key="Message.Backup.BackupTargetFolder">Seleccione un directorio remoto donde los archivos ser√°n guardados</system:String>
 
 </ResourceDictionary>
