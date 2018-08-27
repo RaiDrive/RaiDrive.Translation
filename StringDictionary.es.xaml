@@ -11,12 +11,12 @@
 	<system:String x:Key="Settings.Facebook">Facebook</system:String>
 	<system:String x:Key="Settings.Facebook.Like">Me Gusta</system:String>
 	<system:String x:Key="Settings.TemporaryPath">Temporal</system:String>
-	<system:String x:Key="Settings.Default">Default</system:String>
+	<system:String x:Key="Settings.Default">Predeterminado</system:String>
 	<system:String x:Key="Settings.License">Licencia</system:String>
 	<system:String x:Key="Settings.Proxy">Proxy</system:String>
 
-	<system:String x:Key="Settings.General.RunAtBoot">Abrir el programa automaticamente cuando Windows inicia</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">Abrir el Explorador de Archivos cuando una unidad se ha conectado</system:String>
+	<system:String x:Key="Settings.General.RunAtBoot">Abrir el programa automáticamente cuando Windows inicie</system:String>
+	<system:String x:Key="Settings.General.RunAtConnect">Abrir el Explorador de Archivos cuando una unidad se conecte</system:String>
 
 	<system:String x:Key="Notice">Anuncio</system:String>
 	<system:String x:Key="AddDrive">Añadir</system:String>
@@ -38,7 +38,7 @@
 	<system:String x:Key="AddDrive.Address">Dirección</system:String>
 	<system:String x:Key="AddDrive.Port">Puerto</system:String>
 	<system:String x:Key="AddDrive.Device">Unidad</system:String>
-	<system:String x:Key="AddDrive.PrivateKey">Private Key</system:String>
+	<system:String x:Key="AddDrive.PrivateKey">Clave Privada</system:String>
 	<system:String x:Key="AddDrive.Charset">Charset</system:String>
 	<system:String x:Key="AddDrive.TransferMode">Modo de Transferencia</system:String>
 	<system:String x:Key="AddDrive.Encryption">Encripción</system:String>
@@ -52,7 +52,7 @@
 	<system:String x:Key="Vailidation.Address.WebDAV">Por favor escriba una dirección URL</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">Por favor seleccione una carpeta en su PC</system:String>
 	<system:String x:Key="Vailidation.Port">Por favor escriba un numero de puerto (0 ~ 65535)</system:String>
-	<system:String x:Key="Vailidation.Username">Por favor escriba un Nombre de Usuario</system:String>
+	<system:String x:Key="Vailidation.Username">Por favor escriba un nombre de Usuario</system:String>
 	<system:String x:Key="Vailidation.Password">Por favor escriba una Contraseña</system:String>
 
 	<!--  Menu bar>Settings, account, volume  -->
@@ -64,7 +64,7 @@
 	<system:String x:Key="Vailidation.Hint.Port">Puerto</system:String>
 	<system:String x:Key="Vailidation.Hint.Path">Ruta</system:String>
 	<system:String x:Key="Vailidation.Hint.Email">identificación@ejemplo.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">puedes seleccionar un fichero de clave-privada</system:String>
+	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">inserte fichero de clave-privada</system:String>
 
 	<system:String x:Key="Button.Yes">Sí</system:String>
 	<system:String x:Key="Button.No">No</system:String>
@@ -90,9 +90,9 @@
 	<system:String x:Key="Message.Title.SelectFolder">Seleccionar Carpeta</system:String>
 	<system:String x:Key="Message.Title.DeleteDrive">Eliminar Unidad</system:String>
 
-	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive no soporta una unidad de red.</system:String>
-	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive no soporta que una unidad se conecte por sí misma.</system:String>
-	<system:String x:Key="Message.Exist">Esta carpeta ya esta incluída.</system:String>
+	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive no admite una unidad de red.</system:String>
+	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive no admite que una unidad se conecte por sí misma.</system:String>
+	<system:String x:Key="Message.Exist">Esta carpeta ya esta incluida.</system:String>
 	<system:String x:Key="Message.SelectedPath">Ruta seleccionada</system:String>
 	<system:String x:Key="Message.DuplicatedPath">Ruta Duplicada</system:String>
 
@@ -105,10 +105,10 @@
 	<system:String x:Key="Message.NotReady.Driver">Los Drivers de su dispositivo no están instalados en su sistema. Necesita reistalar RaiDrive.</system:String>
 	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox permite Internet Explorer 10, 11. Recomendamos que instale Internet Explorer 11.</system:String>
 	<system:String x:Key="Message.Connect.By">Conectedo por RaiDrive</system:String>
-	<system:String x:Key="Message.Maximum.Drive">Hasta 8 Unidades pueden ser creadas en la versión actual</system:String>
+	<system:String x:Key="Message.Maximum.Drive">Solamente 8 Unidades pueden ser creadas en la versión actual</system:String>
 	<system:String x:Key="Message.License.Expired">Su licencia ha expirado. Necesita descargar la nueva versión. Presione OK para actualizar.</system:String>
-	<system:String x:Key="Message.License.NotReady">RaiDrive no puede validad su licencia.</system:String>
-	<system:String x:Key="Message.UnknownSpace">Espacio desconocido</system:String>
+	<system:String x:Key="Message.License.NotReady">RaiDrive no puede validar su licencia.</system:String>
+	<system:String x:Key="Message.UnknownSpace">Capacidad desconocida</system:String>
 	<system:String x:Key="Message.CurrentVersion">La versión actual es {0}</system:String>
 	<system:String x:Key="Message.Cache.Folder.NotSupport">La carpeta temporal tiene que estar localizada en una unidad local. Unidad de Red no permitida.</system:String>
 
@@ -121,7 +121,7 @@
 	<system:String x:Key="Message.ErrorDiskLetterExist">Necesita cambiar la letra de la Unidad o el Nombre de la unidad.</system:String>
 
 	<system:String x:Key="Message.OAuth.InvalidClient">Dominio no gestionado por Active Directory</system:String>
-	<system:String x:Key="Message.OAuth.InvalidClientDescription">Su Cuenta no está siendo gestionada por Active Directory. Contacte Active Directory o Administrador de dominio o entre a la sesión como cuenta personal.</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClientDescription">Su cuenta no está siendo gestionada por Active Directory. Contacte Active Directory o Administrador de dominio o entre a la sesión como cuenta personal.</system:String>
 
 	<!--  ConnectResponse Message  -->
 	<system:String x:Key="WebExceptionStatus.ConnectFailure">Por favor revise la dirección.</system:String>
