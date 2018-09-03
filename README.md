@@ -14,6 +14,7 @@ StringDictionary.fr.xaml | French
 StringDictionary.hr.xaml | Croatian
 StringDictionary.ja.xaml | Japanese
 StringDictionary.ko.xaml | Korean
+StringDictionary.nl.xaml | Dutch
 StringDictionary.pl.xaml | Polish
 StringDictionary.pt-PT.xaml | Portuguese
 StringDictionary.pt-BR.xaml | Brazilian Portuguese
