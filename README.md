@@ -2,25 +2,25 @@
 
 Some of language source files are initialized, but not be translated completely yet, except English and Korean.
 
-File name | Language
-----------|---------
-StringDictionary.ar.xaml | Arabic
-StringDictionary.cs.xaml | Czech
-StringDictionary.da.xaml | Danish
-StringDictionary.de.xaml | German
-StringDictionary.en.xaml | English
-StringDictionary.es.xaml | Spanish
-StringDictionary.fr.xaml | French
-StringDictionary.hr.xaml | Croatian
-StringDictionary.ja.xaml | Japanese
-StringDictionary.ko.xaml | Korean
-StringDictionary.nl.xaml | Dutch
-StringDictionary.pl.xaml | Polish
-StringDictionary.pt-PT.xaml | Portuguese
-StringDictionary.pt-BR.xaml | Brazilian Portuguese
-StringDictionary.th.xaml | Thai
-StringDictionary.zh-Hans.xaml | Chinese (Simplified)
-StringDictionary.zh-Hant.xaml | Chinese (Traditional)
+File name | Language | Translated | Translation Updated 
+----------|----------|------------|---------
+StringDictionary.ar.xaml | Arabic | O | 2nd update
+StringDictionary.cs.xaml | Czech |   |
+StringDictionary.da.xaml | Danish | O | 
+StringDictionary.de.xaml | German | O |
+StringDictionary.en.xaml | English | O |
+StringDictionary.es.xaml | Spanish | O | 2nd update
+StringDictionary.fr.xaml | French |   |
+StringDictionary.hr.xaml | Croatian |   |
+StringDictionary.ja.xaml | Japanese | O | 2nd update
+StringDictionary.ko.xaml | Korean | O |
+StringDictionary.nl.xaml | Dutch |   |
+StringDictionary.pl.xaml | Polish | O |
+StringDictionary.pt-PT.xaml | Portuguese |   |
+StringDictionary.pt-BR.xaml | Brazilian Portuguese |   |
+StringDictionary.th.xaml | Thai | O |
+StringDictionary.zh-Hans.xaml | Chinese (Simplified) | O | 2nd update
+StringDictionary.zh-Hant.xaml | Chinese (Traditional) | O | 2nd update
 
 ### Other Languages 
 When someone would voluntarily support translation to other language, please leave a message on Issue. 
