@@ -203,7 +203,7 @@
 	<system:String x:Key="Backup.LogTab.Left">เหลือ</system:String>
 	<system:String x:Key="Backup.LogTab.File">ไฟล์</system:String>
 	<system:String x:Key="Backup.LogTab.Folder">โฟลเดอร์</system:String>
-	<system:String x:Key="Backup.LogTab.FollowLatest">Follow Latest</system:String>
+	<system:String x:Key="Backup.LogTab.FollowLatest">ติดตามล่าสุด</system:String>
 	<system:String x:Key="Backup.Count.Left">เหลือ</system:String>
 	<system:String x:Key="Backup.Count.Processed">ดำเนินการแล้ว</system:String>
 
