@@ -102,26 +102,26 @@
 	<system:String x:Key="Message.ServiceDown">請按 [確定] 按鈕, RaiDrive 會重新運作。</system:String>
 	<system:String x:Key="Message.Settings.Reconnect">請按 [確定] 按鈕, 您必須重新連線遠端儲存空間才能使變更的設定生效。</system:String>
 	<system:String x:Key="Message.NotReady.Reboot">RaiDrive 尚未準備好啟動, 您需要重新啟動系統。</system:String>
-	<system:String x:Key="Message.NotReady.Driver">系統內未安裝裝置驅動程式. 您需要重新安裝 RaiDrive。</system:String>
-	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox 支援 Internet Explorer 10, 11. 您最好安裝 Internet Explorer 11。</system:String>
+	<system:String x:Key="Message.NotReady.Driver">系統內未安裝裝置驅動程式。 您需要重新安裝 RaiDrive。</system:String>
+	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox 支援 Internet Explorer 10, 11。 您最好安裝 Internet Explorer 11。</system:String>
 	<system:String x:Key="Message.Connect.By">已由 RaiDrive 連線</system:String>
 	<system:String x:Key="Message.Maximum.Drive">可在目前版本中建立多達 8 個磁碟機</system:String>
-	<system:String x:Key="Message.License.Expired">您的授權已過期. 您需要下載新版本. 按 [確定] 進行升級。</system:String>
+	<system:String x:Key="Message.License.Expired">您的授權已過期。 您需要下載新版本。 按 [確定] 進行升級。</system:String>
 	<system:String x:Key="Message.License.NotReady">RaiDrive 無法驗證您的授權。</system:String>
 	<system:String x:Key="Message.UnknownSpace">未知空間容量</system:String>
 	<system:String x:Key="Message.CurrentVersion">目前版本是 {0}</system:String>
-	<system:String x:Key="Message.Cache.Folder.NotSupport">暫存資料夾必須是本機磁碟機上的資料夾. 不支援網路磁碟機。</system:String>
+	<system:String x:Key="Message.Cache.Folder.NotSupport">暫存資料夾必須是本機磁碟機上的資料夾。 不支援網路磁碟機。</system:String>
 
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">授權或身份驗證失敗. 是否要重新驗證?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">授權或身份驗證失敗. 是否要重新驗證? (如果仍然失敗, 請刪除該磁碟機並重新建立它.)</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveLimit">已超出下載配額. 下載限制是受 {0} 的原則限制。</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">遠端儲存空間的連線方式已變更. 您需要再次登入。</system:String>
-	<system:String x:Key="Message.ErrorCacheDiskFull">快取儲存空間不夠. 您最好增加儲存空間。</system:String>
-	<system:String x:Key="Message.ErrorInternet">無法連接到遠端儲存空間. 請檢查您的網路連線並再試一次。</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveAuth">授權或身份驗證失敗。 是否要重新驗證?</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">授權或身份驗證失敗。 是否要重新驗證? (如果仍然失敗, 請刪除該磁碟機並重新建立它.)</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveLimit">已超出下載配額。 下載限制是受 {0} 的原則限制。</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveRemake">遠端儲存空間的連線方式已變更。 您需要再次登入。</system:String>
+	<system:String x:Key="Message.ErrorCacheDiskFull">快取儲存空間不夠。 您最好增加儲存空間。</system:String>
+	<system:String x:Key="Message.ErrorInternet">無法連接到遠端儲存空間。 請檢查您的網路連線並再試一次。</system:String>
 	<system:String x:Key="Message.ErrorDiskLetterExist">您必須變更磁碟機代號或磁碟機名稱。</system:String>
 
 	<system:String x:Key="Message.OAuth.InvalidClient">Active Directory 下提供的非受控網域</system:String>
-	<system:String x:Key="Message.OAuth.InvalidClientDescription">您的帳號不受 Active Directory 管理. 您應該聯絡 Active Directory 管理員或網域管理員或以個人帳號登入。</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClientDescription">您的帳號不受 Active Directory 管理。 您應該聯絡 Active Directory 管理員或網域管理員或以個人帳號登入。</system:String>
 
 	<!--  ConnectResponse Message  -->
 	<system:String x:Key="WebExceptionStatus.ConnectFailure">請檢查位址。</system:String>
@@ -130,7 +130,7 @@
 	<system:String x:Key="WebExceptionStatus.ReceiveFailure">請仔細檢查協定 {0} 和連接埠 {1} 是否正確。</system:String>
 
 	<system:String x:Key="HttpStatusCode.MethodNotAllowed">請檢查路徑 {0} 是否存在, 或者是否授予了存取權限。</system:String>
-	<system:String x:Key="HttpStatusCode.Unauthorized">驗證失敗. 請檢查您的帳號 (密碼)。</system:String>
+	<system:String x:Key="HttpStatusCode.Unauthorized">驗證失敗。 請檢查您的帳號 (密碼)。</system:String>
 
 	<system:String x:Key="SocketError.TimedOut">請檢查位址是否正確。</system:String>
 	<system:String x:Key="SocketError.ConnectionRefused">請檢查連接埠 {0}。</system:String>
@@ -158,7 +158,7 @@
 	<system:String x:Key="Help.Add.Drive">開始了~</system:String>
 	<system:String x:Key="Help.ServiceDown">RaiDrive 服務已停止。</system:String>
 	<system:String x:Key="Help.ServiceDown.Press">請按任意按鍵, RaiDrive 將重新運作。</system:String>
-	<system:String x:Key="Help.InternetDown">您的網路連線似乎已中斷. 請檢查您的網路連線。</system:String>
+	<system:String x:Key="Help.InternetDown">您的網路連線似乎已中斷。 請檢查您的網路連線。</system:String>
 	<system:String x:Key="Help.InternetDown.RetryAfter">在 {0} 秒後再試一次。</system:String>
 	<system:String x:Key="Help.License.ForBusiness">商業版本</system:String>
 
