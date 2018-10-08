@@ -101,7 +101,7 @@
 	<system:String x:Key="Message.Title.Reconnect">RaiDrive 重新連線</system:String>
 	<system:String x:Key="Message.ServiceDown">請按 [確定] 按鈕, RaiDrive 會重新運作。</system:String>
 	<system:String x:Key="Message.Settings.Reconnect">請按 [確定] 按鈕, 您必須重新連線遠端儲存空間才能使變更的設定生效。</system:String>
-	<system:String x:Key="Message.NotReady.Reboot">RaiDrive 尚未準備好啟動, 您需要重新啟動系統ㄡ</system:String>
+	<system:String x:Key="Message.NotReady.Reboot">RaiDrive 尚未準備好啟動, 您需要重新啟動系統。</system:String>
 	<system:String x:Key="Message.NotReady.Driver">系統內未安裝裝置驅動程式. 您需要重新安裝 RaiDrive。</system:String>
 	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox 支援 Internet Explorer 10, 11. 您最好安裝 Internet Explorer 11。</system:String>
 	<system:String x:Key="Message.Connect.By">已由 RaiDrive 連線</system:String>
