@@ -21,7 +21,7 @@ StringDictionary.ko.xaml | Korean | O
 StringDictionary.nl.xaml | Dutch | O  
 StringDictionary.pl.xaml | Polish | O 
 StringDictionary.pt-PT.xaml | Portuguese |   
-StringDictionary.pt-BR.xaml | Brazilian Portuguese |   
+StringDictionary.pt-BR.xaml | Brazilian Portuguese | O  
 StringDictionary.ru.xaml | Russian | O 
 StringDictionary.th.xaml | Thai | O 
 StringDictionary.zh-Hans.xaml | Chinese (Simplified) | O 
