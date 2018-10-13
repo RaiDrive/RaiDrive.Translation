@@ -15,8 +15,8 @@
 	<system:String x:Key="Settings.License">Лицензия</system:String>
 	<system:String x:Key="Settings.Proxy">Прокси</system:String>
 
-	<system:String x:Key="Settings.General.RunAtBoot">Запускать программу вместе с windows</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">Открыть папку после подключения </system:String>
+	<system:String x:Key="Settings.General.RunAtBoot">Запускать программу вместе с Windows</system:String>
+	<system:String x:Key="Settings.General.RunAtConnect">Открыть папку после подключения</system:String>
 
 	<system:String x:Key="Notice">Уведомление</system:String>
 	<system:String x:Key="AddDrive">Добавить</system:String>
@@ -30,7 +30,7 @@
 	<system:String x:Key="AddDrive.Network">Сеть</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">Только чтение</system:String>
 	<system:String x:Key="AddDrive.MountAtBoot">Подключать при входе</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Подключение с разными аккаунтами </system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Подключение с разными аккаунтами</system:String>
 	<system:String x:Key="AddDrive.Account">Аккаунт</system:String>
 	<system:String x:Key="AddDrive.Username">Логин</system:String>
 	<system:String x:Key="AddDrive.Password">Пароль</system:String>
@@ -50,7 +50,7 @@
 	<system:String x:Key="Vailidation.Letter">Выберите незанятую букву диска</system:String>
 	<system:String x:Key="Vailidation.Address">Введите имя хоста или IP-адрес</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">Введите URL</system:String>
-	<system:String x:Key="Vailidation.Address.LocalDrive">Выберите папку на своем ПК</system:String>
+	<system:String x:Key="Vailidation.Address.LocalDrive">Выберите папку в своём ПК</system:String>
 	<system:String x:Key="Vailidation.Port">Укажите порт (0 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">Введите логин</system:String>
 	<system:String x:Key="Vailidation.Password">Введите пароль</system:String>
@@ -74,7 +74,7 @@
 	<system:String x:Key="Button.Check">Проверить</system:String>
 	<system:String x:Key="Button.Edit">Править</system:String>
 	<system:String x:Key="Button.Retry">Повторить</system:String>
-	<system:String x:Key="Button.ReAuth">Sing in</system:String>
+	<system:String x:Key="Button.ReAuth">Вход</system:String>
 	<system:String x:Key="Button.Login">Войти</system:String>
 	<system:String x:Key="Button.SIGNIN">SIGIN-IN</system:String>
 
@@ -85,7 +85,7 @@
 	<system:String x:Key="ToolTip.NetworkDrive">Сетевой диск</system:String>
 	<system:String x:Key="ToolTip.SecureProtocol">Безопасный протокол</system:String>
 	<system:String x:Key="ToolTip.SecureConnection">Безопасное подключение</system:String>
-	<system:String x:Key="ToolTip.Backup">Бэкап</system:String>
+	<system:String x:Key="ToolTip.Backup">Копия</system:String>
 
 	<system:String x:Key="Message.Title.SelectFolder">Выберите папку</system:String>
 	<system:String x:Key="Message.Title.DeleteDrive">Удалить диск</system:String>
@@ -98,30 +98,30 @@
 
 	<system:String x:Key="Message.SureDelete">Удалить безвозвратно &quot;{0} ({1})&quot; ?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">Восстановление RaiDrive</system:String>
-	<system:String x:Key="Message.Title.Reconnect">RaiDrive Переподключение</system:String>
-	<system:String x:Key="Message.ServiceDown">Нажмите кнопку ОК, RaiDrive будет жить.</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">Необходимо переподкючить внешнее храниличе, чтобы изменения настроек вступили в силу. Нажмите ОК</system:String>
+	<system:String x:Key="Message.Title.Reconnect">RaiDrive - переподключение</system:String>
+	<system:String x:Key="Message.ServiceDown">Нажмите OK, чтобы оживить RaiDrive.</system:String>
+	<system:String x:Key="Message.Settings.Reconnect">Чтобы изменения настроек вступили в силу, нужно переподключить внешнее хранилище. Нажмите OK.</system:String>
 	<system:String x:Key="Message.NotReady.Reboot">RaiDrive не готов к запуску, необходимо перезагрузить систему.</system:String>
-	<system:String x:Key="Message.NotReady.Driver">Драйвер устройства не установлен в вашей системе. Необходимо переустановить RaiDrive.</system:String>
-	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox поддерживает Internet Explorer 10, 11. Вам лучше установить Internet Explorer 11.</system:String>
+	<system:String x:Key="Message.NotReady.Driver">В системе не установлен драйвер устройства. Переустановите RaiDrive.</system:String>
+	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox поддерживает Internet Explorer 10 и 11. Лучше установить Internet Explorer 11.</system:String>
 	<system:String x:Key="Message.Connect.By">Подключено RaiDrive</system:String>
 	<system:String x:Key="Message.Maximum.Drive">В текущей версии может быть создано до 8 дисков</system:String>
-	<system:String x:Key="Message.License.Expired">Срок действия вашей лицензии истек. Вам нужно скачать новую версию. Нажмите OK для обновления.</system:String>
+	<system:String x:Key="Message.License.Expired">Срок действия вашей лицензии истёк. Скачайте новую версию. Нажмите OK для обновления.</system:String>
 	<system:String x:Key="Message.License.NotReady">RaiDrive не может подтвердить вашу лицензию.</system:String>
-	<system:String x:Key="Message.UnknownSpace">Неизвестно места</system:String>
+	<system:String x:Key="Message.UnknownSpace">Размер диска неизвестен</system:String>
 	<system:String x:Key="Message.CurrentVersion">Текущая версия {0}</system:String>
 	<system:String x:Key="Message.Cache.Folder.NotSupport">Временная папка должна быть на локальном диске. Сетевой диск не поддерживается.</system:String>
 
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">Ошибка аутентификации. Повторить аутентификацию?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Ошибка аутентификации. Повторить аутентификацию? (если ошибка останется, пересоздайте диск заново.)</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveLimit">Квота скачивания превышена. Ограничения загрузки политикой {0}.</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">Изменен метод подключения к удаленному хранилищу. Вам нужно снова войти в систему.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveAuth">Ошибка авторизации/аутентификации. Повторить?</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Ошибка авторизации/аутентификации. Повторить? (Если ошибка останется, создайте диск заново.)</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveLimit">Превышена квота скачивания. Ограничения загрузки политикой {0}.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveRemake">Изменён метод подключения к удалённому хранилищу. Войдите заново.</system:String>
 	<system:String x:Key="Message.ErrorCacheDiskFull">Недостаточно места для хранения кэша. Увеличьте место для хранения.</system:String>
-	<system:String x:Key="Message.ErrorInternet">Не удается подключиться к удаленному хранилищу. Проверьте Интернет подключение и повторите попытку.</system:String>
-	<system:String x:Key="Message.ErrorDiskLetterExist">Необходимо изменить букву диска или имя диска.</system:String>
+	<system:String x:Key="Message.ErrorInternet">Не удаётся подключиться к удалённому хранилищу. Проверьте подключение к Интернету и повторите попытку.</system:String>
+	<system:String x:Key="Message.ErrorDiskLetterExist">Необходимо изменить букву или имя диска.</system:String>
 
 	<system:String x:Key="Message.OAuth.InvalidClient">Неуправляемый домен Active Directory</system:String>
-	<system:String x:Key="Message.OAuth.InvalidClientDescription">Active Directory не управляет вашей учетной записью. Свяжитесь с администратором домена и Active Directory или войдите в систему с личной учетной записью.</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClientDescription">Active Directory не управляется вашей учётной записью. Свяжитесь с администратором домена и Active Directory или войдите в систему с личной учётной записью.</system:String>
 
 	<!--  ConnectResponse Message  -->
 	<system:String x:Key="WebExceptionStatus.ConnectFailure">Проверьте адрес.</system:String>
@@ -129,8 +129,8 @@
 	<system:String x:Key="WebExceptionStatus.SendFailure">Дважды проверьте протокол {0} и порт {1}.</system:String>
 	<system:String x:Key="WebExceptionStatus.ReceiveFailure">Дважды проверьте протокол {0} и порт {1}.</system:String>
 
-	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Проверьте существует ли путь {0} и разрешен ли доступ.</system:String>
-	<system:String x:Key="HttpStatusCode.Unauthorized">Ошибка аутентификации. Проверьте свою учетную записt (пароль).</system:String>
+	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Проверьте, существует ли путь {0} и разрешён ли доступ.</system:String>
+	<system:String x:Key="HttpStatusCode.Unauthorized">Ошибка аутентификации. Проверьте свою учётную запись (пароль).</system:String>
 
 	<system:String x:Key="SocketError.TimedOut">Проверьте адрес.</system:String>
 	<system:String x:Key="SocketError.ConnectionRefused">Проверьте порт {0}.</system:String>
@@ -154,23 +154,23 @@
 	<system:String x:Key="Words.Size">Размер</system:String>
 	<system:String x:Key="Words.Description">Описание</system:String>
 
-	<system:String x:Key="Help.Text">Помощь</system:String>
+	<system:String x:Key="Help.Text">Справка</system:String>
 	<system:String x:Key="Help.Add.Drive">HERE WE GO~</system:String>
 	<system:String x:Key="Help.ServiceDown">Служба RaiDrive была остановлена.</system:String>
-	<system:String x:Key="Help.ServiceDown.Press">Нажмите кнопку, RaiDrive восстановится.</system:String>
-	<system:String x:Key="Help.InternetDown">Похоже интернет-соединение отсутствует. Проверьте подключение к интернету.</system:String>
-	<system:String x:Key="Help.InternetDown.RetryAfter">Повторить попытку через {0} секуд.</system:String>
-	<system:String x:Key="Help.License.ForBusiness">Версия для бинеса</system:String>
+	<system:String x:Key="Help.ServiceDown.Press">Нажмите кнопку, чтобы восстановить RaiDrive.</system:String>
+	<system:String x:Key="Help.InternetDown">Похоже, нет соединения с Интернетом. Проверьте подключение.</system:String>
+	<system:String x:Key="Help.InternetDown.RetryAfter">Повтор через {0} сек.</system:String>
+	<system:String x:Key="Help.License.ForBusiness">Версия для бизнеса</system:String>
 
 	<system:String x:Key="Upgrade">Обновить</system:String>
 	<system:String x:Key="Upgrade.Uptodate">Вы используете новейшую версию</system:String>
-	<system:String x:Key="Upgrade.NewVersion">Вы можете обновить до версии {0}</system:String>
-	<system:String x:Key="Upgrade.New">Вы можете обновить до новой версии</system:String>
+	<system:String x:Key="Upgrade.NewVersion">Возможно обновление до версии {0}</system:String>
+	<system:String x:Key="Upgrade.New">Вы можете установить новую версию</system:String>
 
 	<system:String x:Key="NotifyIcon.Open">Открыть RaiDrive</system:String>
 	<system:String x:Key="NotifyIcon.CheckUpdate">Проверить обновление</system:String>
 	<system:String x:Key="NotifyIcon.Exit">Выход</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">Хотите отключить все подключения перед выходом?</system:String>
+	<system:String x:Key="NotifyIcon.Exit.Message">Отключить все подключения перед выходом?</system:String>
 
 	<system:String x:Key="State.Space.Format">{0} свободно из {1} {2}</system:String>
 	<system:String x:Key="State.Space.Used">используется</system:String>
@@ -183,30 +183,30 @@
 	<system:String x:Key="Brand.etc">Прочее</system:String>
 
 	<!--  backup  -->
-	<system:String x:Key="Backup">Бэкап</system:String>
+	<system:String x:Key="Backup">Копия</system:String>
 	<system:String x:Key="Backup.Add">Добавить</system:String>
 	<system:String x:Key="Backup.Delete">Удалить</system:String>
-	<system:String x:Key="Backup.Start">Старт</system:String>
+	<system:String x:Key="Backup.Start">Пуск</system:String>
 	<system:String x:Key="Backup.Stop">Стоп</system:String>
-	<system:String x:Key="Backup.BackupNOW">Бэкап СЕЙЧАС</system:String>
+	<system:String x:Key="Backup.BackupNOW">Копия СЕЙЧАС</system:String>
 	<system:String x:Key="Backup.NOW">СЕЙЧАС</system:String>
 	<system:String x:Key="Backup.Save">Сохранить</system:String>
-	<system:String x:Key="Backup.ClearLog">Очистить лог</system:String>
-	<system:String x:Key="Backup.DestRootFolder">Удаленная папка</system:String>
+	<system:String x:Key="Backup.ClearLog">Очистить журнал</system:String>
+	<system:String x:Key="Backup.DestRootFolder">Удалённая папка</system:String>
 	<system:String x:Key="Backup.SourceFolders">Исходная папка</system:String>
-	<system:String x:Key="Backup.Progress">Прогресс</system:String>
+	<system:String x:Key="Backup.Progress">Ход выполнения</system:String>
 	<system:String x:Key="Backup.AutoStart">Автозапуск</system:String>
 	<system:String x:Key="Backup.LogTab.Current">Текущий</system:String>
 	<system:String x:Key="Backup.LogTab.All">Все</system:String>
 	<system:String x:Key="Backup.LogTab.Error">Ошибка</system:String>
 	<system:String x:Key="Backup.LogTab.Ready">Готов</system:String>
-	<system:String x:Key="Backup.LogTab.Left">Left</system:String>
+	<system:String x:Key="Backup.LogTab.Left">Осталось</system:String>
 	<system:String x:Key="Backup.LogTab.File">Файл</system:String>
 	<system:String x:Key="Backup.LogTab.Folder">Папка</system:String>
 	<system:String x:Key="Backup.LogTab.FollowLatest">Следить за последними</system:String>
-	<system:String x:Key="Backup.Count.Left">Left</system:String>
+	<system:String x:Key="Backup.Count.Left">Осталось</system:String>
 	<system:String x:Key="Backup.Count.Processed">Выполнено</system:String>
 
-	<system:String x:Key="Message.Backup.BackupTargetFolder">Выберите удаленную папку, в которой будут храниться файлы</system:String>
+	<system:String x:Key="Message.Backup.BackupTargetFolder">Выберите удалённую папку для хранения файлов</system:String>
 
 </ResourceDictionary>
