@@ -74,7 +74,7 @@
 	<system:String x:Key="Button.Check">Prüfen</system:String>
 	<system:String x:Key="Button.Edit">Bearbeiten</system:String>
 	<system:String x:Key="Button.Retry">Erneut versuchen</system:String>
-	<system:String x:Key="Button.ReAuth">Sing in</system:String>
+	<system:String x:Key="Button.ReAuth">Sign in</system:String>
 	<system:String x:Key="Button.Login">Login</system:String>
 	<system:String x:Key="Button.SIGNIN">SIGIN-IN</system:String>
 
