@@ -162,7 +162,7 @@
 	<system:String x:Key="Help.InternetDown.RetryAfter">Ponownie powtórzenie {0} second(s).</system:String>
 	<system:String x:Key="Help.License.ForBusiness">wprowadź klucz aktywacyjny</system:String>
 
-	<system:String x:Key="Upgrade">Aktualizacji</system:String>
+	<system:String x:Key="Upgrade">Aktualizuj!</system:String>
 	<system:String x:Key="Upgrade.Uptodate">Świetnie! Używasz najnowszej wersji!</system:String>
 	<system:String x:Key="Upgrade.NewVersion">Dokonaj aktualizacji do wersji{0}</system:String>
 	<system:String x:Key="Upgrade.New">Możesz aktualizować program do nowej wersji</system:String>
