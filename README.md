@@ -16,6 +16,7 @@ StringDictionary.en.xaml | English | O
 StringDictionary.es.xaml | Spanish | O 
 StringDictionary.fr.xaml | French |   
 StringDictionary.hr.xaml | Croatian |   
+StringDictionary.hu.xaml | Hungarian |
 StringDictionary.ja.xaml | Japanese | O 
 StringDictionary.ko.xaml | Korean | O 
 StringDictionary.nl.xaml | Dutch | O  
@@ -32,4 +33,4 @@ StringDictionary.zh-Hant.xaml | Chinese (Traditional) | O
 When you would voluntarily support translation to other language, it is really appreciated and please leave a message on Issues. 
 
 ---
-StringDictionary files are based on _[**RaiDrive v1.4.0**](https://www.raidrive.com/download/)(09-12-2018)_
+StringDictionary files are based on _[**RaiDrive v1.4.2**](https://www.raidrive.com/download/)(16-11-2018)_
