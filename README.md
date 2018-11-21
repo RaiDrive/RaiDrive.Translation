@@ -17,6 +17,7 @@ StringDictionary.es.xaml | Spanish | O
 StringDictionary.fr.xaml | French |   
 StringDictionary.hr.xaml | Croatian |   
 StringDictionary.hu.xaml | Hungarian |
+StringDictionary.it.xaml | Italian | Waiting upload...
 StringDictionary.ja.xaml | Japanese | O 
 StringDictionary.ko.xaml | Korean | O 
 StringDictionary.nl.xaml | Dutch | O  
