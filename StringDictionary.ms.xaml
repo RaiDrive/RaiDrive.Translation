@@ -1,0 +1,212 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:RaiDrive.Center.Languages" xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+	<!--  Menu bar>Settings, General  -->
+	<system:String x:Key="Current.Language">ms</system:String>
+
+	<system:String x:Key="Settings">Tetapan</system:String>
+	<system:String x:Key="Settings.Header">Tetapan</system:String>
+	<system:String x:Key="Settings.General">Umum</system:String>
+	<system:String x:Key="Settings.Language">Bahasa</system:String>
+	<system:String x:Key="Settings.Update">Kemaskini</system:String>
+	<system:String x:Key="Settings.Facebook">Facebook</system:String>
+	<system:String x:Key="Settings.Facebook.Like">Suka</system:String>
+	<system:String x:Key="Settings.TemporaryPath">Sementara</system:String>
+	<system:String x:Key="Settings.Default">Lalai</system:String>
+	<system:String x:Key="Settings.License">Lesen</system:String>
+	<system:String x:Key="Settings.Proxy">Proksi</system:String>
+
+	<system:String x:Key="Settings.General.RunAtBoot">Jalankan program secara auto bila Windows bermula</system:String>
+	<system:String x:Key="Settings.General.RunAtConnect">Jalankan Pelayar Fail bila pemacu disambung</system:String>
+
+	<system:String x:Key="Notice">Notis</system:String>
+	<system:String x:Key="AddDrive">Tambah</system:String>
+	<system:String x:Key="AddDrive.Header">Pemacu Baharu</system:String>
+	<system:String x:Key="AddDrive.Storage">Storan</system:String>
+
+	<!--  Drive  -->
+	<system:String x:Key="AddDrive.Drive">Pemacu</system:String>
+
+	<!--  Add New Storage  -->
+	<system:String x:Key="AddDrive.Network">Rangkaian</system:String>
+	<system:String x:Key="AddDrive.ReadOnly">Baca-sahaja</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Sambung-semula semasa daftar-masuk</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Sambung gunakan tauliah berlainan</system:String>
+	<system:String x:Key="AddDrive.Account">Akaun</system:String>
+	<system:String x:Key="AddDrive.Username">Nama Pengguna</system:String>
+	<system:String x:Key="AddDrive.Password">Kata Laluan</system:String>
+	<system:String x:Key="AddDrive.Anonymous">Tanpa Nama</system:String>
+	<system:String x:Key="AddDrive.Address">Alamat</system:String>
+	<system:String x:Key="AddDrive.Port">Port</system:String>
+	<system:String x:Key="AddDrive.Device">Peranti</system:String>
+	<system:String x:Key="AddDrive.PrivateKey">Kunci Peribadi</system:String>
+	<system:String x:Key="AddDrive.Charset">Charset</system:String>
+	<system:String x:Key="AddDrive.TransferMode">Mod Perpindahan</system:String>
+	<system:String x:Key="AddDrive.Encryption">Enkripsi</system:String>
+
+	<system:String x:Key="Vailidation.Volume">Sila masukkan label pemacu yang sah</system:String>
+	<system:String x:Key="Vailidation.VolumeExist">Nama ini sudah wujud</system:String>
+	<system:String x:Key="Vailidation.VolumeInvalidChar">Label pemacu tidak boleh mengandungi sebarang karakter berikut:</system:String>
+	<system:String x:Key="Vailidation.VolumeInvalidStr">Jangan guna nama diperuntuk berikut:</system:String>
+	<system:String x:Key="Vailidation.Letter">Sila pilih huruf untuk pemacu belum ditugas</system:String>
+	<system:String x:Key="Vailidation.Address">Sila masukkan nama host atau alamat IP</system:String>
+	<system:String x:Key="Vailidation.Address.WebDAV">Sila masukkan URL</system:String>
+	<system:String x:Key="Vailidation.Address.LocalDrive">Sila pilih folder di PC anda</system:String>
+	<system:String x:Key="Vailidation.Port">Sila masukkan nombor port (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Username">Sila masukkan nama pengguna</system:String>
+	<system:String x:Key="Vailidation.Password">Sila masukkan kata laluan</system:String>
+
+	<!--  Menu bar>Settings, account, volume  -->
+	<system:String x:Key="Vailidation.Hint.Volume">label pemacu</system:String>
+	<system:String x:Key="Vailidation.Hint.Address">host.contoh.com</system:String>
+	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">folder</system:String>
+	<system:String x:Key="Vailidation.Hint.Username">nama pengguna</system:String>
+	<system:String x:Key="Vailidation.Hint.Password">kata laluan</system:String>
+	<system:String x:Key="Vailidation.Hint.Port">port</system:String>
+	<system:String x:Key="Vailidation.Hint.Path">laluan</system:String>
+	<system:String x:Key="Vailidation.Hint.Email">id@contoh.com</system:String>
+	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">anda boleh pilih fail kunci peribadi</system:String>
+
+	<system:String x:Key="Button.Yes">Ya</system:String>
+	<system:String x:Key="Button.No">Tidak</system:String>
+	<system:String x:Key="Button.OK">OK</system:String>
+	<system:String x:Key="Button.Apply">Mohon</system:String>
+	<system:String x:Key="Button.Cancel">Batal</system:String>
+	<system:String x:Key="Button.Check">Semak</system:String>
+	<system:String x:Key="Button.Edit">Ubah</system:String>
+	<system:String x:Key="Button.Retry">Cuba-semula</system:String>
+	<system:String x:Key="Button.ReAuth">Daftar masuk</system:String>
+	<system:String x:Key="Button.Login">Log masuk</system:String>
+	<system:String x:Key="Button.SIGNIN">DAFTAR-MASUK</system:String>
+
+	<system:String x:Key="ToolTip.Connect">Sambung</system:String>
+	<system:String x:Key="ToolTip.Disconnect">Nyahsambung</system:String>
+	<system:String x:Key="ToolTip.Edit">Ubah</system:String>
+	<system:String x:Key="ToolTip.Remove">Buang</system:String>
+	<system:String x:Key="ToolTip.NetworkDrive">Pemacu Rangkaian</system:String>
+	<system:String x:Key="ToolTip.SecureProtocol">Protokol Selamat</system:String>
+	<system:String x:Key="ToolTip.SecureConnection">Sambungan Selamat</system:String>
+	<system:String x:Key="ToolTip.Backup">Sandaran</system:String>
+
+	<system:String x:Key="Message.Title.SelectFolder">Pilih folder</system:String>
+	<system:String x:Key="Message.Title.DeleteDrive">Buang pemacu</system:String>
+
+	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive tidak menyokong pemacu rangkaian.</system:String>
+	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive tidak menyokong pemacu yang bersambung dengan sendiri.</system:String>
+	<system:String x:Key="Message.Exist">Folder ini telah dimasukkan.</system:String>
+	<system:String x:Key="Message.SelectedPath">Laluan Dipilih</system:String>
+	<system:String x:Key="Message.DuplicatedPath">Laluan Diduplikasi</system:String>
+
+	<system:String x:Key="Message.SureDelete">Anda pasti ingin buang secara kekal &quot;{0} ({1})&quot; ?</system:String>
+	<system:String x:Key="Message.Title.ServiceDown">Hidup-semula RaiDrive</system:String>
+	<system:String x:Key="Message.Title.Reconnect">Sambung-semula RaiDrive</system:String>
+	<system:String x:Key="Message.ServiceDown">Sila tekan butang OK, RaiDrive akan dihidup semula.</system:String>
+	<system:String x:Key="Message.Settings.Reconnect">Sila tekan butang OK, Anda mesti sambung-semula storan luar untuk tetapan diubah mengambil tempat.</system:String>
+	<system:String x:Key="Message.NotReady.Reboot">RaiDrive tidak bersedia untuk dimula, Anda perlu mula-semula sistem.</system:String>
+	<system:String x:Key="Message.NotReady.Driver">Pemacu peranti tidak dipasang di komputer anda. Anda mesti pasang-semula RaiDrive.</system:String>
+	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox menyokong Internet Explorer 10, 11. Lebih bagus jika anda pasang Internet Explorer 11.</system:String>
+	<system:String x:Key="Message.Connect.By">Disambung oleh RaiDrive</system:String>
+	<system:String x:Key="Message.Maximum.Drive">Sehingga 8 pemacu boleh dicipta di versi semasa</system:String>
+	<system:String x:Key="Message.License.Expired">Lesen anda telah luput. Anda perlu muat-turun versi baharu. Tekan OK untuk naiktaraf.</system:String>
+	<system:String x:Key="Message.License.NotReady">RaiDrive tidak dapat sahkan lesen anda.</system:String>
+	<system:String x:Key="Message.UnknownSpace">Ruang tidak diketahui</system:String>
+	<system:String x:Key="Message.CurrentVersion">Versi semasa ialah {0}</system:String>
+	<system:String x:Key="Message.Cache.Folder.NotSupport">Folder sementara mestilah folder pada pemacu cakera lokal. Pemacu rangkaian tidak disokong.</system:String>
+
+	<system:String x:Key="Message.ErrorRemoteDriveAuth">Pembenaran dan pengesahan gagal. Anda ingin sahkan semula?</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Pembenaran atau pengesahan gagal. Anda ingin sahkan semula? (Jika ia masih gagal, buang pemacu dan cipta ia semula.)</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveLimit">Kuota muat-turun telah tercapai. Halangan untuk muat-turun adalah polisi {0}.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveRemake">Kaedah sambungan ke storan luar telah berubah. Anda perlu daftar masuk kembali.</system:String>
+	<system:String x:Key="Message.ErrorCacheDiskFull">Ruangan storan cache tidak mencukupi. Lebih baik anda tambahkan ruangan storan.</system:String>
+	<system:String x:Key="Message.ErrorInternet">Tidak dapat menghubung storan luar. Sila semak sambungan rangkaian anda dan cuba lagi.</system:String>
+	<system:String x:Key="Message.ErrorDiskLetterExist">Anda mesti ubah huruf atau nama pemacu.</system:String>
+
+	<system:String x:Key="Message.OAuth.InvalidClient">Domain tidak diurus oleh Direktori Aktif</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClientDescription">Akaun anda tidak diurus oleh Direktori Aktif. Anda patut hubungi Direktori Aktif atau pentadbir domain atau daftar masuk sebagai akaun peribadi.</system:String>
+
+	<!--  ConnectResponse Message  -->
+	<system:String x:Key="WebExceptionStatus.ConnectFailure">Sila semak alamat.</system:String>
+	<system:String x:Key="WebExceptionStatus.ConnectionClosed">Sila semak berganda protokol{0} dan port{1}.</system:String>
+	<system:String x:Key="WebExceptionStatus.SendFailure">Sila semak berganda protokol{0} dan port{1}.</system:String>
+	<system:String x:Key="WebExceptionStatus.ReceiveFailure">Sila semak berganda protokol{0} dan port{1}.</system:String>
+
+	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Sila semak jika laluan{0} wujud atau jika akses dibenarkan.</system:String>
+	<system:String x:Key="HttpStatusCode.Unauthorized">Pengesahan gagal. Sila semak akaun anda (kata laluan).</system:String>
+
+	<system:String x:Key="SocketError.TimedOut">Sila semak alamat.</system:String>
+	<system:String x:Key="SocketError.ConnectionRefused">Sila semak port{0}.</system:String>
+
+	<system:String x:Key="OtherResponseCode.2">Laluan tidak dijumpai. Semak laluan{0}.</system:String>
+	<system:String x:Key="OtherResponseCode.3">Sila semak berganda protokol{0} dan port{1}.</system:String>
+	<!--  ConnectResponse Message  -->
+
+	<system:String x:Key="Words.Reason">Sebab</system:String>
+	<system:String x:Key="Words.Delegation.Stop">Delegasi digugur</system:String>
+	<system:String x:Key="Words.Drive">Pemacu</system:String>
+	<system:String x:Key="Words.FreeSpace">Ruang kosong</system:String>
+	<system:String x:Key="Words.Send.Opinion">Hantar Pandangan</system:String>
+	<system:String x:Key="Words.Code">Kod</system:String>
+	<system:String x:Key="Words.Path">Laluan</system:String>
+	<system:String x:Key="Words.File">Fail</system:String>
+	<system:String x:Key="Words.Ready">Sedia</system:String>
+	<system:String x:Key="Words.Time">Masa</system:String>
+	<system:String x:Key="Words.Error">Ralat</system:String>
+	<system:String x:Key="Words.State">Keadaan</system:String>
+	<system:String x:Key="Words.Size">Saiz</system:String>
+	<system:String x:Key="Words.Description">Penerangan</system:String>
+
+	<system:String x:Key="Help.Text">BANTUAN</system:String>
+	<system:String x:Key="Help.Add.Drive">AYUH MULA~</system:String>
+	<system:String x:Key="Help.ServiceDown">Servis RaiDrive telah dihenti.</system:String>
+	<system:String x:Key="Help.ServiceDown.Press">Sila tekan butang, RaiDrive akan dihidup semula.</system:String>
+	<system:String x:Key="Help.InternetDown">Sambungan rangkaian anda seperti terputus. Sila semak sambungan internet anda.</system:String>
+	<system:String x:Key="Help.InternetDown.RetryAfter">Cuba-semula selepas {0} saat.</system:String>
+	<system:String x:Key="Help.License.ForBusiness">untuk versi perniagaan</system:String>
+
+	<system:String x:Key="Upgrade">Naiktaraf</system:String>
+	<system:String x:Key="Upgrade.Uptodate">Anda menggunakan versi terkini</system:String>
+	<system:String x:Key="Upgrade.NewVersion">Anda boleh naiktaraf ke versi {0}</system:String>
+	<system:String x:Key="Upgrade.New">Anda boleh naiktaraf ke versi baharu</system:String>
+
+	<system:String x:Key="NotifyIcon.Open">Buka RaiDrive</system:String>
+	<system:String x:Key="NotifyIcon.CheckUpdate">Semak kemaskini</system:String>
+	<system:String x:Key="NotifyIcon.Exit">Keluar</system:String>
+	<system:String x:Key="NotifyIcon.Exit.Message">Anda pasti ingin nyahsambung semua sambungan sebelum keluar?</system:String>
+
+	<system:String x:Key="State.Space.Format">{0} kosong dari {1} {2}</system:String>
+	<system:String x:Key="State.Space.Used">diguna</system:String>
+
+	<system:String x:Key="Brand.Synology">Synology</system:String>
+	<system:String x:Key="Brand.QNAP">QNAP</system:String>
+	<system:String x:Key="Brand.Box_com">Box</system:String>
+	<system:String x:Key="Brand.ipTIME">ipTIME</system:String>
+	<system:String x:Key="Brand.WD">WD</system:String>
+	<system:String x:Key="Brand.etc">dll</system:String>
+
+	<!--  backup  -->
+	<system:String x:Key="Backup">Sandaran</system:String>
+	<system:String x:Key="Backup.Add">Tambah</system:String>
+	<system:String x:Key="Backup.Delete">Buang</system:String>
+	<system:String x:Key="Backup.Start">Mula</system:String>
+	<system:String x:Key="Backup.Stop">Henti</system:String>
+	<system:String x:Key="Backup.BackupNOW">Sandar SEKARANG</system:String>
+	<system:String x:Key="Backup.NOW">SEKARANG</system:String>
+	<system:String x:Key="Backup.Save">Simpan</system:String>
+	<system:String x:Key="Backup.ClearLog">Padam log</system:String>
+	<system:String x:Key="Backup.DestRootFolder">Folder Luar</system:String>
+	<system:String x:Key="Backup.SourceFolders">Folder Sumber</system:String>
+	<system:String x:Key="Backup.Progress">Kemajuan</system:String>
+	<system:String x:Key="Backup.AutoStart">Auto Mula</system:String>
+	<system:String x:Key="Backup.LogTab.Current">Semasa</system:String>
+	<system:String x:Key="Backup.LogTab.All">Semua</system:String>
+	<system:String x:Key="Backup.LogTab.Error">Ralat</system:String>
+	<system:String x:Key="Backup.LogTab.Ready">Sedia</system:String>
+	<system:String x:Key="Backup.LogTab.Left">Tinggal</system:String>
+	<system:String x:Key="Backup.LogTab.File">Fail</system:String>
+	<system:String x:Key="Backup.LogTab.Folder">Folder</system:String>
+	<system:String x:Key="Backup.LogTab.FollowLatest">Ikuti Terkini</system:String>
+	<system:String x:Key="Backup.Count.Left">Tinggal</system:String>
+	<system:String x:Key="Backup.Count.Processed">Diproses</system:String>
+
+	<system:String x:Key="Message.Backup.BackupTargetFolder">Pilih folder luar dimana fail akan disimpan</system:String>
+
+</ResourceDictionary>
