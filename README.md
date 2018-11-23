@@ -20,6 +20,7 @@ StringDictionary.hu.xaml | Hungarian |
 StringDictionary.it.xaml | Italian | Waiting upload...
 StringDictionary.ja.xaml | Japanese | O 
 StringDictionary.ko.xaml | Korean | O 
+StringDictionary.ms.xaml | Malay(Malaysia) | O
 StringDictionary.nl.xaml | Dutch | O  
 StringDictionary.pl.xaml | Polish | O 
 StringDictionary.pt-PT.xaml | Portuguese |   
