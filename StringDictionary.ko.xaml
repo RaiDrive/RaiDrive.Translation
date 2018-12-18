@@ -31,7 +31,7 @@
 	<system:String x:Key="AddDrive.ReadOnly">읽기전용</system:String>
 	<!--
 	<system:String x:Key="AddDrive.MountAtBoot">로그인할 때 다시 연결</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">다른 자격 증명을 사용하여 연결</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">다른 자격 증명을 사용하여 연ㄹ결</system:String>
 	-->
 	<system:String x:Key="AddDrive.MountAtBoot">프로그램이 시작될 때 자동연결</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">연결할 때마다 로그인</system:String>
@@ -119,7 +119,7 @@
 	<system:String x:Key="Message.ErrorRemoteDriveAuth">권한부여 또는 인증에 실패했습니다. 다시 인증하시겠습니까?</system:String>
 	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">권한부여 또는 인증에 실패했습니다. 다시 인증하시겠습니까? (만일 계속 실패하면, 드라이브를 삭제하고 다시 만들어보세요.)</system:String>
 	<system:String x:Key="Message.ErrorRemoteDriveLimit">다운로드 할당량을 초과했습니다. 다운로드 제한은 {0}의 정책입니다.</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">원격 스트로리지 연결방식이 바뀌었습니다. 다시 로그인해야 합니다.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveRemake">원격 스토리지 연결방식이 바뀌었습니다. 다시 로그인해야 합니다.</system:String>
 	<system:String x:Key="Message.ErrorCacheDiskFull">캐시 저장 공간을 거의 사용하였습니다. 저장 공간을 늘리는 것이 좋습니다.</system:String>
 	<system:String x:Key="Message.ErrorInternet">원격 스토리지에 연결할 수 없습니다. 인터넷 연결 확인 후, 다시 시도 해주세요.</system:String>
 	<system:String x:Key="Message.ErrorDiskLetterExist">드라이브 문자 또는 드라이브 이름을 변경해야 합니다.</system:String>
