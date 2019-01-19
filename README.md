@@ -36,4 +36,4 @@ StringDictionary.zh-Hant.xaml | Chinese (Traditional) | O
 When you would voluntarily support translation to other language, it is really appreciated and please leave a message on Issues. 
 
 ---
-StringDictionary files are based on _[**RaiDrive v1.4.4**](https://www.raidrive.com/download/)(18-11-2018)_
+StringDictionary files are based on _[**RaiDrive v1.5.0**](https://www.raidrive.com/download/)(18-01-2019)_
