@@ -16,7 +16,7 @@
 	<system:String x:Key="Settings.Proxy">代理</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">在 Windows 启动时自动运行</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">在网络恢复后自动连接虚拟驱动器</system:String>
+	<system:String x:Key="Settings.General.RunAtConnect">在连接虚拟驱动器后打开文件资源管理器</system:String>
 
 	<system:String x:Key="Notice">通知</system:String>
 	<system:String x:Key="AddDrive">添加</system:String>
