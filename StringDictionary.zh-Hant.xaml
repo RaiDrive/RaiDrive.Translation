@@ -74,9 +74,9 @@
 	<system:String x:Key="Button.Check">檢查</system:String>
 	<system:String x:Key="Button.Edit">編輯</system:String>
 	<system:String x:Key="Button.Retry">重試</system:String>
-	<system:String x:Key="Button.ReAuth">登錄</system:String>
+	<system:String x:Key="Button.ReAuth">登入</system:String>
 	<system:String x:Key="Button.Login">登入</system:String>
-	<system:String x:Key="Button.SIGNIN">登錄</system:String>
+	<system:String x:Key="Button.SIGNIN">登入</system:String>
 
 	<system:String x:Key="ToolTip.Connect">連線</system:String>
 	<system:String x:Key="ToolTip.Disconnect">中斷連線</system:String>
