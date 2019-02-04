@@ -31,7 +31,7 @@
 	<system:String x:Key="AddDrive.ReadOnly">只读</system:String>
 	<system:String x:Key="AddDrive.MountAtBoot">软件启动后自动连接</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">在连接时输入账号密码</system:String>
-	<system:String x:Key="AddDrive.Account">账号</system:String>
+	<system:String x:Key="AddDrive.Account">账户</system:String>
 	<system:String x:Key="AddDrive.Username">用户名</system:String>
 	<system:String x:Key="AddDrive.Password">密码</system:String>
 	<system:String x:Key="AddDrive.Anonymous">匿名</system:String>
@@ -43,20 +43,20 @@
 	<system:String x:Key="AddDrive.TransferMode">传输模式</system:String>
 	<system:String x:Key="AddDrive.Encryption">加密方式</system:String>
 
-	<system:String x:Key="Vailidation.Volume">请输入有效的盘符标签</system:String>
-	<system:String x:Key="Vailidation.VolumeExist">盘符标签已存在</system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidChar">盘符标签不能含有以下字符:</system:String>
+	<system:String x:Key="Vailidation.Volume">请输入有效的卷标</system:String>
+	<system:String x:Key="Vailidation.VolumeExist">卷标已存在</system:String>
+	<system:String x:Key="Vailidation.VolumeInvalidChar">卷标不能含有以下字符:</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidStr">不可使用如下保留名称:</system:String>
 	<system:String x:Key="Vailidation.Letter">请使用尚未分配的盘符</system:String>
-	<system:String x:Key="Vailidation.Address">请输入主机名称或IP地址</system:String>
-	<system:String x:Key="Vailidation.Address.WebDAV">请输入WebDAV地址</system:String>
+	<system:String x:Key="Vailidation.Address">请输入主机名称或 IP 地址</system:String>
+	<system:String x:Key="Vailidation.Address.WebDAV">请输入 WebDAV 地址</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">请选择文件夹</system:String>
 	<system:String x:Key="Vailidation.Port">请输入端口号 (0 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">请输入用户名</system:String>
 	<system:String x:Key="Vailidation.Password">请输入密码</system:String>
 
 	<!--  Menu bar>Settings, account, volume  -->
-	<system:String x:Key="Vailidation.Hint.Volume">驱动器标签</system:String>
+	<system:String x:Key="Vailidation.Hint.Volume">卷标</system:String>
 	<system:String x:Key="Vailidation.Hint.Address">host.example.com</system:String>
 	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">文件夹</system:String>
 	<system:String x:Key="Vailidation.Hint.Username">用户名</system:String>
@@ -74,9 +74,9 @@
 	<system:String x:Key="Button.Check">检查</system:String>
 	<system:String x:Key="Button.Edit">编辑</system:String>
 	<system:String x:Key="Button.Retry">重试</system:String>
-	<system:String x:Key="Button.ReAuth">登陆</system:String>
-	<system:String x:Key="Button.Login">登陆</system:String>
-	<system:String x:Key="Button.SIGNIN">注册</system:String>
+	<system:String x:Key="Button.ReAuth">登录</system:String>
+	<system:String x:Key="Button.Login">登录</system:String>
+	<system:String x:Key="Button.SIGNIN">登录</system:String>
 
 	<system:String x:Key="ToolTip.Connect">连接</system:String>
 	<system:String x:Key="ToolTip.Disconnect">断开连接</system:String>
@@ -118,9 +118,9 @@
 	<system:String x:Key="Message.ErrorRemoteDriveRemake">远程服务器的连接方式已改变. 您需要重新登陆.</system:String>
 	<system:String x:Key="Message.ErrorCacheDiskFull">缓存区存储空间不足. 建议增加或清理存储空间.</system:String>
 	<system:String x:Key="Message.ErrorInternet">无法连接到远程服务器. 请检查网络连接情况并重试.</system:String>
-	<system:String x:Key="Message.ErrorDiskLetterExist">您必须修改驱动器标签.</system:String>
+	<system:String x:Key="Message.ErrorDiskLetterExist">您必须修改驱动器盘符或卷标.</system:String>
 
-	<system:String x:Key="Message.OAuth.InvalidClient">Active Directory下提供的非受控网络</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClient">Active Directory 下提供的非受控网络</system:String>
 	<system:String x:Key="Message.OAuth.InvalidClientDescription">您的账号不受 Active Directory 管理. 请联系 Active Directory 管理员或网络管理员或使用个人账号登陆.</system:String>
 
 	<!--  ConnectResponse Message  -->
@@ -129,7 +129,7 @@
 	<system:String x:Key="WebExceptionStatus.SendFailure">请仔细检查协议 {0} 和端口 {1} 是否正确.</system:String>
 	<system:String x:Key="WebExceptionStatus.ReceiveFailure">请仔细检查协议 {0} 和端口 {1} 是否正确.</system:String>
 
-	<system:String x:Key="HttpStatusCode.MethodNotAllowed">请检查路径 {0} 是否存在,或是否授予了读写权限.</system:String>
+	<system:String x:Key="HttpStatusCode.MethodNotAllowed">请检查路径 {0} 是否存在, 或是否授予了读写权限.</system:String>
 	<system:String x:Key="HttpStatusCode.Unauthorized">认证失败. 请检查您的账号密码.</system:String>
 
 	<system:String x:Key="SocketError.TimedOut">链接超时, 请检查地址是否正确.</system:String>
