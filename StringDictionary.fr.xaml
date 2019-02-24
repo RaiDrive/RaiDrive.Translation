@@ -19,7 +19,7 @@
 	<system:String x:Key="Settings.General.RunAtConnect">Lancer l'explorateur de fichier quand un lecteur est connecté</system:String>
 
 	<system:String x:Key="Notice">Notice</system:String>
-	<system:String x:Key="AddDrive">Ajout</system:String>
+	<system:String x:Key="AddDrive">Ajouter</system:String>
 	<system:String x:Key="AddDrive.Header">Nouveau lecteur</system:String>
 	<system:String x:Key="AddDrive.Storage">Stockage</system:String>
 
@@ -30,7 +30,7 @@
 	<system:String x:Key="AddDrive.Network">Réseau</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">Lecture seule</system:String>
 	<system:String x:Key="AddDrive.MountAtBoot">Reconnecter à la connexion</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Connecter en utilisation des identifiants différents.</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Se connecter en utilisant des identifiants différents</system:String>
 	<system:String x:Key="AddDrive.Account">Compte</system:String>
 	<system:String x:Key="AddDrive.Username">Nom d'utilisateur</system:String>
 	<system:String x:Key="AddDrive.Password">Mot de passe</system:String>
@@ -71,7 +71,7 @@
 	<system:String x:Key="Button.OK">OK</system:String>
 	<system:String x:Key="Button.Apply">Appliquer</system:String>
 	<system:String x:Key="Button.Cancel">Annuler</system:String>
-	<system:String x:Key="Button.Check">Controler</system:String>
+	<system:String x:Key="Button.Check">Vérifier</system:String>
 	<system:String x:Key="Button.Edit">Editer</system:String>
 	<system:String x:Key="Button.Retry">Réessayer</system:String>
 	<system:String x:Key="Button.ReAuth">Se connecter</system:String>
@@ -79,7 +79,7 @@
 	<system:String x:Key="Button.SIGNIN">SE CONNECTER</system:String>
 
 	<system:String x:Key="ToolTip.Connect">Connecter</system:String>
-	<system:String x:Key="ToolTip.Disconnect">Disconnecter</system:String>
+	<system:String x:Key="ToolTip.Disconnect">Déconnecter</system:String>
 	<system:String x:Key="ToolTip.Edit">Editer</system:String>
 	<system:String x:Key="ToolTip.Remove">Retirer</system:String>
 	<system:String x:Key="ToolTip.NetworkDrive">Lecteur réseau</system:String>
@@ -169,7 +169,7 @@
 
 	<system:String x:Key="NotifyIcon.Open">Ouvrir RaiDrive</system:String>
 	<system:String x:Key="NotifyIcon.CheckUpdate">Vérifier les mises à jour</system:String>
-	<system:String x:Key="NotifyIcon.Exit">Sortie</system:String>
+	<system:String x:Key="NotifyIcon.Exit">Quitter</system:String>
 	<system:String x:Key="NotifyIcon.Exit.Message">Êtes-vous sûr de vouloir déconnecter toutes les connexions avant de quitter ?</system:String>
 
 	<system:String x:Key="State.Space.Format">{0} libre de {1} {2}</system:String>
