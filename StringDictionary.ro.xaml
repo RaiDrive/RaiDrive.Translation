@@ -1,0 +1,212 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:RaiDrive.Center.Languages" xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+	<!--  Menu bar>Settings, General  -->
+	<system:String x:Key="Current.Language">ro</system:String>
+
+	<system:String x:Key="Settings">Preferințe</system:String>
+	<system:String x:Key="Settings.Header">Preferințe</system:String>
+	<system:String x:Key="Settings.General">General</system:String>
+	<system:String x:Key="Settings.Language">Limbă</system:String>
+	<system:String x:Key="Settings.Update">Actualizări</system:String>
+	<system:String x:Key="Settings.Facebook">Facebook</system:String>
+	<system:String x:Key="Settings.Facebook.Like">Like</system:String>
+	<system:String x:Key="Settings.TemporaryPath">Cale temporară</system:String>
+	<system:String x:Key="Settings.Default">Implicit</system:String>
+	<system:String x:Key="Settings.License">Licență</system:String>
+	<system:String x:Key="Settings.Proxy">Proxy</system:String>
+
+	<system:String x:Key="Settings.General.RunAtBoot">Rulați automat când pornește Windows</system:String>
+	<system:String x:Key="Settings.General.RunAtConnect">Rulați File Explorer când un drive este conectat</system:String>
+
+	<system:String x:Key="Notice">Observație</system:String>
+	<system:String x:Key="AddDrive">Adaugă</system:String>
+	<system:String x:Key="AddDrive.Header">Drive nou</system:String>
+	<system:String x:Key="AddDrive.Storage">Stocare</system:String>
+
+	<!--  Drive  -->
+	<system:String x:Key="AddDrive.Drive">Drive</system:String>
+
+	<!--  Add New Storage  -->
+	<system:String x:Key="AddDrive.Network">Network</system:String>
+	<system:String x:Key="AddDrive.ReadOnly">Read-only</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Reconectați-vă la logare</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Conectați-vă folosind credențiale diferite</system:String>
+	<system:String x:Key="AddDrive.Account">Cont</system:String>
+	<system:String x:Key="AddDrive.Username">Utilizator</system:String>
+	<system:String x:Key="AddDrive.Password">Parolă</system:String>
+	<system:String x:Key="AddDrive.Anonymous">Anonim</system:String>
+	<system:String x:Key="AddDrive.Address">Adresă</system:String>
+	<system:String x:Key="AddDrive.Port">Port</system:String>
+	<system:String x:Key="AddDrive.Device">Dispozitiv</system:String>
+	<system:String x:Key="AddDrive.PrivateKey">Cheie privată</system:String>
+	<system:String x:Key="AddDrive.Charset">Charset</system:String>
+	<system:String x:Key="AddDrive.TransferMode">Mod transfer</system:String>
+	<system:String x:Key="AddDrive.Encryption">Encriptare</system:String>
+
+	<system:String x:Key="Vailidation.Volume">Introduceți o etichetă de volum validă</system:String>
+	<system:String x:Key="Vailidation.VolumeExist">Acest nume există deja</system:String>
+	<system:String x:Key="Vailidation.VolumeInvalidChar">O etichetă de volum nu poate conține nici unul dintre următoarele caractere:</system:String>
+	<system:String x:Key="Vailidation.VolumeInvalidStr">Nu folosiți urmatoarele nume rezervate:</system:String>
+	<system:String x:Key="Vailidation.Letter">Selectatiți o literă pentru drive</system:String>
+	<system:String x:Key="Vailidation.Address">Introduceți un hostname sau o adresa IP</system:String>
+	<system:String x:Key="Vailidation.Address.WebDAV">Introduceți o adresa URL</system:String>
+	<system:String x:Key="Vailidation.Address.LocalDrive">Selectați un folder din PC</system:String>
+	<system:String x:Key="Vailidation.Port">Introduceți port (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Username">Introduceți un username</system:String>
+	<system:String x:Key="Vailidation.Password">Introduceți o parola</system:String>
+
+	<!--  Menu bar>Settings, account, volume  -->
+	<system:String x:Key="Vailidation.Hint.Volume">Etichetî de volum</system:String>
+	<system:String x:Key="Vailidation.Hint.Address">host.example.com</system:String>
+	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">folder</system:String>
+	<system:String x:Key="Vailidation.Hint.Username">utilizator</system:String>
+	<system:String x:Key="Vailidation.Hint.Password">parolă</system:String>
+	<system:String x:Key="Vailidation.Hint.Port">port</system:String>
+	<system:String x:Key="Vailidation.Hint.Path">cale</system:String>
+	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
+	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">puteți selecta fișierul cu cheia privată</system:String>
+
+	<system:String x:Key="Button.Yes">Da</system:String>
+	<system:String x:Key="Button.No">Nu</system:String>
+	<system:String x:Key="Button.OK">OK</system:String>
+	<system:String x:Key="Button.Apply">Aplică</system:String>
+	<system:String x:Key="Button.Cancel">Anulează</system:String>
+	<system:String x:Key="Button.Check">Verifică</system:String>
+	<system:String x:Key="Button.Edit">Editează</system:String>
+	<system:String x:Key="Button.Retry">Reîncearcă</system:String>
+	<system:String x:Key="Button.ReAuth">Conectare</system:String>
+	<system:String x:Key="Button.Login">Logare</system:String>
+	<system:String x:Key="Button.SIGNIN">CONECTARE</system:String>
+
+	<system:String x:Key="ToolTip.Connect">Conectați</system:String>
+	<system:String x:Key="ToolTip.Disconnect">Deconectați</system:String>
+	<system:String x:Key="ToolTip.Edit">Editează</system:String>
+	<system:String x:Key="ToolTip.Remove">Înlătură</system:String>
+	<system:String x:Key="ToolTip.NetworkDrive">Drive de rețea</system:String>
+	<system:String x:Key="ToolTip.SecureProtocol">Protocol securizat</system:String>
+	<system:String x:Key="ToolTip.SecureConnection">Conexiune Securizată</system:String>
+	<system:String x:Key="ToolTip.Backup">Backup</system:String>
+
+	<system:String x:Key="Message.Title.SelectFolder">Selectează folder</system:String>
+	<system:String x:Key="Message.Title.DeleteDrive">Șterge drive</system:String>
+
+	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive nu suportă un drive de rețea.</system:String>
+	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive nu suportă drive-ul selectat.</system:String>
+	<system:String x:Key="Message.Exist">Acest folder este deja inclus.</system:String>
+	<system:String x:Key="Message.SelectedPath">Calea selectată</system:String>
+	<system:String x:Key="Message.DuplicatedPath">Cale duplicată</system:String>
+
+	<system:String x:Key="Message.SureDelete">Sigur doriți să ștergeți definitiv &quot;{0} ({1})&quot; ?</system:String>
+	<system:String x:Key="Message.Title.ServiceDown">Reinițializează RaiDrive</system:String>
+	<system:String x:Key="Message.Title.Reconnect">Reconectare RaiDrive</system:String>
+	<system:String x:Key="Message.ServiceDown">Apăsați butonul OK și RaiDrive va reporni.</system:String>
+	<system:String x:Key="Message.Settings.Reconnect">Apăsați butonul OK, Trebuie să reconectați stocarea la distanță pentru ca setările modificate să aibă efect.</system:String>
+	<system:String x:Key="Message.NotReady.Reboot">Raidrive nu este gata să pornească, Trebuie să reporniți sistemul.</system:String>
+	<system:String x:Key="Message.NotReady.Driver">Driverul de dispozitiv nu este instalat pe sistem. Trebuie să reinstalați RaiDrive.</system:String>
+	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox suportă Internet Explorer 10, 11. Este recomandat să instalați Internet Explorer 11.</system:String>
+	<system:String x:Key="Message.Connect.By">Connectat de RaiDrive</system:String>
+	<system:String x:Key="Message.Maximum.Drive">Pot fi create până la 8 diskuri în versiunea curentă</system:String>
+	<system:String x:Key="Message.License.Expired">Licența ta a expirat. Trebuie să descărcați noua versiune. Apăsați OK pentru a face upgrade.</system:String>
+	<system:String x:Key="Message.License.NotReady">RaiDrive nu poate valida licența dumneavoastră.</system:String>
+	<system:String x:Key="Message.UnknownSpace">Spațiu necunoscut</system:String>
+	<system:String x:Key="Message.CurrentVersion">Versiunea curentă e {0}</system:String>
+	<system:String x:Key="Message.Cache.Folder.NotSupport">Folderul temporar trebuie să fie un folder de pe unitatea de disc locală. Unitatea de rețea nu este acceptată.</system:String>
+
+	<system:String x:Key="Message.ErrorRemoteDriveAuth">Autorizarea sau autentificarea au eșuat. Doriți să vă autentificați din nou?</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Autorizarea sau autentificarea au eșuat. Doriți să vă re-autentificați? (Dacă tot eșuează, ștergeți drive-ul și recreați-l.)</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveLimit">Limita de descărcare a fost depășită. Restricțiile de descărcare sunt politica {0}.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveRemake">Metoda de conectare la stocarea la distanță a fost modificată. Trebuie să vă conectați din nou.</system:String>
+	<system:String x:Key="Message.ErrorCacheDiskFull">Spațiul de stocare a cache-ului nu este suficient. Ar fi mai bine să creșteți spațiul de stocare.</system:String>
+	<system:String x:Key="Message.ErrorInternet">Imposibil de conectat la spațiul de stocare de la distanță. Verificați conexiunea la internet și încercați din nou.</system:String>
+	<system:String x:Key="Message.ErrorDiskLetterExist">Trebuie să schimbați litera sau numele drive-ului.</system:String>
+
+	<system:String x:Key="Message.OAuth.InvalidClient">Domeniu neadministrat de Active Directory</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClientDescription">Contul dvs. nu este gestionat de Active Directory. Trebuie să contactați Active Directory sau administratorul domeniului sau să vă conectați cu un cont personal.</system:String>
+
+	<!--  ConnectResponse Message  -->
+	<system:String x:Key="WebExceptionStatus.ConnectFailure">Verificați adresa.</system:String>
+	<system:String x:Key="WebExceptionStatus.ConnectionClosed">Reverificați modul protocol{0} și port{1}.</system:String>
+	<system:String x:Key="WebExceptionStatus.SendFailure">Reverificați modul protocol{0} și port{1}.</system:String>
+	<system:String x:Key="WebExceptionStatus.ReceiveFailure">Reverificați modul protocol{0} și port{1}.</system:String>
+
+	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Verificați dacă path{0} există sau dacă accesul este permis. </system:String>
+	<system:String x:Key="HttpStatusCode.Unauthorized">Autentificarea a eșuat. Verificați-vă contul (parola).</system:String>
+
+	<system:String x:Key="SocketError.TimedOut">Verificați adresa.</system:String>
+	<system:String x:Key="SocketError.ConnectionRefused"> Verificați port{0}.</system:String>
+
+	<system:String x:Key="OtherResponseCode.2">Calea nu a fost găsită. Verificați path{0}.</system:String>
+	<system:String x:Key="OtherResponseCode.3">>Reverificați modul protocol{0} și port{1}.</system:String>
+	<!--  ConnectResponse Message  -->
+
+	<system:String x:Key="Words.Reason">Motiv</system:String>
+	<system:String x:Key="Words.Delegation.Stop">Delegare anulată</system:String>
+	<system:String x:Key="Words.Drive">Drive</system:String>
+	<system:String x:Key="Words.FreeSpace">Spațiu liber</system:String>
+	<system:String x:Key="Words.Send.Opinion">Trimite păreri</system:String>
+	<system:String x:Key="Words.Code">Cod</system:String>
+	<system:String x:Key="Words.Path">Cale</system:String>
+	<system:String x:Key="Words.File">Fișier</system:String>
+	<system:String x:Key="Words.Ready">Disponibil</system:String>
+	<system:String x:Key="Words.Time">Timp</system:String>
+	<system:String x:Key="Words.Error">Eroare</system:String>
+	<system:String x:Key="Words.State">Stare</system:String>
+	<system:String x:Key="Words.Size">Mărime</system:String>
+	<system:String x:Key="Words.Description">Descriere</system:String>
+
+	<system:String x:Key="Help.Text">AJUTOR</system:String>
+	<system:String x:Key="Help.Add.Drive">ÎNCEPE AICI~</system:String>
+	<system:String x:Key="Help.ServiceDown">Serviciul RaiDrive a fost oprit.</system:String>
+	<system:String x:Key="Help.ServiceDown.Press">Apăsați butonul OK și RaiDrive va reporni.</system:String>
+	<system:String x:Key="Help.InternetDown">Conexiunea dvs. la internet pare să fie deconectată. Verificați conexiunea la internet.</system:String>
+	<system:String x:Key="Help.InternetDown.RetryAfter">Încearcă dupa {0} secundă(e).</system:String>
+	<system:String x:Key="Help.License.ForBusiness">pentru versiunea business</system:String>
+
+	<system:String x:Key="Upgrade">Upgrade</system:String>
+	<system:String x:Key="Upgrade.Uptodate">Utilizați cea mai recentă versiune</system:String>
+	<system:String x:Key="Upgrade.NewVersion">Puteți trece la versiunea {0}</system:String>
+	<system:String x:Key="Upgrade.New">Puteți să faceți upgrade la noua versiune</system:String>
+
+	<system:String x:Key="NotifyIcon.Open">Deschide RaiDrive</system:String>
+	<system:String x:Key="NotifyIcon.CheckUpdate">Verifică actualizări</system:String>
+	<system:String x:Key="NotifyIcon.Exit">Exit</system:String>
+	<system:String x:Key="NotifyIcon.Exit.Message">Sigur doriți să deconectați toate conexiunile înainte de a ieși?</system:String>
+
+	<system:String x:Key="State.Space.Format">{0} disponibil din {1} {2}</system:String>
+	<system:String x:Key="State.Space.Used">ocupat</system:String>
+
+	<system:String x:Key="Brand.Synology">Synology</system:String>
+	<system:String x:Key="Brand.QNAP">QNAP</system:String>
+	<system:String x:Key="Brand.Box_com">Box</system:String>
+	<system:String x:Key="Brand.ipTIME">ipTIME</system:String>
+	<system:String x:Key="Brand.WD">WD</system:String>
+	<system:String x:Key="Brand.etc">etc</system:String>
+
+	<!--  backup  -->
+	<system:String x:Key="Backup">Backup</system:String>
+	<system:String x:Key="Backup.Add">Adaugă</system:String>
+	<system:String x:Key="Backup.Delete">Șterge</system:String>
+	<system:String x:Key="Backup.Start">Pornește</system:String>
+	<system:String x:Key="Backup.Stop">Oprește</system:String>
+	<system:String x:Key="Backup.BackupNOW">Crează BACKUP ACUM</system:String>
+	<system:String x:Key="Backup.NOW">ACUM</system:String>
+	<system:String x:Key="Backup.Save">Salvează</system:String>
+	<system:String x:Key="Backup.ClearLog">Șterge log</system:String>
+	<system:String x:Key="Backup.DestRootFolder">Folder la distanță</system:String>
+	<system:String x:Key="Backup.SourceFolders">Folder sursă</system:String>
+	<system:String x:Key="Backup.Progress">Progres</system:String>
+	<system:String x:Key="Backup.AutoStart">Pornește automat</system:String>
+	<system:String x:Key="Backup.LogTab.Current">Curentă</system:String>
+	<system:String x:Key="Backup.LogTab.All">Toate</system:String>
+	<system:String x:Key="Backup.LogTab.Error">Eroare</system:String>
+	<system:String x:Key="Backup.LogTab.Ready">Disponibil</system:String>
+	<system:String x:Key="Backup.LogTab.Left">Rămas</system:String>
+	<system:String x:Key="Backup.LogTab.File">Fișier</system:String>
+	<system:String x:Key="Backup.LogTab.Folder">Folder</system:String>
+	<system:String x:Key="Backup.LogTab.FollowLatest">urmarețte ultimele</system:String>
+	<system:String x:Key="Backup.Count.Left">Rămase</system:String>
+	<system:String x:Key="Backup.Count.Processed">Procesat</system:String>
+
+	<system:String x:Key="Message.Backup.BackupTargetFolder">Selectați un dosar la distanță unde vor fi stocate fișierele</system:String>
+
+</ResourceDictionary>
