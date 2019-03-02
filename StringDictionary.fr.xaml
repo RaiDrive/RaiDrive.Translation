@@ -158,7 +158,7 @@
 	<system:String x:Key="Help.Add.Drive">ET C'EST PARTI~</system:String>
 	<system:String x:Key="Help.ServiceDown">Le service RaiDrive s'est arrêté.</system:String>
 	<system:String x:Key="Help.ServiceDown.Press">Veuillez cliquer sur le bouton pour reconnecter RaiDrive.</system:String>
-	<system:String x:Key="Help.InternetDown">Votre connexion Internet semble être déconnectée. Veuillez vérifier votre connexion internet.</system:String>
+	<system:String x:Key="Help.InternetDown">Vous semblez être déconnecté d'Internet. Veuillez vérifier votre connexion.</system:String>
 	<system:String x:Key="Help.InternetDown.RetryAfter">Réessayez après {0} seconde (s).</system:String>
 	<system:String x:Key="Help.License.ForBusiness">pour la version Entreprise</system:String>
 
@@ -173,7 +173,7 @@
 	<system:String x:Key="NotifyIcon.Exit.Message">Êtes-vous sûr de vouloir déconnecter toutes les connexions avant de quitter ?</system:String>
 
 	<system:String x:Key="State.Space.Format">{0} libre de {1} {2}</system:String>
-	<system:String x:Key="State.Space.Used">utilisé</system:String>
+	<system:String x:Key="State.Space.Used">utilisés</system:String>
 
 	<system:String x:Key="Brand.Synology">Synology</system:String>
 	<system:String x:Key="Brand.QNAP">QNAP</system:String>
