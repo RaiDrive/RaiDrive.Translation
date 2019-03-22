@@ -3,45 +3,45 @@
 	<!--  Menu bar>Settings, General  -->
 	<system:String x:Key="Current.Language">cs</system:String>
 
-	<system:String x:Key="Settings">Settings</system:String>
-	<system:String x:Key="Settings.Header">Settings</system:String>
-	<system:String x:Key="Settings.General">General</system:String>
-	<system:String x:Key="Settings.Language">Language</system:String>
-	<system:String x:Key="Settings.Update">Update</system:String>
+	<system:String x:Key="Settings">Nastavení</system:String>
+	<system:String x:Key="Settings.Header">Nastavení/system:String>
+	<system:String x:Key="Settings.General">Obecné</system:String>
+	<system:String x:Key="Settings.Language">Jazyk</system:String>
+	<system:String x:Key="Settings.Update">Aktualizovat</system:String>
 	<system:String x:Key="Settings.Facebook">Facebook</system:String>
 	<system:String x:Key="Settings.Facebook.Like">Like</system:String>
-	<system:String x:Key="Settings.TemporaryPath">Temporary</system:String>
-	<system:String x:Key="Settings.Default">Default</system:String>
-	<system:String x:Key="Settings.License">License</system:String>
+	<system:String x:Key="Settings.TemporaryPath">Dočasná složka</system:String>
+	<system:String x:Key="Settings.Default">Obnovit výchozí</system:String>
+	<system:String x:Key="Settings.License">Licence</system:String>
 	<system:String x:Key="Settings.Proxy">Proxy</system:String>
 
-	<system:String x:Key="Settings.General.RunAtBoot">Run a program automatically when Windows starts</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">Run File Explorer when a drive has connected</system:String>
+	<system:String x:Key="Settings.General.RunAtBoot">Spustit RaiDrive při startu Windows?</system:String>
+	<system:String x:Key="Settings.General.RunAtConnect">Otevřít automaticky Průzkumník, pokud je připojena jednotka?</system:String>
 
-	<system:String x:Key="Notice">Notice</system:String>
-	<system:String x:Key="AddDrive">Add</system:String>
-	<system:String x:Key="AddDrive.Header">New Drive</system:String>
-	<system:String x:Key="AddDrive.Storage">Storage</system:String>
+	<system:String x:Key="Notice">Upozornění</system:String>
+	<system:String x:Key="AddDrive">Přidat</system:String>
+	<system:String x:Key="AddDrive.Header">Nová jednotka</system:String>
+	<system:String x:Key="AddDrive.Storage">Úložiště</system:String>
 
 	<!--  Drive  -->
-	<system:String x:Key="AddDrive.Drive">Drive</system:String>
+	<system:String x:Key="AddDrive.Drive">Disk</system:String>
 
 	<!--  Add New Storage  -->
-	<system:String x:Key="AddDrive.Network">Network</system:String>
-	<system:String x:Key="AddDrive.ReadOnly">Read-only</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at signin</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Connect using different credentials</system:String>
-	<system:String x:Key="AddDrive.Account">Account</system:String>
-	<system:String x:Key="AddDrive.Username">Username</system:String>
-	<system:String x:Key="AddDrive.Password">Password</system:String>
-	<system:String x:Key="AddDrive.Anonymous">Anonymous</system:String>
-	<system:String x:Key="AddDrive.Address">Address</system:String>
+	<system:String x:Key="AddDrive.Network">Síťové úložiště</system:String>
+	<system:String x:Key="AddDrive.ReadOnly">Pouze pro čtení</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Připojit při přihlášení</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Propojit za pomoci jiných pověření</system:String>
+	<system:String x:Key="AddDrive.Account">Účet</system:String>
+	<system:String x:Key="AddDrive.Username">Uživatelské jméno</system:String>
+	<system:String x:Key="AddDrive.Password">Uživatelské heslo</system:String>
+	<system:String x:Key="AddDrive.Anonymous">Anonymní přihlášení</system:String>
+	<system:String x:Key="AddDrive.Address">Cesta</system:String>
 	<system:String x:Key="AddDrive.Port">Port</system:String>
-	<system:String x:Key="AddDrive.Device">Device</system:String>
-	<system:String x:Key="AddDrive.PrivateKey">Private Key</system:String>
-	<system:String x:Key="AddDrive.Charset">Charset</system:String>
-	<system:String x:Key="AddDrive.TransferMode">Transfer Mode</system:String>
-	<system:String x:Key="AddDrive.Encryption">Encryption</system:String>
+	<system:String x:Key="AddDrive.Device">Zařízení</system:String>
+	<system:String x:Key="AddDrive.PrivateKey">Osobní klíč</system:String>
+	<system:String x:Key="AddDrive.Charset">Kódování</system:String>
+	<system:String x:Key="AddDrive.TransferMode">Režim přenosu</system:String>
+	<system:String x:Key="AddDrive.Encryption">Šifrování</system:String>
 
 	<system:String x:Key="Vailidation.Volume">Please enter a valid volume label</system:String>
 	<system:String x:Key="Vailidation.VolumeExist">This name alreay exists</system:String>
