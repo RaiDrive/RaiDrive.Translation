@@ -34,11 +34,11 @@
 	<system:String x:Key="AddDrive.Account">アカウント</system:String>
 	<system:String x:Key="AddDrive.Username">ユーザーID</system:String>
 	<system:String x:Key="AddDrive.Password">パスワード</system:String>
-	<system:String x:Key="AddDrive.Anonymous">匿名</system:String>
+	<system:String x:Key="AddDrive.Anonymous">Anonymous</system:String>
 	<system:String x:Key="AddDrive.Address">アドレス</system:String>
 	<system:String x:Key="AddDrive.Port">ポート番号</system:String>
 	<system:String x:Key="AddDrive.Device">デバイス</system:String>
-	<system:String x:Key="AddDrive.PrivateKey">Private key</system:String>
+	<system:String x:Key="AddDrive.PrivateKey">秘密鍵</system:String>
 	<system:String x:Key="AddDrive.Charset">文字コード</system:String>
 	<system:String x:Key="AddDrive.TransferMode">転送モード</system:String>
 	<system:String x:Key="AddDrive.Encryption">暗号化</system:String>
@@ -48,7 +48,7 @@
 	<system:String x:Key="Vailidation.VolumeInvalidChar">ドライブ名に次のような文字は入力できません:</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidStr">下段の予約されたドライブ名は入力できません:</system:String>
 	<system:String x:Key="Vailidation.Letter">まだ割り当てられていないドライブを選択してください</system:String>
-	<system:String x:Key="Vailidation.Address">hostnameまたはIPアドレスを入力してください</system:String>
+	<system:String x:Key="Vailidation.Address">ホスト名またはIPアドレスを入力してください</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">URLを入力してください</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">フォルダを選択してください</system:String>
 	<system:String x:Key="Vailidation.Port">ポート番号を入力してください (0 ~ 65535)</system:String>
@@ -64,7 +64,7 @@
 	<system:String x:Key="Vailidation.Hint.Port">ポート番号</system:String>
 	<system:String x:Key="Vailidation.Hint.Path">パス</system:String>
 	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">Private keyファイルを選択できます</system:String>
+	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">秘密鍵ファイルを選択できます</system:String>
 
 	<system:String x:Key="Button.Yes">はい</system:String>
 	<system:String x:Key="Button.No">いいえ</system:String>
@@ -73,7 +73,7 @@
 	<system:String x:Key="Button.Cancel">取り消し</system:String>
 	<system:String x:Key="Button.Check">確認</system:String>
 	<system:String x:Key="Button.Edit">編集</system:String>
-	<system:String x:Key="Button.Retry">リロード</system:String>
+	<system:String x:Key="Button.Retry">再試行</system:String>
 	<system:String x:Key="Button.ReAuth">再ログイン</system:String>
 	<system:String x:Key="Button.Login">ログイン</system:String>
 	<system:String x:Key="Button.SIGNIN">ログイン</system:String>
@@ -99,29 +99,29 @@
 	<system:String x:Key="Message.SureDelete">永久的に &quot;{0} ({1})&quot; を削除しますか?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">RaiDriveを再起動</system:String>
 	<system:String x:Key="Message.Title.Reconnect">RaiDrive再接続</system:String>
-	<system:String x:Key="Message.ServiceDown">OKボタンをクリックしてください、RaiDriveを再起動します</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">OKボタンをクリックしてください、変更された設定を反映するにはリモートドライブの再マウントが必要です</system:String>
-	<system:String x:Key="Message.NotReady.Reboot">RaiDrive起動の準備が完了していません、再起動する必要があります</system:String>
-	<system:String x:Key="Message.NotReady.Driver">デバイスドライバーがインストールされていません、RaiDriveを再インストールしてください</system:String>
-	<system:String x:Key="Message.NotSupport.Browser.Dropbox">DropboxはInternet Explorer 10, 11バージョンをサポートしています、Internet Explorer 11の使用をお勧めします</system:String>
+	<system:String x:Key="Message.ServiceDown">OKボタンをクリックしてください RaiDriveを再起動します</system:String>
+	<system:String x:Key="Message.Settings.Reconnect">OKボタンをクリックしてください 変更された設定を反映するにはリモートドライブの再マウントが必要です</system:String>
+	<system:String x:Key="Message.NotReady.Reboot">RaiDrive起動の準備が完了していません 再起動する必要があります</system:String>
+	<system:String x:Key="Message.NotReady.Driver">デバイスドライバーがインストールされていません RaiDriveを再インストールしてください</system:String>
+	<system:String x:Key="Message.NotSupport.Browser.Dropbox">DropboxはInternet Explorer 10, 11バージョンをサポートしています Internet Explorer 11の使用をお勧めします</system:String>
 	<system:String x:Key="Message.Connect.By">RaiDriveによってマウント</system:String>
 	<system:String x:Key="Message.Maximum.Drive">現在のバージョンでは最大8のドライブを生成できます</system:String>
-	<system:String x:Key="Message.License.Expired">ライセンスが満了されました、新しいバージョンにアップデートする必要があります、OKボタンをクリックするとアップデートを開始します</system:String>
+	<system:String x:Key="Message.License.Expired">ライセンスが失効しました 新しいバージョンにアップデートする必要があります OKボタンをクリックするとアップデートを開始します</system:String>
 	<system:String x:Key="Message.License.NotReady">ライセンスを確認できません</system:String>
 	<system:String x:Key="Message.UnknownSpace">不明の空き領域</system:String>
 	<system:String x:Key="Message.CurrentVersion">現在のバージョンは {0} です</system:String>
-	<system:String x:Key="Message.Cache.Folder.NotSupport">一時フォルダの指定はローカルディスクドライブのフォルダのみ可能です、ネットワークドライブを指定することはできません</system:String>
+	<system:String x:Key="Message.Cache.Folder.NotSupport">一時フォルダの指定はローカルディスクドライブのフォルダのみ可能です ネットワークドライブを指定することはできません</system:String>
 
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">権限付与または認証に失敗しました、再認証しますか?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">権限付与または認証に失敗しました、再認証しますか? (また失敗した場合には該当するドライブを削除してから再度ドライブを生成してください)</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveLimit">ダウンロードの割り当て量を超えています、ダウンロード制限は {0} の政策です</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">リモートストレージの接続方式が変更されました、再ログインする必要があります</system:String>
-	<system:String x:Key="Message.ErrorCacheDiskFull">cache保存空間がほとんど残っていません、保存空間を増やす必要があります</system:String>
-	<system:String x:Key="Message.ErrorInternet">リモートストレージをマウントできません、インターネット接続を確認してから再度お試しください</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveAuth">権限付与または認証に失敗しました 再認証しますか?</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">権限付与または認証に失敗しました 再認証しますか? (また失敗した場合には該当するドライブを削除してから再度ドライブを生成してください)</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveLimit">ダウンロードの割り当て量を超えています ダウンロード制限は {0} の政策です</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveRemake">リモートストレージの接続方式が変更されました 再ログインする必要があります</system:String>
+	<system:String x:Key="Message.ErrorCacheDiskFull">cache保存空間がほとんど残っていません 保存空間を増やす必要があります</system:String>
+	<system:String x:Key="Message.ErrorInternet">リモートストレージをマウントできません インターネット接続を確認してから再度お試しください</system:String>
 	<system:String x:Key="Message.ErrorDiskLetterExist">ドライブラベルまたはドライブ名を変更する必要があります</system:String>
 
 	<system:String x:Key="Message.OAuth.InvalidClient">Active Directoryで管理されていないドメイン</system:String>
-	<system:String x:Key="Message.OAuth.InvalidClientDescription">Active Directoryで管理されていないアカウントです、個人アカウントでログインするか、Active Directoryまたは管理者にお問い合わせください</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClientDescription">Active Directoryで管理されていないアカウントです 個人アカウントでログインするか、Active Directoryまたは管理者にお問い合わせください</system:String>
 
 	<!--  ConnectResponse Message  -->
 	<system:String x:Key="WebExceptionStatus.ConnectFailure">アドレスを確認してください</system:String>
@@ -130,12 +130,12 @@
 	<system:String x:Key="WebExceptionStatus.ReceiveFailure">protocol{0}とポート番号{1}を確認してください</system:String>
 
 	<system:String x:Key="HttpStatusCode.MethodNotAllowed">パス{0}が有効なパスであるか確認してください</system:String>
-	<system:String x:Key="HttpStatusCode.Unauthorized">認証に失敗しました、ユーザーID(パスワード)を確認してください</system:String>
+	<system:String x:Key="HttpStatusCode.Unauthorized">認証に失敗しました ユーザーID(パスワード)を確認してください</system:String>
 
 	<system:String x:Key="SocketError.TimedOut">アドレスを確認してください</system:String>
 	<system:String x:Key="SocketError.ConnectionRefused">ポート番号{0}を確認してください</system:String>
 
-	<system:String x:Key="OtherResponseCode.2">パスが見つかりません、パス{0}を確認してください</system:String>
+	<system:String x:Key="OtherResponseCode.2">パスが見つかりません パス{0}を確認してください</system:String>
 	<system:String x:Key="OtherResponseCode.3">protocol{0}とポート番号{1}を確認してください</system:String>
 	<!--  ConnectResponse Message  -->
 
@@ -155,10 +155,10 @@
 	<system:String x:Key="Words.Description">説明</system:String>
 
 	<system:String x:Key="Help.Text">ヘルプ</system:String>
-	<system:String x:Key="Help.Add.Drive">さぁ、こっちをクリックして始めましょう</system:String>
+	<system:String x:Key="Help.Add.Drive">さぁ、ここをクリックして始めましょう</system:String>
 	<system:String x:Key="Help.ServiceDown">RaiDrive Serviceが中止されました</system:String>
-	<system:String x:Key="Help.ServiceDown.Press">ボタンをクリックしてください、RaiDriveが再起動します</system:String>
-	<system:String x:Key="Help.InternetDown">インターネット接続が切られています、インターネット接続を確認してください</system:String>
+	<system:String x:Key="Help.ServiceDown.Press">ボタンをクリックしてください RaiDriveが再起動します</system:String>
+	<system:String x:Key="Help.InternetDown">インターネット接続がありません インターネット接続を確認してください</system:String>
 	<system:String x:Key="Help.InternetDown.RetryAfter"> {0} 秒後に再度確認します</system:String>
 	<system:String x:Key="Help.License.ForBusiness">ビジネスバージョン用</system:String>
 
