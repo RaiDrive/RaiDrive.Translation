@@ -9,7 +9,7 @@ Your contribution can be recorded through the "Pull Request".
 File name | Language | Translated 
 ----------|----------|------------
 StringDictionary.ar.xaml | Arabic | O 
-StringDictionary.cs.xaml | Czech |   
+StringDictionary.cs.xaml | Czech | Translating...  
 StringDictionary.da.xaml | Danish | O  
 StringDictionary.de.xaml | German | O 
 StringDictionary.en.xaml | English | O 
