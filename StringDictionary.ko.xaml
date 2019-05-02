@@ -29,10 +29,7 @@
 	<!--  네트워크 드라이브 연결  -->
 	<system:String x:Key="AddDrive.Network">네크워크</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">읽기전용</system:String>
-	<!--
-	<system:String x:Key="AddDrive.MountAtBoot">로그인할 때 다시 연결</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">다른 자격 증명을 사용하여 연결</system:String>
-	-->
+
 	<system:String x:Key="AddDrive.MountAtBoot">프로그램이 시작될 때 자동연결</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">연결할 때마다 로그인</system:String>
 	<system:String x:Key="AddDrive.Account">계정</system:String>
@@ -46,7 +43,6 @@
 	<system:String x:Key="AddDrive.Charset">문자셋</system:String>
 	<system:String x:Key="AddDrive.TransferMode">전송모드</system:String>
 	<system:String x:Key="AddDrive.Encryption">암호화</system:String>
-
 
 	<system:String x:Key="Vailidation.Volume">드라이브 이름을 입력해 주세요</system:String>
 	<system:String x:Key="Vailidation.VolumeExist">이미 존재하는 이름입니다</system:String>
@@ -212,5 +208,14 @@
 	<system:String x:Key="Backup.Count.Processed">처리</system:String>
 
 	<system:String x:Key="Message.Backup.BackupTargetFolder">파일이 저장될 원격폴더를 선택하세요</system:String>
+
+	<!-- from version 1.6.0.416 -->
+	<system:String x:Key="Settings.General.UseDriveIcon">연결된 드라이브에 사용자 정의 아이콘 사용</system:String>
+	<system:String x:Key="AddDrive.LocalDisk">로컬 디스크</system:String>
+	<system:String x:Key="AddDrive.FileLock">파일 잠금</system:String>
+	<system:String x:Key="AddDrive.WritableDrive">쓰기가능 드라이브</system:String>
+	<system:String x:Key="ToolTip.LocalDisk">로컬 디스크 처럼 마운트</system:String>
+	<system:String x:Key="ToolTip.FileLock">WebDAV 파일 잠금</system:String>
+	<system:String x:Key="ToolTip.FileLock2">WebDAV 서버에 종속적</system:String>
 
 </ResourceDictionary>
