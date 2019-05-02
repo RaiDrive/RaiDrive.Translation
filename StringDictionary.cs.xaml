@@ -90,11 +90,11 @@
 	<system:String x:Key="Message.Title.SelectFolder">Zvolte složku</system:String>
 	<system:String x:Key="Message.Title.DeleteDrive">Odebrat úložiště</system:String>
 
-	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive does not support a network drive.</system:String>
-	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive does not support a drive to connect by itself.</system:String>
-	<system:String x:Key="Message.Exist">This folder is already included.</system:String>
-	<system:String x:Key="Message.SelectedPath">Selected Path</system:String>
-	<system:String x:Key="Message.DuplicatedPath">Duplicated Path</system:String>
+	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive nepodporuje síťové úložiště.</system:String>
+	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive nepodporuje samovolní připojení disku.</system:String>
+	<system:String x:Key="Message.Exist">Tato složka je již zahrnuta ve vašem výběru.</system:String>
+	<system:String x:Key="Message.SelectedPath">Vybraná cesta.</system:String>
+	<system:String x:Key="Message.DuplicatedPath">Duplicitní cesta.</system:String>
 
 	<system:String x:Key="Message.SureDelete">Are you sure you want to permanently delete &quot;{0} ({1})&quot; ?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">Revive RaiDrive</system:String>
@@ -154,23 +154,23 @@
 	<system:String x:Key="Words.Size">Size</system:String>
 	<system:String x:Key="Words.Description">Description</system:String>
 
-	<system:String x:Key="Help.Text">HELP</system:String>
-	<system:String x:Key="Help.Add.Drive">HERE WE GO~</system:String>
-	<system:String x:Key="Help.ServiceDown">RaiDrive Service was stopped.</system:String>
-	<system:String x:Key="Help.ServiceDown.Press">Please press button, RaiDrive will be alive.</system:String>
-	<system:String x:Key="Help.InternetDown">Your internet connection seems to be disconnected. Please check your internet connection.</system:String>
-	<system:String x:Key="Help.InternetDown.RetryAfter">Retry after {0} second(s).</system:String>
-	<system:String x:Key="Help.License.ForBusiness">for the business version</system:String>
+	<system:String x:Key="Help.Text">POMOC</system:String>
+	<system:String x:Key="Help.Add.Drive">JDEME NA TO~</system:String>
+	<system:String x:Key="Help.ServiceDown">Služba RaiDrive neodpovídá.</system:String>
+	<system:String x:Key="Help.ServiceDown.Press">Prosím stiskněte toto tlačítko pro obnovení RaiDrive.</system:String>
+	<system:String x:Key="Help.InternetDown">Prosím zkontrolujte vaše připojení k internetu.</system:String>
+	<system:String x:Key="Help.InternetDown.RetryAfter">Opakuji pokus zbývá: {0} sekund(s).</system:String>
+	<system:String x:Key="Help.License.ForBusiness">pro PRO verzi</system:String>
 
-	<system:String x:Key="Upgrade">Upgrade</system:String>
-	<system:String x:Key="Upgrade.Uptodate">You are using the latest version</system:String>
-	<system:String x:Key="Upgrade.NewVersion">You can upgrade to the version {0}</system:String>
-	<system:String x:Key="Upgrade.New">You can upgrade to the new version</system:String>
+	<system:String x:Key="Upgrade">Upgradovat</system:String>
+	<system:String x:Key="Upgrade.Uptodate">Využíváte poslední vydanou verzi</system:String>
+	<system:String x:Key="Upgrade.NewVersion">Je dostupná nová verze: {0}</system:String>
+	<system:String x:Key="Upgrade.New">Nová verze programu je dostupná.</system:String>
 
-	<system:String x:Key="NotifyIcon.Open">Open RaiDrive</system:String>
-	<system:String x:Key="NotifyIcon.CheckUpdate">Check update</system:String>
-	<system:String x:Key="NotifyIcon.Exit">Exit</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">Are you sure you want to disconnect all connections before exit?</system:String>
+	<system:String x:Key="NotifyIcon.Open">Otevřít RaiDrive</system:String>
+	<system:String x:Key="NotifyIcon.CheckUpdate">Zkontrolovat aktualizace</system:String>
+	<system:String x:Key="NotifyIcon.Exit">Ukončit</system:String>
+	<system:String x:Key="NotifyIcon.Exit.Message">Jste si jistí, že chcete ukončit všechna spojení před vypnutím programu?</system:String>
 
 	<system:String x:Key="State.Space.Format">{0} free of {1} {2}</system:String>
 	<system:String x:Key="State.Space.Used">used</system:String>
@@ -180,42 +180,42 @@
 	<system:String x:Key="Brand.Box_com">Box</system:String>
 	<system:String x:Key="Brand.ipTIME">ipTIME</system:String>
 	<system:String x:Key="Brand.WD">WD</system:String>
-	<system:String x:Key="Brand.etc">etc</system:String>
+	<system:String x:Key="Brand.etc">apod.</system:String>
 
 	<!--  backup  -->
-	<system:String x:Key="Backup">Backup</system:String>
-	<system:String x:Key="Backup.Add">Add</system:String>
-	<system:String x:Key="Backup.Delete">Delete</system:String>
+	<system:String x:Key="Backup">Záloha</system:String>
+	<system:String x:Key="Backup.Add">Přidat</system:String>
+	<system:String x:Key="Backup.Delete">Smazat</system:String>
 	<system:String x:Key="Backup.Start">Start</system:String>
 	<system:String x:Key="Backup.Stop">Stop</system:String>
-	<system:String x:Key="Backup.BackupNOW">Backup NOW</system:String>
-	<system:String x:Key="Backup.NOW">NOW</system:String>
-	<system:String x:Key="Backup.Save">Save</system:String>
-	<system:String x:Key="Backup.ClearLog">Clear log</system:String>
-	<system:String x:Key="Backup.DestRootFolder">Remote Folder</system:String>
-	<system:String x:Key="Backup.SourceFolders">Source Folder</system:String>
-	<system:String x:Key="Backup.Progress">Progress</system:String>
-	<system:String x:Key="Backup.AutoStart">Auto Start</system:String>
-	<system:String x:Key="Backup.LogTab.Current">Current</system:String>
-	<system:String x:Key="Backup.LogTab.All">All</system:String>
-	<system:String x:Key="Backup.LogTab.Error">Error</system:String>
-	<system:String x:Key="Backup.LogTab.Ready">Ready</system:String>
-	<system:String x:Key="Backup.LogTab.Left">Left</system:String>
-	<system:String x:Key="Backup.LogTab.File">File</system:String>
-	<system:String x:Key="Backup.LogTab.Folder">Folder</system:String>
-	<system:String x:Key="Backup.LogTab.FollowLatest">Follow Latest</system:String>
-	<system:String x:Key="Backup.Count.Left">Left</system:String>
-	<system:String x:Key="Backup.Count.Processed">Processed</system:String>
+	<system:String x:Key="Backup.BackupNOW">Provést zálohování nyní</system:String>
+	<system:String x:Key="Backup.NOW">Nyní</system:String>
+	<system:String x:Key="Backup.Save">Uložit</system:String>
+	<system:String x:Key="Backup.ClearLog">Vyčistit log</system:String>
+	<system:String x:Key="Backup.DestRootFolder">Vzdálená složka</system:String>
+	<system:String x:Key="Backup.SourceFolders">Zdrojová složka</system:String>
+	<system:String x:Key="Backup.Progress">Stav</system:String>
+	<system:String x:Key="Backup.AutoStart">Automatický start</system:String>
+	<system:String x:Key="Backup.LogTab.Current">Aktuální</system:String>
+	<system:String x:Key="Backup.LogTab.All">Vše</system:String>
+	<system:String x:Key="Backup.LogTab.Error">Chyba</system:String>
+	<system:String x:Key="Backup.LogTab.Ready">Připraven</system:String>
+	<system:String x:Key="Backup.LogTab.Left">Zbývá</system:String>
+	<system:String x:Key="Backup.LogTab.File">Soubor</system:String>
+	<system:String x:Key="Backup.LogTab.Folder">Složka</system:String>
+	<system:String x:Key="Backup.LogTab.FollowLatest">Poslední verze</system:String>
+	<system:String x:Key="Backup.Count.Left">Zbývá</system:String>
+	<system:String x:Key="Backup.Count.Processed">Zpracováno</system:String>
 
-	<system:String x:Key="Message.Backup.BackupTargetFolder">Select a remote folder where files will be stored</system:String>
+	<system:String x:Key="Message.Backup.BackupTargetFolder">Zvolte vzdálenou složku do které budou soubory nahrávány.</system:String>
 
 	<!-- from version 1.6.0.416 -->
-	<system:String x:Key="Settings.General.UseDriveIcon">Use the custom icon on a connected drive</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">Local Disk</system:String>
-	<system:String x:Key="AddDrive.FileLock">File Lock</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">Writable Drive</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">Mount like a local disk</system:String>
-	<system:String x:Key="ToolTip.FileLock">WebDAV File Lock</system:String>
-	<system:String x:Key="ToolTip.FileLock2">depends on WebDAV server</system:String>
+	<system:String x:Key="Settings.General.UseDriveIcon">Použít vlastní ikonu pro připojený disk</system:String>
+	<system:String x:Key="AddDrive.LocalDisk">Místní disk</system:String>
+	<system:String x:Key="AddDrive.FileLock">Subor uzamčen</system:String>
+	<system:String x:Key="AddDrive.WritableDrive">Na tento disk lze zapisovat</system:String>
+	<system:String x:Key="ToolTip.LocalDisk">Připojit jako lokální disk</system:String>
+	<system:String x:Key="ToolTip.FileLock">WebDAV soubor je uzamčen</system:String>
+	<system:String x:Key="ToolTip.FileLock2">závisí na WebDAV serveru</system:String>
 
 </ResourceDictionary>
