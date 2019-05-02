@@ -210,12 +210,12 @@
 	<system:String x:Key="Message.Backup.BackupTargetFolder">選擇要儲存檔案的遠端資料夾</system:String>
 
 	<!-- from version 1.6.0.416 -->
-	<system:String x:Key="Settings.General.UseDriveIcon">Use the custom icon on a connected drive</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">Local Disk</system:String>
-	<system:String x:Key="AddDrive.FileLock">File Lock</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">Writable Drive</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">Mount like a local disk</system:String>
-	<system:String x:Key="ToolTip.FileLock">WebDAV File Lock</system:String>
-	<system:String x:Key="ToolTip.FileLock2">depends on WebDAV server</system:String>
+	<system:String x:Key="Settings.General.UseDriveIcon">在已連線磁碟機上使用自訂圖示</system:String>
+	<system:String x:Key="AddDrive.LocalDisk">本機磁碟</system:String>
+	<system:String x:Key="AddDrive.FileLock">檔案鎖定</system:String>
+	<system:String x:Key="AddDrive.WritableDrive">可寫入磁碟機</system:String>
+	<system:String x:Key="ToolTip.LocalDisk">掛載為本機磁碟</system:String>
+	<system:String x:Key="ToolTip.FileLock">WebDAV 檔案鎖定</system:String>
+	<system:String x:Key="ToolTip.FileLock2">依存在 WebDAV 伺服器</system:String>
 
 </ResourceDictionary>
