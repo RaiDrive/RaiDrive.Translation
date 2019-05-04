@@ -30,7 +30,7 @@ StringDictionary.ru.xaml | Russian | O |
 StringDictionary.th.xaml | Thai | O | O |
 StringDictionary.uk.xaml | Ukrainian |  |
 StringDictionary.vi.xaml | Vietnamese | Translating... |
-StringDictionary.zh-Hans.xaml | Chinese (Simplified) | O |
+StringDictionary.zh-Hans.xaml | Chinese (Simplified) | O | O 
 StringDictionary.zh-Hant.xaml | Chinese (Traditional) | O | O
 
 ### Other Languages 
