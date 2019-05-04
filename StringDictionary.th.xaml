@@ -29,7 +29,7 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">เครือข่าย</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">อ่านอย่างเดียว</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">เชื่อมต่อใหม่เทื่อเข้าสู่ระบบ</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">เชื่อมต่อใหม่เมื่อเข้าสู่ระบบ</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">เชื่อมต่อโดยใช้ใบรับรองที่ต่างกัน</system:String>
 	<system:String x:Key="AddDrive.Account">บัญชี</system:String>
 	<system:String x:Key="AddDrive.Username">ชื่อผู้ใช้</system:String>
@@ -38,7 +38,7 @@
 	<system:String x:Key="AddDrive.Address">ที่อยู่</system:String>
 	<system:String x:Key="AddDrive.Port">พอร์ต</system:String>
 	<system:String x:Key="AddDrive.Device">อุปกรณ์</system:String>
-	<system:String x:Key="AddDrive.PrivateKey">คีย์ส่วยตัว</system:String>
+	<system:String x:Key="AddDrive.PrivateKey">คีย์ส่วนตัว</system:String>
 	<system:String x:Key="AddDrive.Charset">อักษร</system:String>
 	<system:String x:Key="AddDrive.TransferMode">โหมดถ่ายโอน</system:String>
 	<system:String x:Key="AddDrive.Encryption">การเข้ารหัส</system:String>
@@ -180,7 +180,7 @@
 	<system:String x:Key="Brand.Box_com">Box</system:String>
 	<system:String x:Key="Brand.ipTIME">ipTIME</system:String>
 	<system:String x:Key="Brand.WD">WD</system:String>
-	<system:String x:Key="Brand.etc">etc</system:String>
+	<system:String x:Key="Brand.etc">อื่น ๆ</system:String>
 
 	<!--  backup  -->
 	<system:String x:Key="Backup">สำรอง</system:String>
@@ -210,12 +210,12 @@
 	<system:String x:Key="Message.Backup.BackupTargetFolder">เลือกไฟล์จากโฟลเดอร์ระยะไกลที่คุณต้องการเก็บไว้</system:String>
 
 	<!-- from version 1.6.0.416 -->
-	<system:String x:Key="Settings.General.UseDriveIcon">Use the custom icon on a connected drive</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">Local Disk</system:String>
-	<system:String x:Key="AddDrive.FileLock">File Lock</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">Writable Drive</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">Mount like a local disk</system:String>
-	<system:String x:Key="ToolTip.FileLock">WebDAV File Lock</system:String>
-	<system:String x:Key="ToolTip.FileLock2">depends on WebDAV server</system:String>
+	<system:String x:Key="Settings.General.UseDriveIcon">ใช้ไอคอนที่กำหนดเองบนไดร์ฟที่เชื่อมต่อ</system:String>
+	<system:String x:Key="AddDrive.LocalDisk">ดิสก์บนเครื่อง</system:String>
+	<system:String x:Key="AddDrive.FileLock">ป้องกันไฟล์</system:String>
+	<system:String x:Key="AddDrive.WritableDrive">ไดร์ฟที่เขียนได้</system:String>
+	<system:String x:Key="ToolTip.LocalDisk">เม้าท์เป็นดิสก์บนเครื่อง</system:String>
+	<system:String x:Key="ToolTip.FileLock">ป้องกันไฟล์บน WebDAV</system:String>
+	<system:String x:Key="ToolTip.FileLock2">ขึ้นอยู่กับเซิร์ฟเวอร์ WebDAV</system:String>
 
 </ResourceDictionary>
