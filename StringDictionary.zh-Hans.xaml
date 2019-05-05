@@ -210,7 +210,7 @@
 	<system:String x:Key="Message.Backup.BackupTargetFolder">选择要存储文件的远程目录</system:String>
 
 	<!-- from version 1.6.0.416 -->
-	<system:String x:Key="Settings.General.UseDriveIcon">使用特殊图标标示虚拟驱动器</system:String>
+	<system:String x:Key="Settings.General.UseDriveIcon">使用自定义图标标示虚拟驱动器</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">本地磁盘</system:String>
 	<system:String x:Key="AddDrive.FileLock">文件锁</system:String>
 	<system:String x:Key="AddDrive.WritableDrive">可写驱动器</system:String>
