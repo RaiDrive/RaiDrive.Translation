@@ -14,6 +14,7 @@ StringDictionary.da.xaml | Danish | O |
 StringDictionary.de.xaml | German | O |
 StringDictionary.en.xaml | English | O | O
 StringDictionary.es.xaml | Spanish | O |
+StringDictionary.fa.xaml | Farsi(Persian) | O | O
 StringDictionary.fr.xaml | French | O |
 StringDictionary.hr.xaml | Croatian |  |  
 StringDictionary.hu.xaml | Hungarian | O | 
