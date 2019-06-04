@@ -98,12 +98,12 @@
 
 	<system:String x:Key="Message.SureDelete">คุณต้องการที่จะลบ &quot;{0} ({1})&quot; ทันทีหรือไม่?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">ฟื้นฟู RaiDrive</system:String>
-	<system:String x:Key="Message.Title.Reconnect">เชื่อมต่อ RaiDrive ใหม่</system:String>
+	<system:String x:Key="Message.Title.Reconnect">เชื่อมต่อ RaiDrive อีกครั้ง</system:String>
 	<system:String x:Key="Message.ServiceDown">โปรดกดปุ่มตกลงเพื่อฟื้น RaiDrive</system:String>
 	<system:String x:Key="Message.Settings.Reconnect">โปรดกดปุ่มตกลง คุณจำเป็นต้องเชื่อมต่อพื้นที่จัดเก็บระยะไกลใหม่ใช้ใช้การตั้งค่านี้</system:String>
 	<system:String x:Key="Message.NotReady.Reboot">RaiDrive ไม่พร้อมทำงาน คุณจำเป็นต้องเริ่มระบบใหม่ก่อน</system:String>
 	<system:String x:Key="Message.NotReady.Driver">ไดร์เวอร์อุปกรณ์ไม่ได้ถูกติดตั้งบนระบบของคุณ คุณจำเป็นต้องติดตั้ง RaiDrive ใหม่อีกครั้ง</system:String>
-	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox รองรับ Internet Explorer 10, 11  จะดีกว่าถ้าติดตั้ง Internet Explorer 11</system:String>
+	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox รองรับ Internet Explorer เวอร์ชั่น 10, 11 แนะนำให้ติดตั้ง Internet Explorer เวอร์ชั่น 11</system:String>
 	<system:String x:Key="Message.Connect.By">เชื่อมต่อโดย RaiDrive</system:String>
 	<system:String x:Key="Message.Maximum.Drive">เวอร์ชั่นนี้สามารถสร้างได้สูงสุด 8 ไดร์ฟ</system:String>
 	<system:String x:Key="Message.License.Expired">ใบอนุญาตของคุณหมดอายุแล้ว คุณจำเป็นต้องดาวน์โหลดเวอร์ชั่นใหม่ โปรดกดตกลงเพื่ออัปเดท</system:String>
