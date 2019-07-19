@@ -217,5 +217,15 @@
 	<system:String x:Key="ToolTip.LocalDisk">Монтировать как локальный диск</system:String>
 	<system:String x:Key="ToolTip.FileLock">Блокировка файлов WebDAV</system:String>
 	<system:String x:Key="ToolTip.FileLock2">зависит от сервера WebDAV</system:String>
+	<system:String x:Key="ToolTip.FileLock3">Ваш сервер может не поддерживать</system:String>
+
+	<!-- from version 1.7.0 -->
+	<system:String x:Key="Identity.SignIn">Войти в систему</system:String>
+	<system:String x:Key="Identity.SignOut">Выход</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">Ваши функции подписки будут отключены, и все диски будут переподключены. Пожалуйста, сохраните файл (ы) или закройте приложение (я).</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">Вы уверены, что хотите выйти?</system:String>
+	<system:String x:Key="Subscription.Switched">Переключено на {0}</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">Ваш текущий сеанс был запрошен для возврата другим сеансом {0}. Все диски будут переподключены. Пожалуйста, сохраните файл (ы) или закройте приложение (я).</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">Он будет применен после {0}, нажмите кнопку Ok, чтобы сразу.</system:String>
 
 </ResourceDictionary>

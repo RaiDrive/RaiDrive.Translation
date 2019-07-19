@@ -217,5 +217,15 @@
 	<system:String x:Key="ToolTip.LocalDisk">Připojit jako lokální disk</system:String>
 	<system:String x:Key="ToolTip.FileLock">WebDAV soubor je uzamčen</system:String>
 	<system:String x:Key="ToolTip.FileLock2">závisí na WebDAV serveru</system:String>
+	<system:String x:Key="ToolTip.FileLock3">Váš server nemusí podporovat</system:String>
+
+	<!-- from version 1.7.0 -->
+	<system:String x:Key="Identity.SignIn">Přihlásit se</system:String>
+	<system:String x:Key="Identity.SignOut">Odhlásit se</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">Vaše funkce odběru budou zakázány a všechny disky budou znovu připojeny. Uložte soubor (y) nebo ukončete aplikaci (aplikace).</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">Opravdu se chcete odhlásit?</system:String>
+	<system:String x:Key="Subscription.Switched">Přepnuto na {0}</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">Vaše aktuální relace byla požádána o návrat vaší další relací {0}. Všechny disky budou znovu připojeny. Uložte soubor (y) nebo ukončete aplikaci (aplikace).</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">Bude aplikován po {0}, okamžité stisknutí tlačítka Ok.</system:String>
 
 </ResourceDictionary>

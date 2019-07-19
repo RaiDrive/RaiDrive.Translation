@@ -217,5 +217,16 @@
 	<system:String x:Key="ToolTip.LocalDisk">เม้าท์เป็นดิสก์บนเครื่อง</system:String>
 	<system:String x:Key="ToolTip.FileLock">ป้องกันไฟล์บน WebDAV</system:String>
 	<system:String x:Key="ToolTip.FileLock2">ขึ้นอยู่กับเซิร์ฟเวอร์ WebDAV</system:String>
+	<system:String x:Key="ToolTip.FileLock3">เซิร์ฟเวอร์ของคุณอาจไม่รองรับ</system:String>
+
+	<!-- from version 1.7.0 -->
+	<system:String x:Key="Identity.SignIn">ลงชื่อเข้าใช้</system:String>
+	<system:String x:Key="Identity.SignOut">ออกจากระบบ</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">คุณสมบัติการสมัครของคุณจะถูกปิดการใช้งานและไดรฟ์ทั้งหมดจะถูกเชื่อมต่อใหม่ โปรดบันทึกไฟล์หรือปิดแอปพลิเคชัน</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">คุณแน่ใจว่าคุณต้องการที่จะออกจากระบบ?</system:String>
+	<system:String x:Key="Subscription.Switched">เปลี่ยนเป็น {0}</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">เซสชันปัจจุบันของคุณถูกขอให้ส่งคืนโดยเซสชันอื่นของคุณ {0} ไดรฟ์ทั้งหมดจะถูกเชื่อมต่อใหม่ โปรดบันทึกไฟล์หรือปิดแอปพลิเคชัน
+	</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">มันจะถูกนำไปใช้หลังจาก {0}, กดปุ่ม Ok เพื่อเป็นทันที</system:String>
 
 </ResourceDictionary>

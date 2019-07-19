@@ -217,5 +217,15 @@
 	<system:String x:Key="ToolTip.LocalDisk">掛載為本機磁碟</system:String>
 	<system:String x:Key="ToolTip.FileLock">WebDAV 檔案鎖定</system:String>
 	<system:String x:Key="ToolTip.FileLock2">依存在 WebDAV 伺服器</system:String>
+	<system:String x:Key="ToolTip.FileLock3">您的服務器可能不支持</system:String>
+
+	<!-- from version 1.7.0 -->
+	<system:String x:Key="Identity.SignIn">登入</system:String>
+	<system:String x:Key="Identity.SignOut">登出</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">您的訂閱功能將被禁用，所有驅動器將重新連接。 請保存文件或關閉申請。</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">您確定要退出嗎？</system:String>
+	<system:String x:Key="Subscription.Switched">切換到{0}</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">您的當前會話已被請求由您的其他會話{0}返回。 所有驅動器都將重新連接。 請保存文件或關閉申請。</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">它將在{0}之後應用，按Ok按鈕立即生效。</system:String>
 
 </ResourceDictionary>

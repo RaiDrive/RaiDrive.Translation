@@ -217,5 +217,15 @@
 	<system:String x:Key="ToolTip.LocalDisk">Mount like a local disk</system:String>
 	<system:String x:Key="ToolTip.FileLock">WebDAV File Lock</system:String>
 	<system:String x:Key="ToolTip.FileLock2">depends on WebDAV server</system:String>
+	<system:String x:Key="ToolTip.FileLock3">Your server may not support</system:String>
+
+	<!-- from version 1.7.0 -->
+	<system:String x:Key="Identity.SignIn">Sign In</system:String>
+	<system:String x:Key="Identity.SignOut">Sign Out</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">Your subscription features will be disabled and all drives will be reconnected. Please save file(s) or close application(s)</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">Are you sure you want to sign out?</system:String>
+	<system:String x:Key="Subscription.Switched">Switched to {0}</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">Your current session has been requested to return by your other session{0}. All drives will be reconnected. Please save file(s) or close application(s)</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">It will be applied after {0}, press Ok button to be immediate.</system:String>
 
 </ResourceDictionary>

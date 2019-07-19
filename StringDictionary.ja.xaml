@@ -210,12 +210,22 @@
 	<system:String x:Key="Message.Backup.BackupTargetFolder">ファイルが保存されるリモートフォルダを選択してください</system:String>
 
 	<!-- from version 1.6.0.416 -->
-	<system:String x:Key="Settings.General.UseDriveIcon">Use the custom icon on a connected drive</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">Local Disk</system:String>
-	<system:String x:Key="AddDrive.FileLock">File Lock</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">Writable Drive</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">Mount like a local disk</system:String>
-	<system:String x:Key="ToolTip.FileLock">WebDAV File Lock</system:String>
-	<system:String x:Key="ToolTip.FileLock2">depends on WebDAV server</system:String>
+	<system:String x:Key="Settings.General.UseDriveIcon">接続ドライブのカスタムアイコンを使用する</system:String>
+	<system:String x:Key="AddDrive.LocalDisk">ローカルディスク</system:String>
+	<system:String x:Key="AddDrive.FileLock">ファイルロック</system:String>
+	<system:String x:Key="AddDrive.WritableDrive">書き込み可能ドライブ</system:String>
+	<system:String x:Key="ToolTip.LocalDisk">ローカルディスクのようにマウントする</system:String>
+	<system:String x:Key="ToolTip.FileLock">WebDAVファイルロック</system:String>
+	<system:String x:Key="ToolTip.FileLock2">WebDAVサーバーに依存</system:String>
+	<system:String x:Key="ToolTip.FileLock3">サーバーはサポートしていない可能性があります</system:String>
+
+	<!-- from version 1.7.0 -->
+	<system:String x:Key="Identity.SignIn">サインイン</system:String>
+	<system:String x:Key="Identity.SignOut">サインアウト</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">サブスクリプション機能が無効になり、すべてのドライブが再接続されます。 ファイルを保存するか、アプリケーションを閉じてください。</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">ログアウトしてもよろしいですか？</system:String>
+	<system:String x:Key="Subscription.Switched">{0}に切り替えました</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">あなたの現在のセッションはあなたの他のセッション{0}から戻るように要求されました。 すべてのドライブが再接続されます。 ファイルを保存するか、アプリケーションを閉じてください。</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">{0}の後に適用されます。すぐにOKボタンを押してください。</system:String>
 
 </ResourceDictionary>

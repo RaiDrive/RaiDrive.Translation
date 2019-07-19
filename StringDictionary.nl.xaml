@@ -217,5 +217,15 @@
 	<system:String x:Key="ToolTip.LocalDisk">Verbind zoals een lokale schijf</system:String>
 	<system:String x:Key="ToolTip.FileLock">WebDAV bestandsvergrendeling</system:String>
 	<system:String x:Key="ToolTip.FileLock2">Afhankelijk van WebDAV-server</system:String>
+	<system:String x:Key="ToolTip.FileLock3">Uw server ondersteunt mogelijk niet</system:String>
+
+	<!-- from version 1.7.0 -->
+	<system:String x:Key="Identity.SignIn">Aanmelden</system:String>
+	<system:String x:Key="Identity.SignOut">Afmelden</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">Uw abonnementsfuncties worden uitgeschakeld en alle stations worden opnieuw verbonden. Bewaar bestand (en) of sluit applicatie (s).</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">Weet je zeker dat je wilt uitloggen?</system:String>
+	<system:String x:Key="Subscription.Switched">Overgeschakeld naar {0}</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">Uw huidige sessie is gevraagd om te retourneren door uw andere sessie {0}. Alle stations worden opnieuw verbonden. Bewaar bestand (en) of sluit applicatie (s).</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">Het zal worden toegepast na {0}, druk op OK om onmiddellijk te zijn.</system:String>
 
 </ResourceDictionary>

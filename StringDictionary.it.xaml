@@ -210,12 +210,22 @@
 	<system:String x:Key="Message.Backup.BackupTargetFolder">Seleziona una cartella remota in cui verranno archiviati i file</system:String>
 
 	<!-- from version 1.6.0.416 -->
-	<system:String x:Key="Settings.General.UseDriveIcon">Use the custom icon on a connected drive</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">Local Disk</system:String>
+	<system:String x:Key="Settings.General.UseDriveIcon">Utilizzare l'icona personalizzata su un'unità connessa</system:String>
+	<system:String x:Key="AddDrive.LocalDisk">Disco locale</system:String>
 	<system:String x:Key="AddDrive.FileLock">File Lock</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">Writable Drive</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">Mount like a local disk</system:String>
-	<system:String x:Key="ToolTip.FileLock">WebDAV File Lock</system:String>
-	<system:String x:Key="ToolTip.FileLock2">depends on WebDAV server</system:String>
+	<system:String x:Key="AddDrive.WritableDrive">Drive scrivibile</system:String>
+	<system:String x:Key="ToolTip.LocalDisk">Montare come un disco locale</system:String>
+	<system:String x:Key="ToolTip.FileLock">Blocco file WebDAV</system:String>
+	<system:String x:Key="ToolTip.FileLock2">dipende dal server WebDAV</system:String>
+	<system:String x:Key="ToolTip.FileLock3">Il tuo server potrebbe non supportare</system:String>
+
+	<!-- from version 1.7.0 -->
+	<system:String x:Key="Identity.SignIn">Registrati</system:String>
+	<system:String x:Key="Identity.SignOut">Disconnessione</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">Le funzioni dell'abbonamento saranno disabilitate e tutte le unità saranno ricollegate. Si prega di salvare i file o chiudere le applicazioni.</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">Sei sicuro di voler uscire?</system:String>
+	<system:String x:Key="Subscription.Switched">Passato a {0}</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">Alla tua sessione corrente è stato richiesto di tornare dall'altra sessione {0}. Tutte le unità saranno ricollegate. Si prega di salvare i file o chiudere le applicazioni.</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">Verrà applicato dopo {0}, premere il pulsante OK per essere immediato.</system:String>
 
 </ResourceDictionary>

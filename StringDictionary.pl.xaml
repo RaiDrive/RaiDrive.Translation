@@ -217,5 +217,15 @@
 	<system:String x:Key="ToolTip.LocalDisk">Zamontuj jak dysk lokalny</system:String>
 	<system:String x:Key="ToolTip.FileLock">WebDAV - plik zablokowany</system:String>
 	<system:String x:Key="ToolTip.FileLock2">bazuje na serwerze WebDAV</system:String>
+	<system:String x:Key="ToolTip.FileLock3">Twój serwer może nie obsługiwać</system:String>
+
+	<!-- from version 1.7.0 -->
+	<system:String x:Key="Identity.SignIn">Zaloguj</system:String>
+	<system:String x:Key="Identity.SignOut">Wyloguj się</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">Twoje funkcje subskrypcji zostaną wyłączone i wszystkie dyski zostaną ponownie połączone. Zapisz plik (i) lub zamknij aplikacje.</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">Czy na pewno chcesz się wylogować?</system:String>
+	<system:String x:Key="Subscription.Switched">Przełączono na {0}</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">Twoja bieżąca sesja została poproszona o powrót przez inną sesję {0}. Wszystkie dyski zostaną ponownie połączone. Zapisz plik (i) lub zamknij aplikacje.</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">Zostanie zastosowany po {0}, naciśnij przycisk OK, aby być natychmiastowym.</system:String>
 
 </ResourceDictionary>

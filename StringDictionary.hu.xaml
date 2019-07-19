@@ -210,12 +210,22 @@
 	<system:String x:Key="Message.Backup.BackupTargetFolder">Kérem válasszon egy távoli mappát, ahol a fájlok tárolódnak!</system:String>
 
 	<!-- from version 1.6.0.416 -->
-	<system:String x:Key="Settings.General.UseDriveIcon">Use the custom icon on a connected drive</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">Local Disk</system:String>
-	<system:String x:Key="AddDrive.FileLock">File Lock</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">Writable Drive</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">Mount like a local disk</system:String>
-	<system:String x:Key="ToolTip.FileLock">WebDAV File Lock</system:String>
-	<system:String x:Key="ToolTip.FileLock2">depends on WebDAV server</system:String>
+	<system:String x:Key="Settings.General.UseDriveIcon">Használja az egyéni ikont a csatlakoztatott meghajtón</system:String>
+	<system:String x:Key="AddDrive.LocalDisk">Helyi lemez</system:String>
+	<system:String x:Key="AddDrive.FileLock">Fájlzár</system:String>
+	<system:String x:Key="AddDrive.WritableDrive">Írható meghajtó</system:String>
+	<system:String x:Key="ToolTip.LocalDisk">Csatlakoztasson, mint egy helyi lemez</system:String>
+	<system:String x:Key="ToolTip.FileLock">WebDAV fájlzár</system:String>
+	<system:String x:Key="ToolTip.FileLock2">a WebDAV kiszolgálótól függ</system:String>
+	<system:String x:Key="ToolTip.FileLock3">Előfordulhat, hogy a kiszolgáló nem támogatja</system:String>
+
+	<!-- from version 1.7.0 -->
+	<system:String x:Key="Identity.SignIn">Bejelentkezés</system:String>
+	<system:String x:Key="Identity.SignOut">Kijelentkezés</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">Az előfizetési funkciók le vannak tiltva, és az összes meghajtó újra csatlakozik. Kérjük, mentse a fájlokat vagy a záró alkalmazást.</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">Biztosan kijelentkezni szeretne?</system:String>
+	<system:String x:Key="Subscription.Switched">Átkapcsolva: {0}</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">Az Ön jelenlegi munkamenetét kérte, hogy küldje vissza a másik munkamenetet {0}. Minden meghajtó újra csatlakozik. Kérjük, mentse a fájlokat vagy a záró alkalmazást.</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">Ezt a műveletet {0} után kell alkalmazni, az OK gomb megnyomásával azonnali lesz.</system:String>
 
 </ResourceDictionary>

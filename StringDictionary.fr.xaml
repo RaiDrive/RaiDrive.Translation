@@ -210,12 +210,22 @@
 	<system:String x:Key="Message.Backup.BackupTargetFolder">Sélectionnez un dossier distant dans lequel les fichiers seront stockés</system:String>
 
 	<!-- from version 1.6.0.416 -->
-	<system:String x:Key="Settings.General.UseDriveIcon">Use the custom icon on a connected drive</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">Local Disk</system:String>
-	<system:String x:Key="AddDrive.FileLock">File Lock</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">Writable Drive</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">Mount like a local disk</system:String>
+	<system:String x:Key="Settings.General.UseDriveIcon">Utiliser l'icône personnalisée sur un lecteur connecté</system:String>
+	<system:String x:Key="AddDrive.LocalDisk">Disque local</system:String>
+	<system:String x:Key="AddDrive.FileLock">Verrou de fichier</system:String>
+	<system:String x:Key="AddDrive.WritableDrive">Lecteur inscriptible</system:String>
+	<system:String x:Key="ToolTip.LocalDisk">Monter comme un disque local</system:String>
 	<system:String x:Key="ToolTip.FileLock">WebDAV File Lock</system:String>
-	<system:String x:Key="ToolTip.FileLock2">depends on WebDAV server</system:String>
+	<system:String x:Key="ToolTip.FileLock2">dépend du serveur WebDAV</system:String>
+	<system:String x:Key="ToolTip.FileLock3">Votre serveur peut ne pas supporter</system:String>
+
+	<!-- from version 1.7.0 -->
+	<system:String x:Key="Identity.SignIn">Se connecter</system:String>
+	<system:String x:Key="Identity.SignOut">Déconnexion</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">Les fonctionnalités de votre abonnement seront désactivées et tous les lecteurs seront reconnectés. Veuillez sauvegarder le (s) fichier (s) ou fermer la / les application (s).</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">Êtes-vous certain de vouloir vous déconnecter?</system:String>
+	<system:String x:Key="Subscription.Switched">Basculé sur {0}</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">Votre session en cours a été invitée à revenir par votre autre session {0}. Tous les lecteurs seront reconnectés. Veuillez sauvegarder le (s) fichier (s) ou fermer la / les application (s).</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">Il sera appliqué après {0}, appuyez sur le bouton Ok pour être immédiat.</system:String>
 
 </ResourceDictionary>
