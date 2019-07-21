@@ -96,63 +96,63 @@
 	<system:String x:Key="Message.SelectedPath">Vybraná cesta.</system:String>
 	<system:String x:Key="Message.DuplicatedPath">Duplicitní cesta.</system:String>
 
-	<system:String x:Key="Message.SureDelete">Are you sure you want to permanently delete &quot;{0} ({1})&quot; ?</system:String>
-	<system:String x:Key="Message.Title.ServiceDown">Revive RaiDrive</system:String>
-	<system:String x:Key="Message.Title.Reconnect">RaiDrive Reconnect</system:String>
-	<system:String x:Key="Message.ServiceDown">Please press OK button, RaiDrive will be alive.</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">Please press OK button, You must reconnect the remote storage for the changed settings to take effect.</system:String>
-	<system:String x:Key="Message.NotReady.Reboot">RaiDrive is not ready to start, You need restart system.</system:String>
-	<system:String x:Key="Message.NotReady.Driver">Device driver is not installed on your system. You need reinstall RaiDrive.</system:String>
-	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox supports Internet Explorer 10, 11. You'd better install Internet Explorer 11.</system:String>
-	<system:String x:Key="Message.Connect.By">Connected by RaiDrive</system:String>
-	<system:String x:Key="Message.Maximum.Drive">Up to 8 drives can be created in the current version</system:String>
-	<system:String x:Key="Message.License.Expired">Your license has been expired. You need to download the new version. Press OK to upgrade.</system:String>
-	<system:String x:Key="Message.License.NotReady">RaiDrive cannot validate your license.</system:String>
-	<system:String x:Key="Message.UnknownSpace">Unknown space</system:String>
-	<system:String x:Key="Message.CurrentVersion">Current version is {0}</system:String>
-	<system:String x:Key="Message.Cache.Folder.NotSupport">The temporary folder must be a folder on the local disk drive. Network drive is not supported.</system:String>
+	<system:String x:Key="Message.SureDelete">Opravdu chcete pernamentně odstranit následující &quot;{0} ({1})&quot; ?</system:String>
+	<system:String x:Key="Message.Title.ServiceDown">Oživit RaiDrive</system:String>
+	<system:String x:Key="Message.Title.Reconnect">Znovu připojit RaiDrive</system:String>
+	<system:String x:Key="Message.ServiceDown">Prosím, klikněte na oživit, RaiDrive se pokusí obnovit.</system:String>
+	<system:String x:Key="Message.Settings.Reconnect">Stisknte OK a pokuste se znovu připojit vzdálené úložiště, aby se provedené změny aplikovaly.</system:String>
+	<system:String x:Key="Message.NotReady.Reboot">RaiDrive se nyní nemůže spustit, je třeba restartovat váš počítač.</system:String>
+	<system:String x:Key="Message.NotReady.Driver">RaiDrive musí být reinstalováno - chyba ovladače systému souborů.</system:String>
+	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox podporuje Internet Explorer 10, 11. Doporučujeme Internet Explorer 11.</system:String>
+	<system:String x:Key="Message.Connect.By">Připojeno pomocí RaiDrive</system:String>
+	<system:String x:Key="Message.Maximum.Drive">V této verzi může být připojeno až 8 jednotek.</system:String>
+	<system:String x:Key="Message.License.Expired">Vaše licence expirovala. Stáhněte si prosím novou verzi. Po kliknutí na OK zahájít upgrade.</system:String>
+	<system:String x:Key="Message.License.NotReady">RaiDrive nemohl ověřit vaši licenci.</system:String>
+	<system:String x:Key="Message.UnknownSpace">Neznámé úložiště</system:String>
+	<system:String x:Key="Message.CurrentVersion">Současné verze: {0}</system:String>
+	<system:String x:Key="Message.Cache.Folder.NotSupport">Dočasná složka musí být umístěna na lokálním disku. Síťové disky nejsou podporovány.</system:String>
 
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">Authorization or authentication failed. Would you like to re-authenticate?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Authorization or authentication failed. Would you like to re-authenticate? (If it still fails, delete the drive and recreate it.)</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveLimit">The download quota has been exceeded. Download restrictions are the policy of {0}.</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">The connection method to the remote storage has changed. You need to sign in again.</system:String>
-	<system:String x:Key="Message.ErrorCacheDiskFull">The cache storage space is not enough. You'd better to increase storage space.</system:String>
-	<system:String x:Key="Message.ErrorInternet">Unable to connect to remote storage. Please check your internet connection and try again.</system:String>
-	<system:String x:Key="Message.ErrorDiskLetterExist">You must change the drive letter or drive name.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveAuth">Autorizace nebo autentifikace selhala. Přejete si opakovat akci?</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Autorizace nebo autentifikace selhala. Přejete si opakovat akci? (Pokud se tato chyba opakuje, smažte celou jednotku a začněte znovu.)</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveLimit">Limit pro stahování/nahrávání je překročen. Omezení je způsobeno: {0}.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveRemake">Došlo ke změně v přístupu ke vzdálené jednotce. Je nutné se znovu přihlásit.</system:String>
+	<system:String x:Key="Message.ErrorCacheDiskFull">Chace paměť je vyčerpána! Zkontrolujte volné místo na lokálním disku anebo cache přesuňte</system:String>
+	<system:String x:Key="Message.ErrorInternet">Připojení vzdálené jednotky se nezdařilo. Funguje vám internet?</system:String>
+	<system:String x:Key="Message.ErrorDiskLetterExist">Musíte změnit přirazené písmeno jednotky.</system:String>
 
-	<system:String x:Key="Message.OAuth.InvalidClient">Unmanaged domain by Active Directory</system:String>
-	<system:String x:Key="Message.OAuth.InvalidClientDescription">Your account is not managed by Active Directory. You should contact Active Directory or domain administrator or sign in as a personal account.</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClient">Tento systém není spravován v rámci Active Directory.</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClientDescription">Váš účet není spravován pomocí Active Directory. Kontaktujte svého správce nebo použijte lokální (osobní) účet.</system:String>
 
 	<!--  ConnectResponse Message  -->
-	<system:String x:Key="WebExceptionStatus.ConnectFailure">Please check the address.</system:String>
-	<system:String x:Key="WebExceptionStatus.ConnectionClosed">Please double check the protocol{0} and port{1}.</system:String>
-	<system:String x:Key="WebExceptionStatus.SendFailure">Please double check the protocol{0} and port{1}.</system:String>
-	<system:String x:Key="WebExceptionStatus.ReceiveFailure">Please double check the protocol{0} and port{1}.</system:String>
+	<system:String x:Key="WebExceptionStatus.ConnectFailure">Prosím zkontrolujte zadanou adresu.</system:String>
+	<system:String x:Key="WebExceptionStatus.ConnectionClosed">Prosím, zkontrolujte znovu zvolený protokol{0} a port{1}.</system:String>
+	<system:String x:Key="WebExceptionStatus.SendFailure">Prosím, zkontrolujte znovu zvolený protokol{0} a port{1}.</system:String>
+	<system:String x:Key="WebExceptionStatus.ReceiveFailure">Prosím, zkontrolujte znovu zvolený protokol{0} a port{1}.</system:String>
 
-	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Please check if the path{0} exists or if access is granted.</system:String>
-	<system:String x:Key="HttpStatusCode.Unauthorized">Authentication failed. Please check your account (password).</system:String>
+	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Prosím zkontrolujte, zda cesta{0} existuje a zda je přístupná.</system:String>
+	<system:String x:Key="HttpStatusCode.Unauthorized">Ověření uživatele selhalo. Prosím, zkontrolujte zadané údaje.</system:String>
 
-	<system:String x:Key="SocketError.TimedOut">Please check the address.</system:String>
-	<system:String x:Key="SocketError.ConnectionRefused">Please check the port{0}.</system:String>
+	<system:String x:Key="SocketError.TimedOut">Zkontrolujte zadanou adresu.</system:String>
+	<system:String x:Key="SocketError.ConnectionRefused">Zkontrolujte zadaný port{0}.</system:String>
 
-	<system:String x:Key="OtherResponseCode.2">Path not found. Check the path{0}.</system:String>
-	<system:String x:Key="OtherResponseCode.3">Please double check the protocol{0} and port{1}.</system:String>
+	<system:String x:Key="OtherResponseCode.2">Cesta nebyla nalezena. Zkontrolujte zadaný port{0}.</system:String>
+	<system:String x:Key="OtherResponseCode.3">Prosím, zkontrolujte znovu zvolený protokol{0} a port{1}.</system:String>
 	<!--  ConnectResponse Message  -->
 
-	<system:String x:Key="Words.Reason">Reason</system:String>
-	<system:String x:Key="Words.Delegation.Stop">Delegation aborted</system:String>
-	<system:String x:Key="Words.Drive">Drive</system:String>
-	<system:String x:Key="Words.FreeSpace">Free space</system:String>
-	<system:String x:Key="Words.Send.Opinion">Send Opinion</system:String>
-	<system:String x:Key="Words.Code">Code</system:String>
-	<system:String x:Key="Words.Path">Path</system:String>
-	<system:String x:Key="Words.File">File</system:String>
-	<system:String x:Key="Words.Ready">Ready</system:String>
-	<system:String x:Key="Words.Time">Time</system:String>
-	<system:String x:Key="Words.Error">Error</system:String>
-	<system:String x:Key="Words.State">State</system:String>
-	<system:String x:Key="Words.Size">Size</system:String>
-	<system:String x:Key="Words.Description">Description</system:String>
+	<system:String x:Key="Words.Reason">Důvod</system:String>
+	<system:String x:Key="Words.Delegation.Stop">Operace přerušena</system:String>
+	<system:String x:Key="Words.Drive">Jednotka</system:String>
+	<system:String x:Key="Words.FreeSpace">Volné místo</system:String>
+	<system:String x:Key="Words.Send.Opinion">Poslat názor</system:String>
+	<system:String x:Key="Words.Code">Kód</system:String>
+	<system:String x:Key="Words.Path">Cesta</system:String>
+	<system:String x:Key="Words.File">Soubor</system:String>
+	<system:String x:Key="Words.Ready">Připraven</system:String>
+	<system:String x:Key="Words.Time">Čas</system:String>
+	<system:String x:Key="Words.Error">Chyba</system:String>
+	<system:String x:Key="Words.State">Stav</system:String>
+	<system:String x:Key="Words.Size">Velikost</system:String>
+	<system:String x:Key="Words.Description">Popis</system:String>
 
 	<system:String x:Key="Help.Text">POMOC</system:String>
 	<system:String x:Key="Help.Add.Drive">JDEME NA TO~</system:String>
@@ -172,8 +172,8 @@
 	<system:String x:Key="NotifyIcon.Exit">Ukončit</system:String>
 	<system:String x:Key="NotifyIcon.Exit.Message">Jste si jistí, že chcete ukončit všechna spojení před vypnutím programu?</system:String>
 
-	<system:String x:Key="State.Space.Format">{0} free of {1} {2}</system:String>
-	<system:String x:Key="State.Space.Used">used</system:String>
+	<system:String x:Key="State.Space.Format">{0} volno z {1} {2}</system:String>
+	<system:String x:Key="State.Space.Used">použito</system:String>
 
 	<system:String x:Key="Brand.Synology">Synology</system:String>
 	<system:String x:Key="Brand.QNAP">QNAP</system:String>
