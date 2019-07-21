@@ -6,10 +6,10 @@ Please give us your helps for the untranslated languages, and improving for the 
 
 Your contribution can be recorded through the "Pull Request".
 
-File name | Language | Translated | v.1.7.0 ready|
+File name | Language | Translated | v.1.7.0 confirm |
 ----------|----------|------------|---------
 StringDictionary.ar.xaml | Arabic | O |
-StringDictionary.cs.xaml | Czech | Translating... | 
+StringDictionary.cs.xaml | Czech | O | O
 StringDictionary.da.xaml | Danish | O |
 StringDictionary.de.xaml | German | O |
 StringDictionary.en.xaml | English | O | O
@@ -25,7 +25,7 @@ StringDictionary.ms.xaml | Malay(Malaysia) |
 StringDictionary.nl.xaml | Dutch | O | 
 StringDictionary.pl.xaml | Polish | O | 
 StringDictionary.pt-PT.xaml | Portuguese |   |
-StringDictionary.pt-BR.xaml | Brazilian Portuguese | O |
+StringDictionary.pt-BR.xaml | Brazilian Portuguese | O | O
 StringDictionary.ro.xaml | Romanian | O |
 StringDictionary.ru.xaml | Russian | O | 
 StringDictionary.th.xaml | Thai | O | 
