@@ -220,12 +220,12 @@
 	<system:String x:Key="ToolTip.FileLock3">Seu servidor pode não suportar</system:String>
 
 	<!-- from version 1.7.0 -->
-	<system:String x:Key="Identity.SignIn">Assinar em</system:String>
+	<system:String x:Key="Identity.SignIn">Entrar</system:String>
 	<system:String x:Key="Identity.SignOut">Sair</system:String>
 	<system:String x:Key="Identity.SignOut.Question1">Seus recursos de assinatura serão desativados e todas as unidades serão reconectadas. Por favor, salve o (s) arquivo (s) ou feche o (s) aplicativo (s).</system:String>
 	<system:String x:Key="Identity.SignOut.Question2">Você tem certeza que deseja sair?</system:String>
-	<system:String x:Key="Subscription.Switched">Comutado para {0}</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">Sua sessão atual foi solicitada para retornar pela sua outra sessão {0}. Todas as unidades serão reconectadas. Por favor, salve o (s) arquivo (s) ou feche o (s) aplicativo (s).</system:String>
+	<system:String x:Key="Subscription.Switched">Alterado para {0}</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">Sua sessão atual foi solicitada para retornar para sua outra sessão {0}. Todas as unidades serão reconectadas. Por favor, salve o (s) arquivo (s) ou feche o (s) aplicativo (s).</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">Será aplicado após {0}, pressione o botão OK para ser imediato.</system:String>
 
 </ResourceDictionary>
