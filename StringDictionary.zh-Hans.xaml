@@ -170,7 +170,7 @@
 	<system:String x:Key="NotifyIcon.Open">启动 RaiDrive</system:String>
 	<system:String x:Key="NotifyIcon.CheckUpdate">检查更新</system:String>
 	<system:String x:Key="NotifyIcon.Exit">退出</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">您确定在退出前断开所有连接吗?</system:String>
+	<system:String x:Key="NotifyIcon.Exit.Message">确定在退出前断开所有连接吗?</system:String>
 
 	<system:String x:Key="State.Space.Format">可用空间 {0} / 总容量 {1} {2}</system:String>
 	<system:String x:Key="State.Space.Used">已使用</system:String>
@@ -220,12 +220,12 @@
 	<system:String x:Key="ToolTip.FileLock3">您的服务器可能不支持</system:String>
 
 	<!-- from version 1.7.0 -->
-	<system:String x:Key="Identity.SignIn">登入</system:String>
-	<system:String x:Key="Identity.SignOut">登出</system:String>
-	<system:String x:Key="Identity.SignOut.Question1">您的订阅功能将被禁用，所有驱动器将重新连接。 请保存文件或关闭申请表。</system:String>
-	<system:String x:Key="Identity.SignOut.Question2">您确定要退出吗？</system:String>
+	<system:String x:Key="Identity.SignIn">登录</system:String>
+	<system:String x:Key="Identity.SignOut">注销</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">您的订阅功能将被禁用. 所有驱动器将重新连接. 请保存文件并关闭相应的应用程序.</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">确实要注销吗?</system:String>
 	<system:String x:Key="Subscription.Switched">切换到{0}</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">您的当前会话已被请求由您的其他会话{0}返回。 所有驱动器都将重新连接。 请保存文件或关闭申请表。</system:String>
-	<system:String x:Key="Subscription.Switched.Desc2">它将在{0}之后应用，按Ok按钮立即生效。</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">您的当前会话已由您的其他会话{0}请求返回. 所有驱动器将重新连接. 请保存文件并关闭相应的应用程序.</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">将在{0}之后生效. 按 [确定] 按钮立即生效.</system:String>
 
 </ResourceDictionary>
