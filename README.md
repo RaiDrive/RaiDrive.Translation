@@ -32,7 +32,7 @@ StringDictionary.th.xaml | Thai | O |
 StringDictionary.uk.xaml | Ukrainian |  |
 StringDictionary.vi.xaml | Vietnamese | Translating... |
 StringDictionary.zh-Hans.xaml | Chinese (Simplified) | O | 
-StringDictionary.zh-Hant.xaml | Chinese (Traditional) | O |
+StringDictionary.zh-Hant.xaml | Chinese (Traditional) | O | O
 
 ### Other Languages 
 When you would voluntarily support translation to other language, it is really appreciated and please leave a message on Issues. 
