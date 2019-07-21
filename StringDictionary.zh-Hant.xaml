@@ -222,10 +222,10 @@
 	<!-- from version 1.7.0 -->
 	<system:String x:Key="Identity.SignIn">登入</system:String>
 	<system:String x:Key="Identity.SignOut">登出</system:String>
-	<system:String x:Key="Identity.SignOut.Question1">您的訂閱功能將被禁用，所有驅動器將重新連接。 請保存文件或關閉申請。</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">您的訂閱功能將被停用，所有磁碟機將重新連線。請儲存檔案或關閉申請。</system:String>
 	<system:String x:Key="Identity.SignOut.Question2">您確定要退出嗎？</system:String>
 	<system:String x:Key="Subscription.Switched">切換到{0}</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">您的當前會話已被請求由您的其他會話{0}返回。 所有驅動器都將重新連接。 請保存文件或關閉申請。</system:String>
-	<system:String x:Key="Subscription.Switched.Desc2">它將在{0}之後應用，按Ok按鈕立即生效。</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">您的目前工作階段已被請求由您的其他會話{0}返回。所有驅動器都將重新連線。請儲存檔案或關閉申請。</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">它將在{0}之後套用，按下確定按鈕立即生效。</system:String>
 
 </ResourceDictionary>
