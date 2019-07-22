@@ -113,7 +113,7 @@
 	<system:String x:Key="Message.Cache.Folder.NotSupport">暫存資料夾必須是本機磁碟機上的資料夾。 不支援網路磁碟機。</system:String>
 
 	<system:String x:Key="Message.ErrorRemoteDriveAuth">授權或身份驗證失敗。 是否要重新驗證?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">授權或身份驗證失敗。 是否要重新驗證? (如果仍然失敗, 請刪除該磁碟機並重新建立它.)</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">授權或身份驗證失敗。 是否要重新驗證? (如果仍然失敗, 請刪除該磁碟機並重新建立它。)</system:String>
 	<system:String x:Key="Message.ErrorRemoteDriveLimit">已超出下載配額。 下載限制是受 {0} 的原則限制。</system:String>
 	<system:String x:Key="Message.ErrorRemoteDriveRemake">遠端儲存空間的連線方式已變更。 您需要再次登入。</system:String>
 	<system:String x:Key="Message.ErrorCacheDiskFull">快取儲存空間不夠。 您最好增加儲存空間。</system:String>
@@ -216,16 +216,16 @@
 	<system:String x:Key="AddDrive.WritableDrive">可寫入磁碟機</system:String>
 	<system:String x:Key="ToolTip.LocalDisk">掛載為本機磁碟</system:String>
 	<system:String x:Key="ToolTip.FileLock">WebDAV 檔案鎖定</system:String>
-	<system:String x:Key="ToolTip.FileLock2">依存在 WebDAV 伺服器</system:String>
-	<system:String x:Key="ToolTip.FileLock3">您的服務器可能不支持</system:String>
+	<system:String x:Key="ToolTip.FileLock2">是否支援該功能取決於 WebDAV 伺服器</system:String>
+	<system:String x:Key="ToolTip.FileLock3">您的伺服器可能不支援</system:String>
 
 	<!-- from version 1.7.0 -->
 	<system:String x:Key="Identity.SignIn">登入</system:String>
 	<system:String x:Key="Identity.SignOut">登出</system:String>
-	<system:String x:Key="Identity.SignOut.Question1">您的訂閱功能將被停用，所有磁碟機將重新連線。請儲存檔案或關閉申請。</system:String>
-	<system:String x:Key="Identity.SignOut.Question2">您確定要退出嗎？</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">您的訂閱功能將被停用, 所有磁碟機將重新連線。 請儲存檔案或關閉相關的應用程式。</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">您確定要登出嗎?</system:String>
 	<system:String x:Key="Subscription.Switched">切換到{0}</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">您的目前工作階段已被請求由您的其他會話{0}返回。所有驅動器都將重新連線。請儲存檔案或關閉申請。</system:String>
-	<system:String x:Key="Subscription.Switched.Desc2">它將在{0}之後套用，按下確定按鈕立即生效。</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">您的目前工作階段已被請求由您的其他會話{0}返回。 所有驅動器都將重新連線。 請儲存檔案或關閉相關的應用程式。</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">將在{0}之後套用, 按下 [確定] 按鈕立即生效。</system:String>
 
 </ResourceDictionary>
