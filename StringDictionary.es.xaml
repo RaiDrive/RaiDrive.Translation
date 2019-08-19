@@ -209,7 +209,7 @@
 
 	<system:String x:Key="Message.Backup.BackupTargetFolder">Seleccione un directorio remoto donde los archivos serán guardados</system:String>
 
-	<!-- from version 1.6.0.416 -->
+	<!--  from version 1.6.0.416  -->
 	<system:String x:Key="Settings.General.UseDriveIcon">Utilice el icono personalizado en una unidad conectada</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">Disco local</system:String>
 	<system:String x:Key="AddDrive.FileLock">Bloqueo de archivo</system:String>
@@ -219,7 +219,7 @@
 	<system:String x:Key="ToolTip.FileLock2">depende del servidor WebDAV</system:String>
 	<system:String x:Key="ToolTip.FileLock3">Su servidor puede no ser compatible</system:String>
 
-	<!-- from version 1.7.0 -->
+	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">Registrarse</system:String>
 	<system:String x:Key="Identity.SignOut">Desconectar</system:String>
 	<system:String x:Key="Identity.SignOut.Question1">Sus funciones de suscripción se desactivarán y todas las unidades se volverán a conectar. Por favor guarde los archivos o cierre las aplicaciones.</system:String>
@@ -227,5 +227,10 @@
 	<system:String x:Key="Subscription.Switched">Cambiado a {0}</system:String>
 	<system:String x:Key="Subscription.Switched.Desc1">Su sesión actual ha sido solicitada para regresar en su otra sesión {0}. Todas las unidades serán reconectadas. Por favor guarde los archivos o cierre las aplicaciones.</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">Se aplicará después de {0}, presione el botón Ok para ser inmediato.</system:String>
+
+	<!--  from version 1.8.0  -->
+	<system:String x:Key="Words.Public">Público</system:String>
+	<system:String x:Key="Words.Private">Privado</system:String>
+	<system:String x:Key="Words.Site">Sitio</system:String>
 
 </ResourceDictionary>

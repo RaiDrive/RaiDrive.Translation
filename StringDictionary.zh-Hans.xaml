@@ -209,7 +209,7 @@
 
 	<system:String x:Key="Message.Backup.BackupTargetFolder">选择要存储文件的远程目录</system:String>
 
-	<!-- from version 1.6.0.416 -->
+	<!--  from version 1.6.0.416  -->
 	<system:String x:Key="Settings.General.UseDriveIcon">允许虚拟驱动器使用自定义图标</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">模拟本地磁盘</system:String>
 	<system:String x:Key="AddDrive.FileLock">文件锁</system:String>
@@ -219,7 +219,7 @@
 	<system:String x:Key="ToolTip.FileLock2">是否支持该功能取决于 WebDAV 服务器</system:String>
 	<system:String x:Key="ToolTip.FileLock3">您的服务器可能不支持</system:String>
 
-	<!-- from version 1.7.0 -->
+	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">登录</system:String>
 	<system:String x:Key="Identity.SignOut">注销</system:String>
 	<system:String x:Key="Identity.SignOut.Question1">您的订阅功能将被禁用. 所有驱动器将重新连接. 请保存文件并关闭相应的应用程序.</system:String>
@@ -227,5 +227,10 @@
 	<system:String x:Key="Subscription.Switched">切换到{0}</system:String>
 	<system:String x:Key="Subscription.Switched.Desc1">您的当前会话已由您的其他会话{0}请求返回. 所有驱动器将重新连接. 请保存文件并关闭相应的应用程序.</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">将在{0}之后生效. 按 [确定] 按钮立即生效.</system:String>
+
+	<!--  from version 1.8.0  -->
+	<system:String x:Key="Words.Public">发布</system:String>
+	<system:String x:Key="Words.Private">私人</system:String>
+	<system:String x:Key="Words.Site">网站</system:String>
 
 </ResourceDictionary>

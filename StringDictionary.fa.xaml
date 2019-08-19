@@ -16,7 +16,7 @@
 	<system:String x:Key="Settings.Proxy">پراکسی</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">اجرای نرم افزار در حین شروع به کار ویندوز</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">اجرای "مرورگر فایل" به محض اتصال موفق یک درایو</system:String>
+	<system:String x:Key="Settings.General.RunAtConnect">اجرای &quot;مرورگر فایل&quot; به محض اتصال موفق یک درایو</system:String>
 
 	<system:String x:Key="Notice">اعلامیه</system:String>
 	<system:String x:Key="AddDrive">اضافه کردن</system:String>
@@ -209,7 +209,7 @@
 
 	<system:String x:Key="Message.Backup.BackupTargetFolder">یک فولدر ریموت انتخاب کنید تا فایل ها در آن ذخیره شوند</system:String>
 
-	<!-- from version 1.6.0.416 -->
+	<!--  from version 1.6.0.416  -->
 	<system:String x:Key="Settings.General.UseDriveIcon">از یک آیکون دلخواه برای نمایش درایو متصل شده استفاده کن</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">هارد داخلی</system:String>
 	<system:String x:Key="AddDrive.FileLock">قفل فایل</system:String>
@@ -219,7 +219,7 @@
 	<system:String x:Key="ToolTip.FileLock2">وابسته به سرور WebDAV</system:String>
 	<system:String x:Key="ToolTip.FileLock3">Your server may not support</system:String>
 
-	<!-- from version 1.7.0 -->
+	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">Sign In</system:String>
 	<system:String x:Key="Identity.SignOut">Sign Out</system:String>
 	<system:String x:Key="Identity.SignOut.Question1">Your subscription features will be disabled and all drives will be reconnected. Please save file(s) or close application(s)</system:String>
@@ -227,5 +227,10 @@
 	<system:String x:Key="Subscription.Switched">Switched to {0}</system:String>
 	<system:String x:Key="Subscription.Switched.Desc1">Your current session has been requested to return by your other session{0}. All drives will be reconnected. Please save file(s) or close application(s)</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">It will be applied after {0}, press Ok button to be immediate.</system:String>
+
+	<!--  from version 1.8.0  -->
+	<system:String x:Key="Words.Public">عمومی</system:String>
+	<system:String x:Key="Words.Private">خصوصی</system:String>
+	<system:String x:Key="Words.Site">سایت</system:String>
 
 </ResourceDictionary>

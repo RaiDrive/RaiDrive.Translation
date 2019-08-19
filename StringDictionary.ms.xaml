@@ -209,7 +209,7 @@
 
 	<system:String x:Key="Message.Backup.BackupTargetFolder">Pilih folder luar dimana fail akan disimpan</system:String>
 
-	<!-- from version 1.6.0.416 -->
+	<!--  from version 1.6.0.416  -->
 	<system:String x:Key="Settings.General.UseDriveIcon">Penggunaan ikon adat di dalam pemacu disambung</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">Cakera Tempatan</system:String>
 	<system:String x:Key="AddDrive.FileLock">Fail kunci</system:String>
@@ -219,7 +219,7 @@
 	<system:String x:Key="ToolTip.FileLock2">bergantung pada pelayan WebDAV</system:String>
 	<system:String x:Key="ToolTip.FileLock3">Pelayan mungkin tidak menyokong</system:String>
 
-	<!-- from version 1.7.0 -->
+	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">daftar masuk</system:String>
 	<system:String x:Key="Identity.SignOut">Daftar keluar</system:String>
 	<system:String x:Key="Identity.SignOut.Question1">Ciri-ciri langganan anda akan dinyahdayakan dan semua pemacu akan insaf. Sila simpan fail atau tutup permohonan.</system:String>
@@ -227,5 +227,10 @@
 	<system:String x:Key="Subscription.Switched">Beralih kepada {0}</system:String>
 	<system:String x:Key="Subscription.Switched.Desc1">Sesi anda telah meminta untuk kembali anda sesi lain {0}. Semua pemacu akan insaf. Sila simpan fail atau tutup permohonan.</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">Ia akan digunakan selepas {0}, tekan Ok butang untuk serta-merta.</system:String>
+
+	<!--  from version 1.8.0  -->
+	<system:String x:Key="Words.Public">Awam</system:String>
+	<system:String x:Key="Words.Private">Peribadi</system:String>
+	<system:String x:Key="Words.Site">Site</system:String>
 
 </ResourceDictionary>

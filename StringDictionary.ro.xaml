@@ -129,14 +129,14 @@
 	<system:String x:Key="WebExceptionStatus.SendFailure">Reverificați modul protocol{0} și port{1}.</system:String>
 	<system:String x:Key="WebExceptionStatus.ReceiveFailure">Reverificați modul protocol{0} și port{1}.</system:String>
 
-	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Verificați dacă path{0} există sau dacă accesul este permis. </system:String>
+	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Verificați dacă path{0} există sau dacă accesul este permis.</system:String>
 	<system:String x:Key="HttpStatusCode.Unauthorized">Autentificarea a eșuat. Verificați-vă contul (parola).</system:String>
 
 	<system:String x:Key="SocketError.TimedOut">Verificați adresa.</system:String>
-	<system:String x:Key="SocketError.ConnectionRefused"> Verificați port{0}.</system:String>
+	<system:String x:Key="SocketError.ConnectionRefused">Verificați port{0}.</system:String>
 
 	<system:String x:Key="OtherResponseCode.2">Calea nu a fost găsită. Verificați path{0}.</system:String>
-	<system:String x:Key="OtherResponseCode.3">>Reverificați modul protocol{0} și port{1}.</system:String>
+	<system:String x:Key="OtherResponseCode.3">&gt;Reverificați modul protocol{0} și port{1}.</system:String>
 	<!--  ConnectResponse Message  -->
 
 	<system:String x:Key="Words.Reason">Motiv</system:String>
@@ -209,7 +209,7 @@
 
 	<system:String x:Key="Message.Backup.BackupTargetFolder">Selectați un dosar la distanță unde vor fi stocate fișierele</system:String>
 
-	<!-- from version 1.6.0.416 -->
+	<!--  from version 1.6.0.416  -->
 	<system:String x:Key="Settings.General.UseDriveIcon">Utilizarea pictogramei particularizate pe o unitate conectată</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">Disc local</system:String>
 	<system:String x:Key="AddDrive.FileLock">Blocare fișier</system:String>
@@ -219,7 +219,7 @@
 	<system:String x:Key="ToolTip.FileLock2">depinde de serverul WebDAV</system:String>
 	<system:String x:Key="ToolTip.FileLock3">Este posibil ca serverul să nu accepte</system:String>
 
-	<!-- from version 1.7.0 -->
+	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">conectează-te</system:String>
 	<system:String x:Key="Identity.SignOut">Autentificare</system:String>
 	<system:String x:Key="Identity.SignOut.Question1">Caracteristicile abonamentului vor fi dezactivate și toate unitățile vor fi reconectate. Salvați fișierul (e) sau închideți aplicația (ele).</system:String>
@@ -227,5 +227,10 @@
 	<system:String x:Key="Subscription.Switched">Comutare la {0}</system:String>
 	<system:String x:Key="Subscription.Switched.Desc1">Sesiunea curentă a fost solicitată să revină la cealaltă sesiune {0}. Toate unitățile vor fi reconectate. Salvați fișierul (e) sau închideți aplicația (ele).</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">Se va aplica după {0}, apăsați butonul OK pentru a fi imediat.</system:String>
+
+	<!--  from version 1.8.0  -->
+	<system:String x:Key="Words.Public">Public</system:String>
+	<system:String x:Key="Words.Private">Privat</system:String>
+	<system:String x:Key="Words.Site">Site</system:String>
 
 </ResourceDictionary>

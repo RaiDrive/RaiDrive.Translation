@@ -209,7 +209,7 @@
 
 	<system:String x:Key="Message.Backup.BackupTargetFolder">Wählen Sie einen Ordner in dem Dateien gespeichert werden</system:String>
 
-	<!-- from version 1.6.0.416 -->
+	<!--  from version 1.6.0.416  -->
 	<system:String x:Key="Settings.General.UseDriveIcon">Verwenden Sie das benutzerdefinierte Symbol auf einem verbundenen Laufwerk</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">Lokale Festplatte</system:String>
 	<system:String x:Key="AddDrive.FileLock">Dateisperre</system:String>
@@ -219,14 +219,20 @@
 	<system:String x:Key="ToolTip.FileLock2">hängt vom WebDAV server ab</system:String>
 	<system:String x:Key="ToolTip.FileLock3">Ihr Server unterstützt möglicherweise nicht</system:String>
 
-	<!-- from version 1.7.0 -->
+	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">Einloggen</system:String>
 	<system:String x:Key="Identity.SignOut">Ausloggen</system:String>
 	<system:String x:Key="Identity.SignOut.Question1">Ihre Abonnementfunktionen werden deaktiviert und alle Laufwerke werden wieder verbunden. Bitte speichern Sie die Datei (en) oder schließen Sie die Anwendung (en).</system:String>
 	<system:String x:Key="Identity.SignOut.Question2">Möchten Sie sich wirklich abmelden?</system:String>
 	<system:String x:Key="Subscription.Switched">Zu {0} gewechselt</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">hre aktuelle Sitzung wurde von Ihrer anderen Sitzung {0} zur Rückkehr aufgefordert. Alle Laufwerke werden wieder verbunden. Bitte speichern Sie die Datei (en) oder schließen Sie die Anwendung (en).
+	<system:String x:Key="Subscription.Switched.Desc1">
+		hre aktuelle Sitzung wurde von Ihrer anderen Sitzung {0} zur Rückkehr aufgefordert. Alle Laufwerke werden wieder verbunden. Bitte speichern Sie die Datei (en) oder schließen Sie die Anwendung (en).
 	</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">Es wird nach {0} angewendet. Drücken Sie die OK-Taste, um sofort zu arbeiten.</system:String>
+
+	<!--  from version 1.8.0  -->
+	<system:String x:Key="Words.Public">Öffentlichkeit</system:String>
+	<system:String x:Key="Words.Private">Privatgelände</system:String>
+	<system:String x:Key="Words.Site">Site</system:String>
 
 </ResourceDictionary>

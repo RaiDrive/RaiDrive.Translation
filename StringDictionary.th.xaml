@@ -45,8 +45,8 @@
 
 	<system:String x:Key="Vailidation.Volume">โปรดกรอกชื่อไดร์ฟที่ถูกต้อง</system:String>
 	<system:String x:Key="Vailidation.VolumeExist">มีชื่อนี้อยู่แล้ว</system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidChar">ชื่อไดร์ฟต้องไม่ประกอบด้วยตัวอักษรต่อไปนี้ : </system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidStr">ห้ามใช้คำสงวนต่อไปนี้ : </system:String>
+	<system:String x:Key="Vailidation.VolumeInvalidChar">ชื่อไดร์ฟต้องไม่ประกอบด้วยตัวอักษรต่อไปนี้ :</system:String>
+	<system:String x:Key="Vailidation.VolumeInvalidStr">ห้ามใช้คำสงวนต่อไปนี้ :</system:String>
 	<system:String x:Key="Vailidation.Letter">โปรดเลือกอักษรระบุไดร์ฟที่ยังไม่เลือก</system:String>
 	<system:String x:Key="Vailidation.Address">โปรดกรอกชื่อโฮสต์หรือที่อยู่ไอพี</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">โปรดกรอกลิ้งก์</system:String>
@@ -127,7 +127,7 @@
 	<system:String x:Key="WebExceptionStatus.ConnectFailure">โปรดตรวจสอบที่อยู่</system:String>
 	<system:String x:Key="WebExceptionStatus.ConnectionClosed">โปรดติ๊กโปรโตคอล {0} และพอร์ต {1}</system:String>
 	<system:String x:Key="WebExceptionStatus.SendFailure">โปรดติ๊กโปรโตคอล {0} และพอร์ต {1}</system:String>
-	<system:String x:Key="WebExceptionStatus.ReceiveFailure">">โปรดติ๊กโปรโตคอล {0} และพอร์ต {1}</system:String>
+	<system:String x:Key="WebExceptionStatus.ReceiveFailure">&quot;&gt;โปรดติ๊กโปรโตคอล {0} และพอร์ต {1}</system:String>
 
 	<system:String x:Key="HttpStatusCode.MethodNotAllowed">โปรดตรวจสอบหากที่ตั้ง {0} ไม่มีอยู่หรือไม่สามารถเข้าถึงได้</system:String>
 	<system:String x:Key="HttpStatusCode.Unauthorized">การรับรองล้มเหลว โปรดตรวจสอบบัญชีของคุณ (รหัสผ่าน)</system:String>
@@ -209,7 +209,7 @@
 
 	<system:String x:Key="Message.Backup.BackupTargetFolder">เลือกไฟล์จากโฟลเดอร์ระยะไกลที่คุณต้องการเก็บไว้</system:String>
 
-	<!-- from version 1.6.0.416 -->
+	<!--  from version 1.6.0.416  -->
 	<system:String x:Key="Settings.General.UseDriveIcon">ใช้ไอคอนที่กำหนดเองบนไดร์ฟที่เชื่อมต่อ</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">ดิสก์บนเครื่อง</system:String>
 	<system:String x:Key="AddDrive.FileLock">ป้องกันไฟล์</system:String>
@@ -219,14 +219,20 @@
 	<system:String x:Key="ToolTip.FileLock2">ขึ้นอยู่กับเซิร์ฟเวอร์ WebDAV</system:String>
 	<system:String x:Key="ToolTip.FileLock3">เซิร์ฟเวอร์ของคุณอาจไม่รองรับ</system:String>
 
-	<!-- from version 1.7.0 -->
+	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">ลงชื่อเข้าใช้</system:String>
 	<system:String x:Key="Identity.SignOut">ออกจากระบบ</system:String>
 	<system:String x:Key="Identity.SignOut.Question1">คุณสมบัติการสมัครของคุณจะถูกปิดใช้งานและไดรฟ์ทั้งหมดจะทำการเชื่อมต่อใหม่ โปรดบันทึกไฟล์หรือปิดแอปพลิเคชั่น</system:String>
 	<system:String x:Key="Identity.SignOut.Question2">คุณแน่ใจว่าคุณต้องการที่จะออกจากระบบ?</system:String>
 	<system:String x:Key="Subscription.Switched">เปลี่ยนเป็น {0}</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">เซสชั่นปัจจุบันของคุณถูกขอให้ส่งคืนโดยเซสชั่นอื่นของคุณ {0} ไดรฟ์ทั้งหมดจะทำการเชื่อมต่อใหม่ โปรดบันทึกไฟล์หรือปิดแอปพลิเคชั่น
+	<system:String x:Key="Subscription.Switched.Desc1">
+		เซสชั่นปัจจุบันของคุณถูกขอให้ส่งคืนโดยเซสชั่นอื่นของคุณ {0} ไดรฟ์ทั้งหมดจะทำการเชื่อมต่อใหม่ โปรดบันทึกไฟล์หรือปิดแอปพลิเคชั่น
 	</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">มันจะถูกนำไปใช้หลังจาก {0}, กดปุ่มตกลงเพื่อทำทันที</system:String>
+
+	<!--  from version 1.8.0  -->
+	<system:String x:Key="Words.Public">สาธารณะ</system:String>
+	<system:String x:Key="Words.Private">เอกชน</system:String>
+	<system:String x:Key="Words.Site">บไซต์</system:String>
 
 </ResourceDictionary>

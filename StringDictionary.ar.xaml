@@ -16,7 +16,7 @@
 	<system:String x:Key="Settings.Proxy">الوكيل</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">تشغيل البرنامج مع بدء تشغيل الجهاز</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect"> فتح مستكشف الملفات عند تفعيل محرك الأقراص</system:String>
+	<system:String x:Key="Settings.General.RunAtConnect">فتح مستكشف الملفات عند تفعيل محرك الأقراص</system:String>
 
 	<system:String x:Key="Notice">تنبيه</system:String>
 	<system:String x:Key="AddDrive">إضافة</system:String>
@@ -96,7 +96,7 @@
 	<system:String x:Key="Message.SelectedPath">المسار الذي تم اختياره</system:String>
 	<system:String x:Key="Message.DuplicatedPath">المسار المكرر</system:String>
 
-	<system:String x:Key="Message.SureDelete"> هل أنت متأكد من الحذف النهائي &quot;{0} ({1})&quot;  ؟ ?</system:String>
+	<system:String x:Key="Message.SureDelete">هل أنت متأكد من الحذف النهائي &quot;{0} ({1})&quot;  ؟ ?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">استعادة البرنامج</system:String>
 	<system:String x:Key="Message.Title.Reconnect">إعادة الاتصال</system:String>
 	<system:String x:Key="Message.ServiceDown">اختر موافق ليتم تشغيل البرنامج.</system:String>
@@ -129,7 +129,7 @@
 	<system:String x:Key="WebExceptionStatus.SendFailure">الرجاء التأكد {0} من والمنفذ {1}.</system:String>
 	<system:String x:Key="WebExceptionStatus.ReceiveFailure">الرجاء التأكد {0} من والمنفذ {1}.</system:String>
 
-	<system:String x:Key="HttpStatusCode.MethodNotAllowed">الرجاء التحقق من أن المسار {0} موجود أو أن الوصول إليه متاح. </system:String>
+	<system:String x:Key="HttpStatusCode.MethodNotAllowed">الرجاء التحقق من أن المسار {0} موجود أو أن الوصول إليه متاح.</system:String>
 	<system:String x:Key="HttpStatusCode.Unauthorized">فشلت المصادقة. الرجاء مراجعة بيانات الدخول (كلمة المرور).</system:String>
 
 	<system:String x:Key="SocketError.TimedOut">الرجاء التأكد من العنوان.</system:String>
@@ -209,7 +209,7 @@
 
 	<system:String x:Key="Message.Backup.BackupTargetFolder">اختر المجلد البعيد حيث سيتم تخزين الملفات</system:String>
 
-	<!-- from version 1.6.0.416 -->
+	<!--  from version 1.6.0.416  -->
 	<system:String x:Key="Settings.General.UseDriveIcon">Use the custom icon on a connected drive</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">Local Disk</system:String>
 	<system:String x:Key="AddDrive.FileLock">File Lock</system:String>
@@ -219,7 +219,7 @@
 	<system:String x:Key="ToolTip.FileLock2">depends on WebDAV server</system:String>
 	<system:String x:Key="ToolTip.FileLock3">Your server may not support</system:String>
 
-	<!-- from version 1.7.0 -->
+	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">Sign In</system:String>
 	<system:String x:Key="Identity.SignOut">Sign Out</system:String>
 	<system:String x:Key="Identity.SignOut.Question1">Your subscription features will be disabled and all drives will be reconnected. Please save file(s) or close application(s)</system:String>
@@ -227,5 +227,10 @@
 	<system:String x:Key="Subscription.Switched">Switched to {0}</system:String>
 	<system:String x:Key="Subscription.Switched.Desc1">Your current session has been requested to return by your other session{0}. All drives will be reconnected. Please save file(s) or close application(s)</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">It will be applied after {0}, press Ok button to be immediate.</system:String>
+
+	<!--  from version 1.8.0  -->
+	<system:String x:Key="Words.Public">Public</system:String>
+	<system:String x:Key="Words.Private">Private</system:String>
+	<system:String x:Key="Words.Site">Site</system:String>
 
 </ResourceDictionary>

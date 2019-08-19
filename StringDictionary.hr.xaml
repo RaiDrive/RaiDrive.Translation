@@ -209,7 +209,7 @@
 
 	<system:String x:Key="Message.Backup.BackupTargetFolder">Select a remote folder where files will be stored</system:String>
 
-	<!-- from version 1.6.0.416 -->
+	<!--  from version 1.6.0.416  -->
 	<system:String x:Key="Settings.General.UseDriveIcon">Use the custom icon on a connected drive</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">Local Disk</system:String>
 	<system:String x:Key="AddDrive.FileLock">File Lock</system:String>
@@ -219,7 +219,7 @@
 	<system:String x:Key="ToolTip.FileLock2">depends on WebDAV server</system:String>
 	<system:String x:Key="ToolTip.FileLock3">Your server may not support</system:String>
 
-	<!-- from version 1.7.0 -->
+	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">Sign In</system:String>
 	<system:String x:Key="Identity.SignOut">Sign Out</system:String>
 	<system:String x:Key="Identity.SignOut.Question1">Your subscription features will be disabled and all drives will be reconnected. Please save file(s) or close application(s)</system:String>
@@ -227,5 +227,10 @@
 	<system:String x:Key="Subscription.Switched">Switched to {0}</system:String>
 	<system:String x:Key="Subscription.Switched.Desc1">Your current session has been requested to return by your other session{0}. All drives will be reconnected. Please save file(s) or close application(s)</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">It will be applied after {0}, press Ok button to be immediate.</system:String>
+
+	<!--  from version 1.8.0  -->
+	<system:String x:Key="Words.Public">Public</system:String>
+	<system:String x:Key="Words.Private">Private</system:String>
+	<system:String x:Key="Words.Site">Site</system:String>
 
 </ResourceDictionary>

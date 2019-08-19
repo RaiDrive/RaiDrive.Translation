@@ -209,7 +209,7 @@
 
 	<system:String x:Key="Message.Backup.BackupTargetFolder">Kérem válasszon egy távoli mappát, ahol a fájlok tárolódnak!</system:String>
 
-	<!-- from version 1.6.0.416 -->
+	<!--  from version 1.6.0.416  -->
 	<system:String x:Key="Settings.General.UseDriveIcon">Használja az egyéni ikont a csatlakoztatott meghajtón</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">Helyi lemez</system:String>
 	<system:String x:Key="AddDrive.FileLock">Fájlzár</system:String>
@@ -219,7 +219,7 @@
 	<system:String x:Key="ToolTip.FileLock2">a WebDAV kiszolgálótól függ</system:String>
 	<system:String x:Key="ToolTip.FileLock3">Előfordulhat, hogy a kiszolgáló nem támogatja</system:String>
 
-	<!-- from version 1.7.0 -->
+	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">Bejelentkezés</system:String>
 	<system:String x:Key="Identity.SignOut">Kijelentkezés</system:String>
 	<system:String x:Key="Identity.SignOut.Question1">Az előfizetési funkciók le vannak tiltva, és az összes meghajtó újra csatlakozik. Kérjük, mentse a fájlokat vagy a záró alkalmazást.</system:String>
@@ -227,5 +227,10 @@
 	<system:String x:Key="Subscription.Switched">Átkapcsolva: {0}</system:String>
 	<system:String x:Key="Subscription.Switched.Desc1">Az Ön jelenlegi munkamenetét kérte, hogy küldje vissza a másik munkamenetet {0}. Minden meghajtó újra csatlakozik. Kérjük, mentse a fájlokat vagy a záró alkalmazást.</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">Ezt a műveletet {0} után kell alkalmazni, az OK gomb megnyomásával azonnali lesz.</system:String>
+
+	<!--  from version 1.8.0  -->
+	<system:String x:Key="Words.Public">Public</system:String>
+	<system:String x:Key="Words.Private">Private</system:String>
+	<system:String x:Key="Words.Site">Site</system:String>
 
 </ResourceDictionary>

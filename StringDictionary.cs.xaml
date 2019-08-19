@@ -209,7 +209,7 @@
 
 	<system:String x:Key="Message.Backup.BackupTargetFolder">Zvolte vzdálenou složku do které budou soubory nahrávány.</system:String>
 
-	<!-- from version 1.6.0.416 -->
+	<!--  from version 1.6.0.416  -->
 	<system:String x:Key="Settings.General.UseDriveIcon">Použít vlastní ikonu pro připojený disk</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">Místní disk</system:String>
 	<system:String x:Key="AddDrive.FileLock">Subor uzamčen</system:String>
@@ -219,7 +219,7 @@
 	<system:String x:Key="ToolTip.FileLock2">závisí na WebDAV serveru</system:String>
 	<system:String x:Key="ToolTip.FileLock3">Váš server nemusí podporovat</system:String>
 
-	<!-- from version 1.7.0 -->
+	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">Přihlásit se</system:String>
 	<system:String x:Key="Identity.SignOut">Odhlásit se</system:String>
 	<system:String x:Key="Identity.SignOut.Question1">Vaše funkce odběru budou zakázány a všechny disky budou znovu připojeny. Uložte soubor (y) nebo ukončete aplikaci (aplikace).</system:String>
@@ -227,5 +227,10 @@
 	<system:String x:Key="Subscription.Switched">Přepnuto na {0}</system:String>
 	<system:String x:Key="Subscription.Switched.Desc1">Vaše aktuální relace byla požádána o návrat vaší další relací {0}. Všechny disky budou znovu připojeny. Uložte soubor (y) nebo ukončete aplikaci (aplikace).</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">Bude aplikován po {0}, okamžité stisknutí tlačítka Ok.</system:String>
+
+	<!--  from version 1.8.0  -->
+	<system:String x:Key="Words.Public">Veřejnost</system:String>
+	<system:String x:Key="Words.Private">Soukromé</system:String>
+	<system:String x:Key="Words.Site">Site</system:String>
 
 </ResourceDictionary>

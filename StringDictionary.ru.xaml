@@ -209,7 +209,7 @@
 
 	<system:String x:Key="Message.Backup.BackupTargetFolder">Выберите удалённую папку для хранения файлов</system:String>
 
-	<!-- from version 1.6.0.416 -->
+	<!--  from version 1.6.0.416  -->
 	<system:String x:Key="Settings.General.UseDriveIcon">Использовать пользовательскую иконку на подключенном диске</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">Локальный диск</system:String>
 	<system:String x:Key="AddDrive.FileLock">Блокировка файла</system:String>
@@ -219,7 +219,7 @@
 	<system:String x:Key="ToolTip.FileLock2">зависит от сервера WebDAV</system:String>
 	<system:String x:Key="ToolTip.FileLock3">Ваш сервер может не поддерживать</system:String>
 
-	<!-- from version 1.7.0 -->
+	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">Войти</system:String>
 	<system:String x:Key="Identity.SignOut">Выход</system:String>
 	<system:String x:Key="Identity.SignOut.Question1">Функционал вашей подписки будет отключен, а диски будут переподключены. Сохраните файл(ы) или закройте приложение.</system:String>
@@ -227,5 +227,10 @@
 	<system:String x:Key="Subscription.Switched">Переключен на {0}</system:String>
 	<system:String x:Key="Subscription.Switched.Desc1">Текущая сессия запрошена для возврата в другую сессию{0}. Все диски будут переподключены. Сохраните файл(ы) или закройте приложение.</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">Это будет применено после {0}, для немедленного применения нажмите кнопку OK.</system:String>
+
+	<!--  from version 1.8.0  -->
+	<system:String x:Key="Words.Public">общественного</system:String>
+	<system:String x:Key="Words.Private">Частный</system:String>
+	<system:String x:Key="Words.Site">Cайт</system:String>
 
 </ResourceDictionary>
