@@ -112,8 +112,8 @@
 	<system:String x:Key="Message.CurrentVersion">Huidige versie: {0}</system:String>
 	<system:String x:Key="Message.Cache.Folder.NotSupport">De tijdelijke map moet zich op je PC bevinden.</system:String>
 
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">Authorisatie of authenticatie mislukt. Wil je het nog eens proberen?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Authorisatie of authenticatie mislukt. Wil je het nog eens proberen? (als het weer mislukt, verwijder dan de map en voeg hem opnieuw toe.)</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveAuth">Autorisatie of authenticatie mislukt. Wil je het nog eens proberen?</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Autorisatie of authenticatie mislukt. Wil je het nog eens proberen? (als het weer mislukt, verwijder dan de map en voeg hem opnieuw toe.)</system:String>
 	<system:String x:Key="Message.ErrorRemoteDriveLimit">De opslagruimte wordt overschreden. Inlaadbeperkingen worden geregeld door {0}.</system:String>
 	<system:String x:Key="Message.ErrorRemoteDriveRemake">De verbindingsmethode om op te slaan is gewijzigd. Meld je opnieuw aan.</system:String>
 	<system:String x:Key="Message.ErrorCacheDiskFull">Het buffergeheugen is vol. Maak geheugen vrij, bv door programma's te sluiten.</system:String>
@@ -165,12 +165,12 @@
 	<system:String x:Key="Upgrade">Opwaarderen</system:String>
 	<system:String x:Key="Upgrade.Uptodate">Je gebruikt de nieuwste versie</system:String>
 	<system:String x:Key="Upgrade.NewVersion">Je kunt opwaarderen naar versie {0}</system:String>
-	<system:String x:Key="Upgrade.New">Je kunt opwaarderen naar de niewste versie</system:String>
+	<system:String x:Key="Upgrade.New">Je kunt opwaarderen naar de nieuwste versie</system:String>
 
 	<system:String x:Key="NotifyIcon.Open">RaiDrive openen</system:String>
 	<system:String x:Key="NotifyIcon.CheckUpdate">Zoek naar nieuwere versie</system:String>
 	<system:String x:Key="NotifyIcon.Exit">Sluiten</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">Weet je zeker dat je alle verbindingen wilt verbreken voordat je ze sluit?</system:String>
+	<system:String x:Key="NotifyIcon.Exit.Message">Weet je zeker dat je alle verbindingen wil verbreken voordat je ze sluit?</system:String>
 
 	<system:String x:Key="State.Space.Format">{0} beschikbaar van {1} {2}</system:String>
 	<system:String x:Key="State.Space.Used">gebruikt</system:String>
@@ -217,20 +217,20 @@
 	<system:String x:Key="ToolTip.LocalDisk">Verbind zoals een lokale schijf</system:String>
 	<system:String x:Key="ToolTip.FileLock">WebDAV bestandsvergrendeling</system:String>
 	<system:String x:Key="ToolTip.FileLock2">Afhankelijk van WebDAV-server</system:String>
-	<system:String x:Key="ToolTip.FileLock3">Uw server ondersteunt mogelijk niet</system:String>
+	<system:String x:Key="ToolTip.FileLock3">Uw server ondersteunt dit mogelijk niet</system:String>
 
 	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">Aanmelden</system:String>
 	<system:String x:Key="Identity.SignOut">Afmelden</system:String>
 	<system:String x:Key="Identity.SignOut.Question1">Uw abonnementsfuncties worden uitgeschakeld en alle stations worden opnieuw verbonden. Bewaar bestand (en) of sluit applicatie (s).</system:String>
-	<system:String x:Key="Identity.SignOut.Question2">Weet je zeker dat je wilt uitloggen?</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">Weet je zeker dat je wil uitloggen?</system:String>
 	<system:String x:Key="Subscription.Switched">Overgeschakeld naar {0}</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">Uw huidige sessie is gevraagd om te retourneren door uw andere sessie {0}. Alle stations worden opnieuw verbonden. Bewaar bestand (en) of sluit applicatie (s).</system:String>
-	<system:String x:Key="Subscription.Switched.Desc2">Het zal worden toegepast na {0}, druk op OK om onmiddellijk te zijn.</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">Uw huidige sessie is gevraagd om te retourneren door uw andere sessie {0}. Alle stations worden opnieuw verbonden. Bewaar bestand(en) of sluit applicatie(s).</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">Het zal worden toegepast na {0}, druk op OK om onmiddellijk toe te passen.</system:String>
 
 	<!--  from version 1.8.0  -->
 	<system:String x:Key="Words.Public">Openbaar</system:String>
-	<system:String x:Key="Words.Private">Privaat</system:String>
-	<system:String x:Key="Words.Site">Site</system:String>
+	<system:String x:Key="Words.Private">Privé</system:String>
+	<system:String x:Key="Words.Site">Webstek</system:String>
 
 </ResourceDictionary>
