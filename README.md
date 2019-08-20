@@ -17,7 +17,7 @@ StringDictionary.es.xaml | Spanish | O | | |
 StringDictionary.fa.xaml | Farsi(Persian) | O | | |
 StringDictionary.fr.xaml | French | O | | |
 StringDictionary.hr.xaml | Croatian |  |  | | 
-StringDictionary.hu.xaml | Hungarian | O | | |
+StringDictionary.hu.xaml | Hungarian | O | O | O |
 StringDictionary.it.xaml | Italian | O | | |
 StringDictionary.ja.xaml | Japanese | O | | | 
 StringDictionary.ko.xaml | Korean | O | O | O | 
@@ -25,14 +25,14 @@ StringDictionary.ms.xaml | Malay(Malaysia) |
 StringDictionary.nl.xaml | Dutch | O | O | O |
 StringDictionary.pl.xaml | Polish | O | O | O |
 StringDictionary.pt-PT.xaml | Portuguese |   | | |
-StringDictionary.pt-BR.xaml | Brazilian Portuguese | O | O | O |
+StringDictionary.pt-BR.xaml | Brazilian Portuguese | O |  |  |
 StringDictionary.ro.xaml | Romanian | O | | |
 StringDictionary.ru.xaml | Russian | O | O | | 
 StringDictionary.th.xaml | Thai | O | O | |
 StringDictionary.uk.xaml | Ukrainian |  | | |
 StringDictionary.vi.xaml | Vietnamese | Translating... | | |
 StringDictionary.zh-Hans.xaml | Chinese (Simplified) | O | O | |
-StringDictionary.zh-Hant.xaml | Chinese (Traditional) | O | O | |
+StringDictionary.zh-Hant.xaml | Chinese (Traditional) | O | O | O |
 
 ### Other Languages 
 When you would voluntarily support translation to other language, it is really appreciated and please leave a message on Issues. 
