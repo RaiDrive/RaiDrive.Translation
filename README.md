@@ -9,7 +9,7 @@ Your contribution can be recorded through the "Pull Request".
 File name | Language | Translated | v.1.7.0 confirm | v.1.8.0 confirm |
 ----------|----------|------------|---------|--------|
 StringDictionary.ar.xaml | Arabic | O | | |
-StringDictionary.cs.xaml | Czech | O | O | |
+StringDictionary.cs.xaml | Czech | O | O | O |
 StringDictionary.da.xaml | Danish | O | | |
 StringDictionary.de.xaml | German | O | | |
 StringDictionary.en.xaml | English | O | O | O |
@@ -23,9 +23,9 @@ StringDictionary.ja.xaml | Japanese | O | | |
 StringDictionary.ko.xaml | Korean | O | O | O | 
 StringDictionary.ms.xaml | Malay(Malaysia) | 
 StringDictionary.nl.xaml | Dutch | O | O | O |
-StringDictionary.pl.xaml | Polish | O | | |
+StringDictionary.pl.xaml | Polish | O | O | O |
 StringDictionary.pt-PT.xaml | Portuguese |   | | |
-StringDictionary.pt-BR.xaml | Brazilian Portuguese | O | O | |
+StringDictionary.pt-BR.xaml | Brazilian Portuguese | O | O | O |
 StringDictionary.ro.xaml | Romanian | O | | |
 StringDictionary.ru.xaml | Russian | O | O | | 
 StringDictionary.th.xaml | Thai | O | O | |
