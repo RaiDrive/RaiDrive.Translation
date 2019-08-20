@@ -22,7 +22,7 @@ StringDictionary.it.xaml | Italian | O | | |
 StringDictionary.ja.xaml | Japanese | O | | | 
 StringDictionary.ko.xaml | Korean | O | O | O | 
 StringDictionary.ms.xaml | Malay(Malaysia) | 
-StringDictionary.nl.xaml | Dutch | O | | |
+StringDictionary.nl.xaml | Dutch | O | O | O |
 StringDictionary.pl.xaml | Polish | O | | |
 StringDictionary.pt-PT.xaml | Portuguese |   | | |
 StringDictionary.pt-BR.xaml | Brazilian Portuguese | O | O | |
