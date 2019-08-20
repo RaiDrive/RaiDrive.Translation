@@ -222,15 +222,15 @@
 	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">Přihlásit se</system:String>
 	<system:String x:Key="Identity.SignOut">Odhlásit se</system:String>
-	<system:String x:Key="Identity.SignOut.Question1">Vaše funkce odběru budou zakázány a všechny disky budou znovu připojeny. Uložte soubor (y) nebo ukončete aplikaci (aplikace).</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">Vaše přihlášení k odběru budou zakázány a všechny disky budou znovu odpojeny. Uložte soubor(y) nebo ukončete aplikaci. Následně se můžete znovu přihlásit.</system:String>
 	<system:String x:Key="Identity.SignOut.Question2">Opravdu se chcete odhlásit?</system:String>
 	<system:String x:Key="Subscription.Switched">Přepnuto na {0}</system:String>
 	<system:String x:Key="Subscription.Switched.Desc1">Vaše aktuální relace byla požádána o návrat vaší další relací {0}. Všechny disky budou znovu připojeny. Uložte soubor (y) nebo ukončete aplikaci (aplikace).</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">Bude aplikován po {0}, okamžité stisknutí tlačítka Ok.</system:String>
 
 	<!--  from version 1.8.0  -->
-	<system:String x:Key="Words.Public">Veřejnost</system:String>
+	<system:String x:Key="Words.Public">Veřejné</system:String>
 	<system:String x:Key="Words.Private">Soukromé</system:String>
-	<system:String x:Key="Words.Site">Site</system:String>
+	<system:String x:Key="Words.Site">Sdílené</system:String>
 
 </ResourceDictionary>
