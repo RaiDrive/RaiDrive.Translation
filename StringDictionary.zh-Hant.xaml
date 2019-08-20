@@ -222,14 +222,14 @@
 	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">登入</system:String>
 	<system:String x:Key="Identity.SignOut">登出</system:String>
-	<system:String x:Key="Identity.SignOut.Question1">您的訂閱功能將被停用, 所有磁碟機將重新連線。 請儲存檔案或關閉相關的應用程式。</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">您的訂閱功能將被停用, 所有磁碟機將重新連線。 請儲存檔案或關閉應用程式。</system:String>
 	<system:String x:Key="Identity.SignOut.Question2">您確定要登出嗎?</system:String>
-	<system:String x:Key="Subscription.Switched">切換到{0}</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">您的目前工作階段已被請求由您的其他會話{0}返回。 所有驅動器都將重新連線。 請儲存檔案或關閉相關的應用程式。</system:String>
-	<system:String x:Key="Subscription.Switched.Desc2">將在{0}之後套用, 按下 [確定] 按鈕立即生效。</system:String>
+	<system:String x:Key="Subscription.Switched">切換到 {0}</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">您目前的工作階段已被請求由您的其他工作階段 {0} 返回。 所有磁碟機都將重新連線。 請儲存檔案或關閉應用程式。</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">將在 {0} 之後套用, 按下 [確定] 按鈕立即生效。</system:String>
 
 	<!--  from version 1.8.0  -->
-	<system:String x:Key="Words.Public">發布</system:String>
+	<system:String x:Key="Words.Public">公開</system:String>
 	<system:String x:Key="Words.Private">私人</system:String>
 	<system:String x:Key="Words.Site">網站</system:String>
 
