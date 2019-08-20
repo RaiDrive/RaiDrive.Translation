@@ -231,6 +231,6 @@
 	<!--  from version 1.8.0  -->
 	<system:String x:Key="Words.Public">Publiczny</system:String>
 	<system:String x:Key="Words.Private">Prywatny</system:String>
-	<system:String x:Key="Words.Site">Site</system:String>
+	<system:String x:Key="Words.Site">Strona</system:String>
 
 </ResourceDictionary>
