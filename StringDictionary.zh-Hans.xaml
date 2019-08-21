@@ -96,7 +96,7 @@
 	<system:String x:Key="Message.SelectedPath">选择文件夹</system:String>
 	<system:String x:Key="Message.DuplicatedPath">重复的路径</system:String>
 
-	<system:String x:Key="Message.SureDelete">你确定要永久删除 &quot;{0} ({1})&quot; 吗?</system:String>
+	<system:String x:Key="Message.SureDelete">您确定要永久删除 &quot;{0} ({1})&quot; 吗?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">重启 RaiDrive</system:String>
 	<system:String x:Key="Message.Title.Reconnect">RaiDrive 重连</system:String>
 	<system:String x:Key="Message.ServiceDown">请按 [确定] 按钮, RaiDrive 会重新启动.</system:String>
@@ -107,7 +107,7 @@
 	<system:String x:Key="Message.Connect.By">使用 RaiDrive 连接中</system:String>
 	<system:String x:Key="Message.Maximum.Drive">在当前版本里，您可以最多建立 8 个驱动器</system:String>
 	<system:String x:Key="Message.License.Expired">您的授权已过期. 需要您下载新版本. 按 [确定] 进行升级.</system:String>
-	<system:String x:Key="Message.License.NotReady">RaiDrive 无法验证你的授权信息.</system:String>
+	<system:String x:Key="Message.License.NotReady">RaiDrive 无法验证您的授权信息.</system:String>
 	<system:String x:Key="Message.UnknownSpace">未知空间容量</system:String>
 	<system:String x:Key="Message.CurrentVersion">当前版本为 {0}</system:String>
 	<system:String x:Key="Message.Cache.Folder.NotSupport">您的临时文件夹必须为本地驱动器上的文件夹, 不支持网络驱动器.</system:String>
@@ -229,8 +229,8 @@
 	<system:String x:Key="Subscription.Switched.Desc2">将在{0}之后生效. 按 [确定] 按钮立即生效.</system:String>
 
 	<!--  from version 1.8.0  -->
-	<system:String x:Key="Words.Public">发布</system:String>
-	<system:String x:Key="Words.Private">私人</system:String>
+	<system:String x:Key="Words.Public">公开</system:String>
+	<system:String x:Key="Words.Private">私有</system:String>
 	<system:String x:Key="Words.Site">网站</system:String>
 
 </ResourceDictionary>
