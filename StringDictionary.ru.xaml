@@ -229,8 +229,8 @@
 	<system:String x:Key="Subscription.Switched.Desc2">Это будет применено после {0}, для немедленного применения нажмите кнопку OK.</system:String>
 
 	<!--  from version 1.8.0  -->
-	<system:String x:Key="Words.Public">общественного</system:String>
-	<system:String x:Key="Words.Private">Частный</system:String>
+	<system:String x:Key="Words.Public">Публичный</system:String>
+	<system:String x:Key="Words.Private">Приватный</system:String>
 	<system:String x:Key="Words.Site">Cайт</system:String>
 
 </ResourceDictionary>
