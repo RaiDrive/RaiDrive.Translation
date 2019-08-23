@@ -232,7 +232,7 @@
 
 	<!--  from version 1.8.0  -->
 	<system:String x:Key="Words.Public">สาธารณะ</system:String>
-	<system:String x:Key="Words.Private">เอกชน</system:String>
-	<system:String x:Key="Words.Site">บไซต์</system:String>
+	<system:String x:Key="Words.Private">ส่วนตัว</system:String>
+	<system:String x:Key="Words.Site">เว็บไซต์</system:String>
 
 </ResourceDictionary>
