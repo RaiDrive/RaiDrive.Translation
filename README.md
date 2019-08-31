@@ -19,7 +19,7 @@ StringDictionary.fr.xaml | French | O | | |
 StringDictionary.hr.xaml | Croatian |  |  | | 
 StringDictionary.hu.xaml | Hungarian | O | O | O |
 StringDictionary.it.xaml | Italian | O | | |
-StringDictionary.ja.xaml | Japanese | O | | | 
+StringDictionary.ja.xaml | Japanese | O | O | O | 
 StringDictionary.ko.xaml | Korean | O | O | O | 
 StringDictionary.ms.xaml | Malay(Malaysia) | 
 StringDictionary.nl.xaml | Dutch | O | O | O |
