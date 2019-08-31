@@ -98,25 +98,25 @@
 
 	<system:String x:Key="Message.SureDelete">永久的に &quot;{0} ({1})&quot; を削除しますか?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">RaiDriveを再起動</system:String>
-	<system:String x:Key="Message.Title.Reconnect">RaiDrive再接続</system:String>
+	<system:String x:Key="Message.Title.Reconnect">RaiDriveの再接続</system:String>
 	<system:String x:Key="Message.ServiceDown">OKボタンをクリックしてください RaiDriveを再起動します</system:String>
 	<system:String x:Key="Message.Settings.Reconnect">OKボタンをクリックしてください 変更された設定を反映するにはリモートドライブの再マウントが必要です</system:String>
 	<system:String x:Key="Message.NotReady.Reboot">RaiDrive起動の準備が完了していません 再起動する必要があります</system:String>
 	<system:String x:Key="Message.NotReady.Driver">デバイスドライバーがインストールされていません RaiDriveを再インストールしてください</system:String>
 	<system:String x:Key="Message.NotSupport.Browser.Dropbox">DropboxはInternet Explorer 10, 11バージョンをサポートしています Internet Explorer 11の使用をお勧めします</system:String>
 	<system:String x:Key="Message.Connect.By">RaiDriveによってマウント</system:String>
-	<system:String x:Key="Message.Maximum.Drive">現在のバージョンでは最大8のドライブを生成できます</system:String>
+	<system:String x:Key="Message.Maximum.Drive">現在のバージョンでは最大8のドライブを作成できます</system:String>
 	<system:String x:Key="Message.License.Expired">ライセンスが失効しました 新しいバージョンにアップデートする必要があります OKボタンをクリックするとアップデートを開始します</system:String>
 	<system:String x:Key="Message.License.NotReady">ライセンスを確認できません</system:String>
-	<system:String x:Key="Message.UnknownSpace">不明の空き領域</system:String>
+	<system:String x:Key="Message.UnknownSpace">不明な空き領域</system:String>
 	<system:String x:Key="Message.CurrentVersion">現在のバージョンは {0} です</system:String>
 	<system:String x:Key="Message.Cache.Folder.NotSupport">一時フォルダの指定はローカルディスクドライブのフォルダのみ可能です ネットワークドライブを指定することはできません</system:String>
 
 	<system:String x:Key="Message.ErrorRemoteDriveAuth">権限付与または認証に失敗しました 再認証しますか?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">権限付与または認証に失敗しました 再認証しますか? (また失敗した場合には該当するドライブを削除してから再度ドライブを生成してください)</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveLimit">ダウンロードの割り当て量を超えています ダウンロード制限は {0} の政策です</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">権限付与または認証に失敗しました 再認証しますか? (また失敗した場合には該当するドライブを削除してから再度ドライブを作成してください)</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveLimit">ダウンロードの割り当て量を超えています ダウンロード制限は {0} です</system:String>
 	<system:String x:Key="Message.ErrorRemoteDriveRemake">リモートストレージの接続方式が変更されました 再ログインする必要があります</system:String>
-	<system:String x:Key="Message.ErrorCacheDiskFull">cache保存空間がほとんど残っていません 保存空間を増やす必要があります</system:String>
+	<system:String x:Key="Message.ErrorCacheDiskFull">一時保存領域がほとんど残っていません 保存領域を増やす必要があります</system:String>
 	<system:String x:Key="Message.ErrorInternet">リモートストレージをマウントできません インターネット接続を確認してから再度お試しください</system:String>
 	<system:String x:Key="Message.ErrorDiskLetterExist">ドライブラベルまたはドライブ名を変更する必要があります</system:String>
 
@@ -191,7 +191,7 @@
 	<system:String x:Key="Backup.BackupNOW">今すぐバックアップ</system:String>
 	<system:String x:Key="Backup.NOW">今</system:String>
 	<system:String x:Key="Backup.Save">保存</system:String>
-	<system:String x:Key="Backup.ClearLog">logを削除</system:String>
+	<system:String x:Key="Backup.ClearLog">ログを削除</system:String>
 	<system:String x:Key="Backup.DestRootFolder">リモートフォルダ</system:String>
 	<system:String x:Key="Backup.SourceFolders">ローカルフォルダ</system:String>
 	<system:String x:Key="Backup.Progress">進行状況</system:String>
@@ -210,7 +210,7 @@
 	<system:String x:Key="Message.Backup.BackupTargetFolder">ファイルが保存されるリモートフォルダを選択してください</system:String>
 
 	<!--  from version 1.6.0.416  -->
-	<system:String x:Key="Settings.General.UseDriveIcon">接続ドライブのカスタムアイコンを使用する</system:String>
+	<system:String x:Key="Settings.General.UseDriveIcon">接続ドライブにカスタムアイコンを使用する</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">ローカルディスク</system:String>
 	<system:String x:Key="AddDrive.FileLock">ファイルロック</system:String>
 	<system:String x:Key="AddDrive.WritableDrive">書き込み可能ドライブ</system:String>
