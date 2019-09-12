@@ -210,27 +210,27 @@
 	<system:String x:Key="Message.Backup.BackupTargetFolder">اختر المجلد البعيد حيث سيتم تخزين الملفات</system:String>
 
 	<!--  from version 1.6.0.416  -->
-	<system:String x:Key="Settings.General.UseDriveIcon">Use the custom icon on a connected drive</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">Local Disk</system:String>
-	<system:String x:Key="AddDrive.FileLock">File Lock</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">Writable Drive</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">Mount like a local disk</system:String>
-	<system:String x:Key="ToolTip.FileLock">WebDAV File Lock</system:String>
-	<system:String x:Key="ToolTip.FileLock2">depends on WebDAV server</system:String>
-	<system:String x:Key="ToolTip.FileLock3">Your server may not support</system:String>
+	<system:String x:Key="Settings.General.UseDriveIcon">استخدام أيقونة خاصة لقرص متصل</system:String>
+	<system:String x:Key="AddDrive.LocalDisk">قرص محلي</system:String>
+	<system:String x:Key="AddDrive.FileLock">قرص مقيد</system:String>
+	<system:String x:Key="AddDrive.WritableDrive">قرص قابل للكتابة</system:String>
+	<system:String x:Key="ToolTip.LocalDisk">إعداد كقرص محلي</system:String>
+	<system:String x:Key="ToolTip.FileLock">قرص WebDAV مقيد</system:String>
+	<system:String x:Key="ToolTip.FileLock2">يعتمد على خادم WebDAV</system:String>
+	<system:String x:Key="ToolTip.FileLock3">سيرفرك قد لا يدعم</system:String>
 
 	<!--  from version 1.7.0  -->
-	<system:String x:Key="Identity.SignIn">Sign In</system:String>
-	<system:String x:Key="Identity.SignOut">Sign Out</system:String>
-	<system:String x:Key="Identity.SignOut.Question1">Your subscription features will be disabled and all drives will be reconnected. Please save file(s) or close application(s)</system:String>
-	<system:String x:Key="Identity.SignOut.Question2">Are you sure you want to sign out?</system:String>
-	<system:String x:Key="Subscription.Switched">Switched to {0}</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">Your current session has been requested to return by your other session{0}. All drives will be reconnected. Please save file(s) or close application(s)</system:String>
-	<system:String x:Key="Subscription.Switched.Desc2">It will be applied after {0}, press Ok button to be immediate.</system:String>
+	<system:String x:Key="Identity.SignIn">تسجيل الدخول</system:String>
+	<system:String x:Key="Identity.SignOut">تسجيل الخروج</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">جميع مميزات اشتراكك ستتعطل، وسنعيد الاتصال بأقراصك. يرجى حفظ ملفاتك أو قفل التطبيقات</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">هل أنت متأكد من رغبتك بتسجيل الخروج؟</system:String>
+	<system:String x:Key="Subscription.Switched">تم التغيير إلى {0}</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">وصل طلب تعديل لجلستك الحالية من جهازك الآخر{0}. سنعيد الاتصال بكل أقراصك. يرجى حفظ ملفاتك أو قفل التطبيقات</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">سيتم تطبيق التأثيرات بعد {0}، انقر على نعم للتطبيق الآن.</system:String>
 
 	<!--  from version 1.8.0  -->
-	<system:String x:Key="Words.Public">Public</system:String>
-	<system:String x:Key="Words.Private">Private</system:String>
-	<system:String x:Key="Words.Site">Site</system:String>
+	<system:String x:Key="Words.Public">عام</system:String>
+	<system:String x:Key="Words.Private">خاص</system:String>
+	<system:String x:Key="Words.Site">موقع</system:String>
 
 </ResourceDictionary>
