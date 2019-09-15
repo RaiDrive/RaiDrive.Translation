@@ -8,7 +8,7 @@ Your contribution can be recorded through the "Pull Request".
 
 File name | Language | Translated | v.1.7.0 confirm | v.1.8.0 confirm |
 ----------|----------|------------|---------|--------|
-StringDictionary.ar.xaml | Arabic | O | | |
+StringDictionary.ar.xaml | Arabic | O | O | O |
 StringDictionary.cs.xaml | Czech | O | O | O |
 StringDictionary.da.xaml | Danish | O | | |
 StringDictionary.de.xaml | German | O | | |
