@@ -31,7 +31,7 @@
 	<system:String x:Key="AddDrive.ReadOnly">읽기전용</system:String>
 
 	<system:String x:Key="AddDrive.MountAtBoot">프로그램이 시작될 때 자동연결</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">연결할 때마다 로그인</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">연결할 때마다 다시 로그인</system:String>
 	<system:String x:Key="AddDrive.Account">계정</system:String>
 	<system:String x:Key="AddDrive.Username">사용자</system:String>
 	<system:String x:Key="AddDrive.Password">비밀번호</system:String>
