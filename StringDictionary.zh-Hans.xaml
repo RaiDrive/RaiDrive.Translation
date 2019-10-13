@@ -39,7 +39,7 @@
 	<system:String x:Key="AddDrive.Port">端口</system:String>
 	<system:String x:Key="AddDrive.Device">设备</system:String>
 	<system:String x:Key="AddDrive.PrivateKey">私钥</system:String>
-	<system:String x:Key="AddDrive.Charset">字符集</system:String>
+	<system:String x:Key="AddDrive.Charset">文字编码</system:String>
 	<system:String x:Key="AddDrive.TransferMode">传输模式</system:String>
 	<system:String x:Key="AddDrive.Encryption">加密方式</system:String>
 
