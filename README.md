@@ -29,6 +29,7 @@ StringDictionary.pt-BR.xaml | Brazilian Portuguese | O |  |  |
 StringDictionary.ro.xaml | Romanian | O | | |
 StringDictionary.ru.xaml | Russian | O | O | O | 
 StringDictionary.th.xaml | Thai | O | O | O |
+StringDictionary.tr.xaml | Turkish | O | O | O |
 StringDictionary.uk.xaml | Ukrainian |  | | |
 StringDictionary.vi.xaml | Vietnamese | Translating... | | |
 StringDictionary.zh-Hans.xaml | Chinese (Simplified) | O | O | O |
