@@ -7,7 +7,7 @@
 	<system:String x:Key="Settings.Header">Ayarlar</system:String>
 	<system:String x:Key="Settings.General">Genel</system:String>
 	<system:String x:Key="Settings.Language">Dil</system:String>
-	<system:String x:Key="Settings.Update">Güncelle</system:String>
+	<system:String x:Key="Settings.Update">Versiyon</system:String>
 	<system:String x:Key="Settings.Facebook">Facebook</system:String>
 	<system:String x:Key="Settings.Facebook.Like">Beğen</system:String>
 	<system:String x:Key="Settings.TemporaryPath">Geçici Dosya Yolu</system:String>
@@ -15,8 +15,8 @@
 	<system:String x:Key="Settings.License">Lisanslar</system:String>
 	<system:String x:Key="Settings.Proxy">Proxy</system:String>
 
-	<system:String x:Key="Settings.General.RunAtBoot">Programı Windows ile birlikte başlat</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">Dosya bağlantısı sağlandığında dosya yöneticisini aç</system:String>
+	<system:String x:Key="Settings.General.RunAtBoot">Programı Windows ile birlikte başlat.</system:String>
+	<system:String x:Key="Settings.General.RunAtConnect">Dosya bağlantısı sağlandığında dosya yöneticisini aç.</system:String>
 
 	<system:String x:Key="Notice">Bildirim</system:String>
 	<system:String x:Key="AddDrive">Ekle</system:String>
@@ -79,7 +79,7 @@
 	<system:String x:Key="Button.Apply">Uygula</system:String>
 	<system:String x:Key="Button.Cancel">Vazgeç</system:String>
 	<!-- If using as like as check something have to use "kontrol etmek" othervise if using as check the box for sign in or using as marking something we have to use "işaretlemek" -->
-	<system:String x:Key="Button.Check">kontrol etmek</system:String>
+	<system:String x:Key="Button.Check">Güncellemeleri Kontrol Et</system:String>
 
 	<system:String x:Key="Button.Edit">Düzenle</system:String>
 	<system:String x:Key="Button.Retry">Tekrar Dene</system:String>
@@ -120,7 +120,7 @@
 	<system:String x:Key="Message.License.Expired">Lisansınızın süresi dolmuş. Yeni versiyonu indirmek ister misiniz?.</system:String>
 	<system:String x:Key="Message.License.NotReady">RaiDrive lisansınızı onaylayamadı.</system:String>
 	<!--Have to know when it throws this message "Unknown space"-->
-	<system:String x:Key="Message.UnknownSpace">Unknown space</system:String>
+	<system:String x:Key="Message.UnknownSpace">Bilinmeyen Miktar</system:String>
 	<system:String x:Key="Message.CurrentVersion">Kullanmakta olduğunuz sürüm: {0}</system:String>
 	<system:String x:Key="Message.Cache.Folder.NotSupport">Geçici depolama klasörü bilgisayarınızda olmak zorunda. Ağ sürücüleri desteklenmemektedir.</system:String>
 
@@ -157,7 +157,7 @@
 	<system:String x:Key="Words.Drive">Sürücü</system:String>
 	<system:String x:Key="Words.FreeSpace">Boş alan</system:String>
 	<!-- Have to know when it uses this words "Send Opinion" and "Code" -->
-	<system:String x:Key="Words.Send.Opinion">Send Opinion</system:String>
+	<system:String x:Key="Words.Send.Opinion">Yorum Yap</system:String>
 	<system:String x:Key="Words.Code">Code</system:String>
 	<system:String x:Key="Words.Path">Dosya Yolu</system:String>
 	<system:String x:Key="Words.File">Dosya</system:String>
