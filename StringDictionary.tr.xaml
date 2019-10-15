@@ -106,7 +106,7 @@
 	<system:String x:Key="Message.Exist">Bu dosya zaten kullanılmakta.</system:String>
 	<system:String x:Key="Message.SelectedPath">Seçilen dosya yolu</system:String>
 	<system:String x:Key="Message.DuplicatedPath">Kopyalanmış dosya yolu</system:String>
-
+ 
 	<system:String x:Key="Message.SureDelete">Tamamen silmek istediğinizden emin misiniz ? &quot;{0} ({1})&quot; ?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">RaiDrive'ı onar.</system:String>
 	<system:String x:Key="Message.Title.Reconnect">RaiDrive'a tekrar bağlan.</system:String>
