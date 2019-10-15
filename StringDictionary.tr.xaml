@@ -120,7 +120,7 @@
 	<system:String x:Key="Message.License.Expired">Lisansınızın süresi dolmuş. Yeni versiyonu indirmek ister misiniz?.</system:String>
 	<system:String x:Key="Message.License.NotReady">RaiDrive lisansınızı onaylayamadı.</system:String>
 	<!--Have to know when it throws this message "Unknown space"-->
-	<system:String x:Key="Message.UnknownSpace">Unknown space</system:String>
+	<system:String x:Key="Message.UnknownSpace">Bilinmeyen Miktar</system:String>
 	<system:String x:Key="Message.CurrentVersion">Kullanmakta olduğunuz sürüm: {0}</system:String>
 	<system:String x:Key="Message.Cache.Folder.NotSupport">Geçici depolama klasörü bilgisayarınızda olmak zorunda. Ağ sürücüleri desteklenmemektedir.</system:String>
 
@@ -157,7 +157,7 @@
 	<system:String x:Key="Words.Drive">Sürücü</system:String>
 	<system:String x:Key="Words.FreeSpace">Boş alan</system:String>
 	<!-- Have to know when it uses this words "Send Opinion" and "Code" -->
-	<system:String x:Key="Words.Send.Opinion">Send Opinion</system:String>
+	<system:String x:Key="Words.Send.Opinion">Yorum Yap</system:String>
 	<system:String x:Key="Words.Code">Code</system:String>
 	<system:String x:Key="Words.Path">Dosya Yolu</system:String>
 	<system:String x:Key="Words.File">Dosya</system:String>
