@@ -79,7 +79,7 @@
 	<system:String x:Key="Button.Apply">Uygula</system:String>
 	<system:String x:Key="Button.Cancel">Vazgeç</system:String>
 	<!-- If using as like as check something have to use "kontrol etmek" othervise if using as check the box for sign in or using as marking something we have to use "işaretlemek" -->
-	<system:String x:Key="Button.Check">kontrol etmek</system:String>
+	<system:String x:Key="Button.Check">Kontrol Et</system:String>
 
 	<system:String x:Key="Button.Edit">Düzenle</system:String>
 	<system:String x:Key="Button.Retry">Tekrar Dene</system:String>
