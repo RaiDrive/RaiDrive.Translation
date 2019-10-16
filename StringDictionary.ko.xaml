@@ -1,8 +1,15 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:RaiDrive.Center.Languages" xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:local="clr-namespace:RaiDrive.Center.Languages"
+	xmlns:system="clr-namespace:System;assembly=mscorlib">
 
-	<!--  시작바>설정, 드라이브 속성(General)  -->
+	<x:Array x:Key="Contributors" Type="system:String">
+		<system:String>RaiDrive</system:String>
+	</x:Array>
 	<system:String x:Key="Current.Language">ko</system:String>
 
+	<!--  설정, 드라이브 속성(General)  -->
 	<system:String x:Key="Settings">설정</system:String>
 	<system:String x:Key="Settings.Header">설정</system:String>
 	<system:String x:Key="Settings.General">일반</system:String>
@@ -232,5 +239,30 @@
 	<system:String x:Key="Words.Public">공개</system:String>
 	<system:String x:Key="Words.Private">비공개</system:String>
 	<system:String x:Key="Words.Site">사이트</system:String>
+
+	<!--  from version 1.9.0  -->
+	<system:String x:Key="Words.Project">프로젝트</system:String>
+	<system:String x:Key="Words.Bucket">버킷</system:String>
+	<system:String x:Key="Words.Tenant">테넌트</system:String>
+	<system:String x:Key="Words.Subscription">구독</system:String>
+	<system:String x:Key="Words.Community">커뮤니티</system:String>
+	<system:String x:Key="Words.Document">설명서</system:String>
+
+	<system:String x:Key="Words.Cache">캐시</system:String>
+	<system:String x:Key="Words.Lifetime">유지시간</system:String>
+	<system:String x:Key="Words.Read">읽기</system:String>
+	<system:String x:Key="Words.Write">쓰기</system:String>
+	<system:String x:Key="Words.Second">초</system:String>
+
+
+	<system:String x:Key="Account.AccessKeyID">엑세스 키 ID</system:String>
+	<system:String x:Key="Account.SecretAccessKey">비밀 엑세스 키</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">엑세스 키 ID를 입력해 주세요</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">비밀 엑세스 키를 입력해 주세요</system:String>
+
+	<system:String x:Key="Account.StorageAccount">스토리지 계정</system:String>
+	<system:String x:Key="Account.StorageKey">키</system:String>
+	<system:String x:Key="Vailidation.StorageAccount">스토리지 계정 이름을 입력해 주세요</system:String>
+	<system:String x:Key="Vailidation.StorageKey">key1 또는 key2를 입력해 주세요</system:String>
 
 </ResourceDictionary>

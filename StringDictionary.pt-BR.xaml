@@ -1,8 +1,15 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:RaiDrive.Center.Languages" xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:local="clr-namespace:RaiDrive.Center.Languages"
+	xmlns:system="clr-namespace:System;assembly=mscorlib">
 
-	<!--  Menu bar>Settings, General  -->
+	<x:Array x:Key="Contributors" Type="system:String">
+		<system:String>fidodone</system:String>
+	</x:Array>
 	<system:String x:Key="Current.Language">pt-BR</system:String>
 
+	<!--  Settings, General  -->
 	<system:String x:Key="Settings">Configurações</system:String>
 	<system:String x:Key="Settings.Header">Configurações</system:String>
 	<system:String x:Key="Settings.General">Geral</system:String>
@@ -232,5 +239,29 @@
 	<system:String x:Key="Words.Public">Público</system:String>
 	<system:String x:Key="Words.Private">Privado</system:String>
 	<system:String x:Key="Words.Site">Site</system:String>
+
+	<!--  from version 1.9.0  -->
+	<system:String x:Key="Words.Project">Project</system:String>
+	<system:String x:Key="Words.Bucket">Bucket</system:String>
+	<system:String x:Key="Words.Tenant">Tenant</system:String>
+	<system:String x:Key="Words.Subscription">Subscription</system:String>
+	<system:String x:Key="Words.Community">Community</system:String>
+	<system:String x:Key="Words.Document">Document</system:String>
+
+	<system:String x:Key="Words.Cache">Cache</system:String>
+	<system:String x:Key="Words.Lifetime">Lifetime</system:String>
+	<system:String x:Key="Words.Read">Read</system:String>
+	<system:String x:Key="Words.Write">Write</system:String>
+	<system:String x:Key="Words.Second">second</system:String>
+
+	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
+	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">Please enter Access Key ID</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">Please enter Secret Access Key</system:String>
+
+	<system:String x:Key="Account.StorageAccount">Storage Account</system:String>
+	<system:String x:Key="Account.StorageKey">Key</system:String>
+	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
+	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
 
 </ResourceDictionary>
