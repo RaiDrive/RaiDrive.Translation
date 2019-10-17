@@ -242,27 +242,27 @@
 	<system:String x:Key="Words.Site">موقع</system:String>
 
 	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">Project</system:String>
-	<system:String x:Key="Words.Bucket">Bucket</system:String>
-	<system:String x:Key="Words.Tenant">Tenant</system:String>
-	<system:String x:Key="Words.Subscription">Subscription</system:String>
-	<system:String x:Key="Words.Community">Community</system:String>
-	<system:String x:Key="Words.Document">Document</system:String>
+	<system:String x:Key="Words.Project">مشروع</system:String>
+	<system:String x:Key="Words.Bucket">وعاء</system:String>
+	<system:String x:Key="Words.Tenant">خيمة</system:String>
+	<system:String x:Key="Words.Subscription">الاشتراك</system:String>
+	<system:String x:Key="Words.Community">المجتمع</system:String>
+	<system:String x:Key="Words.Document">مستند</system:String>
 
-	<system:String x:Key="Words.Cache">Cache</system:String>
-	<system:String x:Key="Words.Lifetime">Lifetime</system:String>
-	<system:String x:Key="Words.Read">Read</system:String>
-	<system:String x:Key="Words.Write">Write</system:String>
-	<system:String x:Key="Words.Second">second</system:String>
+	<system:String x:Key="Words.Cache">الملفات المخزنة مؤفتًا</system:String>
+	<system:String x:Key="Words.Lifetime">مدى الحياة</system:String>
+	<system:String x:Key="Words.Read">قراءة</system:String>
+	<system:String x:Key="Words.Write">كتابة</system:String>
+	<system:String x:Key="Words.Second">ثانية</system:String>
 
-	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
-	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">Please enter Access Key ID</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Please enter Secret Access Key</system:String>
+	<system:String x:Key="Account.AccessKeyID">هوية مفتاح الدخول</system:String>
+	<system:String x:Key="Account.SecretAccessKey">مفتاح الدخول السري</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">من فضلك أدخل Access Key ID</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">من فضلك أدخل Secret Access Key</system:String>
 
-	<system:String x:Key="Account.StorageAccount">Storage Account</system:String>
-	<system:String x:Key="Account.StorageKey">Key</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
-	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+	<system:String x:Key="Account.StorageAccount">حساب تخزين</system:String>
+	<system:String x:Key="Account.StorageKey">مفتاح</system:String>
+	<system:String x:Key="Vailidation.StorageAccount">من فضلك أدخل اسم حساب التخزين</system:String>
+	<system:String x:Key="Vailidation.StorageKey">من فضلك أدخل المفتاح 1 أو المفتاح 2</system:String>
 
 </ResourceDictionary>
