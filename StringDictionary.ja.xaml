@@ -243,27 +243,27 @@
 	<system:String x:Key="Words.Site">サイト</system:String>
 
 	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">Project</system:String>
-	<system:String x:Key="Words.Bucket">Bucket</system:String>
-	<system:String x:Key="Words.Tenant">Tenant</system:String>
-	<system:String x:Key="Words.Subscription">Subscription</system:String>
-	<system:String x:Key="Words.Community">Community</system:String>
-	<system:String x:Key="Words.Document">Document</system:String>
+	<system:String x:Key="Words.Project">プロジェクト</system:String>
+	<system:String x:Key="Words.Bucket">バケット</system:String>
+	<system:String x:Key="Words.Tenant">テナント</system:String>
+	<system:String x:Key="Words.Subscription">サブスクリプション</system:String>
+	<system:String x:Key="Words.Community">コミュニティ</system:String>
+	<system:String x:Key="Words.Document">ドキュメント</system:String>
 
-	<system:String x:Key="Words.Cache">Cache</system:String>
-	<system:String x:Key="Words.Lifetime">Lifetime</system:String>
-	<system:String x:Key="Words.Read">Read</system:String>
-	<system:String x:Key="Words.Write">Write</system:String>
-	<system:String x:Key="Words.Second">second</system:String>
+	<system:String x:Key="Words.Cache">キャッシュ</system:String>
+	<system:String x:Key="Words.Lifetime">有効期限</system:String>
+	<system:String x:Key="Words.Read">読み込み</system:String>
+	<system:String x:Key="Words.Write">書き込み</system:String>
+	<system:String x:Key="Words.Second">秒</system:String>
 
 	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
 	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">Please enter Access Key ID</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Please enter Secret Access Key</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">Access Key IDを入力</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">Secret Access Keyを入力</system:String>
 
-	<system:String x:Key="Account.StorageAccount">Storage Account</system:String>
+	<system:String x:Key="Account.StorageAccount">ストレージアカウント</system:String>
 	<system:String x:Key="Account.StorageKey">Key</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
-	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+	<system:String x:Key="Vailidation.StorageAccount">ストレージアカウント名を入力</system:String>
+	<system:String x:Key="Vailidation.StorageKey">key1またはkey2を入力</system:String>
 
 </ResourceDictionary>
