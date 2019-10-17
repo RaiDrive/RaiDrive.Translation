@@ -39,4 +39,4 @@ File name | Language | Translated | v.1.8.0 confirm | v.1.9.0 confirm | Contribu
 When you would voluntarily support translation to other language, it is really appreciated and please leave a message on Issues. 
 
 ---
-StringDictionary files are based on _[**RaiDrive v1.9.0**](https://www.raidrive.com/download/)(comming soon)_
+StringDictionary files are based on _[**RaiDrive v1.9.0**](https://www.raidrive.com/download/)(coming soon)_
