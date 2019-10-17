@@ -99,11 +99,9 @@
 	<system:String x:Key="ToolTip.Disconnect">Bağlantıyı Kes</system:String>
 	<system:String x:Key="ToolTip.Edit">Düzenle</system:String>
 	<system:String x:Key="ToolTip.Remove">Sil</system:String>
-	<!--  Those are should be in english because their regular using in English too. From...  -->
-	<system:String x:Key="ToolTip.NetworkDrive">Network Drive</system:String>
-	<system:String x:Key="ToolTip.SecureProtocol">Secure Protocol</system:String>
-	<system:String x:Key="ToolTip.SecureConnection">Secure Connection</system:String>
-	<!--  To here.  -->
+	<system:String x:Key="ToolTip.NetworkDrive">Ağ Sürücüsü</system:String>
+	<system:String x:Key="ToolTip.SecureProtocol">Güvenlik Protokolü</system:String>
+	<system:String x:Key="ToolTip.SecureConnection">Güvenli Bağlantı</system:String>
 	<system:String x:Key="ToolTip.Backup">Yedekle</system:String>
 
 	<system:String x:Key="Message.Title.SelectFolder">Dosya seç</system:String>
@@ -120,14 +118,13 @@
 	<system:String x:Key="Message.Title.Reconnect">RaiDrive'a tekrar bağlan.</system:String>
 	<system:String x:Key="Message.ServiceDown">Onayınız ardından RaiDrive normale dönecektir.</system:String>
 	<system:String x:Key="Message.Settings.Reconnect">Ayarların geçerli olamsı için uzak sunucuya yeniden bağlanılması gerekmekte.</system:String>
-	<system:String x:Key="Message.NotReady.Reboot">RaiDrive is not ready to start, You need restart system.</system:String>
+	<system:String x:Key="Message.NotReady.Reboot">RaiDrive çalışmak için henüz hazır değil. Lütfen sisteminizi yeniden başlatınız.</system:String>
 	<system:String x:Key="Message.NotReady.Driver">RaiDrive sürücüsü bilgisayarınızda bulunamadı. RaiDrive'ı tekrar kurmanız gerekmekte.</system:String>
 	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox Internet Explorer 10 ve 11 i desteklemekte. 11 versiyonunu kurmanız önerilir.</system:String>
 	<system:String x:Key="Message.Connect.By">RaiDrive ile bağlantı kuruldu.</system:String>
 	<system:String x:Key="Message.Maximum.Drive">Bu versiyon 8 sürücüye kadar destek vermektedir.</system:String>
-	<system:String x:Key="Message.License.Expired">Lisansınızın süresi dolmuş. Yeni versiyonu indirmek ister misiniz?.</system:String>
+	<system:String x:Key="Message.License.Expired">Lisansınızın süresi dolmuş. Yenilemek ister misiniz?</system:String>
 	<system:String x:Key="Message.License.NotReady">RaiDrive lisansınızı onaylayamadı.</system:String>
-	<!--  Have to know when it throws this message "Unknown space"  -->
 	<system:String x:Key="Message.UnknownSpace">Bilinmeyen Miktar</system:String>
 	<system:String x:Key="Message.CurrentVersion">Kullanmakta olduğunuz sürüm: {0}</system:String>
 	<system:String x:Key="Message.Cache.Folder.NotSupport">Geçici depolama klasörü bilgisayarınızda olmak zorunda. Ağ sürücüleri desteklenmemektedir.</system:String>
@@ -164,9 +161,8 @@
 	<system:String x:Key="Words.Delegation.Stop">Yetkilendirme durduruldu</system:String>
 	<system:String x:Key="Words.Drive">Sürücü</system:String>
 	<system:String x:Key="Words.FreeSpace">Boş alan</system:String>
-	<!--  Have to know when it uses this words "Send Opinion" and "Code"  -->
 	<system:String x:Key="Words.Send.Opinion">Yorum Yap</system:String>
-	<system:String x:Key="Words.Code">Code</system:String>
+	<system:String x:Key="Words.Code">Kod</system:String>
 	<system:String x:Key="Words.Path">Dosya Yolu</system:String>
 	<system:String x:Key="Words.File">Dosya</system:String>
 	<system:String x:Key="Words.Ready">Hazır</system:String>
@@ -219,7 +215,7 @@
 	<system:String x:Key="Backup.Progress">İlerleme</system:String>
 	<system:String x:Key="Backup.AutoStart">Otomatik Başlat</system:String>
 	<!--  Have to know where it writes Current  -->
-	<system:String x:Key="Backup.LogTab.Current">Current</system:String>
+	<system:String x:Key="Backup.LogTab.Current">Şimdiki</system:String>
 
 	<system:String x:Key="Backup.LogTab.All">Hepsi</system:String>
 	<system:String x:Key="Backup.LogTab.Error">Hata</system:String>
@@ -240,7 +236,7 @@
 	<system:String x:Key="AddDrive.WritableDrive">Yazılabilir sürücü</system:String>
 	<system:String x:Key="ToolTip.LocalDisk">Lokal disk gibi göster</system:String>
 	<system:String x:Key="ToolTip.FileLock">WebDAV Dosya Kilidi</system:String>
-	<system:String x:Key="ToolTip.FileLock2">WebDAV sunusuna göre değişebilir</system:String>
+	<system:String x:Key="ToolTip.FileLock2">WebDAV sunusuna göre değişebilir.</system:String>
 	<system:String x:Key="ToolTip.FileLock3">Sunucunuz desteklemiyor olabilir.</system:String>
 
 	<!--  from version 1.7.0  -->
@@ -248,7 +244,7 @@
 	<system:String x:Key="Identity.SignOut">Çıkış Yap</system:String>
 	<system:String x:Key="Identity.SignOut.Question1">Tüm üyelik özellikleri devre dışı bırakılacak, tüm sürücülere yeniden bağlanılacaktır. Lütfen bağımlı uygulamaları kapatınız.</system:String>
 	<system:String x:Key="Identity.SignOut.Question2">Çıkış yapmak istediğinizden emin misiniz?</system:String>
-	<system:String x:Key="Subscription.Switched">Switched to {0}</system:String>
+	<system:String x:Key="Subscription.Switched">{0}'a geçildi.</system:String>
 	<system:String x:Key="Subscription.Switched.Desc1">Hesap bilgileriniz {0} tarafınızdan değiştirildi. Tüm sürücülere yeniden bağlanılacaktır. Lütfen bağımlı uygulamaları kapatınız.</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">{0} sonra uygulanacaktır, hemen uygulanması için tamam'a basınız.</system:String>
 
@@ -258,27 +254,29 @@
 	<system:String x:Key="Words.Site">Site</system:String>
 
 	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">Project</system:String>
+	<--! Waiting an explanation for bucket, tenant-->
+		
+	<system:String x:Key="Words.Project">Proje</system:String>
 	<system:String x:Key="Words.Bucket">Bucket</system:String>
 	<system:String x:Key="Words.Tenant">Tenant</system:String>
-	<system:String x:Key="Words.Subscription">Subscription</system:String>
-	<system:String x:Key="Words.Community">Community</system:String>
-	<system:String x:Key="Words.Document">Document</system:String>
+	<system:String x:Key="Words.Subscription">Üyelik</system:String>
+	<system:String x:Key="Words.Community">Topluluk</system:String>
+	<system:String x:Key="Words.Document">Dökümanlar</system:String>
 
-	<system:String x:Key="Words.Cache">Cache</system:String>
-	<system:String x:Key="Words.Lifetime">Lifetime</system:String>
-	<system:String x:Key="Words.Read">Read</system:String>
-	<system:String x:Key="Words.Write">Write</system:String>
-	<system:String x:Key="Words.Second">second</system:String>
+	<system:String x:Key="Words.Cache">Önbellek</system:String>
+	<system:String x:Key="Words.Lifetime">Ömür Boyu</system:String>
+	<system:String x:Key="Words.Read">Oku</system:String>
+	<system:String x:Key="Words.Write">Yaz</system:String>
+	<system:String x:Key="Words.Second">İkinci</system:String>
 
 	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
 	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">Please enter Access Key ID</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Please enter Secret Access Key</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">Lütfen Access Key ID'nizi giriniz.</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">Lütfen Secret Access Key'inizi giriniz.</system:String>
 
-	<system:String x:Key="Account.StorageAccount">Storage Account</system:String>
+	<system:String x:Key="Account.StorageAccount">Depolama Hesabı</system:String>
 	<system:String x:Key="Account.StorageKey">Key</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
-	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+	<system:String x:Key="Vailidation.StorageAccount">Lütfen depolama hesabı adınızı giriniz.</system:String>
+	<system:String x:Key="Vailidation.StorageKey">Lütfen key1 veya key2 giriniz.</system:String>
 
 </ResourceDictionary>
