@@ -244,27 +244,27 @@
 	<system:String x:Key="Words.Site">เว็บไซต์</system:String>
 
 	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">Project</system:String>
-	<system:String x:Key="Words.Bucket">Bucket</system:String>
-	<system:String x:Key="Words.Tenant">Tenant</system:String>
-	<system:String x:Key="Words.Subscription">Subscription</system:String>
-	<system:String x:Key="Words.Community">Community</system:String>
-	<system:String x:Key="Words.Document">Document</system:String>
+	<system:String x:Key="Words.Project">โปรเจค</system:String>
+	<system:String x:Key="Words.Bucket">ถัง</system:String>
+	<system:String x:Key="Words.Tenant">เช่า</system:String>
+	<system:String x:Key="Words.Subscription">สมัครสมาชิก</system:String>
+	<system:String x:Key="Words.Community">คอมมูนิตี้</system:String>
+	<system:String x:Key="Words.Document">เอกสาร</system:String>
 
-	<system:String x:Key="Words.Cache">Cache</system:String>
-	<system:String x:Key="Words.Lifetime">Lifetime</system:String>
-	<system:String x:Key="Words.Read">Read</system:String>
-	<system:String x:Key="Words.Write">Write</system:String>
-	<system:String x:Key="Words.Second">second</system:String>
+	<system:String x:Key="Words.Cache">แคช</system:String>
+	<system:String x:Key="Words.Lifetime">ตลอดชีพ</system:String>
+	<system:String x:Key="Words.Read">อ่าน</system:String>
+	<system:String x:Key="Words.Write">เขียน</system:String>
+	<system:String x:Key="Words.Second">วินาที</system:String>
 
-	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
-	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">Please enter Access Key ID</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Please enter Secret Access Key</system:String>
+	<system:String x:Key="Account.AccessKeyID">เข้าถึง Key ID</system:String>
+	<system:String x:Key="Account.SecretAccessKey">เข้าถึง Secret Key</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">กรุณากรอก Access Key ID</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">กรุณากรอก Secret Access Key</system:String>
 
-	<system:String x:Key="Account.StorageAccount">Storage Account</system:String>
+	<system:String x:Key="Account.StorageAccount">ข้อมูลบัญชี</system:String>
 	<system:String x:Key="Account.StorageKey">Key</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
-	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+	<system:String x:Key="Vailidation.StorageAccount">กรุณากรอกชื่อบัญชีที่เก็บข้อมูล</system:String>
+	<system:String x:Key="Vailidation.StorageKey">กรุณากรอก Key1 หรือ Key2</system:String>
 
 </ResourceDictionary>
