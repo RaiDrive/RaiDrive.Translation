@@ -243,27 +243,27 @@
 	<system:String x:Key="Words.Site">網站</system:String>
 
 	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">Project</system:String>
-	<system:String x:Key="Words.Bucket">Bucket</system:String>
-	<system:String x:Key="Words.Tenant">Tenant</system:String>
-	<system:String x:Key="Words.Subscription">Subscription</system:String>
-	<system:String x:Key="Words.Community">Community</system:String>
-	<system:String x:Key="Words.Document">Document</system:String>
+	<system:String x:Key="Words.Project">專案</system:String>
+	<system:String x:Key="Words.Bucket">貯體</system:String>
+	<system:String x:Key="Words.Tenant">租用戶</system:String>
+	<system:String x:Key="Words.Subscription">訂閱</system:String>
+	<system:String x:Key="Words.Community">社群</system:String>
+	<system:String x:Key="Words.Document">文件</system:String>
 
-	<system:String x:Key="Words.Cache">Cache</system:String>
-	<system:String x:Key="Words.Lifetime">Lifetime</system:String>
-	<system:String x:Key="Words.Read">Read</system:String>
-	<system:String x:Key="Words.Write">Write</system:String>
-	<system:String x:Key="Words.Second">second</system:String>
+	<system:String x:Key="Words.Cache">快取</system:String>
+	<system:String x:Key="Words.Lifetime">存留時間</system:String>
+	<system:String x:Key="Words.Read">讀取</system:String>
+	<system:String x:Key="Words.Write">寫入</system:String>
+	<system:String x:Key="Words.Second">秒</system:String>
 
 	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
 	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">Please enter Access Key ID</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Please enter Secret Access Key</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">請輸入 Access Key ID</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">請輸入 Secret Access Key</system:String>
 
-	<system:String x:Key="Account.StorageAccount">Storage Account</system:String>
+	<system:String x:Key="Account.StorageAccount">儲存體帳戶</system:String>
 	<system:String x:Key="Account.StorageKey">Key</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
-	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+	<system:String x:Key="Vailidation.StorageAccount">請輸入儲存體帳戶名稱</system:String>
+	<system:String x:Key="Vailidation.StorageKey">請輸入 key1 或 key2</system:String>
 
 </ResourceDictionary>
