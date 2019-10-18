@@ -244,7 +244,7 @@
 	<system:String x:Key="Words.Site">เว็บไซต์</system:String>
 
 	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">โปรเจค</system:String>
+	<system:String x:Key="Words.Project">โครงการ</system:String>
 	<system:String x:Key="Words.Bucket">ถัง</system:String>
 	<system:String x:Key="Words.Tenant">เช่า</system:String>
 	<system:String x:Key="Words.Subscription">สมัครสมาชิก</system:String>
@@ -257,14 +257,14 @@
 	<system:String x:Key="Words.Write">เขียน</system:String>
 	<system:String x:Key="Words.Second">วินาที</system:String>
 
-	<system:String x:Key="Account.AccessKeyID">เข้าถึง Key ID</system:String>
-	<system:String x:Key="Account.SecretAccessKey">เข้าถึง Secret Key</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">กรุณากรอก Access Key ID</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">กรุณากรอก Secret Access Key</system:String>
+	<system:String x:Key="Account.AccessKeyID">ไอดีคีย์การเข้าถึง</system:String>
+	<system:String x:Key="Account.SecretAccessKey">คีย์ลับการเข้าถึง</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">กรุณากรอกไอดีคีย์การเข้าถึง</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">กรุณากรอกคีย์ลับการเข้าถึง</system:String>
 
 	<system:String x:Key="Account.StorageAccount">ข้อมูลบัญชี</system:String>
-	<system:String x:Key="Account.StorageKey">Key</system:String>
+	<system:String x:Key="Account.StorageKey">คีย์</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">กรุณากรอกชื่อบัญชีที่เก็บข้อมูล</system:String>
-	<system:String x:Key="Vailidation.StorageKey">กรุณากรอก Key1 หรือ Key2</system:String>
+	<system:String x:Key="Vailidation.StorageKey">กรุณากรอกคีย์ 1 หรือคีย์ 2</system:String>
 
 </ResourceDictionary>
