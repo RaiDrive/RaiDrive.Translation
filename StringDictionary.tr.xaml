@@ -254,8 +254,7 @@
 	<system:String x:Key="Words.Site">Site</system:String>
 
 	<!--  from version 1.9.0  -->
-	<--! Waiting an explanation for bucket, tenant-->
-		
+			
 	<system:String x:Key="Words.Project">Proje</system:String>
 	<system:String x:Key="Words.Bucket">Bucket</system:String>
 	<system:String x:Key="Words.Tenant">Tenant</system:String>
