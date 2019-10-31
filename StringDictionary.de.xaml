@@ -257,9 +257,9 @@
 	<system:String x:Key="Words.Second">sekunden</system:String>
 
 	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
-	<system:String x:Key="Account.SecretAccessKey">Geheimer Access Key</system:String>
+	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
 	<system:String x:Key="Vailidation.AccessKeyID">Bitte gib den Access Key ID ein.</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Bitte gib den Geheimen Access Key ein.</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">Bitte gib den Secret Access Key ein.</system:String>
 
 	<system:String x:Key="Account.StorageAccount">Storage-Konto</system:String>
 	<system:String x:Key="Account.StorageKey">Schlüssel</system:String>
