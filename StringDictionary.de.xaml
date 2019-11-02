@@ -234,7 +234,7 @@
 	<system:String x:Key="Identity.SignOut.Question2">Möchten Sie sich wirklich abmelden?</system:String>
 	<system:String x:Key="Subscription.Switched">Zu {0} gewechselt</system:String>
 	<system:String x:Key="Subscription.Switched.Desc1">
-		hre aktuelle Sitzung wurde von Ihrer anderen Sitzung {0} zur Rückkehr aufgefordert. Alle Laufwerke werden wieder verbunden. Bitte speichern Sie die Datei (en) oder schließen Sie die Anwendung (en).
+		Ihre aktuelle Sitzung wurde von Ihrer anderen Sitzung {0} zur Rückkehr aufgefordert. Alle Laufwerke werden wieder verbunden. Bitte speichern Sie die Datei (en) oder schließen Sie die Anwendung (en).
 	</system:String>
 	<system:String x:Key="Subscription.Switched.Desc2">Es wird nach {0} angewendet. Drücken Sie die OK-Taste, um sofort zu arbeiten.</system:String>
 
