@@ -6,6 +6,7 @@
 
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>Kasukoi</system:String>
+		<system:String>LordDamionDevil Maurice</system:String>
 	</x:Array>
 	<system:String x:Key="Current.Language">de</system:String>
 
