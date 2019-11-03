@@ -262,9 +262,9 @@
 	<system:String x:Key="Vailidation.AccessKeyID">Bitte gib den Access Key ID ein.</system:String>
 	<system:String x:Key="Vailidation.SecretAccessKey">Bitte gib den Secret Access Key ein.</system:String>
 
-	<system:String x:Key="Account.StorageAccount">Storage-Konto</system:String>
-	<system:String x:Key="Account.StorageKey">Schlüssel</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Bitte gib den Storage-Konto Name ein.</system:String>
+	<system:String x:Key="Account.StorageAccount">Speicherkonto</system:String>
+	<system:String x:Key="Account.StorageKey">Zugriffsschlüssel</system:String>
+	<system:String x:Key="Vailidation.StorageAccount">Bitte gib den Speicherkonto Name ein.</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Bitte gib key1 oder key2 ein.</system:String>
 
 </ResourceDictionary>
