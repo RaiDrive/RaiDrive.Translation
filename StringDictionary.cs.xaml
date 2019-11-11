@@ -5,7 +5,7 @@
 	xmlns:system="clr-namespace:System;assembly=mscorlib">
 
 	<x:Array x:Key="Contributors" Type="system:String">
-		<system:String>kazihorka</system:String>
+		<system:String>kazihorka (Vladimír Horák)</system:String>
 	</x:Array>
 	<system:String x:Key="Current.Language">cs</system:String>
 
@@ -23,7 +23,7 @@
 	<system:String x:Key="Settings.Proxy">Proxy</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">Spustit RaiDrive při startu Windows?</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">Otevřít automaticky Průzkumník, pokud je připojena jednotka?</system:String>
+	<system:String x:Key="Settings.General.RunAtConnect">Otevřít automaticky Průzkumník pro připojení jednotky?</system:String>
 
 	<system:String x:Key="Notice">Upozornění</system:String>
 	<system:String x:Key="AddDrive">Přidat</system:String>
@@ -98,7 +98,7 @@
 	<system:String x:Key="Message.Title.DeleteDrive">Odebrat úložiště</system:String>
 
 	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive nepodporuje síťové úložiště.</system:String>
-	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive nepodporuje samovolní připojení disku.</system:String>
+	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive nepodporuje samovolné připojení disku.</system:String>
 	<system:String x:Key="Message.Exist">Tato složka je již zahrnuta ve vašem výběru.</system:String>
 	<system:String x:Key="Message.SelectedPath">Vybraná cesta.</system:String>
 	<system:String x:Key="Message.DuplicatedPath">Duplicitní cesta.</system:String>
@@ -106,7 +106,7 @@
 	<system:String x:Key="Message.SureDelete">Opravdu chcete pernamentně odstranit následující &quot;{0} ({1})&quot; ?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">Oživit RaiDrive</system:String>
 	<system:String x:Key="Message.Title.Reconnect">Znovu připojit RaiDrive</system:String>
-	<system:String x:Key="Message.ServiceDown">Prosím, klikněte na oživit, RaiDrive se pokusí obnovit.</system:String>
+	<system:String x:Key="Message.ServiceDown">Prosím, klikněte na oživit, RaiDrive se pokusí obnovit službu na pozadí.</system:String>
 	<system:String x:Key="Message.Settings.Reconnect">Stisknte OK a pokuste se znovu připojit vzdálené úložiště, aby se provedené změny aplikovaly.</system:String>
 	<system:String x:Key="Message.NotReady.Reboot">RaiDrive se nyní nemůže spustit, je třeba restartovat váš počítač.</system:String>
 	<system:String x:Key="Message.NotReady.Driver">RaiDrive musí být reinstalováno - chyba ovladače systému souborů.</system:String>
@@ -229,7 +229,7 @@
 	<!--  from version 1.7.0  -->
 	<system:String x:Key="Identity.SignIn">Přihlásit se</system:String>
 	<system:String x:Key="Identity.SignOut">Odhlásit se</system:String>
-	<system:String x:Key="Identity.SignOut.Question1">Vaše přihlášení k odběru budou zakázány a všechny disky budou znovu odpojeny. Uložte soubor(y) nebo ukončete aplikaci. Následně se můžete znovu přihlásit.</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">Budete automaticky odhlášeni. Všechny disky budou automaticky odpojeny. Uložte soubor(y) nebo ukončete aplikaci. Následně se můžete znovu přihlásit.</system:String>
 	<system:String x:Key="Identity.SignOut.Question2">Opravdu se chcete odhlásit?</system:String>
 	<system:String x:Key="Subscription.Switched">Přepnuto na {0}</system:String>
 	<system:String x:Key="Subscription.Switched.Desc1">Vaše aktuální relace byla požádána o návrat vaší další relací {0}. Všechny disky budou znovu připojeny. Uložte soubor (y) nebo ukončete aplikaci (aplikace).</system:String>
