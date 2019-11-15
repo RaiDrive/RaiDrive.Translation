@@ -262,9 +262,9 @@
 	<system:String x:Key="Vailidation.StorageAccount">Prosím zadejte název uživatelského účtu</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Prosím vložte jeden z klíčů</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">Spouštět při startu systému</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Připojit při startu</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Připojit při bootování</system:String>
 	<system:String x:Key="AddDrive.MountAtSignIn">Připojit při přihlášení</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Propojit za pomoci jiných pověření</system:String>
 
