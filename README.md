@@ -33,7 +33,7 @@ File name | Language | Translated | v.1.9.0 confirm | v.1.9.0 added confirm | Co
 [StringDictionary.uk.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.uk.xaml) | Ukrainian |  | | | 
 [StringDictionary.vi.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.vi.xaml) | Vietnamese | Translating... | | | [@holao09](https://github.com/holao09) |
 [StringDictionary.zh-Hans.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hans.xaml) | Chinese (Simplified) | O | O | O | [@whwlsfb](https://github.com/whwlsfb), [@SadPencil](https://github.com/SadPencil), [@dustofsoul](https://github.com/dustofsoul) |
-[StringDictionary.zh-Hant.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hant.xaml) | Chinese (Traditional) | O | O |  | [@Hulen](https://github.com/Hulen), [@SadPencil](https://github.com/SadPencil), [@kix99aug](https://github.com/kix99aug) |
+[StringDictionary.zh-Hant.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hant.xaml) | Chinese (Traditional) | O | O | O | [@Hulen](https://github.com/Hulen), [@SadPencil](https://github.com/SadPencil), [@kix99aug](https://github.com/kix99aug) |
 
 ### Other Languages 
 When you would voluntarily support translation to other language, it is really appreciated and please leave a message on Issues. 
