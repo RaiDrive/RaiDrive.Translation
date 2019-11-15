@@ -262,10 +262,10 @@
 	<system:String x:Key="Vailidation.StorageAccount">Insira o nome da Conta de Armazenamento</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Insira a chave key1 ou key2</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
-	<system:String x:Key="AddDrive.MountAtSignIn">Reconectar ao Iniciar</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">Registre-se na Inicialização</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Reconectar quando abrir o programa</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Reconectar após o boot</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">Reconectar ao iniciar</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Conectar usando credenciais diferentes</system:String>
 
 </ResourceDictionary>
