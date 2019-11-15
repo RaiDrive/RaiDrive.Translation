@@ -254,19 +254,19 @@
 	<system:String x:Key="Words.Write">寫入</system:String>
 	<system:String x:Key="Words.Second">秒</system:String>
 
-	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
-	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">請輸入 Access Key ID</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">請輸入 Secret Access Key</system:String>
+	<system:String x:Key="Account.AccessKeyID">存取金鑰ID</system:String>
+	<system:String x:Key="Account.SecretAccessKey">私密存取金鑰</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">請輸入存取金鑰ID</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">請輸入私密存取金鑰</system:String>
 
 	<system:String x:Key="Account.StorageAccount">儲存體帳戶</system:String>
-	<system:String x:Key="Account.StorageKey">Key</system:String>
+	<system:String x:Key="Account.StorageKey">金鑰</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">請輸入儲存體帳戶名稱</system:String>
-	<system:String x:Key="Vailidation.StorageKey">請輸入 key1 或 key2</system:String>
+	<system:String x:Key="Vailidation.StorageKey">請輸入 金鑰1 或 金鑰2</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">註冊到系統啟動</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">程式執行時重新連線</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">啟動時重新連線</system:String>
 	<system:String x:Key="AddDrive.MountAtSignIn">登入時重新連線</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">使用不同的憑證連線</system:String>
 
