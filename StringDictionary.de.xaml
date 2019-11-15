@@ -265,9 +265,9 @@
 	<system:String x:Key="Vailidation.StorageAccount">Bitte gib den Speicherkonto Name ein.</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Bitte gib key1 oder key2 ein.</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">Programm beim Hochfahren starten</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Wiederverbindung bei Programmstart</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Wiederverbindung beim Start</system:String>
 	<system:String x:Key="AddDrive.MountAtSignIn">Wiederverbindung bei Anmeldung</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Mit anderem Account anmelden</system:String>
 
