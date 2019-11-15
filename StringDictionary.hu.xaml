@@ -36,8 +36,6 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">Hálózat</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">Csak olvasható</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Újracsatlakoztatás bejelentkezéskor</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Csatlakozás más azonosítóval</system:String>
 	<system:String x:Key="AddDrive.Account">Fiók</system:String>
 	<system:String x:Key="AddDrive.Username">Felhasználónév</system:String>
 	<system:String x:Key="AddDrive.Password">Jelszó</system:String>
@@ -263,5 +261,11 @@
 	<system:String x:Key="Account.StorageKey">Key</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+
+	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">Újracsatlakoztatás bejelentkezéskor</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Csatlakozás más azonosítóval</system:String>
 
 </ResourceDictionary>

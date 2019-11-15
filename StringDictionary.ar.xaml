@@ -37,8 +37,6 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">شبكة</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">للقراءة فقط</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">إعادة الاتصال عند تسجيل الدخول</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">استخدام بيانات دخول مختلفة</system:String>
 	<system:String x:Key="AddDrive.Account">الحساب</system:String>
 	<system:String x:Key="AddDrive.Username">اسم المستخدم</system:String>
 	<system:String x:Key="AddDrive.Password">كلمة المرور</system:String>
@@ -264,5 +262,11 @@
 	<system:String x:Key="Account.StorageKey">مفتاح</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">من فضلك أدخل اسم حساب التخزين</system:String>
 	<system:String x:Key="Vailidation.StorageKey">من فضلك أدخل المفتاح 1 أو المفتاح 2</system:String>
+
+	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">إعادة الاتصال عند تسجيل الدخول</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">استخدام بيانات دخول مختلفة</system:String>
 
 </ResourceDictionary>

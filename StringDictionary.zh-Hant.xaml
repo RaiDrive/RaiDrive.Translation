@@ -38,8 +38,6 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">網路</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">唯讀</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">登入時重新連線</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">使用不同的憑證連線</system:String>
 	<system:String x:Key="AddDrive.Account">帳號</system:String>
 	<system:String x:Key="AddDrive.Username">使用者名稱</system:String>
 	<system:String x:Key="AddDrive.Password">密碼</system:String>
@@ -265,5 +263,11 @@
 	<system:String x:Key="Account.StorageKey">Key</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">請輸入儲存體帳戶名稱</system:String>
 	<system:String x:Key="Vailidation.StorageKey">請輸入 key1 或 key2</system:String>
+
+	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">登入時重新連線</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">使用不同的憑證連線</system:String>
 
 </ResourceDictionary>

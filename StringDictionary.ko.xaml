@@ -37,8 +37,6 @@
 	<system:String x:Key="AddDrive.Network">네크워크</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">읽기전용</system:String>
 
-	<system:String x:Key="AddDrive.MountAtBoot">프로그램이 시작될 때 자동연결</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">연결할 때마다 다시 로그인</system:String>
 	<system:String x:Key="AddDrive.Account">계정</system:String>
 	<system:String x:Key="AddDrive.Username">사용자</system:String>
 	<system:String x:Key="AddDrive.Password">비밀번호</system:String>
@@ -219,10 +217,10 @@
 	<!--  from version 1.6.0.416  -->
 	<system:String x:Key="Settings.General.UseDriveIcon">연결된 드라이브에 사용자 정의 아이콘 사용</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">로컬 디스크</system:String>
-	<system:String x:Key="AddDrive.FileLock">파일 잠금</system:String>
+	<system:String x:Key="AddDrive.FileLock">파일잠금</system:String>
 	<system:String x:Key="AddDrive.WritableDrive">쓰기가능 드라이브</system:String>
 	<system:String x:Key="ToolTip.LocalDisk">로컬 디스크 처럼 마운트</system:String>
-	<system:String x:Key="ToolTip.FileLock">WebDAV 파일 잠금</system:String>
+	<system:String x:Key="ToolTip.FileLock">WebDAV 파일잠금</system:String>
 	<system:String x:Key="ToolTip.FileLock2">WebDAV 서버에 종속적</system:String>
 	<system:String x:Key="ToolTip.FileLock3">서버가 지원하지 않을 수 있습니다.</system:String>
 
@@ -254,7 +252,6 @@
 	<system:String x:Key="Words.Write">쓰기</system:String>
 	<system:String x:Key="Words.Second">초</system:String>
 
-
 	<system:String x:Key="Account.AccessKeyID">엑세스 키 ID</system:String>
 	<system:String x:Key="Account.SecretAccessKey">비밀 엑세스 키</system:String>
 	<system:String x:Key="Vailidation.AccessKeyID">엑세스 키 ID를 입력해 주세요</system:String>
@@ -264,5 +261,11 @@
 	<system:String x:Key="Account.StorageKey">키</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">스토리지 계정 이름을 입력해 주세요</system:String>
 	<system:String x:Key="Vailidation.StorageKey">key1 또는 key2를 입력해 주세요</system:String>
+
+	<system:String x:Key="Settings.RegisterToStartup">시작프로그램에 등록</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">프로그램 시작시에 자동연결</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">부팅시에 자동연결</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">로그인시에 자동연결</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">연결할 때마다 새로 로그인</system:String>
 
 </ResourceDictionary>

@@ -36,8 +36,6 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">شبکه</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">فقط خواندنی</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">اتصال حین ورود به ویندوز</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">ورود اطلاعات حساب حین اتصال</system:String>
 	<system:String x:Key="AddDrive.Account">حساب کاربری</system:String>
 	<system:String x:Key="AddDrive.Username">نام کاربری</system:String>
 	<system:String x:Key="AddDrive.Password">رمز عبور</system:String>
@@ -263,5 +261,11 @@
 	<system:String x:Key="Account.StorageKey">Key</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+
+	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">اتصال حین ورود به ویندوز</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">ورود اطلاعات حساب حین اتصال</system:String>
 
 </ResourceDictionary>

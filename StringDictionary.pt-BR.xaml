@@ -36,8 +36,6 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">Rede</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">Apenas-Leitura</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconectar ao Iniciar</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Conectar usando credenciais diferentes</system:String>
 	<system:String x:Key="AddDrive.Account">Conta</system:String>
 	<system:String x:Key="AddDrive.Username">Login</system:String>
 	<system:String x:Key="AddDrive.Password">Senha</system:String>
@@ -263,5 +261,11 @@
 	<system:String x:Key="Account.StorageKey">Chave</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">Insira o nome da Conta de Armazenamento</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Insira a chave key1 ou key2</system:String>
+
+	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">Reconectar ao Iniciar</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Conectar usando credenciais diferentes</system:String>
 
 </ResourceDictionary>

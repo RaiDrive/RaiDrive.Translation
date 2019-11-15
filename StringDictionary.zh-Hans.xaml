@@ -38,8 +38,6 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">网络</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">只读</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">软件启动后自动连接</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">在连接时输入账号密码</system:String>
 	<system:String x:Key="AddDrive.Account">账户</system:String>
 	<system:String x:Key="AddDrive.Username">用户名</system:String>
 	<system:String x:Key="AddDrive.Password">密码</system:String>
@@ -265,5 +263,11 @@
 	<system:String x:Key="Account.StorageKey">密钥</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">请输入存储账户的名称</system:String>
 	<system:String x:Key="Vailidation.StorageKey">请输入 key1 或 key2</system:String>
+
+	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">软件启动后自动连接</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">在连接时输入账号密码</system:String>
 
 </ResourceDictionary>
