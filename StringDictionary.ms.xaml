@@ -36,8 +36,6 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">Rangkaian</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">Baca-sahaja</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Sambung-semula semasa daftar-masuk</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Sambung gunakan tauliah berlainan</system:String>
 	<system:String x:Key="AddDrive.Account">Akaun</system:String>
 	<system:String x:Key="AddDrive.Username">Nama Pengguna</system:String>
 	<system:String x:Key="AddDrive.Password">Kata Laluan</system:String>
@@ -263,5 +261,11 @@
 	<system:String x:Key="Account.StorageKey">Key</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+
+	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">Sambung-semula semasa daftar-masuk</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Sambung gunakan tauliah berlainan</system:String>
 
 </ResourceDictionary>

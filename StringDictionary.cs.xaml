@@ -36,8 +36,6 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">Síťové úložiště</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">Pouze pro čtení</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Připojit při přihlášení</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Propojit za pomoci jiných pověření</system:String>
 	<system:String x:Key="AddDrive.Account">Účet</system:String>
 	<system:String x:Key="AddDrive.Username">Uživatelské jméno</system:String>
 	<system:String x:Key="AddDrive.Password">Uživatelské heslo</system:String>
@@ -263,5 +261,11 @@
 	<system:String x:Key="Account.StorageKey">Klíč</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">Prosím zadejte název uživatelského účtu</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Prosím vložte jeden z klíčů</system:String>
+
+	<system:String x:Key="Settings.RegisterToStartup">Spouštět při startu systému</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Připojit při startu</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Připojit při bootování</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">Připojit při přihlášení</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Propojit za pomoci jiných pověření</system:String>
 
 </ResourceDictionary>

@@ -40,8 +40,6 @@
 	<system:String x:Key="AddDrive.Network">Ağ</system:String>
 
 	<system:String x:Key="AddDrive.ReadOnly">Sadece Okuma</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Otomatik Bağlan</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Farklı Kimlik Kullanarak Bağlan</system:String>
 	<system:String x:Key="AddDrive.Account">Hesap</system:String>
 	<system:String x:Key="AddDrive.Username">Kullanıcı Adı</system:String>
 	<system:String x:Key="AddDrive.Password">Şifre</system:String>
@@ -254,7 +252,7 @@
 	<system:String x:Key="Words.Site">Site</system:String>
 
 	<!--  from version 1.9.0  -->
-			
+
 	<system:String x:Key="Words.Project">Proje</system:String>
 	<system:String x:Key="Words.Bucket">Bucket</system:String>
 	<system:String x:Key="Words.Tenant">Tenant</system:String>
@@ -277,5 +275,11 @@
 	<system:String x:Key="Account.StorageKey">Key</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">Lütfen depolama hesabı adınızı giriniz.</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Lütfen key1 veya key2 giriniz.</system:String>
+
+	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">Otomatik Bağlan</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Farklı Kimlik Kullanarak Bağlan</system:String>
 
 </ResourceDictionary>

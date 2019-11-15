@@ -23,7 +23,7 @@
 	<system:String x:Key="Settings.Proxy">Proxy</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">Run a program automatically when Windows starts</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">Run File Explorer when a drive has connected</system:String>
+	<system:String x:Key="Settings.General.RunAtConnect">Run File Explorer when the drive is connected</system:String>
 
 	<system:String x:Key="Notice">Notice</system:String>
 	<system:String x:Key="AddDrive">Add</system:String>
@@ -36,8 +36,6 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">Network</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">Read-only</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at signin</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Connect using different credentials</system:String>
 	<system:String x:Key="AddDrive.Account">Account</system:String>
 	<system:String x:Key="AddDrive.Username">Username</system:String>
 	<system:String x:Key="AddDrive.Password">Password</system:String>
@@ -263,5 +261,11 @@
 	<system:String x:Key="Account.StorageKey">Key</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+
+	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">Reconnect at sign-in</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Connect using different credentials</system:String>
 
 </ResourceDictionary>

@@ -37,8 +37,6 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">เครือข่าย</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">อ่านอย่างเดียว</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">เชื่อมต่อใหม่เมื่อเข้าสู่ระบบ</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">เชื่อมต่อโดยใช้ใบรับรองที่ต่างกัน</system:String>
 	<system:String x:Key="AddDrive.Account">บัญชี</system:String>
 	<system:String x:Key="AddDrive.Username">ชื่อผู้ใช้</system:String>
 	<system:String x:Key="AddDrive.Password">รหัสผ่าน</system:String>
@@ -266,5 +264,11 @@
 	<system:String x:Key="Account.StorageKey">คีย์</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">กรุณากรอกชื่อบัญชีที่เก็บข้อมูล</system:String>
 	<system:String x:Key="Vailidation.StorageKey">กรุณากรอกคีย์ 1 หรือคีย์ 2</system:String>
+
+	<system:String x:Key="Settings.RegisterToStartup">กำหนดค่าเมื่อเริ่มทำงาน</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">เชื่อมต่อใหม่เมื่อเริ่มโปรแกรม</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">เชื่อมต่อใหม่เมื่อเริ่มต้นระบบ</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">เชื่อมต่อใหม่เมื่อเข้าสู่ระบบ</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">เชื่อมต่อโดยใช้ใบรับรองที่ต่างกัน</system:String>
 
 </ResourceDictionary>

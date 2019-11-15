@@ -36,8 +36,6 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">Mạng</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">Chỉ đọc</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Tự động kết nối lại sau khi khởi động</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Kết nối bằng tài khoản khác</system:String>
 	<system:String x:Key="AddDrive.Account">Tài khoản</system:String>
 	<system:String x:Key="AddDrive.Username">Tên tài khoản</system:String>
 	<system:String x:Key="AddDrive.Password">Mật khẩu</system:String>
@@ -263,5 +261,11 @@
 	<system:String x:Key="Account.StorageKey">Key</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+
+	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">Tự động kết nối lại sau khi khởi động</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Kết nối bằng tài khoản khác</system:String>
 
 </ResourceDictionary>

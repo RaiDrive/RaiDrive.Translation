@@ -36,8 +36,6 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">Сеть</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">Только чтение</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Подключать при входе</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Подключение с разными аккаунтами</system:String>
 	<system:String x:Key="AddDrive.Account">Аккаунт</system:String>
 	<system:String x:Key="AddDrive.Username">Логин</system:String>
 	<system:String x:Key="AddDrive.Password">Пароль</system:String>
@@ -263,5 +261,11 @@
 	<system:String x:Key="Account.StorageKey">Key</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+
+	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">Подключать при входе</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Подключение с разными аккаунтами</system:String>
 
 </ResourceDictionary>

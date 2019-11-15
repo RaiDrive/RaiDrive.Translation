@@ -36,8 +36,6 @@
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">Network</system:String>
 	<system:String x:Key="AddDrive.ReadOnly">Read-only</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconectați-vă la logare</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Conectați-vă folosind credențiale diferite</system:String>
 	<system:String x:Key="AddDrive.Account">Cont</system:String>
 	<system:String x:Key="AddDrive.Username">Utilizator</system:String>
 	<system:String x:Key="AddDrive.Password">Parolă</system:String>
@@ -263,5 +261,11 @@
 	<system:String x:Key="Account.StorageKey">Key</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+
+	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">Reconectați-vă la logare</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Conectați-vă folosind credențiale diferite</system:String>
 
 </ResourceDictionary>
