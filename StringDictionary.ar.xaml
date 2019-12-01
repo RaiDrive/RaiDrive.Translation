@@ -263,7 +263,7 @@
 	<system:String x:Key="Vailidation.StorageAccount">من فضلك أدخل اسم حساب التخزين</system:String>
 	<system:String x:Key="Vailidation.StorageKey">من فضلك أدخل المفتاح 1 أو المفتاح 2</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">تشغيل البرنامج مع النظام</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">إضافة إلى بدء التشغيل</system:String>
 	<system:String x:Key="AddDrive.MountAtStart">إعادة اتصال عند تشغيل البرنامج</system:String>
 	<system:String x:Key="AddDrive.MountAtBoot">إعادة اتصال عند إقلاع النظام</system:String>
 	<system:String x:Key="AddDrive.MountAtSignIn">إعادة الاتصال عند تسجيل الدخول</system:String>
