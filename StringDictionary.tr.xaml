@@ -276,10 +276,10 @@
 	<system:String x:Key="Vailidation.StorageAccount">Lütfen depolama hesabı adınızı giriniz.</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Lütfen key1 veya key2 giriniz.</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
-	<system:String x:Key="AddDrive.MountAtSignIn">Otomatik Bağlan</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Farklı Kimlik Kullanarak Bağlan</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">Windows ile Başlat </system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Program Başlatıldığında Bağlan </system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Başlangıçta Bağlan </system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">Otomatik Bağlan </system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Farklı Kimlik Kullanarak Bağlan </system:String>
 
 </ResourceDictionary>
