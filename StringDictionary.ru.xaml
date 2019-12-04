@@ -246,25 +246,25 @@
 	<system:String x:Key="Words.Community">Community</system:String>
 	<system:String x:Key="Words.Document">Document</system:String>
 
-	<system:String x:Key="Words.Cache">Cache</system:String>
-	<system:String x:Key="Words.Lifetime">Lifetime</system:String>
-	<system:String x:Key="Words.Read">Read</system:String>
-	<system:String x:Key="Words.Write">Write</system:String>
-	<system:String x:Key="Words.Second">second</system:String>
+	<system:String x:Key="Words.Cache">Кэш</system:String>
+	<system:String x:Key="Words.Lifetime">время жизни</system:String>
+	<system:String x:Key="Words.Read">Чтение</system:String>
+	<system:String x:Key="Words.Write">Запись</system:String>
+	<system:String x:Key="Words.Second">секунд</system:String>
 
-	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
-	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">Please enter Access Key ID</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Please enter Secret Access Key</system:String>
+	<system:String x:Key="Account.AccessKeyID">ID ключа доступа</system:String>
+	<system:String x:Key="Account.SecretAccessKey"Секретный ключ доступа</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">Пожалуйста, введите ID ключа доступа</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">Пожалуйста, введите секретный ключ доступа</system:String>
 
-	<system:String x:Key="Account.StorageAccount">Storage Account</system:String>
-	<system:String x:Key="Account.StorageKey">Key</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
-	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+	<system:String x:Key="Account.StorageAccount">Аккаунт хранилища</system:String>
+	<system:String x:Key="Account.StorageKey">Ключ</system:String>
+	<system:String x:Key="Vailidation.StorageAccount">Введите аккаунт хранилища</system:String>
+	<system:String x:Key="Vailidation.StorageKey">Пожалуйста, введите key1 или key2</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">Добавить в автозагрузку</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Подключать при запуске программы</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Подключать при загрузке</system:String>
 	<system:String x:Key="AddDrive.MountAtSignIn">Подключать при входе</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Подключение с разными аккаунтами</system:String>
 
