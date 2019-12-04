@@ -27,9 +27,9 @@ File name | Language | Translated | v.1.9.0 confirm | v.1.9.0 added confirm | Co
 [StringDictionary.pt-PT.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-PT.xaml) | Portuguese |   | | |
 [StringDictionary.pt-BR.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-BR.xaml) | Brazilian Portuguese | O | O | O | [@fidodone](https://github.com/fidodone) |
 [StringDictionary.ro.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ro.xaml) | Romanian | O | | | [@foxhnd](https://github.com/foxhnd) |
-[StringDictionary.ru.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ru.xaml) | Russian | O |  |  | [@kostefun](https://github.com/kostefun) |
+[StringDictionary.ru.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ru.xaml) | Russian | O |  | O | [@kostefun](https://github.com/kostefun) |
 [StringDictionary.th.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.th.xaml) | Thai | O | O | O | [@yutthaphon](https://github.com/yutthaphon), [@naruepanart](https://github.com/naruepanart) |
-[StringDictionary.tr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.tr.xaml) | Turkish | O | O |  | [@ilkmon](https://github.com/ilkmon) |
+[StringDictionary.tr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.tr.xaml) | Turkish | O | O | O | [@ilkmon](https://github.com/ilkmon) |
 [StringDictionary.uk.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.uk.xaml) | Ukrainian |  | | | 
 [StringDictionary.vi.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.vi.xaml) | Vietnamese | Translating... | | | [@holao09](https://github.com/holao09) |
 [StringDictionary.zh-Hans.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hans.xaml) | Chinese (Simplified) | O | O | O | [@whwlsfb](https://github.com/whwlsfb), [@SadPencil](https://github.com/SadPencil), [@dustofsoul](https://github.com/dustofsoul) |
