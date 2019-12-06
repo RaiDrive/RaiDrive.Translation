@@ -253,7 +253,7 @@
 	<system:String x:Key="Words.Second">секунд</system:String>
 
 	<system:String x:Key="Account.AccessKeyID">ID ключа доступа</system:String>
-	<system:String x:Key="Account.SecretAccessKey"Секретный ключ доступа</system:String>
+	<system:String x:Key="Account.SecretAccessKey">Секретный ключ доступа</system:String>
 	<system:String x:Key="Vailidation.AccessKeyID">Пожалуйста, введите ID ключа доступа</system:String>
 	<system:String x:Key="Vailidation.SecretAccessKey">Пожалуйста, введите секретный ключ доступа</system:String>
 
