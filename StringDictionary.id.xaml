@@ -88,8 +88,8 @@
 	<system:String x:Key="ToolTip.Edit">Edit</system:String>
 	<system:String x:Key="ToolTip.Remove">Hapus</system:String>
 	<system:String x:Key="ToolTip.NetworkDrive">Network Drive</system:String>
-	<system:String x:Key="ToolTip.SecureProtocol">Secure Protocol</system:String>
-	<system:String x:Key="ToolTip.SecureConnection">Secure Connection</system:String>
+	<system:String x:Key="ToolTip.SecureProtocol">Protokol Aman</system:String>
+	<system:String x:Key="ToolTip.SecureConnection">Koneksi Aman</system:String>
 	<system:String x:Key="ToolTip.Backup">Cadangkan</system:String>
 
 	<system:String x:Key="Message.Title.SelectFolder">Pilih folder</system:String>
