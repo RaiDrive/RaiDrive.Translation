@@ -18,6 +18,7 @@ File name | Language | Translated | v.1.9.0 confirm | v.1.9.0 added confirm | Co
 [StringDictionary.fr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.fr.xaml) | French | O | | | [@jeromeFa](https://github.com/jeromeFa) |
 [StringDictionary.hr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.hr.xaml) | Croatian |  |  | |  |
 [StringDictionary.hu.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.hu.xaml) | Hungarian | O |  |  | [@lostprophet](https://github.com/lostprophet) |
+[StringDictionary.id.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.id.xaml) | Indonesian | O | O | O | [@alif72](https://github.com/alif72) |
 [StringDictionary.it.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.it.xaml) | Italian | O | | | [@gabrig11](https://github.com/gabrig11) |
 [StringDictionary.ja.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ja.xaml) | Japanese | O | O |  | [@wizard872](https://github.com/wizard872), [@yuk7](https://github.com/yuk7) |
 [StringDictionary.ko.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ko.xaml) | Korean | O | O | O | [RaiDrive](https://www.raidrive.com) |
