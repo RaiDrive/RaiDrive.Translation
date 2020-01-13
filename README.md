@@ -40,4 +40,4 @@ File name | Language | Translated | v.1.9.0 confirm | v.1.9.0 added confirm | Co
 When you would voluntarily support translation to other language, it is really appreciated and please leave a message on Issues. 
 
 ---
-StringDictionary files are based on _[**RaiDrive 2019.12.22**](https://www.raidrive.com/download/)(coming soon)_
+StringDictionary files are based on _[**RaiDrive 2019.12.22**](https://www.raidrive.com/download/)_
