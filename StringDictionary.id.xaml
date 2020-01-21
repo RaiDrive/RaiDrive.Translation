@@ -258,7 +258,7 @@
 	<system:String x:Key="Vailidation.SecretAccessKey">Masukan Kunci Akses Rahasia</system:String>
 
 	<system:String x:Key="Account.StorageAccount">Akun Penyimpanan</system:String>
-	<system:String x:Key="Account.StorageKey"></system:String>
+	<system:String x:Key="Account.StorageKey">Key</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">Masukan Nama akun penyimpanan</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Masukan key1 atau key2</system:String>
 
