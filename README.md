@@ -13,7 +13,7 @@ File name | Language | Translated | v.1.9.0 confirm | v.1.9.0 added confirm | Co
 [StringDictionary.da.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.da.xaml) | Danish | O | | | [@michal78](https://github.com/michal78) |
 [StringDictionary.de.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.de.xaml) | German | O | O | O | [@Kasukoi](https://github.com/Kasukoi), [@LordDamionDevil](https://github.com/LordDamionDevil) |
 [StringDictionary.en.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.en.xaml) | English | O | O | O | [RaiDrive](https://www.raidrive.com) |
-[StringDictionary.es.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.es.xaml) | Spanish | O | | | [@GrandMasterX3](https://github.com/GrandMasterX3) |
+[StringDictionary.es.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.es.xaml) | Spanish | O | O | O | [@GrandMasterX3](https://github.com/GrandMasterX3), [@juangacovas](https://github.com/juangacovas) |
 [StringDictionary.fa.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.fa.xaml) | Farsi(Persian) | O | | | [@Highdeger](https://github.com/Highdeger) |
 [StringDictionary.fr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.fr.xaml) | French | O | O | O | [@jeromeFa](https://github.com/jeromeFa), [@DoryanR](https://github.com/DoryanR) |
 [StringDictionary.hr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.hr.xaml) | Croatian |  |  | |  |
