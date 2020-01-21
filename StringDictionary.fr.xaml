@@ -5,7 +5,8 @@
 	xmlns:system="clr-namespace:System;assembly=mscorlib">
 
 	<x:Array x:Key="Contributeurs" Type="system:String">
-		<system:String>JeromeFa, DoryanR</system:String>
+		<system:String>JeromeFa</system:String>
+		<system:String>DoryanR</system:String>
 	</x:Array>
 	<system:String x:Key="Current.Language">fr</system:String>
 
