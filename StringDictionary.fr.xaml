@@ -269,7 +269,7 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">Reconnectez-vous à l'ouverture de session</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Connexion à l'aide de différents identifiants</system:String>
 
-	<!--  from 2020.2.2  -->
+	<!--  à partir de la version 2020.2.2  -->
 	<system:String x:Key="Message.MountPointFolder.Condition">Les chemins des dossiers de points de montage ne sont disponibles que sur les dossiers vides des volumes NTFS de base ou dynamiques.</system:String>
 	<system:String x:Key="Message.MountPointFolder.Mandatory">Pour attribuer un dossier, l'option publique Disque local est requise</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrl">URL du dossier</system:String>
