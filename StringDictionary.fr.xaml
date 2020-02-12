@@ -270,18 +270,18 @@
 	<system:String x:Key="AddDrive.AuthAtConnect">Connexion à l'aide de différents identifiants</system:String>
 
 	<!--  from 2020.2.2  -->
-	<system:String x:Key="Message.MountPointFolder.Condition">Les chemins de dossier de point de montage sont disponibles uniquement sur les dossiers vides sur des volumes NTFS de base ou dynamiques.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">Pour attribuer un dossier, l'option publique du disque local est obligatoire</system:String>
+	<system:String x:Key="Message.MountPointFolder.Condition">Les chemins des dossiers de points de montage ne sont disponibles que sur les dossiers vides des volumes NTFS de base ou dynamiques.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Pour attribuer un dossier, l'option publique Disque local est requise</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrl">URL du dossier</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrlID">URL ou ID du dossier</system:String>
 
-	<system:String x:Key="GoogleDrive.MyDrive">Mon Drive</system:String>
-	<system:String x:Key="GoogleDrive.SharedWithMe">Partagés avec moi</system:String>
+	<system:String x:Key="GoogleDrive.MyDrive">Mon lecteur</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Partagé avec moi</system:String>
 	<system:String x:Key="GoogleDrive.Computers">Ordinateurs</system:String>
 	<system:String x:Key="GoogleDrive.SharedLink">Lien partagé</system:String>
 
 	<system:String x:Key="OneDrive.Files">Fichiers</system:String>
-	<system:String x:Key="OneDrive.Shared">Partagés</system:String>
+	<system:String x:Key="OneDrive.Shared">Partagé</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Lien partagé</system:String>
 
 </ResourceDictionary>
