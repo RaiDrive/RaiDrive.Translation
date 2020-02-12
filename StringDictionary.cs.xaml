@@ -274,13 +274,13 @@
 	<system:String x:Key="Validation.Hint.FolderUrl">URL složky</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrlID">URL složky nebo ID</system:String>
 
-	<system:String x:Key="GoogleDrive.MyDrive">Můj disk Google</system:String>
-	<system:String x:Key="GoogleDrive.SharedWithMe">Soubory sdílené se mnou</system:String>
+	<system:String x:Key="GoogleDrive.MyDrive">Můj disk</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">sdílené se mnou</system:String>
 	<system:String x:Key="GoogleDrive.Computers">Počítače</system:String>
 	<system:String x:Key="GoogleDrive.SharedLink">Sdílený odkaz</system:String>
 
-	<system:String x:Key="OneDrive.Files">OneDrive soubory</system:String>
-	<system:String x:Key="OneDrive.Shared">OneDrive sdílené</system:String>
-	<system:String x:Key="OneDrive.SharedLink">OneDrive sdílený odkaz</system:String>
+	<system:String x:Key="OneDrive.Files">Soubory</system:String>
+	<system:String x:Key="OneDrive.Shared">Sdílené</system:String>
+	<system:String x:Key="OneDrive.SharedLink">Sdílený odkaz</system:String>
 
 </ResourceDictionary>
