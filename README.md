@@ -11,14 +11,14 @@ File name | Language | Translated | v.1.9.0 confirm | v.2020.2.2 confirm | Contr
 [StringDictionary.ar.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ar.xaml) | Arabic | O | O | O | [Mugahedb](https://github.com/Mugahedb), [Abu3safeer](https://github.com/Abu3safeer) |
 [StringDictionary.cs.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.cs.xaml) | Czech | O | O | O | [kazihorka](https://github.com/kazihorka) |
 [StringDictionary.da.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.da.xaml) | Danish | O | | | [michal78](https://github.com/michal78) |
-[StringDictionary.de.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.de.xaml) | German | O | O |  | [Kasukoi](https://github.com/Kasukoi), [LordDamionDevil](https://github.com/LordDamionDevil) |
+[StringDictionary.de.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.de.xaml) | German | O | O | O | [Kasukoi](https://github.com/Kasukoi), [LordDamionDevil](https://github.com/LordDamionDevil) |
 [StringDictionary.en.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.en.xaml) | English | O | O | O | [RaiDrive](https://www.raidrive.com) |
 [StringDictionary.es.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.es.xaml) | Spanish | O | O |  | [GrandMasterX3](https://github.com/GrandMasterX3), [juangacovas](https://github.com/juangacovas) |
 [StringDictionary.fa.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.fa.xaml) | Farsi(Persian) | O | | | [Highdeger](https://github.com/Highdeger) |
 [StringDictionary.fr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.fr.xaml) | French | O | O |  | [jeromeFa](https://github.com/jeromeFa), [DoryanR](https://github.com/DoryanR) |
 [StringDictionary.hr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.hr.xaml) | Croatian |  |  | |  |
 [StringDictionary.hu.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.hu.xaml) | Hungarian | O |  |  | [lostprophet](https://github.com/lostprophet) |
-[StringDictionary.id.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.id.xaml) | Indonesian | O | O |  | [alif72](https://github.com/alif72) |
+[StringDictionary.id.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.id.xaml) | Indonesian | O | O | O | [alif72](https://github.com/alif72) |
 [StringDictionary.it.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.it.xaml) | Italian | O | | | [gabrig11](https://github.com/gabrig11) |
 [StringDictionary.ja.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ja.xaml) | Japanese | O | O |  | [wizard872](https://github.com/wizard872), [yuk7](https://github.com/yuk7) |
 [StringDictionary.ko.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ko.xaml) | Korean | O | O | O | [RaiDrive](https://www.raidrive.com) |
