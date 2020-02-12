@@ -269,18 +269,18 @@
 	<system:String x:Key="AddDrive.AuthAtConnect">Propojit za pomoci jiných pověření</system:String>
 
 	<!--  from 2020.2.2  -->
-	<system:String x:Key="Message.MountPointFolder.Condition">Cesta ke složce bodu připojení je k dispozici pouze u prázdných složek na základních nebo dynamických svazcích NTFS.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">Přiřazení složky vyžaduje veřejnou možnost Místní disk</system:String>
+	<system:String x:Key="Message.MountPointFolder.Condition">Cesta ke složce připojení je k dispozici pouze u prázdných složek na základních nebo dynamických svazcích NTFS.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Přiřazená složka vyžaduje veřejnou složku na místním disku</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrl">URL složky</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrlID">URL složky nebo ID</system:String>
 
-	<system:String x:Key="GoogleDrive.MyDrive">Můj disk</system:String>
-	<system:String x:Key="GoogleDrive.SharedWithMe">sdílené se mnou</system:String>
+	<system:String x:Key="GoogleDrive.MyDrive">Můj disk Google</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Soubory sdílené se mnou</system:String>
 	<system:String x:Key="GoogleDrive.Computers">Počítače</system:String>
 	<system:String x:Key="GoogleDrive.SharedLink">Sdílený odkaz</system:String>
 
-	<system:String x:Key="OneDrive.Files">Soubory</system:String>
-	<system:String x:Key="OneDrive.Shared">Sdílené</system:String>
-	<system:String x:Key="OneDrive.SharedLink">Sdílený odkaz</system:String>
+	<system:String x:Key="OneDrive.Files">OneDrive soubory</system:String>
+	<system:String x:Key="OneDrive.Shared">OneDrive sdílené</system:String>
+	<system:String x:Key="OneDrive.SharedLink">OneDrive sdílený odkaz</system:String>
 
 </ResourceDictionary>
