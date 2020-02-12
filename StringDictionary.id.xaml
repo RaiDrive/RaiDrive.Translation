@@ -269,7 +269,7 @@
 	<system:String x:Key="AddDrive.AuthAtConnect">Terhubung menggunakan kredensial yang berbeda</system:String>
 
 	<!--  from 2020.2.2  -->
-	<system:String x:Key="Message.MountPointFolder.Condition">Jalur folder mount point hanya tersedia pada folder kosong pada volume NTFS dasar atau dinamis.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Condition">Jalur folder mount point hanya tersedia pada folder kosong dibagian volume NTFS dasar atau dinamis.</system:String>
 	<system:String x:Key="Message.MountPointFolder.Mandatory">Untuk menetapkan folder, opsi publik Disk Lokal diperlukan</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrl">URL folder</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrlID">URL folder atau ID </system:String>
