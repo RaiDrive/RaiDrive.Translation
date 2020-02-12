@@ -271,4 +271,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">Wiederverbindung bei Anmeldung</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Mit anderem Account anmelden</system:String>
 
+		<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">Bereitstellungspunkt-Ordnerpfade sind nur für leere Ordner auf Basis- oder dynamischen NTFS-Volumes verfügbar.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Um einen Ordner zuzuweisen, ist die Option Local Disk public erforderlich</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">Ordner-URL</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">Ordner-URL oder ID</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">Meine Ablage</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Für mich freigegeben</system:String>
+	<system:String x:Key="GoogleDrive.Computers">Computer</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">Geteilter Link</system:String>
+
+	<system:String x:Key="OneDrive.Files">Dateien</system:String>
+	<system:String x:Key="OneDrive.Shared">Geteilt</system:String>
+	<system:String x:Key="OneDrive.SharedLink">Geteilter Link</system:String>
+
 </ResourceDictionary>

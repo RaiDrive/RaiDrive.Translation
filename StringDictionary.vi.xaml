@@ -268,4 +268,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">Tự động kết nối lại sau khi khởi động</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Kết nối bằng tài khoản khác</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">Đường dẫn thư mục Mount point chỉ khả dụng trên các thư mục trống trên các khối NTFS cơ bản hoặc động.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Để gán thư mục, tùy chọn công khai Đĩa cục bộ là bắt buộc</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">URL thư mục</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">URL thư mục hoặc ID</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">Drive của tôi</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Được chia sẻ với tôi</system:String>
+	<system:String x:Key="GoogleDrive.Computers">Máy tính</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">Liên kết đã chia sẻ</system:String>
+
+	<system:String x:Key="OneDrive.Files">Tệp</system:String>
+	<system:String x:Key="OneDrive.Shared">Đã chia sẻ</system:String>
+	<system:String x:Key="OneDrive.SharedLink">Liên kết đã chia sẻ</system:String>
+
 </ResourceDictionary>

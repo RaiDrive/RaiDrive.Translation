@@ -270,4 +270,21 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">登录 Windows 后自动连接</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">在连接时输入账号密码</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">挂载到文件夹仅在基本或动态NTFS卷上的空文件夹上可用。</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">要挂载到文件夹，需要勾选“模拟本地磁盘”选项</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">文件夹路径</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">文件夹路径或 ID</system:String>
+
+	<!-- Question: "The lines for Googledrive and Onedrive are not required to be changed. Please don't make changes."
+	Should I leave them as English text or Localized text? Why there are already translations here? -->
+	<system:String x:Key="GoogleDrive.MyDrive">我的云端硬盘</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">与我共享</system:String>
+	<system:String x:Key="GoogleDrive.Computers">计算机</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">共享链接</system:String>
+
+	<system:String x:Key="OneDrive.Files">文件</system:String>
+	<system:String x:Key="OneDrive.Shared">已共享</system:String>
+	<system:String x:Key="OneDrive.SharedLink">共享链接</system:String>
+
 </ResourceDictionary>

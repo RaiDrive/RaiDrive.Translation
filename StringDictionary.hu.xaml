@@ -268,4 +268,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">Újracsatlakoztatás bejelentkezéskor</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Csatlakozás más azonosítóval</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">A mappák beillesztési útvonalai csak üres mappákban érhetők el alap- vagy dinamikus NTFS köteteken.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Egy mappa hozzárendeléséhez a Helyi lemez nyilvános opcióra van szükség</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">mappa URL-je</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">mappa URL vagy azonosító</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">Saját meghajtó</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Velem megosztva</system:String>
+	<system:String x:Key="GoogleDrive.Computers">Számítógépek</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">Közös link</system:String>
+
+	<system:String x:Key="OneDrive.Files">Fájlok</system:String>
+	<system:String x:Key="OneDrive.Shared">Megosztottak</system:String>
+	<system:String x:Key="OneDrive.SharedLink">Közös link</system:String>
+
 </ResourceDictionary>

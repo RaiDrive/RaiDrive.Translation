@@ -263,10 +263,25 @@
 	<system:String x:Key="Vailidation.StorageAccount">من فضلك أدخل اسم حساب التخزين</system:String>
 	<system:String x:Key="Vailidation.StorageKey">من فضلك أدخل المفتاح 1 أو المفتاح 2</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">تشغيل البرنامج مع النظام</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">إضافة إلى بدء التشغيل</system:String>
 	<system:String x:Key="AddDrive.MountAtStart">إعادة اتصال عند تشغيل البرنامج</system:String>
 	<system:String x:Key="AddDrive.MountAtBoot">إعادة اتصال عند إقلاع النظام</system:String>
 	<system:String x:Key="AddDrive.MountAtSignIn">إعادة الاتصال عند تسجيل الدخول</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">استخدام بيانات دخول مختلفة</system:String>
+
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">تتوفر مسارات مجلد نقطة التحميل فقط على المجلدات الفارغة على وحدات تخزين NTFS الأساسية أو الحيوية.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">لتعيين مجلد ، يكون الخيار Local Disk public مطلوبًا</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">URL المجلد</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">المجلد URL أو معرف</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">ملفاتي</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">العناصر التي تمت مشاركتها معي</system:String>
+	<system:String x:Key="GoogleDrive.Computers">أجهزة الكمبيوتر</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">رابط مشترك</system:String>
+
+	<system:String x:Key="OneDrive.Files">الملفات</system:String>
+	<system:String x:Key="OneDrive.Shared">المشتركة</system:String>
+	<system:String x:Key="OneDrive.SharedLink">رابط مشترك</system:String>
 
 </ResourceDictionary>

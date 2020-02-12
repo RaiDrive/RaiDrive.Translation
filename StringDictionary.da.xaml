@@ -268,4 +268,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">Genforbind ved login</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Forbind med andre login-oplysninger</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">Mappepunktsstier til montering er kun tilgængelige på tomme mapper på grundlæggende eller dynamiske NTFS-volumener.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">For at tildele en mappe er den offentlige mulighed for Lokal disk obligatorisk</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">mappe-URL</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">Mappe-URL eller ID</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">Mit drev</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Delt med mig</system:String>
+	<system:String x:Key="GoogleDrive.Computers">Computere</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">Delt link</system:String>
+
+	<system:String x:Key="OneDrive.Files">Filer</system:String>
+	<system:String x:Key="OneDrive.Shared">Delt</system:String>
+	<system:String x:Key="OneDrive.SharedLink">Delt link</system:String>
+
 </ResourceDictionary>

@@ -271,4 +271,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">เชื่อมต่อใหม่เมื่อเข้าสู่ระบบ</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">เชื่อมต่อโดยใช้ใบรับรองที่ต่างกัน</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">เส้นทางโฟลเดอร์จุดเมานท์จะใช้ได้เฉพาะกับโฟลเดอร์ที่ว่างเปล่าในไดรฟ์ข้อมูล NTFS พื้นฐานหรือแบบไดนามิก</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">ในการกำหนดโฟลเดอร์จำเป็นต้องใช้ตัวเลือก Public Local Disk</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">URL โฟลเดอร์</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">URL โฟลเดอร์ หรือ ID</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">ไดรฟ์ของฉัน</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">แชร์กับฉัน</system:String>
+	<system:String x:Key="GoogleDrive.Computers">คอมพิวเตอร์</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">ลิงก์ที่แชร์</system:String>
+
+	<system:String x:Key="OneDrive.Files">ไฟล์</system:String>
+	<system:String x:Key="OneDrive.Shared">รายการที่แชร์</system:String>
+	<system:String x:Key="OneDrive.SharedLink">ลิงก์ที่แชร์</system:String>
+
 </ResourceDictionary>

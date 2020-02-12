@@ -239,33 +239,48 @@
 	<system:String x:Key="Words.Site">Strona</system:String>
 
 	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">Project</system:String>
+	<system:String x:Key="Words.Project">Projekt</system:String>
 	<system:String x:Key="Words.Bucket">Bucket</system:String>
-	<system:String x:Key="Words.Tenant">Tenant</system:String>
-	<system:String x:Key="Words.Subscription">Subscription</system:String>
-	<system:String x:Key="Words.Community">Community</system:String>
-	<system:String x:Key="Words.Document">Document</system:String>
+	<system:String x:Key="Words.Tenant">Usługodawca</system:String>
+	<system:String x:Key="Words.Subscription">Subskrybcja</system:String>
+	<system:String x:Key="Words.Community">Społeczność</system:String>
+	<system:String x:Key="Words.Document">Dokument</system:String>
 
 	<system:String x:Key="Words.Cache">Cache</system:String>
-	<system:String x:Key="Words.Lifetime">Lifetime</system:String>
-	<system:String x:Key="Words.Read">Read</system:String>
-	<system:String x:Key="Words.Write">Write</system:String>
-	<system:String x:Key="Words.Second">second</system:String>
+	<system:String x:Key="Words.Lifetime">Dożywotnio</system:String>
+	<system:String x:Key="Words.Read">Odczyt</system:String>
+	<system:String x:Key="Words.Write">Zapis</system:String>
+	<system:String x:Key="Words.Second">sekunda</system:String>
 
-	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
-	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">Please enter Access Key ID</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Please enter Secret Access Key</system:String>
+	<system:String x:Key="Account.AccessKeyID">Pubiczny Access Key ID</system:String>
+	<system:String x:Key="Account.SecretAccessKey">Prywanty Access Key</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">Wprowadź Access Key ID</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">Wprowadź Secret Access Key</system:String>
 
-	<system:String x:Key="Account.StorageAccount">Storage Account</system:String>
-	<system:String x:Key="Account.StorageKey">Key</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
-	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+	<system:String x:Key="Account.StorageAccount">Konto storage</system:String>
+	<system:String x:Key="Account.StorageKey">Klucz</system:String>
+	<system:String x:Key="Vailidation.StorageAccount">Wprowadź nazwę konta storage</system:String>
+	<system:String x:Key="Vailidation.StorageKey">Wpisz klucz storage</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">Zarejstruj się</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Podłącz dyski ze startem programu</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Uruchom razem ze starem systemu</system:String>
 	<system:String x:Key="AddDrive.MountAtSignIn">Połącz automatycznie</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Połącz przy użyciu innych poświadczeń</system:String>
+
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">Ścieżki folderów punktów podłączenia są dostępne tylko w pustych folderach na podstawowych lub dynamicznych woluminach NTFS.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Aby przypisać folder, wymagana jest opcja publicznego dysku lokalnego</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">URL folderu</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">Adres URL folderu lub identyfikator</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">Mój dysk</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Udostępnione dla mnie</system:String>
+	<system:String x:Key="GoogleDrive.Computers">Komputery</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">wspólny link</system:String>
+
+	<system:String x:Key="OneDrive.Files">Pliki</system:String>
+	<system:String x:Key="OneDrive.Shared">Udostępnione</system:String>
+	<system:String x:Key="OneDrive.SharedLink">wspólny link</system:String>
 
 </ResourceDictionary>
