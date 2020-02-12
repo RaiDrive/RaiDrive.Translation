@@ -268,4 +268,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">Sambung-semula semasa daftar-masuk</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Sambung gunakan tauliah berlainan</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">Laluan folder Mount Point hanya tersedia pada folder kosong pada volum NTFS asas atau dinamik.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Untuk menguntukkan folder, opsyen awam cakera tempatan diperlukan</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">URL folder</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">URL folder atau ID</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">Drive Saya</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Dikongsi dengan saya</system:String>
+	<system:String x:Key="GoogleDrive.Computers">Komputer</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">pautan dikongsi</system:String>
+
+	<system:String x:Key="OneDrive.Files">Fail</system:String>
+	<system:String x:Key="OneDrive.Shared">Dikongsi</system:String>
+	<system:String x:Key="OneDrive.SharedLink">pautan dikongsi</system:String>
+
 </ResourceDictionary>

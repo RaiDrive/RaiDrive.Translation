@@ -269,4 +269,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">Reconectar al iniciar sesión</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Conectar usando otras credenciales</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">Las rutas de carpeta de punto de montaje están disponibles solo en carpetas vacías en volúmenes NTFS básicos o dinámicos.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Para asignar una carpeta, la opción pública de Disco local es obligatoria</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">URL de carpeta</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">URL de la carpeta o ID</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">Mi unidad</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">compartidos conmigo</system:String>
+	<system:String x:Key="GoogleDrive.Computers">Ordenadores</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">Enlace compartido</system:String>
+
+	<system:String x:Key="OneDrive.Files">Archivos</system:String>
+	<system:String x:Key="OneDrive.Shared">Compartido</system:String>
+	<system:String x:Key="OneDrive.SharedLink">Enlace compartido</system:String>
+
 </ResourceDictionary>

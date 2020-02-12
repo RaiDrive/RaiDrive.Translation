@@ -268,4 +268,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">Połącz automatycznie</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Połącz przy użyciu innych poświadczeń</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">Ścieżki folderów punktów podłączenia są dostępne tylko w pustych folderach na podstawowych lub dynamicznych woluminach NTFS.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Aby przypisać folder, wymagana jest opcja publicznego dysku lokalnego</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">URL folderu</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">Adres URL folderu lub identyfikator</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">Mój dysk</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Udostępnione dla mnie</system:String>
+	<system:String x:Key="GoogleDrive.Computers">Komputery</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">wspólny link</system:String>
+
+	<system:String x:Key="OneDrive.Files">Pliki</system:String>
+	<system:String x:Key="OneDrive.Shared">Udostępnione</system:String>
+	<system:String x:Key="OneDrive.SharedLink">wspólny link</system:String>
+
 </ResourceDictionary>

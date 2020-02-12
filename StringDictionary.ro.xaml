@@ -268,4 +268,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">Reconectați-vă la logare</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Conectați-vă folosind credențiale diferite</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">Căile folderului punct de montaj sunt disponibile numai pe dosarele goale, pe volume NTFS de bază sau dinamice.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Pentru a atribui un dosar, opțiunea publică pe disc local este necesară</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">Adresa URL a folderului</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">Adresa URL a folderului sau ID</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">Contul meu Drive</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Acces permis pentru mine</system:String>
+	<system:String x:Key="GoogleDrive.Computers">Computere</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">Linkuri partajate</system:String>
+
+	<system:String x:Key="OneDrive.Files">Fișiere</system:String>
+	<system:String x:Key="OneDrive.Shared">Partajat</system:String>
+	<system:String x:Key="OneDrive.SharedLink">Linkuri partajate</system:String>
+
 </ResourceDictionary>

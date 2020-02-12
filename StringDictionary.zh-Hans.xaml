@@ -270,4 +270,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">登录 Windows 后自动连接</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">在连接时输入账号密码</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">挂载点文件夹路径仅在基本或动态NTFS卷上的空文件夹上可用。</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">要分配文件夹，需要“本地磁盘”公用选项</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">资料夹网址</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">文件夹URL或ID</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">我的云端硬盘</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">与我共享</system:String>
+	<system:String x:Key="GoogleDrive.Computers">计算机</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">共用連結</system:String>
+
+	<system:String x:Key="OneDrive.Files">文件</system:String>
+	<system:String x:Key="OneDrive.Shared">已共享</system:String>
+	<system:String x:Key="OneDrive.SharedLink">共用連結</system:String>
+
 </ResourceDictionary>

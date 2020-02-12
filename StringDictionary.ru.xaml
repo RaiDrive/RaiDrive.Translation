@@ -268,4 +268,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">Подключать при входе</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Подключение с разными аккаунтами</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">Пути к точкам монтирования доступны только в пустых папках на базовых или динамических томах NTFS.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Чтобы назначить папку, требуется публичная опция Local Disk</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">URL папки</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">URL-адрес папки или идентификатор</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">Мой диск</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Доступные мне</system:String>
+	<system:String x:Key="GoogleDrive.Computers">Компьютеры</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">поделенный ссылка</system:String>
+
+	<system:String x:Key="OneDrive.Files">Файлы</system:String>
+	<system:String x:Key="OneDrive.Shared">Общие</system:String>
+	<system:String x:Key="OneDrive.SharedLink">поделенный ссылка</system:String>
+
 </ResourceDictionary>

@@ -268,4 +268,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">اتصال حین ورود به ویندوز</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">ورود اطلاعات حساب حین اتصال</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">مسیرهای پوشه Mount point فقط در پوشه های خالی با حجم پایه یا پویا NTFS در دسترس هستند.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">برای اختصاص یک پوشه ، گزینه عمومی دیسک محلی مورد نیاز است</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">URL پوشه</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">URL پوشه یا شناسه</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">My Drive</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">موارد اشتراک‌گذاری شده با من</system:String>
+	<system:String x:Key="GoogleDrive.Computers">رایانه</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">پیوند مشترک</system:String>
+
+	<system:String x:Key="OneDrive.Files">پرونده ها</system:String>
+	<system:String x:Key="OneDrive.Shared">اشتراک گذاشته شده</system:String>
+	<system:String x:Key="OneDrive.SharedLink">پیوند مشترک</system:String>
+
 </ResourceDictionary>

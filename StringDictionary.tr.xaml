@@ -282,4 +282,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">Otomatik Bağlan </system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Farklı Kimlik Kullanarak Bağlan </system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">Bağlama noktası klasör yolları yalnızca temel veya dinamik NTFS birimlerindeki boş klasörlerde kullanılabilir.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Klasöre atamak için Yerel Diskin halka açık seçeneği zorunludur</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">klasör URL'si</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">klasör URL'si veya kimliği</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">Drive'ım</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Benimle paylaşılanlar</system:String>
+	<system:String x:Key="GoogleDrive.Computers">Bilgisayarlar</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">Paylaşılan Bağlantı</system:String>
+
+	<system:String x:Key="OneDrive.Files">Dosyalar</system:String>
+	<system:String x:Key="OneDrive.Shared">Paylaşılan</system:String>
+	<system:String x:Key="OneDrive.SharedLink">Paylaşılan Bağlantı</system:String>
+
 </ResourceDictionary>

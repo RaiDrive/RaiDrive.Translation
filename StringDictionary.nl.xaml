@@ -268,4 +268,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">Verbinden bij aanmelden</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Met andere registratie aanmelden</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">Mount point-directorypaden kunnen alleen worden gebruikt met lege mappen op basis- of dynamische NTFS-volumes.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Om een ​​map toe te wijzen, is de openbare optie Lokale schijf vereist</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">Map-URL</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">Map-URL of ID</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">Mijn Drive</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Gedeeld met mij</system:String>
+	<system:String x:Key="GoogleDrive.Computers">Computers</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">Gedeelde link</system:String>
+
+	<system:String x:Key="OneDrive.Files">Bestanden</system:String>
+	<system:String x:Key="OneDrive.Shared">Gedeeld</system:String>
+	<system:String x:Key="OneDrive.SharedLink">Gedeelde link</system:String>
+
 </ResourceDictionary>

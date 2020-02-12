@@ -268,4 +268,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">로그인시에 자동연결</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">연결할 때마다 새로 로그인</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">탑재 지점 폴더 경로는 기본 또는 동적 NTFS 볼륨의 빈 폴더만 가능합니다.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">폴더를 드라이브에 할당하려면 로컬 디스크의 공개 옵션이 필수조건입니다</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">폴더 URL</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">폴더 URL 또는 ID</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">내 드라이브</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">공유 문서함</system:String>
+	<system:String x:Key="GoogleDrive.Computers">컴퓨터</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">공유링크</system:String>
+
+	<system:String x:Key="OneDrive.Files">파일</system:String>
+	<system:String x:Key="OneDrive.Shared">공유됨</system:String>
+	<system:String x:Key="OneDrive.SharedLink">공유링크</system:String>
+
 </ResourceDictionary>

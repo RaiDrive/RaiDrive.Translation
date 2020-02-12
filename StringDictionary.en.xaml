@@ -268,4 +268,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">Reconnect at sign-in</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Connect using different credentials</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">Mount point folder paths are available only on empty folders on basic or dynamic NTFS volumes.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">To assign a folder, the Local Disk public option is required</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">folder URL</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">folder URL or ID</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">My Drive</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Shared with me</system:String>
+	<system:String x:Key="GoogleDrive.Computers">Computers</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">Shared Link</system:String>
+
+	<system:String x:Key="OneDrive.Files">Files</system:String>
+	<system:String x:Key="OneDrive.Shared">Shared</system:String>
+	<system:String x:Key="OneDrive.SharedLink">Shared Link</system:String>
+
 </ResourceDictionary>

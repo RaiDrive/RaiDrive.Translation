@@ -268,4 +268,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">Riconnetti all'accesso</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Connetti utilizzando credenziali diverse</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">Il percorso della cartella del punto di montaggio è disponibile solo in cartelle vuote nel volume NTFS predefinito o dinamico.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Per assegnare una cartella, è richiesta l'opzione pubblica Disco locale</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">URL cartella</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">URL cartella o ID</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">Il mio Drive</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Condivisi con me</system:String>
+	<system:String x:Key="GoogleDrive.Computers">Computer</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">Link condiviso</system:String>
+
+	<system:String x:Key="OneDrive.Files">File</system:String>
+	<system:String x:Key="OneDrive.Shared">Elementi condivisi</system:String>
+	<system:String x:Key="OneDrive.SharedLink">Link condiviso</system:String>
+
 </ResourceDictionary>

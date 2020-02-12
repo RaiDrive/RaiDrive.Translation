@@ -270,4 +270,19 @@
 	<system:String x:Key="AddDrive.MountAtSignIn">プログラムの起動時にドライブをマウント</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">ドライブをマウントする度にログイン</system:String>
 
+	<!--  from 2020.2.2  -->
+	<system:String x:Key="Message.MountPointFolder.Condition">マウントポイントのフォルダーパスは、ベーシックまたはダイナミックNTFSボリュームの空のフォルダーでのみ使用できます。</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">フォルダを割り当てるには、ローカルディスク公開オプションが必要です</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">フォルダーURL</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">フォルダーURLまたはID</system:String>
+
+	<system:String x:Key="GoogleDrive.MyDrive">マイドライブ</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">共有アイテム</system:String>
+	<system:String x:Key="GoogleDrive.Computers">パソコン</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">共有リンク</system:String>
+
+	<system:String x:Key="OneDrive.Files">ファイル</system:String>
+	<system:String x:Key="OneDrive.Shared">共有</system:String>
+	<system:String x:Key="OneDrive.SharedLink">共有リンク</system:String>
+
 </ResourceDictionary>
