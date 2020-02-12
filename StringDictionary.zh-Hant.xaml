@@ -271,10 +271,10 @@
 	<system:String x:Key="AddDrive.AuthAtConnect">使用不同的憑證連線</system:String>
 
 	<!--  from 2020.2.2  -->
-	<system:String x:Key="Message.MountPointFolder.Condition">掛載點文件夾路徑僅在基本或動態NTFS卷上的空文件夾上可用。</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">要分配文件夾，需要“本地磁盤”公用選項</system:String>
+	<system:String x:Key="Message.MountPointFolder.Condition">掛載點資料夾路徑僅在基本或動態 NTFS 磁碟區上的空資料夾上可用。</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">要分配資料夾，需要「本機磁碟」公用選項</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrl">資料夾網址</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrlID">文件夾URL或ID</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">資料夾網址或ID</system:String>
 
 	<system:String x:Key="GoogleDrive.MyDrive">我的雲端硬碟</system:String>
 	<system:String x:Key="GoogleDrive.SharedWithMe">與我共用</system:String>
