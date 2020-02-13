@@ -15,7 +15,7 @@ File name | Language | Translated | v.1.9.0 confirm | v.2020.2.2 confirm | Contr
 [StringDictionary.en.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.en.xaml) | English | O | O | O | [RaiDrive](https://www.raidrive.com) |
 [StringDictionary.es.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.es.xaml) | Spanish | O | O |  | [GrandMasterX3](https://github.com/GrandMasterX3), [juangacovas](https://github.com/juangacovas) |
 [StringDictionary.fa.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.fa.xaml) | Farsi(Persian) | O | | | [Highdeger](https://github.com/Highdeger) |
-[StringDictionary.fr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.fr.xaml) | French | O | O |  | [jeromeFa](https://github.com/jeromeFa), [DoryanR](https://github.com/DoryanR) |
+[StringDictionary.fr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.fr.xaml) | French | O | O | O | [jeromeFa](https://github.com/jeromeFa), [DoryanR](https://github.com/DoryanR) |
 [StringDictionary.hr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.hr.xaml) | Croatian |  |  | |  |
 [StringDictionary.hu.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.hu.xaml) | Hungarian | O |  |  | [lostprophet](https://github.com/lostprophet) |
 [StringDictionary.id.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.id.xaml) | Indonesian | O | O | O | [alif72](https://github.com/alif72) |
@@ -26,7 +26,7 @@ File name | Language | Translated | v.1.9.0 confirm | v.2020.2.2 confirm | Contr
 [StringDictionary.nl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.nl.xaml) | Dutch | O |  |  | [RemboIII](https://github.com/RemboIII) |
 [StringDictionary.pl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pl.xaml) | Polish | O | O |  | [adrianwnuk](https://github.com/adrianwnuk) |
 [StringDictionary.pt-PT.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-PT.xaml) | Portuguese |   | | |
-[StringDictionary.pt-BR.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-BR.xaml) | Brazilian Portuguese | O | O |  | [fidodone](https://github.com/fidodone) |
+[StringDictionary.pt-BR.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-BR.xaml) | Brazilian Portuguese | O | O | O | [fidodone](https://github.com/fidodone) |
 [StringDictionary.ro.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ro.xaml) | Romanian | O | | | [foxhnd](https://github.com/foxhnd) |
 [StringDictionary.ru.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ru.xaml) | Russian | O | O |  | [kostefun](https://github.com/kostefun) |
 [StringDictionary.sv.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.sv.xaml) | Swedish |  |  |  | [RaiDrive](https://www.raidrive.com) |
@@ -35,7 +35,7 @@ File name | Language | Translated | v.1.9.0 confirm | v.2020.2.2 confirm | Contr
 [StringDictionary.uk.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.uk.xaml) | Ukrainian |  | | | 
 [StringDictionary.vi.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.vi.xaml) | Vietnamese | Translating... | | | [holao09](https://github.com/holao09) |
 [StringDictionary.zh-Hans.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hans.xaml) | Chinese (Simplified) | O | O | O | [whwlsfb](https://github.com/whwlsfb), [SadPencil](https://github.com/SadPencil), [dustofsoul](https://github.com/dustofsoul) |
-[StringDictionary.zh-Hant.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hant.xaml) | Chinese (Traditional) | O | O |  | [Hulen](https://github.com/Hulen), [SadPencil](https://github.com/SadPencil), [kix99aug](https://github.com/kix99aug) |
+[StringDictionary.zh-Hant.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hant.xaml) | Chinese (Traditional) | O | O | O | [Hulen](https://github.com/Hulen), [SadPencil](https://github.com/SadPencil), [kix99aug](https://github.com/kix99aug) |
 
 ### Other Languages 
 When you would voluntarily support translation to other language, it is really appreciated and please leave a message on Issues. 
