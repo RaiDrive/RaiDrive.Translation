@@ -30,7 +30,7 @@ File name | Language | Translated | v.1.9.0 confirm | v.2020.2.2 confirm | Contr
 [StringDictionary.ro.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ro.xaml) | Romanian | O | | | [foxhnd](https://github.com/foxhnd) |
 [StringDictionary.ru.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ru.xaml) | Russian | O | O |  | [kostefun](https://github.com/kostefun) |
 [StringDictionary.sv.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.sv.xaml) | Swedish |  |  |  | [RaiDrive](https://www.raidrive.com) |
-[StringDictionary.th.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.th.xaml) | Thai | O | O |  | [yutthaphon](https://github.com/yutthaphon), [naruepanart](https://github.com/naruepanart) |
+[StringDictionary.th.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.th.xaml) | Thai | O | O | O | [yutthaphon](https://github.com/yutthaphon), [naruepanart](https://github.com/naruepanart) |
 [StringDictionary.tr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.tr.xaml) | Turkish | O | O |  | [ilkmon](https://github.com/ilkmon) |
 [StringDictionary.uk.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.uk.xaml) | Ukrainian |  | | | 
 [StringDictionary.vi.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.vi.xaml) | Vietnamese | Translating... | | | [holao09](https://github.com/holao09) |
