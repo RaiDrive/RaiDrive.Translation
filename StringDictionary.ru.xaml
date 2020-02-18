@@ -215,7 +215,7 @@
 	<system:String x:Key="Message.Backup.BackupTargetFolder">Выберите удалённую папку для хранения файлов</system:String>
 
 	<!--  from version 1.6.0.416  -->
-	<system:String x:Key="Settings.General.UseDriveIcon">Использовать пользовательскую иконку на подключенном диске</system:String>
+	<system:String x:Key="Settings.General.UseDriveIcon">Показывать иконку RaiDrive на подключенном диске</system:String>
 	<system:String x:Key="AddDrive.LocalDisk">Локальный диск</system:String>
 	<system:String x:Key="AddDrive.FileLock">Блокировка файла</system:String>
 	<system:String x:Key="AddDrive.WritableDrive">Записываемый диск</system:String>
@@ -247,15 +247,15 @@
 	<system:String x:Key="Words.Document">Document</system:String>
 
 	<system:String x:Key="Words.Cache">Кэш</system:String>
-	<system:String x:Key="Words.Lifetime">время жизни</system:String>
-	<system:String x:Key="Words.Read">Чтение</system:String>
-	<system:String x:Key="Words.Write">Запись</system:String>
+	<system:String x:Key="Words.Lifetime">Хранить</system:String>
+	<system:String x:Key="Words.Read">чтение</system:String>
+	<system:String x:Key="Words.Write">запись</system:String>
 	<system:String x:Key="Words.Second">секунд</system:String>
 
-	<system:String x:Key="Account.AccessKeyID">ID ключа доступа</system:String>
-	<system:String x:Key="Account.SecretAccessKey">Секретный ключ доступа</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">Пожалуйста, введите ID ключа доступа</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Пожалуйста, введите секретный ключ доступа</system:String>
+	<system:String x:Key="Account.AccessKeyID">ID ключа</system:String>
+	<system:String x:Key="Account.SecretAccessKey">Ключ доступа</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">Пожалуйста, введите ID ключа</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">Пожалуйста, введите секретный ключ</system:String>
 
 	<system:String x:Key="Account.StorageAccount">Аккаунт хранилища</system:String>
 	<system:String x:Key="Account.StorageKey">Ключ</system:String>
@@ -277,10 +277,10 @@
 	<system:String x:Key="GoogleDrive.MyDrive">Мой диск</system:String>
 	<system:String x:Key="GoogleDrive.SharedWithMe">Доступные мне</system:String>
 	<system:String x:Key="GoogleDrive.Computers">Компьютеры</system:String>
-	<system:String x:Key="GoogleDrive.SharedLink">поделенный ссылка</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">Общая ссылка</system:String>
 
 	<system:String x:Key="OneDrive.Files">Файлы</system:String>
 	<system:String x:Key="OneDrive.Shared">Общие</system:String>
-	<system:String x:Key="OneDrive.SharedLink">поделенный ссылка</system:String>
+	<system:String x:Key="OneDrive.SharedLink">Общая ссылка</system:String>
 
 </ResourceDictionary>
