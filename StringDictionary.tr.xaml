@@ -284,9 +284,9 @@
 
 	<!--  from 2020.2.2  -->
 	<system:String x:Key="Message.MountPointFolder.Condition">Bağlama noktası klasör yolları yalnızca temel veya dinamik NTFS birimlerindeki boş klasörlerde kullanılabilir.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">Klasöre atamak için Yerel Diskin halka açık seçeneği zorunludur</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrl">klasör URL'si</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrlID">klasör URL'si veya kimliği</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Klasöre ilişkilendirmek için Yerel Diskin herkese açık seçeneği seçilmelidir</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">klasör URL'i</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">klasör URL'i veya ID'si</system:String>
 
 	<system:String x:Key="GoogleDrive.MyDrive">Drive'ım</system:String>
 	<system:String x:Key="GoogleDrive.SharedWithMe">Benimle paylaşılanlar</system:String>
