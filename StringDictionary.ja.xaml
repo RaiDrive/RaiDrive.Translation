@@ -264,9 +264,9 @@
 	<system:String x:Key="Vailidation.StorageAccount">ストレージアカウント名を入力</system:String>
 	<system:String x:Key="Vailidation.StorageKey">key1またはkey2を入力</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">スタートアップへ登録</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">プログラムの起動時に再接続</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">起動時に再接続</system:String>
 	<system:String x:Key="AddDrive.MountAtSignIn">プログラムの起動時にドライブをマウント</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">ドライブをマウントする度にログイン</system:String>
 
