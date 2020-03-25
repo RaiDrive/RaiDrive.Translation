@@ -69,11 +69,11 @@
 	<system:String x:Key="Vailidation.Hint.Port">Poort</system:String>
 	<system:String x:Key="Vailidation.Hint.Path">Pad</system:String>
 	<system:String x:Key="Vailidation.Hint.Email">mail@voorbeeld.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">Kies een persoonlijk sleutelbestand</system:String>
+	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">Kies een persoonlijke sleutel</system:String>
 
 	<system:String x:Key="Button.Yes">Ja</system:String>
 	<system:String x:Key="Button.No">Nee</system:String>
-	<system:String x:Key="Button.OK">Okee</system:String>
+	<system:String x:Key="Button.OK">Oke</system:String>
 	<system:String x:Key="Button.Apply">Toepassen</system:String>
 	<system:String x:Key="Button.Cancel">Afbreken</system:String>
 	<system:String x:Key="Button.Check">Controleren</system:String>
@@ -104,7 +104,7 @@
 	<system:String x:Key="Message.SureDelete">Weet je zeker dat je &quot;{0} ({1})&quot; wil verwijderen?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">RaiDrive herstarten</system:String>
 	<system:String x:Key="Message.Title.Reconnect">RaiDrive opnieuw verbinden</system:String>
-	<system:String x:Key="Message.ServiceDown">Druk op &quot;Okee&quot; om RaiDrive wakker te schudden.</system:String>
+	<system:String x:Key="Message.ServiceDown">Druk op &quot;Okee&quot; om RaiDrive wakker te maken.</system:String>
 	<system:String x:Key="Message.Settings.Reconnect">Druk op &quot;Okee&quot; verbind opnieuw om de wijzigingen door te voeren.</system:String>
 	<system:String x:Key="Message.NotReady.Reboot">RaiDrive is niet gereed. Start de PC opnieuw op.</system:String>
 	<system:String x:Key="Message.NotReady.Driver">Het stuurprogramma is niet geladen. Installeer RaiDrive opnieuw.</system:String>
@@ -117,8 +117,8 @@
 	<system:String x:Key="Message.CurrentVersion">Huidige versie: {0}</system:String>
 	<system:String x:Key="Message.Cache.Folder.NotSupport">De tijdelijke map moet zich op je PC bevinden.</system:String>
 
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">Autorisatie of authenticatie mislukt. Wil je het nog eens proberen?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Autorisatie of authenticatie mislukt. Wil je het nog eens proberen? (als het weer mislukt, verwijder dan de map en voeg hem opnieuw toe.)</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveAuth">Autorisatie mislukt. Wil je het nog eens proberen?</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Autorisatie mislukt. Wil je het nog eens proberen? (als het weer mislukt, verwijder dan de map en voeg hem opnieuw toe.)</system:String>
 	<system:String x:Key="Message.ErrorRemoteDriveLimit">De opslagruimte wordt overschreden. Inlaadbeperkingen worden geregeld door {0}.</system:String>
 	<system:String x:Key="Message.ErrorRemoteDriveRemake">De verbindingsmethode om op te slaan is gewijzigd. Meld je opnieuw aan.</system:String>
 	<system:String x:Key="Message.ErrorCacheDiskFull">Het buffergeheugen is vol. Maak geheugen vrij, bv door programma's te sluiten.</system:String>
