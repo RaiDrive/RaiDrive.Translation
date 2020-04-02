@@ -25,7 +25,7 @@
 	<system:String x:Key="Settings.General.RunAtBoot">Start RaiDrive bij opstarten van Windows</system:String>
 	<system:String x:Key="Settings.General.RunAtConnect">Start Verkenner bij verbinding met een station</system:String>
 
-	<system:String x:Key="Notice">Mededeling</system:String>
+	<system:String x:Key="Notice">Meldingen</system:String>
 	<system:String x:Key="AddDrive">Toevoegen</system:String>
 	<system:String x:Key="AddDrive.Header">Nieuwe schijf</system:String>
 	<system:String x:Key="AddDrive.Storage">Opslaan</system:String>
@@ -35,7 +35,7 @@
 
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">Netwerk</system:String>
-	<system:String x:Key="AddDrive.ReadOnly">Alleen-lezen</system:String>
+	<system:String x:Key="AddDrive.ReadOnly">Alleen lezen</system:String>
 	<system:String x:Key="AddDrive.Account">Registratie</system:String>
 	<system:String x:Key="AddDrive.Username">Gebruikersnaam</system:String>
 	<system:String x:Key="AddDrive.Password">Wachtwoord</system:String>
@@ -43,13 +43,13 @@
 	<system:String x:Key="AddDrive.Address">Adres</system:String>
 	<system:String x:Key="AddDrive.Port">Poort</system:String>
 	<system:String x:Key="AddDrive.Device">Apparaat</system:String>
-	<system:String x:Key="AddDrive.PrivateKey">Persoonlijke sleutel</system:String>
+	<system:String x:Key="AddDrive.PrivateKey">Privé sleutel</system:String>
 	<system:String x:Key="AddDrive.Charset">Karakterset</system:String>
 	<system:String x:Key="AddDrive.TransferMode">Overdrachtsmodus</system:String>
 	<system:String x:Key="AddDrive.Encryption">Versleuteling</system:String>
 
 	<system:String x:Key="Vailidation.Volume">Kies een geldige naam</system:String>
-	<system:String x:Key="Vailidation.VolumeExist">Deze letter is al gereserveerd</system:String>
+	<system:String x:Key="Vailidation.VolumeExist">Deze letter is al gebruikt</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidChar">De naam mag niet het volgende karakter bevatten:</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidStr">De volgende namen zijn al gereserveerd en niet bruikbaar:</system:String>
 	<system:String x:Key="Vailidation.Letter">Kies een nog niet gebruikte schijfletter</system:String>
@@ -75,11 +75,11 @@
 	<system:String x:Key="Button.No">Nee</system:String>
 	<system:String x:Key="Button.OK">Oke</system:String>
 	<system:String x:Key="Button.Apply">Toepassen</system:String>
-	<system:String x:Key="Button.Cancel">Afbreken</system:String>
+	<system:String x:Key="Button.Cancel">Annuleren</system:String>
 	<system:String x:Key="Button.Check">Controleren</system:String>
 	<system:String x:Key="Button.Edit">Bewerken</system:String>
 	<system:String x:Key="Button.Retry">Opnieuw proberen</system:String>
-	<system:String x:Key="Button.ReAuth">Aanmelden</system:String>
+	<system:String x:Key="Button.ReAuth">Opnieuw aanmelden</system:String>
 	<system:String x:Key="Button.Login">Aanmelden</system:String>
 	<system:String x:Key="Button.SIGNIN">AANMELDEN</system:String>
 
@@ -88,7 +88,7 @@
 	<system:String x:Key="ToolTip.Edit">Bewerken</system:String>
 	<system:String x:Key="ToolTip.Remove">Verwijderen</system:String>
 	<system:String x:Key="ToolTip.NetworkDrive">Netwerkadres</system:String>
-	<system:String x:Key="ToolTip.SecureProtocol">Veiligheidsprotocol</system:String>
+	<system:String x:Key="ToolTip.SecureProtocol">Beveiligsprotocol</system:String>
 	<system:String x:Key="ToolTip.SecureConnection">Beveiligde verbinding</system:String>
 	<system:String x:Key="ToolTip.Backup">Reservekopie</system:String>
 
@@ -104,14 +104,14 @@
 	<system:String x:Key="Message.SureDelete">Weet je zeker dat je &quot;{0} ({1})&quot; wil verwijderen?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">RaiDrive herstarten</system:String>
 	<system:String x:Key="Message.Title.Reconnect">RaiDrive opnieuw verbinden</system:String>
-	<system:String x:Key="Message.ServiceDown">Druk op &quot;Okee&quot; om RaiDrive wakker te maken.</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">Druk op &quot;Okee&quot; verbind opnieuw om de wijzigingen door te voeren.</system:String>
+	<system:String x:Key="Message.ServiceDown">Druk op &quot;Oke&quot; om RaiDrive opnieuw op te starten.</system:String>
+	<system:String x:Key="Message.Settings.Reconnect">Druk op &quot;Oke&quot; verbind opnieuw om de wijzigingen door te voeren.</system:String>
 	<system:String x:Key="Message.NotReady.Reboot">RaiDrive is niet gereed. Start de PC opnieuw op.</system:String>
 	<system:String x:Key="Message.NotReady.Driver">Het stuurprogramma is niet geladen. Installeer RaiDrive opnieuw.</system:String>
 	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox ondersteunt IE10 en IE11. Installeer Internet Explorer 11.</system:String>
 	<system:String x:Key="Message.Connect.By">Verbonden met behulp van RaiDrive</system:String>
 	<system:String x:Key="Message.Maximum.Drive">In de huidige versie kunnen maximaal 8 diensten worden verbonden</system:String>
-	<system:String x:Key="Message.License.Expired">Je licentie is verlopen. Druk op &quot;Okee&quot; om te opwaarderen naar de nieuwste versie.</system:String>
+	<system:String x:Key="Message.License.Expired">Je licentie is verlopen. Druk op &quot;Oke&quot; om te opwaarderen naar de nieuwste versie.</system:String>
 	<system:String x:Key="Message.License.NotReady">RaiDrive kan je licentie niet controleren.</system:String>
 	<system:String x:Key="Message.UnknownSpace">Onbekend</system:String>
 	<system:String x:Key="Message.CurrentVersion">Huidige versie: {0}</system:String>
