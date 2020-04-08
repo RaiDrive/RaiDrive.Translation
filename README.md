@@ -12,6 +12,7 @@ File name | Language | Translated | v.1.9.0 confirm | v.2020.2.2 confirm | Contr
 [StringDictionary.cs.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.cs.xaml) | Czech | O | O | O | [kazihorka](https://github.com/kazihorka) |
 [StringDictionary.da.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.da.xaml) | Danish | O | | | [michal78](https://github.com/michal78) |
 [StringDictionary.de.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.de.xaml) | German | O | O | O | [Kasukoi](https://github.com/Kasukoi), [LordDamionDevil](https://github.com/LordDamionDevil) |
+[StringDictionary.el.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.el.xaml) | Greek | O | O | O | [BullGR](https://github.com/BullGR) |
 [StringDictionary.en.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.en.xaml) | English | O | O | O | [RaiDrive](https://www.raidrive.com) |
 [StringDictionary.es.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.es.xaml) | Spanish | O | O |  | [GrandMasterX3](https://github.com/GrandMasterX3), [juangacovas](https://github.com/juangacovas) |
 [StringDictionary.fa.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.fa.xaml) | Farsi(Persian) | O | | | [Highdeger](https://github.com/Highdeger) |
