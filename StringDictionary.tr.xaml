@@ -276,11 +276,11 @@
 	<system:String x:Key="Vailidation.StorageAccount">Lütfen depolama hesabı adınızı giriniz.</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Lütfen key1 veya key2 giriniz.</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Windows ile Başlat </system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Program Başlatıldığında Bağlan </system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Başlangıçta Bağlan </system:String>
-	<system:String x:Key="AddDrive.MountAtSignIn">Otomatik Bağlan </system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Farklı Kimlik Kullanarak Bağlan </system:String>
+	<system:String x:Key="Settings.RegisterToStartup">Windows ile Başlat</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Program Başlatıldığında Bağlan</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Başlangıçta Bağlan</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">Otomatik Bağlan</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Farklı Kimlik Kullanarak Bağlan</system:String>
 
 	<!--  from 2020.2.2  -->
 	<system:String x:Key="Message.MountPointFolder.Condition">Bağlama noktası klasör yolları yalnızca temel veya dinamik NTFS birimlerindeki boş klasörlerde kullanılabilir.</system:String>
@@ -296,5 +296,11 @@
 	<system:String x:Key="OneDrive.Files">Dosyalar</system:String>
 	<system:String x:Key="OneDrive.Shared">Paylaşılan</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Paylaşılan Bağlantı</system:String>
+
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">Bant Genişliği</system:String>
+	<system:String x:Key="Words.Download">İndir</system:String>
+	<system:String x:Key="Words.Upload">yüklemek</system:String>
+	<system:String x:Key="Words.Capacity">Kapasite</system:String>
 
 </ResourceDictionary>

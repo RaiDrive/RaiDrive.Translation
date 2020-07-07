@@ -283,4 +283,10 @@
 	<system:String x:Key="OneDrive.Shared">Delt</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Delt link</system:String>
 
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">båndbredde</system:String>
+	<system:String x:Key="Words.Download">Download</system:String>
+	<system:String x:Key="Words.Upload">Upload</system:String>
+	<system:String x:Key="Words.Capacity">Kapacitet</system:String>
+
 </ResourceDictionary>

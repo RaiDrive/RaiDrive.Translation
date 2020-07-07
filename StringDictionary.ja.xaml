@@ -285,4 +285,10 @@
 	<system:String x:Key="OneDrive.Shared">共有</system:String>
 	<system:String x:Key="OneDrive.SharedLink">共有リンク</system:String>
 
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">帯域幅</system:String>
+	<system:String x:Key="Words.Download">ダウンロード</system:String>
+	<system:String x:Key="Words.Upload">アップロード</system:String>
+	<system:String x:Key="Words.Capacity">容量</system:String>
+
 </ResourceDictionary>

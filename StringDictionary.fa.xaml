@@ -283,4 +283,10 @@
 	<system:String x:Key="OneDrive.Shared">اشتراک گذاشته شده</system:String>
 	<system:String x:Key="OneDrive.SharedLink">پیوند مشترک</system:String>
 
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">پهنای باند</system:String>
+	<system:String x:Key="Words.Download">دانلود</system:String>
+	<system:String x:Key="Words.Upload">بارگذاری</system:String>
+	<system:String x:Key="Words.Capacity">ظرفیت</system:String>
+
 </ResourceDictionary>

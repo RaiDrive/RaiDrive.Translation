@@ -283,4 +283,10 @@
 	<system:String x:Key="OneDrive.Shared">Megosztottak</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Közös link</system:String>
 
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">Sávszélesség</system:String>
+	<system:String x:Key="Words.Download">Letöltés</system:String>
+	<system:String x:Key="Words.Upload">Feltöltése</system:String>
+	<system:String x:Key="Words.Capacity">Kapacitás</system:String>
+
 </ResourceDictionary>

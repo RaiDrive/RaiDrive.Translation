@@ -272,7 +272,7 @@
 	<system:String x:Key="Message.MountPointFolder.Condition">Jalur folder mount point hanya tersedia pada folder kosong dibagian volume NTFS dasar atau dinamis.</system:String>
 	<system:String x:Key="Message.MountPointFolder.Mandatory">Untuk menetapkan folder, opsi publik Disk Lokal diperlukan</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrl">URL folder</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrlID">URL folder atau ID </system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">URL folder atau ID</system:String>
 
 	<system:String x:Key="GoogleDrive.MyDrive">Drive Saya</system:String>
 	<system:String x:Key="GoogleDrive.SharedWithMe">Dibagikan kepada saya</system:String>
@@ -282,5 +282,11 @@
 	<system:String x:Key="OneDrive.Files">File</system:String>
 	<system:String x:Key="OneDrive.Shared">Bersama</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Tautan bersama</system:String>
+
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">Bandwidth</system:String>
+	<system:String x:Key="Words.Download">Download</system:String>
+	<system:String x:Key="Words.Upload">Upload</system:String>
+	<system:String x:Key="Words.Capacity">Kapasitas</system:String>
 
 </ResourceDictionary>

@@ -283,4 +283,10 @@
 	<system:String x:Key="OneDrive.Shared">Compartilhado</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Link compartilhado</system:String>
 
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">Largura de banda</system:String>
+	<system:String x:Key="Words.Download">Baixar</system:String>
+	<system:String x:Key="Words.Upload">Upload</system:String>
+	<system:String x:Key="Words.Capacity">Capacidade</system:String>
+
 </ResourceDictionary>

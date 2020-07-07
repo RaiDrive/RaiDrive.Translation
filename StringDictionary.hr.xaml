@@ -270,7 +270,7 @@
 
 	<!--  from 2020.2.2  -->
 	<system:String x:Key="Message.MountPointFolder.Condition">Mount point folder paths are available only on empty folders on basic or dynamic NTFS volumes.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">To assign a folder, the Local Disk public option is required</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">The Public option of Local Disk is required to mount to folder</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrl">folder URL</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrlID">folder URL or ID</system:String>
 
@@ -282,5 +282,10 @@
 	<system:String x:Key="OneDrive.Files">Files</system:String>
 	<system:String x:Key="OneDrive.Shared">Shared</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Shared Link</system:String>
+
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">Bandwidth</system:String>
+	<system:String x:Key="Words.Download">Download</system:String>
+	<system:String x:Key="Words.Upload">Upload</system:String>
 
 </ResourceDictionary>

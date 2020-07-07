@@ -270,7 +270,7 @@
 
 	<!--  from 2020.2.2  -->
 	<system:String x:Key="Message.MountPointFolder.Condition">Mount point folder paths are available only on empty folders on basic or dynamic NTFS volumes.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">Για να αντιστοιχίσετε ένα φάκελο, απαιτείται η επιλογή "Τοπικός Δίσκος δημόσιος"</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Για να αντιστοιχίσετε ένα φάκελο, απαιτείται η επιλογή &quot;Τοπικός Δίσκος δημόσιος&quot;</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrl">URL διεύθυνση του τόμου</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrlID">URL διεύθυνση ή ID του τόμου</system:String>
 
@@ -282,5 +282,11 @@
 	<system:String x:Key="OneDrive.Files">Αρχεία</system:String>
 	<system:String x:Key="OneDrive.Shared">Διαμοιρασμένα</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Σύνδεσμος διαμοιρασμού</system:String>
+
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">εύρος ζώνης</system:String>
+	<system:String x:Key="Words.Download">Κατεβάστε</system:String>
+	<system:String x:Key="Words.Upload">Μεταφόρτωση</system:String>
+	<system:String x:Key="Words.Capacity">Χωρητικότητα</system:String>
 
 </ResourceDictionary>

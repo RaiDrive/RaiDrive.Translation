@@ -283,4 +283,10 @@
 	<system:String x:Key="OneDrive.Shared">Dikongsi</system:String>
 	<system:String x:Key="OneDrive.SharedLink">pautan dikongsi</system:String>
 
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">Lebar jalur</system:String>
+	<system:String x:Key="Words.Download">Muat turun</system:String>
+	<system:String x:Key="Words.Upload">Muat naik</system:String>
+	<system:String x:Key="Words.Capacity">Kapasiti</system:String>
+
 </ResourceDictionary>

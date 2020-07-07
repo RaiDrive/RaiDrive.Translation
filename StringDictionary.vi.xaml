@@ -283,4 +283,10 @@
 	<system:String x:Key="OneDrive.Shared">Đã chia sẻ</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Liên kết đã chia sẻ</system:String>
 
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">Băng thông</system:String>
+	<system:String x:Key="Words.Download">Tải xuống</system:String>
+	<system:String x:Key="Words.Upload">tải lên</system:String>
+	<system:String x:Key="Words.Capacity">Dung lượng</system:String>
+
 </ResourceDictionary>

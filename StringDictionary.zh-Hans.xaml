@@ -276,8 +276,10 @@
 	<system:String x:Key="Validation.Hint.FolderUrl">文件夹路径</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrlID">文件夹路径或 ID</system:String>
 
-	<!-- Question: "The lines for Googledrive and Onedrive are not required to be changed. Please don't make changes."
-	Should I leave them as English text or Localized text? Why there are already translations here? -->
+	<!--
+		Question: "The lines for Googledrive and Onedrive are not required to be changed. Please don't make changes."
+		Should I leave them as English text or Localized text? Why there are already translations here?
+	-->
 	<system:String x:Key="GoogleDrive.MyDrive">我的云端硬盘</system:String>
 	<system:String x:Key="GoogleDrive.SharedWithMe">与我共享</system:String>
 	<system:String x:Key="GoogleDrive.Computers">计算机</system:String>
@@ -286,5 +288,11 @@
 	<system:String x:Key="OneDrive.Files">文件</system:String>
 	<system:String x:Key="OneDrive.Shared">已共享</system:String>
 	<system:String x:Key="OneDrive.SharedLink">共享链接</system:String>
+
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">带宽</system:String>
+	<system:String x:Key="Words.Download">下载</system:String>
+	<system:String x:Key="Words.Upload">上传</system:String>
+	<system:String x:Key="Words.Capacity">容量</system:String>
 
 </ResourceDictionary>

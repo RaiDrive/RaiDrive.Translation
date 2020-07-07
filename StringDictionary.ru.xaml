@@ -283,4 +283,10 @@
 	<system:String x:Key="OneDrive.Shared">Общие</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Общая ссылка</system:String>
 
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">пропускной способности</system:String>
+	<system:String x:Key="Words.Download">Скачать</system:String>
+	<system:String x:Key="Words.Upload">Загрузить</system:String>
+	<system:String x:Key="Words.Capacity">Емкость</system:String>
+
 </ResourceDictionary>

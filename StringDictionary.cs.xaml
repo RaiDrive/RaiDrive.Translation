@@ -283,4 +283,10 @@
 	<system:String x:Key="OneDrive.Shared">Sdílené</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Sdílený odkaz</system:String>
 
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">Šířka pásma</system:String>
+	<system:String x:Key="Words.Download">Stažení</system:String>
+	<system:String x:Key="Words.Upload">Nahrání</system:String>
+	<system:String x:Key="Words.Capacity">Kapacita</system:String>
+
 </ResourceDictionary>
