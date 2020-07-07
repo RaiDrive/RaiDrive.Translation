@@ -5,7 +5,7 @@
 	xmlns:system="clr-namespace:System;assembly=mscorlib">
 
 	<x:Array x:Key="Contributors" Type="system:String">
-		<system:String>molokal</system:String>
+		<system:String>ΜΟLΟΚΛL</system:String>
 	</x:Array>
 	<system:String x:Key="Current.Language">ms</system:String>
 
@@ -74,7 +74,7 @@
 	<system:String x:Key="Button.Yes">Ya</system:String>
 	<system:String x:Key="Button.No">Tidak</system:String>
 	<system:String x:Key="Button.OK">OK</system:String>
-	<system:String x:Key="Button.Apply">Mohon</system:String>
+	<system:String x:Key="Button.Apply">Tetapkan</system:String>
 	<system:String x:Key="Button.Cancel">Batal</system:String>
 	<system:String x:Key="Button.Check">Semak</system:String>
 	<system:String x:Key="Button.Edit">Ubah</system:String>
@@ -160,7 +160,7 @@
 	<system:String x:Key="Words.Description">Penerangan</system:String>
 
 	<system:String x:Key="Help.Text">BANTUAN</system:String>
-	<system:String x:Key="Help.Add.Drive">AYUH MULA~</system:String>
+	<system:String x:Key="Help.Add.Drive">AYUH MULAKAN~</system:String>
 	<system:String x:Key="Help.ServiceDown">Servis RaiDrive telah dihenti.</system:String>
 	<system:String x:Key="Help.ServiceDown.Press">Sila tekan butang, RaiDrive akan dihidup semula.</system:String>
 	<system:String x:Key="Help.InternetDown">Sambungan rangkaian anda seperti terputus. Sila semak sambungan internet anda.</system:String>
@@ -215,78 +215,78 @@
 	<system:String x:Key="Message.Backup.BackupTargetFolder">Pilih folder luar dimana fail akan disimpan</system:String>
 
 	<!--  from version 1.6.0.416  -->
-	<system:String x:Key="Settings.General.UseDriveIcon">Penggunaan ikon adat di dalam pemacu disambung</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">Cakera Tempatan</system:String>
-	<system:String x:Key="AddDrive.FileLock">Fail kunci</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">Pemacu boleh tulis</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">Gunung seperti cakera tempatan</system:String>
-	<system:String x:Key="ToolTip.FileLock">Fail WebDAV sebagai kunci</system:String>
+	<system:String x:Key="Settings.General.UseDriveIcon">Guna ikon diubah pada pemacu disambung</system:String>
+	<system:String x:Key="AddDrive.LocalDisk">Pemacu Tempatan</system:String>
+	<system:String x:Key="AddDrive.FileLock">Kunci Fail</system:String>
+	<system:String x:Key="AddDrive.WritableDrive">Pemacu Boleh-tulis</system:String>
+	<system:String x:Key="ToolTip.LocalDisk">Dimuat seperti pemacu tempatan</system:String>
+	<system:String x:Key="ToolTip.FileLock">Kunci Fail WebDAV</system:String>
 	<system:String x:Key="ToolTip.FileLock2">bergantung pada pelayan WebDAV</system:String>
-	<system:String x:Key="ToolTip.FileLock3">Pelayan mungkin tidak menyokong</system:String>
+	<system:String x:Key="ToolTip.FileLock3">Pelayan anda mungkin tidak menyokong</system:String>
 
 	<!--  from version 1.7.0  -->
-	<system:String x:Key="Identity.SignIn">daftar masuk</system:String>
-	<system:String x:Key="Identity.SignOut">Daftar keluar</system:String>
-	<system:String x:Key="Identity.SignOut.Question1">Ciri-ciri langganan anda akan dinyahdayakan dan semua pemacu akan insaf. Sila simpan fail atau tutup permohonan.</system:String>
-	<system:String x:Key="Identity.SignOut.Question2">Adakah anda pasti anda mahu log?</system:String>
+	<system:String x:Key="Identity.SignIn">Daftar Masuk</system:String>
+	<system:String x:Key="Identity.SignOut">Daftar Keluar</system:String>
+	<system:String x:Key="Identity.SignOut.Question1">Ciri-ciri langganan anda akan dinyahaktifkan dan semua pemacu akan disambung semula. Sila simpan fail atau tutup aplikasi.</system:String>
+	<system:String x:Key="Identity.SignOut.Question2">Adakah anda pasti ingin daftar keluar?</system:String>
 	<system:String x:Key="Subscription.Switched">Beralih kepada {0}</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">Sesi anda telah meminta untuk kembali anda sesi lain {0}. Semua pemacu akan insaf. Sila simpan fail atau tutup permohonan.</system:String>
-	<system:String x:Key="Subscription.Switched.Desc2">Ia akan digunakan selepas {0}, tekan Ok butang untuk serta-merta.</system:String>
+	<system:String x:Key="Subscription.Switched.Desc1">Sesi semasa anda telah diminta untuk kembali oleh sesi lain anda {0}. Semua pemacu akan disambung semula. Sila simpan fail atau tutup aplikasi.</system:String>
+	<system:String x:Key="Subscription.Switched.Desc2">Ia akan ditetapkan selepas {0}, tekan butang OK untuk teruskan.</system:String>
 
 	<!--  from version 1.8.0  -->
 	<system:String x:Key="Words.Public">Awam</system:String>
 	<system:String x:Key="Words.Private">Peribadi</system:String>
-	<system:String x:Key="Words.Site">Site</system:String>
+	<system:String x:Key="Words.Site">Laman</system:String>
 
 	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">Project</system:String>
-	<system:String x:Key="Words.Bucket">Bucket</system:String>
-	<system:String x:Key="Words.Tenant">Tenant</system:String>
-	<system:String x:Key="Words.Subscription">Subscription</system:String>
-	<system:String x:Key="Words.Community">Community</system:String>
-	<system:String x:Key="Words.Document">Document</system:String>
+	<system:String x:Key="Words.Project">Projek</system:String>
+	<system:String x:Key="Words.Bucket">Raga</system:String>
+	<system:String x:Key="Words.Tenant">Penyewa</system:String>
+	<system:String x:Key="Words.Subscription">Langganan</system:String>
+	<system:String x:Key="Words.Community">Komuniti</system:String>
+	<system:String x:Key="Words.Document">Dokumen</system:String>
 
 	<system:String x:Key="Words.Cache">Cache</system:String>
-	<system:String x:Key="Words.Lifetime">Lifetime</system:String>
-	<system:String x:Key="Words.Read">Read</system:String>
-	<system:String x:Key="Words.Write">Write</system:String>
-	<system:String x:Key="Words.Second">second</system:String>
+	<system:String x:Key="Words.Lifetime">Jangka-hayat</system:String>
+	<system:String x:Key="Words.Read">Baca</system:String>
+	<system:String x:Key="Words.Write">Tulis</system:String>
+	<system:String x:Key="Words.Second">saat</system:String>
 
-	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
-	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">Please enter Access Key ID</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Please enter Secret Access Key</system:String>
+	<system:String x:Key="Account.AccessKeyID">ID Kekunci Akses</system:String>
+	<system:String x:Key="Account.SecretAccessKey">Kekunci Akses Rahsia</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">Sila masukkan ID Kekunci Akses</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">Sila masukkan Kekunci Akses Rahsia</system:String>
 
-	<system:String x:Key="Account.StorageAccount">Storage Account</system:String>
-	<system:String x:Key="Account.StorageKey">Key</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
-	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+	<system:String x:Key="Account.StorageAccount">Akaun Storan</system:String>
+	<system:String x:Key="Account.StorageKey">Kekunci</system:String>
+	<system:String x:Key="Vailidation.StorageAccount">Sila masukkan nama akaun Storan</system:String>
+	<system:String x:Key="Vailidation.StorageKey">Sila masukkan kekunci1 atau kekunci2</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
-	<system:String x:Key="AddDrive.MountAtSignIn">Sambung-semula semasa daftar-masuk</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Sambung gunakan tauliah berlainan</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">Daftar ke Pemula Sistem</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Sambung-semula ketika program dimula</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Sambung-semula ketika but</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">Sambung-semula ketika daftar-masuk</system:String>
+	<system:String x:Key="AddDrive.AuthAtConnect">Sambung menggunakan akaun berlainan</system:String>
 
 	<!--  from 2020.2.2  -->
-	<system:String x:Key="Message.MountPointFolder.Condition">Laluan folder Mount Point hanya tersedia pada folder kosong pada volum NTFS asas atau dinamik.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">Untuk menguntukkan folder, opsyen awam cakera tempatan diperlukan</system:String>
+	<system:String x:Key="Message.MountPointFolder.Condition">Memuat titik laluan folder hanya tersedia untuk folder kosong dalam paduan NTFS asas atau dinamik.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Pilihan Awam bagi Pemacu Tempatan diperlukan untuk memuat ke folder</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrl">URL folder</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrlID">URL folder atau ID</system:String>
 
-	<system:String x:Key="GoogleDrive.MyDrive">Drive Saya</system:String>
+	<system:String x:Key="GoogleDrive.MyDrive">Pemacu Saya</system:String>
 	<system:String x:Key="GoogleDrive.SharedWithMe">Dikongsi dengan saya</system:String>
 	<system:String x:Key="GoogleDrive.Computers">Komputer</system:String>
-	<system:String x:Key="GoogleDrive.SharedLink">pautan dikongsi</system:String>
+	<system:String x:Key="GoogleDrive.SharedLink">Pautan Dikongsi</system:String>
 
-	<system:String x:Key="OneDrive.Files">Fail</system:String>
+	<system:String x:Key="OneDrive.Files">Fail Saya</system:String>
 	<system:String x:Key="OneDrive.Shared">Dikongsi</system:String>
-	<system:String x:Key="OneDrive.SharedLink">pautan dikongsi</system:String>
+	<system:String x:Key="OneDrive.SharedLink">Pautan Dikongsi</system:String>
 
 	<!--  from 2020.6  -->
-	<system:String x:Key="Words.Bandwidth">Lebar jalur</system:String>
-	<system:String x:Key="Words.Download">Muat turun</system:String>
-	<system:String x:Key="Words.Upload">Muat naik</system:String>
+	<system:String x:Key="Words.Bandwidth">Lebar-jalur</system:String>
+	<system:String x:Key="Words.Download">Muat-turun</system:String>
+	<system:String x:Key="Words.Upload">Muat-naik</system:String>
 	<system:String x:Key="Words.Capacity">Kapasiti</system:String>
 
 </ResourceDictionary>
