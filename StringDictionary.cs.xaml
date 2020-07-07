@@ -240,9 +240,9 @@
 
 	<!--  from version 1.9.0  -->
 	<system:String x:Key="Words.Project">Projekt</system:String>
-	<system:String x:Key="Words.Bucket">Kbelík</system:String>
-	<system:String x:Key="Words.Tenant">Nájem</system:String>
-	<system:String x:Key="Words.Subscription">Odběr</system:String>
+	<system:String x:Key="Words.Bucket">Bucket</system:String>
+	<system:String x:Key="Words.Tenant">Licence</system:String>
+	<system:String x:Key="Words.Subscription">Odběr novinek</system:String>
 	<system:String x:Key="Words.Community">Komunita</system:String>
 	<system:String x:Key="Words.Document">Dokument</system:String>
 
@@ -269,13 +269,13 @@
 	<system:String x:Key="AddDrive.AuthAtConnect">Propojit za pomoci jiných pověření</system:String>
 
 	<!--  from 2020.2.2  -->
-	<system:String x:Key="Message.MountPointFolder.Condition">Cesta ke složce připojení je k dispozici pouze u prázdných složek na základních nebo dynamických svazcích NTFS.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">Přiřazená složka vyžaduje veřejnou složku na místním disku</system:String>
+	<system:String x:Key="Message.MountPointFolder.Condition">Cesta ke složce je k dispozici pouze u prázdných složek na základních nebo dynamických svazcích NTFS.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Tato složka vyžaduje veřejnou složku umístěnou na místním disku</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrl">URL složky</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrlID">URL složky nebo ID</system:String>
 
 	<system:String x:Key="GoogleDrive.MyDrive">Můj disk</system:String>
-	<system:String x:Key="GoogleDrive.SharedWithMe">sdílené se mnou</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Sdíleno se mnou</system:String>
 	<system:String x:Key="GoogleDrive.Computers">Počítače</system:String>
 	<system:String x:Key="GoogleDrive.SharedLink">Sdílený odkaz</system:String>
 
@@ -285,8 +285,8 @@
 
 	<!--  from 2020.6  -->
 	<system:String x:Key="Words.Bandwidth">Šířka pásma</system:String>
-	<system:String x:Key="Words.Download">Stažení</system:String>
-	<system:String x:Key="Words.Upload">Nahrání</system:String>
+	<system:String x:Key="Words.Download">Stáhnout</system:String>
+	<system:String x:Key="Words.Upload">Nahrát</system:String>
 	<system:String x:Key="Words.Capacity">Kapacita</system:String>
 
 </ResourceDictionary>
