@@ -284,8 +284,8 @@
 	<system:String x:Key="OneDrive.SharedLink">Σύνδεσμος διαμοιρασμού</system:String>
 
 	<!--  from 2020.6  -->
-	<system:String x:Key="Words.Bandwidth">εύρος ζώνης</system:String>
-	<system:String x:Key="Words.Download">Κατεβάστε</system:String>
+	<system:String x:Key="Words.Bandwidth">ταχύτητα</system:String>
+	<system:String x:Key="Words.Download">Λήψη</system:String>
 	<system:String x:Key="Words.Upload">Μεταφόρτωση</system:String>
 	<system:String x:Key="Words.Capacity">Χωρητικότητα</system:String>
 
