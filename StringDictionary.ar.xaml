@@ -285,9 +285,9 @@
 	<system:String x:Key="OneDrive.SharedLink">رابط مشترك</system:String>
 
 	<!--  from 2020.6  -->
-	<system:String x:Key="Words.Bandwidth">عرض النطاق</system:String>
-	<system:String x:Key="Words.Download">تحميل</system:String>
-	<system:String x:Key="Words.Upload">تحميل</system:String>
-	<system:String x:Key="Words.Capacity">سعة</system:String>
+	<system:String x:Key="Words.Bandwidth">السرعة</system:String>
+	<system:String x:Key="Words.Download">استقبال</system:String>
+	<system:String x:Key="Words.Upload">ارسال</system:String>
+	<system:String x:Key="Words.Capacity">كمية البيانات</system:String>
 
 </ResourceDictionary>
