@@ -286,7 +286,7 @@
 	<system:String x:Key="OneDrive.SharedLink">共用連結</system:String>
 
 	<!--  from 2020.6  -->
-	<system:String x:Key="Words.Bandwidth">帶寬</system:String>
+	<system:String x:Key="Words.Bandwidth">頻寬</system:String>
 	<system:String x:Key="Words.Download">下載</system:String>
 	<system:String x:Key="Words.Upload">上傳</system:String>
 	<system:String x:Key="Words.Capacity">容量</system:String>
