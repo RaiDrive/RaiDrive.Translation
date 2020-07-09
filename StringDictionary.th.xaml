@@ -287,9 +287,9 @@
 	<system:String x:Key="OneDrive.SharedLink">ลิงก์ที่แชร์</system:String>
 
 	<!--  from 2020.6  -->
-	<system:String x:Key="Words.Bandwidth">แบนด์วิดธ์</system:String>
+	<system:String x:Key="Words.Bandwidth">แบนด์วิดท์</system:String>
 	<system:String x:Key="Words.Download">ดาวน์โหลด</system:String>
-	<system:String x:Key="Words.Upload">ที่อัปโหลด</system:String>
+	<system:String x:Key="Words.Upload">อัปโหลด</system:String>
 	<system:String x:Key="Words.Capacity">ความจุ</system:String>
 
 </ResourceDictionary>
