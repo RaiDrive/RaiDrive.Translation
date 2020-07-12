@@ -23,6 +23,7 @@ File name | Language | Translated | v.2020.2.2 confirm | v.2020.6.25 confirm | C
 [StringDictionary.it.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.it.xaml) | Italian | O | | | [gabrig11](https://github.com/gabrig11) |
 [StringDictionary.ja.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ja.xaml) | Japanese | O | O |  | [wizard872](https://github.com/wizard872), [yuk7](https://github.com/yuk7) |
 [StringDictionary.ko.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ko.xaml) | Korean | O | O | O | [RaiDrive](https://www.raidrive.com) |
+[StringDictionary.lt.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.lt.xaml) | Lithuanian | Translating... |  |  | Darius Ribinskas |
 [StringDictionary.ms.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ms.xaml) | Malay(Malaysia) | O | O | O | [MOLOKAL](https://github.com/molokal) |
 [StringDictionary.nl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.nl.xaml) | Dutch | O | O | O | [RemboIII](https://github.com/RemboIII) |
 [StringDictionary.pl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pl.xaml) | Polish | O |  |  | [adrianwnuk](https://github.com/adrianwnuk) |
