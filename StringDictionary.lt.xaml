@@ -5,7 +5,7 @@
 	xmlns:system="clr-namespace:System;assembly=mscorlib">
 
 	<x:Array x:Key="Contributors" Type="system:String">
-		<system:String>RaiDrive</system:String>
+		<system:String>Darius Ribinskas</system:String>
 	</x:Array>
 	<system:String x:Key="Current.Language">lt</system:String>
 
