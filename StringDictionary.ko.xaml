@@ -289,4 +289,31 @@
 	<system:String x:Key="Words.Upload">업로드</system:String>
 	<system:String x:Key="Words.Capacity">총량</system:String>
 
+	<!--  from 2020.9  -->
+	<system:String x:Key="Words.FileExplorer">파일 탐색기</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">스토리지 변경사항을 비동기적으로 갱신</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">파일 복사할 때, 수정한 날짜 유지시도</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">파일에 접근하는 프로세스 관찰</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">스토리지에서 빠른 복사/이동/삭제</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">덮어쓰기</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">이름변경</system:String>
+	<system:String x:Key="Words.Skip">건너뛰기</system:String>
+	<system:String x:Key="Words.Slow">느려림</system:String>
+	<system:String x:Key="Message.ResponseSlow">반응이 느려질 수 있습니다</system:String>
+	<system:String x:Key="Words.AdvancedOptions">고급 옵션</system:String>
+	<system:String x:Key="Words.Properties">속성</system:String>
+
+	<system:String x:Key="Words.MySubscription">나의 구독</system:String>
+	<system:String x:Key="Words.ShareWithOther">구독 공유</system:String>
+	<system:String x:Key="Words.SharedWithMe">공유된 구독</system:String>
+	<system:String x:Key="Words.Import">가져오기</system:String>
+	<system:String x:Key="Words.Export">내보내기</system:String>
+	<system:String x:Key="Words.ProcessMonitor">프로세스 모니터</system:String>
+
+	<system:String x:Key="Account.Endpoint">엔드포인트</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">공유 드라이브</system:String>
+
+	<system:String x:Key="Words.Reading">읽는중</system:String>
+	<system:String x:Key="Words.Writing">쓰는중</system:String>
+	<system:String x:Key="Words.Hide">숨기기</system:String>
 </ResourceDictionary>

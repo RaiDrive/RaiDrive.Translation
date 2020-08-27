@@ -289,4 +289,31 @@
 	<system:String x:Key="Words.Upload">Uploaden</system:String>
 	<system:String x:Key="Words.Capacity">Capaciteit</system:String>
 
+	<!--  from 2020.9  -->
+	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">Update storage changes asynchronously</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitor process access to files</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Overwrite target</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Rename source</system:String>
+	<system:String x:Key="Words.Skip">Skip</system:String>
+	<system:String x:Key="Words.Slow">Slow</system:String>
+	<system:String x:Key="Message.ResponseSlow">A response may be slow</system:String>
+	<system:String x:Key="Words.AdvancedOptions">Advanced Options</system:String>
+	<system:String x:Key="Words.Properties">Properties</system:String>
+
+	<system:String x:Key="Words.MySubscription">My Subscription</system:String>
+	<system:String x:Key="Words.ShareWithOther">Share with others</system:String>
+	<system:String x:Key="Words.SharedWithMe">Shared with me</system:String>
+	<system:String x:Key="Words.Import">Import</system:String>
+	<system:String x:Key="Words.Export">Export</system:String>
+	<system:String x:Key="Words.ProcessMonitor">Process Monitor</system:String>
+
+	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">Shared drives</system:String>
+
+	<system:String x:Key="Words.Reading">Reading</system:String>
+	<system:String x:Key="Words.Writing">Writing</system:String>
+	<system:String x:Key="Words.Hide">Hide</system:String>
 </ResourceDictionary>
