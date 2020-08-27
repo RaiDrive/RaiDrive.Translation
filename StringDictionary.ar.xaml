@@ -291,30 +291,30 @@
 	<system:String x:Key="Words.Capacity">كمية البيانات</system:String>
 
 	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">Update storage changes asynchronously</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
-	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitor process access to files</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Overwrite target</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Rename source</system:String>
-	<system:String x:Key="Words.Skip">Skip</system:String>
-	<system:String x:Key="Words.Slow">Slow</system:String>
-	<system:String x:Key="Message.ResponseSlow">A response may be slow</system:String>
-	<system:String x:Key="Words.AdvancedOptions">Advanced Options</system:String>
-	<system:String x:Key="Words.Properties">Properties</system:String>
+	<system:String x:Key="Words.FileExplorer">متصفح الملفات</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">تحديث الملفات بالتزامن</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">حاول إبقاء &quot;تاريخ التعديل&quot; كما هو عند النسخ</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">مراقبة عمليات التعديل الخارجية للملفات</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">النسخ والنقل والحذف السريع للملفات سوف</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">يستبدل الهدف</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">يعيد تسمية المصدر</system:String>
+	<system:String x:Key="Words.Skip">يتجاوز</system:String>
+	<system:String x:Key="Words.Slow">بطيء</system:String>
+	<system:String x:Key="Message.ResponseSlow">فد تكون الاستجابة بطيئة</system:String>
+	<system:String x:Key="Words.AdvancedOptions">إعدادات متقدمة</system:String>
+	<system:String x:Key="Words.Properties">الحواص</system:String>
 
-	<system:String x:Key="Words.MySubscription">My Subscription</system:String>
-	<system:String x:Key="Words.ShareWithOther">Share with others</system:String>
-	<system:String x:Key="Words.SharedWithMe">Shared with me</system:String>
-	<system:String x:Key="Words.Import">Import</system:String>
-	<system:String x:Key="Words.Export">Export</system:String>
-	<system:String x:Key="Words.ProcessMonitor">Process Monitor</system:String>
+	<system:String x:Key="Words.MySubscription">اشتراكي</system:String>
+	<system:String x:Key="Words.ShareWithOther">مشارك مع الآخرين</system:String>
+	<system:String x:Key="Words.SharedWithMe">مشارك معي</system:String>
+	<system:String x:Key="Words.Import">استيراد</system:String>
+	<system:String x:Key="Words.Export">تصدير</system:String>
+	<system:String x:Key="Words.ProcessMonitor">مراقب العمليات</system:String>
 
-	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
-	<system:String x:Key="GoogleDrive.SharedDrives">Shared drives</system:String>
+	<system:String x:Key="Account.Endpoint">نقطة الاتصال</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">المساحات المشتركة</system:String>
 
-	<system:String x:Key="Words.Reading">Reading</system:String>
-	<system:String x:Key="Words.Writing">Writing</system:String>
-	<system:String x:Key="Words.Hide">Hide</system:String>
+	<system:String x:Key="Words.Reading">قراءة</system:String>
+	<system:String x:Key="Words.Writing">كتابة</system:String>
+	<system:String x:Key="Words.Hide">إخفاء</system:String>
 </ResourceDictionary>
