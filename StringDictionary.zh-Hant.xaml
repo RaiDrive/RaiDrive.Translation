@@ -292,30 +292,30 @@
 	<system:String x:Key="Words.Capacity">容量</system:String>
 
 	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">Update storage changes asynchronously</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
-	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitor process access to files</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Overwrite target</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Rename source</system:String>
-	<system:String x:Key="Words.Skip">Skip</system:String>
-	<system:String x:Key="Words.Slow">Slow</system:String>
-	<system:String x:Key="Message.ResponseSlow">A response may be slow</system:String>
-	<system:String x:Key="Words.AdvancedOptions">Advanced Options</system:String>
-	<system:String x:Key="Words.Properties">Properties</system:String>
+	<system:String x:Key="Words.FileExplorer">檔案瀏覽器</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">儲存變更非同步更新</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">複製時嘗試保留原&quot;修改日期&quot;</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">監視處理程序對檔案的存取</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">啟用遠端儲存體快速複製/移動/刪除</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">覆寫目的檔案Overwrite target</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">重新命名來源檔案</system:String>
+	<system:String x:Key="Words.Skip">略過</system:String>
+	<system:String x:Key="Words.Slow">較慢</system:String>
+	<system:String x:Key="Message.ResponseSlow">回應可能很慢</system:String>
+	<system:String x:Key="Words.AdvancedOptions">進階選項</system:String>
+	<system:String x:Key="Words.Properties">屬性</system:String>
 
-	<system:String x:Key="Words.MySubscription">My Subscription</system:String>
-	<system:String x:Key="Words.ShareWithOther">Share with others</system:String>
-	<system:String x:Key="Words.SharedWithMe">Shared with me</system:String>
-	<system:String x:Key="Words.Import">Import</system:String>
-	<system:String x:Key="Words.Export">Export</system:String>
-	<system:String x:Key="Words.ProcessMonitor">Process Monitor</system:String>
+	<system:String x:Key="Words.MySubscription">我的訂閱</system:String>
+	<system:String x:Key="Words.ShareWithOther">與他人共用</system:String>
+	<system:String x:Key="Words.SharedWithMe">與我共用</system:String>
+	<system:String x:Key="Words.Import">匯入</system:String>
+	<system:String x:Key="Words.Export">匯出</system:String>
+	<system:String x:Key="Words.ProcessMonitor">處理程序監視器</system:String>
 
-	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
-	<system:String x:Key="GoogleDrive.SharedDrives">Shared drives</system:String>
+	<system:String x:Key="Account.Endpoint">端點</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">共用磁碟機</system:String>
 
-	<system:String x:Key="Words.Reading">Reading</system:String>
-	<system:String x:Key="Words.Writing">Writing</system:String>
-	<system:String x:Key="Words.Hide">Hide</system:String>
+	<system:String x:Key="Words.Reading">讀取中</system:String>
+	<system:String x:Key="Words.Writing">寫入中</system:String>
+	<system:String x:Key="Words.Hide">隱藏</system:String>
 </ResourceDictionary>
