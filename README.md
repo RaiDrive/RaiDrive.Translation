@@ -8,7 +8,7 @@ Your contribution can be recorded through the "Pull Request".
 
 File name | Language | Translated | v.2020.6.25 confirm | v.2020.9 | Contributors |
 ----------|----------|------------|---------|--------|-----------|
-[StringDictionary.ar.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ar.xaml) | Arabic | O | O |  | [Mugahedb](https://github.com/Mugahedb), [Abu3safeer](https://github.com/Abu3safeer) |
+[StringDictionary.ar.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ar.xaml) | Arabic | O | O | O | [Mugahedb](https://github.com/Mugahedb), [Abu3safeer](https://github.com/Abu3safeer) |
 [StringDictionary.cs.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.cs.xaml) | Czech | O | O |  | [kazihorka](https://github.com/kazihorka) |
 [StringDictionary.da.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.da.xaml) | Danish | O | | | [michal78](https://github.com/michal78) |
 [StringDictionary.de.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.de.xaml) | German | O | O |  | [Kasukoi](https://github.com/Kasukoi), [LordDamionDevil](https://github.com/LordDamionDevil) |
