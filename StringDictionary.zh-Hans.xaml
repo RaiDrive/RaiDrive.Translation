@@ -319,7 +319,7 @@
 	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
 	<system:String x:Key="GoogleDrive.SharedDrives">共享的驱动器</system:String>
 
-	<system:String x:Key="Words.Reading">读取</system:String>
-	<system:String x:Key="Words.Writing">写入</system:String>
+	<system:String x:Key="Words.Reading">读取中</system:String>
+	<system:String x:Key="Words.Writing">写入中</system:String>
 	<system:String x:Key="Words.Hide">隐藏</system:String>
 </ResourceDictionary>
