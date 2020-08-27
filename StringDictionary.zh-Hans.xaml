@@ -294,7 +294,7 @@
 	<!--  from 2020.9  -->
 	<system:String x:Key="Words.FileExplorer">文件资源管理器</system:String>
 	<system:String x:Key="FileExplorer.UpdateChangeAsync">异步提交存储更改</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">复制时尝试保持原&quot;修改日期&quot;</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">复制时尝试保持原修改日期</system:String>
 	<system:String x:Key="FileExplorer.FilesystemWatcher">监视进程对文件的访问</system:String>
 	<system:String x:Key="FileExplorer.PerformanceExtension">对远程存储启用快速复制/移动/删除</system:String>
 	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">覆盖目标文件</system:String>
