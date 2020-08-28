@@ -297,7 +297,7 @@
 	<system:String x:Key="FileExplorer.KeepModifiedDate">複製時嘗試保留原&quot;修改日期&quot;</system:String>
 	<system:String x:Key="FileExplorer.FilesystemWatcher">監視處理程序對檔案的存取</system:String>
 	<system:String x:Key="FileExplorer.PerformanceExtension">啟用遠端儲存體快速複製/移動/刪除</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">覆寫目的檔案Overwrite target</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">覆寫目的檔案</system:String>
 	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">重新命名來源檔案</system:String>
 	<system:String x:Key="Words.Skip">略過</system:String>
 	<system:String x:Key="Words.Slow">較慢</system:String>
