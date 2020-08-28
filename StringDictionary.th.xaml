@@ -294,29 +294,29 @@
 
 	<!--  from 2020.9  -->
 	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">Update storage changes asynchronously</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
-	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitor process access to files</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Overwrite target</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Rename source</system:String>
-	<system:String x:Key="Words.Skip">Skip</system:String>
-	<system:String x:Key="Words.Slow">Slow</system:String>
-	<system:String x:Key="Message.ResponseSlow">A response may be slow</system:String>
-	<system:String x:Key="Words.AdvancedOptions">Advanced Options</system:String>
-	<system:String x:Key="Words.Properties">Properties</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">อัปเดทการเปลี่ยนแปลงพื้นที่เป็นระยะ</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">ลองเก็บ &quot;วันที่แก้ไข&quot; เมื่อทำการคัดลอก</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">ตรวจสอบกระบวนการที่เข้าถึงไฟล์</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">คัดลอก/ย้าย/ลบด่วนสำหรับพื้นที่จัดเก็บระยะไกล</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">เขียนทับปลายทาง</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">เปลี่ยนชื่อต้นทาง</system:String>
+	<system:String x:Key="Words.Skip">ข้าม</system:String>
+	<system:String x:Key="Words.Slow">ช้า</system:String>
+	<system:String x:Key="Message.ResponseSlow">อาจตอบสนองช้า</system:String>
+	<system:String x:Key="Words.AdvancedOptions">ตัวเลือกขั้นสูง</system:String>
+	<system:String x:Key="Words.Properties">คุณสมบัติ</system:String>
 
-	<system:String x:Key="Words.MySubscription">My Subscription</system:String>
-	<system:String x:Key="Words.ShareWithOther">Share with others</system:String>
-	<system:String x:Key="Words.SharedWithMe">Shared with me</system:String>
-	<system:String x:Key="Words.Import">Import</system:String>
-	<system:String x:Key="Words.Export">Export</system:String>
-	<system:String x:Key="Words.ProcessMonitor">Process Monitor</system:String>
+	<system:String x:Key="Words.MySubscription">การสมัครของฉัน</system:String>
+	<system:String x:Key="Words.ShareWithOther">แชร์กับคนอื่น</system:String>
+	<system:String x:Key="Words.SharedWithMe">แชร์กับฉัน</system:String>
+	<system:String x:Key="Words.Import">นำเข้า</system:String>
+	<system:String x:Key="Words.Export">ส่งออก</system:String>
+	<system:String x:Key="Words.ProcessMonitor">ตรวจสอบกระบวนการ</system:String>
 
 	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
-	<system:String x:Key="GoogleDrive.SharedDrives">Shared drives</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">แชร์ไดร์ฟ</system:String>
 
-	<system:String x:Key="Words.Reading">Reading</system:String>
-	<system:String x:Key="Words.Writing">Writing</system:String>
-	<system:String x:Key="Words.Hide">Hide</system:String>
+	<system:String x:Key="Words.Reading">กำลังอ่าน</system:String>
+	<system:String x:Key="Words.Writing">กำลังเขียน</system:String>
+	<system:String x:Key="Words.Hide">ซ่อน</system:String>
 </ResourceDictionary>
