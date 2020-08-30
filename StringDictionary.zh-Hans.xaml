@@ -276,10 +276,6 @@
 	<system:String x:Key="Validation.Hint.FolderUrl">文件夹路径</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrlID">文件夹路径或 ID</system:String>
 
-	<!--
-		Question: "The lines for Googledrive and Onedrive are not required to be changed. Please don't make changes."
-		Should I leave them as English text or Localized text? Why there are already translations here?
-	-->
 	<system:String x:Key="GoogleDrive.MyDrive">我的云端硬盘</system:String>
 	<system:String x:Key="GoogleDrive.SharedWithMe">与我共享</system:String>
 	<system:String x:Key="GoogleDrive.Computers">计算机</system:String>
@@ -296,27 +292,27 @@
 	<system:String x:Key="Words.Capacity">容量</system:String>
 
 	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">文件浏览器</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">存储更改异步更新</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">复制时尝试保持原&quot;修改日期&quot;</system:String>
+	<system:String x:Key="Words.FileExplorer">文件资源管理器</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">异步提交存储更改</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">复制时尝试保持原修改日期</system:String>
 	<system:String x:Key="FileExplorer.FilesystemWatcher">监视进程对文件的访问</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">启用远程存储快速复制/移动/删除</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">对远程存储启用快速复制/移动/删除</system:String>
 	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">覆盖目标文件</system:String>
 	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">重命名源文件</system:String>
 	<system:String x:Key="Words.Skip">跳过</system:String>
 	<system:String x:Key="Words.Slow">较慢</system:String>
-	<system:String x:Key="Message.ResponseSlow">可能会导致卡顿</system:String>
+	<system:String x:Key="Message.ResponseSlow">同步可能较慢</system:String>
 	<system:String x:Key="Words.AdvancedOptions">高级设置</system:String>
 	<system:String x:Key="Words.Properties">属性</system:String>
 
 	<system:String x:Key="Words.MySubscription">我的订阅</system:String>
-	<system:String x:Key="Words.ShareWithOther">与他人分享</system:String>
-	<system:String x:Key="Words.SharedWithMe">与我分享</system:String>
+	<system:String x:Key="Words.ShareWithOther">与他人共享</system:String>
+	<system:String x:Key="Words.SharedWithMe">与我共享</system:String>
 	<system:String x:Key="Words.Import">导入</system:String>
 	<system:String x:Key="Words.Export">导出</system:String>
 	<system:String x:Key="Words.ProcessMonitor">进程监视器</system:String>
 
-	<system:String x:Key="Account.Endpoint">服务终端节点</system:String>
+	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
 	<system:String x:Key="GoogleDrive.SharedDrives">共享的驱动器</system:String>
 
 	<system:String x:Key="Words.Reading">读取中</system:String>
