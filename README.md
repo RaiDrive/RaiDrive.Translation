@@ -28,7 +28,7 @@ File name | Language | Translated | v.2020.6.25 confirm | v.2020.9 | Contributor
 [StringDictionary.nl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.nl.xaml) | Dutch | O | O |  | [RemboIII](https://github.com/RemboIII) |
 [StringDictionary.pl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pl.xaml) | Polish | O |  |  | [adrianwnuk](https://github.com/adrianwnuk) |
 [StringDictionary.pt-PT.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-PT.xaml) | Portuguese | O |  |  | [Wolf-Wind](https://github.com/Wolf-Wind) |
-[StringDictionary.pt-BR.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-BR.xaml) | Brazilian Portuguese | O |  |  | [fidodone](https://github.com/fidodone) |
+[StringDictionary.pt-BR.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-BR.xaml) | Brazilian Portuguese | O | O | O | [fidodone](https://github.com/fidodone) |
 [StringDictionary.ro.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ro.xaml) | Romanian | O | | | [foxhnd](https://github.com/foxhnd) |
 [StringDictionary.ru.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ru.xaml) | Russian | O |  |  | [kostefun](https://github.com/kostefun) |
 [StringDictionary.sv.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.sv.xaml) | Swedish |  |  |  | [RaiDrive](https://www.raidrive.com) |
