@@ -197,19 +197,19 @@
 	<system:String x:Key="Backup.NOW">SEKARANG</system:String>
 	<system:String x:Key="Backup.Save">Simpan</system:String>
 	<system:String x:Key="Backup.ClearLog">Hapus Log</system:String>
-	<system:String x:Key="Backup.DestRootFolder">Remote Folder</system:String>
+	<system:String x:Key="Backup.DestRootFolder">Folder jarak jauh</system:String>
 	<system:String x:Key="Backup.SourceFolders">Folder Sumber</system:String>
 	<system:String x:Key="Backup.Progress">Kemajuan</system:String>
 	<system:String x:Key="Backup.AutoStart">Otomatis Mulai</system:String>
-	<system:String x:Key="Backup.LogTab.Current">Current</system:String>
+	<system:String x:Key="Backup.LogTab.Current">Saat ini</system:String>
 	<system:String x:Key="Backup.LogTab.All">Semua</system:String>
 	<system:String x:Key="Backup.LogTab.Error">Kesalahan</system:String>
 	<system:String x:Key="Backup.LogTab.Ready">Siap</system:String>
 	<system:String x:Key="Backup.LogTab.Left">Left</system:String>
 	<system:String x:Key="Backup.LogTab.File">File</system:String>
 	<system:String x:Key="Backup.LogTab.Folder">Folder</system:String>
-	<system:String x:Key="Backup.LogTab.FollowLatest">Follow Latest</system:String>
-	<system:String x:Key="Backup.Count.Left">Left</system:String>
+	<system:String x:Key="Backup.LogTab.FollowLatest">Ikuti terbaru</system:String>
+	<system:String x:Key="Backup.Count.Left">Tersisa</system:String>
 	<system:String x:Key="Backup.Count.Processed">Diproses</system:String>
 
 	<system:String x:Key="Message.Backup.BackupTargetFolder">Pilih remote folder dimana file akan disimpan</system:String>
@@ -234,9 +234,9 @@
 	<system:String x:Key="Subscription.Switched.Desc2">Ini akan diterapkan setelah {0}, tekan tombol Ok untuk langsung.</system:String>
 
 	<!--  from version 1.8.0  -->
-	<system:String x:Key="Words.Public">Public</system:String>
-	<system:String x:Key="Words.Private">Private</system:String>
-	<system:String x:Key="Words.Site">Site</system:String>
+	<system:String x:Key="Words.Public">Publik</system:String>
+	<system:String x:Key="Words.Private">Privat</system:String>
+	<system:String x:Key="Words.Site">Situs</system:String>
 
 	<!--  from version 1.9.0  -->
 	<system:String x:Key="Words.Project">Project</system:String>
@@ -290,30 +290,30 @@
 	<system:String x:Key="Words.Capacity">Kapasitas</system:String>
 
 	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">Update storage changes asynchronously</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
-	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitor process access to files</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Overwrite target</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Rename source</system:String>
-	<system:String x:Key="Words.Skip">Skip</system:String>
-	<system:String x:Key="Words.Slow">Slow</system:String>
-	<system:String x:Key="Message.ResponseSlow">A response may be slow</system:String>
-	<system:String x:Key="Words.AdvancedOptions">Advanced Options</system:String>
-	<system:String x:Key="Words.Properties">Properties</system:String>
+	<system:String x:Key="Words.FileExplorer">Penjelajah Berkas</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">Pembaruan penyimpanan secara asinkron</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">Pertahankan &quot;tanggal termodifikasi&quot; ketika menyalin</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">Pantau proses saat mengakses file</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">Hapus/Salin/Pindah cepat pada penyimpanan jarak jauh</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Timpa target</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Rubah nama asal</system:String>
+	<system:String x:Key="Words.Skip">Lewati</system:String>
+	<system:String x:Key="Words.Slow">Lambat</system:String>
+	<system:String x:Key="Message.ResponseSlow">Respon mungkin terlambat.</system:String>
+	<system:String x:Key="Words.AdvancedOptions">Pengaturan lanjutan</system:String>
+	<system:String x:Key="Words.Properties">Properti</system:String>
 
-	<system:String x:Key="Words.MySubscription">My Subscription</system:String>
-	<system:String x:Key="Words.ShareWithOther">Share with others</system:String>
-	<system:String x:Key="Words.SharedWithMe">Shared with me</system:String>
-	<system:String x:Key="Words.Import">Import</system:String>
-	<system:String x:Key="Words.Export">Export</system:String>
-	<system:String x:Key="Words.ProcessMonitor">Process Monitor</system:String>
+	<system:String x:Key="Words.MySubscription">Langganan saya</system:String>
+	<system:String x:Key="Words.ShareWithOther">Bagikan dengan lainnya</system:String>
+	<system:String x:Key="Words.SharedWithMe">Bagikan dengan saya</system:String>
+	<system:String x:Key="Words.Import">Impor</system:String>
+	<system:String x:Key="Words.Export">Ekspor</system:String>
+	<system:String x:Key="Words.ProcessMonitor">Pemantau proses</system:String>
 
-	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
-	<system:String x:Key="GoogleDrive.SharedDrives">Shared drives</system:String>
+	<system:String x:Key="Account.Endpoint">Titik akhir</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">Penyimpanan bersama</system:String>
 
-	<system:String x:Key="Words.Reading">Reading</system:String>
-	<system:String x:Key="Words.Writing">Writing</system:String>
-	<system:String x:Key="Words.Hide">Hide</system:String>
+	<system:String x:Key="Words.Reading">Membaca</system:String>
+	<system:String x:Key="Words.Writing">Menulis</system:String>
+	<system:String x:Key="Words.Hide">Sembunyikan</system:String>
 </ResourceDictionary>
