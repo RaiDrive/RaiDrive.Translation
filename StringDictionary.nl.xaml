@@ -43,7 +43,7 @@
 	<system:String x:Key="AddDrive.Address">Adres</system:String>
 	<system:String x:Key="AddDrive.Port">Poort</system:String>
 	<system:String x:Key="AddDrive.Device">Apparaat</system:String>
-	<system:String x:Key="AddDrive.PrivateKey">Privé sleutel</system:String>
+	<system:String x:Key="AddDrive.PrivateKey">Privésleutel</system:String>
 	<system:String x:Key="AddDrive.Charset">Karakterset</system:String>
 	<system:String x:Key="AddDrive.TransferMode">Overdrachtsmodus</system:String>
 	<system:String x:Key="AddDrive.Encryption">Versleuteling</system:String>
@@ -73,7 +73,7 @@
 
 	<system:String x:Key="Button.Yes">Ja</system:String>
 	<system:String x:Key="Button.No">Nee</system:String>
-	<system:String x:Key="Button.OK">Oke</system:String>
+	<system:String x:Key="Button.OK">Okee</system:String>
 	<system:String x:Key="Button.Apply">Toepassen</system:String>
 	<system:String x:Key="Button.Cancel">Annuleren</system:String>
 	<system:String x:Key="Button.Check">Controleren</system:String>
@@ -104,8 +104,8 @@
 	<system:String x:Key="Message.SureDelete">Weet je zeker dat je &quot;{0} ({1})&quot; wil verwijderen?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">RaiDrive herstarten</system:String>
 	<system:String x:Key="Message.Title.Reconnect">RaiDrive opnieuw verbinden</system:String>
-	<system:String x:Key="Message.ServiceDown">Druk op &quot;Oke&quot; om RaiDrive opnieuw op te starten.</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">Druk op &quot;Oke&quot; verbind opnieuw om de wijzigingen door te voeren.</system:String>
+	<system:String x:Key="Message.ServiceDown">Druk op &quot;Okee&quot; om RaiDrive opnieuw op te starten.</system:String>
+	<system:String x:Key="Message.Settings.Reconnect">Druk op &quot;Okee&quot; verbind opnieuw om de wijzigingen door te voeren.</system:String>
 	<system:String x:Key="Message.NotReady.Reboot">RaiDrive is niet gereed. Start de PC opnieuw op.</system:String>
 	<system:String x:Key="Message.NotReady.Driver">Het stuurprogramma is niet geladen. Installeer RaiDrive opnieuw.</system:String>
 	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox ondersteunt IE10 en IE11. Installeer Internet Explorer 11.</system:String>
@@ -145,7 +145,7 @@
 	<!--  ConnectResponse Message  -->
 
 	<system:String x:Key="Words.Reason">Reden</system:String>
-	<system:String x:Key="Words.Delegation.Stop">Delegatie afgebroken</system:String>
+	<system:String x:Key="Words.Delegation.Stop">Overdracht afgebroken</system:String>
 	<system:String x:Key="Words.Drive">Schijf</system:String>
 	<system:String x:Key="Words.FreeSpace">Beschikbare opslag</system:String>
 	<system:String x:Key="Words.Send.Opinion">Mening verzenden</system:String>
@@ -170,7 +170,7 @@
 	<system:String x:Key="Upgrade">Opwaarderen</system:String>
 	<system:String x:Key="Upgrade.Uptodate">Je gebruikt de nieuwste versie</system:String>
 	<system:String x:Key="Upgrade.NewVersion">Je kunt opwaarderen naar versie {0}</system:String>
-	<system:String x:Key="Upgrade.New">Je kunt opwaarderen naar de nieuwste versie</system:String>
+	<system:String x:Key="Upgrade.New">Je kunt opwaarderen naar een nieuwere versie</system:String>
 
 	<system:String x:Key="NotifyIcon.Open">RaiDrive openen</system:String>
 	<system:String x:Key="NotifyIcon.CheckUpdate">Zoek naar nieuwere versie</system:String>
@@ -240,31 +240,31 @@
 
 	<!--  from version 1.9.0  -->
 	<system:String x:Key="Words.Project">Project</system:String>
-	<system:String x:Key="Words.Bucket">Bucket</system:String>
-	<system:String x:Key="Words.Tenant">Tenant</system:String>
-	<system:String x:Key="Words.Subscription">Subscription</system:String>
-	<system:String x:Key="Words.Community">Community</system:String>
+	<system:String x:Key="Words.Bucket">Emmer</system:String>
+	<system:String x:Key="Words.Tenant">Huurder</system:String>
+	<system:String x:Key="Words.Subscription">Abonnement</system:String>
+	<system:String x:Key="Words.Community">Gemeenschap</system:String>
 	<system:String x:Key="Words.Document">Document</system:String>
 
 	<system:String x:Key="Words.Cache">Cache</system:String>
-	<system:String x:Key="Words.Lifetime">Lifetime</system:String>
-	<system:String x:Key="Words.Read">Read</system:String>
-	<system:String x:Key="Words.Write">Write</system:String>
-	<system:String x:Key="Words.Second">second</system:String>
+	<system:String x:Key="Words.Lifetime">Levensduur</system:String>
+	<system:String x:Key="Words.Read">Lees</system:String>
+	<system:String x:Key="Words.Write">Schrijf</system:String>
+	<system:String x:Key="Words.Second">tweede</system:String>
 
-	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
-	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">Please enter Access Key ID</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Please enter Secret Access Key</system:String>
+	<system:String x:Key="Account.AccessKeyID">Toegangssleutel ID</system:String>
+	<system:String x:Key="Account.SecretAccessKey">Geheime Toegangssleutel</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">Toegangssleutel ID invoeren</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">Geheime Toegangssleutel invoeren</system:String>
 
-	<system:String x:Key="Account.StorageAccount">Storage Account</system:String>
-	<system:String x:Key="Account.StorageKey">Key</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
-	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+	<system:String x:Key="Account.StorageAccount">Opslag Account</system:String>
+	<system:String x:Key="Account.StorageKey">Sleutel</system:String>
+	<system:String x:Key="Vailidation.StorageAccount">Opslag accountnaam invoeren</system:String>
+	<system:String x:Key="Vailidation.StorageKey">Sleutel1 of sleutel2 invoeren</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">Registreren bij Opstarten</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Opnieuw verbinden bij starten</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Opnieuw verbinden bij opstarten</system:String>
 	<system:String x:Key="AddDrive.MountAtSignIn">Verbinden bij aanmelden</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Met andere registratie aanmelden</system:String>
 
@@ -290,30 +290,30 @@
 	<system:String x:Key="Words.Capacity">Capaciteit</system:String>
 
 	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">Update storage changes asynchronously</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
-	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitor process access to files</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Overwrite target</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Rename source</system:String>
-	<system:String x:Key="Words.Skip">Skip</system:String>
-	<system:String x:Key="Words.Slow">Slow</system:String>
-	<system:String x:Key="Message.ResponseSlow">A response may be slow</system:String>
-	<system:String x:Key="Words.AdvancedOptions">Advanced Options</system:String>
-	<system:String x:Key="Words.Properties">Properties</system:String>
+	<system:String x:Key="Words.FileExplorer">Verkenner</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">Opslagwijzigingen asynchroon bijwerken</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">Probeer &quot;Wijzigingsdatum&quot; te handhaven bij kopiëren</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitor proces toegang to bestanden</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">Snel kopiëren/verplaatsen/Verwijderen voor externe opslag</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Doel overschrijven</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Bron hernoemen</system:String>
+	<system:String x:Key="Words.Skip">Overslaan</system:String>
+	<system:String x:Key="Words.Slow">Traag</system:String>
+	<system:String x:Key="Message.ResponseSlow">Reactie kan traag zijn</system:String>
+	<system:String x:Key="Words.AdvancedOptions">Geavanceerde Opties</system:String>
+	<system:String x:Key="Words.Properties">Eigenschappen</system:String>
 
-	<system:String x:Key="Words.MySubscription">My Subscription</system:String>
-	<system:String x:Key="Words.ShareWithOther">Share with others</system:String>
-	<system:String x:Key="Words.SharedWithMe">Shared with me</system:String>
+	<system:String x:Key="Words.MySubscription">Mijn abonnement</system:String>
+	<system:String x:Key="Words.ShareWithOther">Delen met anderen</system:String>
+	<system:String x:Key="Words.SharedWithMe">Gedeeld met mij</system:String>
 	<system:String x:Key="Words.Import">Import</system:String>
 	<system:String x:Key="Words.Export">Export</system:String>
-	<system:String x:Key="Words.ProcessMonitor">Process Monitor</system:String>
+	<system:String x:Key="Words.ProcessMonitor">Procesmonitor</system:String>
 
 	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
-	<system:String x:Key="GoogleDrive.SharedDrives">Shared drives</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">Gedeelde schijven</system:String>
 
-	<system:String x:Key="Words.Reading">Reading</system:String>
-	<system:String x:Key="Words.Writing">Writing</system:String>
-	<system:String x:Key="Words.Hide">Hide</system:String>
+	<system:String x:Key="Words.Reading">Lezen</system:String>
+	<system:String x:Key="Words.Writing">Schrijven</system:String>
+	<system:String x:Key="Words.Hide">Verbergen</system:String>
 </ResourceDictionary>
