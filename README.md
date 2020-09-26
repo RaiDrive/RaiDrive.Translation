@@ -25,7 +25,7 @@ File name | Language | Translated | v.2020.6.25 confirm | v.2020.9 | Contributor
 [StringDictionary.ko.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ko.xaml) | Korean | O | O | O | [RaiDrive](https://www.raidrive.com) |
 [StringDictionary.lt.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.lt.xaml) | Lithuanian | Translating... |  |  | Darius Ribinskas |
 [StringDictionary.ms.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ms.xaml) | Malay(Malaysia) | O | O |  | [MOLOKAL](https://github.com/molokal) |
-[StringDictionary.nl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.nl.xaml) | Dutch | O | O |  | [RemboIII](https://github.com/RemboIII) |
+[StringDictionary.nl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.nl.xaml) | Dutch | O | O | O | [RemboIII](https://github.com/RemboIII) |
 [StringDictionary.pl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pl.xaml) | Polish | O |  |  | [adrianwnuk](https://github.com/adrianwnuk) |
 [StringDictionary.pt-PT.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-PT.xaml) | Portuguese | O |  |  | [Wolf-Wind](https://github.com/Wolf-Wind) |
 [StringDictionary.pt-BR.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-BR.xaml) | Brazilian Portuguese | O | O | O | [fidodone](https://github.com/fidodone) |
@@ -35,7 +35,7 @@ File name | Language | Translated | v.2020.6.25 confirm | v.2020.9 | Contributor
 [StringDictionary.th.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.th.xaml) | Thai | O | O | O | [yutthaphon](https://github.com/yutthaphon), [naruepanart](https://github.com/naruepanart) |
 [StringDictionary.tr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.tr.xaml) | Turkish | O |  |  | [ilkmon](https://github.com/ilkmon) |
 [StringDictionary.uk.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.uk.xaml) | Ukrainian |  | | | 
-[StringDictionary.vi.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.vi.xaml) | Vietnamese | Translating... | | | [holao09](https://github.com/holao09) |
+[StringDictionary.vi.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.vi.xaml) | Vietnamese | Partially done | | | [holao09](https://github.com/holao09) |
 [StringDictionary.zh-Hans.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hans.xaml) | Chinese (Simplified) | O | O | O | [whwlsfb](https://github.com/whwlsfb), [SadPencil](https://github.com/SadPencil), [dustofsoul](https://github.com/dustofsoul) |
 [StringDictionary.zh-Hant.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hant.xaml) | Chinese (Traditional) | O | O | O | [Hulen](https://github.com/Hulen), [SadPencil](https://github.com/SadPencil), [kix99aug](https://github.com/kix99aug) |
 
