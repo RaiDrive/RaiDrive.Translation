@@ -284,36 +284,36 @@
 	<system:String x:Key="OneDrive.SharedLink">Общая ссылка</system:String>
 
 	<!--  from 2020.6  -->
-	<system:String x:Key="Words.Bandwidth">пропускной способности</system:String>
-	<system:String x:Key="Words.Download">Скачать</system:String>
-	<system:String x:Key="Words.Upload">Загрузить</system:String>
-	<system:String x:Key="Words.Capacity">Емкость</system:String>
+	<system:String x:Key="Words.Bandwidth">Ограничить скорость</system:String>
+	<system:String x:Key="Words.Download">Приём</system:String>
+	<system:String x:Key="Words.Upload">Отдача</system:String>
+	<system:String x:Key="Words.Capacity">Объём</system:String>
 
 	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">Update storage changes asynchronously</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
-	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitor process access to files</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Overwrite target</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Rename source</system:String>
-	<system:String x:Key="Words.Skip">Skip</system:String>
-	<system:String x:Key="Words.Slow">Slow</system:String>
-	<system:String x:Key="Message.ResponseSlow">A response may be slow</system:String>
-	<system:String x:Key="Words.AdvancedOptions">Advanced Options</system:String>
-	<system:String x:Key="Words.Properties">Properties</system:String>
+	<system:String x:Key="Words.FileExplorer">Проводник</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">Асинхронное обновление изменений хранилища</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">Постарайся сохранить &quot;Дата изменена&quot; при копировании</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">Мониторинг доступа к файлам</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">Быстрое копирование/Перемещение/Удаление для удаленного хранилища</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Перезаписать целевой</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Переименовать исходный</system:String>
+	<system:String x:Key="Words.Skip">Пропустить</system:String>
+	<system:String x:Key="Words.Slow">Медленно</system:String>
+	<system:String x:Key="Message.ResponseSlow">Реакция может быть медленной</system:String>
+	<system:String x:Key="Words.AdvancedOptions">Дополнительные настройки</system:String>
+	<system:String x:Key="Words.Properties">Свойства</system:String>
 
-	<system:String x:Key="Words.MySubscription">My Subscription</system:String>
-	<system:String x:Key="Words.ShareWithOther">Share with others</system:String>
-	<system:String x:Key="Words.SharedWithMe">Shared with me</system:String>
-	<system:String x:Key="Words.Import">Import</system:String>
-	<system:String x:Key="Words.Export">Export</system:String>
-	<system:String x:Key="Words.ProcessMonitor">Process Monitor</system:String>
+	<system:String x:Key="Words.MySubscription">Моя подписка</system:String>
+	<system:String x:Key="Words.ShareWithOther">Предоставлено другим</system:String>
+	<system:String x:Key="Words.SharedWithMe">Предоставлено мне</system:String>
+	<system:String x:Key="Words.Import">Импорт</system:String>
+	<system:String x:Key="Words.Export">Экспорт</system:String>
+	<system:String x:Key="Words.ProcessMonitor">Монитор процесса</system:String>
 
-	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
-	<system:String x:Key="GoogleDrive.SharedDrives">Shared drives</system:String>
+	<system:String x:Key="Account.Endpoint">Конечная точка</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">Общие диски</system:String>
 
-	<system:String x:Key="Words.Reading">Reading</system:String>
-	<system:String x:Key="Words.Writing">Writing</system:String>
-	<system:String x:Key="Words.Hide">Hide</system:String>
+	<system:String x:Key="Words.Reading">Чтение</system:String>
+	<system:String x:Key="Words.Writing">Запись</system:String>
+	<system:String x:Key="Words.Hide">Скрыть</system:String>
 </ResourceDictionary>
