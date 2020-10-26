@@ -11,7 +11,7 @@ File name | Language | Translated | v.2020.6.25 confirm | v.2020.9 | Contributor
 [StringDictionary.ar.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ar.xaml) | Arabic | O | O | O | [Mugahedb](https://github.com/Mugahedb), [Abu3safeer](https://github.com/Abu3safeer) |
 [StringDictionary.cs.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.cs.xaml) | Czech | O | O | O | [kazihorka](https://github.com/kazihorka) |
 [StringDictionary.da.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.da.xaml) | Danish | O | | | [michal78](https://github.com/michal78) |
-[StringDictionary.de.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.de.xaml) | German | O | O | O | [Kasukoi](https://github.com/Kasukoi), [LordDamionDevil](https://github.com/LordDamionDevil) |
+[StringDictionary.de.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.de.xaml) | German | O | O | O | [Kasukoi](https://github.com/Kasukoi), [Mar0xy](https://github.com/Mar0xy) |
 [StringDictionary.el.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.el.xaml) | Greek | O | O | O | [SQLtattoo](https://github.com/SQLtattoo) |
 [StringDictionary.en.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.en.xaml) | English | O | O | O | [RaiDrive](https://www.raidrive.com) |
 [StringDictionary.es.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.es.xaml) | Spanish | O |  |  | [GrandMasterX3](https://github.com/GrandMasterX3), [juangacovas](https://github.com/juangacovas) |
