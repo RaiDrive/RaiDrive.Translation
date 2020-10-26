@@ -291,11 +291,11 @@
 	<system:String x:Key="Words.Capacity">Capacidad</system:String>
 
 	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">Update storage changes asynchronously</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
-	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitor process access to files</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
+	<system:String x:Key="Words.FileExplorer">Explorador de Archivos</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">Actualizar los cambios de almacenamiento de forma asincrónica</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">Intenta mantener &quot;Fecha modificada&quot; cuando copias</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitorear acceso a los archivos</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">Copia Rápida/Mover/Eliminar del acceso remotoDelete for remote storage</system:String>
 	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Overwrite target</system:String>
 	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Rename source</system:String>
 	<system:String x:Key="Words.Skip">Skip</system:String>
