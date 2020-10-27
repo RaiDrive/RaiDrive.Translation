@@ -291,30 +291,30 @@
 	<system:String x:Key="Words.Capacity">Capacidad</system:String>
 
 	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">Update storage changes asynchronously</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
-	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitor process access to files</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Overwrite target</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Rename source</system:String>
-	<system:String x:Key="Words.Skip">Skip</system:String>
-	<system:String x:Key="Words.Slow">Slow</system:String>
-	<system:String x:Key="Message.ResponseSlow">A response may be slow</system:String>
-	<system:String x:Key="Words.AdvancedOptions">Advanced Options</system:String>
-	<system:String x:Key="Words.Properties">Properties</system:String>
+	<system:String x:Key="Words.FileExplorer">Explorador de Archivos</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">Actualizar los cambios de almacenamiento de forma asincrónica</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">Intenta mantener &quot;Fecha modificada&quot; cuando copias</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitorear acceso a los archivos</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">Copia Rápida/Mover/Eliminar del acceso remoto</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Sobrescribir Destino</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Renombrar fuente</system:String>
+	<system:String x:Key="Words.Skip">Saltar</system:String>
+	<system:String x:Key="Words.Slow">Lento</system:String>
+	<system:String x:Key="Message.ResponseSlow">La respuesta puede ser lenta</system:String>
+	<system:String x:Key="Words.AdvancedOptions">Opciones Avanzadas</system:String>
+	<system:String x:Key="Words.Properties">Propiedades</system:String>
 
-	<system:String x:Key="Words.MySubscription">My Subscription</system:String>
-	<system:String x:Key="Words.ShareWithOther">Share with others</system:String>
-	<system:String x:Key="Words.SharedWithMe">Shared with me</system:String>
-	<system:String x:Key="Words.Import">Import</system:String>
-	<system:String x:Key="Words.Export">Export</system:String>
-	<system:String x:Key="Words.ProcessMonitor">Process Monitor</system:String>
+	<system:String x:Key="Words.MySubscription">Mi Suscripción</system:String>
+	<system:String x:Key="Words.ShareWithOther">Compartir con otros</system:String>
+	<system:String x:Key="Words.SharedWithMe">Compartido conmigo</system:String>
+	<system:String x:Key="Words.Import">Importar</system:String>
+	<system:String x:Key="Words.Export">Exportar</system:String>
+	<system:String x:Key="Words.ProcessMonitor">Monitoriar proceso</system:String>
 
-	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
-	<system:String x:Key="GoogleDrive.SharedDrives">Shared drives</system:String>
+	<system:String x:Key="Account.Endpoint">Punto Final</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">Unidades compartidas</system:String>
 
-	<system:String x:Key="Words.Reading">Reading</system:String>
-	<system:String x:Key="Words.Writing">Writing</system:String>
-	<system:String x:Key="Words.Hide">Hide</system:String>
+	<system:String x:Key="Words.Reading">Leyendo</system:String>
+	<system:String x:Key="Words.Writing">Escribiendo</system:String>
+	<system:String x:Key="Words.Hide">Ocultar</system:String>
 </ResourceDictionary>
