@@ -298,7 +298,7 @@
 	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">덮어쓰기</system:String>
 	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">이름변경</system:String>
 	<system:String x:Key="Words.Skip">건너뛰기</system:String>
-	<system:String x:Key="Words.Slow">느려림</system:String>
+	<system:String x:Key="Words.Slow">느려짐</system:String>
 	<system:String x:Key="Message.ResponseSlow">반응이 느려질 수 있습니다</system:String>
 	<system:String x:Key="Words.AdvancedOptions">고급 옵션</system:String>
 	<system:String x:Key="Words.Properties">속성</system:String>
