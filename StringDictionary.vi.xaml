@@ -5,7 +5,8 @@
 	xmlns:system="clr-namespace:System;assembly=mscorlib">
 
 	<x:Array x:Key="Contributors" Type="system:String">
-		<system:String>holao09/vigstudio</system:String>
+		<system:String>holao09</system:String>
+		<system:String>vigstudio</system:String>
 	</x:Array>
 	<system:String x:Key="Current.Language">vi</system:String>
 
@@ -262,7 +263,7 @@
 	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Vui lòng bấm key1 hoặc key2</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Đăng ký khởi động cùng Windows</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">Đăng ký trong Windows Startup</system:String>
 	<system:String x:Key="AddDrive.MountAtStart">Kết nối lại khi bắt đầu chương trình</system:String>
 	<system:String x:Key="AddDrive.MountAtBoot">Kết nối lại khi khởi động</system:String>
 	<system:String x:Key="AddDrive.MountAtSignIn">Tự động kết nối lại sau khi khởi động</system:String>
