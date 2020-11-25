@@ -262,9 +262,9 @@
 	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">Khởi động cùng Windows</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Kết nối lại khi bắt đầu chương trình</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Kết nối lại khi khởi động</system:String>
 	<system:String x:Key="AddDrive.MountAtSignIn">Tự động kết nối lại sau khi khởi động</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Kết nối bằng tài khoản khác</system:String>
 
