@@ -45,8 +45,8 @@
 	<system:String x:Key="AddDrive.Device">Thiết bị</system:String>
 	<system:String x:Key="AddDrive.PrivateKey">Private Key</system:String>
 	<system:String x:Key="AddDrive.Charset">Charset</system:String>
-	<system:String x:Key="AddDrive.TransferMode">Transfer Mode</system:String>
-	<system:String x:Key="AddDrive.Encryption">Encryption</system:String>
+	<system:String x:Key="AddDrive.TransferMode">Chế độ truyền</system:String>
+	<system:String x:Key="AddDrive.Encryption">Mã hoá</system:String>
 
 	<system:String x:Key="Vailidation.Volume">Vui lòng điền thông tin hợp lệ</system:String>
 	<system:String x:Key="Vailidation.VolumeExist">Tên này đã có rồi</system:String>
@@ -101,63 +101,63 @@
 	<system:String x:Key="Message.SelectedPath">Chọn đường dẫn</system:String>
 	<system:String x:Key="Message.DuplicatedPath">Trùng đường dẫn</system:String>
 
-	<system:String x:Key="Message.SureDelete">Are you sure you want to permanently delete &quot;{0} ({1})&quot; ?</system:String>
-	<system:String x:Key="Message.Title.ServiceDown">Revive RaiDrive</system:String>
-	<system:String x:Key="Message.Title.Reconnect">RaiDrive Reconnect</system:String>
-	<system:String x:Key="Message.ServiceDown">Please press OK button, RaiDrive will be alive.</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">Please press OK button, You must reconnect the remote storage for the changed settings to take effect.</system:String>
-	<system:String x:Key="Message.NotReady.Reboot">RaiDrive is not ready to start, You need restart system.</system:String>
-	<system:String x:Key="Message.NotReady.Driver">Device driver is not installed on your system. You need reinstall RaiDrive.</system:String>
-	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox supports Internet Explorer 10, 11. You'd better install Internet Explorer 11.</system:String>
-	<system:String x:Key="Message.Connect.By">Connected by RaiDrive</system:String>
-	<system:String x:Key="Message.Maximum.Drive">Up to 8 drives can be created in the current version</system:String>
-	<system:String x:Key="Message.License.Expired">Your license has been expired. You need to download the new version. Press OK to upgrade.</system:String>
-	<system:String x:Key="Message.License.NotReady">RaiDrive cannot validate your license.</system:String>
-	<system:String x:Key="Message.UnknownSpace">Unknown space</system:String>
-	<system:String x:Key="Message.CurrentVersion">Current version is {0}</system:String>
-	<system:String x:Key="Message.Cache.Folder.NotSupport">The temporary folder must be a folder on the local disk drive. Network drive is not supported.</system:String>
+	<system:String x:Key="Message.SureDelete">Bạn có chắc chắn muốn xóa vĩnh viễn &quot;{0} ({1})&quot; không?</system:String>
+	<system:String x:Key="Message.Title.ServiceDown">Sửa lại RaiDrive</system:String>
+	<system:String x:Key="Message.Title.Reconnect">Kết nối lại RaiDrive</system:String>
+	<system:String x:Key="Message.ServiceDown">Hãy nhấn nút OK, RaiDrive sẽ hoạt động lại.</system:String>
+	<system:String x:Key="Message.Settings.Reconnect">Vui lòng nhấn nút OK, Bạn phải kết nối lại bộ nhớ từ xa để các cài đặt đã thay đổi có hiệu lực.</system:String>
+	<system:String x:Key="Message.NotReady.Reboot">RaiDrive chưa sẵn sàng khởi động, bạn cần khởi động lại hệ thống.</system:String>
+	<system:String x:Key="Message.NotReady.Driver">Trình điều khiển thiết bị chưa được cài đặt trên hệ thống của bạn. Bạn cần cài đặt lại RaiDrive.</system:String>
+	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox hỗ trợ Internet Explorer 10, 11. Bạn nên cài đặt Internet Explorer 11.</system:String>
+	<system:String x:Key="Message.Connect.By">Được kết nối bởi RaiDrive</system:String>
+	<system:String x:Key="Message.Maximum.Drive">Có thể tạo tối đa 8 ổ đĩa trong phiên bản hiện tại</system:String>
+	<system:String x:Key="Message.License.Expired">Giấy phép của bạn đã hết hạn. Bạn cần tải xuống phiên bản mới. Nhấn OK để nâng cấp.</system:String>
+	<system:String x:Key="Message.License.NotReady">RaiDrive không thể xác thực giấy phép của bạn.</system:String>
+	<system:String x:Key="Message.UnknownSpace">Dung lượng không xác định</system:String>
+	<system:String x:Key="Message.CurrentVersion">Phiên bản hiện tại là {0}</system:String>
+	<system:String x:Key="Message.Cache.Folder.NotSupport">Thư mục tạm thời phải là một thư mục trên ổ đĩa thực trên máy tính. Ổ đĩa mạng không được hỗ trợ.</system:String>
 
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">Authorization or authentication failed. Would you like to re-authenticate?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Authorization or authentication failed. Would you like to re-authenticate? (If it still fails, delete the drive and recreate it.)</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveLimit">The download quota has been exceeded. Download restrictions are the policy of {0}.</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">The connection method to the remote storage has changed. You need to sign in again.</system:String>
-	<system:String x:Key="Message.ErrorCacheDiskFull">The cache storage space is not enough. You'd better to increase storage space.</system:String>
-	<system:String x:Key="Message.ErrorInternet">Unable to connect to remote storage. Please check your internet connection and try again.</system:String>
-	<system:String x:Key="Message.ErrorDiskLetterExist">You must change the drive letter or drive name.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveAuth">Uỷ quyền hoặc chứng thực thất bại. Bạn có muốn xác thực lại không?</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Uỷ quyền hoặc chứng thực thất bại. Bạn có muốn xác thực lại không? (Nếu vẫn không thành công, hãy xóa ổ đĩa và tạo lại nó.)</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveLimit">Đã vượt quá hạn mức tải xuống. Các hạn chế tải xuống là chính sách của {0}.</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveRemake">Phương thức kết nối với bộ nhớ từ xa đã thay đổi. Bạn cần đăng nhập lại.</system:String>
+	<system:String x:Key="Message.ErrorCacheDiskFull">Dung lượng lưu trữ bộ nhớ cache không đủ. Bạn nên tăng dung lượng lưu trữ.</system:String>
+	<system:String x:Key="Message.ErrorInternet">Không thể kết nối với bộ nhớ từ xa. Vui lòng kiểm tra kết nối internet của bạn và thử lại.</system:String>
+	<system:String x:Key="Message.ErrorDiskLetterExist">Tên ổ đĩa đã tồn tại. Vui lòng đặt tên khác.</system:String>
 
 	<system:String x:Key="Message.OAuth.InvalidClient">Unmanaged domain by Active Directory</system:String>
 	<system:String x:Key="Message.OAuth.InvalidClientDescription">Your account is not managed by Active Directory. You should contact Active Directory or domain administrator or sign in as a personal account.</system:String>
 
 	<!--  ConnectResponse Message  -->
-	<system:String x:Key="WebExceptionStatus.ConnectFailure">Please check the address.</system:String>
-	<system:String x:Key="WebExceptionStatus.ConnectionClosed">Please double check the protocol{0} and port{1}.</system:String>
-	<system:String x:Key="WebExceptionStatus.SendFailure">Please double check the protocol{0} and port{1}.</system:String>
-	<system:String x:Key="WebExceptionStatus.ReceiveFailure">Please double check the protocol{0} and port{1}.</system:String>
+	<system:String x:Key="WebExceptionStatus.ConnectFailure">Vui lòng kiểm tra địa chỉ.</system:String>
+	<system:String x:Key="WebExceptionStatus.ConnectionClosed">Vui lòng kiểm tra kỹ protocol{0} và port{1}.</system:String>
+	<system:String x:Key="WebExceptionStatus.SendFailure">Vui lòng kiểm tra kỹ protocol{0} và port{1}.</system:String>
+	<system:String x:Key="WebExceptionStatus.ReceiveFailure">Vui lòng kiểm tra kỹ protocol{0} và port{1}.</system:String>
 
-	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Please check if the path{0} exists or if access is granted.</system:String>
-	<system:String x:Key="HttpStatusCode.Unauthorized">Authentication failed. Please check your account (password).</system:String>
+	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Vui lòng kiểm tra xem path{0} tồn tại hoặc uỷ quyền truy cập được cấp.</system:String>
+	<system:String x:Key="HttpStatusCode.Unauthorized">Quá trình xác thực đã thất bại. Vui lòng kiểm tra tài khoản (mật khẩu) của bạn.</system:String>
 
-	<system:String x:Key="SocketError.TimedOut">Please check the address.</system:String>
-	<system:String x:Key="SocketError.ConnectionRefused">Please check the port{0}.</system:String>
+	<system:String x:Key="SocketError.TimedOut">Vui lòng kiểm tra địa chỉ.</system:String>
+	<system:String x:Key="SocketError.ConnectionRefused">Vui lòng kiểm tra port{0}.</system:String>
 
-	<system:String x:Key="OtherResponseCode.2">Path not found. Check the path{0}.</system:String>
-	<system:String x:Key="OtherResponseCode.3">Please double check the protocol{0} and port{1}.</system:String>
+	<system:String x:Key="OtherResponseCode.2">Không tìm thấy đường dẫn. Kiểm tra path{0}.</system:String>
+	<system:String x:Key="OtherResponseCode.3">Vui lòng kiểm tra kỹ protocol{0} và port{1}.</system:String>
 	<!--  ConnectResponse Message  -->
 
-	<system:String x:Key="Words.Reason">Reason</system:String>
-	<system:String x:Key="Words.Delegation.Stop">Delegation aborted</system:String>
+	<system:String x:Key="Words.Reason">Lý do</system:String>
+	<system:String x:Key="Words.Delegation.Stop">Ủy quyền bị hủy bỏ</system:String>
 	<system:String x:Key="Words.Drive">Drive</system:String>
-	<system:String x:Key="Words.FreeSpace">Free space</system:String>
-	<system:String x:Key="Words.Send.Opinion">Send Opinion</system:String>
+	<system:String x:Key="Words.FreeSpace">Dung lượng trống</system:String>
+	<system:String x:Key="Words.Send.Opinion">Gửi ý kiến</system:String>
 	<system:String x:Key="Words.Code">Code</system:String>
-	<system:String x:Key="Words.Path">Path</system:String>
+	<system:String x:Key="Words.Path">Đường dẫn</system:String>
 	<system:String x:Key="Words.File">File</system:String>
-	<system:String x:Key="Words.Ready">Ready</system:String>
-	<system:String x:Key="Words.Time">Time</system:String>
-	<system:String x:Key="Words.Error">Error</system:String>
+	<system:String x:Key="Words.Ready">Sẵn sàng</system:String>
+	<system:String x:Key="Words.Time">Thời gian</system:String>
+	<system:String x:Key="Words.Error">Lỗi</system:String>
 	<system:String x:Key="Words.State">State</system:String>
 	<system:String x:Key="Words.Size">Size</system:String>
-	<system:String x:Key="Words.Description">Description</system:String>
+	<system:String x:Key="Words.Description">Miêu tả</system:String>
 
 	<system:String x:Key="Help.Text">HELP</system:String>
 	<system:String x:Key="Help.Add.Drive">HERE WE GO~</system:String>
@@ -260,9 +260,9 @@
 	<system:String x:Key="Account.StorageAccount">Storage Account</system:String>
 	<system:String x:Key="Account.StorageKey">Key</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
-	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+	<system:String x:Key="Vailidation.StorageKey">Vui lòng bấm key1 hoặc key2</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Khởi động cùng Windows</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">Đăng ký khởi động cùng Windows</system:String>
 	<system:String x:Key="AddDrive.MountAtStart">Kết nối lại khi bắt đầu chương trình</system:String>
 	<system:String x:Key="AddDrive.MountAtBoot">Kết nối lại khi khởi động</system:String>
 	<system:String x:Key="AddDrive.MountAtSignIn">Tự động kết nối lại sau khi khởi động</system:String>
