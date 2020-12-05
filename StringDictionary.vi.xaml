@@ -126,8 +126,8 @@
 	<system:String x:Key="Message.ErrorInternet">Không thể kết nối với bộ nhớ từ xa. Vui lòng kiểm tra kết nối internet của bạn và thử lại.</system:String>
 	<system:String x:Key="Message.ErrorDiskLetterExist">Tên ổ đĩa đã tồn tại. Vui lòng đặt tên khác.</system:String>
 
-	<system:String x:Key="Message.OAuth.InvalidClient">Unmanaged domain by Active Directory</system:String>
-	<system:String x:Key="Message.OAuth.InvalidClientDescription">Your account is not managed by Active Directory. You should contact Active Directory or domain administrator or sign in as a personal account.</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClient">Miền không được quản lý bởi Active Directory</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClientDescription">Tài khoản của bạn không được quản lý bởi Active Directory. Bạn nên liên hệ với Active Directory hoặc quản trị viên miền hoặc đăng nhập bằng tài khoản cá nhân.</system:String>
 
 	<!--  ConnectResponse Message  -->
 	<system:String x:Key="WebExceptionStatus.ConnectFailure">Vui lòng kiểm tra địa chỉ.</system:String>
@@ -160,26 +160,26 @@
 	<system:String x:Key="Words.Size">Size</system:String>
 	<system:String x:Key="Words.Description">Miêu tả</system:String>
 
-	<system:String x:Key="Help.Text">HELP</system:String>
+	<system:String x:Key="Help.Text">CỨU</system:String>
 	<system:String x:Key="Help.Add.Drive">HERE WE GO~</system:String>
-	<system:String x:Key="Help.ServiceDown">RaiDrive Service was stopped.</system:String>
-	<system:String x:Key="Help.ServiceDown.Press">Please press button, RaiDrive will be alive.</system:String>
-	<system:String x:Key="Help.InternetDown">Your internet connection seems to be disconnected. Please check your internet connection.</system:String>
-	<system:String x:Key="Help.InternetDown.RetryAfter">Retry after {0} second(s).</system:String>
-	<system:String x:Key="Help.License.ForBusiness">for the business version</system:String>
+	<system:String x:Key="Help.ServiceDown">Dịch vụ RaiDrive đã bị dừng.</system:String>
+	<system:String x:Key="Help.ServiceDown.Press">Hãy nhấn nút, RaiDrive sẽ tồn tại.</system:String>
+	<system:String x:Key="Help.InternetDown">Kết nối internet của bạn dường như bị ngắt kết nối. Xin vui lòng kiểm tra kết nối Internet của bạn.</system:String>
+	<system:String x:Key="Help.InternetDown.RetryAfter">Thử lại sau {0} giây(s).</system:String>
+	<system:String x:Key="Help.License.ForBusiness">cho phiên bản doanh nghiệp</system:String>
 
-	<system:String x:Key="Upgrade">Upgrade</system:String>
-	<system:String x:Key="Upgrade.Uptodate">You are using the latest version</system:String>
-	<system:String x:Key="Upgrade.NewVersion">You can upgrade to the version {0}</system:String>
-	<system:String x:Key="Upgrade.New">You can upgrade to the new version</system:String>
+	<system:String x:Key="Upgrade">Nâng cấp</system:String>
+	<system:String x:Key="Upgrade.Uptodate">Bạn đang sử dụng phiên bản mới nhất</system:String>
+	<system:String x:Key="Upgrade.NewVersion">Bạn có thể nâng cấp lên phiên bản {0}</system:String>
+	<system:String x:Key="Upgrade.New">Bạn có thể nâng cấp lên phiên bản mới</system:String>
 
-	<system:String x:Key="NotifyIcon.Open">Open RaiDrive</system:String>
-	<system:String x:Key="NotifyIcon.CheckUpdate">Check update</system:String>
-	<system:String x:Key="NotifyIcon.Exit">Exit</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">Are you sure you want to disconnect all connections before exit?</system:String>
+	<system:String x:Key="NotifyIcon.Open">Mở RaiDrive</system:String>
+	<system:String x:Key="NotifyIcon.CheckUpdate">Kiểm tra cập nhật</system:String>
+	<system:String x:Key="NotifyIcon.Exit">Thoát</system:String>
+	<system:String x:Key="NotifyIcon.Exit.Message">Bạn có chắc chắn muốn ngắt tất cả các kết nối trước khi thoát không?</system:String>
 
-	<system:String x:Key="State.Space.Format">{0} free of {1} {2}</system:String>
-	<system:String x:Key="State.Space.Used">used</system:String>
+	<system:String x:Key="State.Space.Format">{0} trống của {1} {2}</system:String>
+	<system:String x:Key="State.Space.Used">đã dùng</system:String>
 
 	<system:String x:Key="Brand.Synology">Synology</system:String>
 	<system:String x:Key="Brand.QNAP">QNAP</system:String>
@@ -189,27 +189,27 @@
 	<system:String x:Key="Brand.etc">etc</system:String>
 
 	<!--  backup  -->
-	<system:String x:Key="Backup">Backup</system:String>
-	<system:String x:Key="Backup.Add">Add</system:String>
-	<system:String x:Key="Backup.Delete">Delete</system:String>
-	<system:String x:Key="Backup.Start">Start</system:String>
-	<system:String x:Key="Backup.Stop">Stop</system:String>
-	<system:String x:Key="Backup.BackupNOW">Backup NOW</system:String>
-	<system:String x:Key="Backup.NOW">NOW</system:String>
-	<system:String x:Key="Backup.Save">Save</system:String>
-	<system:String x:Key="Backup.ClearLog">Clear log</system:String>
+	<system:String x:Key="Backup">Sao lưu</system:String>
+	<system:String x:Key="Backup.Add">Thêm</system:String>
+	<system:String x:Key="Backup.Delete">Xoá</system:String>
+	<system:String x:Key="Backup.Start">Bắt đầu</system:String>
+	<system:String x:Key="Backup.Stop">Dừng</system:String>
+	<system:String x:Key="Backup.BackupNOW">Sao lưu NGAY</system:String>
+	<system:String x:Key="Backup.NOW">NGAY</system:String>
+	<system:String x:Key="Backup.Save">LƯU</system:String>
+	<system:String x:Key="Backup.ClearLog">Dọn log</system:String>
 	<system:String x:Key="Backup.DestRootFolder">Remote Folder</system:String>
 	<system:String x:Key="Backup.SourceFolders">Source Folder</system:String>
-	<system:String x:Key="Backup.Progress">Progress</system:String>
-	<system:String x:Key="Backup.AutoStart">Auto Start</system:String>
+	<system:String x:Key="Backup.Progress">Tiến trình</system:String>
+	<system:String x:Key="Backup.AutoStart">Bắt đầu tự động</system:String>
 	<system:String x:Key="Backup.LogTab.Current">Current</system:String>
-	<system:String x:Key="Backup.LogTab.All">All</system:String>
-	<system:String x:Key="Backup.LogTab.Error">Error</system:String>
-	<system:String x:Key="Backup.LogTab.Ready">Ready</system:String>
+	<system:String x:Key="Backup.LogTab.All">Tắt cả</system:String>
+	<system:String x:Key="Backup.LogTab.Error">Lỗi</system:String>
+	<system:String x:Key="Backup.LogTab.Ready">Sẵn sàng</system:String>
 	<system:String x:Key="Backup.LogTab.Left">Left</system:String>
 	<system:String x:Key="Backup.LogTab.File">File</system:String>
 	<system:String x:Key="Backup.LogTab.Folder">Folder</system:String>
-	<system:String x:Key="Backup.LogTab.FollowLatest">Follow Latest</system:String>
+	<system:String x:Key="Backup.LogTab.FollowLatest">Theo dõi mới nhất</system:String>
 	<system:String x:Key="Backup.Count.Left">Left</system:String>
 	<system:String x:Key="Backup.Count.Processed">Processed</system:String>
 
@@ -240,18 +240,18 @@
 	<system:String x:Key="Words.Site">Site</system:String>
 
 	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">Project</system:String>
+	<system:String x:Key="Words.Project">Dự án</system:String>
 	<system:String x:Key="Words.Bucket">Bucket</system:String>
 	<system:String x:Key="Words.Tenant">Tenant</system:String>
 	<system:String x:Key="Words.Subscription">Subscription</system:String>
-	<system:String x:Key="Words.Community">Community</system:String>
-	<system:String x:Key="Words.Document">Document</system:String>
+	<system:String x:Key="Words.Community">Cộng đồng</system:String>
+	<system:String x:Key="Words.Document">Tài liệu</system:String>
 
 	<system:String x:Key="Words.Cache">Cache</system:String>
-	<system:String x:Key="Words.Lifetime">Lifetime</system:String>
-	<system:String x:Key="Words.Read">Read</system:String>
-	<system:String x:Key="Words.Write">Write</system:String>
-	<system:String x:Key="Words.Second">second</system:String>
+	<system:String x:Key="Words.Lifetime">Vĩnh viễn</system:String>
+	<system:String x:Key="Words.Read">Đọc</system:String>
+	<system:String x:Key="Words.Write">Ghi</system:String>
+	<system:String x:Key="Words.Second">giây</system:String>
 
 	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
 	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
