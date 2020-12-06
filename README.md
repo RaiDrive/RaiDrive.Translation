@@ -35,7 +35,7 @@ File name | Language | Translated | v.2020.6.25 confirm | v.2020.9 | Contributor
 [StringDictionary.th.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.th.xaml) | Thai | O | O | O | [yutthaphon](https://github.com/yutthaphon), [naruepanart](https://github.com/naruepanart) |
 [StringDictionary.tr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.tr.xaml) | Turkish | O |  |  | [ilkmon](https://github.com/ilkmon) |
 [StringDictionary.uk.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.uk.xaml) | Ukrainian |  | | | 
-[StringDictionary.vi.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.vi.xaml) | Vietnamese | Partially done | | | [holao09](https://github.com/holao09), [vigstudio](https://github.com/vigstudio) |
+[StringDictionary.vi.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.vi.xaml) | Vietnamese | O | O | O | [holao09](https://github.com/holao09), [vigstudio](https://github.com/vigstudio) |
 [StringDictionary.zh-Hans.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hans.xaml) | Chinese (Simplified) | O | O | O | [whwlsfb](https://github.com/whwlsfb), [SadPencil](https://github.com/SadPencil), [dustofsoul](https://github.com/dustofsoul) |
 [StringDictionary.zh-Hant.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hant.xaml) | Chinese (Traditional) | O | O | O | [Hulen](https://github.com/Hulen), [SadPencil](https://github.com/SadPencil), [kix99aug](https://github.com/kix99aug) |
 
