@@ -35,7 +35,7 @@
 
 	<!--  네트워크 드라이브 연결  -->
 	<system:String x:Key="AddDrive.Network">네크워크</system:String>
-	<system:String x:Key="AddDrive.ReadOnly">읽기전용</system:String>
+	<system:String x:Key="AddDrive.ReadOnly">읽기 전용</system:String>
 
 	<system:String x:Key="AddDrive.Account">계정</system:String>
 	<system:String x:Key="AddDrive.Username">사용자</system:String>
@@ -102,15 +102,15 @@
 	<system:String x:Key="Message.DuplicatedPath">중복 경로</system:String>
 
 	<system:String x:Key="Message.SureDelete">영구적으로 &quot;{0} ({1})&quot;를 삭제 하시겠습니까?</system:String>
-	<system:String x:Key="Message.Title.ServiceDown">RaiDrive 살리기</system:String>
+	<system:String x:Key="Message.Title.ServiceDown">RaiDrive 다시 시작</system:String>
 	<system:String x:Key="Message.Title.Reconnect">RaiDrive 재연결</system:String>
-	<system:String x:Key="Message.ServiceDown">확인을 눌러주세요. RaiDrive가 살아납니다.</system:String>
+	<system:String x:Key="Message.ServiceDown">확인을 눌러주세요. RaiDrive가 다시 시작됩니다.</system:String>
 	<system:String x:Key="Message.Settings.Reconnect">확인 버튼을 눌러주세요. 변경된 설정을 적용하려면 원격 드라이브를 다시 연결해야 합니다.</system:String>
 	<system:String x:Key="Message.NotReady.Reboot">RaiDrive를 시작할 준비가 안되었습니다. 재부팅이 필요합니다.</system:String>
 	<system:String x:Key="Message.NotReady.Driver">디바이스 드라이버가 설치되지 않았습니다. RaiDrive를 다시 설치햐야 합니다.</system:String>
 	<system:String x:Key="Message.NotSupport.Browser.Dropbox">드롭박스는 인터넷 익스플로러 10 이상을 지원합니다. 인터넷 익스플로러 11 설치를 권장합니다.</system:String>
 	<system:String x:Key="Message.Connect.By">RaiDrive에 의해 연결됨</system:String>
-	<system:String x:Key="Message.Maximum.Drive">현재버전에서는 최대 8개의 드라이브를 만들 수 있습니다.</system:String>
+	<system:String x:Key="Message.Maximum.Drive">현재 버전에서는 최대 8개의 드라이브를 만들 수 있습니다.</system:String>
 	<system:String x:Key="Message.License.Expired">라이선스가 종료되었습니다. 새로운 버전을 다운 받아야합니다. 확인 버튼을 누르면 업그레이드가 시작됩니다.</system:String>
 	<system:String x:Key="Message.License.NotReady">라이선스를 확인할 수 없습니다.</system:String>
 	<system:String x:Key="Message.UnknownSpace">알 수 없는 용량</system:String>
@@ -269,8 +269,8 @@
 	<system:String x:Key="AddDrive.AuthAtConnect">연결할 때마다 새로 로그인</system:String>
 
 	<!--  from 2020.2.2  -->
-	<system:String x:Key="Message.MountPointFolder.Condition">탑재 지점 폴더 경로는 기본 또는 동적 NTFS 볼륨의 빈 폴더만 가능합니다.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">폴더에 마운트하려면 로컬 디스크의 공개 옵션이 필수조건입니다</system:String>
+	<system:String x:Key="Message.MountPointFolder.Condition">탑재 지점 폴더 경로는 NTFS 볼륨의 빈 폴더만 가능합니다.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">폴더에 마운트하려면 반드시 로컬 디스크의 공개 옵션을 활성화해야 합니다</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrl">폴더 URL</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrlID">폴더 URL 또는 ID</system:String>
 
