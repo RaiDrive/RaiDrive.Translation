@@ -22,7 +22,7 @@ File name | Language | Translated | v.2020.6.25 confirm | v.2020.9 | Contributor
 [StringDictionary.id.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.id.xaml) | Indonesian | O | O | O | [alif72](https://github.com/alif72), [vzrenggamani](https://github.com/vzrenggamani) |
 [StringDictionary.it.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.it.xaml) | Italian | O | | | [gabrig11](https://github.com/gabrig11) |
 [StringDictionary.ja.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ja.xaml) | Japanese | O |  |  | [wizard872](https://github.com/wizard872), [yuk7](https://github.com/yuk7) |
-[StringDictionary.ko.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ko.xaml) | Korean | O | O | O | [RaiDrive](https://www.raidrive.com) |
+[StringDictionary.ko.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ko.xaml) | Korean | O | O | O | [RaiDrive](https://www.raidrive.com), [endorphin-pk](https://github.com/endorphin-pk) |
 [StringDictionary.lt.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.lt.xaml) | Lithuanian | Translating... |  |  | Darius Ribinskas |
 [StringDictionary.ms.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ms.xaml) | Malay(Malaysia) | O | O |  | [MOLOKAL](https://github.com/molokal) |
 [StringDictionary.nl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.nl.xaml) | Dutch | O | O | O | [RemboIII](https://github.com/RemboIII) |
