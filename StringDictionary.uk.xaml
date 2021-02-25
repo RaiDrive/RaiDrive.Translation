@@ -14,7 +14,7 @@
 	<system:String x:Key="Settings.Header">Параметри</system:String>
 	<system:String x:Key="Settings.General">Загальні</system:String>
 	<system:String x:Key="Settings.Language">Мова</system:String>
-	<system:String x:Key="Settings.Update">Оновити</system:String>
+	<system:String x:Key="Settings.Update">Оновлення</system:String>
 	<system:String x:Key="Settings.Facebook">Facebook</system:String>
 	<system:String x:Key="Settings.Facebook.Like">Подобається</system:String>
 	<system:String x:Key="Settings.TemporaryPath">Кеш</system:String>
@@ -244,7 +244,7 @@
 	<system:String x:Key="Words.Tenant">Клієнти</system:String>
 	<system:String x:Key="Words.Subscription">Передплата</system:String>
 	<system:String x:Key="Words.Community">Спільнота</system:String>
-	<system:String x:Key="Words.Document">Документ</system:String>
+	<system:String x:Key="Words.Document">Керівництво</system:String>
 
 	<system:String x:Key="Words.Cache">Кеш</system:String>
 	<system:String x:Key="Words.Lifetime">Зберігати</system:String>
@@ -271,8 +271,8 @@
 	<!--  from 2020.2.2  -->
 	<system:String x:Key="Message.MountPointFolder.Condition">Шляхи до точок монтування доступні лише в порожніх папках на базових або динамічних томах NTFS.</system:String>
 	<system:String x:Key="Message.MountPointFolder.Mandatory">Для призначення папки потрібен параметр публічного локального диска</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrl">URL папки</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrlID">URL папки або ідентифікатор</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">URL-адреса папки</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">URL-адреса папки або ідентифікатор</system:String>
 
 	<system:String x:Key="GoogleDrive.MyDrive">Мій диск</system:String>
 	<system:String x:Key="GoogleDrive.SharedWithMe">Спільні зі мною</system:String>
