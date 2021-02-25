@@ -164,7 +164,7 @@
 	<system:String x:Key="Help.ServiceDown">Služba RaiDrive neodpovídá.</system:String>
 	<system:String x:Key="Help.ServiceDown.Press">Prosím stiskněte toto tlačítko pro obnovení RaiDrive.</system:String>
 	<system:String x:Key="Help.InternetDown">Prosím zkontrolujte vaše připojení k internetu.</system:String>
-	<system:String x:Key="Help.InternetDown.RetryAfter">Opakuji pokus zbývá: {0} sekund(s).</system:String>
+	<system:String x:Key="Help.InternetDown.RetryAfter">Opakuji pokus zbývá: {0} sekund.</system:String>
 	<system:String x:Key="Help.License.ForBusiness">pro PRO verzi</system:String>
 
 	<system:String x:Key="Upgrade">Upgradovat</system:String>
@@ -175,7 +175,7 @@
 	<system:String x:Key="NotifyIcon.Open">Otevřít RaiDrive</system:String>
 	<system:String x:Key="NotifyIcon.CheckUpdate">Zkontrolovat aktualizace</system:String>
 	<system:String x:Key="NotifyIcon.Exit">Ukončit</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">Jste si jistí, že chcete ukončit všechna spojení před vypnutím programu?</system:String>
+	<system:String x:Key="NotifyIcon.Exit.Message">Jste si jistí, že chcete program ukončit a s ním i všechna aktivní spojení?</system:String>
 
 	<system:String x:Key="State.Space.Format">{0} volno z {1} {2}</system:String>
 	<system:String x:Key="State.Space.Used">použito</system:String>
