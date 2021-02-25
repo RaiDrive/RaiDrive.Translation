@@ -18,7 +18,7 @@
 	<system:String x:Key="Settings.Facebook">Facebook</system:String>
 	<system:String x:Key="Settings.Facebook.Like">Подобається</system:String>
 	<system:String x:Key="Settings.TemporaryPath">Кеш</system:String>
-	<system:String x:Key="Settings.Default">Умовчання</system:String>
+	<system:String x:Key="Settings.Default">За умовчанням</system:String>
 	<system:String x:Key="Settings.License">Ліцензія</system:String>
 	<system:String x:Key="Settings.Proxy">Проксі</system:String>
 
@@ -74,7 +74,7 @@
 	<system:String x:Key="Button.Yes">Так</system:String>
 	<system:String x:Key="Button.No">Ні</system:String>
 	<system:String x:Key="Button.OK">OK</system:String>
-	<system:String x:Key="Button.Apply">Задіяти</system:String>
+	<system:String x:Key="Button.Apply">Застосувати</system:String>
 	<system:String x:Key="Button.Cancel">Скасувати</system:String>
 	<system:String x:Key="Button.Check">Перевірити</system:String>
 	<system:String x:Key="Button.Edit">Редагувати</system:String>
@@ -159,7 +159,7 @@
 	<system:String x:Key="Words.Size">Розмір</system:String>
 	<system:String x:Key="Words.Description">Опис</system:String>
 
-	<system:String x:Key="Help.Text">ДОВІДКА</system:String>
+	<system:String x:Key="Help.Text">Довідка</system:String>
 	<system:String x:Key="Help.Add.Drive">ХОДІМО~</system:String>
 	<system:String x:Key="Help.ServiceDown">Службу RaiDrive зупинено.</system:String>
 	<system:String x:Key="Help.ServiceDown.Press">Натисніть кнопку, RaiDrive перезапуститься.</system:String>
@@ -240,7 +240,7 @@
 
 	<!--  from version 1.9.0  -->
 	<system:String x:Key="Words.Project">Проєкт</system:String>
-	<system:String x:Key="Words.Bucket">Bucket</system:String>
+	<system:String x:Key="Words.Bucket">Бакет</system:String>
 	<system:String x:Key="Words.Tenant">Клієнти</system:String>
 	<system:String x:Key="Words.Subscription">Передплата</system:String>
 	<system:String x:Key="Words.Community">Спільнота</system:String>
