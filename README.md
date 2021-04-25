@@ -24,7 +24,7 @@ Your contribution can be recorded through the "Pull Request".
 | [StringDictionary.ja.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ja.xaml) | Japanese | O |  |  | [wizard872](https://github.com/wizard872), [yuk7](https://github.com/yuk7) |
 | [StringDictionary.ko.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ko.xaml) | Korean | O | O | O | [RaiDrive](https://www.raidrive.com), [endorphin-pk](https://github.com/endorphin-pk) |
 | [StringDictionary.lt.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.lt.xaml) | Lithuanian | Translating... |  |  | Darius Ribinskas |
-| [StringDictionary.ms.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ms.xaml) | Malay(Malaysia) | O | O |  | [MOLOKAL](https://github.com/molokal) |
+| [StringDictionary.ms.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ms.xaml) | Malay(Malaysia) | O | O | O | [MOLOKAL](https://github.com/molokal) , [niskala5570](https://github.com/niskala5570)|
 | [StringDictionary.nl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.nl.xaml) | Dutch | O | O | O | [RemboIII](https://github.com/RemboIII) |
 | [StringDictionary.pl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pl.xaml) | Polish | O |  |  | [adrianwnuk](https://github.com/adrianwnuk) |
 | [StringDictionary.pt-PT.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-PT.xaml) | Portuguese | O |  |  | [Wolf-Wind](https://github.com/Wolf-Wind) |
