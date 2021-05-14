@@ -258,9 +258,9 @@
 	<system:String x:Key="Vailidation.AccessKeyID">Please enter Access Key ID</system:String>
 	<system:String x:Key="Vailidation.SecretAccessKey">Please enter Secret Access Key</system:String>
 
-	<system:String x:Key="Account.StorageAccount">Storage Account</system:String>
+	<system:String x:Key="Account.StorageAccount">Tài khoản lưu trữ</system:String>
 	<system:String x:Key="Account.StorageKey">Key</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
+	<system:String x:Key="Vailidation.StorageAccount">Vui lòng nhập tên tài khoản Lưu Trữ</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Vui lòng bấm key1 hoặc key2</system:String>
 
 	<system:String x:Key="Settings.RegisterToStartup">Đăng ký trong Windows Startup</system:String>
@@ -312,9 +312,9 @@
 	<system:String x:Key="Words.ProcessMonitor">Giám sát quá trình</system:String>
 
 	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
-	<system:String x:Key="GoogleDrive.SharedDrives">Shared drives</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">Ổ đĩa chia sẻ</system:String>
 
-	<system:String x:Key="Words.Reading">Reading</system:String>
-	<system:String x:Key="Words.Writing">Writing</system:String>
-	<system:String x:Key="Words.Hide">Hide</system:String>
+	<system:String x:Key="Words.Reading">Đang đọc</system:String>
+	<system:String x:Key="Words.Writing">Đang ghi</system:String>
+	<system:String x:Key="Words.Hide">Ẩn</system:String>
 </ResourceDictionary>
