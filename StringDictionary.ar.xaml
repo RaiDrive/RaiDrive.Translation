@@ -7,6 +7,7 @@
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>Mugahedb</system:String>
 		<system:String>Abu3safeer</system:String>
+		<system:String>Xazmah</system:String>
 	</x:Array>
 	<system:String x:Key="Current.Language">ar</system:String>
 
@@ -15,8 +16,8 @@
 	<system:String x:Key="Settings.Header">الإعدادات</system:String>
 	<system:String x:Key="Settings.General">عام</system:String>
 	<system:String x:Key="Settings.Language">اللغة</system:String>
-	<system:String x:Key="Settings.Update">إصدارة جديدة</system:String>
-	<system:String x:Key="Settings.Facebook">Facebook</system:String>
+	<system:String x:Key="Settings.Update">تحديثات</system:String>
+	<system:String x:Key="Settings.Facebook">فيسبوك</system:String>
 	<system:String x:Key="Settings.Facebook.Like">إعجاب</system:String>
 	<system:String x:Key="Settings.TemporaryPath">المسار المؤقت</system:String>
 	<system:String x:Key="Settings.Default">افتراضي</system:String>
@@ -24,7 +25,7 @@
 	<system:String x:Key="Settings.Proxy">الوكيل</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">تشغيل البرنامج مع بدء تشغيل الجهاز</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">فتح مستكشف الملفات عند تفعيل محرك الأقراص</system:String>
+	<system:String x:Key="Settings.General.RunAtConnect">فتح مستكشف الملفات عند توصيل محرك الأقراص</system:String>
 
 	<system:String x:Key="Notice">تنبيه</system:String>
 	<system:String x:Key="AddDrive">إضافة</system:String>
@@ -49,7 +50,7 @@
 	<system:String x:Key="AddDrive.TransferMode">طريقة النقل</system:String>
 	<system:String x:Key="AddDrive.Encryption">التشفير</system:String>
 
-	<system:String x:Key="Vailidation.Volume">الرجاء اختيار وحدة تخزين صحيحة</system:String>
+	<system:String x:Key="Vailidation.Volume">الرجاء اختيار اسم وحدة تخزين مناسب</system:String>
 	<system:String x:Key="Vailidation.VolumeExist">هذا الاسم مستخدم مسبقا</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidChar">اسم وحدة التخزين يجب ألا يحتوي على هذه الرموز:</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidStr">لا يسمح باستخدام هذه الأسماء المحجوزة:</system:String>
@@ -62,7 +63,7 @@
 	<system:String x:Key="Vailidation.Password">ادخل كملة المرور</system:String>
 
 	<!--  Menu bar>Settings, account, volume  -->
-	<system:String x:Key="Vailidation.Hint.Volume">عنوان وحدة التخرين</system:String>
+	<system:String x:Key="Vailidation.Hint.Volume">اسم وحدة التخرين</system:String>
 	<system:String x:Key="Vailidation.Hint.Address">host.example.com</system:String>
 	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">مجلد</system:String>
 	<system:String x:Key="Vailidation.Hint.Username">اسم المستخدم</system:String>
@@ -169,7 +170,7 @@
 	<system:String x:Key="Help.License.ForBusiness">لنسخة الأعمال</system:String>
 
 	<system:String x:Key="Upgrade">التحديث</system:String>
-	<system:String x:Key="Upgrade.Uptodate">أنت تستخدم أحدث إصدارة</system:String>
+	<system:String x:Key="Upgrade.Uptodate">أنت تستخدم أحدث إصدار</system:String>
 	<system:String x:Key="Upgrade.NewVersion">يمكنك التحديث إلى النسخة {0}</system:String>
 	<system:String x:Key="Upgrade.New">يمكنك تحديث البرنامج</system:String>
 
@@ -198,7 +199,7 @@
 	<system:String x:Key="Backup.NOW">الآن</system:String>
 	<system:String x:Key="Backup.Save">حفظ</system:String>
 	<system:String x:Key="Backup.ClearLog">حدف السجل</system:String>
-	<system:String x:Key="Backup.DestRootFolder">مجلد بعيد</system:String>
+	<system:String x:Key="Backup.DestRootFolder">مجلد عن بعد</system:String>
 	<system:String x:Key="Backup.SourceFolders">المجلد المحلي</system:String>
 	<system:String x:Key="Backup.Progress">التقدم</system:String>
 	<system:String x:Key="Backup.AutoStart">تشغيل تلقائي</system:String>
@@ -213,7 +214,7 @@
 	<system:String x:Key="Backup.Count.Left">المتبقي</system:String>
 	<system:String x:Key="Backup.Count.Processed">تم تنفيذه</system:String>
 
-	<system:String x:Key="Message.Backup.BackupTargetFolder">اختر المجلد البعيد حيث سيتم تخزين الملفات</system:String>
+	<system:String x:Key="Message.Backup.BackupTargetFolder">اختر المجلد عن بعد حيث سيتم تخزين الملفات</system:String>
 
 	<!--  from version 1.6.0.416  -->
 	<system:String x:Key="Settings.General.UseDriveIcon">استخدام أيقونة خاصة لقرص متصل</system:String>
@@ -248,7 +249,7 @@
 	<system:String x:Key="Words.Document">مستند</system:String>
 
 	<system:String x:Key="Words.Cache">الملفات المخزنة مؤفتًا</system:String>
-	<system:String x:Key="Words.Lifetime">مدى الحياة</system:String>
+	<system:String x:Key="Words.Lifetime">للأبد</system:String>
 	<system:String x:Key="Words.Read">قراءة</system:String>
 	<system:String x:Key="Words.Write">كتابة</system:String>
 	<system:String x:Key="Words.Second">ثانية</system:String>
@@ -271,9 +272,9 @@
 
 	<!--  from 2020.2.2  -->
 	<system:String x:Key="Message.MountPointFolder.Condition">تتوفر مسارات مجلد نقطة التحميل فقط على المجلدات الفارغة على وحدات تخزين NTFS الأساسية أو الحيوية.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">لتعيين مجلد ، يكون الخيار Local Disk public مطلوبًا</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrl">URL المجلد</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrlID">المجلد URL أو معرف</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">وجب ان يكون المجلد عام</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrl">رابط المجلد</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">معرف رابط المجلد</system:String>
 
 	<system:String x:Key="GoogleDrive.MyDrive">ملفاتي</system:String>
 	<system:String x:Key="GoogleDrive.SharedWithMe">العناصر التي تمت مشاركتها معي</system:String>
@@ -302,7 +303,7 @@
 	<system:String x:Key="Words.Slow">بطيء</system:String>
 	<system:String x:Key="Message.ResponseSlow">فد تكون الاستجابة بطيئة</system:String>
 	<system:String x:Key="Words.AdvancedOptions">إعدادات متقدمة</system:String>
-	<system:String x:Key="Words.Properties">الحواص</system:String>
+	<system:String x:Key="Words.Properties">الخواص</system:String>
 
 	<system:String x:Key="Words.MySubscription">اشتراكي</system:String>
 	<system:String x:Key="Words.ShareWithOther">مشارك مع الآخرين</system:String>
