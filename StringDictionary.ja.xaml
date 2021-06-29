@@ -292,30 +292,30 @@
 	<system:String x:Key="Words.Capacity">容量</system:String>
 
 	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">Update storage changes asynchronously</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
-	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitor process access to files</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Overwrite target</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Rename source</system:String>
-	<system:String x:Key="Words.Skip">Skip</system:String>
-	<system:String x:Key="Words.Slow">Slow</system:String>
-	<system:String x:Key="Message.ResponseSlow">A response may be slow</system:String>
-	<system:String x:Key="Words.AdvancedOptions">Advanced Options</system:String>
-	<system:String x:Key="Words.Properties">Properties</system:String>
+	<system:String x:Key="Words.FileExplorer">エクスプローラー</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">ストレージの変更を非同期で更新する</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">コピー時に &quot;変更日時&quot; を維持するようにする</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">ファイルへのプロセスアクセスを監視する</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">リモートストレージのクイックコピー/移動/削除</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">ターゲットを上書きする</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">ソースの名前を変更</system:String>
+	<system:String x:Key="Words.Skip">スキップ</system:String>
+	<system:String x:Key="Words.Slow">スロー</system:String>
+	<system:String x:Key="Message.ResponseSlow">応答が遅い場合があります</system:String>
+	<system:String x:Key="Words.AdvancedOptions">高度なオプション</system:String>
+	<system:String x:Key="Words.Properties">プロパティ</system:String>
 
-	<system:String x:Key="Words.MySubscription">My Subscription</system:String>
-	<system:String x:Key="Words.ShareWithOther">Share with others</system:String>
-	<system:String x:Key="Words.SharedWithMe">Shared with me</system:String>
-	<system:String x:Key="Words.Import">Import</system:String>
-	<system:String x:Key="Words.Export">Export</system:String>
-	<system:String x:Key="Words.ProcessMonitor">Process Monitor</system:String>
+	<system:String x:Key="Words.MySubscription">サブスクリプション</system:String>
+	<system:String x:Key="Words.ShareWithOther">他の人と共有</system:String>
+	<system:String x:Key="Words.SharedWithMe">私との共有</system:String>
+	<system:String x:Key="Words.Import">インポート</system:String>
+	<system:String x:Key="Words.Export">エクスポート</system:String>
+	<system:String x:Key="Words.ProcessMonitor">プロセスモニター</system:String>
 
-	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
-	<system:String x:Key="GoogleDrive.SharedDrives">Shared drives</system:String>
+	<system:String x:Key="Account.Endpoint">エンドポイント</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">共有ドライブ</system:String>
 
-	<system:String x:Key="Words.Reading">Reading</system:String>
-	<system:String x:Key="Words.Writing">Writing</system:String>
-	<system:String x:Key="Words.Hide">Hide</system:String>
+	<system:String x:Key="Words.Reading">読み込み中</system:String>
+	<system:String x:Key="Words.Writing">書き込み中</system:String>
+	<system:String x:Key="Words.Hide">隠す</system:String>
 </ResourceDictionary>
