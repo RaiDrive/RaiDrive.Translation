@@ -247,7 +247,7 @@
 	<system:String x:Key="Words.Document">Document</system:String>
 
 	<system:String x:Key="Words.Cache">Кеш</system:String>
-	<system:String x:Key="Words.Lifetime">Хранить</system:String>
+	<system:String x:Key="Words.Lifetime">Запазване</system:String>
 	<system:String x:Key="Words.Read">четене</system:String>
 	<system:String x:Key="Words.Write">запис</system:String>
 	<system:String x:Key="Words.Second">секунда</system:String>
@@ -279,8 +279,8 @@
 	<system:String x:Key="GoogleDrive.Computers">Компютри</system:String>
 	<system:String x:Key="GoogleDrive.SharedLink">Общая ссылка</system:String>
 
-	<system:String x:Key="OneDrive.Files">Файлы</system:String>
-	<system:String x:Key="OneDrive.Shared">Общие</system:String>
+	<system:String x:Key="OneDrive.Files">Файлове</system:String>
+	<system:String x:Key="OneDrive.Shared">Споделени</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Споделена връзка</system:String>
 
 	<!--  from 2020.6  -->
