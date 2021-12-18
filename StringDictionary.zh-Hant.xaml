@@ -58,7 +58,7 @@
 	<system:String x:Key="Vailidation.Address">請輸入主機名稱或 IP 位址</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">請輸入 WebDAV 網址</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">請選擇資料夾</system:String>
-	<system:String x:Key="Vailidation.Port">請輸入連接埠號碼 (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">請輸入連接埠號碼 (1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">請輸入使用者名稱</system:String>
 	<system:String x:Key="Vailidation.Password">請輸入密碼</system:String>
 
@@ -318,4 +318,12 @@
 	<system:String x:Key="Words.Reading">讀取中</system:String>
 	<system:String x:Key="Words.Writing">寫入中</system:String>
 	<system:String x:Key="Words.Hide">隱藏</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
 </ResourceDictionary>

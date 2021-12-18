@@ -57,7 +57,7 @@
 	<system:String x:Key="Vailidation.Address">Vui lòng điền tên miền hoặc IP máy chủ</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">Vui lòng điền đường link</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">Vui lòng chọn một thư mục trên PC</system:String>
-	<system:String x:Key="Vailidation.Port">Vui lòng điền giá trị cổng (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">Vui lòng điền giá trị cổng (1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">Vui lòng điền tên tài khoản</system:String>
 	<system:String x:Key="Vailidation.Password">Vui lòng điền mật khẩu</system:String>
 
@@ -317,4 +317,12 @@
 	<system:String x:Key="Words.Reading">Đang đọc</system:String>
 	<system:String x:Key="Words.Writing">Đang ghi</system:String>
 	<system:String x:Key="Words.Hide">Ẩn</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
 </ResourceDictionary>

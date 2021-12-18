@@ -62,7 +62,7 @@
 	<system:String x:Key="Vailidation.Address">Lütfen Ip yada host adresini giriniz</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">Lütfen geçerli bir URL giriniz</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">Lütfen bilgisayarınızdaki bir dosyayı seçiniz.</system:String>
-	<system:String x:Key="Vailidation.Port">Lütfen bir port numarası giriniz.(0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">Lütfen bir port numarası giriniz.(1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">Lütfen kullanıcı adınızı giriniz</system:String>
 	<system:String x:Key="Vailidation.Password">Lütfen şifrenizi giriniz.</system:String>
 
@@ -72,7 +72,7 @@
 	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">folder</system:String>
 	<system:String x:Key="Vailidation.Hint.Username">Kullanıcı Adı</system:String>
 	<system:String x:Key="Vailidation.Hint.Password">Şifre</system:String>
-	<system:String x:Key="Vailidation.Hint.Port">port(0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Hint.Port">port(1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Hint.Path">Dosya yolu(C://Example...)</system:String>
 	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
 	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">Private key ekleyebilirsiniz.</system:String>
@@ -328,4 +328,12 @@
 	<system:String x:Key="Words.Reading">Reading</system:String>
 	<system:String x:Key="Words.Writing">Writing</system:String>
 	<system:String x:Key="Words.Hide">Hide</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
 </ResourceDictionary>

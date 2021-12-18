@@ -316,4 +316,12 @@
 	<system:String x:Key="Words.Reading">Lezen</system:String>
 	<system:String x:Key="Words.Writing">Schrijven</system:String>
 	<system:String x:Key="Words.Hide">Verbergen</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
 </ResourceDictionary>

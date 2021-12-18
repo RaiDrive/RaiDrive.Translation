@@ -57,7 +57,7 @@
 	<system:String x:Key="Vailidation.Address">โปรดกรอกชื่อโฮสต์หรือที่อยู่ไอพี</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">โปรดกรอกลิ้งก์</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">โปรดเลือกโฟลเดอร์บนพีซีของคุณ</system:String>
-	<system:String x:Key="Vailidation.Port">โปรดกรอกหมายเลขพอร์ต (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">โปรดกรอกหมายเลขพอร์ต (1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">โปรดกรอกชื่อผู้ใช้</system:String>
 	<system:String x:Key="Vailidation.Password">โปรดกรอกรหัสผ่าน</system:String>
 
@@ -319,4 +319,12 @@
 	<system:String x:Key="Words.Reading">กำลังอ่าน</system:String>
 	<system:String x:Key="Words.Writing">กำลังเขียน</system:String>
 	<system:String x:Key="Words.Hide">ซ่อน</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
 </ResourceDictionary>

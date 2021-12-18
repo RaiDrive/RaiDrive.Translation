@@ -6,7 +6,7 @@
 
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>ΜΟLΟΚΛL</system:String>
-                <system:String>Niskala5570</system:String>
+		<system:String>Niskala5570</system:String>
 	</x:Array>
 	<system:String x:Key="Current.Language">ms</system:String>
 
@@ -57,7 +57,7 @@
 	<system:String x:Key="Vailidation.Address">Sila masukkan nama host atau alamat IP</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">Sila masukkan URL</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">Sila pilih folder di PC anda</system:String>
-	<system:String x:Key="Vailidation.Port">Sila masukkan nombor port (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">Sila masukkan nombor port (1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">Sila masukkan nama pengguna</system:String>
 	<system:String x:Key="Vailidation.Password">Sila masukkan kata laluan</system:String>
 
@@ -317,4 +317,12 @@
 	<system:String x:Key="Words.Reading">Membaca</system:String>
 	<system:String x:Key="Words.Writing">Menulis</system:String>
 	<system:String x:Key="Words.Hide">Sembunyi</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
 </ResourceDictionary>

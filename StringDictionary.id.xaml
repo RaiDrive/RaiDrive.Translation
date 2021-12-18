@@ -57,7 +57,7 @@
 	<system:String x:Key="Vailidation.Address">Masukan Hostname atau IP address</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">Masukan URL</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">Pilih Folder Di PC Anda</system:String>
-	<system:String x:Key="Vailidation.Port">Masukan Port Number (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">Masukan Port Number (1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">Masukan nama pengguna</system:String>
 	<system:String x:Key="Vailidation.Password">Masukan kata sandi</system:String>
 
@@ -317,4 +317,12 @@
 	<system:String x:Key="Words.Reading">Membaca</system:String>
 	<system:String x:Key="Words.Writing">Menulis</system:String>
 	<system:String x:Key="Words.Hide">Sembunyikan</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
 </ResourceDictionary>

@@ -56,7 +56,7 @@
 	<system:String x:Key="Vailidation.Address">Kérem adjon meg egy kiszolgálónevet vagy IP címet</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">Kérem adjon meg egy URL címet</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">Kérem válasszon ki egy mappát a számítógépen</system:String>
-	<system:String x:Key="Vailidation.Port">Kérem adjon meg egy portszámot (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">Kérem adjon meg egy portszámot (1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">Kérem adjon meg egy felhasználónevet</system:String>
 	<system:String x:Key="Vailidation.Password">Kérem adjon meg egy jelszavat</system:String>
 
@@ -316,4 +316,12 @@
 	<system:String x:Key="Words.Reading">Reading</system:String>
 	<system:String x:Key="Words.Writing">Writing</system:String>
 	<system:String x:Key="Words.Hide">Hide</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
 </ResourceDictionary>

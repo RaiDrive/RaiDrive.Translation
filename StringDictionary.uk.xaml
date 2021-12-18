@@ -56,7 +56,7 @@
 	<system:String x:Key="Vailidation.Address">Введіть ім'я хосту або IP-адресу</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">Введіть URL-адресу</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">Виберіть папку на вашому ПК</system:String>
-	<system:String x:Key="Vailidation.Port">Введіть номер порту (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">Введіть номер порту (1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">Введіть ім'я користувача</system:String>
 	<system:String x:Key="Vailidation.Password">Введіть пароль</system:String>
 
@@ -316,4 +316,12 @@
 	<system:String x:Key="Words.Reading">Читання</system:String>
 	<system:String x:Key="Words.Writing">Запис</system:String>
 	<system:String x:Key="Words.Hide">Приховати</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
 </ResourceDictionary>

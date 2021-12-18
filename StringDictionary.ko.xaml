@@ -58,7 +58,7 @@
 	<system:String x:Key="Vailidation.Address">호스트 또는 IP 주소를 입력해 주세요</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">URL을 입력해 주세요</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">폴더를 선택해 주세요</system:String>
-	<system:String x:Key="Vailidation.Port">포트 번호를 입력해 주세요 (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">포트 번호를 입력해 주세요 (1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">사용자 계정을 입력해 주세요</system:String>
 	<system:String x:Key="Vailidation.Password">비밀번호를 입력해 주세요</system:String>
 
@@ -317,4 +317,12 @@
 	<system:String x:Key="Words.Reading">읽는중</system:String>
 	<system:String x:Key="Words.Writing">쓰는중</system:String>
 	<system:String x:Key="Words.Hide">숨기기</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">타임아웃</system:String>
+	<system:String x:Key="Words.Seconds">초</system:String>
+
+	<system:String x:Key="Words.Connected">연결됨</system:String>
+	<system:String x:Key="Words.Disconnected">끊김</system:String>
+	<system:String x:Key="Message.FileInUse">사용중인 파일: {0}</system:String>
 </ResourceDictionary>

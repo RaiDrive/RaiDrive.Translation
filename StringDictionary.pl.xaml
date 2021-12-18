@@ -56,7 +56,7 @@
 	<system:String x:Key="Vailidation.Address">Wprowadź nazwę serwera lub adres IP</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">Wprowadź adres URL</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">Zaznacz folder na twoim komputerze</system:String>
-	<system:String x:Key="Vailidation.Port">Wprowadź numer portu (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">Wprowadź numer portu (1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">Wprowadź nazwę użytkownika</system:String>
 	<system:String x:Key="Vailidation.Password">Wprowadź hasło</system:String>
 
@@ -316,4 +316,12 @@
 	<system:String x:Key="Words.Reading">Reading</system:String>
 	<system:String x:Key="Words.Writing">Writing</system:String>
 	<system:String x:Key="Words.Hide">Hide</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
 </ResourceDictionary>

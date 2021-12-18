@@ -59,7 +59,7 @@
 	<system:String x:Key="Vailidation.Address">ホスト名またはIPアドレスを入力してください</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">URLを入力してください</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">フォルダを選択してください</system:String>
-	<system:String x:Key="Vailidation.Port">ポート番号を入力してください (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">ポート番号を入力してください (1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">ユーザーIDを入力してください</system:String>
 	<system:String x:Key="Vailidation.Password">パスワードを入力してください</system:String>
 
@@ -319,4 +319,12 @@
 	<system:String x:Key="Words.Reading">読み込み中</system:String>
 	<system:String x:Key="Words.Writing">書き込み中</system:String>
 	<system:String x:Key="Words.Hide">隠す</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
 </ResourceDictionary>

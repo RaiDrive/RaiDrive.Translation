@@ -56,7 +56,7 @@
 	<system:String x:Key="Vailidation.Address">Prosím zadejte jméno hostitele nebo adresu</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">Prosím zadejte URL</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">Prosím zvolte lokální složku</system:String>
-	<system:String x:Key="Vailidation.Port">Zadaejte číslo portu (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">Zadaejte číslo portu (1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">Zadejte uživatelské jméno</system:String>
 	<system:String x:Key="Vailidation.Password">Zadejte heslo</system:String>
 
@@ -316,4 +316,12 @@
 	<system:String x:Key="Words.Reading">Čtení</system:String>
 	<system:String x:Key="Words.Writing">Zápis</system:String>
 	<system:String x:Key="Words.Hide">Skrýt</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
 </ResourceDictionary>

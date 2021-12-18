@@ -56,7 +56,7 @@
 	<system:String x:Key="Vailidation.Address">Καταχωρίστε ένα όνομα υπολογιστή ή διεύθυνση IP</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">Παρακαλώ καταχωρίστε μια διεύθυνση IP</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">Επιλέξτε έναν φάκελο στον υπολογιστή σας</system:String>
-	<system:String x:Key="Vailidation.Port">Επιλέξτε ένα αριθμό θύρας (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">Επιλέξτε ένα αριθμό θύρας (1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">Παρακαλώ καταχωρίστε το όνομα χρήστη</system:String>
 	<system:String x:Key="Vailidation.Password">Παρακαλώ καταχωρίστε τον Κωδικό χρήστη</system:String>
 
@@ -316,4 +316,12 @@
 	<system:String x:Key="Words.Reading">Ανάγνωση</system:String>
 	<system:String x:Key="Words.Writing">Γράψιμο</system:String>
 	<system:String x:Key="Words.Hide">Κρυφό</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
 </ResourceDictionary>

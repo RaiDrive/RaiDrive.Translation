@@ -58,7 +58,7 @@
 	<system:String x:Key="Vailidation.Address">请输入主机名称或 IP 地址</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">请输入 WebDAV 地址</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">请选择文件夹</system:String>
-	<system:String x:Key="Vailidation.Port">请输入端口号 (0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">请输入端口号 (1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">请输入用户名</system:String>
 	<system:String x:Key="Vailidation.Password">请输入密码</system:String>
 
@@ -318,4 +318,12 @@
 	<system:String x:Key="Words.Reading">读取中</system:String>
 	<system:String x:Key="Words.Writing">写入中</system:String>
 	<system:String x:Key="Words.Hide">隐藏</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
 </ResourceDictionary>

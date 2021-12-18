@@ -58,7 +58,7 @@
 	<system:String x:Key="Vailidation.Address">الرجاء ادخال اسم أو عنوان الخادم</system:String>
 	<system:String x:Key="Vailidation.Address.WebDAV">الرجاء ادخال العنوان</system:String>
 	<system:String x:Key="Vailidation.Address.LocalDrive">الرجاء اختيار مجلد على جهازك</system:String>
-	<system:String x:Key="Vailidation.Port">الرجاء اختيار رقم المنفذ(0 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Port">الرجاء اختيار رقم المنفذ(1 ~ 65535)</system:String>
 	<system:String x:Key="Vailidation.Username">ادخل اسم المستخدم</system:String>
 	<system:String x:Key="Vailidation.Password">ادخل كملة المرور</system:String>
 
@@ -318,4 +318,12 @@
 	<system:String x:Key="Words.Reading">قراءة</system:String>
 	<system:String x:Key="Words.Writing">كتابة</system:String>
 	<system:String x:Key="Words.Hide">إخفاء</system:String>
+
+	<!--  from 2021.10  -->
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
 </ResourceDictionary>
