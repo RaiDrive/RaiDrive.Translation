@@ -9,7 +9,7 @@ Your contribution can be recorded through the "Pull Request".
 | File name | Language | Translated | v.2020.9 | v.2021.10 | Contributors |
 | ----------|:----------:|:------------:|:---------:|:--------:|:----------- |
 | [StringDictionary.ar.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ar.xaml) | Arabic | O | O | O | <sub>[Mugahedb](https://github.com/Mugahedb), [Abu3safeer](https://github.com/Abu3safeer), [Xazmah](https://github.com/Xazmah)</sub> |
-| [StringDictionary.bg.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.bg.xaml) | Bulgarian | O | O |  | <sub>[NenoRMa1eN](https://github.com/NenoRMa1eN)</sub> |
+| [StringDictionary.bg.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.bg.xaml) | Bulgarian | O | O | O | <sub>[NenoRMa1eN](https://github.com/NenoRMa1eN)</sub> |
 | [StringDictionary.cs.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.cs.xaml) | Czech | O | O |  | <sub>[kazihorka](https://github.com/kazihorka)</sub> |
 | [StringDictionary.da.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.da.xaml) | Danish | O | | | <sub>[michal78](https://github.com/michal78)</sub> |
 | [StringDictionary.de.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.de.xaml) | German | O | O |  | <sub>[Kasukoi](https://github.com/Kasukoi), [Mar0xy](https://github.com/Mar0xy)</sub> |
