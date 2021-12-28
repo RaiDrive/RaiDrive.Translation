@@ -318,10 +318,10 @@
 	<system:String x:Key="Words.Hide">Skrýt</system:String>
 
 	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">Timeout</system:String>
-	<system:String x:Key="Words.Seconds">seconds</system:String>
+	<system:String x:Key="Words.Timeout">Časový limit</system:String>
+	<system:String x:Key="Words.Seconds">vteřin</system:String>
 
-	<system:String x:Key="Words.Connected">Connected</system:String>
-	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
-	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
+	<system:String x:Key="Words.Connected">Připojeno</system:String>
+	<system:String x:Key="Words.Disconnected">Odpojeno</system:String>
+	<system:String x:Key="Message.FileInUse">Soubor(y) jsou používány: {0}</system:String>
 </ResourceDictionary>
