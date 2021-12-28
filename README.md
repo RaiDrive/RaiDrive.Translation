@@ -8,7 +8,7 @@ Your contribution can be recorded through the "Pull Request".
 
 | File name | Language | Translated | v.2020.9 | v.2021.10 | Contributors |
 | ----------|:----------:|:------------:|:---------:|:--------:|:----------- |
-| [StringDictionary.ar.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ar.xaml) | Arabic | O | O |  | <sub>[Mugahedb](https://github.com/Mugahedb), [Abu3safeer](https://github.com/Abu3safeer), [Xazmah](https://github.com/Xazmah)</sub> |
+| [StringDictionary.ar.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ar.xaml) | Arabic | O | O | O | <sub>[Mugahedb](https://github.com/Mugahedb), [Abu3safeer](https://github.com/Abu3safeer), [Xazmah](https://github.com/Xazmah)</sub> |
 | [StringDictionary.bg.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.bg.xaml) | Bulgarian | O | O |  | <sub>[NenoRMa1eN](https://github.com/NenoRMa1eN)</sub> |
 | [StringDictionary.cs.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.cs.xaml) | Czech | O | O |  | <sub>[kazihorka](https://github.com/kazihorka)</sub> |
 | [StringDictionary.da.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.da.xaml) | Danish | O | | | <sub>[michal78](https://github.com/michal78)</sub> |
@@ -26,7 +26,7 @@ Your contribution can be recorded through the "Pull Request".
 | [StringDictionary.ko.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ko.xaml) | Korean | O | O | O | <sub>[RaiDrive](https://www.raidrive.com), [endorphin-pk](https://github.com/endorphin-pk)</sub> |
 | [StringDictionary.lt.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.lt.xaml) | Lithuanian | <sub>Translating... |  |  | <sub>Darius Ribinskas</sub> |
 | [StringDictionary.ms.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ms.xaml) | Malay(Malaysia) | O | O |  | <sub>[MOLOKAL](https://github.com/molokal) , [niskala5570](https://github.com/niskala5570)</sub> |
-| [StringDictionary.nl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.nl.xaml) | Dutch | O | O |  | <sub>[RemboIII](https://github.com/RemboIII)</sub> |
+| [StringDictionary.nl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.nl.xaml) | Dutch | O | O | O | <sub>[RemboIII](https://github.com/RemboIII), [Paultje52](https://github.com/Paultje52)</sub> |
 | [StringDictionary.pl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pl.xaml) | Polish | O |  |  | <sub>[adrianwnuk](https://github.com/adrianwnuk)</sub> |
 | [StringDictionary.pt-PT.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-PT.xaml) | Portuguese | O |  |  | <sub>[Wolf-Wind](https://github.com/Wolf-Wind)</sub> |
 | [StringDictionary.pt-BR.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-BR.xaml) | Brazilian Portuguese | O | O |  | <sub>[fidodone](https://github.com/fidodone)</sub> |
@@ -37,7 +37,7 @@ Your contribution can be recorded through the "Pull Request".
 | [StringDictionary.tr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.tr.xaml) | Turkish | O |  |  | <sub>[ilkmon](https://github.com/ilkmon)</sub> |
 | [StringDictionary.uk.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.uk.xaml) | Ukrainian | O | O |  | <sub>[Lan72](https://github.com/Lan72)</sub> |
 | [StringDictionary.vi.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.vi.xaml) | Vietnamese | O | O |  | <sub>[holao09](https://github.com/holao09), [vigstudio](https://github.com/vigstudio)</sub> |
-| [StringDictionary.zh-Hans.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hans.xaml) | Chinese (Simplified) | O | O |  | <sub>[whwlsfb](https://github.com/whwlsfb), [SadPencil](https://github.com/SadPencil), [dustofsoul](https://github.com/dustofsoul)</sub> |
+| [StringDictionary.zh-Hans.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hans.xaml) | Chinese (Simplified) | O | O | O | <sub>[whwlsfb](https://github.com/whwlsfb), [SadPencil](https://github.com/SadPencil), [dustofsoul](https://github.com/dustofsoul)</sub> |
 | [StringDictionary.zh-Hant.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hant.xaml) | Chinese (Traditional) | O | O |  | <sub>[Hulen](https://github.com/Hulen), [SadPencil](https://github.com/SadPencil), [kix99aug](https://github.com/kix99aug)</sub> |
 
 ### Other Languages 
