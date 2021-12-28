@@ -320,10 +320,10 @@
 	<system:String x:Key="Words.Hide">隐藏</system:String>
 
 	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">Timeout</system:String>
-	<system:String x:Key="Words.Seconds">seconds</system:String>
+	<system:String x:Key="Words.Timeout">超时</system:String>
+	<system:String x:Key="Words.Seconds">秒</system:String>
 
-	<system:String x:Key="Words.Connected">Connected</system:String>
-	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
-	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
+	<system:String x:Key="Words.Connected">已连接</system:String>
+	<system:String x:Key="Words.Disconnected">已断开</system:String>
+	<system:String x:Key="Message.FileInUse">正在使用的文件: {0}</system:String>
 </ResourceDictionary>
