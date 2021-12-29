@@ -20,7 +20,7 @@ Your contribution can be recorded through the "Pull Request".
 | [StringDictionary.fr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.fr.xaml) | French | O |  |  | <sub>[jeromeFa](https://github.com/jeromeFa), [DoryanR](https://github.com/DoryanR)</sub> |
 | [StringDictionary.hr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.hr.xaml) | Croatian |  |  | |  |
 | [StringDictionary.hu.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.hu.xaml) | Hungarian | O |  |  | <sub>[lostprophet](https://github.com/lostprophet)</sub> |
-| [StringDictionary.id.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.id.xaml) | Indonesian | O | O |  | <sub>[alif72](https://github.com/alif72), [vzrenggamani](https://github.com/vzrenggamani)</sub> |
+| [StringDictionary.id.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.id.xaml) | Indonesian | O | O | O | <sub>[alif72](https://github.com/alif72), [vzrenggamani](https://github.com/vzrenggamani)</sub> |
 | [StringDictionary.it.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.it.xaml) | Italian | O | | | <sub>[gabrig11](https://github.com/gabrig11)</sub> |
 | [StringDictionary.ja.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ja.xaml) | Japanese | O |  |  | <sub>[wizard872](https://github.com/wizard872), [yuk7](https://github.com/yuk7), [Kai-Z-JP](https://github.com/kai-z-jp)</sub> |
 | [StringDictionary.ko.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ko.xaml) | Korean | O | O | O | <sub>[RaiDrive](https://www.raidrive.com), [endorphin-pk](https://github.com/endorphin-pk)</sub> |
