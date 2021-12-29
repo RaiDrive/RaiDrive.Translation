@@ -17,11 +17,11 @@
 	<system:String x:Key="Settings.Language">Bahasa</system:String>
 	<system:String x:Key="Settings.Update">Update</system:String>
 	<system:String x:Key="Settings.Facebook">Facebook</system:String>
-	<system:String x:Key="Settings.Facebook.Like">Like</system:String>
-	<system:String x:Key="Settings.TemporaryPath">Temporary</system:String>
-	<system:String x:Key="Settings.Default">Default</system:String>
+	<system:String x:Key="Settings.Facebook.Like">Sukai</system:String>
+	<system:String x:Key="Settings.TemporaryPath">Sementara</system:String>
+	<system:String x:Key="Settings.Default">Bawaan</system:String>
 	<system:String x:Key="Settings.License">Lisensi</system:String>
-	<system:String x:Key="Settings.Proxy">Proxy</system:String>
+	<system:String x:Key="Settings.Proxy">Proksi</system:String>
 
 	<system:String x:Key="Settings.General.RunAtBoot">Jalankan program secara otomatis, ketika Windows mulai</system:String>
 	<system:String x:Key="Settings.General.RunAtConnect">Jalankan File Explorer ketika drive sudah terkoneksi</system:String>
@@ -41,7 +41,7 @@
 	<system:String x:Key="AddDrive.Username">Nama Pengguna</system:String>
 	<system:String x:Key="AddDrive.Password">Kata Sandi</system:String>
 	<system:String x:Key="AddDrive.Anonymous">Tanpa Nama</system:String>
-	<system:String x:Key="AddDrive.Address">Address</system:String>
+	<system:String x:Key="AddDrive.Address">Alamat</system:String>
 	<system:String x:Key="AddDrive.Port">Port</system:String>
 	<system:String x:Key="AddDrive.Device">Perangkat</system:String>
 	<system:String x:Key="AddDrive.PrivateKey">Kunci Privat</system:String>
@@ -68,9 +68,9 @@
 	<system:String x:Key="Vailidation.Hint.Username">nama pengguna</system:String>
 	<system:String x:Key="Vailidation.Hint.Password">kata sandi</system:String>
 	<system:String x:Key="Vailidation.Hint.Port">port</system:String>
-	<system:String x:Key="Vailidation.Hint.Path">path</system:String>
+	<system:String x:Key="Vailidation.Hint.Path">jalur</system:String>
 	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">Anda dapat memilih private key file</system:String>
+	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">Anda dapat memilih berkas kunci privat</system:String>
 
 	<system:String x:Key="Button.Yes">Ya</system:String>
 	<system:String x:Key="Button.No">Tidak</system:String>
@@ -107,7 +107,7 @@
 	<system:String x:Key="Message.Title.Reconnect">Hubungkan kembali RaiDrive</system:String>
 	<system:String x:Key="Message.ServiceDown">Tekan tombol OK, unuk RaiDrive bisa berjalan dengan sempurna</system:String>
 	<system:String x:Key="Message.Settings.Reconnect">Silakan tekan tombol OK, Anda harus menghubungkan kembali remote storage agar pengaturan yang diubah berlaku.</system:String>
-	<system:String x:Key="Message.NotReady.Reboot">RaiDrive belum siap untuk memulai, Anda perlu me-restart sistem.</system:String>
+	<system:String x:Key="Message.NotReady.Reboot">RaiDrive belum siap untuk memulai, Anda perlu memulai ulang sistem.</system:String>
 	<system:String x:Key="Message.NotReady.Driver">Driver perangkat tidak diinstal pada sistem Anda. Anda perlu menginstal ulang RaiDrive.</system:String>
 	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox mendukung Internet Explorer 10, 11. Anda sebaiknya menginstal Internet Explorer 11.</system:String>
 	<system:String x:Key="Message.Connect.By">Terkoneksi dengan RaiDrive</system:String>
@@ -141,7 +141,7 @@
 	<system:String x:Key="SocketError.TimedOut">Cek address</system:String>
 	<system:String x:Key="SocketError.ConnectionRefused">Silakan periksa port{0}.</system:String>
 
-	<system:String x:Key="OtherResponseCode.2">Path tidak ditemukan. Periksa path{0}.</system:String>
+	<system:String x:Key="OtherResponseCode.2">jalur tidak ditemukan. Periksa jalur{0}.</system:String>
 	<system:String x:Key="OtherResponseCode.3">Harap periksa protokol{0} dan port{1}.</system:String>
 	<!--  ConnectResponse Message  -->
 
@@ -152,7 +152,7 @@
 	<system:String x:Key="Words.Send.Opinion">Kirim Opini</system:String>
 	<system:String x:Key="Words.Code">Kode</system:String>
 	<system:String x:Key="Words.Path">Jalur</system:String>
-	<system:String x:Key="Words.File">File</system:String>
+	<system:String x:Key="Words.File">Berkas</system:String>
 	<system:String x:Key="Words.Ready">Siap</system:String>
 	<system:String x:Key="Words.Time">Waktu</system:String>
 	<system:String x:Key="Words.Error">Kesalahan</system:String>
@@ -240,8 +240,8 @@
 	<system:String x:Key="Words.Site">Situs</system:String>
 
 	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">Project</system:String>
-	<system:String x:Key="Words.Bucket">Bucket</system:String>
+	<system:String x:Key="Words.Project">Proyek</system:String>
+	<system:String x:Key="Words.Bucket">Wadah</system:String>
 	<system:String x:Key="Words.Tenant">Penyewa</system:String>
 	<system:String x:Key="Words.Subscription">Berlangganan</system:String>
 	<system:String x:Key="Words.Community">Komunitas</system:String>
@@ -280,14 +280,14 @@
 	<system:String x:Key="GoogleDrive.Computers">Komputer</system:String>
 	<system:String x:Key="GoogleDrive.SharedLink">Tautan bersama</system:String>
 
-	<system:String x:Key="OneDrive.Files">File</system:String>
+	<system:String x:Key="OneDrive.Files">Berkas</system:String>
 	<system:String x:Key="OneDrive.Shared">Bersama</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Tautan bersama</system:String>
 
 	<!--  from 2020.6  -->
 	<system:String x:Key="Words.Bandwidth">Bandwidth</system:String>
-	<system:String x:Key="Words.Download">Download</system:String>
-	<system:String x:Key="Words.Upload">Upload</system:String>
+	<system:String x:Key="Words.Download">Unduh</system:String>
+	<system:String x:Key="Words.Upload">Unggah</system:String>
 	<system:String x:Key="Words.Capacity">Kapasitas</system:String>
 
 	<!--  from 2020.9  -->
@@ -319,10 +319,10 @@
 	<system:String x:Key="Words.Hide">Sembunyikan</system:String>
 
 	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">Timeout</system:String>
-	<system:String x:Key="Words.Seconds">seconds</system:String>
+	<system:String x:Key="Words.Timeout">Waktu habis</system:String>
+	<system:String x:Key="Words.Seconds">Detik</system:String>
 
-	<system:String x:Key="Words.Connected">Connected</system:String>
-	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
-	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
+	<system:String x:Key="Words.Connected">Terhubung</system:String>
+	<system:String x:Key="Words.Disconnected">Terputus</system:String>
+	<system:String x:Key="Message.FileInUse">Berkas yang sedang digunakan: {0}</system:String>
 </ResourceDictionary>
