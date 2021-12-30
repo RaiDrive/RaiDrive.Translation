@@ -319,10 +319,10 @@
 	<system:String x:Key="Words.Hide">Sembunyi</system:String>
 
 	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">Timeout</system:String>
-	<system:String x:Key="Words.Seconds">seconds</system:String>
+	<system:String x:Key="Words.Timeout">Masa tamat</system:String>
+	<system:String x:Key="Words.Seconds">saat</system:String>
 
-	<system:String x:Key="Words.Connected">Connected</system:String>
-	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
-	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
+	<system:String x:Key="Words.Connected">Bersambung</system:String>
+	<system:String x:Key="Words.Disconnected">Diputuskan</system:String>
+	<system:String x:Key="Message.FileInUse">Fail sedang digunakan: {0}</system:String>
 </ResourceDictionary>
