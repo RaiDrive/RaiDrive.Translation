@@ -311,7 +311,7 @@
 	<system:String x:Key="Words.Export">Xuất</system:String>
 	<system:String x:Key="Words.ProcessMonitor">Giám sát quá trình</system:String>
 
-	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
+	<system:String x:Key="Account.Endpoint">Điểm cuối giao tiếp</system:String>
 	<system:String x:Key="GoogleDrive.SharedDrives">Ổ đĩa chia sẻ</system:String>
 
 	<system:String x:Key="Words.Reading">Đang đọc</system:String>
@@ -319,10 +319,10 @@
 	<system:String x:Key="Words.Hide">Ẩn</system:String>
 
 	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">Timeout</system:String>
-	<system:String x:Key="Words.Seconds">seconds</system:String>
+	<system:String x:Key="Words.Timeout">Thời gian dừng</system:String>
+	<system:String x:Key="Words.Seconds">giây</system:String>
 
-	<system:String x:Key="Words.Connected">Connected</system:String>
-	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
-	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
+	<system:String x:Key="Words.Connected">Đã kết nối</system:String>
+	<system:String x:Key="Words.Disconnected">Mất kết nối</system:String>
+	<system:String x:Key="Message.FileInUse">Tệp đang được Sử dụng: {0}</system:String>
 </ResourceDictionary>
