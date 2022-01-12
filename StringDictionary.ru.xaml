@@ -318,10 +318,10 @@
 	<system:String x:Key="Words.Hide">Скрыть</system:String>
 
 	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">Timeout</system:String>
-	<system:String x:Key="Words.Seconds">seconds</system:String>
+	<system:String x:Key="Words.Timeout">Таймаут</system:String>
+	<system:String x:Key="Words.Seconds">секунд</system:String>
 
-	<system:String x:Key="Words.Connected">Connected</system:String>
-	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
-	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
+	<system:String x:Key="Words.Connected">Подключено</system:String>
+	<system:String x:Key="Words.Disconnected">Отключено</system:String>
+	<system:String x:Key="Message.FileInUse">Используется файлов: {0}</system:String>
 </ResourceDictionary>
