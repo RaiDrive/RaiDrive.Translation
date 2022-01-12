@@ -321,10 +321,10 @@
 	<system:String x:Key="Words.Hide">ซ่อน</system:String>
 
 	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">Timeout</system:String>
-	<system:String x:Key="Words.Seconds">seconds</system:String>
+	<system:String x:Key="Words.Timeout">หมดเวลา</system:String>
+	<system:String x:Key="Words.Seconds">วินาที</system:String>
 
-	<system:String x:Key="Words.Connected">Connected</system:String>
-	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
-	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
+	<system:String x:Key="Words.Connected">เชื่อมต่อแล้ว</system:String>
+	<system:String x:Key="Words.Disconnected">ตัดการเชื่อมต่อแล้ว</system:String>
+	<system:String x:Key="Message.FileInUse">ไฟล์ที่ใช้งานอยู่: {0}</system:String>
 </ResourceDictionary>
