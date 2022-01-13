@@ -318,10 +318,10 @@
 	<system:String x:Key="Words.Hide">Κρυφό</system:String>
 
 	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">Timeout</system:String>
-	<system:String x:Key="Words.Seconds">seconds</system:String>
+	<system:String x:Key="Words.Timeout">Λήξη χρονικού ορίου</system:String>
+	<system:String x:Key="Words.Seconds">δευτερόλεπτα</system:String>
 
-	<system:String x:Key="Words.Connected">Connected</system:String>
-	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
-	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
+	<system:String x:Key="Words.Connected">Σε σύνδεση</system:String>
+	<system:String x:Key="Words.Disconnected">Αποσυνδεμένο</system:String>
+	<system:String x:Key="Message.FileInUse">Αρχείο(α) σε χρήση: {0}</system:String>
 </ResourceDictionary>
