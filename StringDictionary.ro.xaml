@@ -319,9 +319,9 @@
 
 	<!--  from 2021.10  -->
 	<system:String x:Key="Words.Timeout">Timeout</system:String>
-	<system:String x:Key="Words.Seconds">seconds</system:String>
+	<system:String x:Key="Words.Seconds">Secunde</system:String>
 
-	<system:String x:Key="Words.Connected">Connected</system:String>
-	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
-	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
+	<system:String x:Key="Words.Connected">Conectat</system:String>
+	<system:String x:Key="Words.Disconnected">Deconectat</system:String>
+	<system:String x:Key="Message.FileInUse">Fișier(e) în uz: {0}</system:String>
 </ResourceDictionary>
