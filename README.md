@@ -30,7 +30,7 @@ Your contribution can be recorded through the "Pull Request".
 | [StringDictionary.pl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pl.xaml) | Polish | O |  |  | <sub>[adrianwnuk](https://github.com/adrianwnuk)</sub> |
 | [StringDictionary.pt-PT.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-PT.xaml) | Portuguese | O |  |  | <sub>[Wolf-Wind](https://github.com/Wolf-Wind)</sub> |
 | [StringDictionary.pt-BR.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-BR.xaml) | Brazilian Portuguese | O | O |  | <sub>[fidodone](https://github.com/fidodone)</sub> |
-| [StringDictionary.ro.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ro.xaml) | Romanian | O | | | <sub>[foxhnd](https://github.com/foxhnd)</sub> |
+| [StringDictionary.ro.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ro.xaml) | Romanian | O | | O | <sub>[foxhnd](https://github.com/foxhnd)</sub> |
 | [StringDictionary.ru.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ru.xaml) | Russian | O | O | O | <sub>[kostefun](https://github.com/kostefun)</sub> |
 | [StringDictionary.sv.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.sv.xaml) | Swedish | O | O |  | <sub>[imprex92](https://github.com/imprex92)</sub> |
 | [StringDictionary.th.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.th.xaml) | Thai | O | O | O | <sub>[yutthaphon](https://github.com/yutthaphon), [naruepanart](https://github.com/naruepanart)</sub> |
