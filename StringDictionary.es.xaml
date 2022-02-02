@@ -319,10 +319,10 @@
 	<system:String x:Key="Words.Hide">Ocultar</system:String>
 
 	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">Timeout</system:String>
-	<system:String x:Key="Words.Seconds">seconds</system:String>
+	<system:String x:Key="Words.Timeout">Interrupción</system:String>
+	<system:String x:Key="Words.Seconds">sobras</system:String>
 
-	<system:String x:Key="Words.Connected">Connected</system:String>
-	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
-	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
+	<system:String x:Key="Words.Connected">Conexo</system:String>
+	<system:String x:Key="Words.Disconnected">Desconectado</system:String>
+	<system:String x:Key="Message.FileInUse">Archivo(s) en uso: {0}</system:String>
 </ResourceDictionary>
