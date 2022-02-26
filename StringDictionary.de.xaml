@@ -208,7 +208,7 @@
 	<system:String x:Key="Backup.LogTab.Ready">Bereit</system:String>
 	<system:String x:Key="Backup.LogTab.Left">Übrig</system:String>
 	<system:String x:Key="Backup.LogTab.File">Datei</system:String>
-	<system:String x:Key="Backup.LogTab.Folder">Order</system:String>
+	<system:String x:Key="Backup.LogTab.Folder">Ordner</system:String>
 	<system:String x:Key="Backup.LogTab.FollowLatest">Folge letztem</system:String>
 	<system:String x:Key="Backup.Count.Left">Übrig</system:String>
 	<system:String x:Key="Backup.Count.Processed">Verarbeitet</system:String>
