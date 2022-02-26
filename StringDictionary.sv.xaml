@@ -317,10 +317,10 @@
 	<system:String x:Key="Words.Hide">Dölj</system:String>
 
 	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Timeout">Avbrott</system:String>
 	<system:String x:Key="Words.Seconds">Sekunder</system:String>
 
 	<system:String x:Key="Words.Connected">Ansluten</system:String>
-	<system:String x:Key="Words.Disconnected">Bortkopplad</system:String>
-	<system:String x:Key="Message.FileInUse">Filer som används {0}</system:String>
+	<system:String x:Key="Words.Disconnected">Frånkopplad</system:String>
+	<system:String x:Key="Message.FileInUse">Fil(er) som används: {0}</system:String>
 </ResourceDictionary>
