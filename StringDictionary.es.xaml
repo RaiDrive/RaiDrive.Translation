@@ -320,9 +320,9 @@
 
 	<!--  from 2021.10  -->
 	<system:String x:Key="Words.Timeout">Interrupción</system:String>
-	<system:String x:Key="Words.Seconds">sobras</system:String>
+	<system:String x:Key="Words.Seconds">Segundos</system:String>
 
-	<system:String x:Key="Words.Connected">Conexo</system:String>
+	<system:String x:Key="Words.Connected">Conectado</system:String>
 	<system:String x:Key="Words.Disconnected">Desconectado</system:String>
 	<system:String x:Key="Message.FileInUse">Archivo(s) en uso: {0}</system:String>
 </ResourceDictionary>
