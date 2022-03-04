@@ -321,20 +321,20 @@
 	<system:String x:Key="Words.Hide">Verstecken</system:String>
 
 	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">Timeout</system:String>
-	<system:String x:Key="Words.Seconds">seconds</system:String>
+	<system:String x:Key="Words.Timeout">Zeitüberschreitung</system:String>
+	<system:String x:Key="Words.Seconds">sekunden</system:String>
 
-	<system:String x:Key="Words.Connected">Connected</system:String>
-	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
-	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
+	<system:String x:Key="Words.Connected">Verbunden</system:String>
+	<system:String x:Key="Words.Disconnected">Getrennt</system:String>
+	<system:String x:Key="Message.FileInUse">Datei(en) in Verwendung: {0}</system:String>
 
 	<!--  from 2022.3  -->
-	<system:String x:Key="Words.Sort">Sort</system:String>
-	<system:String x:Key="Words.Sort.None">None</system:String>
-	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
-	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
-	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
-	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+	<system:String x:Key="Words.Sort">Sortierung</system:String>
+	<system:String x:Key="Words.Sort.None">Keine</system:String>
+	<system:String x:Key="Words.Sort.Ascending">Aufsteigend</system:String>
+	<system:String x:Key="Words.Sort.Descending">Absteigend</system:String>
+	<system:String x:Key="Words.VolumeLabel">Datenträgerbezeichnung</system:String>
+	<system:String x:Key="Words.DriveLetter">Laufwerksbuchstabe</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">Das eingegebene Kennwort ist falsch. Versuchen Sie es noch mal.</system:String>
 </ResourceDictionary>
