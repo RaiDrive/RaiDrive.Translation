@@ -325,4 +325,14 @@
 	<system:String x:Key="Words.Connected">연결됨</system:String>
 	<system:String x:Key="Words.Disconnected">끊김</system:String>
 	<system:String x:Key="Message.FileInUse">사용중인 파일: {0}</system:String>
+
+	<!--  from 2022.3  -->
+	<system:String x:Key="Words.Sort">정렬</system:String>
+	<system:String x:Key="Words.Sort.None">안함</system:String>
+	<system:String x:Key="Words.Sort.Ascending">오름차순</system:String>
+	<system:String x:Key="Words.Sort.Descending">내림차순</system:String>
+	<system:String x:Key="Words.VolumeLabel">볼륨 라벨</system:String>
+	<system:String x:Key="Words.DriveLetter">드라이브 문자</system:String>
+
+	<system:String x:Key="Message.IncorrectPassword">입력한 비밀번호가 잘못되었습니다. 다시 시도하세요.</system:String>
 </ResourceDictionary>

@@ -324,4 +324,14 @@
 	<system:String x:Key="Words.Connected">Connected</system:String>
 	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
 	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
+
+	<!--  from 2022.3  -->
+	<system:String x:Key="Words.Sort">Sort</system:String>
+	<system:String x:Key="Words.Sort.None">None</system:String>
+	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
+	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
+	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
+	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+
+	<system:String x:Key="Message.IncorrectPassword">Wprowadzone hasło jest niepoprawne. Spróbuj ponownie.</system:String>
 </ResourceDictionary>

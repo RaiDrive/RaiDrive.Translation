@@ -325,4 +325,14 @@
 	<system:String x:Key="Words.Connected">Verbonden</system:String>
 	<system:String x:Key="Words.Disconnected">Verbinding verbroken</system:String>
 	<system:String x:Key="Message.FileInUse">Bestand(en) in gebruik: {0}</system:String>
+
+	<!--  from 2022.3  -->
+	<system:String x:Key="Words.Sort">Sort</system:String>
+	<system:String x:Key="Words.Sort.None">None</system:String>
+	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
+	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
+	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
+	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+
+	<system:String x:Key="Message.IncorrectPassword">The password you entered is not correct. Please try again.</system:String>
 </ResourceDictionary>

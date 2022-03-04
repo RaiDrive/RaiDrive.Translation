@@ -326,4 +326,14 @@
 	<system:String x:Key="Words.Connected">已連線</system:String>
 	<system:String x:Key="Words.Disconnected">已中斷連線</system:String>
 	<system:String x:Key="Message.FileInUse">正在使用的檔案: {0}</system:String>
+
+	<!--  from 2022.3  -->
+	<system:String x:Key="Words.Sort">Sort</system:String>
+	<system:String x:Key="Words.Sort.None">None</system:String>
+	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
+	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
+	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
+	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+
+	<system:String x:Key="Message.IncorrectPassword">輸入的密碼不正確。請再試一次。</system:String>
 </ResourceDictionary>

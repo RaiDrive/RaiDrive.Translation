@@ -327,4 +327,14 @@
 	<system:String x:Key="Words.Connected">接続済み</system:String>
 	<system:String x:Key="Words.Disconnected">切断されました</system:String>
 	<system:String x:Key="Message.FileInUse">使用中のファイル: {0}</system:String>
+
+	<!--  from 2022.3  -->
+	<system:String x:Key="Words.Sort">Sort</system:String>
+	<system:String x:Key="Words.Sort.None">None</system:String>
+	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
+	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
+	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
+	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+
+	<system:String x:Key="Message.IncorrectPassword">入力されたパスワードが正しくありません。もう一度実行してください。</system:String>
 </ResourceDictionary>
