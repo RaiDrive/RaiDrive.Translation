@@ -326,12 +326,12 @@
 	<system:String x:Key="Message.FileInUse">Használatban lévő fájlok: {0}</system:String>
 
 	<!--  from 2022.3  -->
-	<system:String x:Key="Words.Sort">Sort</system:String>
-	<system:String x:Key="Words.Sort.None">None</system:String>
-	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
-	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
-	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
-	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+	<system:String x:Key="Words.Sort">Rendezés</system:String>
+	<system:String x:Key="Words.Sort.None">Nincs</system:String>
+	<system:String x:Key="Words.Sort.Ascending">Emelkedő</system:String>
+	<system:String x:Key="Words.Sort.Descending">Csökkenő</system:String>
+	<system:String x:Key="Words.VolumeLabel">Kötetcímke</system:String>
+	<system:String x:Key="Words.DriveLetter">Meghajtó betűjel</system:String>
 
-	<system:String x:Key="Message.IncorrectPassword">The password you entered is not correct. Please try again.</system:String>
+	<system:String x:Key="Message.IncorrectPassword">A megadott jelszó nem helyes. Kérjük, próbálja újra!</system:String>
 </ResourceDictionary>
