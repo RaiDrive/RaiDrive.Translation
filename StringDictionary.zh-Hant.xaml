@@ -328,12 +328,12 @@
 	<system:String x:Key="Message.FileInUse">正在使用的檔案: {0}</system:String>
 
 	<!--  from 2022.3  -->
-	<system:String x:Key="Words.Sort">Sort</system:String>
-	<system:String x:Key="Words.Sort.None">None</system:String>
-	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
-	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
-	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
-	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+	<system:String x:Key="Words.Sort">排序</system:String>
+	<system:String x:Key="Words.Sort.None">無</system:String>
+	<system:String x:Key="Words.Sort.Ascending">遞增</system:String>
+	<system:String x:Key="Words.Sort.Descending">遞減</system:String>
+	<system:String x:Key="Words.VolumeLabel">磁碟區標籤</system:String>
+	<system:String x:Key="Words.DriveLetter">磁碟機代號</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">輸入的密碼不正確。請再試一次。</system:String>
 </ResourceDictionary>
