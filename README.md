@@ -44,4 +44,4 @@ Your contribution can be recorded through the "Pull Request".
 When you would voluntarily support translation to other language, it is really appreciated and please leave a message on Issues. 
 
 ---
-##### StringDictionary files are based on _[**RaiDrive 2022.3**](https://www.raidrive.com/download/)_
+##### StringDictionary files are based on _[**RaiDrive 2022.3**](coming soon)_
