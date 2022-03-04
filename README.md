@@ -6,7 +6,7 @@ Please give us your helps for the untranslated languages, and improving for the 
 
 Your contribution can be recorded through the "Pull Request".
 
-| File name | Language | Translated | v.2020.10 | v.2021.12 | Contributors |
+| File name | Language | Translated | v.2020.10 | v.2022.3 | Contributors |
 | ----------|:----------:|:------------:|:---------:|:--------:|:----------- |
 | [StringDictionary.ar.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ar.xaml) | Arabic | O | O |  | <sub>[Mugahedb](https://github.com/Mugahedb), [Abu3safeer](https://github.com/Abu3safeer), [Xazmah](https://github.com/Xazmah)</sub> |
 | [StringDictionary.bg.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.bg.xaml) | Bulgarian | O | O |  | <sub>[NenoRMa1eN](https://github.com/NenoRMa1eN)</sub> |
