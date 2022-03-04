@@ -15,7 +15,7 @@ Your contribution can be recorded through the "Pull Request".
 | [StringDictionary.de.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.de.xaml) | German | O | O |  | <sub>[Kasukoi](https://github.com/Kasukoi), [Mar0xy](https://github.com/Mar0xy)</sub> |
 | [StringDictionary.el.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.el.xaml) | Greek | O | O | O | <sub>[SQLtattoo](https://github.com/SQLtattoo)</sub> |
 | [StringDictionary.en.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.en.xaml) | English | O | O | O | <sub>[RaiDrive](https://www.raidrive.com)</sub> |
-| [StringDictionary.es.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.es.xaml) | Spanish | O | O |  | <sub>[realstylishguy](https://github.com/realstylishguy), [juangacovas](https://github.com/juangacovas)</sub> |
+| [StringDictionary.es.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.es.xaml) | Spanish | O | O | O | <sub>[realstylishguy](https://github.com/realstylishguy), [juangacovas](https://github.com/juangacovas)</sub> |
 | [StringDictionary.fa.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.fa.xaml) | Farsi(Persian) | O | | | <sub>[Highdeger](https://github.com/Highdeger)</sub> |
 | [StringDictionary.fr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.fr.xaml) | French | O |  |  | <sub>[jeromeFa](https://github.com/jeromeFa), [DoryanR](https://github.com/DoryanR)</sub> |
 | [StringDictionary.hr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.hr.xaml) | Croatian |  |  | |  |
