@@ -326,12 +326,12 @@
 	<system:String x:Key="Message.FileInUse">Используется файлов: {0}</system:String>
 
 	<!--  from 2022.3  -->
-	<system:String x:Key="Words.Sort">Sort</system:String>
-	<system:String x:Key="Words.Sort.None">None</system:String>
-	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
-	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
-	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
-	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+	<system:String x:Key="Words.Sort">Сортировка</system:String>
+	<system:String x:Key="Words.Sort.None">Нет</system:String>
+	<system:String x:Key="Words.Sort.Ascending">По возрастанию</system:String>
+	<system:String x:Key="Words.Sort.Descending">По убыванию</system:String>
+	<system:String x:Key="Words.VolumeLabel">Метка тома</system:String>
+	<system:String x:Key="Words.DriveLetter">Буква диска</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">Указан неправильный пароль. Повторите попытку.</system:String>
 </ResourceDictionary>
