@@ -328,12 +328,12 @@
 	<system:String x:Key="Message.FileInUse">正在使用的文件: {0}</system:String>
 
 	<!--  from 2022.3  -->
-	<system:String x:Key="Words.Sort">Sort</system:String>
-	<system:String x:Key="Words.Sort.None">None</system:String>
-	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
-	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
-	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
-	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+	<system:String x:Key="Words.Sort">排序</system:String>
+	<system:String x:Key="Words.Sort.None">无</system:String>
+	<system:String x:Key="Words.Sort.Ascending">递增</system:String>
+	<system:String x:Key="Words.Sort.Descending">递减</system:String>
+	<system:String x:Key="Words.VolumeLabel">卷标</system:String>
+	<system:String x:Key="Words.DriveLetter">盘符</system:String>
 
-	<system:String x:Key="Message.IncorrectPassword">输入的密码不正确。请重试。</system:String>
+	<system:String x:Key="Message.IncorrectPassword">您输入的密码不正确。请再次输入。</system:String>
 </ResourceDictionary>
