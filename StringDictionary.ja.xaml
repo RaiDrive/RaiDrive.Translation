@@ -329,12 +329,12 @@
 	<system:String x:Key="Message.FileInUse">使用中のファイル: {0}</system:String>
 
 	<!--  from 2022.3  -->
-	<system:String x:Key="Words.Sort">Sort</system:String>
-	<system:String x:Key="Words.Sort.None">None</system:String>
-	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
-	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
-	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
-	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+	<system:String x:Key="Words.Sort">並び替え</system:String>
+	<system:String x:Key="Words.Sort.None">なし</system:String>
+	<system:String x:Key="Words.Sort.Ascending">昇順</system:String>
+	<system:String x:Key="Words.Sort.Descending">降順</system:String>
+	<system:String x:Key="Words.VolumeLabel">ボリュームラベル</system:String>
+	<system:String x:Key="Words.DriveLetter">ドライブ文字</system:String>
 
-	<system:String x:Key="Message.IncorrectPassword">入力されたパスワードが正しくありません。もう一度実行してください。</system:String>
+	<system:String x:Key="Message.IncorrectPassword">入力されたパスワードが正しくありません。もう一度やり直してください。</system:String>
 </ResourceDictionary>
