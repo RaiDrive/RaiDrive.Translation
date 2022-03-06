@@ -327,12 +327,12 @@
 	<system:String x:Key="Message.FileInUse">Berkas yang sedang digunakan: {0}</system:String>
 
 	<!--  from 2022.3  -->
-	<system:String x:Key="Words.Sort">Sort</system:String>
-	<system:String x:Key="Words.Sort.None">None</system:String>
-	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
-	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
-	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
-	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+	<system:String x:Key="Words.Sort">Sortir</system:String>
+	<system:String x:Key="Words.Sort.None">Tidak Ada</system:String>
+	<system:String x:Key="Words.Sort.Ascending">Naik</system:String>
+	<system:String x:Key="Words.Sort.Descending">Menurun</system:String>
+	<system:String x:Key="Words.VolumeLabel">Label Volume</system:String>
+	<system:String x:Key="Words.DriveLetter">Drive Letter</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">Kata sandi yang Anda masukan tidak benar. Silakan coba lagi.</system:String>
 </ResourceDictionary>
