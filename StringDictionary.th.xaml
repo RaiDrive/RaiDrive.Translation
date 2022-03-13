@@ -293,7 +293,7 @@
 	<system:String x:Key="Words.Capacity">ความจุ</system:String>
 
 	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
+	<system:String x:Key="Words.FileExplorer">สำรวจไฟล์</system:String>
 	<system:String x:Key="FileExplorer.UpdateChangeAsync">อัปเดทการเปลี่ยนแปลงพื้นที่เป็นระยะ</system:String>
 	<system:String x:Key="FileExplorer.KeepModifiedDate">ลองเก็บ &quot;วันที่แก้ไข&quot; เมื่อทำการคัดลอก</system:String>
 	<system:String x:Key="FileExplorer.FilesystemWatcher">ตรวจสอบกระบวนการที่เข้าถึงไฟล์</system:String>
@@ -329,12 +329,12 @@
 	<system:String x:Key="Message.FileInUse">ไฟล์ที่ใช้งานอยู่: {0}</system:String>
 
 	<!--  from 2022.3  -->
-	<system:String x:Key="Words.Sort">Sort</system:String>
-	<system:String x:Key="Words.Sort.None">None</system:String>
-	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
-	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
-	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
-	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+	<system:String x:Key="Words.Sort">เรียงตาม</system:String>
+	<system:String x:Key="Words.Sort.None">ไม่เรียง</system:String>
+	<system:String x:Key="Words.Sort.Ascending">น้อยไปมาก</system:String>
+	<system:String x:Key="Words.Sort.Descending">มากมาน้อย</system:String>
+	<system:String x:Key="Words.VolumeLabel">ชื่อไดร์ฟ</system:String>
+	<system:String x:Key="Words.DriveLetter">อักษรไดร์ฟ</system:String>
 
-	<system:String x:Key="Message.IncorrectPassword">The password you entered is not correct. Please try again.</system:String>
+	<system:String x:Key="Message.IncorrectPassword">รหัสที่คุณกรอกไม่ถูกต้อง โปรดลองอีกครั้ง</system:String>
 </ResourceDictionary>
