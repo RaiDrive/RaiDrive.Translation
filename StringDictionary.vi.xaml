@@ -331,8 +331,8 @@
 	<system:String x:Key="Words.Sort.None">Không</system:String>
 	<system:String x:Key="Words.Sort.Ascending">Tăng dần</system:String>
 	<system:String x:Key="Words.Sort.Descending">Giảm dần</system:String>
-	<system:String x:Key="Words.VolumeLabel">Volume Label</system:String>
-	<system:String x:Key="Words.DriveLetter">Volume Letter</system:String>
+	<system:String x:Key="Words.VolumeLabel">Tên</system:String>
+	<system:String x:Key="Words.DriveLetter">Kí tự</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">Mật khẩu bạn nhập không đúng. Vui lòng thử lại. </system:String>
 </ResourceDictionary>
