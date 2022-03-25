@@ -287,7 +287,7 @@
 	<!--  from 2020.6  -->
 	<system:String x:Key="Words.Bandwidth">Băng thông</system:String>
 	<system:String x:Key="Words.Download">Tải xuống</system:String>
-	<system:String x:Key="Words.Upload">tải lên</system:String>
+	<system:String x:Key="Words.Upload">Tải lên</system:String>
 	<system:String x:Key="Words.Capacity">Dung lượng</system:String>
 
 	<!--  from 2020.9  -->
@@ -327,12 +327,12 @@
 	<system:String x:Key="Message.FileInUse">Tệp đang được Sử dụng: {0}</system:String>
 
 	<!--  from 2022.3  -->
-	<system:String x:Key="Words.Sort">Sort</system:String>
-	<system:String x:Key="Words.Sort.None">None</system:String>
-	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
-	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
-	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
-	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+	<system:String x:Key="Words.Sort">Sắp xếp</system:String>
+	<system:String x:Key="Words.Sort.None">Không</system:String>
+	<system:String x:Key="Words.Sort.Ascending">Tăng dần</system:String>
+	<system:String x:Key="Words.Sort.Descending">Giảm dần</system:String>
+	<system:String x:Key="Words.VolumeLabel">Volume Label</system:String>
+	<system:String x:Key="Words.DriveLetter">Volume Letter</system:String>
 
-	<system:String x:Key="Message.IncorrectPassword">The password you entered is not correct. Please try again.</system:String>
+	<system:String x:Key="Message.IncorrectPassword">Mật khẩu bạn nhập không đúng. Vui lòng thử lại. </system:String>
 </ResourceDictionary>
