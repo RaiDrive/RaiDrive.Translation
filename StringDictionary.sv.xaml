@@ -175,7 +175,7 @@
 	<system:String x:Key="NotifyIcon.Open">Öppna RaiDrive</system:String>
 	<system:String x:Key="NotifyIcon.CheckUpdate">Leta efter uppdatering</system:String>
 	<system:String x:Key="NotifyIcon.Exit">Avsluta</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">Are you sure you want to disconnect all connections before exit? Är du säker på att du vill koppla ifrån alla anslutningar innan du avslutar?</system:String>
+	<system:String x:Key="NotifyIcon.Exit.Message">Är du säker på att du vill koppla ifrån alla anslutningar innan du avslutar?</system:String>
 
 	<system:String x:Key="State.Space.Format">{0} ledigt av {1} {2}</system:String>
 	<system:String x:Key="State.Space.Used">använt</system:String>
