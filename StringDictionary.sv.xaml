@@ -44,7 +44,7 @@
 	<system:String x:Key="AddDrive.Port">Port</system:String>
 	<system:String x:Key="AddDrive.Device">Enhet</system:String>
 	<system:String x:Key="AddDrive.PrivateKey">Privat Nyckel</system:String>
-	<system:String x:Key="AddDrive.Charset">Charset</system:String>
+	<system:String x:Key="AddDrive.Charset">Teckenkod</system:String>
 	<system:String x:Key="AddDrive.TransferMode">Överföringsläge</system:String>
 	<system:String x:Key="AddDrive.Encryption">Kryptering</system:String>
 
@@ -98,8 +98,8 @@
 	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive stöder inte en nätverksenhet</system:String>
 	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive stöder inte att en enhet ansluter av sig själv.</system:String>
 	<system:String x:Key="Message.Exist">Den här mappen är redan inkluderad.</system:String>
-	<system:String x:Key="Message.SelectedPath">Selected Path</system:String>
-	<system:String x:Key="Message.DuplicatedPath">Duplicated Path</system:String>
+	<system:String x:Key="Message.SelectedPath">Vald sökväg</system:String>
+	<system:String x:Key="Message.DuplicatedPath">Duplicerad sökväg</system:String>
 
 	<system:String x:Key="Message.SureDelete">Är du säker på att du vill permanent radera &quot;{0} ({1})&quot; ?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">Återuppliva RaiDrive</system:String>
@@ -126,7 +126,7 @@
 	<system:String x:Key="Message.ErrorDiskLetterExist">Du måste ändra enhetsbeteckning eller enhetsnamn.</system:String>
 
 	<system:String x:Key="Message.OAuth.InvalidClient">Okontrollerad domän av Active Directory</system:String>
-	<system:String x:Key="Message.OAuth.InvalidClientDescription">Ditt konto hanteras inte av Active Directory. Du bör kontakta Active Directory eller domänadministratör eller logga in som ett personligt konto.</system:String>
+	<system:String x:Key="Message.OAuth.InvalidClientDescription">Ditt konto hanteras inte av Active Directory. Du bör kontakta Active Directory, domänadministratör eller logga in som ett personligt konto.</system:String>
 
 	<!--  ConnectResponse Message  -->
 	<system:String x:Key="WebExceptionStatus.ConnectFailure">Vänlig kontrollera adressen.</system:String>
@@ -157,25 +157,25 @@
 	<system:String x:Key="Words.Error">Fel</system:String>
 	<system:String x:Key="Words.State">Skick</system:String>
 	<system:String x:Key="Words.Size">Storlek</system:String>
-	<system:String x:Key="Words.Description">Description</system:String>
+	<system:String x:Key="Words.Description">Beskrivning</system:String>
 
 	<system:String x:Key="Help.Text">HJÄLP</system:String>
 	<system:String x:Key="Help.Add.Drive">NU KÖR VI~</system:String>
 	<system:String x:Key="Help.ServiceDown">RaiDrive Tjänsten stoppades.</system:String>
-	<system:String x:Key="Help.ServiceDown.Press">Vänligen tryck knappen, RaiDrive kommer återupplivas.</system:String>
+	<system:String x:Key="Help.ServiceDown.Press">Vänligen tryck på knappen, RaiDrive kommer återupplivas.</system:String>
 	<system:String x:Key="Help.InternetDown">Din internetanslutning verkar vara frånkopplad. Kontrollera din internetanslutning.</system:String>
 	<system:String x:Key="Help.InternetDown.RetryAfter">Försöker igen om {0} sekund(er).</system:String>
-	<system:String x:Key="Help.License.ForBusiness">for the business version</system:String>
+	<system:String x:Key="Help.License.ForBusiness">för företags version</system:String>
 
 	<system:String x:Key="Upgrade">Uppgradera</system:String>
 	<system:String x:Key="Upgrade.Uptodate">Du använder den senaste versionen</system:String>
 	<system:String x:Key="Upgrade.NewVersion">Du kan uppgradera till version {0}</system:String>
 	<system:String x:Key="Upgrade.New">Du kan uppgradera till den nya versionen</system:String>
 
-	<system:String x:Key="NotifyIcon.Open">Open RaiDrive</system:String>
-	<system:String x:Key="NotifyIcon.CheckUpdate">Check update</system:String>
-	<system:String x:Key="NotifyIcon.Exit">Exit</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">Are you sure you want to disconnect all connections before exit?</system:String>
+	<system:String x:Key="NotifyIcon.Open">Öppna RaiDrive</system:String>
+	<system:String x:Key="NotifyIcon.CheckUpdate">Leta efter uppdatering</system:String>
+	<system:String x:Key="NotifyIcon.Exit">Avsluta</system:String>
+	<system:String x:Key="NotifyIcon.Exit.Message">Är du säker på att du vill koppla ifrån alla anslutningar innan du avslutar?</system:String>
 
 	<system:String x:Key="State.Space.Format">{0} ledigt av {1} {2}</system:String>
 	<system:String x:Key="State.Space.Used">använt</system:String>
@@ -242,7 +242,7 @@
 	<system:String x:Key="Words.Project">Projekt</system:String>
 	<system:String x:Key="Words.Bucket">Hink</system:String>
 	<system:String x:Key="Words.Tenant">Innehavare</system:String>
-	<system:String x:Key="Words.Subscription">Subscription</system:String>
+	<system:String x:Key="Words.Subscription">Prenumeration</system:String>
 	<system:String x:Key="Words.Community">Forum</system:String>
 	<system:String x:Key="Words.Document">Dokument</system:String>
 
@@ -259,13 +259,13 @@
 
 	<system:String x:Key="Account.StorageAccount">Lagringskonto</system:String>
 	<system:String x:Key="Account.StorageKey">Nyckel</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Vänlige ange lagringskontots namn</system:String>
+	<system:String x:Key="Vailidation.StorageAccount">Vänligen ange lagringskontots namn</system:String>
 	<system:String x:Key="Vailidation.StorageKey">Vänligen ange nyckel1 eller nyckel2</system:String>
 
 	<system:String x:Key="Settings.RegisterToStartup">Registrera vid uppstart</system:String>
 	<system:String x:Key="AddDrive.MountAtStart">Återanslut vid programstart</system:String>
 	<system:String x:Key="AddDrive.MountAtBoot">Återanslut vid start</system:String>
-	<system:String x:Key="AddDrive.MountAtSignIn">Återanslutvid inloggning</system:String>
+	<system:String x:Key="AddDrive.MountAtSignIn">Återanslut vid inloggning</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Anslut med andra uppgifter</system:String>
 
 	<!--  from 2020.2.2  -->
@@ -325,12 +325,12 @@
 	<system:String x:Key="Message.FileInUse">Fil(er) som används: {0}</system:String>
 
 	<!--  from 2022.3  -->
-	<system:String x:Key="Words.Sort">Sort</system:String>
-	<system:String x:Key="Words.Sort.None">None</system:String>
-	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
-	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
-	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
-	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+	<system:String x:Key="Words.Sort">Sortera</system:String>
+	<system:String x:Key="Words.Sort.None">Ingen</system:String>
+	<system:String x:Key="Words.Sort.Ascending">Stigande</system:String>
+	<system:String x:Key="Words.Sort.Descending">Fallande</system:String>
+	<system:String x:Key="Words.VolumeLabel">Volymetikett</system:String>
+	<system:String x:Key="Words.DriveLetter">Enhetsbeteckning</system:String>
 
-	<system:String x:Key="Message.IncorrectPassword">The password you entered is not correct. Please try again.</system:String>
+	<system:String x:Key="Message.IncorrectPassword">Lösenordet du angav är felaktigt. Var vänlig försök igen.</system:String>
 </ResourceDictionary>
