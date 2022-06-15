@@ -334,4 +334,8 @@
 	<system:String x:Key="Words.DriveLetter">Буква диска</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">Указан неправильный пароль. Повторите попытку.</system:String>
+
+	<!--  from 2022.6  -->
+	<system:String x:Key="Words.Browser">Browser</system:String>
+	<system:String x:Key="Browser.BrowseInPrivate">Режим инкогнито</system:String>
 </ResourceDictionary>

@@ -336,4 +336,8 @@
 	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">The password you entered is not correct. Please try again.</system:String>
+	
+	<!--  from 2022.6  -->
+	<system:String x:Key="Words.Browser">Browser</system:String>
+	<system:String x:Key="Browser.BrowseInPrivate">Browse in private</system:String>
 </ResourceDictionary>

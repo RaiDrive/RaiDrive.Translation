@@ -335,4 +335,8 @@
 	<system:String x:Key="Words.DriveLetter">Drive Letter</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">Kata sandi yang Anda masukan tidak benar. Silakan coba lagi.</system:String>
+
+	<!--  from 2022.6  -->
+	<system:String x:Key="Words.Browser">Browser</system:String>
+	<system:String x:Key="Browser.BrowseInPrivate">Menjelajah secara rahasia</system:String>
 </ResourceDictionary>

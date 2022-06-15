@@ -337,4 +337,8 @@
 	<system:String x:Key="Words.DriveLetter">ドライブ文字</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">入力されたパスワードが正しくありません。もう一度やり直してください。</system:String>
+
+	<!--  from 2022.6  -->
+	<system:String x:Key="Words.Browser">Browser</system:String>
+	<system:String x:Key="Browser.BrowseInPrivate">シークレット ブラウジング</system:String>
 </ResourceDictionary>

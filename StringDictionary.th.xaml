@@ -337,4 +337,8 @@
 	<system:String x:Key="Words.DriveLetter">อักษรไดร์ฟ</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">รหัสที่คุณกรอกไม่ถูกต้อง โปรดลองอีกครั้ง</system:String>
+	
+	<!--  from 2022.6  -->
+	<system:String x:Key="Words.Browser">Browser</system:String>
+	<system:String x:Key="Browser.BrowseInPrivate">ท่องเว็บแบบส่วนตัว</system:String>
 </ResourceDictionary>

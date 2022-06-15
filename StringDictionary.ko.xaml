@@ -19,7 +19,7 @@
 	<system:String x:Key="Settings.Facebook">페이스북</system:String>
 	<system:String x:Key="Settings.Facebook.Like">좋아요</system:String>
 	<system:String x:Key="Settings.TemporaryPath">임시폴더</system:String>
-	<system:String x:Key="Settings.Default">기본값</system:String>
+	<system:String x:Key="Settings.Default">기본</system:String>
 	<system:String x:Key="Settings.License">라이선스</system:String>
 	<system:String x:Key="Settings.Proxy">프록시</system:String>
 
@@ -335,4 +335,8 @@
 	<system:String x:Key="Words.DriveLetter">드라이브 문자</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">입력한 비밀번호가 잘못되었습니다. 다시 시도하세요.</system:String>
+
+	<!--  from 2022.6  -->
+	<system:String x:Key="Words.Browser">브라우저</system:String>
+	<system:String x:Key="Browser.BrowseInPrivate">시크릿 브라우징</system:String>
 </ResourceDictionary>

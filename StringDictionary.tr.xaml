@@ -346,4 +346,8 @@
 	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">Cihazınız için girdiğiniz parola yanlış. Lütfen tekrar deneyin.</system:String>
+
+	<!--  from 2022.6  -->
+	<system:String x:Key="Words.Browser">Browser</system:String>
+	<system:String x:Key="Browser.BrowseInPrivate">Gizli olarak göz atma</system:String>
 </ResourceDictionary>

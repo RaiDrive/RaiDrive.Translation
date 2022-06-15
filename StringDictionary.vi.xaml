@@ -335,5 +335,9 @@
 	<system:String x:Key="Words.VolumeLabel">Tên</system:String>
 	<system:String x:Key="Words.DriveLetter">Kí tự</system:String>
 
-	<system:String x:Key="Message.IncorrectPassword">Mật khẩu bạn nhập không đúng. Vui lòng thử lại. </system:String>
+	<system:String x:Key="Message.IncorrectPassword">Mật khẩu bạn nhập không đúng. Vui lòng thử lại.</system:String>
+
+	<!--  from 2022.6  -->
+	<system:String x:Key="Words.Browser">Browser</system:String>
+	<system:String x:Key="Browser.BrowseInPrivate">Duyệt web ở chế độ riêng tư</system:String>
 </ResourceDictionary>

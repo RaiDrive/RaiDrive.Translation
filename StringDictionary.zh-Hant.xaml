@@ -336,4 +336,8 @@
 	<system:String x:Key="Words.DriveLetter">磁碟機代號</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">輸入的密碼不正確。請再試一次。</system:String>
+
+	<!--  from 2022.6  -->
+	<system:String x:Key="Words.Browser">Browser</system:String>
+	<system:String x:Key="Browser.BrowseInPrivate">私密瀏覽</system:String>
 </ResourceDictionary>

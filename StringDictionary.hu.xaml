@@ -334,4 +334,8 @@
 	<system:String x:Key="Words.DriveLetter">Meghajtó betűjel</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">A megadott jelszó nem helyes. Kérjük, próbálja újra!</system:String>
+
+	<!--  from 2022.6  -->
+	<system:String x:Key="Words.Browser">Browser</system:String>
+	<system:String x:Key="Browser.BrowseInPrivate">Privát böngészés</system:String>
 </ResourceDictionary>

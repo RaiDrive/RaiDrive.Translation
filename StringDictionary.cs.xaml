@@ -334,4 +334,8 @@
 	<system:String x:Key="Words.DriveLetter">Písmeno jednotky</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">Heslo, které jste zadali, není správné. Zkuste to prosím znovu.</system:String>
+
+	<!--  from 2022.6  -->
+	<system:String x:Key="Words.Browser">Browser</system:String>
+	<system:String x:Key="Browser.BrowseInPrivate">Browse in private</system:String>
 </ResourceDictionary>

@@ -333,4 +333,8 @@
 	<system:String x:Key="Words.DriveLetter">Enhetsbeteckning</system:String>
 
 	<system:String x:Key="Message.IncorrectPassword">Lösenordet du angav är felaktigt. Var vänlig försök igen.</system:String>
+
+	<!--  from 2022.6  -->
+	<system:String x:Key="Words.Browser">Browser</system:String>
+	<system:String x:Key="Browser.BrowseInPrivate">Surfa privat</system:String>
 </ResourceDictionary>
