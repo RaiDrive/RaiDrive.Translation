@@ -326,14 +326,14 @@
 	<system:String x:Key="Message.FileInUse">Αρχείο(α) σε χρήση: {0}</system:String>
 
 	<!--  from 2022.3  -->
-	<system:String x:Key="Words.Sort">Sort</system:String>
-	<system:String x:Key="Words.Sort.None">None</system:String>
-	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
-	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
-	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
-	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+	<system:String x:Key="Words.Sort">Ταξινόμηση</system:String>
+	<system:String x:Key="Words.Sort.None">Αταξινόμητα</system:String>
+	<system:String x:Key="Words.Sort.Ascending">Αύξουσα</system:String>
+	<system:String x:Key="Words.Sort.Descending">Φθίνουσα</system:String>
+	<system:String x:Key="Words.VolumeLabel">Τόμος</system:String>
+	<system:String x:Key="Words.DriveLetter">Δίσκος</system:String>
 
-	<system:String x:Key="Message.IncorrectPassword">The password you entered is not correct. Please try again.</system:String>
+	<system:String x:Key="Message.IncorrectPassword">Ο κωδικός που δώσατε είναι λάθος. Δοκιμάστε πάλι.</system:String>
 
 	<!--  from 2022.6  -->
 	<system:String x:Key="Words.Browser">Browser</system:String>
