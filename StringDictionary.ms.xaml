@@ -337,6 +337,6 @@
 	<system:String x:Key="Message.IncorrectPassword">Kata laluan yang anda masukkan salah. Sila cuba semula.</system:String>
 
 	<!--  from 2022.6  -->
-	<system:String x:Key="Words.Browser">Browser</system:String>
-	<system:String x:Key="Browser.BrowseInPrivate">Semak imbas secara peribadi</system:String>
+	<system:String x:Key="Words.Browser">Pelayar</system:String>
+	<system:String x:Key="Browser.BrowseInPrivate">Layari secara sulit</system:String>
 </ResourceDictionary>
