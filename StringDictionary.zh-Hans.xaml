@@ -338,6 +338,6 @@
 	<system:String x:Key="Message.IncorrectPassword">您输入的密码不正确。请再次输入。</system:String>
 
 	<!--  from 2022.6  -->
-	<system:String x:Key="Words.Browser">Browser</system:String>
+	<system:String x:Key="Words.Browser">浏览器</system:String>
 	<system:String x:Key="Browser.BrowseInPrivate">无痕浏览</system:String>
 </ResourceDictionary>
