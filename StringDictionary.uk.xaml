@@ -336,6 +336,6 @@
 	<system:String x:Key="Message.IncorrectPassword">Введений пароль неправильний. Повторіть спробу.</system:String>
 
 	<!--  from 2022.6  -->
-	<system:String x:Key="Words.Browser">Browser</system:String>
-	<system:String x:Key="Browser.BrowseInPrivate">Як увімкнути режим анонімного перегляду</system:String>
+	<system:String x:Key="Words.Browser">Браузер</system:String>
+	<system:String x:Key="Browser.BrowseInPrivate">Перегляд в анонімному режимі</system:String>
 </ResourceDictionary>
