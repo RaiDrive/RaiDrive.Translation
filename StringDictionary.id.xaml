@@ -338,5 +338,5 @@
 
 	<!--  from 2022.6  -->
 	<system:String x:Key="Words.Browser">Peramban</system:String>
-	<system:String x:Key="Browser.BrowseInPrivate">Jelajahi dalam mode Privat (Incognito)</system:String>
+	<system:String x:Key="Browser.BrowseInPrivate">Jelajahi Secara Pribadi</system:String>
 </ResourceDictionary>
