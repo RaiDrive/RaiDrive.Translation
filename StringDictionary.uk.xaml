@@ -1,341 +1,253 @@
-﻿<ResourceDictionary
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:local="clr-namespace:RaiDrive.Center.Languages"
-	xmlns:system="clr-namespace:System;assembly=mscorlib">
-
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>Alexey Lugin</system:String>
 	</x:Array>
-	<system:String x:Key="Current.Language">uk</system:String>
+	<system:String x:Key="Language.English">Ukrainian</system:String>
+	<system:String x:Key="Language.Native">українська</system:String>
+	<system:String x:Key="Language.Tags">uk</system:String>
 
-	<!--  Settings, General  -->
-	<system:String x:Key="Settings">Параметри</system:String>
-	<system:String x:Key="Settings.Header">Параметри</system:String>
-	<system:String x:Key="Settings.General">Загальні</system:String>
-	<system:String x:Key="Settings.Language">Мова</system:String>
-	<system:String x:Key="Settings.Update">Оновлення</system:String>
-	<system:String x:Key="Settings.Facebook">Facebook</system:String>
-	<system:String x:Key="Settings.Facebook.Like">Подобається</system:String>
-	<system:String x:Key="Settings.TemporaryPath">Кеш</system:String>
-	<system:String x:Key="Settings.Default">За умовчанням</system:String>
-	<system:String x:Key="Settings.License">Ліцензія</system:String>
-	<system:String x:Key="Settings.Proxy">Проксі</system:String>
-
-	<system:String x:Key="Settings.General.RunAtBoot">Запускати програму при завантаженні Windows</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">Відкривати папку в Провіднику після підключення</system:String>
-
-	<system:String x:Key="Notice">Сповіщення</system:String>
-	<system:String x:Key="AddDrive">Додати</system:String>
-	<system:String x:Key="AddDrive.Header">Новий диск</system:String>
-	<system:String x:Key="AddDrive.Storage">Сховище</system:String>
-
-	<!--  Drive  -->
-	<system:String x:Key="AddDrive.Drive">Диск</system:String>
-
-	<!--  Add New Storage  -->
-	<system:String x:Key="AddDrive.Network">Мережа</system:String>
-	<system:String x:Key="AddDrive.ReadOnly">Лише читання</system:String>
-	<system:String x:Key="AddDrive.Account">Обліковий запис</system:String>
-	<system:String x:Key="AddDrive.Username">Користувач</system:String>
-	<system:String x:Key="AddDrive.Password">Пароль</system:String>
-	<system:String x:Key="AddDrive.Anonymous">Анонімно</system:String>
-	<system:String x:Key="AddDrive.Address">Адреса</system:String>
-	<system:String x:Key="AddDrive.Port">Порт</system:String>
-	<system:String x:Key="AddDrive.Device">Пристрій</system:String>
-	<system:String x:Key="AddDrive.PrivateKey">Приватний ключ</system:String>
-	<system:String x:Key="AddDrive.Charset">Кодування</system:String>
-	<system:String x:Key="AddDrive.TransferMode">Режим передачі</system:String>
-	<system:String x:Key="AddDrive.Encryption">Шифрування</system:String>
-
-	<system:String x:Key="Vailidation.Volume">Введіть припустиму мітку тома</system:String>
-	<system:String x:Key="Vailidation.VolumeExist">Це ім'я вже використовується</system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidChar">Мітка тома не може містити наступні символи:</system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidStr">Не використовуйте зарезервовані імена:</system:String>
-	<system:String x:Key="Vailidation.Letter">Виберіть незайняту букву диска</system:String>
-	<system:String x:Key="Vailidation.Address">Введіть ім'я хосту або IP-адресу</system:String>
-	<system:String x:Key="Vailidation.Address.WebDAV">Введіть URL-адресу</system:String>
-	<system:String x:Key="Vailidation.Address.LocalDrive">Виберіть папку на вашому ПК</system:String>
-	<system:String x:Key="Vailidation.Port">Введіть номер порту (1 ~ 65535)</system:String>
-	<system:String x:Key="Vailidation.Username">Введіть ім'я користувача</system:String>
-	<system:String x:Key="Vailidation.Password">Введіть пароль</system:String>
-
-	<!--  Menu bar>Settings, account, volume  -->
-	<system:String x:Key="Vailidation.Hint.Volume">мітка тома</system:String>
-	<system:String x:Key="Vailidation.Hint.Address">host.example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">папка</system:String>
-	<system:String x:Key="Vailidation.Hint.Username">ім'я користувача</system:String>
-	<system:String x:Key="Vailidation.Hint.Password">пароль</system:String>
-	<system:String x:Key="Vailidation.Hint.Port">порт</system:String>
-	<system:String x:Key="Vailidation.Hint.Path">шлях</system:String>
-	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">виберіть приватний ключ</system:String>
-
-	<system:String x:Key="Button.Yes">Так</system:String>
-	<system:String x:Key="Button.No">Ні</system:String>
-	<system:String x:Key="Button.OK">OK</system:String>
-	<system:String x:Key="Button.Apply">Застосувати</system:String>
-	<system:String x:Key="Button.Cancel">Скасувати</system:String>
-	<system:String x:Key="Button.Check">Перевірити</system:String>
-	<system:String x:Key="Button.Edit">Редагувати</system:String>
-	<system:String x:Key="Button.Retry">Повторити</system:String>
-	<system:String x:Key="Button.ReAuth">Вхід</system:String>
-	<system:String x:Key="Button.Login">Увійти</system:String>
-	<system:String x:Key="Button.SIGNIN">ВХІД</system:String>
-
-	<system:String x:Key="ToolTip.Connect">Підключити</system:String>
-	<system:String x:Key="ToolTip.Disconnect">Відключити</system:String>
-	<system:String x:Key="ToolTip.Edit">Редагувати</system:String>
-	<system:String x:Key="ToolTip.Remove">Видалити</system:String>
-	<system:String x:Key="ToolTip.NetworkDrive">Мережевий диск</system:String>
-	<system:String x:Key="ToolTip.SecureProtocol">Безпечний протокол</system:String>
-	<system:String x:Key="ToolTip.SecureConnection">Безпечне підключення</system:String>
-	<system:String x:Key="ToolTip.Backup">Резервування</system:String>
-
-	<system:String x:Key="Message.Title.SelectFolder">Вибрати папку</system:String>
-	<system:String x:Key="Message.Title.DeleteDrive">Видалити диск</system:String>
-
-	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive не підтримує мережевий диск.</system:String>
-	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive не підтримує диск для самостійного підключення.</system:String>
-	<system:String x:Key="Message.Exist">Ця папка вже включена.</system:String>
-	<system:String x:Key="Message.SelectedPath">Вибраний шлях</system:String>
-	<system:String x:Key="Message.DuplicatedPath">Дубльований шлях</system:String>
-
-	<system:String x:Key="Message.SureDelete">Остаточно видалити &quot;{0} ({1})&quot; ?</system:String>
-	<system:String x:Key="Message.Title.ServiceDown">Відновлення RaiDrive</system:String>
-	<system:String x:Key="Message.Title.Reconnect">Перепідключення RaiDrive</system:String>
-	<system:String x:Key="Message.ServiceDown">Натисніть OK, щоб перепідключити RaiDrive.</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">Натисніть OK і змінені параметри наберуть чинності після перепідключення віддаленого сховища.</system:String>
-	<system:String x:Key="Message.NotReady.Reboot">RaiDrive не готовий до запуску. Потрібно перезавантажити систему.</system:String>
-	<system:String x:Key="Message.NotReady.Driver">Драйвер пристрою не встановлений у вашій системі. Потрібно перевстановити RaiDrive.</system:String>
-	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox підтримує Internet Explorer 10 та 11. Краще встановити Internet Explorer 11.</system:String>
-	<system:String x:Key="Message.Connect.By">Підключено через RaiDrive</system:String>
-	<system:String x:Key="Message.Maximum.Drive">У поточній версії можна створити до 8 дисків</system:String>
-	<system:String x:Key="Message.License.Expired">Термін дії вашої ліцензії закінчився. Потрібно завантажити нову версію. Натисніть OK для оновлення.</system:String>
-	<system:String x:Key="Message.License.NotReady">RaiDrive не може перевірити вашу ліцензію.</system:String>
-	<system:String x:Key="Message.UnknownSpace">Розмір диска невідомий</system:String>
-	<system:String x:Key="Message.CurrentVersion">Поточна версія {0}</system:String>
-	<system:String x:Key="Message.Cache.Folder.NotSupport">Тимчасова папка повинна бути на локальному диску. Мережевий диск не підтримується.</system:String>
-
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">Помилка авторизації або автентифікації. Повторити спробу?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Помилка авторизації або автентифікації. Повторити спробу? (Якщо помилка не зникне, видаліть диск і створіть його заново.)</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveLimit">Перевищено квоту завантажень. Обмеження завантажень - це політика {0}.</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">Змінено спосіб підключення до віддаленого сховища. Потрібно ввійти ще раз.</system:String>
-	<system:String x:Key="Message.ErrorCacheDiskFull">Недостатньо місця для зберігання кешу. Збільшіть місце для зберігання.</system:String>
-	<system:String x:Key="Message.ErrorInternet">Не вдається підключитися до віддаленого сховища. Перевірте підключення до Інтернету та повторіть спробу.</system:String>
-	<system:String x:Key="Message.ErrorDiskLetterExist">Потрібно змінити букву або ім'я диска.</system:String>
-
-	<system:String x:Key="Message.OAuth.InvalidClient">Некерований домен Active Directory</system:String>
-	<system:String x:Key="Message.OAuth.InvalidClientDescription">Active Directory не керується вашим обліковим записом. Зверніться до адміністратора Active Directory або домену або увійдіть в особистий обліковий запис.</system:String>
-
-	<!--  ConnectResponse Message  -->
-	<system:String x:Key="WebExceptionStatus.ConnectFailure">Перевірте адресу.</system:String>
-	<system:String x:Key="WebExceptionStatus.ConnectionClosed">Двічі перевірте протокол {0} і порт {1}.</system:String>
-	<system:String x:Key="WebExceptionStatus.SendFailure">Двічі перевірте протокол {0} і порт {1}.</system:String>
-	<system:String x:Key="WebExceptionStatus.ReceiveFailure">Двічі перевірте протокол {0} і порт {1}.</system:String>
-
-	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Перевірте, чи існує шлях {0} і чи надано доступ.</system:String>
-	<system:String x:Key="HttpStatusCode.Unauthorized">Помилка автентифікації. Перевірте свій обліковий запис (пароль).</system:String>
-
-	<system:String x:Key="SocketError.TimedOut">Перевірте адресу.</system:String>
-	<system:String x:Key="SocketError.ConnectionRefused">Перевірте порт {0}.</system:String>
-
-	<system:String x:Key="OtherResponseCode.2">Шлях не існує. Перевірте шлях{0}.</system:String>
-	<system:String x:Key="OtherResponseCode.3">Двічі перевірте протокол {0} і порт {1}.</system:String>
-	<!--  ConnectResponse Message  -->
-
-	<system:String x:Key="Words.Reason">Причина</system:String>
-	<system:String x:Key="Words.Delegation.Stop">Делегування перервано</system:String>
-	<system:String x:Key="Words.Drive">Диск</system:String>
-	<system:String x:Key="Words.FreeSpace">Вільно місця</system:String>
-	<system:String x:Key="Words.Send.Opinion">Надіслати думку</system:String>
-	<system:String x:Key="Words.Code">Код</system:String>
-	<system:String x:Key="Words.Path">Шлях</system:String>
-	<system:String x:Key="Words.File">Файл</system:String>
-	<system:String x:Key="Words.Ready">Готовий</system:String>
-	<system:String x:Key="Words.Time">Час</system:String>
-	<system:String x:Key="Words.Error">Помилка</system:String>
-	<system:String x:Key="Words.State">Стан</system:String>
-	<system:String x:Key="Words.Size">Розмір</system:String>
-	<system:String x:Key="Words.Description">Опис</system:String>
-
-	<system:String x:Key="Help.Text">Довідка</system:String>
-	<system:String x:Key="Help.Add.Drive">ХОДІМО~</system:String>
-	<system:String x:Key="Help.ServiceDown">Службу RaiDrive зупинено.</system:String>
-	<system:String x:Key="Help.ServiceDown.Press">Натисніть кнопку, RaiDrive перезапуститься.</system:String>
-	<system:String x:Key="Help.InternetDown">Схоже, відсутнє з'єднання з Інтернетом. Перевірте підключення до Інтернету.</system:String>
-	<system:String x:Key="Help.InternetDown.RetryAfter">Повторити через {0} секунд.</system:String>
-	<system:String x:Key="Help.License.ForBusiness">для бізнес-версії</system:String>
-
-	<system:String x:Key="Upgrade">Оновити</system:String>
-	<system:String x:Key="Upgrade.Uptodate">Ви використовуєте останню версію</system:String>
-	<system:String x:Key="Upgrade.NewVersion">Можна оновити до версії {0}</system:String>
-	<system:String x:Key="Upgrade.New">Ви можете оновити до нової версії</system:String>
-
-	<system:String x:Key="NotifyIcon.Open">Відкрити RaiDrive</system:String>
-	<system:String x:Key="NotifyIcon.CheckUpdate">Перевірити оновлення</system:String>
-	<system:String x:Key="NotifyIcon.Exit">Вихід</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">Відключити всі підключення перед виходом?</system:String>
-
-	<system:String x:Key="State.Space.Format">{0} вільно з {1} {2}</system:String>
-	<system:String x:Key="State.Space.Used">використано</system:String>
-
-	<system:String x:Key="Brand.Synology">Synology</system:String>
-	<system:String x:Key="Brand.QNAP">QNAP</system:String>
-	<system:String x:Key="Brand.Box_com">Box</system:String>
-	<system:String x:Key="Brand.ipTIME">ipTIME</system:String>
-	<system:String x:Key="Brand.WD">WD</system:String>
-	<system:String x:Key="Brand.etc">інші</system:String>
-
-	<!--  backup  -->
-	<system:String x:Key="Backup">Резервування</system:String>
-	<system:String x:Key="Backup.Add">Додати</system:String>
-	<system:String x:Key="Backup.Delete">Видалити</system:String>
-	<system:String x:Key="Backup.Start">Запустити</system:String>
-	<system:String x:Key="Backup.Stop">Зупинити</system:String>
-	<system:String x:Key="Backup.BackupNOW">Резервувати ЗАРАЗ</system:String>
-	<system:String x:Key="Backup.NOW">ЗАРАЗ</system:String>
-	<system:String x:Key="Backup.Save">Зберегти</system:String>
-	<system:String x:Key="Backup.ClearLog">Очистити журнал</system:String>
-	<system:String x:Key="Backup.DestRootFolder">Віддалена папка</system:String>
-	<system:String x:Key="Backup.SourceFolders">Початкова папка</system:String>
-	<system:String x:Key="Backup.Progress">Перебіг</system:String>
-	<system:String x:Key="Backup.AutoStart">Автозапуск</system:String>
-	<system:String x:Key="Backup.LogTab.Current">Поточний</system:String>
-	<system:String x:Key="Backup.LogTab.All">Усі</system:String>
-	<system:String x:Key="Backup.LogTab.Error">Помилка</system:String>
-	<system:String x:Key="Backup.LogTab.Ready">Готовий</system:String>
-	<system:String x:Key="Backup.LogTab.Left">Залишилося</system:String>
-	<system:String x:Key="Backup.LogTab.File">Файл</system:String>
-	<system:String x:Key="Backup.LogTab.Folder">Папка</system:String>
-	<system:String x:Key="Backup.LogTab.FollowLatest">Стежити за останніми</system:String>
-	<system:String x:Key="Backup.Count.Left">Залишилося</system:String>
-	<system:String x:Key="Backup.Count.Processed">Виконано</system:String>
-
-	<system:String x:Key="Message.Backup.BackupTargetFolder">Виберіть віддалену папку для зберігання файлів</system:String>
-
-	<!--  from version 1.6.0.416  -->
-	<system:String x:Key="Settings.General.UseDriveIcon">Піктограма RaiDrive на підключеному диску</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">Локальний диск</system:String>
-	<system:String x:Key="AddDrive.FileLock">Блокування файлів</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">Записуваний диск</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">Монтувати як локальний диск</system:String>
-	<system:String x:Key="ToolTip.FileLock">Блокування файлів WebDAV</system:String>
-	<system:String x:Key="ToolTip.FileLock2">залежить від сервера WebDAV</system:String>
-	<system:String x:Key="ToolTip.FileLock3">Ваш сервер може не підтримувати</system:String>
-
-	<!--  from version 1.7.0  -->
-	<system:String x:Key="Identity.SignIn">Вхід</system:String>
-	<system:String x:Key="Identity.SignOut">Вихід</system:String>
-	<system:String x:Key="Identity.SignOut.Question1">Функції вашої передплати будуть вимкнені, а всі диски перепідключені. Збережіть файли або закрийте програму</system:String>
-	<system:String x:Key="Identity.SignOut.Question2">Ви дійсно бажаєте вийти?</system:String>
-	<system:String x:Key="Subscription.Switched">Змінено на {0}</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">Інший сеанс попросив повернути ваш поточний сеанс {0}. Всі диски будуть перепідключені. Збережіть файли або закрийте програму</system:String>
-	<system:String x:Key="Subscription.Switched.Desc2">Буде застосовано після {0}, щоб зробити це негайно натисніть кнопку OK.</system:String>
-
-	<!--  from version 1.8.0  -->
-	<system:String x:Key="Words.Public">Публічний</system:String>
-	<system:String x:Key="Words.Private">Приватний</system:String>
-	<system:String x:Key="Words.Site">Сайт</system:String>
-
-	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">Проєкт</system:String>
-	<system:String x:Key="Words.Bucket">Бакет</system:String>
-	<system:String x:Key="Words.Tenant">Клієнти</system:String>
-	<system:String x:Key="Words.Subscription">Передплата</system:String>
-	<system:String x:Key="Words.Community">Спільнота</system:String>
-	<system:String x:Key="Words.Document">Керівництво</system:String>
-
-	<system:String x:Key="Words.Cache">Кеш</system:String>
-	<system:String x:Key="Words.Lifetime">Зберігати</system:String>
-	<system:String x:Key="Words.Read">читання</system:String>
-	<system:String x:Key="Words.Write">запис</system:String>
-	<system:String x:Key="Words.Second">секунд</system:String>
-
-	<system:String x:Key="Account.AccessKeyID">Ідентифікатор ключа</system:String>
-	<system:String x:Key="Account.SecretAccessKey">Секретний ключ доступу</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">Введіть ідентифікатор ключа</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Введіть секретний ключ доступу</system:String>
-
-	<system:String x:Key="Account.StorageAccount">Обліковий запис сховища</system:String>
-	<system:String x:Key="Account.StorageKey">Ключ</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Введіть ім'я облікового запису сховища</system:String>
-	<system:String x:Key="Vailidation.StorageKey">Введіть key1 або key2</system:String>
-
-	<system:String x:Key="Settings.RegisterToStartup">Додати в автозавантаження</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Підключати при запуску програми</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Підключати при запуску системи</system:String>
-	<system:String x:Key="AddDrive.MountAtSignIn">Підключати при вході в систему</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Вхід з іншими обліковими даними</system:String>
-
-	<!--  from 2020.2.2  -->
-	<system:String x:Key="Message.MountPointFolder.Condition">Шляхи до точок монтування доступні лише в порожніх папках на базових або динамічних томах NTFS.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">Для призначення папки потрібен параметр публічного локального диска</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrl">URL-адреса папки</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrlID">URL-адреса папки або ідентифікатор</system:String>
-
-	<system:String x:Key="GoogleDrive.MyDrive">Мій диск</system:String>
-	<system:String x:Key="GoogleDrive.SharedWithMe">Спільні зі мною</system:String>
-	<system:String x:Key="GoogleDrive.Computers">Комп'ютери</system:String>
-	<system:String x:Key="GoogleDrive.SharedLink">Спільне посилання</system:String>
-
-	<system:String x:Key="OneDrive.Files">Файли</system:String>
-	<system:String x:Key="OneDrive.Shared">Спільні</system:String>
-	<system:String x:Key="OneDrive.SharedLink">Спільне посилання</system:String>
-
-	<!--  from 2020.6  -->
-	<system:String x:Key="Words.Bandwidth">Обмежити швидкість</system:String>
-	<system:String x:Key="Words.Download">Завантаження</system:String>
-	<system:String x:Key="Words.Upload">Вивантаження</system:String>
-	<system:String x:Key="Words.Capacity">Ємність</system:String>
-
-	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">Провідник</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">Асинхронне оновлення змін сховища</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">Намагатися зберігати &quot;Дату змінення&quot; при копіюванні</system:String>
-	<system:String x:Key="FileExplorer.FilesystemWatcher">Моніторинг процесу доступу до файлів</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">Швидке копіювання/переміщення/видалення для віддаленого сховища</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Перезаписати цільовий</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Перейменувати початковий</system:String>
-	<system:String x:Key="Words.Skip">Пропустити</system:String>
-	<system:String x:Key="Words.Slow">Повільно</system:String>
-	<system:String x:Key="Message.ResponseSlow">Реакція може бути повільною</system:String>
+	<system:String x:Key="Messages.Cache.FolderNotSupport">Тимчасова папка повинна бути на локальному диску. Мережевий диск не підтримується.</system:String>
+	<system:String x:Key="Messages.CheckAddress">Перевірте адресу.</system:String>
+	<system:String x:Key="Messages.CheckPort">Перевірте порт {0}.</system:String>
+	<system:String x:Key="Messages.CheckProtocolPort">Двічі перевірте протокол {0} і порт {1}.</system:String>
+	<system:String x:Key="Messages.CurrentVersion">Поточна версія {0}</system:String>
+	<system:String x:Key="Messages.Delegation.Aborted">Делегування перервано</system:String>
+	<system:String x:Key="Messages.EnterAccessKeyID">Введіть ідентифікатор ключа</system:String>
+	<system:String x:Key="Messages.EnterIPAddress">Введіть ім'я хосту або IP-адресу</system:String>
+	<system:String x:Key="Messages.EnterPassword">Введіть пароль</system:String>
+	<system:String x:Key="Messages.EnterPort">Введіть номер порту (1 ~ 65535)</system:String>
+	<system:String x:Key="Messages.EnterSecretAccessKey">Введіть секретний ключ доступу</system:String>
+	<system:String x:Key="Messages.EnterStorageAccount">Введіть ім'я облікового запису сховища</system:String>
+	<system:String x:Key="Messages.EnterStorageKey">Введіть key1 або key2</system:String>
+	<system:String x:Key="Messages.EnterURL">Введіть URL-адресу</system:String>
+	<system:String x:Key="Messages.EnterUsername">Введіть ім'я користувача</system:String>
+	<system:String x:Key="Messages.EnterVolume">Введіть припустиму мітку тома</system:String>
+	<system:String x:Key="Messages.Error.CacheDiskFull">Недостатньо місця для зберігання кешу. Збільшіть місце для зберігання.</system:String>
+	<system:String x:Key="Messages.Error.ConnectInternet">Не вдається підключитися до віддаленого сховища. Перевірте підключення до Інтернету та повторіть спробу.</system:String>
+	<system:String x:Key="Messages.Error.DiskLetterExist">Потрібно змінити букву або ім'я диска.</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPassword">Введений пароль неправильний. Повторіть спробу.</system:String>
+	<system:String x:Key="Messages.Error.MethodNotAllowed">Перевірте, чи існує шлях {0} і чи надано доступ.</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveAuth">Помилка авторизації або автентифікації. Повторити спробу?</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveLimit">Перевищено квоту завантажень. Обмеження завантажень - це політика {0}.</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveRemake">Змінено спосіб підключення до віддаленого сховища. Потрібно ввійти ще раз.</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveWantRelogin">Помилка авторизації або автентифікації. Повторити спробу? (Якщо помилка не зникне, видаліть диск і створіть його заново.)</system:String>
+	<system:String x:Key="Messages.Error.Unauthorized">Помилка автентифікації. Перевірте свій обліковий запис (пароль).</system:String>
+	<system:String x:Key="Messages.ExistVolume">Це ім'я вже використовується</system:String>
+	<system:String x:Key="Messages.ExitConfirm">Відключити всі підключення перед виходом?</system:String>
+	<system:String x:Key="Messages.FileLock.DependsWebDAV">залежить від сервера WebDAV</system:String>
+	<system:String x:Key="Messages.FileLock.NotSupport">Ваш сервер може не підтримувати</system:String>
+	<system:String x:Key="Messages.FolderExist">Ця папка вже включена.</system:String>
+	<system:String x:Key="Messages.HereWeGo">ХОДІМО~</system:String>
+	<system:String x:Key="Messages.InternetDown">Схоже, відсутнє з'єднання з Інтернетом. Перевірте підключення до Інтернету.</system:String>
+	<system:String x:Key="Messages.License.Expired">Термін дії вашої ліцензії закінчився. Потрібно завантажити нову версію. Натисніть OK для оновлення.</system:String>
+	<system:String x:Key="Messages.License.NotReady">RaiDrive не може перевірити вашу ліцензію.</system:String>
+	<system:String x:Key="Messages.Maximum.Drive">У поточній версії можна створити до 8 дисків</system:String>
+	<system:String x:Key="Messages.MountPointFolder.Condition">Шляхи до точок монтування доступні лише в порожніх папках на базових або динамічних томах NTFS.</system:String>
+	<system:String x:Key="Messages.MountPointFolder.Mandatory">Для призначення папки потрібен параметр публічного локального диска</system:String>
+	<system:String x:Key="Messages.NotReadyDriver">Драйвер пристрою не встановлений у вашій системі. Потрібно перевстановити RaiDrive.</system:String>
+	<system:String x:Key="Messages.NotReadyReboot">RaiDrive не готовий до запуску. Потрібно перезавантажити систему.</system:String>
+	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox підтримує Internet Explorer 10 та 11. Краще встановити Internet Explorer 11.</system:String>
+	<system:String x:Key="Messages.NotSupportNetworkDrive">RaiDrive не підтримує мережевий диск.</system:String>
+	<system:String x:Key="Messages.NotSupportRaiDrive">RaiDrive не підтримує диск для самостійного підключення.</system:String>
+	<system:String x:Key="Messages.OAuth.InvalidClient">Некерований домен Active Directory</system:String>
+	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Active Directory не керується вашим обліковим записом. Зверніться до адміністратора Active Directory або домену або увійдіть в особистий обліковий запис.</system:String>
+	<system:String x:Key="Messages.OtherResponseCode.2">Шлях не існує. Перевірте шлях{0}.</system:String>
+	<system:String x:Key="Messages.ReconnectForChangingSettings">Натисніть OK і змінені параметри наберуть чинності після перепідключення віддаленого сховища.</system:String>
+	<system:String x:Key="Messages.ResponseSlow">Реакція може бути повільною</system:String>
+	<system:String x:Key="Messages.RetryAfter">Повторити через {0} секунд.</system:String>
+	<system:String x:Key="Messages.SelectLetter">Виберіть незайняту букву диска</system:String>
+	<system:String x:Key="Messages.SelectLocalDrive">Виберіть папку на вашому ПК</system:String>
+	<system:String x:Key="Messages.SelectPrivateKeyPath">виберіть приватний ключ</system:String>
+	<system:String x:Key="Messages.SelectedPath">Вибраний шлях</system:String>
+	<system:String x:Key="Messages.SeleteTargetFolder">Виберіть віддалену папку для зберігання файлів</system:String>
+	<system:String x:Key="Messages.Service.Alive">Натисніть OK, щоб перепідключити RaiDrive.</system:String>
+	<system:String x:Key="Messages.Service.Stoped">Службу RaiDrive зупинено.</system:String>
+	<system:String x:Key="Messages.SignOut.Question1">Функції вашої передплати будуть вимкнені, а всі диски перепідключені. Збережіть файли або закрийте програму</system:String>
+	<system:String x:Key="Messages.SignOut.Question2">Ви дійсно бажаєте вийти?</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc1">Інший сеанс попросив повернути ваш поточний сеанс {0}. Всі диски будуть перепідключені. Збережіть файли або закрийте програму</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc2">Буде застосовано після {0}, щоб зробити це негайно натисніть кнопку OK.</system:String>
+	<system:String x:Key="Messages.SureDelete">Остаточно видалити &quot;{0} ({1})&quot; ?</system:String>
+	<system:String x:Key="Messages.UnknownSpace">Розмір диска невідомий</system:String>
+	<system:String x:Key="Messages.Upgrade.New">Ви можете оновити до нової версії</system:String>
+	<system:String x:Key="Messages.Upgrade.NewVersion">Можна оновити до версії {0}</system:String>
+	<system:String x:Key="Messages.Upgrade.Uptodate">Ви використовуєте останню версію</system:String>
+	<system:String x:Key="Messages.VolumeInvalidChar">Мітка тома не може містити наступні символи:</system:String>
+	<system:String x:Key="Messages.VolumeInvalidStr">Не використовуйте зарезервовані імена:</system:String>
+	<system:String x:Key="Phrases.AuthAtConnect">Вхід з іншими обліковими даними</system:String>
+	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Перегляд в анонімному режимі</system:String>
+	<system:String x:Key="Phrases.ConnectByRaiDrive">Підключено через RaiDrive</system:String>
+	<system:String x:Key="Phrases.DeleteDrive">Видалити диск</system:String>
+	<system:String x:Key="Phrases.DuplicatedPath">Дубльований шлях</system:String>
+	<system:String x:Key="Phrases.FileInUse">Використано файлів: {0}</system:String>
+	<system:String x:Key="Phrases.FileLock.WebDAV">Блокування файлів WebDAV</system:String>
+	<system:String x:Key="Phrases.FilesystemWatcher">Моніторинг процесу доступу до файлів</system:String>
+	<system:String x:Key="Phrases.FolderUrl">URL-адреса папки</system:String>
+	<system:String x:Key="Phrases.FolderUrlID">URL-адреса папки або ідентифікатор</system:String>
+	<system:String x:Key="Phrases.FollowLatest">Стежити за останніми</system:String>
+	<system:String x:Key="Phrases.ForBusinessVersion">для бізнес-версії</system:String>
+	<system:String x:Key="Phrases.KeepModifiedDate">Намагатися зберігати &quot;Дату змінення&quot; при копіюванні</system:String>
+	<system:String x:Key="Phrases.MountAtBoot">Підключати при запуску системи</system:String>
+	<system:String x:Key="Phrases.MountAtSignIn">Підключати при вході в систему</system:String>
+	<system:String x:Key="Phrases.MountAtStart">Підключати при запуску програми</system:String>
+	<system:String x:Key="Phrases.MountLocalDisk">Монтувати як локальний диск</system:String>
+	<system:String x:Key="Phrases.OpenRaiDrive">Відкрити RaiDrive</system:String>
+	<system:String x:Key="Phrases.OverwriteTarget">Перезаписати цільовий</system:String>
+	<system:String x:Key="Phrases.PerformanceExtension">Швидке копіювання/переміщення/видалення для віддаленого сховища</system:String>
+	<system:String x:Key="Phrases.RaiDriveReconnect">Перепідключення RaiDrive</system:String>
+	<system:String x:Key="Phrases.RegisterToStartup">Додати в автозавантаження</system:String>
+	<system:String x:Key="Phrases.RenameSource">Перейменувати початковий</system:String>
+	<system:String x:Key="Phrases.RunAtBoot">Запускати програму при завантаженні Windows</system:String>
+	<system:String x:Key="Phrases.RunAtConnect">Відкривати папку в Провіднику після підключення</system:String>
+	<system:String x:Key="Phrases.SelectFolder">Вибрати папку</system:String>
+	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Відновлення RaiDrive</system:String>
+	<system:String x:Key="Phrases.State.Space.Format">{0} вільно з {1} {2}</system:String>
+	<system:String x:Key="Phrases.Subscription.Switched">Змінено на {0}</system:String>
+	<system:String x:Key="Phrases.UpdateChangeAsync">Асинхронне оновлення змін сховища</system:String>
+	<system:String x:Key="Phrases.UseDriveIcon">Піктограма RaiDrive на підключеному диску</system:String>
+	<system:String x:Key="Words.AccessKeyID">Ідентифікатор ключа</system:String>
+	<system:String x:Key="Words.Account">Обліковий запис</system:String>
+	<system:String x:Key="Words.Add">Додати</system:String>
+	<system:String x:Key="Words.Address">Адреса</system:String>
 	<system:String x:Key="Words.AdvancedOptions">Додаткові параметри</system:String>
-	<system:String x:Key="Words.Properties">Властивості</system:String>
-
+	<system:String x:Key="Words.All">Усі</system:String>
+	<system:String x:Key="Words.Anonymous">Анонімно</system:String>
+	<system:String x:Key="Words.Apply">Застосувати</system:String>
+	<system:String x:Key="Words.AutoStart">Автозапуск</system:String>
+	<system:String x:Key="Words.Backup">Резервування</system:String>
+	<system:String x:Key="Words.BackupNOW">Резервувати ЗАРАЗ</system:String>
+	<system:String x:Key="Words.Bandwidth">Обмежити швидкість</system:String>
+	<system:String x:Key="Words.Brand.Box_com">Box</system:String>
+	<system:String x:Key="Words.Brand.Facebook">Facebook</system:String>
+	<system:String x:Key="Words.Brand.QNAP">QNAP</system:String>
+	<system:String x:Key="Words.Brand.Synology">Synology</system:String>
+	<system:String x:Key="Words.Brand.WD">WD</system:String>
+	<system:String x:Key="Words.Brand.ipTIME">ipTIME</system:String>
+	<system:String x:Key="Words.Browser">Браузер</system:String>
+	<system:String x:Key="Words.Bucket">Бакет</system:String>
+	<system:String x:Key="Words.Cache">Кеш</system:String>
+	<system:String x:Key="Words.Cancel">Скасувати</system:String>
+	<system:String x:Key="Words.Capacity">Ємність</system:String>
+	<system:String x:Key="Words.Charset">Кодування</system:String>
+	<system:String x:Key="Words.Check">Перевірити</system:String>
+	<system:String x:Key="Words.CheckUpdate">Перевірити оновлення</system:String>
+	<system:String x:Key="Words.ClearLog">Очистити журнал</system:String>
+	<system:String x:Key="Words.Code">Код</system:String>
+	<system:String x:Key="Words.Community">Спільнота</system:String>
+	<system:String x:Key="Words.Connect">Підключити</system:String>
+	<system:String x:Key="Words.Connected">Підключено</system:String>
+	<system:String x:Key="Words.CountLeft">Залишилося</system:String>
+	<system:String x:Key="Words.Current">Поточний</system:String>
+	<system:String x:Key="Words.Default">За умовчанням</system:String>
+	<system:String x:Key="Words.Delete">Видалити</system:String>
+	<system:String x:Key="Words.Description">Опис</system:String>
+	<system:String x:Key="Words.Device">Пристрій</system:String>
+	<system:String x:Key="Words.Disconnect">Відключити</system:String>
+	<system:String x:Key="Words.Disconnected">Відключено</system:String>
+	<system:String x:Key="Words.Document">Керівництво</system:String>
+	<system:String x:Key="Words.Download">Завантаження</system:String>
+	<system:String x:Key="Words.Drive">Диск</system:String>
+	<system:String x:Key="Words.DriveLetter">Буква диска</system:String>
+	<system:String x:Key="Words.Edit">Редагувати</system:String>
+	<system:String x:Key="Words.Encryption">Шифрування</system:String>
+	<system:String x:Key="Words.Endpoint">Кінцева точка</system:String>
+	<system:String x:Key="Words.Error">Помилка</system:String>
+	<system:String x:Key="Words.Etc">інші</system:String>
+	<system:String x:Key="Words.Example.EmailAddress">id@example.com</system:String>
+	<system:String x:Key="Words.Example.HostAddress">host.example.com</system:String>
+	<system:String x:Key="Words.Exit">Вихід</system:String>
+	<system:String x:Key="Words.Export">Експорт</system:String>
+	<system:String x:Key="Words.File">Файл</system:String>
+	<system:String x:Key="Words.FileExplorer">Провідник</system:String>
+	<system:String x:Key="Words.FileLock">Блокування файлів</system:String>
+	<system:String x:Key="Words.Folder">Папка</system:String>
+	<system:String x:Key="Words.FreeSpace">Вільно місця</system:String>
+	<system:String x:Key="Words.General">Загальні</system:String>
+	<system:String x:Key="Words.GoogleDrive.Computers">Комп'ютери</system:String>
+	<system:String x:Key="Words.GoogleDrive.MyDrive">Мій диск</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedDrives">Спільні диски</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedLink">Спільне посилання</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedWithMe">Спільні зі мною</system:String>
+	<system:String x:Key="Words.Help">Довідка</system:String>
+	<system:String x:Key="Words.Hide">Приховати</system:String>
+	<system:String x:Key="Words.Import">Імпорт</system:String>
+	<system:String x:Key="Words.Key">Ключ</system:String>
+	<system:String x:Key="Words.Language">Мова</system:String>
+	<system:String x:Key="Words.License">Ліцензія</system:String>
+	<system:String x:Key="Words.Lifetime">Зберігати</system:String>
+	<system:String x:Key="Words.Like">Подобається</system:String>
+	<system:String x:Key="Words.LocalDisk">Локальний диск</system:String>
+	<system:String x:Key="Words.Login">Увійти</system:String>
 	<system:String x:Key="Words.MySubscription">Моя передплата</system:String>
+	<system:String x:Key="Words.NOW">ЗАРАЗ</system:String>
+	<system:String x:Key="Words.Network">Мережа</system:String>
+	<system:String x:Key="Words.NetworkDrive">Мережевий диск</system:String>
+	<system:String x:Key="Words.NewDrive">Новий диск</system:String>
+	<system:String x:Key="Words.No">Ні</system:String>
+	<system:String x:Key="Words.Notice">Сповіщення</system:String>
+	<system:String x:Key="Words.Ok">Ok</system:String>
+	<system:String x:Key="Words.OneDrive.Files">Файли</system:String>
+	<system:String x:Key="Words.OneDrive.Shared">Спільні</system:String>
+	<system:String x:Key="Words.OneDrive.SharedLink">Спільне посилання</system:String>
+	<system:String x:Key="Words.Password">Пароль</system:String>
+	<system:String x:Key="Words.Path">Шлях</system:String>
+	<system:String x:Key="Words.Port">Порт</system:String>
+	<system:String x:Key="Words.Private">Приватний</system:String>
+	<system:String x:Key="Words.PrivateKey">Приватний ключ</system:String>
+	<system:String x:Key="Words.ProcessMonitor">Монітор процесу</system:String>
+	<system:String x:Key="Words.Processed">Виконано</system:String>
+	<system:String x:Key="Words.Progress">Перебіг</system:String>
+	<system:String x:Key="Words.Project">Проєкт</system:String>
+	<system:String x:Key="Words.Properties">Властивості</system:String>
+	<system:String x:Key="Words.Proxy">Проксі</system:String>
+	<system:String x:Key="Words.Public">Публічний</system:String>
+	<system:String x:Key="Words.Read">читання</system:String>
+	<system:String x:Key="Words.ReadOnly">Лише читання</system:String>
+	<system:String x:Key="Words.Reading">Читання</system:String>
+	<system:String x:Key="Words.Ready">Готовий</system:String>
+	<system:String x:Key="Words.Reason">Причина</system:String>
+	<system:String x:Key="Words.RemoteFolder">Віддалена папка</system:String>
+	<system:String x:Key="Words.Remove">Видалити</system:String>
+	<system:String x:Key="Words.Retry">Повторити</system:String>
+	<system:String x:Key="Words.Save">Зберегти</system:String>
+	<system:String x:Key="Words.Second">секунд</system:String>
+	<system:String x:Key="Words.Seconds">секунд</system:String>
+	<system:String x:Key="Words.SecretAccessKey">Секретний ключ доступу</system:String>
+	<system:String x:Key="Words.SecureConnection">Безпечне підключення</system:String>
+	<system:String x:Key="Words.SecureProtocol">Безпечний протокол</system:String>
+	<system:String x:Key="Words.Send.Opinion">Надіслати думку</system:String>
+	<system:String x:Key="Words.Settings">Параметри</system:String>
 	<system:String x:Key="Words.ShareWithOther">Поділитися з іншими</system:String>
 	<system:String x:Key="Words.SharedWithMe">Спільні зі мною</system:String>
-	<system:String x:Key="Words.Import">Імпорт</system:String>
-	<system:String x:Key="Words.Export">Експорт</system:String>
-	<system:String x:Key="Words.ProcessMonitor">Монітор процесу</system:String>
-
-	<system:String x:Key="Account.Endpoint">Кінцева точка</system:String>
-	<system:String x:Key="GoogleDrive.SharedDrives">Спільні диски</system:String>
-
-	<system:String x:Key="Words.Reading">Читання</system:String>
-	<system:String x:Key="Words.Writing">Запис</system:String>
-	<system:String x:Key="Words.Hide">Приховати</system:String>
-
-	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">Очікування</system:String>
-	<system:String x:Key="Words.Seconds">секунд</system:String>
-
-	<system:String x:Key="Words.Connected">Підключено</system:String>
-	<system:String x:Key="Words.Disconnected">Відключено</system:String>
-	<system:String x:Key="Message.FileInUse">Використано файлів: {0}</system:String>
-
-	<!--  from 2022.3  -->
+	<system:String x:Key="Words.SignIn">Вхід</system:String>
+	<system:String x:Key="Words.SignOut">Вихід</system:String>
+	<system:String x:Key="Words.Site">Сайт</system:String>
+	<system:String x:Key="Words.Size">Розмір</system:String>
+	<system:String x:Key="Words.Skip">Пропустити</system:String>
+	<system:String x:Key="Words.Slow">Повільно</system:String>
 	<system:String x:Key="Words.Sort">Сортувати</system:String>
-	<system:String x:Key="Words.Sort.None">Немає</system:String>
 	<system:String x:Key="Words.Sort.Ascending">За зростанням</system:String>
 	<system:String x:Key="Words.Sort.Descending">За спаданням</system:String>
-	<system:String x:Key="Words.VolumeLabel">Мітка тому</system:String>
-	<system:String x:Key="Words.DriveLetter">Буква диска</system:String>
-
-	<system:String x:Key="Message.IncorrectPassword">Введений пароль неправильний. Повторіть спробу.</system:String>
-
-	<!--  from 2022.6  -->
-	<system:String x:Key="Words.Browser">Браузер</system:String>
-	<system:String x:Key="Browser.BrowseInPrivate">Перегляд в анонімному режимі</system:String>
+	<system:String x:Key="Words.Sort.None">Немає</system:String>
+	<system:String x:Key="Words.SourceFolders">Початкова папка</system:String>
+	<system:String x:Key="Words.Space.Used">використано</system:String>
+	<system:String x:Key="Words.Start">Запустити</system:String>
+	<system:String x:Key="Words.State">Стан</system:String>
+	<system:String x:Key="Words.Stop">Зупинити</system:String>
+	<system:String x:Key="Words.Storage">Сховище</system:String>
+	<system:String x:Key="Words.StorageAccount">Обліковий запис сховища</system:String>
+	<system:String x:Key="Words.Subscription">Передплата</system:String>
+	<system:String x:Key="Words.TemporaryPath">Кеш</system:String>
+	<system:String x:Key="Words.Tenant">Клієнти</system:String>
+	<system:String x:Key="Words.Time">Час</system:String>
+	<system:String x:Key="Words.Timeout">Очікування</system:String>
+	<system:String x:Key="Words.TransferMode">Режим передачі</system:String>
+	<system:String x:Key="Words.Update">Оновлення</system:String>
+	<system:String x:Key="Words.Upgrade">Оновити</system:String>
+	<system:String x:Key="Words.Upload">Вивантаження</system:String>
+	<system:String x:Key="Words.Username">Користувач</system:String>
+	<system:String x:Key="Words.VolumeLabel">Мітка тома</system:String>
+	<system:String x:Key="Words.WritableDrive">Записуваний диск</system:String>
+	<system:String x:Key="Words.Write">запис</system:String>
+	<system:String x:Key="Words.Writing">Запис</system:String>
+	<system:String x:Key="Words.Yes">Так</system:String>
 </ResourceDictionary>

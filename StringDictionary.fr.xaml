@@ -1,342 +1,254 @@
-<ResourceDictionary
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:local="clr-namespace:RaiDrive.Center.Languages"
-	xmlns:system="clr-namespace:System;assembly=mscorlib">
-
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributeurs" Type="system:String">
 		<system:String>JeromeFa</system:String>
 		<system:String>DoryanR</system:String>
 	</x:Array>
-	<system:String x:Key="Current.Language">fr</system:String>
+	<system:String x:Key="Language.English">French</system:String>
+	<system:String x:Key="Language.Native">français</system:String>
+	<system:String x:Key="Language.Tags">fr</system:String>
 
-	<!--  Réglages, Général  -->
-	<system:String x:Key="Settings">Paramètres</system:String>
-	<system:String x:Key="Settings.Header">Paramètres</system:String>
-	<system:String x:Key="Settings.General">Général</system:String>
-	<system:String x:Key="Settings.Language">Langue</system:String>
-	<system:String x:Key="Settings.Update">Mise à jour</system:String>
-	<system:String x:Key="Settings.Facebook">Facebook</system:String>
-	<system:String x:Key="Settings.Facebook.Like">Like</system:String>
-	<system:String x:Key="Settings.TemporaryPath">Temporaire</system:String>
-	<system:String x:Key="Settings.Default">Par défaut</system:String>
-	<system:String x:Key="Settings.License">License</system:String>
-	<system:String x:Key="Settings.Proxy">Proxy</system:String>
-
-	<system:String x:Key="Settings.General.RunAtBoot">Exécution automatique d'un programme au démarrage de Windows</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">Exécutez l'Explorateur de fichiers lorsque le lecteur est connecté</system:String>
-
-	<system:String x:Key="Notice">Notice</system:String>
-	<system:String x:Key="AddDrive">Ajouter</system:String>
-	<system:String x:Key="AddDrive.Header">Nouveau lecteur</system:String>
-	<system:String x:Key="AddDrive.Storage">Stockage</system:String>
-
-	<!--  Drive  -->
-	<system:String x:Key="AddDrive.Drive">Lecteur</system:String>
-
-	<!--  Add New Storage  -->
-	<system:String x:Key="AddDrive.Network">Réseau</system:String>
-	<system:String x:Key="AddDrive.ReadOnly">Lecture seule</system:String>
-	<system:String x:Key="AddDrive.Account">Compte</system:String>
-	<system:String x:Key="AddDrive.Username">Nom d'utilisateur</system:String>
-	<system:String x:Key="AddDrive.Password">Mot de passe</system:String>
-	<system:String x:Key="AddDrive.Anonymous">Anonyme</system:String>
-	<system:String x:Key="AddDrive.Address">Adresse</system:String>
-	<system:String x:Key="AddDrive.Port">Port</system:String>
-	<system:String x:Key="AddDrive.Device">Appareil</system:String>
-	<system:String x:Key="AddDrive.PrivateKey">Clé privée</system:String>
-	<system:String x:Key="AddDrive.Charset">Charset</system:String>
-	<system:String x:Key="AddDrive.TransferMode">Mode de transfert</system:String>
-	<system:String x:Key="AddDrive.Encryption">Chiffrement</system:String>
-
-	<system:String x:Key="Vailidation.Volume">Veuillez entrer une étiquette de volume valide</system:String>
-	<system:String x:Key="Vailidation.VolumeExist">Ce nom existe déjà</system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidChar">Une étiquette de volume ne peut contenir aucun des caractères suivants :</system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidStr">N'utilisez pas les noms réservés suivants :</system:String>
-	<system:String x:Key="Vailidation.Letter">Veuillez sélectionner une lettre de lecteur non assignée</system:String>
-	<system:String x:Key="Vailidation.Address">Veuillez entrer un nom d'hôte ou une adresse IP</system:String>
-	<system:String x:Key="Vailidation.Address.WebDAV">Veuillez entrer une URL</system:String>
-	<system:String x:Key="Vailidation.Address.LocalDrive">Veuillez sélectionner un dossier sur votre PC</system:String>
-	<system:String x:Key="Vailidation.Port">Veuillez entrer un numéro de port (1 ~ 65535)</system:String>
-	<system:String x:Key="Vailidation.Username">Veuillez entrer un nom d'utilisateur</system:String>
-	<system:String x:Key="Vailidation.Password">Veuillez entrer un mot de passe</system:String>
-
-	<!--  Barre de menu>Réglages, compte, volume  -->
-	<system:String x:Key="Vailidation.Hint.Volume">nom de volume</system:String>
-	<system:String x:Key="Vailidation.Hint.Address">host.exemple.com</system:String>
-	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">dossier</system:String>
-	<system:String x:Key="Vailidation.Hint.Username">nom d'utilisateur</system:String>
-	<system:String x:Key="Vailidation.Hint.Password">mot de passe</system:String>
-	<system:String x:Key="Vailidation.Hint.Port">port</system:String>
-	<system:String x:Key="Vailidation.Hint.Path">chemin</system:String>
-	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">vous pouvez sélectionner le fichier de clé privée</system:String>
-
-	<system:String x:Key="Button.Yes">Oui</system:String>
-	<system:String x:Key="Button.No">Non</system:String>
-	<system:String x:Key="Button.OK">OK</system:String>
-	<system:String x:Key="Button.Apply">Appliquer</system:String>
-	<system:String x:Key="Button.Cancel">Annuler</system:String>
-	<system:String x:Key="Button.Check">Vérifiez</system:String>
-	<system:String x:Key="Button.Edit">Éditer</system:String>
-	<system:String x:Key="Button.Retry">Réessayez</system:String>
-	<system:String x:Key="Button.ReAuth">S'identifier</system:String>
-	<system:String x:Key="Button.Login">Connexion</system:String>
-	<system:String x:Key="Button.SIGNIN">CONNEXION</system:String>
-
-	<system:String x:Key="ToolTip.Connect">Connexion</system:String>
-	<system:String x:Key="ToolTip.Disconnect">Déconnexion</system:String>
-	<system:String x:Key="ToolTip.Edit">Éditer</system:String>
-	<system:String x:Key="ToolTip.Remove">Supprimer</system:String>
-	<system:String x:Key="ToolTip.NetworkDrive">Lecteur réseau</system:String>
-	<system:String x:Key="ToolTip.SecureProtocol">Protocole de sécurité</system:String>
-	<system:String x:Key="ToolTip.SecureConnection">Connexion sécurisée</system:String>
-	<system:String x:Key="ToolTip.Backup">Sauvegarde</system:String>
-
-	<system:String x:Key="Message.Title.SelectFolder">Sélectionner le dossier</system:String>
-	<system:String x:Key="Message.Title.DeleteDrive">Effacer le lecteur</system:String>
-
-	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive ne prend pas en charge un lecteur réseau.</system:String>
-	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive ne prend pas en charge un lecteur à connecter tout seul.</system:String>
-	<system:String x:Key="Message.Exist">Ce dossier est déjà inclus.</system:String>
-	<system:String x:Key="Message.SelectedPath">Chemin d'accès sélectionné</system:String>
-	<system:String x:Key="Message.DuplicatedPath">Chemin dupliqué</system:String>
-
-	<system:String x:Key="Message.SureDelete">Êtes-vous sûr de vouloir supprimer définitivement &quot;{0} ({1})&quot; ?</system:String>
-	<system:String x:Key="Message.Title.ServiceDown">Ravivez RaiDrive</system:String>
-	<system:String x:Key="Message.Title.Reconnect">RaiDrive Reconnect</system:String>
-	<system:String x:Key="Message.ServiceDown">Veuillez appuyer sur la touche OK, RaiDrive sera en vie.</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">Veuillez appuyer sur la touche OK, vous devez reconnecter la mémoire de la télécommande pour que les paramètres modifiés prennent effet.</system:String>
-	<system:String x:Key="Message.NotReady.Reboot">RaiDrive n'est pas prêt à démarrer, vous devez redémarrer le système.</system:String>
-	<system:String x:Key="Message.NotReady.Driver">Le pilote de périphérique n'est pas installé sur votre système. Vous devez réinstaller RaiDrive.</system:String>
-	<system:String x:Key="Message.NotSupport.Browser.Dropbox">La boîte de dépôt est compatible avec Internet Explorer 10, 11. Vous feriez mieux d'installer Internet Explorer 11.</system:String>
-	<system:String x:Key="Message.Connect.By">Connecté par RaiDrive</system:String>
-	<system:String x:Key="Message.Maximum.Drive">Jusqu'à 8 entraînements peuvent être créés dans la version actuelle</system:String>
-	<system:String x:Key="Message.License.Expired">Votre licence a expiré. Vous devez télécharger la nouvelle version. Appuyez sur OK pour mettre à jour.</system:String>
-	<system:String x:Key="Message.License.NotReady">RaiDrive ne peut pas valider votre licence.</system:String>
-	<system:String x:Key="Message.UnknownSpace">Espace inconnu</system:String>
-	<system:String x:Key="Message.CurrentVersion">La version actuelle est {0}</system:String>
-	<system:String x:Key="Message.Cache.Folder.NotSupport">Le dossier temporaire doit être un dossier du lecteur de disque local. Le lecteur réseau n'est pas pris en charge.</system:String>
-
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">L'autorisation ou l'authentification a échoué. Voulez-vous vous ré-authentifier ?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">L'autorisation ou l'authentification a échoué. Voulez-vous vous ré-authentifier ? (Si cela échoue toujours, supprimez le lecteur et recréez-le).</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveLimit">Le quota de téléchargement a été dépassé. Les restrictions de téléchargement sont la politique de {0}.</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">La méthode de connexion à la mémoire distante a changé. Vous devez vous reconnecter.</system:String>
-	<system:String x:Key="Message.ErrorCacheDiskFull">L'espace de stockage du cache n'est pas suffisant. Vous feriez mieux d'augmenter l'espace de stockage.</system:String>
-	<system:String x:Key="Message.ErrorInternet">Impossible de se connecter au stockage à distance. Veuillez vérifier votre connexion Internet et réessayer.</system:String>
-	<system:String x:Key="Message.ErrorDiskLetterExist">Vous devez modifier la lettre du lecteur ou le nom du lecteur.</system:String>
-
-	<system:String x:Key="Message.OAuth.InvalidClient">Domaine non géré par Active Directory</system:String>
-	<system:String x:Key="Message.OAuth.InvalidClientDescription">Votre compte n'est pas géré par Active Directory. Vous devez contacter Active Directory ou l'administrateur du domaine ou vous connecter en tant que compte personnel.</system:String>
-
-	<!--  Message ConnectResponse  -->
-	<system:String x:Key="WebExceptionStatus.ConnectFailure">Veuillez vérifier l'adresse.</system:String>
-	<system:String x:Key="WebExceptionStatus.ConnectionClosed">Veuillez revérifier le protocole{0} et le port{1}.</system:String>
-	<system:String x:Key="WebExceptionStatus.SendFailure">Veuillez revérifier le protocole{0} et le port{1}.</system:String>
-	<system:String x:Key="WebExceptionStatus.ReceiveFailure">Veuillez revérifier le protocole{0} et le port{1}.</system:String>
-
-	<system:String x:Key="HttpStatusCode.MethodNotAllowed">Veuillez vérifier si le chemin{0} existe ou si l'accès est autorisé.</system:String>
-	<system:String x:Key="HttpStatusCode.Unauthorized">L'authentification a échoué. Veuillez vérifier votre compte (mot de passe).</system:String>
-
-	<system:String x:Key="SocketError.TimedOut">Veuillez vérifier l'adresse.</system:String>
-	<system:String x:Key="SocketError.ConnectionRefused">Veuillez vérifier le port{0}.</system:String>
-
-	<system:String x:Key="OtherResponseCode.2">Chemin non trouvé. Vérifiez le chemin{0}.</system:String>
-	<system:String x:Key="OtherResponseCode.3">Veuillez revérifier le protocole{0} et le port{1}.</system:String>
-	<!--  Message ConnectResponse  -->
-
-	<system:String x:Key="Words.Reason">Raison</system:String>
-	<system:String x:Key="Words.Delegation.Stop">Délégation avortée</system:String>
-	<system:String x:Key="Words.Drive">Lecteur</system:String>
-	<system:String x:Key="Words.FreeSpace">Espace libre</system:String>
-	<system:String x:Key="Words.Send.Opinion">Envoyer un avis</system:String>
-	<system:String x:Key="Words.Code">Code</system:String>
-	<system:String x:Key="Words.Path">Chemin d'accès</system:String>
-	<system:String x:Key="Words.File">Fichier</system:String>
-	<system:String x:Key="Words.Ready">Prêt</system:String>
-	<system:String x:Key="Words.Time">Heure</system:String>
-	<system:String x:Key="Words.Error">Erreur</system:String>
-	<system:String x:Key="Words.State">État</system:String>
-	<system:String x:Key="Words.Size">Taille</system:String>
-	<system:String x:Key="Words.Description">Description</system:String>
-
-	<system:String x:Key="Help.Text">AIDE</system:String>
-	<system:String x:Key="Help.Add.Drive">ICI NOUS ALLONS~</system:String>
-	<system:String x:Key="Help.ServiceDown">Le service RaiDrive a été arrêté.</system:String>
-	<system:String x:Key="Help.ServiceDown.Press">Veuillez appuyer sur le bouton, RaiDrive sera en vie.</system:String>
-	<system:String x:Key="Help.InternetDown">Votre connexion Internet semble être coupée. Veuillez vérifier votre connexion internet.</system:String>
-	<system:String x:Key="Help.InternetDown.RetryAfter">Réessayer après {0} seconde(s).</system:String>
-	<system:String x:Key="Help.License.ForBusiness">pour la version business</system:String>
-
-	<system:String x:Key="Upgrade">Mise à niveau</system:String>
-	<system:String x:Key="Upgrade.Uptodate">Vous utilisez la dernière version</system:String>
-	<system:String x:Key="Upgrade.NewVersion">Vous pouvez passer à la version {0}</system:String>
-	<system:String x:Key="Upgrade.New">Vous pouvez passer à la nouvelle version</system:String>
-
-	<system:String x:Key="NotifyIcon.Open">Ouvrir RaiDrive</system:String>
-	<system:String x:Key="NotifyIcon.CheckUpdate">Vérifier les mises à jours</system:String>
-	<system:String x:Key="NotifyIcon.Exit">Sortie</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">Etes-vous sûr de vouloir déconnecter toutes les connexions avant de sortir ?</system:String>
-
-	<system:String x:Key="State.Space.Format">{0} libre de {1} {2}</system:String>
-	<system:String x:Key="State.Space.Used">utilisé</system:String>
-
-	<system:String x:Key="Brand.Synology">Synology</system:String>
-	<system:String x:Key="Brand.QNAP">QNAP</system:String>
-	<system:String x:Key="Brand.Box_com">Boîte</system:String>
-	<system:String x:Key="Brand.ipTIME">ipTIME</system:String>
-	<system:String x:Key="Brand.WD">WD</system:String>
-	<system:String x:Key="Brand.etc">etc</system:String>
-
-	<!--  Sauvegarde  -->
-	<system:String x:Key="Backup">Sauvegarde</system:String>
-	<system:String x:Key="Backup.Add">Ajouter</system:String>
-	<system:String x:Key="Backup.Delete">Supprimer</system:String>
-	<system:String x:Key="Backup.Start">Démarrer</system:String>
-	<system:String x:Key="Backup.Stop">Stop</system:String>
-	<system:String x:Key="Backup.BackupNOW">Sauvegarder MAINTENANT</system:String>
-	<system:String x:Key="Backup.NOW">MAINTENANT</system:String>
-	<system:String x:Key="Backup.Save">Sauvegarder</system:String>
-	<system:String x:Key="Backup.ClearLog">Effacer le journal</system:String>
-	<system:String x:Key="Backup.DestRootFolder">Dossier distant</system:String>
-	<system:String x:Key="Backup.SourceFolders">Dossier source</system:String>
-	<system:String x:Key="Backup.Progress">Progrès</system:String>
-	<system:String x:Key="Backup.AutoStart">Démarrage automatique</system:String>
-	<system:String x:Key="Backup.LogTab.Current">Actuel</system:String>
-	<system:String x:Key="Backup.LogTab.All">Tout</system:String>
-	<system:String x:Key="Backup.LogTab.Error">Erreur</system:String>
-	<system:String x:Key="Backup.LogTab.Ready">Prêt</system:String>
-	<system:String x:Key="Backup.LogTab.Left">A gauche</system:String>
-	<system:String x:Key="Backup.LogTab.File">Fichier</system:String>
-	<system:String x:Key="Backup.LogTab.Folder">Dossier</system:String>
-	<system:String x:Key="Backup.LogTab.FollowLatest">Suivre les dernières</system:String>
-	<system:String x:Key="Backup.Count.Left">A gauche</system:String>
-	<system:String x:Key="Backup.Count.Processed">Traitée</system:String>
-
-	<system:String x:Key="Message.Backup.BackupTargetFolder">Sélectionnez un dossier distant dans lequel les fichiers seront stockés</system:String>
-
-	<!--  à partir de la version 1.6.0.416  -->
-	<system:String x:Key="Settings.General.UseDriveIcon">Utiliser l'icône personnalisée sur un lecteur connecté</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">Disque local</system:String>
-	<system:String x:Key="AddDrive.FileLock">Verrouillage des fichiers</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">Lecteur inscriptible</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">Montage comme un disque local</system:String>
-	<system:String x:Key="ToolTip.FileLock">Verrouillage des fichiers WebDAV</system:String>
-	<system:String x:Key="ToolTip.FileLock2">dépend du serveur WebDAV</system:String>
-	<system:String x:Key="ToolTip.FileLock3">Votre serveur peut ne pas prendre en charge</system:String>
-
-	<!--  à partir de la version 1.7.0  -->
-	<system:String x:Key="Identity.SignIn">Connexion</system:String>
-	<system:String x:Key="Identity.SignOut">Déconnexion</system:String>
-	<system:String x:Key="Identity.SignOut.Question1">Les fonctions de votre abonnement seront désactivées et tous les lecteurs seront reconnectés. Veuillez enregistrer le(s) fichier(s) ou fermer l'(les) application(s)</system:String>
-	<system:String x:Key="Identity.SignOut.Question2">Êtes vous sur de vouloir vous déconnecter ?</system:String>
-	<system:String x:Key="Subscription.Switched">Commutation sur {0}</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">Votre session actuelle a été demandée de revenir par votre autre session{0}. Tous les lecteurs seront reconnectés. Veuillez enregistrer le(s) fichier(s) ou fermer l'(les) application(s)</system:String>
-	<system:String x:Key="Subscription.Switched.Desc2">Il sera appliqué après {0}, appuyez sur le bouton Ok pour être immédiat.</system:String>
-
-	<!--  à partir de la version 1.8.0  -->
-	<system:String x:Key="Words.Public">Publique</system:String>
-	<system:String x:Key="Words.Private">Privé</system:String>
-	<system:String x:Key="Words.Site">Site</system:String>
-
-	<!--  à partir de la version 1.9.0  -->
-	<system:String x:Key="Words.Project">Projet</system:String>
-	<system:String x:Key="Words.Bucket">Bucket</system:String>
-	<system:String x:Key="Words.Tenant">Locataire</system:String>
-	<system:String x:Key="Words.Subscription">Abonnement</system:String>
-	<system:String x:Key="Words.Community">Communauté</system:String>
-	<system:String x:Key="Words.Document">Document</system:String>
-
-	<system:String x:Key="Words.Cache">Cache</system:String>
-	<system:String x:Key="Words.Lifetime">Durée de vie</system:String>
-	<system:String x:Key="Words.Read">Lire</system:String>
-	<system:String x:Key="Words.Write">Écrivez à</system:String>
-	<system:String x:Key="Words.Second">deuxième</system:String>
-
-	<system:String x:Key="Account.AccessKeyID">ID de la clé d'accès</system:String>
-	<system:String x:Key="Account.SecretAccessKey">Clé d'accès secrète</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">Veuillez entrer l'ID de la clé d'accès</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Veuillez entrer la clé d'accès secrète</system:String>
-
-	<system:String x:Key="Account.StorageAccount">Compte de stockage</system:String>
-	<system:String x:Key="Account.StorageKey">Clé</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Veuillez entrer le nom du compte de stockage</system:String>
-	<system:String x:Key="Vailidation.StorageKey">Veuillez entrer la touche1 ou la touche2</system:String>
-
-	<system:String x:Key="Settings.RegisterToStartup">S'inscrire au démarrage</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Reconnecter au démarrage du programme</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnecter au démarrage</system:String>
-	<system:String x:Key="AddDrive.MountAtSignIn">Reconnectez-vous à l'ouverture de session</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">Connexion à l'aide de différents identifiants</system:String>
-
-	<!--  à partir de la version 2020.2.2  -->
-	<system:String x:Key="Message.MountPointFolder.Condition">Les chemins des dossiers de points de montage ne sont disponibles que sur les dossiers vides des volumes NTFS de base ou dynamiques.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">Pour attribuer un dossier, l'option publique Disque local est requise</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrl">URL du dossier</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrlID">URL ou ID du dossier</system:String>
-
-	<system:String x:Key="GoogleDrive.MyDrive">Mon lecteur</system:String>
-	<system:String x:Key="GoogleDrive.SharedWithMe">Partagé avec moi</system:String>
-	<system:String x:Key="GoogleDrive.Computers">Ordinateurs</system:String>
-	<system:String x:Key="GoogleDrive.SharedLink">Lien partagé</system:String>
-
-	<system:String x:Key="OneDrive.Files">Fichiers</system:String>
-	<system:String x:Key="OneDrive.Shared">Partagé</system:String>
-	<system:String x:Key="OneDrive.SharedLink">Lien partagé</system:String>
-
-	<!--  from 2020.6  -->
-	<system:String x:Key="Words.Bandwidth">Bande passante</system:String>
-	<system:String x:Key="Words.Download">Télécharger</system:String>
-	<system:String x:Key="Words.Upload">téléchargement</system:String>
-	<system:String x:Key="Words.Capacity">Capacité</system:String>
-
-	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">Update storage changes asynchronously</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
-	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitor process access to files</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Overwrite target</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Rename source</system:String>
-	<system:String x:Key="Words.Skip">Skip</system:String>
-	<system:String x:Key="Words.Slow">Slow</system:String>
-	<system:String x:Key="Message.ResponseSlow">A response may be slow</system:String>
+	<system:String x:Key="Messages.Cache.FolderNotSupport">Le dossier temporaire doit être un dossier du lecteur de disque local. Le lecteur réseau n'est pas pris en charge.</system:String>
+	<system:String x:Key="Messages.CheckAddress">Veuillez vérifier l'adresse.</system:String>
+	<system:String x:Key="Messages.CheckPort">Veuillez vérifier le port{0}.</system:String>
+	<system:String x:Key="Messages.CheckProtocolPort">Veuillez revérifier le protocole{0} et le port{1}.</system:String>
+	<system:String x:Key="Messages.CurrentVersion">La version actuelle est {0}</system:String>
+	<system:String x:Key="Messages.Delegation.Aborted">Délégation avortée</system:String>
+	<system:String x:Key="Messages.EnterAccessKeyID">Veuillez entrer l'ID de la clé d'accès</system:String>
+	<system:String x:Key="Messages.EnterIPAddress">Veuillez entrer un nom d'hôte ou une adresse IP</system:String>
+	<system:String x:Key="Messages.EnterPassword">Veuillez entrer un mot de passe</system:String>
+	<system:String x:Key="Messages.EnterPort">Veuillez entrer un numéro de port (1 ~ 65535)</system:String>
+	<system:String x:Key="Messages.EnterSecretAccessKey">Veuillez entrer la clé d'accès secrète</system:String>
+	<system:String x:Key="Messages.EnterStorageAccount">Veuillez entrer le nom du compte de stockage</system:String>
+	<system:String x:Key="Messages.EnterStorageKey">Veuillez entrer la touche1 ou la touche2</system:String>
+	<system:String x:Key="Messages.EnterURL">Veuillez entrer une URL</system:String>
+	<system:String x:Key="Messages.EnterUsername">Veuillez entrer un nom d'utilisateur</system:String>
+	<system:String x:Key="Messages.EnterVolume">Veuillez entrer une étiquette de volume valide</system:String>
+	<system:String x:Key="Messages.Error.CacheDiskFull">L'espace de stockage du cache n'est pas suffisant. Vous feriez mieux d'augmenter l'espace de stockage.</system:String>
+	<system:String x:Key="Messages.Error.ConnectInternet">Impossible de se connecter au stockage à distance. Veuillez vérifier votre connexion Internet et réessayer.</system:String>
+	<system:String x:Key="Messages.Error.DiskLetterExist">Vous devez modifier la lettre du lecteur ou le nom du lecteur.</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPassword">Le mot de passe que vous avez entré n'est pas correct. Réessayez.</system:String>
+	<system:String x:Key="Messages.Error.MethodNotAllowed">Veuillez vérifier si le chemin{0} existe ou si l'accès est autorisé.</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveAuth">L'autorisation ou l'authentification a échoué. Voulez-vous vous ré-authentifier ?</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveLimit">Le quota de téléchargement a été dépassé. Les restrictions de téléchargement sont la politique de {0}.</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveRemake">La méthode de connexion à la mémoire distante a changé. Vous devez vous reconnecter.</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveWantRelogin">L'autorisation ou l'authentification a échoué. Voulez-vous vous ré-authentifier ? (Si cela échoue toujours, supprimez le lecteur et recréez-le).</system:String>
+	<system:String x:Key="Messages.Error.Unauthorized">L'authentification a échoué. Veuillez vérifier votre compte (mot de passe).</system:String>
+	<system:String x:Key="Messages.ExistVolume">Ce nom existe déjà</system:String>
+	<system:String x:Key="Messages.ExitConfirm">Etes-vous sûr de vouloir déconnecter toutes les connexions avant de sortir ?</system:String>
+	<system:String x:Key="Messages.FileLock.DependsWebDAV">dépend du serveur WebDAV</system:String>
+	<system:String x:Key="Messages.FileLock.NotSupport">Votre serveur peut ne pas prendre en charge</system:String>
+	<system:String x:Key="Messages.FolderExist">Ce dossier est déjà inclus.</system:String>
+	<system:String x:Key="Messages.HereWeGo">ICI NOUS ALLONS~</system:String>
+	<system:String x:Key="Messages.InternetDown">Votre connexion Internet semble être coupée. Veuillez vérifier votre connexion internet.</system:String>
+	<system:String x:Key="Messages.License.Expired">Votre licence a expiré. Vous devez télécharger la nouvelle version. Appuyez sur OK pour mettre à jour.</system:String>
+	<system:String x:Key="Messages.License.NotReady">RaiDrive ne peut pas valider votre licence.</system:String>
+	<system:String x:Key="Messages.Maximum.Drive">Jusqu'à 8 entraînements peuvent être créés dans la version actuelle</system:String>
+	<system:String x:Key="Messages.MountPointFolder.Condition">Les chemins des dossiers de points de montage ne sont disponibles que sur les dossiers vides des volumes NTFS de base ou dynamiques.</system:String>
+	<system:String x:Key="Messages.MountPointFolder.Mandatory">Pour attribuer un dossier, l'option publique Disque local est requise</system:String>
+	<system:String x:Key="Messages.NotReadyDriver">Le pilote de périphérique n'est pas installé sur votre système. Vous devez réinstaller RaiDrive.</system:String>
+	<system:String x:Key="Messages.NotReadyReboot">RaiDrive n'est pas prêt à démarrer, vous devez redémarrer le système.</system:String>
+	<system:String x:Key="Messages.NotSupportBrowserDropbox">La boîte de dépôt est compatible avec Internet Explorer 10, 11. Vous feriez mieux d'installer Internet Explorer 11.</system:String>
+	<system:String x:Key="Messages.NotSupportNetworkDrive">RaiDrive ne prend pas en charge un lecteur réseau.</system:String>
+	<system:String x:Key="Messages.NotSupportRaiDrive">RaiDrive ne prend pas en charge un lecteur à connecter tout seul.</system:String>
+	<system:String x:Key="Messages.OAuth.InvalidClient">Domaine non géré par Active Directory</system:String>
+	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Votre compte n'est pas géré par Active Directory. Vous devez contacter Active Directory ou l'administrateur du domaine ou vous connecter en tant que compte personnel.</system:String>
+	<system:String x:Key="Messages.OtherResponseCode.2">Chemin non trouvé. Vérifiez le chemin{0}.</system:String>
+	<system:String x:Key="Messages.ReconnectForChangingSettings">Veuillez appuyer sur la touche OK, vous devez reconnecter la mémoire de la télécommande pour que les paramètres modifiés prennent effet.</system:String>
+	<system:String x:Key="Messages.ResponseSlow">A response may be slow</system:String>
+	<system:String x:Key="Messages.RetryAfter">Réessayer après {0} seconde(s).</system:String>
+	<system:String x:Key="Messages.SelectLetter">Veuillez sélectionner une lettre de lecteur non assignée</system:String>
+	<system:String x:Key="Messages.SelectLocalDrive">Veuillez sélectionner un dossier sur votre PC</system:String>
+	<system:String x:Key="Messages.SelectPrivateKeyPath">vous pouvez sélectionner le fichier de clé privée</system:String>
+	<system:String x:Key="Messages.SelectedPath">Chemin d'accès sélectionné</system:String>
+	<system:String x:Key="Messages.SeleteTargetFolder">Sélectionnez un dossier distant dans lequel les fichiers seront stockés</system:String>
+	<system:String x:Key="Messages.Service.Alive">Veuillez appuyer sur la touche OK, RaiDrive sera en vie.</system:String>
+	<system:String x:Key="Messages.Service.Stoped">Le service RaiDrive a été arrêté.</system:String>
+	<system:String x:Key="Messages.SignOut.Question1">Les fonctions de votre abonnement seront désactivées et tous les lecteurs seront reconnectés. Veuillez enregistrer le(s) fichier(s) ou fermer l'(les) application(s)</system:String>
+	<system:String x:Key="Messages.SignOut.Question2">Êtes vous sur de vouloir vous déconnecter ?</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc1">Votre session actuelle a été demandée de revenir par votre autre session{0}. Tous les lecteurs seront reconnectés. Veuillez enregistrer le(s) fichier(s) ou fermer l'(les) application(s)</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc2">Il sera appliqué après {0}, appuyez sur le bouton Ok pour être immédiat.</system:String>
+	<system:String x:Key="Messages.SureDelete">Êtes-vous sûr de vouloir supprimer définitivement &quot;{0} ({1})&quot; ?</system:String>
+	<system:String x:Key="Messages.UnknownSpace">Espace inconnu</system:String>
+	<system:String x:Key="Messages.Upgrade.New">Vous pouvez passer à la nouvelle version</system:String>
+	<system:String x:Key="Messages.Upgrade.NewVersion">Vous pouvez passer à la version {0}</system:String>
+	<system:String x:Key="Messages.Upgrade.Uptodate">Vous utilisez la dernière version</system:String>
+	<system:String x:Key="Messages.VolumeInvalidChar">Une étiquette de volume ne peut contenir aucun des caractères suivants :</system:String>
+	<system:String x:Key="Messages.VolumeInvalidStr">N'utilisez pas les noms réservés suivants :</system:String>
+	<system:String x:Key="Phrases.AuthAtConnect">Connexion à l'aide de différents identifiants</system:String>
+	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Naviguer en mode privé</system:String>
+	<system:String x:Key="Phrases.ConnectByRaiDrive">Connecté par RaiDrive</system:String>
+	<system:String x:Key="Phrases.DeleteDrive">Effacer le lecteur</system:String>
+	<system:String x:Key="Phrases.DuplicatedPath">Chemin dupliqué</system:String>
+	<system:String x:Key="Phrases.FileInUse">File(s) In Use: {0}</system:String>
+	<system:String x:Key="Phrases.FileLock.WebDAV">Verrouillage des fichiers WebDAV</system:String>
+	<system:String x:Key="Phrases.FilesystemWatcher">Monitor process access to files</system:String>
+	<system:String x:Key="Phrases.FolderUrl">URL du dossier</system:String>
+	<system:String x:Key="Phrases.FolderUrlID">URL ou ID du dossier</system:String>
+	<system:String x:Key="Phrases.FollowLatest">Suivre les dernières</system:String>
+	<system:String x:Key="Phrases.ForBusinessVersion">pour la version business</system:String>
+	<system:String x:Key="Phrases.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
+	<system:String x:Key="Phrases.MountAtBoot">Reconnecter au démarrage</system:String>
+	<system:String x:Key="Phrases.MountAtSignIn">Reconnectez-vous à l'ouverture de session</system:String>
+	<system:String x:Key="Phrases.MountAtStart">Reconnecter au démarrage du programme</system:String>
+	<system:String x:Key="Phrases.MountLocalDisk">Montage comme un disque local</system:String>
+	<system:String x:Key="Phrases.OpenRaiDrive">Ouvrir RaiDrive</system:String>
+	<system:String x:Key="Phrases.OverwriteTarget">Overwrite target</system:String>
+	<system:String x:Key="Phrases.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
+	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive Reconnect</system:String>
+	<system:String x:Key="Phrases.RegisterToStartup">S'inscrire au démarrage</system:String>
+	<system:String x:Key="Phrases.RenameSource">Rename source</system:String>
+	<system:String x:Key="Phrases.RunAtBoot">Exécution automatique d'un programme au démarrage de Windows</system:String>
+	<system:String x:Key="Phrases.RunAtConnect">Exécutez l'Explorateur de fichiers lorsque le lecteur est connecté</system:String>
+	<system:String x:Key="Phrases.SelectFolder">Sélectionner le dossier</system:String>
+	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Ravivez RaiDrive</system:String>
+	<system:String x:Key="Phrases.State.Space.Format">{0} libre de {1} {2}</system:String>
+	<system:String x:Key="Phrases.Subscription.Switched">Commutation sur {0}</system:String>
+	<system:String x:Key="Phrases.UpdateChangeAsync">Update storage changes asynchronously</system:String>
+	<system:String x:Key="Phrases.UseDriveIcon">Utiliser l'icône personnalisée sur un lecteur connecté</system:String>
+	<system:String x:Key="Words.AccessKeyID">ID de la clé d'accès</system:String>
+	<system:String x:Key="Words.Account">Compte</system:String>
+	<system:String x:Key="Words.Add">Ajouter</system:String>
+	<system:String x:Key="Words.Address">Adresse</system:String>
 	<system:String x:Key="Words.AdvancedOptions">Advanced Options</system:String>
-	<system:String x:Key="Words.Properties">Properties</system:String>
-
+	<system:String x:Key="Words.All">Tout</system:String>
+	<system:String x:Key="Words.Anonymous">Anonyme</system:String>
+	<system:String x:Key="Words.Apply">Appliquer</system:String>
+	<system:String x:Key="Words.AutoStart">Démarrage automatique</system:String>
+	<system:String x:Key="Words.Backup">Sauvegarde</system:String>
+	<system:String x:Key="Words.BackupNOW">Sauvegarder MAINTENANT</system:String>
+	<system:String x:Key="Words.Bandwidth">Bande passante</system:String>
+	<system:String x:Key="Words.Brand.Box_com">Boîte</system:String>
+	<system:String x:Key="Words.Brand.Facebook">Facebook</system:String>
+	<system:String x:Key="Words.Brand.QNAP">QNAP</system:String>
+	<system:String x:Key="Words.Brand.Synology">Synology</system:String>
+	<system:String x:Key="Words.Brand.WD">WD</system:String>
+	<system:String x:Key="Words.Brand.ipTIME">ipTIME</system:String>
+	<system:String x:Key="Words.Browser">Browser</system:String>
+	<system:String x:Key="Words.Bucket">Bucket</system:String>
+	<system:String x:Key="Words.Cache">Cache</system:String>
+	<system:String x:Key="Words.Cancel">Annuler</system:String>
+	<system:String x:Key="Words.Capacity">Capacité</system:String>
+	<system:String x:Key="Words.Charset">Charset</system:String>
+	<system:String x:Key="Words.Check">Vérifiez</system:String>
+	<system:String x:Key="Words.CheckUpdate">Vérifier les mises à jours</system:String>
+	<system:String x:Key="Words.ClearLog">Effacer le journal</system:String>
+	<system:String x:Key="Words.Code">Code</system:String>
+	<system:String x:Key="Words.Community">Communauté</system:String>
+	<system:String x:Key="Words.Connect">Connexion</system:String>
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.CountLeft">A gauche</system:String>
+	<system:String x:Key="Words.Current">Actuel</system:String>
+	<system:String x:Key="Words.Default">Par défaut</system:String>
+	<system:String x:Key="Words.Delete">Supprimer</system:String>
+	<system:String x:Key="Words.Description">Description</system:String>
+	<system:String x:Key="Words.Device">Appareil</system:String>
+	<system:String x:Key="Words.Disconnect">Déconnexion</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Words.Document">Document</system:String>
+	<system:String x:Key="Words.Download">Télécharger</system:String>
+	<system:String x:Key="Words.Drive">Lecteur</system:String>
+	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+	<system:String x:Key="Words.Edit">Éditer</system:String>
+	<system:String x:Key="Words.Encryption">Chiffrement</system:String>
+	<system:String x:Key="Words.Endpoint">Endpoint</system:String>
+	<system:String x:Key="Words.Error">Erreur</system:String>
+	<system:String x:Key="Words.Etc">etc</system:String>
+	<system:String x:Key="Words.Example.EmailAddress">id@example.com</system:String>
+	<system:String x:Key="Words.Example.HostAddress">host.exemple.com</system:String>
+	<system:String x:Key="Words.Exit">Sortie</system:String>
+	<system:String x:Key="Words.Export">Export</system:String>
+	<system:String x:Key="Words.File">Fichier</system:String>
+	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
+	<system:String x:Key="Words.FileLock">Verrouillage des fichiers</system:String>
+	<system:String x:Key="Words.Folder">Dossier</system:String>
+	<system:String x:Key="Words.FreeSpace">Espace libre</system:String>
+	<system:String x:Key="Words.General">Général</system:String>
+	<system:String x:Key="Words.GoogleDrive.Computers">Ordinateurs</system:String>
+	<system:String x:Key="Words.GoogleDrive.MyDrive">Mon lecteur</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedDrives">Shared drives</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedLink">Lien partagé</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedWithMe">Partagé avec moi</system:String>
+	<system:String x:Key="Words.Help">AIDE</system:String>
+	<system:String x:Key="Words.Hide">Hide</system:String>
+	<system:String x:Key="Words.Import">Import</system:String>
+	<system:String x:Key="Words.Key">Clé</system:String>
+	<system:String x:Key="Words.Language">Langue</system:String>
+	<system:String x:Key="Words.License">License</system:String>
+	<system:String x:Key="Words.Lifetime">Durée de vie</system:String>
+	<system:String x:Key="Words.Like">Like</system:String>
+	<system:String x:Key="Words.LocalDisk">Disque local</system:String>
+	<system:String x:Key="Words.Login">Connexion</system:String>
 	<system:String x:Key="Words.MySubscription">My Subscription</system:String>
+	<system:String x:Key="Words.NOW">MAINTENANT</system:String>
+	<system:String x:Key="Words.Network">Réseau</system:String>
+	<system:String x:Key="Words.NetworkDrive">Lecteur réseau</system:String>
+	<system:String x:Key="Words.NewDrive">Nouveau lecteur</system:String>
+	<system:String x:Key="Words.No">Non</system:String>
+	<system:String x:Key="Words.Notice">Notice</system:String>
+	<system:String x:Key="Words.Ok">Ok</system:String>
+	<system:String x:Key="Words.OneDrive.Files">Fichiers</system:String>
+	<system:String x:Key="Words.OneDrive.Shared">Partagé</system:String>
+	<system:String x:Key="Words.OneDrive.SharedLink">Lien partagé</system:String>
+	<system:String x:Key="Words.Password">Mot de passe</system:String>
+	<system:String x:Key="Words.Path">Chemin d'accès</system:String>
+	<system:String x:Key="Words.Port">Port</system:String>
+	<system:String x:Key="Words.Private">Privé</system:String>
+	<system:String x:Key="Words.PrivateKey">Clé privée</system:String>
+	<system:String x:Key="Words.ProcessMonitor">Process Monitor</system:String>
+	<system:String x:Key="Words.Processed">Traitée</system:String>
+	<system:String x:Key="Words.Progress">Progrès</system:String>
+	<system:String x:Key="Words.Project">Projet</system:String>
+	<system:String x:Key="Words.Properties">Properties</system:String>
+	<system:String x:Key="Words.Proxy">Proxy</system:String>
+	<system:String x:Key="Words.Public">Publique</system:String>
+	<system:String x:Key="Words.Read">Lire</system:String>
+	<system:String x:Key="Words.ReadOnly">Lecture seule</system:String>
+	<system:String x:Key="Words.Reading">Reading</system:String>
+	<system:String x:Key="Words.Ready">Prêt</system:String>
+	<system:String x:Key="Words.Reason">Raison</system:String>
+	<system:String x:Key="Words.RemoteFolder">Dossier distant</system:String>
+	<system:String x:Key="Words.Remove">Supprimer</system:String>
+	<system:String x:Key="Words.Retry">Réessayez</system:String>
+	<system:String x:Key="Words.Save">Sauvegarder</system:String>
+	<system:String x:Key="Words.Second">deuxième</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+	<system:String x:Key="Words.SecretAccessKey">Clé d'accès secrète</system:String>
+	<system:String x:Key="Words.SecureConnection">Connexion sécurisée</system:String>
+	<system:String x:Key="Words.SecureProtocol">Protocole de sécurité</system:String>
+	<system:String x:Key="Words.Send.Opinion">Envoyer un avis</system:String>
+	<system:String x:Key="Words.Settings">Paramètres</system:String>
 	<system:String x:Key="Words.ShareWithOther">Share with others</system:String>
 	<system:String x:Key="Words.SharedWithMe">Shared with me</system:String>
-	<system:String x:Key="Words.Import">Import</system:String>
-	<system:String x:Key="Words.Export">Export</system:String>
-	<system:String x:Key="Words.ProcessMonitor">Process Monitor</system:String>
-
-	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
-	<system:String x:Key="GoogleDrive.SharedDrives">Shared drives</system:String>
-
-	<system:String x:Key="Words.Reading">Reading</system:String>
-	<system:String x:Key="Words.Writing">Writing</system:String>
-	<system:String x:Key="Words.Hide">Hide</system:String>
-
-	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">Timeout</system:String>
-	<system:String x:Key="Words.Seconds">seconds</system:String>
-
-	<system:String x:Key="Words.Connected">Connected</system:String>
-	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
-	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
-
-	<!--  from 2022.3  -->
+	<system:String x:Key="Words.SignIn">Connexion</system:String>
+	<system:String x:Key="Words.SignOut">Déconnexion</system:String>
+	<system:String x:Key="Words.Site">Site</system:String>
+	<system:String x:Key="Words.Size">Taille</system:String>
+	<system:String x:Key="Words.Skip">Skip</system:String>
+	<system:String x:Key="Words.Slow">Slow</system:String>
 	<system:String x:Key="Words.Sort">Sort</system:String>
-	<system:String x:Key="Words.Sort.None">None</system:String>
 	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
 	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
-	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
-	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
-
-	<system:String x:Key="Message.IncorrectPassword">Le mot de passe que vous avez entré n'est pas correct. Réessayez.</system:String>
-
-	<!--  from 2022.6  -->
-	<system:String x:Key="Words.Browser">Browser</system:String>
-	<system:String x:Key="Browser.BrowseInPrivate">Naviguer en mode privé</system:String>
+	<system:String x:Key="Words.Sort.None">None</system:String>
+	<system:String x:Key="Words.SourceFolders">Dossier source</system:String>
+	<system:String x:Key="Words.Space.Used">utilisé</system:String>
+	<system:String x:Key="Words.Start">Démarrer</system:String>
+	<system:String x:Key="Words.State">État</system:String>
+	<system:String x:Key="Words.Stop">Stop</system:String>
+	<system:String x:Key="Words.Storage">Stockage</system:String>
+	<system:String x:Key="Words.StorageAccount">Compte de stockage</system:String>
+	<system:String x:Key="Words.Subscription">Abonnement</system:String>
+	<system:String x:Key="Words.TemporaryPath">Temporaire</system:String>
+	<system:String x:Key="Words.Tenant">Locataire</system:String>
+	<system:String x:Key="Words.Time">Heure</system:String>
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.TransferMode">Mode de transfert</system:String>
+	<system:String x:Key="Words.Update">Mise à jour</system:String>
+	<system:String x:Key="Words.Upgrade">Mise à niveau</system:String>
+	<system:String x:Key="Words.Upload">téléchargement</system:String>
+	<system:String x:Key="Words.Username">Nom d'utilisateur</system:String>
+	<system:String x:Key="Words.VolumeLabel">Nom de volume</system:String>
+	<system:String x:Key="Words.WritableDrive">Lecteur inscriptible</system:String>
+	<system:String x:Key="Words.Write">Écrivez à</system:String>
+	<system:String x:Key="Words.Writing">Writing</system:String>
+	<system:String x:Key="Words.Yes">Oui</system:String>
 </ResourceDictionary>

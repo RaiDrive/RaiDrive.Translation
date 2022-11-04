@@ -1,343 +1,255 @@
-﻿<ResourceDictionary
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:local="clr-namespace:RaiDrive.Center.Languages"
-	xmlns:system="clr-namespace:System;assembly=mscorlib">
-
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>Mugahedb</system:String>
 		<system:String>Abu3safeer</system:String>
 		<system:String>Xazmah</system:String>
 	</x:Array>
-	<system:String x:Key="Current.Language">ar</system:String>
+	<system:String x:Key="Language.English">Arabic</system:String>
+	<system:String x:Key="Language.Native">العربية</system:String>
+	<system:String x:Key="Language.Tags">ar</system:String>
 
-	<!--  Settings, General  -->
-	<system:String x:Key="Settings">الإعدادات</system:String>
-	<system:String x:Key="Settings.Header">الإعدادات</system:String>
-	<system:String x:Key="Settings.General">عام</system:String>
-	<system:String x:Key="Settings.Language">اللغة</system:String>
-	<system:String x:Key="Settings.Update">تحديثات</system:String>
-	<system:String x:Key="Settings.Facebook">فيسبوك</system:String>
-	<system:String x:Key="Settings.Facebook.Like">إعجاب</system:String>
-	<system:String x:Key="Settings.TemporaryPath">المسار المؤقت</system:String>
-	<system:String x:Key="Settings.Default">افتراضي</system:String>
-	<system:String x:Key="Settings.License">الترخيص</system:String>
-	<system:String x:Key="Settings.Proxy">الوكيل</system:String>
-
-	<system:String x:Key="Settings.General.RunAtBoot">تشغيل البرنامج مع بدء تشغيل الجهاز</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">فتح مستكشف الملفات عند توصيل محرك الأقراص</system:String>
-
-	<system:String x:Key="Notice">تنبيه</system:String>
-	<system:String x:Key="AddDrive">إضافة</system:String>
-	<system:String x:Key="AddDrive.Header">محرك أقراص جديد</system:String>
-	<system:String x:Key="AddDrive.Storage">الخدمات</system:String>
-
-	<!--  Drive  -->
-	<system:String x:Key="AddDrive.Drive">محرك أقراص</system:String>
-
-	<!--  Add New Storage  -->
-	<system:String x:Key="AddDrive.Network">شبكة</system:String>
-	<system:String x:Key="AddDrive.ReadOnly">للقراءة فقط</system:String>
-	<system:String x:Key="AddDrive.Account">الحساب</system:String>
-	<system:String x:Key="AddDrive.Username">اسم المستخدم</system:String>
-	<system:String x:Key="AddDrive.Password">كلمة المرور</system:String>
-	<system:String x:Key="AddDrive.Anonymous">وصول كمجهول</system:String>
-	<system:String x:Key="AddDrive.Address">العنوان</system:String>
-	<system:String x:Key="AddDrive.Port">المنفذ</system:String>
-	<system:String x:Key="AddDrive.Device">الجهاز</system:String>
-	<system:String x:Key="AddDrive.PrivateKey">مفتاح خاص</system:String>
-	<system:String x:Key="AddDrive.Charset">طقم المحارف</system:String>
-	<system:String x:Key="AddDrive.TransferMode">طريقة النقل</system:String>
-	<system:String x:Key="AddDrive.Encryption">التشفير</system:String>
-
-	<system:String x:Key="Vailidation.Volume">الرجاء اختيار اسم وحدة تخزين مناسب</system:String>
-	<system:String x:Key="Vailidation.VolumeExist">هذا الاسم مستخدم مسبقا</system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidChar">اسم وحدة التخزين يجب ألا يحتوي على هذه الرموز:</system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidStr">لا يسمح باستخدام هذه الأسماء المحجوزة:</system:String>
-	<system:String x:Key="Vailidation.Letter">الرجاءاستخدام محرك أقراص شاغر</system:String>
-	<system:String x:Key="Vailidation.Address">الرجاء ادخال اسم أو عنوان الخادم</system:String>
-	<system:String x:Key="Vailidation.Address.WebDAV">الرجاء ادخال العنوان</system:String>
-	<system:String x:Key="Vailidation.Address.LocalDrive">الرجاء اختيار مجلد على جهازك</system:String>
-	<system:String x:Key="Vailidation.Port">الرجاء اختيار رقم المنفذ(1 ~ 65535)</system:String>
-	<system:String x:Key="Vailidation.Username">ادخل اسم المستخدم</system:String>
-	<system:String x:Key="Vailidation.Password">ادخل كملة المرور</system:String>
-
-	<!--  Menu bar>Settings, account, volume  -->
-	<system:String x:Key="Vailidation.Hint.Volume">اسم وحدة التخرين</system:String>
-	<system:String x:Key="Vailidation.Hint.Address">host.example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">مجلد</system:String>
-	<system:String x:Key="Vailidation.Hint.Username">اسم المستخدم</system:String>
-	<system:String x:Key="Vailidation.Hint.Password">كلمةالمرور</system:String>
-	<system:String x:Key="Vailidation.Hint.Port">المنفذ</system:String>
-	<system:String x:Key="Vailidation.Hint.Path">المسار</system:String>
-	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">يمكنك اختيار الملف الخاص بالمفتاح الخاص</system:String>
-
-	<system:String x:Key="Button.Yes">نعم</system:String>
-	<system:String x:Key="Button.No">لا</system:String>
-	<system:String x:Key="Button.OK">موافق</system:String>
-	<system:String x:Key="Button.Apply">تطبيق</system:String>
-	<system:String x:Key="Button.Cancel">إلغاء</system:String>
-	<system:String x:Key="Button.Check">التحقق</system:String>
-	<system:String x:Key="Button.Edit">تحرير</system:String>
-	<system:String x:Key="Button.Retry">حاول مجددا</system:String>
-	<system:String x:Key="Button.ReAuth">تسجيل الدخول</system:String>
-	<system:String x:Key="Button.Login">الدخول</system:String>
-	<system:String x:Key="Button.SIGNIN">تسجيل الدخول</system:String>
-
-	<system:String x:Key="ToolTip.Connect">اتصل</system:String>
-	<system:String x:Key="ToolTip.Disconnect">قطع الاتصال</system:String>
-	<system:String x:Key="ToolTip.Edit">تحرير</system:String>
-	<system:String x:Key="ToolTip.Remove">حذف</system:String>
-	<system:String x:Key="ToolTip.NetworkDrive">محرك الشبكة</system:String>
-	<system:String x:Key="ToolTip.SecureProtocol">الاتصال الآمن</system:String>
-	<system:String x:Key="ToolTip.SecureConnection">الاتصال الآمن</system:String>
-	<system:String x:Key="ToolTip.Backup">نسخة احتياطية</system:String>
-
-	<system:String x:Key="Message.Title.SelectFolder">اختيار مجلد</system:String>
-	<system:String x:Key="Message.Title.DeleteDrive">حذف محرك أقراص</system:String>
-
-	<system:String x:Key="Message.NotSupportNetworkDrive">البرنامج لا يدعم محرك الشبكة.</system:String>
-	<system:String x:Key="Message.NotSupportRaiDrive">البرنامج لا يدعم الاتصال التلقائي لمحرك الأقراص.</system:String>
-	<system:String x:Key="Message.Exist">هذا الملجد تم اختياره من قبل.</system:String>
-	<system:String x:Key="Message.SelectedPath">المسار الذي تم اختياره</system:String>
-	<system:String x:Key="Message.DuplicatedPath">المسار المكرر</system:String>
-
-	<system:String x:Key="Message.SureDelete">هل أنت متأكد من الحذف النهائي &quot;{0} ({1})&quot;  ؟ ?</system:String>
-	<system:String x:Key="Message.Title.ServiceDown">استعادة البرنامج</system:String>
-	<system:String x:Key="Message.Title.Reconnect">إعادة الاتصال</system:String>
-	<system:String x:Key="Message.ServiceDown">اختر موافق ليتم تشغيل البرنامج.</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">اختر موافق. تأكد من تشغيل وحدة التخزين البعيدة ليتم تطبيق الإعدادات الجديدة.</system:String>
-	<system:String x:Key="Message.NotReady.Reboot">البرنامج ليس جاهزا للبدء. يجب عليك إعادة تشغيل النظام.</system:String>
-	<system:String x:Key="Message.NotReady.Driver">المحرك غير مثبت في جهازك. عليك إعادة تثبيت البرنامج.</system:String>
-	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox يدعم متصفح انترنت اكسبلورر 10,11. يفضل استخدام النسخة 11.</system:String>
-	<system:String x:Key="Message.Connect.By">تم الاتصال عن طريق RaiDrive</system:String>
-	<system:String x:Key="Message.Maximum.Drive">يمكن إنشاء حتى 8 محركات أقراص في هذه النسخة</system:String>
-	<system:String x:Key="Message.License.Expired">انتهت صلاحية الترخيص. يجب عليك الترقية للنسخة الأحدث. اختر موافق للترقية.</system:String>
-	<system:String x:Key="Message.License.NotReady">لم نتمكن من التحقق من الترخيص</system:String>
-	<system:String x:Key="Message.UnknownSpace">المساحة غير محددة</system:String>
-	<system:String x:Key="Message.CurrentVersion">الإصدارة الحالية هي {0}</system:String>
-	<system:String x:Key="Message.Cache.Folder.NotSupport">المجلد المؤقت لابد أن يكون موجودا في القرص المحلي. مجلد الشبكة غير مدعوم.</system:String>
-
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">فشل التحقق. هل تريد محاولة المصادقة مرة أخرى؟</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">فشل التحقق. هل تريد محاولة المصادقة مرة أخرى؟ إذا استمر الخطأ، قم بحذف محرك الأقراص وإعادة تكوينه.</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveLimit">تم استنفاذ الحصة المحددة. تم تطبيق قيود التنزيل {0}.</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">اختلفت إعدادات الاتصال بوحدة التخزين البعيدة. يجب عليك إعادة تسجيل الدخول مرة أخرى.</system:String>
-	<system:String x:Key="Message.ErrorCacheDiskFull">مساحة الذاكرة المؤقتة غير كافية. من الأفضل زيادة مساحة التخزين.</system:String>
-	<system:String x:Key="Message.ErrorInternet">فشل الاتصال بوحدة التخزين البعيدة. الرجاء التحقق من اتصالك بالانترنت وإعادة المحاولة مرة أخرى.</system:String>
-	<system:String x:Key="Message.ErrorDiskLetterExist">يجب تغيير حرف أو اسم محرك الأقراص.</system:String>
-
-	<system:String x:Key="Message.OAuth.InvalidClient">نطاق ليس تحت إدارة Active Directory.</system:String>
-	<system:String x:Key="Message.OAuth.InvalidClientDescription">الحساب المستخدم ليس تحت إدارة Active Directory. اتصل بمسؤول النظام أو حاول تسجيل الدخول بحساب محلي.</system:String>
-
-	<!--  ConnectResponse Message  -->
-	<system:String x:Key="WebExceptionStatus.ConnectFailure">الرجاء التأكد من العنوان.</system:String>
-	<system:String x:Key="WebExceptionStatus.ConnectionClosed">الرجاء التأكد {0} من والمنفذ {1}.</system:String>
-	<system:String x:Key="WebExceptionStatus.SendFailure">الرجاء التأكد {0} من والمنفذ {1}.</system:String>
-	<system:String x:Key="WebExceptionStatus.ReceiveFailure">الرجاء التأكد {0} من والمنفذ {1}.</system:String>
-
-	<system:String x:Key="HttpStatusCode.MethodNotAllowed">الرجاء التحقق من أن المسار {0} موجود أو أن الوصول إليه متاح.</system:String>
-	<system:String x:Key="HttpStatusCode.Unauthorized">فشلت المصادقة. الرجاء مراجعة بيانات الدخول (كلمة المرور).</system:String>
-
-	<system:String x:Key="SocketError.TimedOut">الرجاء التأكد من العنوان.</system:String>
-	<system:String x:Key="SocketError.ConnectionRefused">الرجاء التأكد من المنفذ {0}.</system:String>
-
-	<system:String x:Key="OtherResponseCode.2">هذا المسار غير موجود. تحقق من المسار{0}.</system:String>
-	<system:String x:Key="OtherResponseCode.3">الرجاء التأكد {0} من والمنفذ {1}.</system:String>
-	<!--  ConnectResponse Message  -->
-
-	<system:String x:Key="Words.Reason">السبب</system:String>
-	<system:String x:Key="Words.Delegation.Stop">تم سحب التفويض</system:String>
-	<system:String x:Key="Words.Drive">محرك الأقراص</system:String>
-	<system:String x:Key="Words.FreeSpace">المساحة الفارغة</system:String>
-	<system:String x:Key="Words.Send.Opinion">أرسل رأيك</system:String>
-	<system:String x:Key="Words.Code">الرمز</system:String>
-	<system:String x:Key="Words.Path">المسار</system:String>
-	<system:String x:Key="Words.File">الملف</system:String>
-	<system:String x:Key="Words.Ready">مستعد</system:String>
-	<system:String x:Key="Words.Time">الوقت</system:String>
-	<system:String x:Key="Words.Error">خطأ</system:String>
-	<system:String x:Key="Words.State">الحالة</system:String>
-	<system:String x:Key="Words.Size">الحجم</system:String>
-	<system:String x:Key="Words.Description">الوصف</system:String>
-
-	<system:String x:Key="Help.Text">مساعدة</system:String>
-	<system:String x:Key="Help.Add.Drive">لنبدأ</system:String>
-	<system:String x:Key="Help.ServiceDown">تم إيقاف خدمة RaiDrive</system:String>
-	<system:String x:Key="Help.ServiceDown.Press">اضغط الزر وسيعود البرنامج البرنامج للعمل مجددا.</system:String>
-	<system:String x:Key="Help.InternetDown">يبدو أن لديك مشكلة اتصال بالانترنت. الرجاء مراجعة إعدادات الاتصال.</system:String>
-	<system:String x:Key="Help.InternetDown.RetryAfter">أعد المحاولة بعد {0} ثوان.</system:String>
-	<system:String x:Key="Help.License.ForBusiness">لنسخة الأعمال</system:String>
-
-	<system:String x:Key="Upgrade">التحديث</system:String>
-	<system:String x:Key="Upgrade.Uptodate">أنت تستخدم أحدث إصدار</system:String>
-	<system:String x:Key="Upgrade.NewVersion">يمكنك التحديث إلى النسخة {0}</system:String>
-	<system:String x:Key="Upgrade.New">يمكنك تحديث البرنامج</system:String>
-
-	<system:String x:Key="NotifyIcon.Open">تشغيل RaiDrive</system:String>
-	<system:String x:Key="NotifyIcon.CheckUpdate">البحث عن تحديثات</system:String>
-	<system:String x:Key="NotifyIcon.Exit">خروج</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">قطع كل الاتصالات قبل الخروج؟</system:String>
-
-	<system:String x:Key="State.Space.Format">{0} free of {1} {2}</system:String>
-	<system:String x:Key="State.Space.Used">المستخدم</system:String>
-
-	<system:String x:Key="Brand.Synology">Synology</system:String>
-	<system:String x:Key="Brand.QNAP">QNAP</system:String>
-	<system:String x:Key="Brand.Box_com">Box</system:String>
-	<system:String x:Key="Brand.ipTIME">ipTIME</system:String>
-	<system:String x:Key="Brand.WD">WD</system:String>
-	<system:String x:Key="Brand.etc">etc</system:String>
-
-	<!--  backup  -->
-	<system:String x:Key="Backup">نسخة احتياطية</system:String>
-	<system:String x:Key="Backup.Add">إضافة</system:String>
-	<system:String x:Key="Backup.Delete">حذف</system:String>
-	<system:String x:Key="Backup.Start">ابدأ</system:String>
-	<system:String x:Key="Backup.Stop">توقف</system:String>
-	<system:String x:Key="Backup.BackupNOW">بدء النسخ الاحتياطي</system:String>
-	<system:String x:Key="Backup.NOW">الآن</system:String>
-	<system:String x:Key="Backup.Save">حفظ</system:String>
-	<system:String x:Key="Backup.ClearLog">حدف السجل</system:String>
-	<system:String x:Key="Backup.DestRootFolder">مجلد عن بعد</system:String>
-	<system:String x:Key="Backup.SourceFolders">المجلد المحلي</system:String>
-	<system:String x:Key="Backup.Progress">التقدم</system:String>
-	<system:String x:Key="Backup.AutoStart">تشغيل تلقائي</system:String>
-	<system:String x:Key="Backup.LogTab.Current">الآن</system:String>
-	<system:String x:Key="Backup.LogTab.All">الكل</system:String>
-	<system:String x:Key="Backup.LogTab.Error">خطأ</system:String>
-	<system:String x:Key="Backup.LogTab.Ready">جهاز</system:String>
-	<system:String x:Key="Backup.LogTab.Left">المتبقي</system:String>
-	<system:String x:Key="Backup.LogTab.File">ملف</system:String>
-	<system:String x:Key="Backup.LogTab.Folder">مجلد</system:String>
-	<system:String x:Key="Backup.LogTab.FollowLatest">متابعة الجديد</system:String>
-	<system:String x:Key="Backup.Count.Left">المتبقي</system:String>
-	<system:String x:Key="Backup.Count.Processed">تم تنفيذه</system:String>
-
-	<system:String x:Key="Message.Backup.BackupTargetFolder">اختر المجلد عن بعد حيث سيتم تخزين الملفات</system:String>
-
-	<!--  from version 1.6.0.416  -->
-	<system:String x:Key="Settings.General.UseDriveIcon">استخدام أيقونة خاصة لقرص متصل</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">قرص محلي</system:String>
-	<system:String x:Key="AddDrive.FileLock">قرص مقيد</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">قرص قابل للكتابة</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">إعداد كقرص محلي</system:String>
-	<system:String x:Key="ToolTip.FileLock">قرص WebDAV مقيد</system:String>
-	<system:String x:Key="ToolTip.FileLock2">يعتمد على خادم WebDAV</system:String>
-	<system:String x:Key="ToolTip.FileLock3">سيرفرك قد لا يدعم</system:String>
-
-	<!--  from version 1.7.0  -->
-	<system:String x:Key="Identity.SignIn">تسجيل الدخول</system:String>
-	<system:String x:Key="Identity.SignOut">تسجيل الخروج</system:String>
-	<system:String x:Key="Identity.SignOut.Question1">جميع مميزات اشتراكك ستتعطل، وسنعيد الاتصال بأقراصك. يرجى حفظ ملفاتك أو قفل التطبيقات</system:String>
-	<system:String x:Key="Identity.SignOut.Question2">هل أنت متأكد من رغبتك بتسجيل الخروج؟</system:String>
-	<system:String x:Key="Subscription.Switched">تم التغيير إلى {0}</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">وصل طلب تعديل لجلستك الحالية من جهازك الآخر{0}. سنعيد الاتصال بكل أقراصك. يرجى حفظ ملفاتك أو قفل التطبيقات</system:String>
-	<system:String x:Key="Subscription.Switched.Desc2">سيتم تطبيق التأثيرات بعد {0}، انقر على نعم للتطبيق الآن.</system:String>
-
-	<!--  from version 1.8.0  -->
-	<system:String x:Key="Words.Public">عام</system:String>
-	<system:String x:Key="Words.Private">خاص</system:String>
-	<system:String x:Key="Words.Site">موقع</system:String>
-
-	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">مشروع</system:String>
-	<system:String x:Key="Words.Bucket">وعاء</system:String>
-	<system:String x:Key="Words.Tenant">خيمة</system:String>
-	<system:String x:Key="Words.Subscription">الاشتراك</system:String>
-	<system:String x:Key="Words.Community">المجتمع</system:String>
-	<system:String x:Key="Words.Document">مستند</system:String>
-
-	<system:String x:Key="Words.Cache">الملفات المخزنة مؤفتًا</system:String>
-	<system:String x:Key="Words.Lifetime">للأبد</system:String>
-	<system:String x:Key="Words.Read">قراءة</system:String>
-	<system:String x:Key="Words.Write">كتابة</system:String>
-	<system:String x:Key="Words.Second">ثانية</system:String>
-
-	<system:String x:Key="Account.AccessKeyID">هوية مفتاح الدخول</system:String>
-	<system:String x:Key="Account.SecretAccessKey">مفتاح الدخول السري</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">من فضلك أدخل Access Key ID</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">من فضلك أدخل Secret Access Key</system:String>
-
-	<system:String x:Key="Account.StorageAccount">حساب تخزين</system:String>
-	<system:String x:Key="Account.StorageKey">مفتاح</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">من فضلك أدخل اسم حساب التخزين</system:String>
-	<system:String x:Key="Vailidation.StorageKey">من فضلك أدخل المفتاح 1 أو المفتاح 2</system:String>
-
-	<system:String x:Key="Settings.RegisterToStartup">إضافة إلى بدء التشغيل</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">إعادة اتصال عند تشغيل البرنامج</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">إعادة اتصال عند إقلاع النظام</system:String>
-	<system:String x:Key="AddDrive.MountAtSignIn">إعادة الاتصال عند تسجيل الدخول</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">استخدام بيانات دخول مختلفة</system:String>
-
-	<!--  from 2020.2.2  -->
-	<system:String x:Key="Message.MountPointFolder.Condition">تتوفر مسارات مجلد نقطة التحميل فقط على المجلدات الفارغة على وحدات تخزين NTFS الأساسية أو الحيوية.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">وجب ان يكون المجلد عام</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrl">رابط المجلد</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrlID">معرف رابط المجلد</system:String>
-
-	<system:String x:Key="GoogleDrive.MyDrive">ملفاتي</system:String>
-	<system:String x:Key="GoogleDrive.SharedWithMe">العناصر التي تمت مشاركتها معي</system:String>
-	<system:String x:Key="GoogleDrive.Computers">أجهزة الكمبيوتر</system:String>
-	<system:String x:Key="GoogleDrive.SharedLink">رابط مشترك</system:String>
-
-	<system:String x:Key="OneDrive.Files">الملفات</system:String>
-	<system:String x:Key="OneDrive.Shared">المشتركة</system:String>
-	<system:String x:Key="OneDrive.SharedLink">رابط مشترك</system:String>
-
-	<!--  from 2020.6  -->
-	<system:String x:Key="Words.Bandwidth">السرعة</system:String>
-	<system:String x:Key="Words.Download">استقبال</system:String>
-	<system:String x:Key="Words.Upload">ارسال</system:String>
-	<system:String x:Key="Words.Capacity">كمية البيانات</system:String>
-
-	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">متصفح الملفات</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">تحديث الملفات بالتزامن</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">حاول إبقاء &quot;تاريخ التعديل&quot; كما هو عند النسخ</system:String>
-	<system:String x:Key="FileExplorer.FilesystemWatcher">مراقبة عمليات التعديل الخارجية للملفات</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">النسخ والنقل والحذف السريع للملفات سوف</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">يستبدل الهدف</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">يعيد تسمية المصدر</system:String>
-	<system:String x:Key="Words.Skip">يتجاوز</system:String>
-	<system:String x:Key="Words.Slow">بطيء</system:String>
-	<system:String x:Key="Message.ResponseSlow">فد تكون الاستجابة بطيئة</system:String>
+	<system:String x:Key="Messages.Cache.FolderNotSupport">المجلد المؤقت لابد أن يكون موجودا في القرص المحلي. مجلد الشبكة غير مدعوم.</system:String>
+	<system:String x:Key="Messages.CheckAddress">الرجاء التأكد من العنوان.</system:String>
+	<system:String x:Key="Messages.CheckPort">الرجاء التأكد من المنفذ {0}.</system:String>
+	<system:String x:Key="Messages.CheckProtocolPort">الرجاء التأكد {0} من والمنفذ {1}.</system:String>
+	<system:String x:Key="Messages.CurrentVersion">الإصدارة الحالية هي {0}</system:String>
+	<system:String x:Key="Messages.Delegation.Aborted">تم سحب التفويض</system:String>
+	<system:String x:Key="Messages.EnterAccessKeyID">من فضلك أدخل Access Key ID</system:String>
+	<system:String x:Key="Messages.EnterIPAddress">الرجاء ادخال اسم أو عنوان الخادم</system:String>
+	<system:String x:Key="Messages.EnterPassword">ادخل كملة المرور</system:String>
+	<system:String x:Key="Messages.EnterPort">الرجاء اختيار رقم المنفذ(1 ~ 65535)</system:String>
+	<system:String x:Key="Messages.EnterSecretAccessKey">من فضلك أدخل Secret Access Key</system:String>
+	<system:String x:Key="Messages.EnterStorageAccount">من فضلك أدخل اسم حساب التخزين</system:String>
+	<system:String x:Key="Messages.EnterStorageKey">من فضلك أدخل المفتاح 1 أو المفتاح 2</system:String>
+	<system:String x:Key="Messages.EnterURL">الرجاء ادخال العنوان</system:String>
+	<system:String x:Key="Messages.EnterUsername">ادخل اسم المستخدم</system:String>
+	<system:String x:Key="Messages.EnterVolume">الرجاء اختيار اسم وحدة تخزين مناسب</system:String>
+	<system:String x:Key="Messages.Error.CacheDiskFull">مساحة الذاكرة المؤقتة غير كافية. من الأفضل زيادة مساحة التخزين.</system:String>
+	<system:String x:Key="Messages.Error.ConnectInternet">فشل الاتصال بوحدة التخزين البعيدة. الرجاء التحقق من اتصالك بالانترنت وإعادة المحاولة مرة أخرى.</system:String>
+	<system:String x:Key="Messages.Error.DiskLetterExist">يجب تغيير حرف أو اسم محرك الأقراص.</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPassword">The password you entered is not correct. Please try again.</system:String>
+	<system:String x:Key="Messages.Error.MethodNotAllowed">الرجاء التحقق من أن المسار {0} موجود أو أن الوصول إليه متاح.</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveAuth">فشل التحقق. هل تريد محاولة المصادقة مرة أخرى؟</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveLimit">تم استنفاذ الحصة المحددة. تم تطبيق قيود التنزيل {0}.</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveRemake">اختلفت إعدادات الاتصال بوحدة التخزين البعيدة. يجب عليك إعادة تسجيل الدخول مرة أخرى.</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveWantRelogin">فشل التحقق. هل تريد محاولة المصادقة مرة أخرى؟ إذا استمر الخطأ، قم بحذف محرك الأقراص وإعادة تكوينه.</system:String>
+	<system:String x:Key="Messages.Error.Unauthorized">فشلت المصادقة. الرجاء مراجعة بيانات الدخول (كلمة المرور).</system:String>
+	<system:String x:Key="Messages.ExistVolume">هذا الاسم مستخدم مسبقا</system:String>
+	<system:String x:Key="Messages.ExitConfirm">قطع كل الاتصالات قبل الخروج؟</system:String>
+	<system:String x:Key="Messages.FileLock.DependsWebDAV">يعتمد على خادم WebDAV</system:String>
+	<system:String x:Key="Messages.FileLock.NotSupport">سيرفرك قد لا يدعم</system:String>
+	<system:String x:Key="Messages.FolderExist">هذا الملجد تم اختياره من قبل.</system:String>
+	<system:String x:Key="Messages.HereWeGo">لنبدأ</system:String>
+	<system:String x:Key="Messages.InternetDown">يبدو أن لديك مشكلة اتصال بالانترنت. الرجاء مراجعة إعدادات الاتصال.</system:String>
+	<system:String x:Key="Messages.License.Expired">انتهت صلاحية الترخيص. يجب عليك الترقية للنسخة الأحدث. اختر موافق للترقية.</system:String>
+	<system:String x:Key="Messages.License.NotReady">لم نتمكن من التحقق من الترخيص</system:String>
+	<system:String x:Key="Messages.Maximum.Drive">يمكن إنشاء حتى 8 محركات أقراص في هذه النسخة</system:String>
+	<system:String x:Key="Messages.MountPointFolder.Condition">تتوفر مسارات مجلد نقطة التحميل فقط على المجلدات الفارغة على وحدات تخزين NTFS الأساسية أو الحيوية.</system:String>
+	<system:String x:Key="Messages.MountPointFolder.Mandatory">وجب ان يكون المجلد عام</system:String>
+	<system:String x:Key="Messages.NotReadyDriver">المحرك غير مثبت في جهازك. عليك إعادة تثبيت البرنامج.</system:String>
+	<system:String x:Key="Messages.NotReadyReboot">البرنامج ليس جاهزا للبدء. يجب عليك إعادة تشغيل النظام.</system:String>
+	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox يدعم متصفح انترنت اكسبلورر 10,11. يفضل استخدام النسخة 11.</system:String>
+	<system:String x:Key="Messages.NotSupportNetworkDrive">البرنامج لا يدعم محرك الشبكة.</system:String>
+	<system:String x:Key="Messages.NotSupportRaiDrive">البرنامج لا يدعم الاتصال التلقائي لمحرك الأقراص.</system:String>
+	<system:String x:Key="Messages.OAuth.InvalidClient">نطاق ليس تحت إدارة Active Directory.</system:String>
+	<system:String x:Key="Messages.OAuth.InvalidClientDescription">الحساب المستخدم ليس تحت إدارة Active Directory. اتصل بمسؤول النظام أو حاول تسجيل الدخول بحساب محلي.</system:String>
+	<system:String x:Key="Messages.OtherResponseCode.2">هذا المسار غير موجود. تحقق من المسار{0}.</system:String>
+	<system:String x:Key="Messages.ReconnectForChangingSettings">اختر موافق. تأكد من تشغيل وحدة التخزين البعيدة ليتم تطبيق الإعدادات الجديدة.</system:String>
+	<system:String x:Key="Messages.ResponseSlow">فد تكون الاستجابة بطيئة</system:String>
+	<system:String x:Key="Messages.RetryAfter">أعد المحاولة بعد {0} ثوان.</system:String>
+	<system:String x:Key="Messages.SelectLetter">الرجاءاستخدام محرك أقراص شاغر</system:String>
+	<system:String x:Key="Messages.SelectLocalDrive">الرجاء اختيار مجلد على جهازك</system:String>
+	<system:String x:Key="Messages.SelectPrivateKeyPath">يمكنك اختيار الملف الخاص بالمفتاح الخاص</system:String>
+	<system:String x:Key="Messages.SelectedPath">المسار الذي تم اختياره</system:String>
+	<system:String x:Key="Messages.SeleteTargetFolder">اختر المجلد عن بعد حيث سيتم تخزين الملفات</system:String>
+	<system:String x:Key="Messages.Service.Alive">اختر موافق ليتم تشغيل البرنامج.</system:String>
+	<system:String x:Key="Messages.Service.Stoped">تم إيقاف خدمة RaiDrive</system:String>
+	<system:String x:Key="Messages.SignOut.Question1">جميع مميزات اشتراكك ستتعطل، وسنعيد الاتصال بأقراصك. يرجى حفظ ملفاتك أو قفل التطبيقات</system:String>
+	<system:String x:Key="Messages.SignOut.Question2">هل أنت متأكد من رغبتك بتسجيل الخروج؟</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc1">وصل طلب تعديل لجلستك الحالية من جهازك الآخر{0}. سنعيد الاتصال بكل أقراصك. يرجى حفظ ملفاتك أو قفل التطبيقات</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc2">سيتم تطبيق التأثيرات بعد {0}، انقر على نعم للتطبيق الآن.</system:String>
+	<system:String x:Key="Messages.SureDelete">هل أنت متأكد من الحذف النهائي &quot;{0} ({1})&quot;  ؟ ?</system:String>
+	<system:String x:Key="Messages.UnknownSpace">المساحة غير محددة</system:String>
+	<system:String x:Key="Messages.Upgrade.New">يمكنك تحديث البرنامج</system:String>
+	<system:String x:Key="Messages.Upgrade.NewVersion">يمكنك التحديث إلى النسخة {0}</system:String>
+	<system:String x:Key="Messages.Upgrade.Uptodate">أنت تستخدم أحدث إصدار</system:String>
+	<system:String x:Key="Messages.VolumeInvalidChar">اسم وحدة التخزين يجب ألا يحتوي على هذه الرموز:</system:String>
+	<system:String x:Key="Messages.VolumeInvalidStr">لا يسمح باستخدام هذه الأسماء المحجوزة:</system:String>
+	<system:String x:Key="Phrases.AuthAtConnect">استخدام بيانات دخول مختلفة</system:String>
+	<system:String x:Key="Phrases.Browser.BrowseInPrivate">تصفح سري</system:String>
+	<system:String x:Key="Phrases.ConnectByRaiDrive">تم الاتصال عن طريق RaiDrive</system:String>
+	<system:String x:Key="Phrases.DeleteDrive">حذف محرك أقراص</system:String>
+	<system:String x:Key="Phrases.DuplicatedPath">المسار المكرر</system:String>
+	<system:String x:Key="Phrases.FileInUse">الملفات المستعملة: {0}</system:String>
+	<system:String x:Key="Phrases.FileLock.WebDAV">قرص WebDAV مقيد</system:String>
+	<system:String x:Key="Phrases.FilesystemWatcher">مراقبة عمليات التعديل الخارجية للملفات</system:String>
+	<system:String x:Key="Phrases.FolderUrl">رابط المجلد</system:String>
+	<system:String x:Key="Phrases.FolderUrlID">معرف رابط المجلد</system:String>
+	<system:String x:Key="Phrases.FollowLatest">متابعة الجديد</system:String>
+	<system:String x:Key="Phrases.ForBusinessVersion">لنسخة الأعمال</system:String>
+	<system:String x:Key="Phrases.KeepModifiedDate">حاول إبقاء &quot;تاريخ التعديل&quot; كما هو عند النسخ</system:String>
+	<system:String x:Key="Phrases.MountAtBoot">إعادة اتصال عند إقلاع النظام</system:String>
+	<system:String x:Key="Phrases.MountAtSignIn">إعادة الاتصال عند تسجيل الدخول</system:String>
+	<system:String x:Key="Phrases.MountAtStart">إعادة اتصال عند تشغيل البرنامج</system:String>
+	<system:String x:Key="Phrases.MountLocalDisk">إعداد كقرص محلي</system:String>
+	<system:String x:Key="Phrases.OpenRaiDrive">تشغيل RaiDrive</system:String>
+	<system:String x:Key="Phrases.OverwriteTarget">يستبدل الهدف</system:String>
+	<system:String x:Key="Phrases.PerformanceExtension">النسخ والنقل والحذف السريع للملفات سوف</system:String>
+	<system:String x:Key="Phrases.RaiDriveReconnect">إعادة الاتصال</system:String>
+	<system:String x:Key="Phrases.RegisterToStartup">إضافة إلى بدء التشغيل</system:String>
+	<system:String x:Key="Phrases.RenameSource">يعيد تسمية المصدر</system:String>
+	<system:String x:Key="Phrases.RunAtBoot">تشغيل البرنامج مع بدء تشغيل الجهاز</system:String>
+	<system:String x:Key="Phrases.RunAtConnect">فتح مستكشف الملفات عند توصيل محرك الأقراص</system:String>
+	<system:String x:Key="Phrases.SelectFolder">اختيار مجلد</system:String>
+	<system:String x:Key="Phrases.Service.ReviveRaiDrive">استعادة البرنامج</system:String>
+	<system:String x:Key="Phrases.State.Space.Format">{0} free of {1} {2}</system:String>
+	<system:String x:Key="Phrases.Subscription.Switched">تم التغيير إلى {0}</system:String>
+	<system:String x:Key="Phrases.UpdateChangeAsync">تحديث الملفات بالتزامن</system:String>
+	<system:String x:Key="Phrases.UseDriveIcon">استخدام أيقونة خاصة لقرص متصل</system:String>
+	<system:String x:Key="Words.AccessKeyID">هوية مفتاح الدخول</system:String>
+	<system:String x:Key="Words.Account">الحساب</system:String>
+	<system:String x:Key="Words.Add">إضافة</system:String>
+	<system:String x:Key="Words.Address">العنوان</system:String>
 	<system:String x:Key="Words.AdvancedOptions">إعدادات متقدمة</system:String>
-	<system:String x:Key="Words.Properties">الخواص</system:String>
-
+	<system:String x:Key="Words.All">الكل</system:String>
+	<system:String x:Key="Words.Anonymous">وصول كمجهول</system:String>
+	<system:String x:Key="Words.Apply">تطبيق</system:String>
+	<system:String x:Key="Words.AutoStart">تشغيل تلقائي</system:String>
+	<system:String x:Key="Words.Backup">نسخة احتياطية</system:String>
+	<system:String x:Key="Words.BackupNOW">بدء النسخ الاحتياطي</system:String>
+	<system:String x:Key="Words.Bandwidth">السرعة</system:String>
+	<system:String x:Key="Words.Brand.Box_com">Box</system:String>
+	<system:String x:Key="Words.Brand.Facebook">فيسبوك</system:String>
+	<system:String x:Key="Words.Brand.QNAP">QNAP</system:String>
+	<system:String x:Key="Words.Brand.Synology">Synology</system:String>
+	<system:String x:Key="Words.Brand.WD">WD</system:String>
+	<system:String x:Key="Words.Brand.ipTIME">ipTIME</system:String>
+	<system:String x:Key="Words.Browser">المتصفح</system:String>
+	<system:String x:Key="Words.Bucket">وعاء</system:String>
+	<system:String x:Key="Words.Cache">الملفات المخزنة مؤفتًا</system:String>
+	<system:String x:Key="Words.Cancel">إلغاء</system:String>
+	<system:String x:Key="Words.Capacity">كمية البيانات</system:String>
+	<system:String x:Key="Words.Charset">طقم المحارف</system:String>
+	<system:String x:Key="Words.Check">التحقق</system:String>
+	<system:String x:Key="Words.CheckUpdate">البحث عن تحديثات</system:String>
+	<system:String x:Key="Words.ClearLog">حدف السجل</system:String>
+	<system:String x:Key="Words.Code">الرمز</system:String>
+	<system:String x:Key="Words.Community">المجتمع</system:String>
+	<system:String x:Key="Words.Connect">اتصل</system:String>
+	<system:String x:Key="Words.Connected">متصل</system:String>
+	<system:String x:Key="Words.CountLeft">المتبقي</system:String>
+	<system:String x:Key="Words.Current">الآن</system:String>
+	<system:String x:Key="Words.Default">افتراضي</system:String>
+	<system:String x:Key="Words.Delete">حذف</system:String>
+	<system:String x:Key="Words.Description">الوصف</system:String>
+	<system:String x:Key="Words.Device">الجهاز</system:String>
+	<system:String x:Key="Words.Disconnect">قطع الاتصال</system:String>
+	<system:String x:Key="Words.Disconnected">غير متصل</system:String>
+	<system:String x:Key="Words.Document">مستند</system:String>
+	<system:String x:Key="Words.Download">استقبال</system:String>
+	<system:String x:Key="Words.Drive">محرك أقراص</system:String>
+	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+	<system:String x:Key="Words.Edit">تحرير</system:String>
+	<system:String x:Key="Words.Encryption">التشفير</system:String>
+	<system:String x:Key="Words.Endpoint">نقطة الاتصال</system:String>
+	<system:String x:Key="Words.Error">خطأ</system:String>
+	<system:String x:Key="Words.Etc">etc</system:String>
+	<system:String x:Key="Words.Example.EmailAddress">id@example.com</system:String>
+	<system:String x:Key="Words.Example.HostAddress">host.example.com</system:String>
+	<system:String x:Key="Words.Exit">خروج</system:String>
+	<system:String x:Key="Words.Export">تصدير</system:String>
+	<system:String x:Key="Words.File">الملف</system:String>
+	<system:String x:Key="Words.FileExplorer">متصفح الملفات</system:String>
+	<system:String x:Key="Words.FileLock">قرص مقيد</system:String>
+	<system:String x:Key="Words.Folder">مجلد</system:String>
+	<system:String x:Key="Words.FreeSpace">المساحة الفارغة</system:String>
+	<system:String x:Key="Words.General">عام</system:String>
+	<system:String x:Key="Words.GoogleDrive.Computers">أجهزة الكمبيوتر</system:String>
+	<system:String x:Key="Words.GoogleDrive.MyDrive">ملفاتي</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedDrives">المساحات المشتركة</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedLink">رابط مشترك</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedWithMe">العناصر التي تمت مشاركتها معي</system:String>
+	<system:String x:Key="Words.Help">مساعدة</system:String>
+	<system:String x:Key="Words.Hide">إخفاء</system:String>
+	<system:String x:Key="Words.Import">استيراد</system:String>
+	<system:String x:Key="Words.Key">مفتاح</system:String>
+	<system:String x:Key="Words.Language">اللغة</system:String>
+	<system:String x:Key="Words.License">الترخيص</system:String>
+	<system:String x:Key="Words.Lifetime">للأبد</system:String>
+	<system:String x:Key="Words.Like">إعجاب</system:String>
+	<system:String x:Key="Words.LocalDisk">قرص محلي</system:String>
+	<system:String x:Key="Words.Login">الدخول</system:String>
 	<system:String x:Key="Words.MySubscription">اشتراكي</system:String>
+	<system:String x:Key="Words.NOW">الآن</system:String>
+	<system:String x:Key="Words.Network">شبكة</system:String>
+	<system:String x:Key="Words.NetworkDrive">محرك الشبكة</system:String>
+	<system:String x:Key="Words.NewDrive">محرك أقراص جديد</system:String>
+	<system:String x:Key="Words.No">لا</system:String>
+	<system:String x:Key="Words.Notice">تنبيه</system:String>
+	<system:String x:Key="Words.Ok">موافق</system:String>
+	<system:String x:Key="Words.OneDrive.Files">الملفات</system:String>
+	<system:String x:Key="Words.OneDrive.Shared">المشتركة</system:String>
+	<system:String x:Key="Words.OneDrive.SharedLink">رابط مشترك</system:String>
+	<system:String x:Key="Words.Password">كلمة المرور</system:String>
+	<system:String x:Key="Words.Path">المسار</system:String>
+	<system:String x:Key="Words.Port">المنفذ</system:String>
+	<system:String x:Key="Words.Private">خاص</system:String>
+	<system:String x:Key="Words.PrivateKey">مفتاح خاص</system:String>
+	<system:String x:Key="Words.ProcessMonitor">مراقب العمليات</system:String>
+	<system:String x:Key="Words.Processed">تم تنفيذه</system:String>
+	<system:String x:Key="Words.Progress">التقدم</system:String>
+	<system:String x:Key="Words.Project">مشروع</system:String>
+	<system:String x:Key="Words.Properties">الخواص</system:String>
+	<system:String x:Key="Words.Proxy">الوكيل</system:String>
+	<system:String x:Key="Words.Public">عام</system:String>
+	<system:String x:Key="Words.Read">قراءة</system:String>
+	<system:String x:Key="Words.ReadOnly">للقراءة فقط</system:String>
+	<system:String x:Key="Words.Reading">قراءة</system:String>
+	<system:String x:Key="Words.Ready">مستعد</system:String>
+	<system:String x:Key="Words.Reason">السبب</system:String>
+	<system:String x:Key="Words.RemoteFolder">مجلد عن بعد</system:String>
+	<system:String x:Key="Words.Remove">حذف</system:String>
+	<system:String x:Key="Words.Retry">حاول مجددا</system:String>
+	<system:String x:Key="Words.Save">حفظ</system:String>
+	<system:String x:Key="Words.Second">ثانية</system:String>
+	<system:String x:Key="Words.Seconds">ثواني</system:String>
+	<system:String x:Key="Words.SecretAccessKey">مفتاح الدخول السري</system:String>
+	<system:String x:Key="Words.SecureConnection">الاتصال الآمن</system:String>
+	<system:String x:Key="Words.SecureProtocol">الاتصال الآمن</system:String>
+	<system:String x:Key="Words.Send.Opinion">أرسل رأيك</system:String>
+	<system:String x:Key="Words.Settings">الإعدادات</system:String>
 	<system:String x:Key="Words.ShareWithOther">مشارك مع الآخرين</system:String>
 	<system:String x:Key="Words.SharedWithMe">مشارك معي</system:String>
-	<system:String x:Key="Words.Import">استيراد</system:String>
-	<system:String x:Key="Words.Export">تصدير</system:String>
-	<system:String x:Key="Words.ProcessMonitor">مراقب العمليات</system:String>
-
-	<system:String x:Key="Account.Endpoint">نقطة الاتصال</system:String>
-	<system:String x:Key="GoogleDrive.SharedDrives">المساحات المشتركة</system:String>
-
-	<system:String x:Key="Words.Reading">قراءة</system:String>
-	<system:String x:Key="Words.Writing">كتابة</system:String>
-	<system:String x:Key="Words.Hide">إخفاء</system:String>
-
-	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">مهلة</system:String>
-	<system:String x:Key="Words.Seconds">ثواني</system:String>
-
-	<system:String x:Key="Words.Connected">متصل</system:String>
-	<system:String x:Key="Words.Disconnected">غير متصل</system:String>
-	<system:String x:Key="Message.FileInUse">الملفات المستعملة: {0}</system:String>
-
-	<!--  from 2022.3  -->
+	<system:String x:Key="Words.SignIn">تسجيل الدخول</system:String>
+	<system:String x:Key="Words.SignOut">تسجيل الخروج</system:String>
+	<system:String x:Key="Words.Site">موقع</system:String>
+	<system:String x:Key="Words.Size">الحجم</system:String>
+	<system:String x:Key="Words.Skip">يتجاوز</system:String>
+	<system:String x:Key="Words.Slow">بطيء</system:String>
 	<system:String x:Key="Words.Sort">Sort</system:String>
-	<system:String x:Key="Words.Sort.None">None</system:String>
 	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
 	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
-	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
-	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
-
-	<system:String x:Key="Message.IncorrectPassword">The password you entered is not correct. Please try again.</system:String>
-	
-	<!--  from 2022.6  -->
-	<system:String x:Key="Words.Browser">المتصفح</system:String>
-	<system:String x:Key="Browser.BrowseInPrivate">تصفح سري</system:String>
+	<system:String x:Key="Words.Sort.None">None</system:String>
+	<system:String x:Key="Words.SourceFolders">المجلد المحلي</system:String>
+	<system:String x:Key="Words.Space.Used">المستخدم</system:String>
+	<system:String x:Key="Words.Start">ابدأ</system:String>
+	<system:String x:Key="Words.State">الحالة</system:String>
+	<system:String x:Key="Words.Stop">توقف</system:String>
+	<system:String x:Key="Words.Storage">الخدمات</system:String>
+	<system:String x:Key="Words.StorageAccount">حساب تخزين</system:String>
+	<system:String x:Key="Words.Subscription">الاشتراك</system:String>
+	<system:String x:Key="Words.TemporaryPath">المسار المؤقت</system:String>
+	<system:String x:Key="Words.Tenant">خيمة</system:String>
+	<system:String x:Key="Words.Time">الوقت</system:String>
+	<system:String x:Key="Words.Timeout">مهلة</system:String>
+	<system:String x:Key="Words.TransferMode">طريقة النقل</system:String>
+	<system:String x:Key="Words.Update">تحديثات</system:String>
+	<system:String x:Key="Words.Upgrade">التحديث</system:String>
+	<system:String x:Key="Words.Upload">ارسال</system:String>
+	<system:String x:Key="Words.Username">اسم المستخدم</system:String>
+	<system:String x:Key="Words.VolumeLabel">اسم وحدة التخرين</system:String>
+	<system:String x:Key="Words.WritableDrive">قرص قابل للكتابة</system:String>
+	<system:String x:Key="Words.Write">كتابة</system:String>
+	<system:String x:Key="Words.Writing">كتابة</system:String>
+	<system:String x:Key="Words.Yes">نعم</system:String>
 </ResourceDictionary>

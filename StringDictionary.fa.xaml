@@ -1,341 +1,253 @@
-<ResourceDictionary
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:local="clr-namespace:RaiDrive.Center.Languages"
-	xmlns:system="clr-namespace:System;assembly=mscorlib">
-
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>Highdeger</system:String>
 	</x:Array>
-	<system:String x:Key="Current.Language">fa</system:String>
+	<system:String x:Key="Language.English">Persian</system:String>
+	<system:String x:Key="Language.Native">فارسى</system:String>
+	<system:String x:Key="Language.Tags">fa</system:String>
 
-	<!--  Settings, General  -->
-	<system:String x:Key="Settings">تنظیمات</system:String>
-	<system:String x:Key="Settings.Header">تنظیمات</system:String>
-	<system:String x:Key="Settings.General">عمومی</system:String>
-	<system:String x:Key="Settings.Language">زبان</system:String>
-	<system:String x:Key="Settings.Update">بروز رسانی</system:String>
-	<system:String x:Key="Settings.Facebook">فیسبوک</system:String>
-	<system:String x:Key="Settings.Facebook.Like">لایک فیسبوک</system:String>
-	<system:String x:Key="Settings.TemporaryPath">پوشه موقت</system:String>
-	<system:String x:Key="Settings.Default">پیشفرض</system:String>
-	<system:String x:Key="Settings.License">لایسنس</system:String>
-	<system:String x:Key="Settings.Proxy">پراکسی</system:String>
-
-	<system:String x:Key="Settings.General.RunAtBoot">اجرای نرم افزار در حین شروع به کار ویندوز</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">اجرای &quot;مرورگر فایل&quot; به محض اتصال موفق یک درایو</system:String>
-
-	<system:String x:Key="Notice">اعلامیه</system:String>
-	<system:String x:Key="AddDrive">اضافه کردن</system:String>
-	<system:String x:Key="AddDrive.Header">درایو جدید</system:String>
-	<system:String x:Key="AddDrive.Storage">سرویس ذخیره سازی</system:String>
-
-	<!--  Drive  -->
-	<system:String x:Key="AddDrive.Drive">درایو</system:String>
-
-	<!--  Add New Storage  -->
-	<system:String x:Key="AddDrive.Network">شبکه</system:String>
-	<system:String x:Key="AddDrive.ReadOnly">فقط خواندنی</system:String>
-	<system:String x:Key="AddDrive.Account">حساب کاربری</system:String>
-	<system:String x:Key="AddDrive.Username">نام کاربری</system:String>
-	<system:String x:Key="AddDrive.Password">رمز عبور</system:String>
-	<system:String x:Key="AddDrive.Anonymous">ناشناس</system:String>
-	<system:String x:Key="AddDrive.Address">آدرس</system:String>
-	<system:String x:Key="AddDrive.Port">پورت</system:String>
-	<system:String x:Key="AddDrive.Device">دستگاه</system:String>
-	<system:String x:Key="AddDrive.PrivateKey">کلید خصوصی</system:String>
-	<system:String x:Key="AddDrive.Charset">جدول کاراکتر</system:String>
-	<system:String x:Key="AddDrive.TransferMode">حالت انتقال</system:String>
-	<system:String x:Key="AddDrive.Encryption">رمزنگاری</system:String>
-
-	<system:String x:Key="Vailidation.Volume">لطفا نامی معتبر برای درایو وارد کنید</system:String>
-	<system:String x:Key="Vailidation.VolumeExist">این نام تکراری است</system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidChar">نام درایو نباید شامل کاراکترهای زیر باشد</system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidStr">از این اسامی رزرو شده استفاده نکنید</system:String>
-	<system:String x:Key="Vailidation.Letter">لطفا یک حرف استفاده نشده برای درایو انتخاب کنید</system:String>
-	<system:String x:Key="Vailidation.Address">لطفا یک نام هاست یا یک آی پی وارد کنید</system:String>
-	<system:String x:Key="Vailidation.Address.WebDAV">لطفا یک آدرس اینترنتی وارد کنید</system:String>
-	<system:String x:Key="Vailidation.Address.LocalDrive">لطفا یک فولدر را مشخص کنید</system:String>
-	<system:String x:Key="Vailidation.Port">لطفا یک عدد پورت (0 تا 65535) انتخاب کنید</system:String>
-	<system:String x:Key="Vailidation.Username">لطفا یک نام کاربری وارد کنید</system:String>
-	<system:String x:Key="Vailidation.Password">لطفا یک رمز عبور وارد کنید</system:String>
-
-	<!--  Menu bar>Settings, account, volume  -->
-	<system:String x:Key="Vailidation.Hint.Volume">برچسب درایو</system:String>
-	<system:String x:Key="Vailidation.Hint.Address">host.example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">folder</system:String>
-	<system:String x:Key="Vailidation.Hint.Username">نام کاربری</system:String>
-	<system:String x:Key="Vailidation.Hint.Password">رمز عبور</system:String>
-	<system:String x:Key="Vailidation.Hint.Port">پورت</system:String>
-	<system:String x:Key="Vailidation.Hint.Path">مسیر</system:String>
-	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">می توانید فایل کلید خصوصی را انتخاب کنید</system:String>
-
-	<system:String x:Key="Button.Yes">بله</system:String>
-	<system:String x:Key="Button.No">خیر</system:String>
-	<system:String x:Key="Button.OK">تایید</system:String>
-	<system:String x:Key="Button.Apply">اعمال</system:String>
-	<system:String x:Key="Button.Cancel">لغو</system:String>
-	<system:String x:Key="Button.Check">بررسی</system:String>
-	<system:String x:Key="Button.Edit">ویرایش</system:String>
-	<system:String x:Key="Button.Retry">تلاش دوباره</system:String>
-	<system:String x:Key="Button.ReAuth">وارد شو</system:String>
-	<system:String x:Key="Button.Login">ورود</system:String>
-	<system:String x:Key="Button.SIGNIN">وارد شو</system:String>
-
-	<system:String x:Key="ToolTip.Connect">اتصال</system:String>
-	<system:String x:Key="ToolTip.Disconnect">قطع اتصال</system:String>
-	<system:String x:Key="ToolTip.Edit">ویرایش</system:String>
-	<system:String x:Key="ToolTip.Remove">حذف</system:String>
-	<system:String x:Key="ToolTip.NetworkDrive">درایو شبکه</system:String>
-	<system:String x:Key="ToolTip.SecureProtocol">پروتکل امن</system:String>
-	<system:String x:Key="ToolTip.SecureConnection">اتصال امن</system:String>
-	<system:String x:Key="ToolTip.Backup">نسخه پشتیبان</system:String>
-
-	<system:String x:Key="Message.Title.SelectFolder">فولدر را انتخاب کن</system:String>
-	<system:String x:Key="Message.Title.DeleteDrive">درایو را حذف کن</system:String>
-
-	<system:String x:Key="Message.NotSupportNetworkDrive">این برنامه از درایو شبکه پشتیبانی نمی کند</system:String>
-	<system:String x:Key="Message.NotSupportRaiDrive">این برنامه از اتصال خود به خود درایو پشتیبانی نمی کند</system:String>
-	<system:String x:Key="Message.Exist">این فولدر اکنون شامل می شود</system:String>
-	<system:String x:Key="Message.SelectedPath">مسیر انتخابی</system:String>
-	<system:String x:Key="Message.DuplicatedPath">مسیر تکراری</system:String>
-
-	<system:String x:Key="Message.SureDelete">آیا می خواهید به صورت دائمی این را حذف کنید &quot;{0} ({1})&quot; ?</system:String>
-	<system:String x:Key="Message.Title.ServiceDown">فعال کردن دوباره برنامه</system:String>
-	<system:String x:Key="Message.Title.Reconnect">اتصال دوباره برنامه</system:String>
-	<system:String x:Key="Message.ServiceDown">لطفا دکمه تایید را بزنید، برنامه دوباره احیا می شود</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">لطفا دکمه تایید را بزنید، شما باید دوباره به ریموت متصل شوید تا تغییرات تنظیمات اعمال شوند</system:String>
-	<system:String x:Key="Message.NotReady.Reboot">برنامه رای-درایو آماده شروع نیست، باید سیستم را ریستارت کنید</system:String>
-	<system:String x:Key="Message.NotReady.Driver">درایور لازم روی سیستم نصب نشده، باید برنامه رای-درایو را دوباره نصب کنید</system:String>
-	<system:String x:Key="Message.NotSupport.Browser.Dropbox">سرویس دراپ باکس از اینترنت اکسپلورر 10 و 11 استفاده می کند، بهتر است نسخه 11 را نصب کنید</system:String>
-	<system:String x:Key="Message.Connect.By">متصل با رای-درایو</system:String>
-	<system:String x:Key="Message.Maximum.Drive">حداکثر تا 8 درایو در این نسخه می توان ایجاد کرد</system:String>
-	<system:String x:Key="Message.License.Expired">اعتبار لایسنس شما منقضی شده، باید نسخه جدید تر را دانلود کنید. دکمه تایید را برای آپدیت فشار دهید</system:String>
-	<system:String x:Key="Message.License.NotReady">برنامه نمی تواند اعتبار لایسنس را تایید کند</system:String>
-	<system:String x:Key="Message.UnknownSpace">فضای نامشخص</system:String>
-	<system:String x:Key="Message.CurrentVersion">نسخه فعلی {0}</system:String>
-	<system:String x:Key="Message.Cache.Folder.NotSupport">فولدر موقت باید داخل هارد دیسک داخلی باشد، از درایو های شبکه نمی توانید برای این استفاده کنید</system:String>
-
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">احراز هویت با مشکل انجام شد، می خواهید دوباره انجام دهید؟</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">احراز هویت با مشکل مواجه شد، می خواهید دوباره انجام دهید؟ اگر مشکل دوباره پیش آمد، درایو را حذف و دوباره ایجاد کنید</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveLimit">سهمیه دانلود بالاتر از حد مجاز رفت، محدودیت دانلود از طرف سیاست های {0}.</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">روش اتصال به درایو ریموت تغییر کرده، شما باید دوباره وارد حساب کاربری خود شوید</system:String>
-	<system:String x:Key="Message.ErrorCacheDiskFull">فضای ذخیره سازی موقت کافی نیست، بهتر است که فضا را افزایش دهید</system:String>
-	<system:String x:Key="Message.ErrorInternet">مشکل در اتصال به درایو ریموت، لطفا اتصال خود به اینترنت را بررسی کنید و دوباره تلاش کنید</system:String>
-	<system:String x:Key="Message.ErrorDiskLetterExist">شما باید حرف درایو یا نام درایو را تغییر دهید</system:String>
-
-	<system:String x:Key="Message.OAuth.InvalidClient">دامنه مدیریت نشده توسط Active Directory</system:String>
-	<system:String x:Key="Message.OAuth.InvalidClientDescription">حساب کاربری شما توسط Active Directory مدیریت نشده، شما باید با ادمین دامنه تماس بگیرید یا با حساب کاربری خودتان وارد شوید.</system:String>
-
-	<!--  ConnectResponse Message  -->
-	<system:String x:Key="WebExceptionStatus.ConnectFailure">خطا در اتصال، لطفا آدرس را بررسی کنید</system:String>
-	<system:String x:Key="WebExceptionStatus.ConnectionClosed">لطفا این پروتکل({0}) و پورت({1}) را بررسی کنید</system:String>
-	<system:String x:Key="WebExceptionStatus.SendFailure">لطفا این پروتکل({0}) و پورت({1}) را بررسی کنید</system:String>
-	<system:String x:Key="WebExceptionStatus.ReceiveFailure">لطفا این پروتکل({0}) و پورت({1}) را بررسی کنید</system:String>
-
-	<system:String x:Key="HttpStatusCode.MethodNotAllowed">لطفا بررسی کنید که این مسیر {0} وجود دارد یا به آن دسترسی داریم یا خیر</system:String>
-	<system:String x:Key="HttpStatusCode.Unauthorized">اشکال در احراز هویت، لطفا نام کاربری و رمز عبور را بررسی کنید</system:String>
-
-	<system:String x:Key="SocketError.TimedOut">خطای زمان طولانی اتصال، لطفا آدرس را بررسی کنید</system:String>
-	<system:String x:Key="SocketError.ConnectionRefused">لطفا این پورت را بررسی کنید{0}.</system:String>
-
-	<system:String x:Key="OtherResponseCode.2">مسیر پیدا نشد، این مسیر را بررسی کنید{0}.</system:String>
-	<system:String x:Key="OtherResponseCode.3">لطفا این پروتکل({0}) و پورت({1}) را بررسی کنید</system:String>
-	<!--  ConnectResponse Message  -->
-
-	<system:String x:Key="Words.Reason">دلیل</system:String>
-	<system:String x:Key="Words.Delegation.Stop">لغو فعالیت ها</system:String>
-	<system:String x:Key="Words.Drive">درایو</system:String>
-	<system:String x:Key="Words.FreeSpace">فضای خالی</system:String>
-	<system:String x:Key="Words.Send.Opinion">ارسال نظر</system:String>
-	<system:String x:Key="Words.Code">کد</system:String>
-	<system:String x:Key="Words.Path">مسیر</system:String>
-	<system:String x:Key="Words.File">فایل</system:String>
-	<system:String x:Key="Words.Ready">آماده</system:String>
-	<system:String x:Key="Words.Time">زمان</system:String>
-	<system:String x:Key="Words.Error">خطا</system:String>
-	<system:String x:Key="Words.State">وضعیت</system:String>
-	<system:String x:Key="Words.Size">حجم</system:String>
-	<system:String x:Key="Words.Description">جزییات</system:String>
-
-	<system:String x:Key="Help.Text">راهنمایی</system:String>
-	<system:String x:Key="Help.Add.Drive">برو که رفتیم</system:String>
-	<system:String x:Key="Help.ServiceDown">سرویس مربوط به برنامه بسته شده است</system:String>
-	<system:String x:Key="Help.ServiceDown.Press">لطفا دکمه را فشار دهید، برنامه شروع به کار خواهد کرد</system:String>
-	<system:String x:Key="Help.InternetDown">اتصال اینترنت شما به نظر قطع شده، لطفا اتصال اینترنت را بررسی کنید</system:String>
-	<system:String x:Key="Help.InternetDown.RetryAfter">تلاش مجدد بعد از {0} ثانیه(s).</system:String>
-	<system:String x:Key="Help.License.ForBusiness">برای نسخه تجاری</system:String>
-
-	<system:String x:Key="Upgrade">بروز رسانی</system:String>
-	<system:String x:Key="Upgrade.Uptodate">شما از آخرین نسخه استفاده می کنید</system:String>
-	<system:String x:Key="Upgrade.NewVersion">می توانید به این نسخه بروز رسانی کنید: {0}</system:String>
-	<system:String x:Key="Upgrade.New">می توانید به نسخه جدید بروز رسانی کنید</system:String>
-
-	<system:String x:Key="NotifyIcon.Open">باز کردن برنامه</system:String>
-	<system:String x:Key="NotifyIcon.CheckUpdate">بررسی بروز رسانی</system:String>
-	<system:String x:Key="NotifyIcon.Exit">خروج</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">آیا اطمینان دارید که می خواهید تمام اتصالات در حین خروج قطع شوند؟</system:String>
-
-	<system:String x:Key="State.Space.Format">{0} free of {1} {2}</system:String>
-	<system:String x:Key="State.Space.Used">اشغال شده</system:String>
-
-	<system:String x:Key="Brand.Synology">Synology</system:String>
-	<system:String x:Key="Brand.QNAP">QNAP</system:String>
-	<system:String x:Key="Brand.Box_com">Box</system:String>
-	<system:String x:Key="Brand.ipTIME">ipTIME</system:String>
-	<system:String x:Key="Brand.WD">WD</system:String>
-	<system:String x:Key="Brand.etc">etc</system:String>
-
-	<!--  backup  -->
-	<system:String x:Key="Backup">پشتیبان گیری</system:String>
-	<system:String x:Key="Backup.Add">اضافه</system:String>
-	<system:String x:Key="Backup.Delete">حذف</system:String>
-	<system:String x:Key="Backup.Start">شروع</system:String>
-	<system:String x:Key="Backup.Stop">توقف</system:String>
-	<system:String x:Key="Backup.BackupNOW">الان پشتیبان گیری کن</system:String>
-	<system:String x:Key="Backup.NOW">الان</system:String>
-	<system:String x:Key="Backup.Save">ذخیره</system:String>
-	<system:String x:Key="Backup.ClearLog">حذف لاگ</system:String>
-	<system:String x:Key="Backup.DestRootFolder">فولدر ریموت</system:String>
-	<system:String x:Key="Backup.SourceFolders">فولدر سورس</system:String>
-	<system:String x:Key="Backup.Progress">پیشروی</system:String>
-	<system:String x:Key="Backup.AutoStart">شروع خودکار</system:String>
-	<system:String x:Key="Backup.LogTab.Current">قعلی</system:String>
-	<system:String x:Key="Backup.LogTab.All">همه</system:String>
-	<system:String x:Key="Backup.LogTab.Error">خطا</system:String>
-	<system:String x:Key="Backup.LogTab.Ready">آماده</system:String>
-	<system:String x:Key="Backup.LogTab.Left">باقی مانده</system:String>
-	<system:String x:Key="Backup.LogTab.File">فایل</system:String>
-	<system:String x:Key="Backup.LogTab.Folder">فولدر</system:String>
-	<system:String x:Key="Backup.LogTab.FollowLatest">دنبال کردن آخرین</system:String>
-	<system:String x:Key="Backup.Count.Left">باقی مانده</system:String>
-	<system:String x:Key="Backup.Count.Processed">پردازش شده</system:String>
-
-	<system:String x:Key="Message.Backup.BackupTargetFolder">یک فولدر ریموت انتخاب کنید تا فایل ها در آن ذخیره شوند</system:String>
-
-	<!--  from version 1.6.0.416  -->
-	<system:String x:Key="Settings.General.UseDriveIcon">از یک آیکون دلخواه برای نمایش درایو متصل شده استفاده کن</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">هارد داخلی</system:String>
-	<system:String x:Key="AddDrive.FileLock">قفل فایل</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">درایو قابل نوشتن</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">شبیه یک درایو داخلی بارگذاری کن</system:String>
-	<system:String x:Key="ToolTip.FileLock">قفل فابل WebDAV</system:String>
-	<system:String x:Key="ToolTip.FileLock2">وابسته به سرور WebDAV</system:String>
-	<system:String x:Key="ToolTip.FileLock3">Your server may not support</system:String>
-
-	<!--  from version 1.7.0  -->
-	<system:String x:Key="Identity.SignIn">Sign In</system:String>
-	<system:String x:Key="Identity.SignOut">Sign Out</system:String>
-	<system:String x:Key="Identity.SignOut.Question1">Your subscription features will be disabled and all drives will be reconnected. Please save file(s) or close application(s)</system:String>
-	<system:String x:Key="Identity.SignOut.Question2">Are you sure you want to sign out?</system:String>
-	<system:String x:Key="Subscription.Switched">Switched to {0}</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">Your current session has been requested to return by your other session{0}. All drives will be reconnected. Please save file(s) or close application(s)</system:String>
-	<system:String x:Key="Subscription.Switched.Desc2">It will be applied after {0}, press Ok button to be immediate.</system:String>
-
-	<!--  from version 1.8.0  -->
-	<system:String x:Key="Words.Public">عمومی</system:String>
-	<system:String x:Key="Words.Private">خصوصی</system:String>
-	<system:String x:Key="Words.Site">سایت</system:String>
-
-	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">Project</system:String>
-	<system:String x:Key="Words.Bucket">Bucket</system:String>
-	<system:String x:Key="Words.Tenant">Tenant</system:String>
-	<system:String x:Key="Words.Subscription">Subscription</system:String>
-	<system:String x:Key="Words.Community">Community</system:String>
-	<system:String x:Key="Words.Document">Document</system:String>
-
-	<system:String x:Key="Words.Cache">Cache</system:String>
-	<system:String x:Key="Words.Lifetime">Lifetime</system:String>
-	<system:String x:Key="Words.Read">Read</system:String>
-	<system:String x:Key="Words.Write">Write</system:String>
-	<system:String x:Key="Words.Second">second</system:String>
-
-	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
-	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">Please enter Access Key ID</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Please enter Secret Access Key</system:String>
-
-	<system:String x:Key="Account.StorageAccount">Storage Account</system:String>
-	<system:String x:Key="Account.StorageKey">Key</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
-	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
-
-	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
-	<system:String x:Key="AddDrive.MountAtSignIn">اتصال حین ورود به ویندوز</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">ورود اطلاعات حساب حین اتصال</system:String>
-
-	<!--  from 2020.2.2  -->
-	<system:String x:Key="Message.MountPointFolder.Condition">مسیرهای پوشه Mount point فقط در پوشه های خالی با حجم پایه یا پویا NTFS در دسترس هستند.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">برای اختصاص یک پوشه ، گزینه عمومی دیسک محلی مورد نیاز است</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrl">URL پوشه</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrlID">URL پوشه یا شناسه</system:String>
-
-	<system:String x:Key="GoogleDrive.MyDrive">My Drive</system:String>
-	<system:String x:Key="GoogleDrive.SharedWithMe">موارد اشتراک‌گذاری شده با من</system:String>
-	<system:String x:Key="GoogleDrive.Computers">رایانه</system:String>
-	<system:String x:Key="GoogleDrive.SharedLink">پیوند مشترک</system:String>
-
-	<system:String x:Key="OneDrive.Files">پرونده ها</system:String>
-	<system:String x:Key="OneDrive.Shared">اشتراک گذاشته شده</system:String>
-	<system:String x:Key="OneDrive.SharedLink">پیوند مشترک</system:String>
-
-	<!--  from 2020.6  -->
-	<system:String x:Key="Words.Bandwidth">پهنای باند</system:String>
-	<system:String x:Key="Words.Download">دانلود</system:String>
-	<system:String x:Key="Words.Upload">بارگذاری</system:String>
-	<system:String x:Key="Words.Capacity">ظرفیت</system:String>
-
-	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">Update storage changes asynchronously</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
-	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitor process access to files</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Overwrite target</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Rename source</system:String>
-	<system:String x:Key="Words.Skip">Skip</system:String>
-	<system:String x:Key="Words.Slow">Slow</system:String>
-	<system:String x:Key="Message.ResponseSlow">A response may be slow</system:String>
+	<system:String x:Key="Messages.Cache.FolderNotSupport">فولدر موقت باید داخل هارد دیسک داخلی باشد، از درایو های شبکه نمی توانید برای این استفاده کنید</system:String>
+	<system:String x:Key="Messages.CheckAddress">خطا در اتصال، لطفا آدرس را بررسی کنید</system:String>
+	<system:String x:Key="Messages.CheckPort">لطفا این پورت را بررسی کنید{0}.</system:String>
+	<system:String x:Key="Messages.CheckProtocolPort">لطفا این پروتکل({0}) و پورت({1}) را بررسی کنید</system:String>
+	<system:String x:Key="Messages.CurrentVersion">نسخه فعلی {0}</system:String>
+	<system:String x:Key="Messages.Delegation.Aborted">لغو فعالیت ها</system:String>
+	<system:String x:Key="Messages.EnterAccessKeyID">Please enter Access Key ID</system:String>
+	<system:String x:Key="Messages.EnterIPAddress">لطفا یک نام هاست یا یک آی پی وارد کنید</system:String>
+	<system:String x:Key="Messages.EnterPassword">لطفا یک رمز عبور وارد کنید</system:String>
+	<system:String x:Key="Messages.EnterPort">لطفا یک عدد پورت (0 تا 65535) انتخاب کنید</system:String>
+	<system:String x:Key="Messages.EnterSecretAccessKey">Please enter Secret Access Key</system:String>
+	<system:String x:Key="Messages.EnterStorageAccount">Please enter Storage account name</system:String>
+	<system:String x:Key="Messages.EnterStorageKey">Please enter key1 or key2</system:String>
+	<system:String x:Key="Messages.EnterURL">لطفا یک آدرس اینترنتی وارد کنید</system:String>
+	<system:String x:Key="Messages.EnterUsername">لطفا یک نام کاربری وارد کنید</system:String>
+	<system:String x:Key="Messages.EnterVolume">لطفا نامی معتبر برای درایو وارد کنید</system:String>
+	<system:String x:Key="Messages.Error.CacheDiskFull">فضای ذخیره سازی موقت کافی نیست، بهتر است که فضا را افزایش دهید</system:String>
+	<system:String x:Key="Messages.Error.ConnectInternet">مشکل در اتصال به درایو ریموت، لطفا اتصال خود به اینترنت را بررسی کنید و دوباره تلاش کنید</system:String>
+	<system:String x:Key="Messages.Error.DiskLetterExist">شما باید حرف درایو یا نام درایو را تغییر دهید</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPassword">The password you entered is not correct. Please try again.</system:String>
+	<system:String x:Key="Messages.Error.MethodNotAllowed">لطفا بررسی کنید که این مسیر {0} وجود دارد یا به آن دسترسی داریم یا خیر</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveAuth">احراز هویت با مشکل انجام شد، می خواهید دوباره انجام دهید؟</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveLimit">سهمیه دانلود بالاتر از حد مجاز رفت، محدودیت دانلود از طرف سیاست های {0}.</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveRemake">روش اتصال به درایو ریموت تغییر کرده، شما باید دوباره وارد حساب کاربری خود شوید</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveWantRelogin">احراز هویت با مشکل مواجه شد، می خواهید دوباره انجام دهید؟ اگر مشکل دوباره پیش آمد، درایو را حذف و دوباره ایجاد کنید</system:String>
+	<system:String x:Key="Messages.Error.Unauthorized">اشکال در احراز هویت، لطفا نام کاربری و رمز عبور را بررسی کنید</system:String>
+	<system:String x:Key="Messages.ExistVolume">این نام تکراری است</system:String>
+	<system:String x:Key="Messages.ExitConfirm">آیا اطمینان دارید که می خواهید تمام اتصالات در حین خروج قطع شوند؟</system:String>
+	<system:String x:Key="Messages.FileLock.DependsWebDAV">وابسته به سرور WebDAV</system:String>
+	<system:String x:Key="Messages.FileLock.NotSupport">Your server may not support</system:String>
+	<system:String x:Key="Messages.FolderExist">این فولدر اکنون شامل می شود</system:String>
+	<system:String x:Key="Messages.HereWeGo">برو که رفتیم</system:String>
+	<system:String x:Key="Messages.InternetDown">اتصال اینترنت شما به نظر قطع شده، لطفا اتصال اینترنت را بررسی کنید</system:String>
+	<system:String x:Key="Messages.License.Expired">اعتبار لایسنس شما منقضی شده، باید نسخه جدید تر را دانلود کنید. دکمه تایید را برای آپدیت فشار دهید</system:String>
+	<system:String x:Key="Messages.License.NotReady">برنامه نمی تواند اعتبار لایسنس را تایید کند</system:String>
+	<system:String x:Key="Messages.Maximum.Drive">حداکثر تا 8 درایو در این نسخه می توان ایجاد کرد</system:String>
+	<system:String x:Key="Messages.MountPointFolder.Condition">مسیرهای پوشه Mount point فقط در پوشه های خالی با حجم پایه یا پویا NTFS در دسترس هستند.</system:String>
+	<system:String x:Key="Messages.MountPointFolder.Mandatory">برای اختصاص یک پوشه ، گزینه عمومی دیسک محلی مورد نیاز است</system:String>
+	<system:String x:Key="Messages.NotReadyDriver">درایور لازم روی سیستم نصب نشده، باید برنامه رای-درایو را دوباره نصب کنید</system:String>
+	<system:String x:Key="Messages.NotReadyReboot">برنامه رای-درایو آماده شروع نیست، باید سیستم را ریستارت کنید</system:String>
+	<system:String x:Key="Messages.NotSupportBrowserDropbox">سرویس دراپ باکس از اینترنت اکسپلورر 10 و 11 استفاده می کند، بهتر است نسخه 11 را نصب کنید</system:String>
+	<system:String x:Key="Messages.NotSupportNetworkDrive">این برنامه از درایو شبکه پشتیبانی نمی کند</system:String>
+	<system:String x:Key="Messages.NotSupportRaiDrive">این برنامه از اتصال خود به خود درایو پشتیبانی نمی کند</system:String>
+	<system:String x:Key="Messages.OAuth.InvalidClient">دامنه مدیریت نشده توسط Active Directory</system:String>
+	<system:String x:Key="Messages.OAuth.InvalidClientDescription">حساب کاربری شما توسط Active Directory مدیریت نشده، شما باید با ادمین دامنه تماس بگیرید یا با حساب کاربری خودتان وارد شوید.</system:String>
+	<system:String x:Key="Messages.OtherResponseCode.2">مسیر پیدا نشد، این مسیر را بررسی کنید{0}.</system:String>
+	<system:String x:Key="Messages.ReconnectForChangingSettings">لطفا دکمه تایید را بزنید، شما باید دوباره به ریموت متصل شوید تا تغییرات تنظیمات اعمال شوند</system:String>
+	<system:String x:Key="Messages.ResponseSlow">A response may be slow</system:String>
+	<system:String x:Key="Messages.RetryAfter">تلاش مجدد بعد از {0} ثانیه(s).</system:String>
+	<system:String x:Key="Messages.SelectLetter">لطفا یک حرف استفاده نشده برای درایو انتخاب کنید</system:String>
+	<system:String x:Key="Messages.SelectLocalDrive">لطفا یک فولدر را مشخص کنید</system:String>
+	<system:String x:Key="Messages.SelectPrivateKeyPath">می توانید فایل کلید خصوصی را انتخاب کنید</system:String>
+	<system:String x:Key="Messages.SelectedPath">مسیر انتخابی</system:String>
+	<system:String x:Key="Messages.SeleteTargetFolder">یک فولدر ریموت انتخاب کنید تا فایل ها در آن ذخیره شوند</system:String>
+	<system:String x:Key="Messages.Service.Alive">لطفا دکمه تایید را بزنید، برنامه دوباره احیا می شود</system:String>
+	<system:String x:Key="Messages.Service.Stoped">سرویس مربوط به برنامه بسته شده است</system:String>
+	<system:String x:Key="Messages.SignOut.Question1">Your subscription features will be disabled and all drives will be reconnected. Please save file(s) or close application(s)</system:String>
+	<system:String x:Key="Messages.SignOut.Question2">Are you sure you want to sign out?</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc1">Your current session has been requested to return by your other session{0}. All drives will be reconnected. Please save file(s) or close application(s)</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc2">It will be applied after {0}, press Ok button to be immediate.</system:String>
+	<system:String x:Key="Messages.SureDelete">آیا می خواهید به صورت دائمی این را حذف کنید &quot;{0} ({1})&quot; ?</system:String>
+	<system:String x:Key="Messages.UnknownSpace">فضای نامشخص</system:String>
+	<system:String x:Key="Messages.Upgrade.New">می توانید به نسخه جدید بروز رسانی کنید</system:String>
+	<system:String x:Key="Messages.Upgrade.NewVersion">می توانید به این نسخه بروز رسانی کنید: {0}</system:String>
+	<system:String x:Key="Messages.Upgrade.Uptodate">شما از آخرین نسخه استفاده می کنید</system:String>
+	<system:String x:Key="Messages.VolumeInvalidChar">نام درایو نباید شامل کاراکترهای زیر باشد</system:String>
+	<system:String x:Key="Messages.VolumeInvalidStr">از این اسامی رزرو شده استفاده نکنید</system:String>
+	<system:String x:Key="Phrases.AuthAtConnect">ورود اطلاعات حساب حین اتصال</system:String>
+	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Browse in private</system:String>
+	<system:String x:Key="Phrases.ConnectByRaiDrive">متصل با رای-درایو</system:String>
+	<system:String x:Key="Phrases.DeleteDrive">درایو را حذف کن</system:String>
+	<system:String x:Key="Phrases.DuplicatedPath">مسیر تکراری</system:String>
+	<system:String x:Key="Phrases.FileInUse">File(s) In Use: {0}</system:String>
+	<system:String x:Key="Phrases.FileLock.WebDAV">قفل فابل WebDAV</system:String>
+	<system:String x:Key="Phrases.FilesystemWatcher">Monitor process access to files</system:String>
+	<system:String x:Key="Phrases.FolderUrl">URL پوشه</system:String>
+	<system:String x:Key="Phrases.FolderUrlID">URL پوشه یا شناسه</system:String>
+	<system:String x:Key="Phrases.FollowLatest">دنبال کردن آخرین</system:String>
+	<system:String x:Key="Phrases.ForBusinessVersion">برای نسخه تجاری</system:String>
+	<system:String x:Key="Phrases.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
+	<system:String x:Key="Phrases.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="Phrases.MountAtSignIn">اتصال حین ورود به ویندوز</system:String>
+	<system:String x:Key="Phrases.MountAtStart">Reconnect at program start</system:String>
+	<system:String x:Key="Phrases.MountLocalDisk">شبیه یک درایو داخلی بارگذاری کن</system:String>
+	<system:String x:Key="Phrases.OpenRaiDrive">باز کردن برنامه</system:String>
+	<system:String x:Key="Phrases.OverwriteTarget">Overwrite target</system:String>
+	<system:String x:Key="Phrases.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
+	<system:String x:Key="Phrases.RaiDriveReconnect">اتصال دوباره برنامه</system:String>
+	<system:String x:Key="Phrases.RegisterToStartup">Register to Startup</system:String>
+	<system:String x:Key="Phrases.RenameSource">Rename source</system:String>
+	<system:String x:Key="Phrases.RunAtBoot">اجرای نرم افزار در حین شروع به کار ویندوز</system:String>
+	<system:String x:Key="Phrases.RunAtConnect">اجرای &quot;مرورگر فایل&quot; به محض اتصال موفق یک درایو</system:String>
+	<system:String x:Key="Phrases.SelectFolder">فولدر را انتخاب کن</system:String>
+	<system:String x:Key="Phrases.Service.ReviveRaiDrive">فعال کردن دوباره برنامه</system:String>
+	<system:String x:Key="Phrases.State.Space.Format">{0} free of {1} {2}</system:String>
+	<system:String x:Key="Phrases.Subscription.Switched">Switched to {0}</system:String>
+	<system:String x:Key="Phrases.UpdateChangeAsync">Update storage changes asynchronously</system:String>
+	<system:String x:Key="Phrases.UseDriveIcon">از یک آیکون دلخواه برای نمایش درایو متصل شده استفاده کن</system:String>
+	<system:String x:Key="Words.AccessKeyID">Access Key ID</system:String>
+	<system:String x:Key="Words.Account">حساب کاربری</system:String>
+	<system:String x:Key="Words.Add">اضافه</system:String>
+	<system:String x:Key="Words.Address">آدرس</system:String>
 	<system:String x:Key="Words.AdvancedOptions">Advanced Options</system:String>
-	<system:String x:Key="Words.Properties">Properties</system:String>
-
+	<system:String x:Key="Words.All">همه</system:String>
+	<system:String x:Key="Words.Anonymous">ناشناس</system:String>
+	<system:String x:Key="Words.Apply">اعمال</system:String>
+	<system:String x:Key="Words.AutoStart">شروع خودکار</system:String>
+	<system:String x:Key="Words.Backup">پشتیبان گیری</system:String>
+	<system:String x:Key="Words.BackupNOW">الان پشتیبان گیری کن</system:String>
+	<system:String x:Key="Words.Bandwidth">پهنای باند</system:String>
+	<system:String x:Key="Words.Brand.Box_com">Box</system:String>
+	<system:String x:Key="Words.Brand.Facebook">فیسبوک</system:String>
+	<system:String x:Key="Words.Brand.QNAP">QNAP</system:String>
+	<system:String x:Key="Words.Brand.Synology">Synology</system:String>
+	<system:String x:Key="Words.Brand.WD">WD</system:String>
+	<system:String x:Key="Words.Brand.ipTIME">ipTIME</system:String>
+	<system:String x:Key="Words.Browser">Browser</system:String>
+	<system:String x:Key="Words.Bucket">Bucket</system:String>
+	<system:String x:Key="Words.Cache">Cache</system:String>
+	<system:String x:Key="Words.Cancel">لغو</system:String>
+	<system:String x:Key="Words.Capacity">ظرفیت</system:String>
+	<system:String x:Key="Words.Charset">جدول کاراکتر</system:String>
+	<system:String x:Key="Words.Check">بررسی</system:String>
+	<system:String x:Key="Words.CheckUpdate">بررسی بروز رسانی</system:String>
+	<system:String x:Key="Words.ClearLog">حذف لاگ</system:String>
+	<system:String x:Key="Words.Code">کد</system:String>
+	<system:String x:Key="Words.Community">Community</system:String>
+	<system:String x:Key="Words.Connect">اتصال</system:String>
+	<system:String x:Key="Words.Connected">Connected</system:String>
+	<system:String x:Key="Words.CountLeft">باقی مانده</system:String>
+	<system:String x:Key="Words.Current">قعلی</system:String>
+	<system:String x:Key="Words.Default">پیشفرض</system:String>
+	<system:String x:Key="Words.Delete">حذف</system:String>
+	<system:String x:Key="Words.Description">جزییات</system:String>
+	<system:String x:Key="Words.Device">دستگاه</system:String>
+	<system:String x:Key="Words.Disconnect">قطع اتصال</system:String>
+	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
+	<system:String x:Key="Words.Document">Document</system:String>
+	<system:String x:Key="Words.Download">دانلود</system:String>
+	<system:String x:Key="Words.Drive">درایو</system:String>
+	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
+	<system:String x:Key="Words.Edit">ویرایش</system:String>
+	<system:String x:Key="Words.Encryption">رمزنگاری</system:String>
+	<system:String x:Key="Words.Endpoint">Endpoint</system:String>
+	<system:String x:Key="Words.Error">خطا</system:String>
+	<system:String x:Key="Words.Etc">etc</system:String>
+	<system:String x:Key="Words.Example.EmailAddress">id@example.com</system:String>
+	<system:String x:Key="Words.Example.HostAddress">host.example.com</system:String>
+	<system:String x:Key="Words.Exit">خروج</system:String>
+	<system:String x:Key="Words.Export">Export</system:String>
+	<system:String x:Key="Words.File">فایل</system:String>
+	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
+	<system:String x:Key="Words.FileLock">قفل فایل</system:String>
+	<system:String x:Key="Words.Folder">فولدر</system:String>
+	<system:String x:Key="Words.FreeSpace">فضای خالی</system:String>
+	<system:String x:Key="Words.General">عمومی</system:String>
+	<system:String x:Key="Words.GoogleDrive.Computers">رایانه</system:String>
+	<system:String x:Key="Words.GoogleDrive.MyDrive">My Drive</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedDrives">Shared drives</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedLink">پیوند مشترک</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedWithMe">موارد اشتراک‌گذاری شده با من</system:String>
+	<system:String x:Key="Words.Help">راهنمایی</system:String>
+	<system:String x:Key="Words.Hide">Hide</system:String>
+	<system:String x:Key="Words.Import">Import</system:String>
+	<system:String x:Key="Words.Key">Key</system:String>
+	<system:String x:Key="Words.Language">زبان</system:String>
+	<system:String x:Key="Words.License">لایسنس</system:String>
+	<system:String x:Key="Words.Lifetime">Lifetime</system:String>
+	<system:String x:Key="Words.Like">لایک فیسبوک</system:String>
+	<system:String x:Key="Words.LocalDisk">هارد داخلی</system:String>
+	<system:String x:Key="Words.Login">ورود</system:String>
 	<system:String x:Key="Words.MySubscription">My Subscription</system:String>
+	<system:String x:Key="Words.NOW">الان</system:String>
+	<system:String x:Key="Words.Network">شبکه</system:String>
+	<system:String x:Key="Words.NetworkDrive">درایو شبکه</system:String>
+	<system:String x:Key="Words.NewDrive">درایو جدید</system:String>
+	<system:String x:Key="Words.No">خیر</system:String>
+	<system:String x:Key="Words.Notice">اعلامیه</system:String>
+	<system:String x:Key="Words.Ok">تایید</system:String>
+	<system:String x:Key="Words.OneDrive.Files">پرونده ها</system:String>
+	<system:String x:Key="Words.OneDrive.Shared">اشتراک گذاشته شده</system:String>
+	<system:String x:Key="Words.OneDrive.SharedLink">پیوند مشترک</system:String>
+	<system:String x:Key="Words.Password">رمز عبور</system:String>
+	<system:String x:Key="Words.Path">مسیر</system:String>
+	<system:String x:Key="Words.Port">پورت</system:String>
+	<system:String x:Key="Words.Private">خصوصی</system:String>
+	<system:String x:Key="Words.PrivateKey">کلید خصوصی</system:String>
+	<system:String x:Key="Words.ProcessMonitor">Process Monitor</system:String>
+	<system:String x:Key="Words.Processed">پردازش شده</system:String>
+	<system:String x:Key="Words.Progress">پیشروی</system:String>
+	<system:String x:Key="Words.Project">Project</system:String>
+	<system:String x:Key="Words.Properties">Properties</system:String>
+	<system:String x:Key="Words.Proxy">پراکسی</system:String>
+	<system:String x:Key="Words.Public">عمومی</system:String>
+	<system:String x:Key="Words.Read">Read</system:String>
+	<system:String x:Key="Words.ReadOnly">فقط خواندنی</system:String>
+	<system:String x:Key="Words.Reading">Reading</system:String>
+	<system:String x:Key="Words.Ready">آماده</system:String>
+	<system:String x:Key="Words.Reason">دلیل</system:String>
+	<system:String x:Key="Words.RemoteFolder">فولدر ریموت</system:String>
+	<system:String x:Key="Words.Remove">حذف</system:String>
+	<system:String x:Key="Words.Retry">تلاش دوباره</system:String>
+	<system:String x:Key="Words.Save">ذخیره</system:String>
+	<system:String x:Key="Words.Second">second</system:String>
+	<system:String x:Key="Words.Seconds">seconds</system:String>
+	<system:String x:Key="Words.SecretAccessKey">Secret Access Key</system:String>
+	<system:String x:Key="Words.SecureConnection">اتصال امن</system:String>
+	<system:String x:Key="Words.SecureProtocol">پروتکل امن</system:String>
+	<system:String x:Key="Words.Send.Opinion">ارسال نظر</system:String>
+	<system:String x:Key="Words.Settings">تنظیمات</system:String>
 	<system:String x:Key="Words.ShareWithOther">Share with others</system:String>
 	<system:String x:Key="Words.SharedWithMe">Shared with me</system:String>
-	<system:String x:Key="Words.Import">Import</system:String>
-	<system:String x:Key="Words.Export">Export</system:String>
-	<system:String x:Key="Words.ProcessMonitor">Process Monitor</system:String>
-
-	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
-	<system:String x:Key="GoogleDrive.SharedDrives">Shared drives</system:String>
-
-	<system:String x:Key="Words.Reading">Reading</system:String>
-	<system:String x:Key="Words.Writing">Writing</system:String>
-	<system:String x:Key="Words.Hide">Hide</system:String>
-
-	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">Timeout</system:String>
-	<system:String x:Key="Words.Seconds">seconds</system:String>
-
-	<system:String x:Key="Words.Connected">Connected</system:String>
-	<system:String x:Key="Words.Disconnected">Disconnected</system:String>
-	<system:String x:Key="Message.FileInUse">File(s) In Use: {0}</system:String>
-
-	<!--  from 2022.3  -->
+	<system:String x:Key="Words.SignIn">وارد شو</system:String>
+	<system:String x:Key="Words.SignOut">Sign Out</system:String>
+	<system:String x:Key="Words.Site">سایت</system:String>
+	<system:String x:Key="Words.Size">حجم</system:String>
+	<system:String x:Key="Words.Skip">Skip</system:String>
+	<system:String x:Key="Words.Slow">Slow</system:String>
 	<system:String x:Key="Words.Sort">Sort</system:String>
-	<system:String x:Key="Words.Sort.None">None</system:String>
 	<system:String x:Key="Words.Sort.Ascending">Ascending</system:String>
 	<system:String x:Key="Words.Sort.Descending">Descending</system:String>
-	<system:String x:Key="Words.VolumeLabel">Volume label</system:String>
-	<system:String x:Key="Words.DriveLetter">Drive letter</system:String>
-
-	<system:String x:Key="Message.IncorrectPassword">The password you entered is not correct. Please try again.</system:String>
-
-	<!--  from 2022.6  -->
-	<system:String x:Key="Words.Browser">Browser</system:String>
-	<system:String x:Key="Browser.BrowseInPrivate">Browse in private</system:String>
+	<system:String x:Key="Words.Sort.None">None</system:String>
+	<system:String x:Key="Words.SourceFolders">فولدر سورس</system:String>
+	<system:String x:Key="Words.Space.Used">اشغال شده</system:String>
+	<system:String x:Key="Words.Start">شروع</system:String>
+	<system:String x:Key="Words.State">وضعیت</system:String>
+	<system:String x:Key="Words.Stop">توقف</system:String>
+	<system:String x:Key="Words.Storage">سرویس ذخیره سازی</system:String>
+	<system:String x:Key="Words.StorageAccount">Storage Account</system:String>
+	<system:String x:Key="Words.Subscription">Subscription</system:String>
+	<system:String x:Key="Words.TemporaryPath">پوشه موقت</system:String>
+	<system:String x:Key="Words.Tenant">Tenant</system:String>
+	<system:String x:Key="Words.Time">زمان</system:String>
+	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.TransferMode">حالت انتقال</system:String>
+	<system:String x:Key="Words.Update">بروز رسانی</system:String>
+	<system:String x:Key="Words.Upgrade">بروز رسانی</system:String>
+	<system:String x:Key="Words.Upload">بارگذاری</system:String>
+	<system:String x:Key="Words.Username">نام کاربری</system:String>
+	<system:String x:Key="Words.VolumeLabel">برچسب درایو</system:String>
+	<system:String x:Key="Words.WritableDrive">درایو قابل نوشتن</system:String>
+	<system:String x:Key="Words.Write">Write</system:String>
+	<system:String x:Key="Words.Writing">Writing</system:String>
+	<system:String x:Key="Words.Yes">بله</system:String>
 </ResourceDictionary>

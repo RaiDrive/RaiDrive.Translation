@@ -1,344 +1,255 @@
-﻿<ResourceDictionary
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:local="clr-namespace:RaiDrive.Center.Languages"
-	xmlns:system="clr-namespace:System;assembly=mscorlib">
-
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>yuk7</system:String>
 		<system:String>wizard872</system:String>
 		<system:String>Kai-Z-JP</system:String>
 	</x:Array>
-	<system:String x:Key="Current.Language">ja</system:String>
-	<!--  ja = 日本語  -->
+	<system:String x:Key="Language.English">Japanese</system:String>
+	<system:String x:Key="Language.Native">日本語</system:String>
+	<system:String x:Key="Language.Tags">ja</system:String>
 
-	<!--  Settings, General  -->
-	<system:String x:Key="Settings">設定</system:String>
-	<system:String x:Key="Settings.Header">設定</system:String>
-	<system:String x:Key="Settings.General">一般</system:String>
-	<system:String x:Key="Settings.Language">言語</system:String>
-	<system:String x:Key="Settings.Update">アップデート</system:String>
-	<system:String x:Key="Settings.Facebook">Facebook</system:String>
-	<system:String x:Key="Settings.Facebook.Like">いいね</system:String>
-	<system:String x:Key="Settings.TemporaryPath">一時フォルダ</system:String>
-	<system:String x:Key="Settings.Default">初期設定</system:String>
-	<system:String x:Key="Settings.License">ライセンス</system:String>
-	<system:String x:Key="Settings.Proxy">プロキシ</system:String>
-
-	<system:String x:Key="Settings.General.RunAtBoot">Windows起動時にRaiDriveを自動的に実行</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">ドライブがマウントされる時にエクスプローラーを起動</system:String>
-
-	<system:String x:Key="Notice">お知らせ</system:String>
-	<system:String x:Key="AddDrive">追加</system:String>
-	<system:String x:Key="AddDrive.Header">ドライブ追加</system:String>
-	<system:String x:Key="AddDrive.Storage">ストレージ</system:String>
-
-	<!--  Drive  -->
-	<system:String x:Key="AddDrive.Drive">ドライブ</system:String>
-
-	<!--  Add New Storage  -->
-	<system:String x:Key="AddDrive.Network">ネットワーク</system:String>
-	<system:String x:Key="AddDrive.ReadOnly">読み込み専用</system:String>
-	<system:String x:Key="AddDrive.Account">アカウント</system:String>
-	<system:String x:Key="AddDrive.Username">ユーザーID</system:String>
-	<system:String x:Key="AddDrive.Password">パスワード</system:String>
-	<system:String x:Key="AddDrive.Anonymous">Anonymous</system:String>
-	<system:String x:Key="AddDrive.Address">アドレス</system:String>
-	<system:String x:Key="AddDrive.Port">ポート番号</system:String>
-	<system:String x:Key="AddDrive.Device">デバイス</system:String>
-	<system:String x:Key="AddDrive.PrivateKey">秘密鍵</system:String>
-	<system:String x:Key="AddDrive.Charset">文字コード</system:String>
-	<system:String x:Key="AddDrive.TransferMode">転送モード</system:String>
-	<system:String x:Key="AddDrive.Encryption">暗号化</system:String>
-
-	<system:String x:Key="Vailidation.Volume">トライブ名を入力してください</system:String>
-	<system:String x:Key="Vailidation.VolumeExist">既に存在しているドライブ名です</system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidChar">ドライブ名に次のような文字は入力できません:</system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidStr">下段の予約されたドライブ名は入力できません:</system:String>
-	<system:String x:Key="Vailidation.Letter">まだ割り当てられていないドライブを選択してください</system:String>
-	<system:String x:Key="Vailidation.Address">ホスト名またはIPアドレスを入力してください</system:String>
-	<system:String x:Key="Vailidation.Address.WebDAV">URLを入力してください</system:String>
-	<system:String x:Key="Vailidation.Address.LocalDrive">フォルダを選択してください</system:String>
-	<system:String x:Key="Vailidation.Port">ポート番号を入力してください (1 ~ 65535)</system:String>
-	<system:String x:Key="Vailidation.Username">ユーザーIDを入力してください</system:String>
-	<system:String x:Key="Vailidation.Password">パスワードを入力してください</system:String>
-
-	<!--  Menu bar>Settings, account, volume  -->
-	<system:String x:Key="Vailidation.Hint.Volume">ボリュームラベル</system:String>
-	<system:String x:Key="Vailidation.Hint.Address">host.example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">フォルダ</system:String>
-	<system:String x:Key="Vailidation.Hint.Username">ユーザーID</system:String>
-	<system:String x:Key="Vailidation.Hint.Password">パスワード</system:String>
-	<system:String x:Key="Vailidation.Hint.Port">ポート番号</system:String>
-	<system:String x:Key="Vailidation.Hint.Path">パス</system:String>
-	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">秘密鍵ファイルを選択できます</system:String>
-
-	<system:String x:Key="Button.Yes">はい</system:String>
-	<system:String x:Key="Button.No">いいえ</system:String>
-	<system:String x:Key="Button.OK">OK</system:String>
-	<system:String x:Key="Button.Apply">適用</system:String>
-	<system:String x:Key="Button.Cancel">取り消し</system:String>
-	<system:String x:Key="Button.Check">確認</system:String>
-	<system:String x:Key="Button.Edit">編集</system:String>
-	<system:String x:Key="Button.Retry">再試行</system:String>
-	<system:String x:Key="Button.ReAuth">再ログイン</system:String>
-	<system:String x:Key="Button.Login">ログイン</system:String>
-	<system:String x:Key="Button.SIGNIN">ログイン</system:String>
-
-	<system:String x:Key="ToolTip.Connect">マウント</system:String>
-	<system:String x:Key="ToolTip.Disconnect">マウント解除</system:String>
-	<system:String x:Key="ToolTip.Edit">編集</system:String>
-	<system:String x:Key="ToolTip.Remove">削除</system:String>
-	<system:String x:Key="ToolTip.NetworkDrive">ネットワークドライブ</system:String>
-	<system:String x:Key="ToolTip.SecureProtocol">Secureプロトコル</system:String>
-	<system:String x:Key="ToolTip.SecureConnection">Secure接続</system:String>
-	<system:String x:Key="ToolTip.Backup">バックアップ</system:String>
-
-	<system:String x:Key="Message.Title.SelectFolder">フォルダ選択</system:String>
-	<system:String x:Key="Message.Title.DeleteDrive">ドライブ削除</system:String>
-
-	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDriveはネットワークドライブをサポートしていません</system:String>
-	<system:String x:Key="Message.NotSupportRaiDrive">RaiDriveでマウントされたドライブをサポートしていません</system:String>
-	<system:String x:Key="Message.Exist">既に含まれているフォルダです</system:String>
-	<system:String x:Key="Message.SelectedPath">選択パス</system:String>
-	<system:String x:Key="Message.DuplicatedPath">重複パス</system:String>
-
-	<system:String x:Key="Message.SureDelete">永久的に &quot;{0} ({1})&quot; を削除しますか?</system:String>
-	<system:String x:Key="Message.Title.ServiceDown">RaiDriveを再起動</system:String>
-	<system:String x:Key="Message.Title.Reconnect">RaiDriveの再接続</system:String>
-	<system:String x:Key="Message.ServiceDown">OKボタンをクリックしてください RaiDriveを再起動します</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">OKボタンをクリックしてください 変更された設定を反映するにはリモートドライブの再マウントが必要です</system:String>
-	<system:String x:Key="Message.NotReady.Reboot">RaiDrive起動の準備が完了していません 再起動する必要があります</system:String>
-	<system:String x:Key="Message.NotReady.Driver">デバイスドライバーがインストールされていません RaiDriveを再インストールしてください</system:String>
-	<system:String x:Key="Message.NotSupport.Browser.Dropbox">DropboxはInternet Explorer 10, 11バージョンをサポートしています Internet Explorer 11の使用をお勧めします</system:String>
-	<system:String x:Key="Message.Connect.By">RaiDriveによってマウント</system:String>
-	<system:String x:Key="Message.Maximum.Drive">現在のバージョンでは最大8のドライブを作成できます</system:String>
-	<system:String x:Key="Message.License.Expired">ライセンスが失効しました 新しいバージョンにアップデートする必要があります OKボタンをクリックするとアップデートを開始します</system:String>
-	<system:String x:Key="Message.License.NotReady">ライセンスを確認できません</system:String>
-	<system:String x:Key="Message.UnknownSpace">不明な空き領域</system:String>
-	<system:String x:Key="Message.CurrentVersion">現在のバージョンは {0} です</system:String>
-	<system:String x:Key="Message.Cache.Folder.NotSupport">一時フォルダの指定はローカルディスクドライブのフォルダのみ可能です ネットワークドライブを指定することはできません</system:String>
-
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">権限付与または認証に失敗しました 再認証しますか?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">権限付与または認証に失敗しました 再認証しますか? (また失敗した場合には該当するドライブを削除してから再度ドライブを作成してください)</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveLimit">ダウンロードの割り当て量を超えています ダウンロード制限は {0} です</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">リモートストレージの接続方式が変更されました 再ログインする必要があります</system:String>
-	<system:String x:Key="Message.ErrorCacheDiskFull">一時保存領域がほとんど残っていません 保存領域を増やす必要があります</system:String>
-	<system:String x:Key="Message.ErrorInternet">リモートストレージをマウントできません インターネット接続を確認してから再度お試しください</system:String>
-	<system:String x:Key="Message.ErrorDiskLetterExist">ドライブラベルまたはドライブ名を変更する必要があります</system:String>
-
-	<system:String x:Key="Message.OAuth.InvalidClient">Active Directoryで管理されていないドメイン</system:String>
-	<system:String x:Key="Message.OAuth.InvalidClientDescription">Active Directoryで管理されていないアカウントです 個人アカウントでログインするか、Active Directoryまたは管理者にお問い合わせください</system:String>
-
-	<!--  ConnectResponse Message  -->
-	<system:String x:Key="WebExceptionStatus.ConnectFailure">アドレスを確認してください</system:String>
-	<system:String x:Key="WebExceptionStatus.ConnectionClosed">protocol{0}とポート番号{1}を確認してください</system:String>
-	<system:String x:Key="WebExceptionStatus.SendFailure">protocol{0}とポート番号{1}を確認してください</system:String>
-	<system:String x:Key="WebExceptionStatus.ReceiveFailure">protocol{0}とポート番号{1}を確認してください</system:String>
-
-	<system:String x:Key="HttpStatusCode.MethodNotAllowed">パス{0}が有効なパスであるか確認してください</system:String>
-	<system:String x:Key="HttpStatusCode.Unauthorized">認証に失敗しました ユーザーID(パスワード)を確認してください</system:String>
-
-	<system:String x:Key="SocketError.TimedOut">アドレスを確認してください</system:String>
-	<system:String x:Key="SocketError.ConnectionRefused">ポート番号{0}を確認してください</system:String>
-
-	<system:String x:Key="OtherResponseCode.2">パスが見つかりません パス{0}を確認してください</system:String>
-	<system:String x:Key="OtherResponseCode.3">protocol{0}とポート番号{1}を確認してください</system:String>
-	<!--  ConnectResponse Message  -->
-
-	<system:String x:Key="Words.Reason">原因</system:String>
-	<system:String x:Key="Words.Delegation.Stop">権限移譲を中止</system:String>
-	<system:String x:Key="Words.Drive">ドライブ</system:String>
-	<system:String x:Key="Words.FreeSpace">空き領域</system:String>
-	<system:String x:Key="Words.Send.Opinion">意見の投稿</system:String>
-	<system:String x:Key="Words.Code">コード</system:String>
-	<system:String x:Key="Words.Path">パス</system:String>
-	<system:String x:Key="Words.File">ファイル</system:String>
-	<system:String x:Key="Words.Ready">準備</system:String>
-	<system:String x:Key="Words.Time">時刻</system:String>
-	<system:String x:Key="Words.Error">エラー</system:String>
-	<system:String x:Key="Words.State">ステータス</system:String>
-	<system:String x:Key="Words.Size">Size</system:String>
-	<system:String x:Key="Words.Description">説明</system:String>
-
-	<system:String x:Key="Help.Text">ヘルプ</system:String>
-	<system:String x:Key="Help.Add.Drive">さぁ、ここをクリックして始めましょう</system:String>
-	<system:String x:Key="Help.ServiceDown">RaiDrive Serviceが中止されました</system:String>
-	<system:String x:Key="Help.ServiceDown.Press">ボタンをクリックしてください RaiDriveが再起動します</system:String>
-	<system:String x:Key="Help.InternetDown">インターネット接続がありません インターネット接続を確認してください</system:String>
-	<system:String x:Key="Help.InternetDown.RetryAfter">{0} 秒後に再度確認します</system:String>
-	<system:String x:Key="Help.License.ForBusiness">ビジネスバージョン用</system:String>
-
-	<system:String x:Key="Upgrade">アップデート</system:String>
-	<system:String x:Key="Upgrade.Uptodate">最新バージョンです</system:String>
-	<system:String x:Key="Upgrade.NewVersion">{0}バージョンにアップデートできます</system:String>
-	<system:String x:Key="Upgrade.New">新しいバージョンにアップデートできます</system:String>
-
-	<system:String x:Key="NotifyIcon.Open">RaiDriveを表示</system:String>
-	<system:String x:Key="NotifyIcon.CheckUpdate">アップデートの確認</system:String>
-	<system:String x:Key="NotifyIcon.Exit">終了</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">終了の前に全てのドライブのマウントを解除しますか?</system:String>
-
-	<system:String x:Key="State.Space.Format">空き領域 {0}/{1}  {2}</system:String>
-	<system:String x:Key="State.Space.Used">使用領域</system:String>
-
-	<system:String x:Key="Brand.Synology">Synology</system:String>
-	<system:String x:Key="Brand.QNAP">QNAP</system:String>
-	<system:String x:Key="Brand.Box_com">Box</system:String>
-	<system:String x:Key="Brand.ipTIME">ipTIME</system:String>
-	<system:String x:Key="Brand.WD">WD</system:String>
-	<system:String x:Key="Brand.etc">その他</system:String>
-
-	<!--  backup  -->
-	<system:String x:Key="Backup">バックアップ</system:String>
-	<system:String x:Key="Backup.Add">追加</system:String>
-	<system:String x:Key="Backup.Delete">削除</system:String>
-	<system:String x:Key="Backup.Start">スタート</system:String>
-	<system:String x:Key="Backup.Stop">中止</system:String>
-	<system:String x:Key="Backup.BackupNOW">今すぐバックアップ</system:String>
-	<system:String x:Key="Backup.NOW">今</system:String>
-	<system:String x:Key="Backup.Save">保存</system:String>
-	<system:String x:Key="Backup.ClearLog">ログを削除</system:String>
-	<system:String x:Key="Backup.DestRootFolder">リモートフォルダ</system:String>
-	<system:String x:Key="Backup.SourceFolders">ローカルフォルダ</system:String>
-	<system:String x:Key="Backup.Progress">進行状況</system:String>
-	<system:String x:Key="Backup.AutoStart">自動スタート</system:String>
-	<system:String x:Key="Backup.LogTab.Current">現在</system:String>
-	<system:String x:Key="Backup.LogTab.All">全て</system:String>
-	<system:String x:Key="Backup.LogTab.Error">エラー</system:String>
-	<system:String x:Key="Backup.LogTab.Ready">準備</system:String>
-	<system:String x:Key="Backup.LogTab.Left">待ち</system:String>
-	<system:String x:Key="Backup.LogTab.File">ファイル</system:String>
-	<system:String x:Key="Backup.LogTab.Folder">フォルダ</system:String>
-	<system:String x:Key="Backup.LogTab.FollowLatest">最新表示</system:String>
-	<system:String x:Key="Backup.Count.Left">残り</system:String>
-	<system:String x:Key="Backup.Count.Processed">Processed</system:String>
-
-	<system:String x:Key="Message.Backup.BackupTargetFolder">ファイルが保存されるリモートフォルダを選択してください</system:String>
-
-	<!--  from version 1.6.0.416  -->
-	<system:String x:Key="Settings.General.UseDriveIcon">接続ドライブにカスタムアイコンを使用する</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">ローカルディスク</system:String>
-	<system:String x:Key="AddDrive.FileLock">ファイルロック</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">書き込み可能ドライブ</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">ローカルディスクのようにマウントする</system:String>
-	<system:String x:Key="ToolTip.FileLock">WebDAVファイルロック</system:String>
-	<system:String x:Key="ToolTip.FileLock2">WebDAVサーバーに依存</system:String>
-	<system:String x:Key="ToolTip.FileLock3">サーバーはサポートしていない可能性があります</system:String>
-
-	<!--  from version 1.7.0  -->
-	<system:String x:Key="Identity.SignIn">サインイン</system:String>
-	<system:String x:Key="Identity.SignOut">サインアウト</system:String>
-	<system:String x:Key="Identity.SignOut.Question1">サブスクリプション機能が無効になり、すべてのドライブが再接続されます。 ファイルを保存するか、アプリケーションを閉じてください。</system:String>
-	<system:String x:Key="Identity.SignOut.Question2">ログアウトしてもよろしいですか？</system:String>
-	<system:String x:Key="Subscription.Switched">{0}に切り替えました</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">あなたの現在のセッションはあなたの他のセッション{0}から戻るように要求されました。 すべてのドライブが再接続されます。 ファイルを保存するか、アプリケーションを閉じてください。</system:String>
-	<system:String x:Key="Subscription.Switched.Desc2">{0}の後に適用されます。すぐにOKボタンを押してください。</system:String>
-
-	<!--  from version 1.8.0  -->
-	<system:String x:Key="Words.Public">公開</system:String>
-	<system:String x:Key="Words.Private">プライベート</system:String>
-	<system:String x:Key="Words.Site">サイト</system:String>
-
-	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">プロジェクト</system:String>
-	<system:String x:Key="Words.Bucket">バケット</system:String>
-	<system:String x:Key="Words.Tenant">テナント</system:String>
-	<system:String x:Key="Words.Subscription">サブスクリプション</system:String>
-	<system:String x:Key="Words.Community">コミュニティ</system:String>
-	<system:String x:Key="Words.Document">ドキュメント</system:String>
-
-	<system:String x:Key="Words.Cache">キャッシュ</system:String>
-	<system:String x:Key="Words.Lifetime">有効期限</system:String>
-	<system:String x:Key="Words.Read">読み込み</system:String>
-	<system:String x:Key="Words.Write">書き込み</system:String>
-	<system:String x:Key="Words.Second">秒</system:String>
-
-	<system:String x:Key="Account.AccessKeyID">アクセスキーID</system:String>
-	<system:String x:Key="Account.SecretAccessKey">シークレットアクセスキー</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">アクセスキーIDを入力</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">シークレットアクセスキーを入力</system:String>
-
-	<system:String x:Key="Account.StorageAccount">ストレージアカウント</system:String>
-	<system:String x:Key="Account.StorageKey">キー</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">ストレージアカウント名を入力</system:String>
-	<system:String x:Key="Vailidation.StorageKey">key1またはkey2を入力</system:String>
-
-	<system:String x:Key="Settings.RegisterToStartup">スタートアップへ登録</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">プログラムの起動時に再接続</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">再起動時に再接続</system:String>
-	<system:String x:Key="AddDrive.MountAtSignIn">プログラムの起動時にドライブをマウント</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">ドライブをマウントする度にログイン</system:String>
-
-	<!--  from 2020.2.2  -->
-	<system:String x:Key="Message.MountPointFolder.Condition">マウントポイントのフォルダーパスは、ベーシックまたはダイナミックNTFSボリュームの空のフォルダーでのみ使用できます。</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">フォルダを割り当てるには、ローカルディスク公開オプションが必要です</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrl">フォルダーURL</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrlID">フォルダーURLまたはID</system:String>
-
-	<system:String x:Key="GoogleDrive.MyDrive">マイドライブ</system:String>
-	<system:String x:Key="GoogleDrive.SharedWithMe">共有アイテム</system:String>
-	<system:String x:Key="GoogleDrive.Computers">パソコン</system:String>
-	<system:String x:Key="GoogleDrive.SharedLink">共有リンク</system:String>
-
-	<system:String x:Key="OneDrive.Files">ファイル</system:String>
-	<system:String x:Key="OneDrive.Shared">共有</system:String>
-	<system:String x:Key="OneDrive.SharedLink">共有リンク</system:String>
-
-	<!--  from 2020.6  -->
-	<system:String x:Key="Words.Bandwidth">帯域幅</system:String>
-	<system:String x:Key="Words.Download">ダウンロード</system:String>
-	<system:String x:Key="Words.Upload">アップロード</system:String>
-	<system:String x:Key="Words.Capacity">容量</system:String>
-
-	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">エクスプローラー</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">ストレージの変更を非同期で更新する</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">コピー時に &quot;変更日時&quot; を維持するようにする</system:String>
-	<system:String x:Key="FileExplorer.FilesystemWatcher">ファイルへのプロセスアクセスを監視する</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">リモートストレージのクイックコピー/移動/削除</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">ターゲットを上書きする</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">ソースの名前を変更</system:String>
-	<system:String x:Key="Words.Skip">スキップ</system:String>
-	<system:String x:Key="Words.Slow">スロー</system:String>
-	<system:String x:Key="Message.ResponseSlow">応答が遅い場合があります</system:String>
+	<system:String x:Key="Messages.Cache.FolderNotSupport">一時フォルダの指定はローカルディスクドライブのフォルダのみ可能です ネットワークドライブを指定することはできません</system:String>
+	<system:String x:Key="Messages.CheckAddress">アドレスを確認してください</system:String>
+	<system:String x:Key="Messages.CheckPort">ポート番号{0}を確認してください</system:String>
+	<system:String x:Key="Messages.CheckProtocolPort">protocol{0}とポート番号{1}を確認してください</system:String>
+	<system:String x:Key="Messages.CurrentVersion">現在のバージョンは {0} です</system:String>
+	<system:String x:Key="Messages.Delegation.Aborted">権限移譲を中止</system:String>
+	<system:String x:Key="Messages.EnterAccessKeyID">アクセスキーIDを入力</system:String>
+	<system:String x:Key="Messages.EnterIPAddress">ホスト名またはIPアドレスを入力してください</system:String>
+	<system:String x:Key="Messages.EnterPassword">パスワードを入力してください</system:String>
+	<system:String x:Key="Messages.EnterPort">ポート番号を入力してください (1 ~ 65535)</system:String>
+	<system:String x:Key="Messages.EnterSecretAccessKey">シークレットアクセスキーを入力</system:String>
+	<system:String x:Key="Messages.EnterStorageAccount">ストレージアカウント名を入力</system:String>
+	<system:String x:Key="Messages.EnterStorageKey">key1またはkey2を入力</system:String>
+	<system:String x:Key="Messages.EnterURL">URLを入力してください</system:String>
+	<system:String x:Key="Messages.EnterUsername">ユーザーIDを入力してください</system:String>
+	<system:String x:Key="Messages.EnterVolume">トライブ名を入力してください</system:String>
+	<system:String x:Key="Messages.Error.CacheDiskFull">一時保存領域がほとんど残っていません 保存領域を増やす必要があります</system:String>
+	<system:String x:Key="Messages.Error.ConnectInternet">リモートストレージをマウントできません インターネット接続を確認してから再度お試しください</system:String>
+	<system:String x:Key="Messages.Error.DiskLetterExist">ドライブラベルまたはドライブ名を変更する必要があります</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPassword">入力されたパスワードが正しくありません。もう一度やり直してください。</system:String>
+	<system:String x:Key="Messages.Error.MethodNotAllowed">パス{0}が有効なパスであるか確認してください</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveAuth">権限付与または認証に失敗しました 再認証しますか?</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveLimit">ダウンロードの割り当て量を超えています ダウンロード制限は {0} です</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveRemake">リモートストレージの接続方式が変更されました 再ログインする必要があります</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveWantRelogin">権限付与または認証に失敗しました 再認証しますか? (また失敗した場合には該当するドライブを削除してから再度ドライブを作成してください)</system:String>
+	<system:String x:Key="Messages.Error.Unauthorized">認証に失敗しました ユーザーID(パスワード)を確認してください</system:String>
+	<system:String x:Key="Messages.ExistVolume">既に存在しているドライブ名です</system:String>
+	<system:String x:Key="Messages.ExitConfirm">終了の前に全てのドライブのマウントを解除しますか?</system:String>
+	<system:String x:Key="Messages.FileLock.DependsWebDAV">WebDAVサーバーに依存</system:String>
+	<system:String x:Key="Messages.FileLock.NotSupport">サーバーはサポートしていない可能性があります</system:String>
+	<system:String x:Key="Messages.FolderExist">既に含まれているフォルダです</system:String>
+	<system:String x:Key="Messages.HereWeGo">さぁ、ここをクリックして始めましょう</system:String>
+	<system:String x:Key="Messages.InternetDown">インターネット接続がありません インターネット接続を確認してください</system:String>
+	<system:String x:Key="Messages.License.Expired">ライセンスが失効しました 新しいバージョンにアップデートする必要があります OKボタンをクリックするとアップデートを開始します</system:String>
+	<system:String x:Key="Messages.License.NotReady">ライセンスを確認できません</system:String>
+	<system:String x:Key="Messages.Maximum.Drive">現在のバージョンでは最大8のドライブを作成できます</system:String>
+	<system:String x:Key="Messages.MountPointFolder.Condition">マウントポイントのフォルダーパスは、ベーシックまたはダイナミックNTFSボリュームの空のフォルダーでのみ使用できます。</system:String>
+	<system:String x:Key="Messages.MountPointFolder.Mandatory">フォルダを割り当てるには、ローカルディスク公開オプションが必要です</system:String>
+	<system:String x:Key="Messages.NotReadyDriver">デバイスドライバーがインストールされていません RaiDriveを再インストールしてください</system:String>
+	<system:String x:Key="Messages.NotReadyReboot">RaiDrive起動の準備が完了していません 再起動する必要があります</system:String>
+	<system:String x:Key="Messages.NotSupportBrowserDropbox">DropboxはInternet Explorer 10, 11バージョンをサポートしています Internet Explorer 11の使用をお勧めします</system:String>
+	<system:String x:Key="Messages.NotSupportNetworkDrive">RaiDriveはネットワークドライブをサポートしていません</system:String>
+	<system:String x:Key="Messages.NotSupportRaiDrive">RaiDriveでマウントされたドライブをサポートしていません</system:String>
+	<system:String x:Key="Messages.OAuth.InvalidClient">Active Directoryで管理されていないドメイン</system:String>
+	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Active Directoryで管理されていないアカウントです 個人アカウントでログインするか、Active Directoryまたは管理者にお問い合わせください</system:String>
+	<system:String x:Key="Messages.OtherResponseCode.2">パスが見つかりません パス{0}を確認してください</system:String>
+	<system:String x:Key="Messages.ReconnectForChangingSettings">OKボタンをクリックしてください 変更された設定を反映するにはリモートドライブの再マウントが必要です</system:String>
+	<system:String x:Key="Messages.ResponseSlow">応答が遅い場合があります</system:String>
+	<system:String x:Key="Messages.RetryAfter">{0} 秒後に再度確認します</system:String>
+	<system:String x:Key="Messages.SelectLetter">まだ割り当てられていないドライブを選択してください</system:String>
+	<system:String x:Key="Messages.SelectLocalDrive">フォルダを選択してください</system:String>
+	<system:String x:Key="Messages.SelectPrivateKeyPath">秘密鍵ファイルを選択できます</system:String>
+	<system:String x:Key="Messages.SelectedPath">選択パス</system:String>
+	<system:String x:Key="Messages.SeleteTargetFolder">ファイルが保存されるリモートフォルダを選択してください</system:String>
+	<system:String x:Key="Messages.Service.Alive">OKボタンをクリックしてください RaiDriveを再起動します</system:String>
+	<system:String x:Key="Messages.Service.Stoped">RaiDrive Serviceが中止されました</system:String>
+	<system:String x:Key="Messages.SignOut.Question1">サブスクリプション機能が無効になり、すべてのドライブが再接続されます。 ファイルを保存するか、アプリケーションを閉じてください。</system:String>
+	<system:String x:Key="Messages.SignOut.Question2">ログアウトしてもよろしいですか？</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc1">あなたの現在のセッションはあなたの他のセッション{0}から戻るように要求されました。 すべてのドライブが再接続されます。 ファイルを保存するか、アプリケーションを閉じてください。</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc2">{0}の後に適用されます。すぐにOKボタンを押してください。</system:String>
+	<system:String x:Key="Messages.SureDelete">永久的に &quot;{0} ({1})&quot; を削除しますか?</system:String>
+	<system:String x:Key="Messages.UnknownSpace">不明な空き領域</system:String>
+	<system:String x:Key="Messages.Upgrade.New">新しいバージョンにアップデートできます</system:String>
+	<system:String x:Key="Messages.Upgrade.NewVersion">{0}バージョンにアップデートできます</system:String>
+	<system:String x:Key="Messages.Upgrade.Uptodate">最新バージョンです</system:String>
+	<system:String x:Key="Messages.VolumeInvalidChar">ドライブ名に次のような文字は入力できません:</system:String>
+	<system:String x:Key="Messages.VolumeInvalidStr">下段の予約されたドライブ名は入力できません:</system:String>
+	<system:String x:Key="Phrases.AuthAtConnect">ドライブをマウントする度にログイン</system:String>
+	<system:String x:Key="Phrases.Browser.BrowseInPrivate">プライベートブラウジング</system:String>
+	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDriveによってマウント</system:String>
+	<system:String x:Key="Phrases.DeleteDrive">ドライブ削除</system:String>
+	<system:String x:Key="Phrases.DuplicatedPath">重複パス</system:String>
+	<system:String x:Key="Phrases.FileInUse">使用中のファイル: {0}</system:String>
+	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAVファイルロック</system:String>
+	<system:String x:Key="Phrases.FilesystemWatcher">ファイルへのプロセスアクセスを監視する</system:String>
+	<system:String x:Key="Phrases.FolderUrl">フォルダーURL</system:String>
+	<system:String x:Key="Phrases.FolderUrlID">フォルダーURLまたはID</system:String>
+	<system:String x:Key="Phrases.FollowLatest">最新表示</system:String>
+	<system:String x:Key="Phrases.ForBusinessVersion">ビジネスバージョン用</system:String>
+	<system:String x:Key="Phrases.KeepModifiedDate">コピー時に &quot;変更日時&quot; を維持するようにする</system:String>
+	<system:String x:Key="Phrases.MountAtBoot">再起動時に再接続</system:String>
+	<system:String x:Key="Phrases.MountAtSignIn">プログラムの起動時にドライブをマウント</system:String>
+	<system:String x:Key="Phrases.MountAtStart">プログラムの起動時に再接続</system:String>
+	<system:String x:Key="Phrases.MountLocalDisk">ローカルディスクのようにマウントする</system:String>
+	<system:String x:Key="Phrases.OpenRaiDrive">RaiDriveを表示</system:String>
+	<system:String x:Key="Phrases.OverwriteTarget">ターゲットを上書きする</system:String>
+	<system:String x:Key="Phrases.PerformanceExtension">リモートストレージのクイックコピー/移動/削除</system:String>
+	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDriveの再接続</system:String>
+	<system:String x:Key="Phrases.RegisterToStartup">スタートアップへ登録</system:String>
+	<system:String x:Key="Phrases.RenameSource">ソースの名前を変更</system:String>
+	<system:String x:Key="Phrases.RunAtBoot">Windows起動時にRaiDriveを自動的に実行</system:String>
+	<system:String x:Key="Phrases.RunAtConnect">ドライブがマウントされる時にエクスプローラーを起動</system:String>
+	<system:String x:Key="Phrases.SelectFolder">フォルダ選択</system:String>
+	<system:String x:Key="Phrases.Service.ReviveRaiDrive">RaiDriveを再起動</system:String>
+	<system:String x:Key="Phrases.State.Space.Format">空き領域 {0}/{1}  {2}</system:String>
+	<system:String x:Key="Phrases.Subscription.Switched">{0}に切り替えました</system:String>
+	<system:String x:Key="Phrases.UpdateChangeAsync">ストレージの変更を非同期で更新する</system:String>
+	<system:String x:Key="Phrases.UseDriveIcon">接続ドライブにカスタムアイコンを使用する</system:String>
+	<system:String x:Key="Words.AccessKeyID">アクセスキーID</system:String>
+	<system:String x:Key="Words.Account">アカウント</system:String>
+	<system:String x:Key="Words.Add">追加</system:String>
+	<system:String x:Key="Words.Address">アドレス</system:String>
 	<system:String x:Key="Words.AdvancedOptions">高度なオプション</system:String>
-	<system:String x:Key="Words.Properties">プロパティ</system:String>
-
+	<system:String x:Key="Words.All">全て</system:String>
+	<system:String x:Key="Words.Anonymous">Anonymous</system:String>
+	<system:String x:Key="Words.Apply">適用</system:String>
+	<system:String x:Key="Words.AutoStart">自動スタート</system:String>
+	<system:String x:Key="Words.Backup">バックアップ</system:String>
+	<system:String x:Key="Words.BackupNOW">今すぐバックアップ</system:String>
+	<system:String x:Key="Words.Bandwidth">帯域幅</system:String>
+	<system:String x:Key="Words.Brand.Box_com">Box</system:String>
+	<system:String x:Key="Words.Brand.Facebook">Facebook</system:String>
+	<system:String x:Key="Words.Brand.QNAP">QNAP</system:String>
+	<system:String x:Key="Words.Brand.Synology">Synology</system:String>
+	<system:String x:Key="Words.Brand.WD">WD</system:String>
+	<system:String x:Key="Words.Brand.ipTIME">ipTIME</system:String>
+	<system:String x:Key="Words.Browser">ブラウザ</system:String>
+	<system:String x:Key="Words.Bucket">バケット</system:String>
+	<system:String x:Key="Words.Cache">キャッシュ</system:String>
+	<system:String x:Key="Words.Cancel">取り消し</system:String>
+	<system:String x:Key="Words.Capacity">容量</system:String>
+	<system:String x:Key="Words.Charset">文字コード</system:String>
+	<system:String x:Key="Words.Check">確認</system:String>
+	<system:String x:Key="Words.CheckUpdate">アップデートの確認</system:String>
+	<system:String x:Key="Words.ClearLog">ログを削除</system:String>
+	<system:String x:Key="Words.Code">コード</system:String>
+	<system:String x:Key="Words.Community">コミュニティ</system:String>
+	<system:String x:Key="Words.Connect">マウント</system:String>
+	<system:String x:Key="Words.Connected">接続済み</system:String>
+	<system:String x:Key="Words.CountLeft">残り</system:String>
+	<system:String x:Key="Words.Current">現在</system:String>
+	<system:String x:Key="Words.Default">初期設定</system:String>
+	<system:String x:Key="Words.Delete">削除</system:String>
+	<system:String x:Key="Words.Description">説明</system:String>
+	<system:String x:Key="Words.Device">デバイス</system:String>
+	<system:String x:Key="Words.Disconnect">マウント解除</system:String>
+	<system:String x:Key="Words.Disconnected">切断されました</system:String>
+	<system:String x:Key="Words.Document">ドキュメント</system:String>
+	<system:String x:Key="Words.Download">ダウンロード</system:String>
+	<system:String x:Key="Words.Drive">ドライブ</system:String>
+	<system:String x:Key="Words.DriveLetter">ドライブ文字</system:String>
+	<system:String x:Key="Words.Edit">編集</system:String>
+	<system:String x:Key="Words.Encryption">暗号化</system:String>
+	<system:String x:Key="Words.Endpoint">エンドポイント</system:String>
+	<system:String x:Key="Words.Error">エラー</system:String>
+	<system:String x:Key="Words.Etc">その他</system:String>
+	<system:String x:Key="Words.Example.EmailAddress">id@example.com</system:String>
+	<system:String x:Key="Words.Example.HostAddress">host.example.com</system:String>
+	<system:String x:Key="Words.Exit">終了</system:String>
+	<system:String x:Key="Words.Export">エクスポート</system:String>
+	<system:String x:Key="Words.File">ファイル</system:String>
+	<system:String x:Key="Words.FileExplorer">エクスプローラー</system:String>
+	<system:String x:Key="Words.FileLock">ファイルロック</system:String>
+	<system:String x:Key="Words.Folder">フォルダ</system:String>
+	<system:String x:Key="Words.FreeSpace">空き領域</system:String>
+	<system:String x:Key="Words.General">一般</system:String>
+	<system:String x:Key="Words.GoogleDrive.Computers">パソコン</system:String>
+	<system:String x:Key="Words.GoogleDrive.MyDrive">マイドライブ</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedDrives">共有ドライブ</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedLink">共有リンク</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedWithMe">共有アイテム</system:String>
+	<system:String x:Key="Words.Help">ヘルプ</system:String>
+	<system:String x:Key="Words.Hide">隠す</system:String>
+	<system:String x:Key="Words.Import">インポート</system:String>
+	<system:String x:Key="Words.Key">キー</system:String>
+	<system:String x:Key="Words.Language">言語</system:String>
+	<system:String x:Key="Words.License">ライセンス</system:String>
+	<system:String x:Key="Words.Lifetime">有効期限</system:String>
+	<system:String x:Key="Words.Like">いいね</system:String>
+	<system:String x:Key="Words.LocalDisk">ローカルディスク</system:String>
+	<system:String x:Key="Words.Login">ログイン</system:String>
 	<system:String x:Key="Words.MySubscription">サブスクリプション</system:String>
+	<system:String x:Key="Words.NOW">今</system:String>
+	<system:String x:Key="Words.Network">ネットワーク</system:String>
+	<system:String x:Key="Words.NetworkDrive">ネットワークドライブ</system:String>
+	<system:String x:Key="Words.NewDrive">ドライブ追加</system:String>
+	<system:String x:Key="Words.No">いいえ</system:String>
+	<system:String x:Key="Words.Notice">お知らせ</system:String>
+	<system:String x:Key="Words.Ok">Ok</system:String>
+	<system:String x:Key="Words.OneDrive.Files">ファイル</system:String>
+	<system:String x:Key="Words.OneDrive.Shared">共有</system:String>
+	<system:String x:Key="Words.OneDrive.SharedLink">共有リンク</system:String>
+	<system:String x:Key="Words.Password">パスワード</system:String>
+	<system:String x:Key="Words.Path">パス</system:String>
+	<system:String x:Key="Words.Port">ポート番号</system:String>
+	<system:String x:Key="Words.Private">プライベート</system:String>
+	<system:String x:Key="Words.PrivateKey">秘密鍵</system:String>
+	<system:String x:Key="Words.ProcessMonitor">プロセスモニター</system:String>
+	<system:String x:Key="Words.Processed">Processed</system:String>
+	<system:String x:Key="Words.Progress">進行状況</system:String>
+	<system:String x:Key="Words.Project">プロジェクト</system:String>
+	<system:String x:Key="Words.Properties">プロパティ</system:String>
+	<system:String x:Key="Words.Proxy">プロキシ</system:String>
+	<system:String x:Key="Words.Public">公開</system:String>
+	<system:String x:Key="Words.Read">読み込み</system:String>
+	<system:String x:Key="Words.ReadOnly">読み込み専用</system:String>
+	<system:String x:Key="Words.Reading">読み込み中</system:String>
+	<system:String x:Key="Words.Ready">準備</system:String>
+	<system:String x:Key="Words.Reason">原因</system:String>
+	<system:String x:Key="Words.RemoteFolder">リモートフォルダ</system:String>
+	<system:String x:Key="Words.Remove">削除</system:String>
+	<system:String x:Key="Words.Retry">再試行</system:String>
+	<system:String x:Key="Words.Save">保存</system:String>
+	<system:String x:Key="Words.Second">秒</system:String>
+	<system:String x:Key="Words.Seconds">秒</system:String>
+	<system:String x:Key="Words.SecretAccessKey">シークレットアクセスキー</system:String>
+	<system:String x:Key="Words.SecureConnection">Secure接続</system:String>
+	<system:String x:Key="Words.SecureProtocol">Secureプロトコル</system:String>
+	<system:String x:Key="Words.Send.Opinion">意見の投稿</system:String>
+	<system:String x:Key="Words.Settings">設定</system:String>
 	<system:String x:Key="Words.ShareWithOther">他の人と共有</system:String>
 	<system:String x:Key="Words.SharedWithMe">私との共有</system:String>
-	<system:String x:Key="Words.Import">インポート</system:String>
-	<system:String x:Key="Words.Export">エクスポート</system:String>
-	<system:String x:Key="Words.ProcessMonitor">プロセスモニター</system:String>
-
-	<system:String x:Key="Account.Endpoint">エンドポイント</system:String>
-	<system:String x:Key="GoogleDrive.SharedDrives">共有ドライブ</system:String>
-
-	<system:String x:Key="Words.Reading">読み込み中</system:String>
-	<system:String x:Key="Words.Writing">書き込み中</system:String>
-	<system:String x:Key="Words.Hide">隠す</system:String>
-
-	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">タイムアウト</system:String>
-	<system:String x:Key="Words.Seconds">秒</system:String>
-
-	<system:String x:Key="Words.Connected">接続済み</system:String>
-	<system:String x:Key="Words.Disconnected">切断されました</system:String>
-	<system:String x:Key="Message.FileInUse">使用中のファイル: {0}</system:String>
-
-	<!--  from 2022.3  -->
+	<system:String x:Key="Words.SignIn">サインイン</system:String>
+	<system:String x:Key="Words.SignOut">サインアウト</system:String>
+	<system:String x:Key="Words.Site">サイト</system:String>
+	<system:String x:Key="Words.Size">Size</system:String>
+	<system:String x:Key="Words.Skip">スキップ</system:String>
+	<system:String x:Key="Words.Slow">スロー</system:String>
 	<system:String x:Key="Words.Sort">並び替え</system:String>
-	<system:String x:Key="Words.Sort.None">なし</system:String>
 	<system:String x:Key="Words.Sort.Ascending">昇順</system:String>
 	<system:String x:Key="Words.Sort.Descending">降順</system:String>
+	<system:String x:Key="Words.Sort.None">なし</system:String>
+	<system:String x:Key="Words.SourceFolders">ローカルフォルダ</system:String>
+	<system:String x:Key="Words.Space.Used">使用領域</system:String>
+	<system:String x:Key="Words.Start">スタート</system:String>
+	<system:String x:Key="Words.State">ステータス</system:String>
+	<system:String x:Key="Words.Stop">中止</system:String>
+	<system:String x:Key="Words.Storage">ストレージ</system:String>
+	<system:String x:Key="Words.StorageAccount">ストレージアカウント</system:String>
+	<system:String x:Key="Words.Subscription">サブスクリプション</system:String>
+	<system:String x:Key="Words.TemporaryPath">一時フォルダ</system:String>
+	<system:String x:Key="Words.Tenant">テナント</system:String>
+	<system:String x:Key="Words.Time">時刻</system:String>
+	<system:String x:Key="Words.Timeout">タイムアウト</system:String>
+	<system:String x:Key="Words.TransferMode">転送モード</system:String>
+	<system:String x:Key="Words.Update">アップデート</system:String>
+	<system:String x:Key="Words.Upgrade">アップデート</system:String>
+	<system:String x:Key="Words.Upload">アップロード</system:String>
+	<system:String x:Key="Words.Username">ユーザーID</system:String>
 	<system:String x:Key="Words.VolumeLabel">ボリュームラベル</system:String>
-	<system:String x:Key="Words.DriveLetter">ドライブ文字</system:String>
-
-	<system:String x:Key="Message.IncorrectPassword">入力されたパスワードが正しくありません。もう一度やり直してください。</system:String>
-
-	<!--  from 2022.6  -->
-	<system:String x:Key="Words.Browser">ブラウザ</system:String>
-	<system:String x:Key="Browser.BrowseInPrivate">プライベートブラウジング</system:String>
+	<system:String x:Key="Words.WritableDrive">書き込み可能ドライブ</system:String>
+	<system:String x:Key="Words.Write">書き込み</system:String>
+	<system:String x:Key="Words.Writing">書き込み中</system:String>
+	<system:String x:Key="Words.Yes">はい</system:String>
 </ResourceDictionary>

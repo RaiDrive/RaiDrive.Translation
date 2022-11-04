@@ -1,342 +1,254 @@
-﻿<ResourceDictionary
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:local="clr-namespace:RaiDrive.Center.Languages"
-	xmlns:system="clr-namespace:System;assembly=mscorlib">
-
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>RaiDrive</system:String>
 		<system:String>endorphin-pk</system:String>
 	</x:Array>
-	<system:String x:Key="Current.Language">ko</system:String>
+	<system:String x:Key="Language.English">Korean</system:String>
+	<system:String x:Key="Language.Native">한국어</system:String>
+	<system:String x:Key="Language.Tags">ko</system:String>
 
-	<!--  설정, 드라이브 속성(General)  -->
-	<system:String x:Key="Settings">설정</system:String>
-	<system:String x:Key="Settings.Header">설정</system:String>
-	<system:String x:Key="Settings.General">일반</system:String>
-	<system:String x:Key="Settings.Language">언어</system:String>
-	<system:String x:Key="Settings.Update">업데이트</system:String>
-	<system:String x:Key="Settings.Facebook">페이스북</system:String>
-	<system:String x:Key="Settings.Facebook.Like">좋아요</system:String>
-	<system:String x:Key="Settings.TemporaryPath">임시폴더</system:String>
-	<system:String x:Key="Settings.Default">기본</system:String>
-	<system:String x:Key="Settings.License">라이선스</system:String>
-	<system:String x:Key="Settings.Proxy">프록시</system:String>
-
-	<system:String x:Key="Settings.General.RunAtBoot">윈도우즈가 시작 될 때 자동으로 프로그램 실행</system:String>
-	<system:String x:Key="Settings.General.RunAtConnect">드라이브가 연결 될 때 파일 탐색기를 실행</system:String>
-
-	<system:String x:Key="Notice">알림</system:String>
-	<system:String x:Key="AddDrive">추가</system:String>
-	<system:String x:Key="AddDrive.Header">드라이브 추가</system:String>
-	<system:String x:Key="AddDrive.Storage">스토리지</system:String>
-
-	<!--  드라이브 속성  -->
-	<system:String x:Key="AddDrive.Drive">드라이브</system:String>
-
-	<!--  네트워크 드라이브 연결  -->
-	<system:String x:Key="AddDrive.Network">네크워크</system:String>
-	<system:String x:Key="AddDrive.ReadOnly">읽기전용</system:String>
-
-	<system:String x:Key="AddDrive.Account">계정</system:String>
-	<system:String x:Key="AddDrive.Username">사용자</system:String>
-	<system:String x:Key="AddDrive.Password">비밀번호</system:String>
-	<system:String x:Key="AddDrive.Anonymous">익명</system:String>
-	<system:String x:Key="AddDrive.Address">주소</system:String>
-	<system:String x:Key="AddDrive.Port">포트</system:String>
-	<system:String x:Key="AddDrive.Device">장비</system:String>
-	<system:String x:Key="AddDrive.PrivateKey">개인키</system:String>
-	<system:String x:Key="AddDrive.Charset">문자셋</system:String>
-	<system:String x:Key="AddDrive.TransferMode">전송모드</system:String>
-	<system:String x:Key="AddDrive.Encryption">암호화</system:String>
-
-	<system:String x:Key="Vailidation.Volume">드라이브 이름을 입력해 주세요</system:String>
-	<system:String x:Key="Vailidation.VolumeExist">이미 존재하는 이름입니다</system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidChar">드라이브 이름에는 다음 문자를 사용할 수 없습니다:</system:String>
-	<system:String x:Key="Vailidation.VolumeInvalidStr">아래의 예약된 이름을 사용할 수 없습니다:</system:String>
-	<system:String x:Key="Vailidation.Letter">할당 되지 않은 드라이브를 선택해 주세요</system:String>
-	<system:String x:Key="Vailidation.Address">호스트 또는 IP 주소를 입력해 주세요</system:String>
-	<system:String x:Key="Vailidation.Address.WebDAV">URL을 입력해 주세요</system:String>
-	<system:String x:Key="Vailidation.Address.LocalDrive">폴더를 선택해 주세요</system:String>
-	<system:String x:Key="Vailidation.Port">포트 번호를 입력해 주세요 (1 ~ 65535)</system:String>
-	<system:String x:Key="Vailidation.Username">사용자 계정을 입력해 주세요</system:String>
-	<system:String x:Key="Vailidation.Password">비밀번호를 입력해 주세요</system:String>
-
-	<system:String x:Key="Vailidation.Hint.Volume">볼륨 레이블</system:String>
-	<system:String x:Key="Vailidation.Hint.Address">host.example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">폴더</system:String>
-	<system:String x:Key="Vailidation.Hint.Username">사용자</system:String>
-	<system:String x:Key="Vailidation.Hint.Password">비밀번호</system:String>
-	<system:String x:Key="Vailidation.Hint.Port">포트</system:String>
-	<system:String x:Key="Vailidation.Hint.Path">경로</system:String>
-	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">개인키 파일을 선택할 수 있습니다</system:String>
-
-	<system:String x:Key="Button.Yes">예</system:String>
-	<system:String x:Key="Button.No">아니오</system:String>
-	<system:String x:Key="Button.OK">확인</system:String>
-	<system:String x:Key="Button.Apply">적용</system:String>
-	<system:String x:Key="Button.Cancel">취소</system:String>
-	<system:String x:Key="Button.Check">확인</system:String>
-	<system:String x:Key="Button.Edit">편집</system:String>
-	<system:String x:Key="Button.Retry">다시 시도</system:String>
-	<system:String x:Key="Button.ReAuth">다시 로그인</system:String>
-	<system:String x:Key="Button.Login">로그인</system:String>
-	<system:String x:Key="Button.SIGNIN">로그인</system:String>
-
-	<system:String x:Key="ToolTip.Connect">연결</system:String>
-	<system:String x:Key="ToolTip.Disconnect">끊기</system:String>
-	<system:String x:Key="ToolTip.Edit">편집</system:String>
-	<system:String x:Key="ToolTip.Remove">삭제</system:String>
-	<system:String x:Key="ToolTip.NetworkDrive">네트워크 드라이브</system:String>
-	<system:String x:Key="ToolTip.SecureProtocol">보안 프로토콜</system:String>
-	<system:String x:Key="ToolTip.SecureConnection">보안 연결</system:String>
-	<system:String x:Key="ToolTip.Backup">백업</system:String>
-
-	<system:String x:Key="Message.Title.SelectFolder">폴더 선택</system:String>
-	<system:String x:Key="Message.Title.DeleteDrive">드라이브 삭제</system:String>
-
-	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive는 네트워크 드라이브를 지원하지 않습니다.</system:String>
-	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive로 연결된 드라이브를 지원하지 않습니다.</system:String>
-	<system:String x:Key="Message.Exist">이미 포함된 폴더입니다.</system:String>
-	<system:String x:Key="Message.SelectedPath">선택 경로</system:String>
-	<system:String x:Key="Message.DuplicatedPath">중복 경로</system:String>
-
-	<system:String x:Key="Message.SureDelete">영구적으로 &quot;{0} ({1})&quot;를 삭제 하시겠습니까?</system:String>
-	<system:String x:Key="Message.Title.ServiceDown">RaiDrive 다시 시작</system:String>
-	<system:String x:Key="Message.Title.Reconnect">RaiDrive 재연결</system:String>
-	<system:String x:Key="Message.ServiceDown">확인을 눌러주세요. RaiDrive가 다시 시작됩니다.</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">확인 버튼을 눌러주세요. 변경된 설정을 적용하려면 원격 드라이브를 다시 연결해야 합니다.</system:String>
-	<system:String x:Key="Message.NotReady.Reboot">RaiDrive를 시작할 준비가 안되었습니다. 재부팅이 필요합니다.</system:String>
-	<system:String x:Key="Message.NotReady.Driver">디바이스 드라이버가 설치되지 않았습니다. RaiDrive를 다시 설치햐야 합니다.</system:String>
-	<system:String x:Key="Message.NotSupport.Browser.Dropbox">드롭박스는 인터넷 익스플로러 10 이상을 지원합니다. 인터넷 익스플로러 11 설치를 권장합니다.</system:String>
-	<system:String x:Key="Message.Connect.By">RaiDrive에 의해 연결됨</system:String>
-	<system:String x:Key="Message.Maximum.Drive">현재 버전에서는 최대 8개의 드라이브를 만들 수 있습니다.</system:String>
-	<system:String x:Key="Message.License.Expired">라이선스가 종료되었습니다. 새로운 버전을 다운 받아야합니다. 확인 버튼을 누르면 업그레이드가 시작됩니다.</system:String>
-	<system:String x:Key="Message.License.NotReady">라이선스를 확인할 수 없습니다.</system:String>
-	<system:String x:Key="Message.UnknownSpace">알 수 없는 용량</system:String>
-	<system:String x:Key="Message.CurrentVersion">현재 버전은 {0} 입니다.</system:String>
-	<system:String x:Key="Message.Cache.Folder.NotSupport">임시폴더는 로컬 디스크 드라이브의 폴더만 가능합니다. 네트워크 드라이브는 지원하지 않습니다.</system:String>
-
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">권한부여 또는 인증에 실패했습니다. 다시 인증하시겠습니까?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">권한부여 또는 인증에 실패했습니다. 다시 인증하시겠습니까? (만일 계속 실패하면, 드라이브를 삭제하고 다시 만들어보세요.)</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveLimit">다운로드 할당량을 초과했습니다. 다운로드 제한은 {0}의 정책입니다.</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveRemake">원격 스토리지 연결방식이 바뀌었습니다. 다시 로그인해야 합니다.</system:String>
-	<system:String x:Key="Message.ErrorCacheDiskFull">캐시 저장 공간을 거의 사용하였습니다. 저장 공간을 늘리는 것이 좋습니다.</system:String>
-	<system:String x:Key="Message.ErrorInternet">원격 스토리지에 연결할 수 없습니다. 인터넷 연결 확인 후, 다시 시도 해주세요.</system:String>
-	<system:String x:Key="Message.ErrorDiskLetterExist">드라이브 문자 또는 드라이브 이름을 변경해야 합니다.</system:String>
-
-	<system:String x:Key="Message.OAuth.InvalidClient">Active Directory로 관리되지 않는 도메인</system:String>
-	<system:String x:Key="Message.OAuth.InvalidClientDescription">Active Directory로 관리되지 않는 계정입니다. Active Directory 또는 도메인 관리자에게 문의하거나 개인 계정으로 로그인해야 합니다.</system:String>
-
-	<!--  ConnectResponse 메시지  -->
-	<system:String x:Key="WebExceptionStatus.ConnectFailure">연결 주소를 다시 확인해보세요.</system:String>
-	<system:String x:Key="WebExceptionStatus.ConnectionClosed">프로토콜{0}과 포트{1}를 다시 확인해보세요.</system:String>
-	<system:String x:Key="WebExceptionStatus.SendFailure">프로토콜{0}과 포트{1}를 다시 확인해보세요.</system:String>
-	<system:String x:Key="WebExceptionStatus.ReceiveFailure">프로토콜{0}과 포트{1}를 다시 확인해보세요.</system:String>
-
-	<system:String x:Key="HttpStatusCode.MethodNotAllowed">경로{0}가 존재하는지 또는 접근 가능한지 확인해보세요.</system:String>
-	<system:String x:Key="HttpStatusCode.Unauthorized">인증에 실패했습니다. 계정(비밀번호)을 확인해보세요.</system:String>
-
-	<system:String x:Key="SocketError.TimedOut">연결 주소를 다시 확인해보세요.</system:String>
-	<system:String x:Key="SocketError.ConnectionRefused">연결 포트{0}를 다시 확인해보세요.</system:String>
-
-	<system:String x:Key="OtherResponseCode.2">경로를 찾을 수 없습니다. 경로{0}를 확인해보세요.</system:String>
-	<system:String x:Key="OtherResponseCode.3">프로토콜{0}과 포트{1}를 다시 확인해보세요.</system:String>
-	<!--  ConnectResponse 메시지  -->
-
-	<system:String x:Key="Words.Reason">원인</system:String>
-	<system:String x:Key="Words.Delegation.Stop">권한위임 중단</system:String>
-	<system:String x:Key="Words.Drive">드라이브</system:String>
-	<system:String x:Key="Words.FreeSpace">남은공간</system:String>
-	<system:String x:Key="Words.Send.Opinion">의견 보내기</system:String>
-	<system:String x:Key="Words.Code">코드</system:String>
-	<system:String x:Key="Words.Path">경로</system:String>
-	<system:String x:Key="Words.File">파일</system:String>
-	<system:String x:Key="Words.Ready">준비</system:String>
-	<system:String x:Key="Words.Time">시각</system:String>
-	<system:String x:Key="Words.Error">오류</system:String>
-	<system:String x:Key="Words.State">상태</system:String>
-	<system:String x:Key="Words.Size">크기</system:String>
-	<system:String x:Key="Words.Description">설명</system:String>
-
-	<system:String x:Key="Help.Text">도움말</system:String>
-	<system:String x:Key="Help.Add.Drive">자, 시작해볼까요?</system:String>
-	<system:String x:Key="Help.ServiceDown">RaiDrive Service가 중지되었습니다.</system:String>
-	<system:String x:Key="Help.ServiceDown.Press">버튼을 눌러주세요. RaiDrive가 살아납니다.</system:String>
-	<system:String x:Key="Help.InternetDown">인터넷 연결이 끊긴 것 같습니다. 인터넷 연결을 확인해주세요.</system:String>
-	<system:String x:Key="Help.InternetDown.RetryAfter">{0} 초 후에 다시 확인합니다.</system:String>
-	<system:String x:Key="Help.License.ForBusiness">비즈니스 버전용</system:String>
-
-	<system:String x:Key="Upgrade">업그레이드</system:String>
-	<system:String x:Key="Upgrade.Uptodate">최신버전을 사용하고 있습니다.</system:String>
-	<system:String x:Key="Upgrade.NewVersion">{0} 버전으로 업그레이드 할 수 있습니다.</system:String>
-	<system:String x:Key="Upgrade.New">새로운 버전으로 업그레이드 할 수 있습니다.</system:String>
-
-	<system:String x:Key="NotifyIcon.Open">RaiDrive 열기</system:String>
-	<system:String x:Key="NotifyIcon.CheckUpdate">업데이트 확인</system:String>
-	<system:String x:Key="NotifyIcon.Exit">종료</system:String>
-	<system:String x:Key="NotifyIcon.Exit.Message">종료 전에 모든 연결을 해제 하시겠습니까?</system:String>
-
-	<system:String x:Key="State.Space.Format">{1} 중 {0} 사용 가능 {2}</system:String>
-	<system:String x:Key="State.Space.Used">사용중</system:String>
-
-	<system:String x:Key="Brand.Synology">Synology</system:String>
-	<system:String x:Key="Brand.QNAP">QNAP</system:String>
-	<system:String x:Key="Brand.Box_com">Box</system:String>
-	<system:String x:Key="Brand.ipTIME">ipTIME</system:String>
-	<system:String x:Key="Brand.WD">WD</system:String>
-	<system:String x:Key="Brand.etc">기타</system:String>
-
-	<!--  backup  -->
-	<system:String x:Key="Backup">백업</system:String>
-	<system:String x:Key="Backup.Add">추가</system:String>
-	<system:String x:Key="Backup.Delete">삭제</system:String>
-	<system:String x:Key="Backup.Start">시작</system:String>
-	<system:String x:Key="Backup.Stop">중지</system:String>
-	<system:String x:Key="Backup.BackupNOW">지금 백업</system:String>
-	<system:String x:Key="Backup.NOW">지금</system:String>
-	<system:String x:Key="Backup.Save">저장</system:String>
-	<system:String x:Key="Backup.ClearLog">로그삭제</system:String>
-	<system:String x:Key="Backup.DestRootFolder">원격폴더</system:String>
-	<system:String x:Key="Backup.SourceFolders">원본폴더</system:String>
-	<system:String x:Key="Backup.Progress">진행상태</system:String>
-	<system:String x:Key="Backup.AutoStart">자동시작</system:String>
-	<system:String x:Key="Backup.LogTab.Current">현재</system:String>
-	<system:String x:Key="Backup.LogTab.All">전체</system:String>
-	<system:String x:Key="Backup.LogTab.Error">오류</system:String>
-	<system:String x:Key="Backup.LogTab.Ready">준비</system:String>
-	<system:String x:Key="Backup.LogTab.Left">대기</system:String>
-	<system:String x:Key="Backup.LogTab.File">파일</system:String>
-	<system:String x:Key="Backup.LogTab.Folder">폴더</system:String>
-	<system:String x:Key="Backup.LogTab.FollowLatest">최신 보기</system:String>
-	<system:String x:Key="Backup.Count.Left">남음</system:String>
-	<system:String x:Key="Backup.Count.Processed">처리</system:String>
-
-	<system:String x:Key="Message.Backup.BackupTargetFolder">파일이 저장될 원격폴더를 선택하세요</system:String>
-
-	<!--  from version 1.6.0.416  -->
-	<system:String x:Key="Settings.General.UseDriveIcon">연결된 드라이브에 사용자 정의 아이콘 사용</system:String>
-	<system:String x:Key="AddDrive.LocalDisk">로컬 디스크</system:String>
-	<system:String x:Key="AddDrive.FileLock">파일잠금</system:String>
-	<system:String x:Key="AddDrive.WritableDrive">쓰기가능 드라이브</system:String>
-	<system:String x:Key="ToolTip.LocalDisk">로컬 디스크 처럼 마운트</system:String>
-	<system:String x:Key="ToolTip.FileLock">WebDAV 파일잠금</system:String>
-	<system:String x:Key="ToolTip.FileLock2">WebDAV 서버에 종속적</system:String>
-	<system:String x:Key="ToolTip.FileLock3">서버가 지원하지 않을 수 있습니다.</system:String>
-
-	<!--  from version 1.7.0  -->
-	<system:String x:Key="Identity.SignIn">로그인</system:String>
-	<system:String x:Key="Identity.SignOut">로그아웃</system:String>
-	<system:String x:Key="Identity.SignOut.Question1">구독한 기능을 사용할 수 없으며, 모든 드라이브를 다시 연결합니다. 파일을 저장하거나 응용프로그램을 닫으십시오.</system:String>
-	<system:String x:Key="Identity.SignOut.Question2">로그아웃 하시겠습니까?</system:String>
-	<system:String x:Key="Subscription.Switched">{0}으로 전환</system:String>
-	<system:String x:Key="Subscription.Switched.Desc1">현재 세션이 다른 세션{0}에 의해 반환 요청되었습니다. 모든 드라이브가 다시 연결됩니다. 파일을 저장하거나 응용프로그램을 닫으십시오.</system:String>
-	<system:String x:Key="Subscription.Switched.Desc2">{0} 후에 적용됩니다. 확인 버튼을 누르면 즉시 적용됩니다.</system:String>
-
-	<!--  from version 1.8.0  -->
-	<system:String x:Key="Words.Public">공개</system:String>
-	<system:String x:Key="Words.Private">비공개</system:String>
-	<system:String x:Key="Words.Site">사이트</system:String>
-
-	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">프로젝트</system:String>
-	<system:String x:Key="Words.Bucket">버킷</system:String>
-	<system:String x:Key="Words.Tenant">테넌트</system:String>
-	<system:String x:Key="Words.Subscription">구독</system:String>
-	<system:String x:Key="Words.Community">커뮤니티</system:String>
-	<system:String x:Key="Words.Document">설명서</system:String>
-
-	<system:String x:Key="Words.Cache">캐시</system:String>
-	<system:String x:Key="Words.Lifetime">유지시간</system:String>
-	<system:String x:Key="Words.Read">읽기</system:String>
-	<system:String x:Key="Words.Write">쓰기</system:String>
-	<system:String x:Key="Words.Second">초</system:String>
-
-	<system:String x:Key="Account.AccessKeyID">엑세스 키 ID</system:String>
-	<system:String x:Key="Account.SecretAccessKey">비밀 엑세스 키</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">엑세스 키 ID를 입력해 주세요</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">비밀 엑세스 키를 입력해 주세요</system:String>
-
-	<system:String x:Key="Account.StorageAccount">스토리지 계정</system:String>
-	<system:String x:Key="Account.StorageKey">키</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">스토리지 계정 이름을 입력해 주세요</system:String>
-	<system:String x:Key="Vailidation.StorageKey">key1 또는 key2를 입력해 주세요</system:String>
-
-	<system:String x:Key="Settings.RegisterToStartup">시작프로그램에 등록</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">프로그램 시작시에 자동연결</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">부팅시에 자동연결</system:String>
-	<system:String x:Key="AddDrive.MountAtSignIn">로그인시에 자동연결</system:String>
-	<system:String x:Key="AddDrive.AuthAtConnect">연결할 때마다 새로 로그인</system:String>
-
-	<!--  from 2020.2.2  -->
-	<system:String x:Key="Message.MountPointFolder.Condition">탑재 지점 폴더 경로는 NTFS 볼륨의 빈 폴더만 가능합니다.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">폴더에 마운트하려면 반드시 로컬 디스크의 공개 옵션을 활성화해야 합니다</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrl">폴더 URL</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrlID">폴더 URL 또는 ID</system:String>
-
-	<system:String x:Key="GoogleDrive.MyDrive">내 드라이브</system:String>
-	<system:String x:Key="GoogleDrive.SharedWithMe">공유 문서함</system:String>
-	<system:String x:Key="GoogleDrive.Computers">컴퓨터</system:String>
-	<system:String x:Key="GoogleDrive.SharedLink">공유링크</system:String>
-
-	<system:String x:Key="OneDrive.Files">내 파일</system:String>
-	<system:String x:Key="OneDrive.Shared">공유됨</system:String>
-	<system:String x:Key="OneDrive.SharedLink">공유링크</system:String>
-
-	<!--  from 2020.6  -->
-	<system:String x:Key="Words.Bandwidth">대역폭</system:String>
-	<system:String x:Key="Words.Download">다운로드</system:String>
-	<system:String x:Key="Words.Upload">업로드</system:String>
-	<system:String x:Key="Words.Capacity">총량</system:String>
-
-	<!--  from 2020.9  -->
-	<system:String x:Key="Words.FileExplorer">파일 탐색기</system:String>
-	<system:String x:Key="FileExplorer.UpdateChangeAsync">스토리지 변경사항을 비동기적으로 갱신</system:String>
-	<system:String x:Key="FileExplorer.KeepModifiedDate">파일 복사할 때, 수정한 날짜 유지시도</system:String>
-	<system:String x:Key="FileExplorer.FilesystemWatcher">파일에 접근하는 프로세스 관찰</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension">스토리지에서 빠른 복사/이동/삭제</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">덮어쓰기</system:String>
-	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">이름변경</system:String>
-	<system:String x:Key="Words.Skip">건너뛰기</system:String>
-	<system:String x:Key="Words.Slow">느려짐</system:String>
-	<system:String x:Key="Message.ResponseSlow">반응이 느려질 수 있습니다</system:String>
+	<system:String x:Key="Messages.Cache.FolderNotSupport">임시폴더는 로컬 디스크 드라이브의 폴더만 가능합니다. 네트워크 드라이브는 지원하지 않습니다.</system:String>
+	<system:String x:Key="Messages.CheckAddress">연결 주소를 다시 확인해보세요.</system:String>
+	<system:String x:Key="Messages.CheckPort">연결 포트{0}를 다시 확인해보세요.</system:String>
+	<system:String x:Key="Messages.CheckProtocolPort">프로토콜{0}과 포트{1}를 다시 확인해보세요.</system:String>
+	<system:String x:Key="Messages.CurrentVersion">현재 버전은 {0} 입니다.</system:String>
+	<system:String x:Key="Messages.Delegation.Aborted">권한위임 중단</system:String>
+	<system:String x:Key="Messages.EnterAccessKeyID">엑세스 키 ID를 입력해 주세요</system:String>
+	<system:String x:Key="Messages.EnterIPAddress">호스트 또는 IP 주소를 입력해 주세요</system:String>
+	<system:String x:Key="Messages.EnterPassword">비밀번호를 입력해 주세요</system:String>
+	<system:String x:Key="Messages.EnterPort">포트 번호를 입력해 주세요 (1 ~ 65535)</system:String>
+	<system:String x:Key="Messages.EnterSecretAccessKey">비밀 엑세스 키를 입력해 주세요</system:String>
+	<system:String x:Key="Messages.EnterStorageAccount">스토리지 계정 이름을 입력해 주세요</system:String>
+	<system:String x:Key="Messages.EnterStorageKey">key1 또는 key2를 입력해 주세요</system:String>
+	<system:String x:Key="Messages.EnterURL">URL을 입력해 주세요</system:String>
+	<system:String x:Key="Messages.EnterUsername">사용자 계정을 입력해 주세요</system:String>
+	<system:String x:Key="Messages.EnterVolume">드라이브 이름을 입력해 주세요</system:String>
+	<system:String x:Key="Messages.Error.CacheDiskFull">캐시 저장 공간을 거의 사용하였습니다. 저장 공간을 늘리는 것이 좋습니다.</system:String>
+	<system:String x:Key="Messages.Error.ConnectInternet">원격 스토리지에 연결할 수 없습니다. 인터넷 연결 확인 후, 다시 시도 해주세요.</system:String>
+	<system:String x:Key="Messages.Error.DiskLetterExist">드라이브 문자 또는 드라이브 이름을 변경해야 합니다.</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPassword">입력한 비밀번호가 잘못되었습니다. 다시 시도하세요.</system:String>
+	<system:String x:Key="Messages.Error.MethodNotAllowed">경로{0}가 존재하는지 또는 접근 가능한지 확인해보세요.</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveAuth">권한부여 또는 인증에 실패했습니다. 다시 인증하시겠습니까?</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveLimit">다운로드 할당량을 초과했습니다. 다운로드 제한은 {0}의 정책입니다.</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveRemake">원격 스토리지 연결방식이 바뀌었습니다. 다시 로그인해야 합니다.</system:String>
+	<system:String x:Key="Messages.Error.RemoteDriveWantRelogin">권한부여 또는 인증에 실패했습니다. 다시 인증하시겠습니까? (만일 계속 실패하면, 드라이브를 삭제하고 다시 만들어보세요.)</system:String>
+	<system:String x:Key="Messages.Error.Unauthorized">인증에 실패했습니다. 계정(비밀번호)을 확인해보세요.</system:String>
+	<system:String x:Key="Messages.ExistVolume">이미 존재하는 이름입니다</system:String>
+	<system:String x:Key="Messages.ExitConfirm">종료 전에 모든 연결을 해제 하시겠습니까?</system:String>
+	<system:String x:Key="Messages.FileLock.DependsWebDAV">WebDAV 서버에 종속적</system:String>
+	<system:String x:Key="Messages.FileLock.NotSupport">서버가 지원하지 않을 수 있습니다.</system:String>
+	<system:String x:Key="Messages.FolderExist">이미 포함된 폴더입니다.</system:String>
+	<system:String x:Key="Messages.HereWeGo">자, 시작해볼까요?</system:String>
+	<system:String x:Key="Messages.InternetDown">인터넷 연결이 끊긴 것 같습니다. 인터넷 연결을 확인해주세요.</system:String>
+	<system:String x:Key="Messages.License.Expired">라이선스가 종료되었습니다. 새로운 버전을 다운 받아야합니다. 확인 버튼을 누르면 업그레이드가 시작됩니다.</system:String>
+	<system:String x:Key="Messages.License.NotReady">라이선스를 확인할 수 없습니다.</system:String>
+	<system:String x:Key="Messages.Maximum.Drive">현재 버전에서는 최대 8개의 드라이브를 만들 수 있습니다.</system:String>
+	<system:String x:Key="Messages.MountPointFolder.Condition">탑재 지점 폴더 경로는 NTFS 볼륨의 빈 폴더만 가능합니다.</system:String>
+	<system:String x:Key="Messages.MountPointFolder.Mandatory">폴더에 마운트하려면 반드시 로컬 디스크의 공개 옵션을 활성화해야 합니다</system:String>
+	<system:String x:Key="Messages.NotReadyDriver">디바이스 드라이버가 설치되지 않았습니다. RaiDrive를 다시 설치햐야 합니다.</system:String>
+	<system:String x:Key="Messages.NotReadyReboot">RaiDrive를 시작할 준비가 안되었습니다. 재부팅이 필요합니다.</system:String>
+	<system:String x:Key="Messages.NotSupportBrowserDropbox">드롭박스는 인터넷 익스플로러 10 이상을 지원합니다. 인터넷 익스플로러 11 설치를 권장합니다.</system:String>
+	<system:String x:Key="Messages.NotSupportNetworkDrive">RaiDrive는 네트워크 드라이브를 지원하지 않습니다.</system:String>
+	<system:String x:Key="Messages.NotSupportRaiDrive">RaiDrive로 연결된 드라이브를 지원하지 않습니다.</system:String>
+	<system:String x:Key="Messages.OAuth.InvalidClient">Active Directory로 관리되지 않는 도메인</system:String>
+	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Active Directory로 관리되지 않는 계정입니다. Active Directory 또는 도메인 관리자에게 문의하거나 개인 계정으로 로그인해야 합니다.</system:String>
+	<system:String x:Key="Messages.OtherResponseCode.2">경로를 찾을 수 없습니다. 경로{0}를 확인해보세요.</system:String>
+	<system:String x:Key="Messages.ReconnectForChangingSettings">확인 버튼을 눌러주세요. 변경된 설정을 적용하려면 원격 드라이브를 다시 연결해야 합니다.</system:String>
+	<system:String x:Key="Messages.ResponseSlow">반응이 느려질 수 있습니다</system:String>
+	<system:String x:Key="Messages.RetryAfter">{0} 초 후에 다시 확인합니다.</system:String>
+	<system:String x:Key="Messages.SelectLetter">할당 되지 않은 드라이브를 선택해 주세요</system:String>
+	<system:String x:Key="Messages.SelectLocalDrive">폴더를 선택해 주세요</system:String>
+	<system:String x:Key="Messages.SelectPrivateKeyPath">개인키 파일을 선택할 수 있습니다</system:String>
+	<system:String x:Key="Messages.SelectedPath">선택 경로</system:String>
+	<system:String x:Key="Messages.SeleteTargetFolder">파일이 저장될 원격폴더를 선택하세요</system:String>
+	<system:String x:Key="Messages.Service.Alive">확인을 눌러주세요. RaiDrive가 다시 시작됩니다.</system:String>
+	<system:String x:Key="Messages.Service.Stoped">RaiDrive Service가 중지되었습니다.</system:String>
+	<system:String x:Key="Messages.SignOut.Question1">구독한 기능을 사용할 수 없으며, 모든 드라이브를 다시 연결합니다. 파일을 저장하거나 응용프로그램을 닫으십시오.</system:String>
+	<system:String x:Key="Messages.SignOut.Question2">로그아웃 하시겠습니까?</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc1">현재 세션이 다른 세션{0}에 의해 반환 요청되었습니다. 모든 드라이브가 다시 연결됩니다. 파일을 저장하거나 응용프로그램을 닫으십시오.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc2">{0} 후에 적용됩니다. 확인 버튼을 누르면 즉시 적용됩니다.</system:String>
+	<system:String x:Key="Messages.SureDelete">영구적으로 &quot;{0} ({1})&quot;를 삭제 하시겠습니까?</system:String>
+	<system:String x:Key="Messages.UnknownSpace">알 수 없는 용량</system:String>
+	<system:String x:Key="Messages.Upgrade.New">새로운 버전으로 업그레이드 할 수 있습니다.</system:String>
+	<system:String x:Key="Messages.Upgrade.NewVersion">{0} 버전으로 업그레이드 할 수 있습니다.</system:String>
+	<system:String x:Key="Messages.Upgrade.Uptodate">최신버전을 사용하고 있습니다.</system:String>
+	<system:String x:Key="Messages.VolumeInvalidChar">드라이브 이름에는 다음 문자를 사용할 수 없습니다:</system:String>
+	<system:String x:Key="Messages.VolumeInvalidStr">아래의 예약된 이름을 사용할 수 없습니다:</system:String>
+	<system:String x:Key="Phrases.AuthAtConnect">연결할 때마다 새로 로그인</system:String>
+	<system:String x:Key="Phrases.Browser.BrowseInPrivate">시크릿 브라우징</system:String>
+	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDrive에 의해 연결됨</system:String>
+	<system:String x:Key="Phrases.DeleteDrive">드라이브 삭제</system:String>
+	<system:String x:Key="Phrases.DuplicatedPath">중복 경로</system:String>
+	<system:String x:Key="Phrases.FileInUse">사용중인 파일: {0}</system:String>
+	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV 파일잠금</system:String>
+	<system:String x:Key="Phrases.FilesystemWatcher">파일에 접근하는 프로세스 관찰</system:String>
+	<system:String x:Key="Phrases.FolderUrl">폴더 URL</system:String>
+	<system:String x:Key="Phrases.FolderUrlID">폴더 URL 또는 ID</system:String>
+	<system:String x:Key="Phrases.FollowLatest">최신 보기</system:String>
+	<system:String x:Key="Phrases.ForBusinessVersion">비즈니스 버전용</system:String>
+	<system:String x:Key="Phrases.KeepModifiedDate">파일 복사할 때, 수정한 날짜 유지시도</system:String>
+	<system:String x:Key="Phrases.MountAtBoot">부팅시에 자동연결</system:String>
+	<system:String x:Key="Phrases.MountAtSignIn">로그인시에 자동연결</system:String>
+	<system:String x:Key="Phrases.MountAtStart">프로그램 시작시에 자동연결</system:String>
+	<system:String x:Key="Phrases.MountLocalDisk">로컬 디스크 처럼 마운트</system:String>
+	<system:String x:Key="Phrases.OpenRaiDrive">RaiDrive 열기</system:String>
+	<system:String x:Key="Phrases.OverwriteTarget">덮어쓰기</system:String>
+	<system:String x:Key="Phrases.PerformanceExtension">스토리지에서 빠른 복사/이동/삭제</system:String>
+	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive 재연결</system:String>
+	<system:String x:Key="Phrases.RegisterToStartup">시작프로그램에 등록</system:String>
+	<system:String x:Key="Phrases.RenameSource">이름변경</system:String>
+	<system:String x:Key="Phrases.RunAtBoot">윈도우즈가 시작 될 때 자동으로 프로그램 실행</system:String>
+	<system:String x:Key="Phrases.RunAtConnect">드라이브가 연결 될 때 파일 탐색기를 실행</system:String>
+	<system:String x:Key="Phrases.SelectFolder">폴더 선택</system:String>
+	<system:String x:Key="Phrases.Service.ReviveRaiDrive">RaiDrive 다시 시작</system:String>
+	<system:String x:Key="Phrases.State.Space.Format">{1} 중 {0} 사용 가능 {2}</system:String>
+	<system:String x:Key="Phrases.Subscription.Switched">{0}으로 전환</system:String>
+	<system:String x:Key="Phrases.UpdateChangeAsync">스토리지 변경사항을 비동기적으로 갱신</system:String>
+	<system:String x:Key="Phrases.UseDriveIcon">연결된 드라이브에 사용자 정의 아이콘 사용</system:String>
+	<system:String x:Key="Words.AccessKeyID">엑세스 키 ID</system:String>
+	<system:String x:Key="Words.Account">계정</system:String>
+	<system:String x:Key="Words.Add">추가</system:String>
+	<system:String x:Key="Words.Address">주소</system:String>
 	<system:String x:Key="Words.AdvancedOptions">고급 옵션</system:String>
-	<system:String x:Key="Words.Properties">속성</system:String>
-
+	<system:String x:Key="Words.All">전체</system:String>
+	<system:String x:Key="Words.Anonymous">익명</system:String>
+	<system:String x:Key="Words.Apply">적용</system:String>
+	<system:String x:Key="Words.AutoStart">자동시작</system:String>
+	<system:String x:Key="Words.Backup">백업</system:String>
+	<system:String x:Key="Words.BackupNOW">지금 백업</system:String>
+	<system:String x:Key="Words.Bandwidth">대역폭</system:String>
+	<system:String x:Key="Words.Brand.Box_com">Box</system:String>
+	<system:String x:Key="Words.Brand.Facebook">페이스북</system:String>
+	<system:String x:Key="Words.Brand.QNAP">QNAP</system:String>
+	<system:String x:Key="Words.Brand.Synology">Synology</system:String>
+	<system:String x:Key="Words.Brand.WD">WD</system:String>
+	<system:String x:Key="Words.Brand.ipTIME">ipTIME</system:String>
+	<system:String x:Key="Words.Browser">브라우저</system:String>
+	<system:String x:Key="Words.Bucket">버킷</system:String>
+	<system:String x:Key="Words.Cache">캐시</system:String>
+	<system:String x:Key="Words.Cancel">취소</system:String>
+	<system:String x:Key="Words.Capacity">총량</system:String>
+	<system:String x:Key="Words.Charset">문자셋</system:String>
+	<system:String x:Key="Words.Check">확인</system:String>
+	<system:String x:Key="Words.CheckUpdate">업데이트 확인</system:String>
+	<system:String x:Key="Words.ClearLog">로그삭제</system:String>
+	<system:String x:Key="Words.Code">코드</system:String>
+	<system:String x:Key="Words.Community">커뮤니티</system:String>
+	<system:String x:Key="Words.Connect">연결</system:String>
+	<system:String x:Key="Words.Connected">연결됨</system:String>
+	<system:String x:Key="Words.CountLeft">남음</system:String>
+	<system:String x:Key="Words.Current">현재</system:String>
+	<system:String x:Key="Words.Default">기본</system:String>
+	<system:String x:Key="Words.Delete">삭제</system:String>
+	<system:String x:Key="Words.Description">설명</system:String>
+	<system:String x:Key="Words.Device">장비</system:String>
+	<system:String x:Key="Words.Disconnect">끊기</system:String>
+	<system:String x:Key="Words.Disconnected">끊김</system:String>
+	<system:String x:Key="Words.Document">설명서</system:String>
+	<system:String x:Key="Words.Download">다운로드</system:String>
+	<system:String x:Key="Words.Drive">드라이브</system:String>
+	<system:String x:Key="Words.DriveLetter">드라이브 문자</system:String>
+	<system:String x:Key="Words.Edit">편집</system:String>
+	<system:String x:Key="Words.Encryption">암호화</system:String>
+	<system:String x:Key="Words.Endpoint">엔드포인트</system:String>
+	<system:String x:Key="Words.Error">오류</system:String>
+	<system:String x:Key="Words.Etc">기타</system:String>
+	<system:String x:Key="Words.Example.EmailAddress">id@example.com</system:String>
+	<system:String x:Key="Words.Example.HostAddress">host.example.com</system:String>
+	<system:String x:Key="Words.Exit">종료</system:String>
+	<system:String x:Key="Words.Export">내보내기</system:String>
+	<system:String x:Key="Words.File">파일</system:String>
+	<system:String x:Key="Words.FileExplorer">파일 탐색기</system:String>
+	<system:String x:Key="Words.FileLock">파일잠금</system:String>
+	<system:String x:Key="Words.Folder">폴더</system:String>
+	<system:String x:Key="Words.FreeSpace">남은공간</system:String>
+	<system:String x:Key="Words.General">일반</system:String>
+	<system:String x:Key="Words.GoogleDrive.Computers">컴퓨터</system:String>
+	<system:String x:Key="Words.GoogleDrive.MyDrive">내 드라이브</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedDrives">공유 드라이브</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedLink">공유링크</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedWithMe">공유 문서함</system:String>
+	<system:String x:Key="Words.Help">도움말</system:String>
+	<system:String x:Key="Words.Hide">숨기기</system:String>
+	<system:String x:Key="Words.Import">가져오기</system:String>
+	<system:String x:Key="Words.Key">키</system:String>
+	<system:String x:Key="Words.Language">언어</system:String>
+	<system:String x:Key="Words.License">라이선스</system:String>
+	<system:String x:Key="Words.Lifetime">유지시간</system:String>
+	<system:String x:Key="Words.Like">좋아요</system:String>
+	<system:String x:Key="Words.LocalDisk">로컬 디스크</system:String>
+	<system:String x:Key="Words.Login">로그인</system:String>
 	<system:String x:Key="Words.MySubscription">나의 구독</system:String>
+	<system:String x:Key="Words.NOW">지금</system:String>
+	<system:String x:Key="Words.Network">네크워크</system:String>
+	<system:String x:Key="Words.NetworkDrive">네트워크 드라이브</system:String>
+	<system:String x:Key="Words.NewDrive">드라이브 추가</system:String>
+	<system:String x:Key="Words.No">아니오</system:String>
+	<system:String x:Key="Words.Notice">알림</system:String>
+	<system:String x:Key="Words.Ok">확인</system:String>
+	<system:String x:Key="Words.OneDrive.Files">내 파일</system:String>
+	<system:String x:Key="Words.OneDrive.Shared">공유됨</system:String>
+	<system:String x:Key="Words.OneDrive.SharedLink">공유링크</system:String>
+	<system:String x:Key="Words.Password">비밀번호</system:String>
+	<system:String x:Key="Words.Path">경로</system:String>
+	<system:String x:Key="Words.Port">포트</system:String>
+	<system:String x:Key="Words.Private">비공개</system:String>
+	<system:String x:Key="Words.PrivateKey">개인키</system:String>
+	<system:String x:Key="Words.ProcessMonitor">프로세스 모니터</system:String>
+	<system:String x:Key="Words.Processed">처리</system:String>
+	<system:String x:Key="Words.Progress">진행상태</system:String>
+	<system:String x:Key="Words.Project">프로젝트</system:String>
+	<system:String x:Key="Words.Properties">속성</system:String>
+	<system:String x:Key="Words.Proxy">프록시</system:String>
+	<system:String x:Key="Words.Public">공개</system:String>
+	<system:String x:Key="Words.Read">읽기</system:String>
+	<system:String x:Key="Words.ReadOnly">읽기전용</system:String>
+	<system:String x:Key="Words.Reading">읽는중</system:String>
+	<system:String x:Key="Words.Ready">준비</system:String>
+	<system:String x:Key="Words.Reason">원인</system:String>
+	<system:String x:Key="Words.RemoteFolder">원격폴더</system:String>
+	<system:String x:Key="Words.Remove">삭제</system:String>
+	<system:String x:Key="Words.Retry">다시 시도</system:String>
+	<system:String x:Key="Words.Save">저장</system:String>
+	<system:String x:Key="Words.Second">초</system:String>
+	<system:String x:Key="Words.Seconds">초</system:String>
+	<system:String x:Key="Words.SecretAccessKey">비밀 엑세스 키</system:String>
+	<system:String x:Key="Words.SecureConnection">보안 연결</system:String>
+	<system:String x:Key="Words.SecureProtocol">보안 프로토콜</system:String>
+	<system:String x:Key="Words.Send.Opinion">의견 보내기</system:String>
+	<system:String x:Key="Words.Settings">설정</system:String>
 	<system:String x:Key="Words.ShareWithOther">구독 공유</system:String>
 	<system:String x:Key="Words.SharedWithMe">공유된 구독</system:String>
-	<system:String x:Key="Words.Import">가져오기</system:String>
-	<system:String x:Key="Words.Export">내보내기</system:String>
-	<system:String x:Key="Words.ProcessMonitor">프로세스 모니터</system:String>
-
-	<system:String x:Key="Account.Endpoint">엔드포인트</system:String>
-	<system:String x:Key="GoogleDrive.SharedDrives">공유 드라이브</system:String>
-
-	<system:String x:Key="Words.Reading">읽는중</system:String>
-	<system:String x:Key="Words.Writing">쓰는중</system:String>
-	<system:String x:Key="Words.Hide">숨기기</system:String>
-
-	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">타임아웃</system:String>
-	<system:String x:Key="Words.Seconds">초</system:String>
-
-	<system:String x:Key="Words.Connected">연결됨</system:String>
-	<system:String x:Key="Words.Disconnected">끊김</system:String>
-	<system:String x:Key="Message.FileInUse">사용중인 파일: {0}</system:String>
-
-	<!--  from 2022.3  -->
+	<system:String x:Key="Words.SignIn">로그인</system:String>
+	<system:String x:Key="Words.SignOut">로그아웃</system:String>
+	<system:String x:Key="Words.Site">사이트</system:String>
+	<system:String x:Key="Words.Size">크기</system:String>
+	<system:String x:Key="Words.Skip">건너뛰기</system:String>
+	<system:String x:Key="Words.Slow">느려짐</system:String>
 	<system:String x:Key="Words.Sort">정렬</system:String>
-	<system:String x:Key="Words.Sort.None">안함</system:String>
 	<system:String x:Key="Words.Sort.Ascending">오름차순</system:String>
 	<system:String x:Key="Words.Sort.Descending">내림차순</system:String>
-	<system:String x:Key="Words.VolumeLabel">볼륨 라벨</system:String>
-	<system:String x:Key="Words.DriveLetter">드라이브 문자</system:String>
-
-	<system:String x:Key="Message.IncorrectPassword">입력한 비밀번호가 잘못되었습니다. 다시 시도하세요.</system:String>
-
-	<!--  from 2022.6  -->
-	<system:String x:Key="Words.Browser">브라우저</system:String>
-	<system:String x:Key="Browser.BrowseInPrivate">시크릿 브라우징</system:String>
+	<system:String x:Key="Words.Sort.None">안함</system:String>
+	<system:String x:Key="Words.SourceFolders">원본폴더</system:String>
+	<system:String x:Key="Words.Space.Used">사용중</system:String>
+	<system:String x:Key="Words.Start">시작</system:String>
+	<system:String x:Key="Words.State">상태</system:String>
+	<system:String x:Key="Words.Stop">중지</system:String>
+	<system:String x:Key="Words.Storage">스토리지</system:String>
+	<system:String x:Key="Words.StorageAccount">스토리지 계정</system:String>
+	<system:String x:Key="Words.Subscription">구독</system:String>
+	<system:String x:Key="Words.TemporaryPath">임시폴더</system:String>
+	<system:String x:Key="Words.Tenant">테넌트</system:String>
+	<system:String x:Key="Words.Time">시각</system:String>
+	<system:String x:Key="Words.Timeout">타임아웃</system:String>
+	<system:String x:Key="Words.TransferMode">전송모드</system:String>
+	<system:String x:Key="Words.Update">업데이트</system:String>
+	<system:String x:Key="Words.Upgrade">업그레이드</system:String>
+	<system:String x:Key="Words.Upload">업로드</system:String>
+	<system:String x:Key="Words.Username">사용자</system:String>
+	<system:String x:Key="Words.VolumeLabel">볼륨 레이블</system:String>
+	<system:String x:Key="Words.WritableDrive">쓰기가능 드라이브</system:String>
+	<system:String x:Key="Words.Write">쓰기</system:String>
+	<system:String x:Key="Words.Writing">쓰는중</system:String>
+	<system:String x:Key="Words.Yes">예</system:String>
 </ResourceDictionary>
