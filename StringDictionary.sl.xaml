@@ -3,7 +3,7 @@
 		<system:String>RaiDrive</system:String>
 	</x:Array>
 	<system:String x:Key="Language.English">Slovenian</system:String>
-	<system:String x:Key="Language.Native">Slovenian</system:String>
+	<system:String x:Key="Language.Native">Slovenščina</system:String>
 	<system:String x:Key="Language.Tags">sl</system:String>
 
 	<system:String x:Key="Messages.Cache.FolderNotSupport">The temporary folder must be a folder on the local disk drive. Network drive is not supported.</system:String>
