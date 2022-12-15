@@ -148,7 +148,7 @@
 	<system:String x:Key="Words.Document">Tài liệu</system:String>
 	<system:String x:Key="Words.Download">Tải xuống</system:String>
 	<system:String x:Key="Words.Drive">Phân vùng</system:String>
-	<system:String x:Key="Words.DriveLetter">Kí tự</system:String>
+	<system:String x:Key="Words.DriveLetter">Kí tự đĩa</system:String>
 	<system:String x:Key="Words.Edit">Sửa</system:String>
 	<system:String x:Key="Words.Encryption">Mã hoá</system:String>
 	<system:String x:Key="Words.Endpoint">Điểm cuối giao tiếp</system:String>
@@ -158,7 +158,7 @@
 	<system:String x:Key="Words.Example.HostAddress">host.example.com</system:String>
 	<system:String x:Key="Words.Exit">Thoát</system:String>
 	<system:String x:Key="Words.Export">Xuất</system:String>
-	<system:String x:Key="Words.File">File</system:String>
+	<system:String x:Key="Words.File">Tệp</system:String>
 	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
 	<system:String x:Key="Words.FileLock">Khóa tệp</system:String>
 	<system:String x:Key="Words.Folder">Thư mục</system:String>
@@ -169,14 +169,14 @@
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">Ổ đĩa chia sẻ</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedLink">Liên kết đã chia sẻ</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedWithMe">Được chia sẻ với tôi</system:String>
-	<system:String x:Key="Words.Help">CỨU</system:String>
+	<system:String x:Key="Words.Help">Hỗ trợ</system:String>
 	<system:String x:Key="Words.Hide">Ẩn</system:String>
 	<system:String x:Key="Words.Import">Nhập</system:String>
 	<system:String x:Key="Words.Key">Key</system:String>
 	<system:String x:Key="Words.Language">Ngôn ngữ</system:String>
 	<system:String x:Key="Words.License">Giấy phép</system:String>
 	<system:String x:Key="Words.Lifetime">Vĩnh viễn</system:String>
-	<system:String x:Key="Words.Like">Like</system:String>
+	<system:String x:Key="Words.Like">Thích</system:String>
 	<system:String x:Key="Words.LocalDisk">Đĩa cục bộ</system:String>
 	<system:String x:Key="Words.Login">Đăng nhập</system:String>
 	<system:String x:Key="Words.MySubscription">Đăng ký của tôi</system:String>
@@ -196,7 +196,7 @@
 	<system:String x:Key="Words.Private">Riêng tư</system:String>
 	<system:String x:Key="Words.PrivateKey">Private Key</system:String>
 	<system:String x:Key="Words.ProcessMonitor">Giám sát quá trình</system:String>
-	<system:String x:Key="Words.Processed">Processed</system:String>
+	<system:String x:Key="Words.Processed">Đã xử lý</system:String>
 	<system:String x:Key="Words.Progress">Tiến trình</system:String>
 	<system:String x:Key="Words.Project">Dự án</system:String>
 	<system:String x:Key="Words.Properties">Tính chất</system:String>
@@ -230,7 +230,7 @@
 	<system:String x:Key="Words.Sort.Ascending">Tăng dần</system:String>
 	<system:String x:Key="Words.Sort.Descending">Giảm dần</system:String>
 	<system:String x:Key="Words.Sort.None">Không</system:String>
-	<system:String x:Key="Words.SourceFolders">Source Folder</system:String>
+	<system:String x:Key="Words.SourceFolders">Thư mục nguồn</system:String>
 	<system:String x:Key="Words.Space.Used">đã dùng</system:String>
 	<system:String x:Key="Words.Start">Bắt đầu</system:String>
 	<system:String x:Key="Words.State">State</system:String>
