@@ -1,4 +1,4 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>yuk7</system:String>
 		<system:String>wizard872</system:String>
@@ -15,13 +15,17 @@
 	<system:String x:Key="Messages.CurrentVersion">現在のバージョンは {0} です</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">権限移譲を中止</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">アクセスキーIDを入力</system:String>
+	<system:String x:Key="Messages.EnterAccountID">アカウントIDを入力してください</system:String>
+	<system:String x:Key="Messages.EnterBucketName">バケット名を入力してください</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">ホスト名またはIPアドレスを入力してください</system:String>
 	<system:String x:Key="Messages.EnterPassword">パスワードを入力してください</system:String>
 	<system:String x:Key="Messages.EnterPort">ポート番号を入力してください (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">シークレットアクセスキーを入力</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">ストレージアカウント名を入力</system:String>
 	<system:String x:Key="Messages.EnterStorageKey">key1またはkey2を入力</system:String>
+	<system:String x:Key="Messages.EnterTenantID">テナントIDを入力してください</system:String>
 	<system:String x:Key="Messages.EnterURL">URLを入力してください</system:String>
+	<system:String x:Key="Messages.EnterURLStarting">https または http で始まる URL を入力してください</system:String>
 	<system:String x:Key="Messages.EnterUsername">ユーザーIDを入力してください</system:String>
 	<system:String x:Key="Messages.EnterVolume">トライブ名を入力してください</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">一時保存領域がほとんど残っていません 保存領域を増やす必要があります</system:String>
@@ -68,7 +72,7 @@
 	<system:String x:Key="Messages.SignOut.Question2">ログアウトしてもよろしいですか？</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">あなたの現在のセッションはあなたの他のセッション{0}から戻るように要求されました。 すべてのドライブが再接続されます。 ファイルを保存するか、アプリケーションを閉じてください。</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">{0}の後に適用されます。すぐにOKボタンを押してください。</system:String>
-	<system:String x:Key="Messages.SureDelete">永久的に &quot;{0} ({1})&quot; を削除しますか?</system:String>
+	<system:String x:Key="Messages.SureDelete">永久的に "{0} ({1})" を削除しますか?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">不明な空き領域</system:String>
 	<system:String x:Key="Messages.Upgrade.New">新しいバージョンにアップデートできます</system:String>
 	<system:String x:Key="Messages.Upgrade.NewVersion">{0}バージョンにアップデートできます</system:String>
@@ -82,16 +86,18 @@
 	<system:String x:Key="Phrases.DuplicatedPath">重複パス</system:String>
 	<system:String x:Key="Phrases.FileInUse">使用中のファイル: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAVファイルロック</system:String>
+	<system:String x:Key="Phrases.FilePreview">ファイルのプレビュー</system:String>
 	<system:String x:Key="Phrases.FilesystemWatcher">ファイルへのプロセスアクセスを監視する</system:String>
 	<system:String x:Key="Phrases.FolderUrl">フォルダーURL</system:String>
 	<system:String x:Key="Phrases.FolderUrlID">フォルダーURLまたはID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">最新表示</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">ビジネスバージョン用</system:String>
-	<system:String x:Key="Phrases.KeepModifiedDate">コピー時に &quot;変更日時&quot; を維持するようにする</system:String>
+	<system:String x:Key="Phrases.KeepModifiedDate">コピー時に "変更日時" を維持するようにする</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">再起動時に再接続</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">プログラムの起動時にドライブをマウント</system:String>
 	<system:String x:Key="Phrases.MountAtStart">プログラムの起動時に再接続</system:String>
 	<system:String x:Key="Phrases.MountLocalDisk">ローカルディスクのようにマウントする</system:String>
+	<system:String x:Key="Phrases.OfflineMode">オフラインモード</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDriveを表示</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">ターゲットを上書きする</system:String>
 	<system:String x:Key="Phrases.PerformanceExtension">リモートストレージのクイックコピー/移動/削除</system:String>
@@ -108,11 +114,12 @@
 	<system:String x:Key="Phrases.UseDriveIcon">接続ドライブにカスタムアイコンを使用する</system:String>
 	<system:String x:Key="Words.AccessKeyID">アクセスキーID</system:String>
 	<system:String x:Key="Words.Account">アカウント</system:String>
+	<system:String x:Key="Words.AccountId">アカウントID</system:String>
 	<system:String x:Key="Words.Add">追加</system:String>
 	<system:String x:Key="Words.Address">アドレス</system:String>
 	<system:String x:Key="Words.AdvancedOptions">高度なオプション</system:String>
 	<system:String x:Key="Words.All">全て</system:String>
-	<system:String x:Key="Words.Anonymous">Anonymous</system:String>
+	<system:String x:Key="Words.Anonymous">匿名</system:String>
 	<system:String x:Key="Words.Apply">適用</system:String>
 	<system:String x:Key="Words.AutoStart">自動スタート</system:String>
 	<system:String x:Key="Words.Backup">バックアップ</system:String>
@@ -158,6 +165,7 @@
 	<system:String x:Key="Words.Example.HostAddress">host.example.com</system:String>
 	<system:String x:Key="Words.Exit">終了</system:String>
 	<system:String x:Key="Words.Export">エクスポート</system:String>
+	<system:String x:Key="Words.Fast">速い</system:String>
 	<system:String x:Key="Words.File">ファイル</system:String>
 	<system:String x:Key="Words.FileExplorer">エクスプローラー</system:String>
 	<system:String x:Key="Words.FileLock">ファイルロック</system:String>
@@ -196,7 +204,7 @@
 	<system:String x:Key="Words.Private">プライベート</system:String>
 	<system:String x:Key="Words.PrivateKey">秘密鍵</system:String>
 	<system:String x:Key="Words.ProcessMonitor">プロセスモニター</system:String>
-	<system:String x:Key="Words.Processed">Processed</system:String>
+	<system:String x:Key="Words.Processed">処理済み</system:String>
 	<system:String x:Key="Words.Progress">進行状況</system:String>
 	<system:String x:Key="Words.Project">プロジェクト</system:String>
 	<system:String x:Key="Words.Properties">プロパティ</system:String>
@@ -218,12 +226,13 @@
 	<system:String x:Key="Words.SecureProtocol">Secureプロトコル</system:String>
 	<system:String x:Key="Words.Send.Opinion">意見の投稿</system:String>
 	<system:String x:Key="Words.Settings">設定</system:String>
+	<system:String x:Key="Words.Share">共有</system:String>
 	<system:String x:Key="Words.ShareWithOther">他の人と共有</system:String>
 	<system:String x:Key="Words.SharedWithMe">私との共有</system:String>
 	<system:String x:Key="Words.SignIn">サインイン</system:String>
 	<system:String x:Key="Words.SignOut">サインアウト</system:String>
 	<system:String x:Key="Words.Site">サイト</system:String>
-	<system:String x:Key="Words.Size">Size</system:String>
+	<system:String x:Key="Words.Size">サイズ</system:String>
 	<system:String x:Key="Words.Skip">スキップ</system:String>
 	<system:String x:Key="Words.Slow">スロー</system:String>
 	<system:String x:Key="Words.Sort">並び替え</system:String>

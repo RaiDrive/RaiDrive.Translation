@@ -13,13 +13,17 @@
 	<system:String x:Key="Messages.CurrentVersion">Current version is {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegation aborted</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Please enter Access Key ID</system:String>
+	<system:String x:Key="Messages.EnterAccountID">Please enter Account ID</system:String>
+	<system:String x:Key="Messages.EnterBucketName">Please enter a bucket name</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Please enter a hostname or IP address</system:String>
 	<system:String x:Key="Messages.EnterPassword">Please enter a password</system:String>
 	<system:String x:Key="Messages.EnterPort">Please enter a port number (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Please enter Secret Access Key</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">Please enter Storage account name</system:String>
 	<system:String x:Key="Messages.EnterStorageKey">Please enter key1 or key2</system:String>
-	<system:String x:Key="Messages.EnterURL">Please enter a URL</system:String>
+	<system:String x:Key="Messages.EnterTenantID">Please enter Tenant ID</system:String>
+	<system:String x:Key="Messages.EnterURL">Please enter URL</system:String>
+	<system:String x:Key="Messages.EnterURLStarting">Please enter a URL starting https or http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Please enter a username</system:String>
 	<system:String x:Key="Messages.EnterVolume">Please enter a valid volume label</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">The cache storage space is not enough. You'd better to increase storage space.</system:String>
@@ -80,6 +84,7 @@
 	<system:String x:Key="Phrases.DuplicatedPath">Duplicated Path</system:String>
 	<system:String x:Key="Phrases.FileInUse">File(s) In Use: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV File Lock</system:String>
+	<system:String x:Key="Phrases.FilePreview">File preview</system:String>
 	<system:String x:Key="Phrases.FilesystemWatcher">Monitor process access to files</system:String>
 	<system:String x:Key="Phrases.FolderUrl">folder URL</system:String>
 	<system:String x:Key="Phrases.FolderUrlID">folder URL or ID</system:String>
@@ -90,6 +95,7 @@
 	<system:String x:Key="Phrases.MountAtSignIn">Reconnect at sign-in</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Reconnect at program start</system:String>
 	<system:String x:Key="Phrases.MountLocalDisk">Mount like a local disk</system:String>
+	<system:String x:Key="Phrases.OfflineMode">Offline mode</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Open RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Overwrite target</system:String>
 	<system:String x:Key="Phrases.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
@@ -106,6 +112,7 @@
 	<system:String x:Key="Phrases.UseDriveIcon">Use the custom icon on a connected drive</system:String>
 	<system:String x:Key="Words.AccessKeyID">Access Key ID</system:String>
 	<system:String x:Key="Words.Account">Account</system:String>
+	<system:String x:Key="Words.AccountId">Account ID</system:String>
 	<system:String x:Key="Words.Add">Add</system:String>
 	<system:String x:Key="Words.Address">Address</system:String>
 	<system:String x:Key="Words.AdvancedOptions">Advanced Options</system:String>
@@ -156,6 +163,7 @@
 	<system:String x:Key="Words.Example.HostAddress">host.example.com</system:String>
 	<system:String x:Key="Words.Exit">Exit</system:String>
 	<system:String x:Key="Words.Export">Export</system:String>
+	<system:String x:Key="Words.Fast">Fast</system:String>
 	<system:String x:Key="Words.File">File</system:String>
 	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
 	<system:String x:Key="Words.FileLock">File Lock</system:String>
@@ -216,6 +224,7 @@
 	<system:String x:Key="Words.SecureProtocol">Secure Protocol</system:String>
 	<system:String x:Key="Words.Send.Opinion">Send Opinion</system:String>
 	<system:String x:Key="Words.Settings">Settings</system:String>
+	<system:String x:Key="Words.Share">Share</system:String>
 	<system:String x:Key="Words.ShareWithOther">Share with others</system:String>
 	<system:String x:Key="Words.SharedWithMe">Shared with me</system:String>
 	<system:String x:Key="Words.SignIn">Sign In</system:String>

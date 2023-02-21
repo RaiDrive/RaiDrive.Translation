@@ -5,7 +5,7 @@
 		<system:String>kix99aug</system:String>
 	</x:Array>
 	<system:String x:Key="Language.English">Chinese (Traditional)</system:String>
-	<system:String x:Key="Language.Native">中文(繁體)</system:String>
+	<system:String x:Key="Language.Native">中文（繁體）</system:String>
 	<system:String x:Key="Language.Tags">zh-Hant</system:String>
 
 	<system:String x:Key="Messages.Cache.FolderNotSupport">暫存資料夾必須是本機磁碟機上的資料夾。 不支援網路磁碟機。</system:String>
@@ -15,13 +15,17 @@
 	<system:String x:Key="Messages.CurrentVersion">目前版本是 {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">委派已中止</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">請輸入存取金鑰ID</system:String>
+	<system:String x:Key="Messages.EnterAccountID">請輸入賬號</system:String>
+	<system:String x:Key="Messages.EnterBucketName">請輸入存儲桶名稱</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">請輸入主機名稱或 IP 位址</system:String>
 	<system:String x:Key="Messages.EnterPassword">請輸入密碼</system:String>
 	<system:String x:Key="Messages.EnterPort">請輸入連接埠號碼 (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">請輸入私密存取金鑰</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">請輸入儲存體帳戶名稱</system:String>
 	<system:String x:Key="Messages.EnterStorageKey">請輸入 金鑰1 或 金鑰2</system:String>
+	<system:String x:Key="Messages.EnterTenantID">請輸入租戶ID</system:String>
 	<system:String x:Key="Messages.EnterURL">請輸入 WebDAV 網址</system:String>
+	<system:String x:Key="Messages.EnterURLStarting">請輸入以 https 或 http 開頭的網址</system:String>
 	<system:String x:Key="Messages.EnterUsername">請輸入使用者名稱</system:String>
 	<system:String x:Key="Messages.EnterVolume">請輸入有效的磁碟區標籤</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">快取儲存空間不夠。 您最好增加儲存空間。</system:String>
@@ -68,7 +72,7 @@
 	<system:String x:Key="Messages.SignOut.Question2">您確定要登出嗎?</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">您目前的工作階段已被請求由您的其他工作階段 {0} 返回。 所有磁碟機都將重新連線。 請儲存檔案或關閉應用程式。</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">將在 {0} 之後套用, 按下 [確定] 按鈕立即生效。</system:String>
-	<system:String x:Key="Messages.SureDelete">您確定要永久刪除 &quot;{0} ({1})&quot; 嗎?</system:String>
+	<system:String x:Key="Messages.SureDelete">您確定要永久刪除 "{0} ({1})" 嗎?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">未知空間容量</system:String>
 	<system:String x:Key="Messages.Upgrade.New">您可以升級到新版本</system:String>
 	<system:String x:Key="Messages.Upgrade.NewVersion">您可以升級到版本 {0}</system:String>
@@ -82,16 +86,18 @@
 	<system:String x:Key="Phrases.DuplicatedPath">重複的路徑</system:String>
 	<system:String x:Key="Phrases.FileInUse">正在使用的檔案: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV 檔案鎖定</system:String>
+	<system:String x:Key="Phrases.FilePreview">文件預覽</system:String>
 	<system:String x:Key="Phrases.FilesystemWatcher">監視處理程序對檔案的存取</system:String>
 	<system:String x:Key="Phrases.FolderUrl">資料夾網址</system:String>
 	<system:String x:Key="Phrases.FolderUrlID">資料夾網址或ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">保持最新 (Follow Latest)</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">商業版本</system:String>
-	<system:String x:Key="Phrases.KeepModifiedDate">複製時嘗試保留原&quot;修改日期&quot;</system:String>
+	<system:String x:Key="Phrases.KeepModifiedDate">複製時嘗試保留原"修改日期"</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">啟動時重新連線</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">登入時重新連線</system:String>
 	<system:String x:Key="Phrases.MountAtStart">程式執行時重新連線</system:String>
 	<system:String x:Key="Phrases.MountLocalDisk">掛載為本機磁碟</system:String>
+	<system:String x:Key="Phrases.OfflineMode">離線模式</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">開啟 RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">覆寫目的檔案</system:String>
 	<system:String x:Key="Phrases.PerformanceExtension">啟用遠端儲存體快速複製/移動/刪除</system:String>
@@ -108,9 +114,10 @@
 	<system:String x:Key="Phrases.UseDriveIcon">在已連線磁碟機上使用自訂圖示</system:String>
 	<system:String x:Key="Words.AccessKeyID">存取金鑰ID</system:String>
 	<system:String x:Key="Words.Account">帳號</system:String>
+	<system:String x:Key="Words.AccountId">帳戶ID</system:String>
 	<system:String x:Key="Words.Add">加入</system:String>
 	<system:String x:Key="Words.Address">位址</system:String>
-	<system:String x:Key="Words.AdvancedOptions">進階選項</system:String>	
+	<system:String x:Key="Words.AdvancedOptions">進階選項</system:String>
 	<system:String x:Key="Words.All">全部</system:String>
 	<system:String x:Key="Words.Anonymous">匿名</system:String>
 	<system:String x:Key="Words.Apply">套用</system:String>
@@ -158,6 +165,7 @@
 	<system:String x:Key="Words.Example.HostAddress">host.example.com</system:String>
 	<system:String x:Key="Words.Exit">離開</system:String>
 	<system:String x:Key="Words.Export">匯出</system:String>
+	<system:String x:Key="Words.Fast">快速地</system:String>
 	<system:String x:Key="Words.File">檔案</system:String>
 	<system:String x:Key="Words.FileExplorer">檔案瀏覽器</system:String>
 	<system:String x:Key="Words.FileLock">檔案鎖定</system:String>
@@ -218,6 +226,7 @@
 	<system:String x:Key="Words.SecureProtocol">安全協定</system:String>
 	<system:String x:Key="Words.Send.Opinion">傳送意見</system:String>
 	<system:String x:Key="Words.Settings">設定</system:String>
+	<system:String x:Key="Words.Share">分享</system:String>
 	<system:String x:Key="Words.ShareWithOther">與他人共用</system:String>
 	<system:String x:Key="Words.SharedWithMe">與我共用</system:String>
 	<system:String x:Key="Words.SignIn">登入</system:String>
