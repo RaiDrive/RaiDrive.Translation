@@ -15,15 +15,15 @@
 	<system:String x:Key="Messages.CurrentVersion">目前版本是 {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">委派已中止</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">請輸入存取金鑰ID</system:String>
-	<system:String x:Key="Messages.EnterAccountID">請輸入賬號</system:String>
-	<system:String x:Key="Messages.EnterBucketName">請輸入存儲桶名稱</system:String>
+	<system:String x:Key="Messages.EnterAccountID">請輸入帳號</system:String>
+	<system:String x:Key="Messages.EnterBucketName">請輸入貯體名稱</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">請輸入主機名稱或 IP 位址</system:String>
 	<system:String x:Key="Messages.EnterPassword">請輸入密碼</system:String>
 	<system:String x:Key="Messages.EnterPort">請輸入連接埠號碼 (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">請輸入私密存取金鑰</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">請輸入儲存體帳戶名稱</system:String>
 	<system:String x:Key="Messages.EnterStorageKey">請輸入 金鑰1 或 金鑰2</system:String>
-	<system:String x:Key="Messages.EnterTenantID">請輸入租戶ID</system:String>
+	<system:String x:Key="Messages.EnterTenantID">請輸入租用戶 ID</system:String>
 	<system:String x:Key="Messages.EnterURL">請輸入 WebDAV 網址</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">請輸入以 https 或 http 開頭的網址</system:String>
 	<system:String x:Key="Messages.EnterUsername">請輸入使用者名稱</system:String>
@@ -86,7 +86,7 @@
 	<system:String x:Key="Phrases.DuplicatedPath">重複的路徑</system:String>
 	<system:String x:Key="Phrases.FileInUse">正在使用的檔案: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV 檔案鎖定</system:String>
-	<system:String x:Key="Phrases.FilePreview">文件預覽</system:String>
+	<system:String x:Key="Phrases.FilePreview">檔案預覽</system:String>
 	<system:String x:Key="Phrases.FilesystemWatcher">監視處理程序對檔案的存取</system:String>
 	<system:String x:Key="Phrases.FolderUrl">資料夾網址</system:String>
 	<system:String x:Key="Phrases.FolderUrlID">資料夾網址或ID</system:String>
@@ -114,7 +114,7 @@
 	<system:String x:Key="Phrases.UseDriveIcon">在已連線磁碟機上使用自訂圖示</system:String>
 	<system:String x:Key="Words.AccessKeyID">存取金鑰ID</system:String>
 	<system:String x:Key="Words.Account">帳號</system:String>
-	<system:String x:Key="Words.AccountId">帳戶ID</system:String>
+	<system:String x:Key="Words.AccountId">帳號 ID</system:String>
 	<system:String x:Key="Words.Add">加入</system:String>
 	<system:String x:Key="Words.Address">位址</system:String>
 	<system:String x:Key="Words.AdvancedOptions">進階選項</system:String>
@@ -165,7 +165,7 @@
 	<system:String x:Key="Words.Example.HostAddress">host.example.com</system:String>
 	<system:String x:Key="Words.Exit">離開</system:String>
 	<system:String x:Key="Words.Export">匯出</system:String>
-	<system:String x:Key="Words.Fast">快速地</system:String>
+	<system:String x:Key="Words.Fast">快速</system:String>
 	<system:String x:Key="Words.File">檔案</system:String>
 	<system:String x:Key="Words.FileExplorer">檔案瀏覽器</system:String>
 	<system:String x:Key="Words.FileLock">檔案鎖定</system:String>
@@ -226,7 +226,7 @@
 	<system:String x:Key="Words.SecureProtocol">安全協定</system:String>
 	<system:String x:Key="Words.Send.Opinion">傳送意見</system:String>
 	<system:String x:Key="Words.Settings">設定</system:String>
-	<system:String x:Key="Words.Share">分享</system:String>
+	<system:String x:Key="Words.Share">共用</system:String>
 	<system:String x:Key="Words.ShareWithOther">與他人共用</system:String>
 	<system:String x:Key="Words.SharedWithMe">與我共用</system:String>
 	<system:String x:Key="Words.SignIn">登入</system:String>
