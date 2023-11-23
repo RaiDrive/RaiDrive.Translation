@@ -17,7 +17,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">アクセスキーIDを入力</system:String>
 	<system:String x:Key="Messages.EnterAccountID">アカウントIDを入力してください</system:String>
 	<system:String x:Key="Messages.EnterBucketName">バケット名を入力してください</system:String>
+	<system:String x:Key="Messages.EnterCompany">会社を入力してください</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">ホスト名またはIPアドレスを入力してください</system:String>
+	<system:String x:Key="Messages.EnterNamespace">名前空間を入力してください</system:String>
 	<system:String x:Key="Messages.EnterPassword">パスワードを入力してください</system:String>
 	<system:String x:Key="Messages.EnterPort">ポート番号を入力してください (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">シークレットアクセスキーを入力</system:String>
@@ -27,6 +29,7 @@
 	<system:String x:Key="Messages.EnterURL">URLを入力してください</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">https または http で始まる URL を入力してください</system:String>
 	<system:String x:Key="Messages.EnterUsername">ユーザーIDを入力してください</system:String>
+	<system:String x:Key="Messages.EnterValue">値を入力してください</system:String>
 	<system:String x:Key="Messages.EnterVolume">トライブ名を入力してください</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">一時保存領域がほとんど残っていません 保存領域を増やす必要があります</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">リモートストレージをマウントできません インターネット接続を確認してから再度お試しください</system:String>
@@ -142,6 +145,7 @@
 	<system:String x:Key="Words.ClearLog">ログを削除</system:String>
 	<system:String x:Key="Words.Code">コード</system:String>
 	<system:String x:Key="Words.Community">コミュニティ</system:String>
+	<system:String x:Key="Words.Company">会社</system:String>
 	<system:String x:Key="Words.Connect">マウント</system:String>
 	<system:String x:Key="Words.Connected">接続済み</system:String>
 	<system:String x:Key="Words.CountLeft">残り</system:String>
@@ -188,6 +192,7 @@
 	<system:String x:Key="Words.LocalDisk">ローカルディスク</system:String>
 	<system:String x:Key="Words.Login">ログイン</system:String>
 	<system:String x:Key="Words.MySubscription">サブスクリプション</system:String>
+	<system:String x:Key="Words.Namespace">名前空間</system:String>
 	<system:String x:Key="Words.NOW">今</system:String>
 	<system:String x:Key="Words.Network">ネットワーク</system:String>
 	<system:String x:Key="Words.NetworkDrive">ネットワークドライブ</system:String>
@@ -225,6 +230,8 @@
 	<system:String x:Key="Words.SecureConnection">Secure接続</system:String>
 	<system:String x:Key="Words.SecureProtocol">Secureプロトコル</system:String>
 	<system:String x:Key="Words.Send.Opinion">意見の投稿</system:String>
+	<system:String x:Key="Words.Service">サービス</system:String>
+	<system:String x:Key="Words.ServiceKey">サービスキー</system:String>
 	<system:String x:Key="Words.Settings">設定</system:String>
 	<system:String x:Key="Words.Share">共有</system:String>
 	<system:String x:Key="Words.ShareWithOther">他の人と共有</system:String>

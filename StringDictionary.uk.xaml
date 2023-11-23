@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Введіть ідентифікатор ключа</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Введіть ідентифікатор облікового запису</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Введіть назву сегмента</system:String>
+	<system:String x:Key="Messages.EnterCompany">Будь ласка, введіть компанію</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Введіть ім'я хосту або IP-адресу</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Введіть простір імен</system:String>
 	<system:String x:Key="Messages.EnterPassword">Введіть пароль</system:String>
 	<system:String x:Key="Messages.EnterPort">Введіть номер порту (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Введіть секретний ключ доступу</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Введіть URL-адресу</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Введіть URL-адресу, яка починається з https або http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Введіть ім'я користувача</system:String>
+	<system:String x:Key="Messages.EnterValue">Будь ласка, введіть значення</system:String>
 	<system:String x:Key="Messages.EnterVolume">Введіть припустиму мітку тома</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Недостатньо місця для зберігання кешу. Збільшіть місце для зберігання.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Не вдається підключитися до віддаленого сховища. Перевірте підключення до Інтернету та повторіть спробу.</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Очистити журнал</system:String>
 	<system:String x:Key="Words.Code">Код</system:String>
 	<system:String x:Key="Words.Community">Спільнота</system:String>
+	<system:String x:Key="Words.Company">Компанія</system:String>
 	<system:String x:Key="Words.Connect">Підключити</system:String>
 	<system:String x:Key="Words.Connected">Підключено</system:String>
 	<system:String x:Key="Words.CountLeft">Залишилося</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">Локальний диск</system:String>
 	<system:String x:Key="Words.Login">Увійти</system:String>
 	<system:String x:Key="Words.MySubscription">Моя передплата</system:String>
+	<system:String x:Key="Words.Namespace">Простір імен</system:String>
 	<system:String x:Key="Words.NOW">ЗАРАЗ</system:String>
 	<system:String x:Key="Words.Network">Мережа</system:String>
 	<system:String x:Key="Words.NetworkDrive">Мережевий диск</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Безпечне підключення</system:String>
 	<system:String x:Key="Words.SecureProtocol">Безпечний протокол</system:String>
 	<system:String x:Key="Words.Send.Opinion">Надіслати думку</system:String>
+	<system:String x:Key="Words.Service">Сервіс</system:String>
+	<system:String x:Key="Words.ServiceKey">Сервісний ключ</system:String>
 	<system:String x:Key="Words.Settings">Параметри</system:String>
 	<system:String x:Key="Words.Share">Поділіться</system:String>
 	<system:String x:Key="Words.ShareWithOther">Поділитися з іншими</system:String>

@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">נא להזין את מזהה מפתח הגישה</system:String>
 	<system:String x:Key="Messages.EnterAccountID">נא להזין את מזהה החשבון</system:String>
 	<system:String x:Key="Messages.EnterBucketName">נא להזין שם של דלי</system:String>
+	<system:String x:Key="Messages.EnterCompany">נא להזין חברה</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">אנא הזן שם מארח או כתובת IP</system:String>
+	<system:String x:Key="Messages.EnterNamespace">נא להזין מרחב שמות</system:String>
 	<system:String x:Key="Messages.EnterPassword">הכנס סיסמא בבקשה</system:String>
 	<system:String x:Key="Messages.EnterPort">נא להזין מספר יציאה (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">נא להזין מפתח גישה סודי</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">נא להזין כתובת URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">אנא הזן כתובת אתר שמתחילה https או http</system:String>
 	<system:String x:Key="Messages.EnterUsername">אנא הכנס שם משתמש</system:String>
+	<system:String x:Key="Messages.EnterValue">אנא הכנס ערך</system:String>
 	<system:String x:Key="Messages.EnterVolume">אנא הזן תווית נפח חוקית</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">שטח האחסון של המטמון אינו מספיק. עדיף להגדיל את שטח האחסון.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">לא ניתן להתחבר לאחסון מרוחק. בדוק את חיבור האינטרנט שלך ונסה שוב.</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">נקה יומן</system:String>
 	<system:String x:Key="Words.Code">קוד</system:String>
 	<system:String x:Key="Words.Community">קהילה</system:String>
+	<system:String x:Key="Words.Company">חֶברָה</system:String>
 	<system:String x:Key="Words.Connect">לְחַבֵּר</system:String>
 	<system:String x:Key="Words.Connected">מְחוּבָּר</system:String>
 	<system:String x:Key="Words.CountLeft">שמאלה</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">דיסק מקומי</system:String>
 	<system:String x:Key="Words.Login">התחברות</system:String>
 	<system:String x:Key="Words.MySubscription">המנוי שלי</system:String>
+	<system:String x:Key="Words.Namespace">מרחב שמות</system:String>
 	<system:String x:Key="Words.NOW">עַכשָׁיו</system:String>
 	<system:String x:Key="Words.Network">רֶשֶׁת</system:String>
 	<system:String x:Key="Words.NetworkDrive">כונן רשת</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">חיבור מאובטח</system:String>
 	<system:String x:Key="Words.SecureProtocol">פרוטוקול מאובטח</system:String>
 	<system:String x:Key="Words.Send.Opinion">שלח חוות דעת</system:String>
+	<system:String x:Key="Words.Service">שֵׁרוּת</system:String>
+	<system:String x:Key="Words.ServiceKey">מפתח שירות</system:String>
 	<system:String x:Key="Words.Settings">הגדרות</system:String>
 	<system:String x:Key="Words.Share">לַחֲלוֹק</system:String>
 	<system:String x:Key="Words.ShareWithOther">שתף עם אחרים</system:String>

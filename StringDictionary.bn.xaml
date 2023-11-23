@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">অনুগ্রহ করে অ্যাক্সেস কী আইডি লিখুন</system:String>
 	<system:String x:Key="Messages.EnterAccountID">অনুগ্রহ করে অ্যাকাউন্ট আইডি লিখুন</system:String>
 	<system:String x:Key="Messages.EnterBucketName">একটি বালতি নাম লিখুন দয়া করে</system:String>
+	<system:String x:Key="Messages.EnterCompany">একটি কোম্পানি লিখুন</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">অনুগ্রহ করে একটি হোস্টনাম বা আইপি ঠিকানা লিখুন</system:String>
+	<system:String x:Key="Messages.EnterNamespace">অনুগ্রহ করে একটি নামস্থান লিখুন৷</system:String>
 	<system:String x:Key="Messages.EnterPassword">একটি পাসওয়ার্ড লিখুন</system:String>
 	<system:String x:Key="Messages.EnterPort">অনুগ্রহ করে একটি পোর্ট নম্বর লিখুন (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">দয়া করে গোপন অ্যাক্সেস কী লিখুন</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">URL লিখুন</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">দয়া করে https বা http থেকে শুরু করে একটি URL লিখুন৷</system:String>
 	<system:String x:Key="Messages.EnterUsername">একটি ব্যবহারকারীর নাম লিখুন</system:String>
+	<system:String x:Key="Messages.EnterValue">অনুগ্রহ করে একটা মান বসান</system:String>
 	<system:String x:Key="Messages.EnterVolume">দয়া করে একটি বৈধ ভলিউম লেবেল লিখুন৷</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">ক্যাশে স্টোরেজ স্পেস যথেষ্ট নয়। আপনি সঞ্চয় স্থান বাড়াতে ভাল.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">দূরবর্তী সঞ্চয়স্থানে সংযোগ করতে অক্ষম৷ আপনার ইন্টারনেট সংযোগ পরীক্ষা করুন এবং আবার চেষ্টা করুন.</system:String>
@@ -70,7 +73,7 @@
 	<system:String x:Key="Messages.SignOut.Question2">আপনি সাইন আউট করতে চান?</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">আপনার বর্তমান সেশনটি আপনার অন্য সেশনে ফিরে আসার জন্য অনুরোধ করা হয়েছে{0}। সমস্ত ড্রাইভ পুনরায় সংযোগ করা হবে। অনুগ্রহ করে ফাইল(গুলি) সংরক্ষণ করুন বা অ্যাপ্লিকেশন(গুলি) বন্ধ করুন</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">এটি {0} এর পরে প্রয়োগ করা হবে, অবিলম্বে ওকে বোতাম টিপুন৷</system:String>
-	<system:String x:Key="Messages.SureDelete">আপনি কি &quot;{0} ({1})&quot; স্থায়ীভাবে মুছে ফেলার বিষয়ে নিশ্চিত?</system:String>
+	<system:String x:Key="Messages.SureDelete">আপনি কি "{0} ({1})" স্থায়ীভাবে মুছে ফেলার বিষয়ে নিশ্চিত?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">অজানা স্থান</system:String>
 	<system:String x:Key="Messages.Upgrade.New">আপনি নতুন সংস্করণ আপগ্রেড করতে পারেন</system:String>
 	<system:String x:Key="Messages.Upgrade.NewVersion">আপনি সংস্করণে আপগ্রেড করতে পারেন {0}</system:String>
@@ -90,7 +93,7 @@
 	<system:String x:Key="Phrases.FolderUrlID">ফোল্ডার URL বা আইডি</system:String>
 	<system:String x:Key="Phrases.FollowLatest">সর্বশেষ অনুসরণ করুন</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">ব্যবসায়িক সংস্করণের জন্য</system:String>
-	<system:String x:Key="Phrases.KeepModifiedDate">কপি করার সময় &quot;তারিখ পরিবর্তন&quot; রাখার চেষ্টা করুন</system:String>
+	<system:String x:Key="Phrases.KeepModifiedDate">কপি করার সময় "তারিখ পরিবর্তন" রাখার চেষ্টা করুন</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">বুট এ পুনরায় সংযোগ করুন</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">সাইন-ইন করার সময় পুনরায় সংযোগ করুন৷</system:String>
 	<system:String x:Key="Phrases.MountAtStart">প্রোগ্রাম শুরুতে পুনরায় সংযোগ করুন</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">স্পষ্ট লগ</system:String>
 	<system:String x:Key="Words.Code">কোড</system:String>
 	<system:String x:Key="Words.Community">সম্প্রদায়</system:String>
+	<system:String x:Key="Words.Company">প্রতিষ্ঠান</system:String>
 	<system:String x:Key="Words.Connect">সংযোগ করুন</system:String>
 	<system:String x:Key="Words.Connected">সংযুক্ত</system:String>
 	<system:String x:Key="Words.CountLeft">বাম</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">স্থানীয় ডিস্ক</system:String>
 	<system:String x:Key="Words.Login">প্রবেশ করুন</system:String>
 	<system:String x:Key="Words.MySubscription">আমার সদস্যতা</system:String>
+	<system:String x:Key="Words.Namespace">নামস্থান</system:String>
 	<system:String x:Key="Words.NOW">এখন</system:String>
 	<system:String x:Key="Words.Network">অন্তর্জাল</system:String>
 	<system:String x:Key="Words.NetworkDrive">নেটওয়ার্ক ড্রাইভ</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">নিরাপদ সংযোগ</system:String>
 	<system:String x:Key="Words.SecureProtocol">নিরাপদ প্রোটোকল</system:String>
 	<system:String x:Key="Words.Send.Opinion">মতামত পাঠান</system:String>
+	<system:String x:Key="Words.Service">সেবা</system:String>
+	<system:String x:Key="Words.ServiceKey">পরিষেবা কী</system:String>
 	<system:String x:Key="Words.Settings">সেটিংস</system:String>
 	<system:String x:Key="Words.Share">শেয়ার করুন</system:String>
 	<system:String x:Key="Words.ShareWithOther">অন্যদের সাথে শেয়ার করুন</system:String>

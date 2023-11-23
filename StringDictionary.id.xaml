@@ -16,7 +16,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Masukan Kunci Akses ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Silakan masukkan ID Akun</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Harap masukkan nama keranjang</system:String>
+	<system:String x:Key="Messages.EnterCompany">Masukkan perusahaan</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Masukan Hostname atau IP address</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Masukkan ruang nama</system:String>
 	<system:String x:Key="Messages.EnterPassword">Masukan kata sandi</system:String>
 	<system:String x:Key="Messages.EnterPort">Masukan Port Number (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Masukan Kunci Akses Rahasia</system:String>
@@ -26,6 +28,7 @@
 	<system:String x:Key="Messages.EnterURL">Masukan URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Harap masukkan URL mulai https atau http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Masukan nama pengguna</system:String>
+	<system:String x:Key="Messages.EnterValue">Masukkan nilai</system:String>
 	<system:String x:Key="Messages.EnterVolume">Masukkan label volume yang valid</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Ruang penyimpanan cache tidak cukup. Anda sebaiknya menambah ruang penyimpanan.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Tidak dapat terhubung ke penyimpanan jarak jauh. Silakan periksa koneksi internet Anda dan coba lagi.</system:String>
@@ -141,6 +144,7 @@
 	<system:String x:Key="Words.ClearLog">Hapus Log</system:String>
 	<system:String x:Key="Words.Code">Kode</system:String>
 	<system:String x:Key="Words.Community">Komunitas</system:String>
+	<system:String x:Key="Words.Company">Perusahaan</system:String>
 	<system:String x:Key="Words.Connect">Hubungkan</system:String>
 	<system:String x:Key="Words.Connected">Terhubung</system:String>
 	<system:String x:Key="Words.CountLeft">Tersisa</system:String>
@@ -187,6 +191,7 @@
 	<system:String x:Key="Words.LocalDisk">Disk lokal</system:String>
 	<system:String x:Key="Words.Login">Gabung</system:String>
 	<system:String x:Key="Words.MySubscription">Langganan saya</system:String>
+	<system:String x:Key="Words.Namespace">Ruang nama</system:String>
 	<system:String x:Key="Words.NOW">SEKARANG</system:String>
 	<system:String x:Key="Words.Network">Jaringan</system:String>
 	<system:String x:Key="Words.NetworkDrive">Drive Jaringan</system:String>
@@ -224,6 +229,8 @@
 	<system:String x:Key="Words.SecureConnection">Koneksi Aman</system:String>
 	<system:String x:Key="Words.SecureProtocol">Protokol Aman</system:String>
 	<system:String x:Key="Words.Send.Opinion">Kirim Opini</system:String>
+	<system:String x:Key="Words.Service">Melayani</system:String>
+	<system:String x:Key="Words.ServiceKey">Kunci Layanan</system:String>
 	<system:String x:Key="Words.Settings">Pengaturan</system:String>
 	<system:String x:Key="Words.Share">Membagikan</system:String>
 	<system:String x:Key="Words.ShareWithOther">Bagikan dengan lainnya</system:String>

@@ -16,7 +16,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">엑세스 키 ID를 입력해 주세요</system:String>
 	<system:String x:Key="Messages.EnterAccountID">계정 ID를 입력하세요.</system:String>
 	<system:String x:Key="Messages.EnterBucketName">버킷 이름을 입력하세요.</system:String>
+	<system:String x:Key="Messages.EnterCompany">회사를 입력하세요.</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">호스트 또는 IP 주소를 입력해 주세요</system:String>
+	<system:String x:Key="Messages.EnterNamespace">네임스페이스를 입력하세요.</system:String>
 	<system:String x:Key="Messages.EnterPassword">비밀번호를 입력해 주세요</system:String>
 	<system:String x:Key="Messages.EnterPort">포트 번호를 입력해 주세요 (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">비밀 엑세스 키를 입력해 주세요</system:String>
@@ -26,6 +28,7 @@
 	<system:String x:Key="Messages.EnterURL">URL을 입력해 주세요</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">https 또는 http로 시작하는 URL을 입력하세요.</system:String>
 	<system:String x:Key="Messages.EnterUsername">사용자 계정을 입력해 주세요</system:String>
+	<system:String x:Key="Messages.EnterValue">값을 입력 해주세요</system:String>
 	<system:String x:Key="Messages.EnterVolume">드라이브 이름을 입력해 주세요</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">캐시 저장 공간을 거의 사용하였습니다. 저장 공간을 늘리는 것이 좋습니다.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">원격 스토리지에 연결할 수 없습니다. 인터넷 연결 확인 후, 다시 시도 해주세요.</system:String>
@@ -141,6 +144,7 @@
 	<system:String x:Key="Words.ClearLog">로그삭제</system:String>
 	<system:String x:Key="Words.Code">코드</system:String>
 	<system:String x:Key="Words.Community">커뮤니티</system:String>
+	<system:String x:Key="Words.Company">회사</system:String>
 	<system:String x:Key="Words.Connect">연결</system:String>
 	<system:String x:Key="Words.Connected">연결됨</system:String>
 	<system:String x:Key="Words.CountLeft">남음</system:String>
@@ -187,6 +191,7 @@
 	<system:String x:Key="Words.LocalDisk">로컬 디스크</system:String>
 	<system:String x:Key="Words.Login">로그인</system:String>
 	<system:String x:Key="Words.MySubscription">나의 구독</system:String>
+	<system:String x:Key="Words.Namespace">네임스페이스</system:String>
 	<system:String x:Key="Words.NOW">지금</system:String>
 	<system:String x:Key="Words.Network">네크워크</system:String>
 	<system:String x:Key="Words.NetworkDrive">네트워크 드라이브</system:String>
@@ -224,6 +229,8 @@
 	<system:String x:Key="Words.SecureConnection">보안 연결</system:String>
 	<system:String x:Key="Words.SecureProtocol">보안 프로토콜</system:String>
 	<system:String x:Key="Words.Send.Opinion">의견 보내기</system:String>
+	<system:String x:Key="Words.Service">서비스</system:String>
+	<system:String x:Key="Words.ServiceKey">서비스 키</system:String>
 	<system:String x:Key="Words.Settings">설정</system:String>
 	<system:String x:Key="Words.Share">공유</system:String>
 	<system:String x:Key="Words.ShareWithOther">구독 공유</system:String>

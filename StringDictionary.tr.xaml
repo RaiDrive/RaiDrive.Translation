@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Lütfen Access Key ID'nizi giriniz.</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Lütfen Hesap Kimliğini girin</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Lütfen bir grup adı girin</system:String>
+	<system:String x:Key="Messages.EnterCompany">Lütfen bir şirket girin</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Lütfen Ip yada host adresini giriniz</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Lütfen bir ad alanı girin</system:String>
 	<system:String x:Key="Messages.EnterPassword">Lütfen şifrenizi giriniz.</system:String>
 	<system:String x:Key="Messages.EnterPort">Lütfen bir port numarası giriniz.(1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Lütfen Secret Access Key'inizi giriniz.</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Lütfen geçerli bir URL giriniz</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Lütfen https veya http ile başlayan bir URL girin</system:String>
 	<system:String x:Key="Messages.EnterUsername">Lütfen kullanıcı adınızı giriniz</system:String>
+	<system:String x:Key="Messages.EnterValue">Lütfen bir değer girin</system:String>
 	<system:String x:Key="Messages.EnterVolume">Lütfen geçerli bir sürücü ismi giriniz.</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Geçici dosya alanı yetersiz. Depolama alanızda yer açınız.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Uzak depolama birimine bağlanılamadı.İnternet bağlantınızı kontrol edip terkar deneyiniz.</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Logları temizle</system:String>
 	<system:String x:Key="Words.Code">Kod</system:String>
 	<system:String x:Key="Words.Community">Topluluk</system:String>
+	<system:String x:Key="Words.Company">Şirket</system:String>
 	<system:String x:Key="Words.Connect">Bağlan</system:String>
 	<system:String x:Key="Words.Connected">bağlı</system:String>
 	<system:String x:Key="Words.CountLeft">Kalan</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">Yerel Disk</system:String>
 	<system:String x:Key="Words.Login">Giriş Yap</system:String>
 	<system:String x:Key="Words.MySubscription">Üyeliğim</system:String>
+	<system:String x:Key="Words.Namespace">Ad alanı</system:String>
 	<system:String x:Key="Words.NOW">Şimdi</system:String>
 	<system:String x:Key="Words.Network">Ağ</system:String>
 	<system:String x:Key="Words.NetworkDrive">Ağ Sürücüsü</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Güvenli Bağlantı</system:String>
 	<system:String x:Key="Words.SecureProtocol">Güvenlik Protokolü</system:String>
 	<system:String x:Key="Words.Send.Opinion">Yorum Yap</system:String>
+	<system:String x:Key="Words.Service">Hizmet</system:String>
+	<system:String x:Key="Words.ServiceKey">Servis Anahtarı</system:String>
 	<system:String x:Key="Words.Settings">Ayarlar</system:String>
 	<system:String x:Key="Words.Share">Paylaş</system:String>
 	<system:String x:Key="Words.ShareWithOther">Başkalarıyla paylaşın</system:String>

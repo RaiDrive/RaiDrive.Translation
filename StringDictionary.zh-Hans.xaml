@@ -17,7 +17,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">请输入 Access Key ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">请输入账号</system:String>
 	<system:String x:Key="Messages.EnterBucketName">请输入存储桶名称</system:String>
+	<system:String x:Key="Messages.EnterCompany">请输入公司</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">请输入主机名称或 IP 地址</system:String>
+	<system:String x:Key="Messages.EnterNamespace">请输入命名空间</system:String>
 	<system:String x:Key="Messages.EnterPassword">请输入密码</system:String>
 	<system:String x:Key="Messages.EnterPort">请输入端口号 (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">请输入 Secret Access Key</system:String>
@@ -27,6 +29,7 @@
 	<system:String x:Key="Messages.EnterURL">请输入 WebDAV 地址</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">请输入以 https 或 http 开头的网址</system:String>
 	<system:String x:Key="Messages.EnterUsername">请输入用户名</system:String>
+	<system:String x:Key="Messages.EnterValue">请输入一个值</system:String>
 	<system:String x:Key="Messages.EnterVolume">请输入有效的卷标</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">缓存区存储空间不足. 建议增加或清理存储空间.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">无法连接到远程服务器. 请检查网络连接情况并重试.</system:String>
@@ -142,6 +145,7 @@
 	<system:String x:Key="Words.ClearLog">清除日志</system:String>
 	<system:String x:Key="Words.Code">代码</system:String>
 	<system:String x:Key="Words.Community">社区</system:String>
+	<system:String x:Key="Words.Company">公司</system:String>
 	<system:String x:Key="Words.Connect">连接</system:String>
 	<system:String x:Key="Words.Connected">已连接</system:String>
 	<system:String x:Key="Words.CountLeft">剩菜</system:String>
@@ -188,6 +192,7 @@
 	<system:String x:Key="Words.LocalDisk">模拟本地磁盘</system:String>
 	<system:String x:Key="Words.Login">登录</system:String>
 	<system:String x:Key="Words.MySubscription">我的订阅</system:String>
+	<system:String x:Key="Words.Namespace">命名空间</system:String>
 	<system:String x:Key="Words.NOW">立刻</system:String>
 	<system:String x:Key="Words.Network">网络</system:String>
 	<system:String x:Key="Words.NetworkDrive">网络驱动器</system:String>
@@ -225,6 +230,8 @@
 	<system:String x:Key="Words.SecureConnection">安全连接</system:String>
 	<system:String x:Key="Words.SecureProtocol">安全协议</system:String>
 	<system:String x:Key="Words.Send.Opinion">发送意见</system:String>
+	<system:String x:Key="Words.Service">服务</system:String>
+	<system:String x:Key="Words.ServiceKey">服务键</system:String>
 	<system:String x:Key="Words.Settings">设置</system:String>
 	<system:String x:Key="Words.Share">分享</system:String>
 	<system:String x:Key="Words.ShareWithOther">与他人共享</system:String>

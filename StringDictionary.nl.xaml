@@ -16,7 +16,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Toegangssleutel ID invoeren</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Voer account-ID in</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Voer een bucketnaam in</system:String>
+	<system:String x:Key="Messages.EnterCompany">Voer een bedrijf in</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Voer de hostnaam en het IP-adres in</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Voer een naamruimte in</system:String>
 	<system:String x:Key="Messages.EnterPassword">Voer een wachtwoord in</system:String>
 	<system:String x:Key="Messages.EnterPort">Voer een poortnummer in (0-65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Geheime Toegangssleutel invoeren</system:String>
@@ -26,6 +28,7 @@
 	<system:String x:Key="Messages.EnterURL">Voer een URL in</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Voer een URL in die begint met https of http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Voer een gebruikersnaam in</system:String>
+	<system:String x:Key="Messages.EnterValue">Voer alstublieft een waarde in</system:String>
 	<system:String x:Key="Messages.EnterVolume">Kies een geldige naam</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Het buffergeheugen is vol. Maak geheugen vrij, bv door programma's te sluiten.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Verbinding met de opslag is niet mogelijk. Controleer je internetverbinding en probeer het opnieuw.</system:String>
@@ -141,6 +144,7 @@
 	<system:String x:Key="Words.ClearLog">Log verwijderen</system:String>
 	<system:String x:Key="Words.Code">Code</system:String>
 	<system:String x:Key="Words.Community">Gemeenschap</system:String>
+	<system:String x:Key="Words.Company">Bedrijf</system:String>
 	<system:String x:Key="Words.Connect">Verbinden</system:String>
 	<system:String x:Key="Words.Connected">Verbonden</system:String>
 	<system:String x:Key="Words.CountLeft">Resterend</system:String>
@@ -187,6 +191,7 @@
 	<system:String x:Key="Words.LocalDisk">Lokale schijf</system:String>
 	<system:String x:Key="Words.Login">Aanmelden</system:String>
 	<system:String x:Key="Words.MySubscription">Mijn abonnement</system:String>
+	<system:String x:Key="Words.Namespace">Naamruimte</system:String>
 	<system:String x:Key="Words.NOW">NU</system:String>
 	<system:String x:Key="Words.Network">Netwerk</system:String>
 	<system:String x:Key="Words.NetworkDrive">Netwerkadres</system:String>
@@ -224,6 +229,8 @@
 	<system:String x:Key="Words.SecureConnection">Beveiligde verbinding</system:String>
 	<system:String x:Key="Words.SecureProtocol">Beveiligsprotocol</system:String>
 	<system:String x:Key="Words.Send.Opinion">Mening verzenden</system:String>
+	<system:String x:Key="Words.Service">Dienst</system:String>
+	<system:String x:Key="Words.ServiceKey">Servicesleutel</system:String>
 	<system:String x:Key="Words.Settings">Instellingen</system:String>
 	<system:String x:Key="Words.Share">Deel</system:String>
 	<system:String x:Key="Words.ShareWithOther">Delen met anderen</system:String>

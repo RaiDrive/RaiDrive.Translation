@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Prosím zadejte ID přístupového klíče</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Zadejte ID účtu</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Zadejte název segmentu</system:String>
+	<system:String x:Key="Messages.EnterCompany">Zadejte prosím společnost</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Prosím zadejte jméno hostitele nebo adresu</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Zadejte jmenný prostor</system:String>
 	<system:String x:Key="Messages.EnterPassword">Zadejte heslo</system:String>
 	<system:String x:Key="Messages.EnterPort">Zadaejte číslo portu (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Prosím zadejte tajný přístupový klíč</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Prosím zadejte URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Zadejte prosím URL začínající https nebo http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Zadejte uživatelské jméno</system:String>
+	<system:String x:Key="Messages.EnterValue">Zadejte hodnotu</system:String>
 	<system:String x:Key="Messages.EnterVolume">Prosím zadejte platný popis úložiště</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Chace paměť je vyčerpána! Zkontrolujte volné místo na lokálním disku anebo cache přesuňte</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Připojení vzdálené jednotky se nezdařilo. Funguje vám internet?</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Vyčistit log</system:String>
 	<system:String x:Key="Words.Code">Kód</system:String>
 	<system:String x:Key="Words.Community">Komunita</system:String>
+	<system:String x:Key="Words.Company">Společnost</system:String>
 	<system:String x:Key="Words.Connect">Připojit</system:String>
 	<system:String x:Key="Words.Connected">Připojeno</system:String>
 	<system:String x:Key="Words.CountLeft">Zbývá</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">Místní disk</system:String>
 	<system:String x:Key="Words.Login">Přihlášení</system:String>
 	<system:String x:Key="Words.MySubscription">Má předplatná</system:String>
+	<system:String x:Key="Words.Namespace">Jmenný prostor</system:String>
 	<system:String x:Key="Words.NOW">Nyní</system:String>
 	<system:String x:Key="Words.Network">Síťové úložiště</system:String>
 	<system:String x:Key="Words.NetworkDrive">Síťový disk</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Zabezpečené spojení</system:String>
 	<system:String x:Key="Words.SecureProtocol">Bezpečnostní protokol</system:String>
 	<system:String x:Key="Words.Send.Opinion">Poslat názor</system:String>
+	<system:String x:Key="Words.Service">Servis</system:String>
+	<system:String x:Key="Words.ServiceKey">Servisní klíč</system:String>
 	<system:String x:Key="Words.Settings">Nastavení</system:String>
 	<system:String x:Key="Words.Share">Podíl</system:String>
 	<system:String x:Key="Words.ShareWithOther">Sdílené</system:String>

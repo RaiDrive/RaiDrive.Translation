@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Παρακαλώ καταχωρίστε Access Key ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Εισαγάγετε το αναγνωριστικό λογαριασμού</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Εισαγάγετε ένα όνομα κάδου</system:String>
+	<system:String x:Key="Messages.EnterCompany">Εισαγάγετε μια εταιρεία</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Καταχωρίστε ένα όνομα υπολογιστή ή διεύθυνση IP</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Εισαγάγετε έναν χώρο ονομάτων</system:String>
 	<system:String x:Key="Messages.EnterPassword">Παρακαλώ καταχωρίστε τον Κωδικό χρήστη</system:String>
 	<system:String x:Key="Messages.EnterPort">Επιλέξτε ένα αριθμό θύρας (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Παρακαλώ καταχωρίστε Secret Access Key</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Παρακαλώ καταχωρίστε μια διεύθυνση IP</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Εισαγάγετε μια διεύθυνση URL που ξεκινά από https ή http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Παρακαλώ καταχωρίστε το όνομα χρήστη</system:String>
+	<system:String x:Key="Messages.EnterValue">Παρακαλω βαλτε μια τιμη</system:String>
 	<system:String x:Key="Messages.EnterVolume">Παρακαλώ δώστε ένα έγκυρο όνομα στην ετικέτα της μονάδας δίσκου τόμου</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Ο χώρος αποθήκευσης της προσωρινής μνήμης δεν αρκεί. Καλύτερα να αυξήσετε τον αποθηκευτικό χώρο.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Δεν είναι δυνατή η σύνδεση με απομακρυσμένο αποθηκευτικό χώρο. Ελέγξτε τη σύνδεση στο Internet και δοκιμάστε ξανά.</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Καθαρισμός καταγραφής</system:String>
 	<system:String x:Key="Words.Code">Κώδικας</system:String>
 	<system:String x:Key="Words.Community">Κοινότητα</system:String>
+	<system:String x:Key="Words.Company">Εταιρία</system:String>
 	<system:String x:Key="Words.Connect">Σύνδεση</system:String>
 	<system:String x:Key="Words.Connected">Σε σύνδεση</system:String>
 	<system:String x:Key="Words.CountLeft">Αριστερά</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">Τοπική μονάδα δίσκου</system:String>
 	<system:String x:Key="Words.Login">Σύνδεση</system:String>
 	<system:String x:Key="Words.MySubscription">Η συνδρομή μου</system:String>
+	<system:String x:Key="Words.Namespace">Χώρος ονομάτων</system:String>
 	<system:String x:Key="Words.NOW">ΤΩΡΑ</system:String>
 	<system:String x:Key="Words.Network">Δίκτυο</system:String>
 	<system:String x:Key="Words.NetworkDrive">Τόμος δικτύου</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Ασφαλής σύνδεση</system:String>
 	<system:String x:Key="Words.SecureProtocol">Ασφαλές πρωτόκολλο</system:String>
 	<system:String x:Key="Words.Send.Opinion">Στείλτε τη γνώμη σας</system:String>
+	<system:String x:Key="Words.Service">Υπηρεσία</system:String>
+	<system:String x:Key="Words.ServiceKey">Κλειδί σέρβις</system:String>
 	<system:String x:Key="Words.Settings">Ρυθμίσεις</system:String>
 	<system:String x:Key="Words.Share">Μερίδιο</system:String>
 	<system:String x:Key="Words.ShareWithOther">Διαμοιρασμός με άλλους</system:String>

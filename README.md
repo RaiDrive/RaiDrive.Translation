@@ -39,7 +39,7 @@ Your contribution can be recorded through the "Pull Request".
 | [StringDictionary.th.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.th.xaml) | Thai | O | <sub>[yutthaphon](https://github.com/yutthaphon), [naruepanart](https://github.com/naruepanart)</sub> |
 | [StringDictionary.tr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.tr.xaml) | Turkish | △ | <sub>[ilkmon](https://github.com/ilkmon)</sub> |
 | [StringDictionary.uk.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.uk.xaml) | Ukrainian | O | <sub>[Lan72](https://github.com/Lan72)</sub> |
-| [StringDictionary.vi.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.vi.xaml) | Vietnamese | O | <sub>[holao09](https://github.com/holao09), [vigstudio](https://github.com/vigstudio), [prpjzz](https://github.com/prpjzz)</sub> |
+| [StringDictionary.vi.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.vi.xaml) | Vietnamese | O | <sub>[holao09](https://github.com/holao09), [vigstudio](https://github.com/vigstudio), [prpjzz](https://github.com/prpjzz), [duyplus](https://github.com/duyplus)</sub> |
 | [StringDictionary.zh-Hans.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hans.xaml) | Chinese (Simplified) | O | <sub>[whwlsfb](https://github.com/whwlsfb), [SadPencil](https://github.com/SadPencil), [dustofsoul](https://github.com/dustofsoul)</sub> |
 | [StringDictionary.zh-Hant.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hant.xaml) | Chinese (Traditional) | O | <sub>[Hulen](https://github.com/Hulen), [SadPencil](https://github.com/SadPencil), [kix99aug](https://github.com/kix99aug)</sub> |
 

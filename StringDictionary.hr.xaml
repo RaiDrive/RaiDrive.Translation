@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Unesite ID pristupnog ključa</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Unesite ID računa</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Unesite naziv spremnika</system:String>
+	<system:String x:Key="Messages.EnterCompany">Unesite tvrtku</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Unesite naziv hosta ili IP adresu</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Unesite prostor imena</system:String>
 	<system:String x:Key="Messages.EnterPassword">Molimo unesite lozinku</system:String>
 	<system:String x:Key="Messages.EnterPort">Unesite broj porta (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Unesite tajni pristupni ključ</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Please enter a URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Unesite URL koji počinje https ili http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Unesite korisničko ime</system:String>
+	<system:String x:Key="Messages.EnterValue">Molimo unesite vrijednost</system:String>
 	<system:String x:Key="Messages.EnterVolume">Unesite važeću oznaku volumena</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Prostor za pohranu predmemorije nije dovoljan. Bilo bi bolje da povećate prostor za pohranu.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Nije moguće povezati se s udaljenom pohranom. Provjerite internetsku vezu i pokušajte ponovo.</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Obriši dnevnik</system:String>
 	<system:String x:Key="Words.Code">Kodirati</system:String>
 	<system:String x:Key="Words.Community">Zajednica</system:String>
+	<system:String x:Key="Words.Company">Društvo</system:String>
 	<system:String x:Key="Words.Connect">Spojiti</system:String>
 	<system:String x:Key="Words.Connected">Povezan</system:String>
 	<system:String x:Key="Words.CountLeft">Lijevo</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">Lokalni disk</system:String>
 	<system:String x:Key="Words.Login">Prijaviti se</system:String>
 	<system:String x:Key="Words.MySubscription">Moja pretplata</system:String>
+	<system:String x:Key="Words.Namespace">Imenski prostor</system:String>
 	<system:String x:Key="Words.NOW">SADA</system:String>
 	<system:String x:Key="Words.Network">Mreža</system:String>
 	<system:String x:Key="Words.NetworkDrive">Mrežni pogon</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Sigurna veza</system:String>
 	<system:String x:Key="Words.SecureProtocol">Siguran protokol</system:String>
 	<system:String x:Key="Words.Send.Opinion">Pošaljite mišljenje</system:String>
+	<system:String x:Key="Words.Service">Servis</system:String>
+	<system:String x:Key="Words.ServiceKey">Servisni ključ</system:String>
 	<system:String x:Key="Words.Settings">postavke</system:String>
 	<system:String x:Key="Words.Share">Udio</system:String>
 	<system:String x:Key="Words.ShareWithOther">Podijelite s drugima</system:String>

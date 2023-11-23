@@ -17,7 +17,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">請輸入存取金鑰ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">請輸入帳號</system:String>
 	<system:String x:Key="Messages.EnterBucketName">請輸入貯體名稱</system:String>
+	<system:String x:Key="Messages.EnterCompany">請輸入公司</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">請輸入主機名稱或 IP 位址</system:String>
+	<system:String x:Key="Messages.EnterNamespace">請輸入命名空間</system:String>
 	<system:String x:Key="Messages.EnterPassword">請輸入密碼</system:String>
 	<system:String x:Key="Messages.EnterPort">請輸入連接埠號碼 (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">請輸入私密存取金鑰</system:String>
@@ -27,6 +29,7 @@
 	<system:String x:Key="Messages.EnterURL">請輸入 WebDAV 網址</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">請輸入以 https 或 http 開頭的網址</system:String>
 	<system:String x:Key="Messages.EnterUsername">請輸入使用者名稱</system:String>
+	<system:String x:Key="Messages.EnterValue">請輸入一個值</system:String>
 	<system:String x:Key="Messages.EnterVolume">請輸入有效的磁碟區標籤</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">快取儲存空間不夠。 您最好增加儲存空間。</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">無法連接到遠端儲存空間。 請檢查您的網路連線並再試一次。</system:String>
@@ -142,6 +145,7 @@
 	<system:String x:Key="Words.ClearLog">清除日誌</system:String>
 	<system:String x:Key="Words.Code">代碼</system:String>
 	<system:String x:Key="Words.Community">社群</system:String>
+	<system:String x:Key="Words.Company">公司</system:String>
 	<system:String x:Key="Words.Connect">連線</system:String>
 	<system:String x:Key="Words.Connected">已連線</system:String>
 	<system:String x:Key="Words.CountLeft">剩菜</system:String>
@@ -188,6 +192,7 @@
 	<system:String x:Key="Words.LocalDisk">本機磁碟</system:String>
 	<system:String x:Key="Words.Login">登入</system:String>
 	<system:String x:Key="Words.MySubscription">我的訂閱</system:String>
+	<system:String x:Key="Words.Namespace">命名空間</system:String>
 	<system:String x:Key="Words.NOW">立刻</system:String>
 	<system:String x:Key="Words.Network">網路</system:String>
 	<system:String x:Key="Words.NetworkDrive">網路磁碟機</system:String>
@@ -225,6 +230,8 @@
 	<system:String x:Key="Words.SecureConnection">安全連線</system:String>
 	<system:String x:Key="Words.SecureProtocol">安全協定</system:String>
 	<system:String x:Key="Words.Send.Opinion">傳送意見</system:String>
+	<system:String x:Key="Words.Service">服務</system:String>
+	<system:String x:Key="Words.ServiceKey">服務鍵</system:String>
 	<system:String x:Key="Words.Settings">設定</system:String>
 	<system:String x:Key="Words.Share">共用</system:String>
 	<system:String x:Key="Words.ShareWithOther">與他人共用</system:String>

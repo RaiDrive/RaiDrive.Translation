@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Vnesite ID ključa za dostop</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Vnesite ID računa</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Vnesite ime vedra</system:String>
+	<system:String x:Key="Messages.EnterCompany">Vnesite podjetje</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Vnesite ime gostitelja ali naslov IP</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Vnesite imenski prostor</system:String>
 	<system:String x:Key="Messages.EnterPassword">Prosim vnesite geslo</system:String>
 	<system:String x:Key="Messages.EnterPort">Vnesite številko vrat (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Vnesite skrivni ključ za dostop</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Please enter a URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Vnesite URL, ki se začne s https ali http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Vnesite uporabniško ime</system:String>
+	<system:String x:Key="Messages.EnterValue">Vnesite vrednost</system:String>
 	<system:String x:Key="Messages.EnterVolume">Vnesite veljavno oznako nosilca</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Prostor za shranjevanje predpomnilnika ni dovolj. Raje povečajte prostor za shranjevanje.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Ni mogoče vzpostaviti povezave z oddaljenim pomnilnikom. Preverite internetno povezavo in poskusite znova.</system:String>
@@ -90,7 +93,7 @@
 	<system:String x:Key="Phrases.FolderUrlID">URL ali ID mape</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Spremljajte najnovejše</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">za poslovno različico</system:String>
-	<system:String x:Key="Phrases.KeepModifiedDate">Pri kopiranju poskušajte obdržati &quot;Datum spremembe&quot;.</system:String>
+	<system:String x:Key="Phrases.KeepModifiedDate">Pri kopiranju poskušajte obdržati "Datum spremembe".</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Znova vzpostavite povezavo ob zagonu</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Znova vzpostavite povezavo ob prijavi</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Ponovno vzpostavite povezavo ob zagonu programa</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Počisti dnevnik</system:String>
 	<system:String x:Key="Words.Code">Code</system:String>
 	<system:String x:Key="Words.Community">Skupnost</system:String>
+	<system:String x:Key="Words.Company">Podjetje</system:String>
 	<system:String x:Key="Words.Connect">Povežite se</system:String>
 	<system:String x:Key="Words.Connected">Povezan</system:String>
 	<system:String x:Key="Words.CountLeft">levo</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">Lokalni disk</system:String>
 	<system:String x:Key="Words.Login">Vpiši se</system:String>
 	<system:String x:Key="Words.MySubscription">Moja naročnina</system:String>
+	<system:String x:Key="Words.Namespace">Imenski prostor</system:String>
 	<system:String x:Key="Words.NOW">ZDAJ</system:String>
 	<system:String x:Key="Words.Network">Omrežje</system:String>
 	<system:String x:Key="Words.NetworkDrive">Omrežni pogon</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Varna povezava</system:String>
 	<system:String x:Key="Words.SecureProtocol">Varen protokol</system:String>
 	<system:String x:Key="Words.Send.Opinion">Pošlji mnenje</system:String>
+	<system:String x:Key="Words.Service">Storitev</system:String>
+	<system:String x:Key="Words.ServiceKey">Servisni ključ</system:String>
 	<system:String x:Key="Words.Settings">nastavitve</system:String>
 	<system:String x:Key="Words.Share">Deliti</system:String>
 	<system:String x:Key="Words.ShareWithOther">Delite z drugimi</system:String>

@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Vänligen ange åtkomstnyckel-ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Ange konto-ID</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Vänligen ange ett hinknamn</system:String>
+	<system:String x:Key="Messages.EnterCompany">Ange ett företag</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Vänligen ange ett värdnamn eller IP-adress</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Ange ett namnområde</system:String>
 	<system:String x:Key="Messages.EnterPassword">Vänligen ange ett lösenord</system:String>
 	<system:String x:Key="Messages.EnterPort">Vänligen ange ett port-nummer (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Vänligen ange hemlig åtkomstnyckel</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Vänligen ange en URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Ange en URL som börjar med https eller http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Vänligen ange ett användarnamn</system:String>
+	<system:String x:Key="Messages.EnterValue">var god ange ett värde</system:String>
 	<system:String x:Key="Messages.EnterVolume">Vänligen ange en giltig etikett</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Cache-lagringsutrymmet räcker inte. Du bör öka lagringsutrymmet.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Det går inte att ansluta till fjärrlagring. Kontrollera din internetanslutning och försök igen.</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Rensa logg</system:String>
 	<system:String x:Key="Words.Code">Kod</system:String>
 	<system:String x:Key="Words.Community">Forum</system:String>
+	<system:String x:Key="Words.Company">Företag</system:String>
 	<system:String x:Key="Words.Connect">Anslut</system:String>
 	<system:String x:Key="Words.Connected">Ansluten</system:String>
 	<system:String x:Key="Words.CountLeft">Kvar</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">Lokal Enhet</system:String>
 	<system:String x:Key="Words.Login">logga in</system:String>
 	<system:String x:Key="Words.MySubscription">Mitt prenumeration</system:String>
+	<system:String x:Key="Words.Namespace">Namnutrymme</system:String>
 	<system:String x:Key="Words.NOW">NU</system:String>
 	<system:String x:Key="Words.Network">Nätverk</system:String>
 	<system:String x:Key="Words.NetworkDrive">Nätverksenhet</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Säker anslutning</system:String>
 	<system:String x:Key="Words.SecureProtocol">Säker protokoll</system:String>
 	<system:String x:Key="Words.Send.Opinion">Skicka åsikt</system:String>
+	<system:String x:Key="Words.Service">Service</system:String>
+	<system:String x:Key="Words.ServiceKey">Servicenyckel</system:String>
 	<system:String x:Key="Words.Settings">Inställningar</system:String>
 	<system:String x:Key="Words.Share">Dela med sig</system:String>
 	<system:String x:Key="Words.ShareWithOther">Dela med andra</system:String>

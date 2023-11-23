@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Įveskite prieigos rakto ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Įveskite paskyros ID</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Įveskite segmento pavadinimą</system:String>
+	<system:String x:Key="Messages.EnterCompany">Įveskite įmonę</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Įveskite pagrindinio kompiuterio pavadinimą arba IP adresą</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Įveskite vardų erdvę</system:String>
 	<system:String x:Key="Messages.EnterPassword">Įveskite slaptažodį</system:String>
 	<system:String x:Key="Messages.EnterPort">Įveskite prievado numerį (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Įveskite slaptą prieigos raktą</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Įveskite URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Įveskite URL, prasidedantį https arba http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Įveskite vartotojo vardą</system:String>
+	<system:String x:Key="Messages.EnterValue">Įveskite vertę</system:String>
 	<system:String x:Key="Messages.EnterVolume">Įveskite galiojančią tomo etiketę</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Talpyklos vietos neužtenka. Geriau padidinkite saugyklos vietą.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Nepavyko prisijungti prie nuotolinės saugyklos. Patikrinkite interneto ryšį ir bandykite dar kartą.</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Išvalyti žurnalą</system:String>
 	<system:String x:Key="Words.Code">Kodas</system:String>
 	<system:String x:Key="Words.Community">bendruomenė</system:String>
+	<system:String x:Key="Words.Company">Bendrovė</system:String>
 	<system:String x:Key="Words.Connect">Prisijungti</system:String>
 	<system:String x:Key="Words.Connected">Prisijungta</system:String>
 	<system:String x:Key="Words.CountLeft">Kairė</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">Vietinis diskas</system:String>
 	<system:String x:Key="Words.Login">Prisijungimas</system:String>
 	<system:String x:Key="Words.MySubscription">Mano prenumerata</system:String>
+	<system:String x:Key="Words.Namespace">Vardų erdvė</system:String>
 	<system:String x:Key="Words.NOW">DABAR</system:String>
 	<system:String x:Key="Words.Network">Tinklas</system:String>
 	<system:String x:Key="Words.NetworkDrive">Tinklo diskas</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Saugus prisijungimas</system:String>
 	<system:String x:Key="Words.SecureProtocol">Saugus protolkolas</system:String>
 	<system:String x:Key="Words.Send.Opinion">Siųsti nuomonę</system:String>
+	<system:String x:Key="Words.Service">Aptarnavimas</system:String>
+	<system:String x:Key="Words.ServiceKey">Aptarnavimo raktas</system:String>
 	<system:String x:Key="Words.Settings">Nustatymai</system:String>
 	<system:String x:Key="Words.Share">Dalintis</system:String>
 	<system:String x:Key="Words.ShareWithOther">Pasidalinkite su kitais</system:String>

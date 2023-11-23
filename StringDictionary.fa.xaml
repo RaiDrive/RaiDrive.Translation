@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">لطفاً شناسه کلید دسترسی را وارد کنید</system:String>
 	<system:String x:Key="Messages.EnterAccountID">لطفا شناسه حساب را وارد کنید</system:String>
 	<system:String x:Key="Messages.EnterBucketName">لطفا یک نام سطل وارد کنید</system:String>
+	<system:String x:Key="Messages.EnterCompany">لطفا یک شرکت وارد کنید</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">لطفا یک نام هاست یا یک آی پی وارد کنید</system:String>
+	<system:String x:Key="Messages.EnterNamespace">لطفاً یک فضای نام وارد کنید</system:String>
 	<system:String x:Key="Messages.EnterPassword">لطفا یک رمز عبور وارد کنید</system:String>
 	<system:String x:Key="Messages.EnterPort">لطفا یک عدد پورت (0 تا 65535) انتخاب کنید</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">لطفا کلید دسترسی مخفی را وارد کنید</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">لطفا یک آدرس اینترنتی وارد کنید</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">لطفاً یک URL با شروع https یا http وارد کنید</system:String>
 	<system:String x:Key="Messages.EnterUsername">لطفا یک نام کاربری وارد کنید</system:String>
+	<system:String x:Key="Messages.EnterValue">لطفا یک مقدار وارد کنید</system:String>
 	<system:String x:Key="Messages.EnterVolume">لطفا نامی معتبر برای درایو وارد کنید</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">فضای ذخیره سازی موقت کافی نیست، بهتر است که فضا را افزایش دهید</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">مشکل در اتصال به درایو ریموت، لطفا اتصال خود به اینترنت را بررسی کنید و دوباره تلاش کنید</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">حذف لاگ</system:String>
 	<system:String x:Key="Words.Code">کد</system:String>
 	<system:String x:Key="Words.Community">انجمن</system:String>
+	<system:String x:Key="Words.Company">شرکت</system:String>
 	<system:String x:Key="Words.Connect">اتصال</system:String>
 	<system:String x:Key="Words.Connected">متصل</system:String>
 	<system:String x:Key="Words.CountLeft">باقی مانده</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">هارد داخلی</system:String>
 	<system:String x:Key="Words.Login">ورود</system:String>
 	<system:String x:Key="Words.MySubscription">اشتراک من</system:String>
+	<system:String x:Key="Words.Namespace">فضای نام</system:String>
 	<system:String x:Key="Words.NOW">الان</system:String>
 	<system:String x:Key="Words.Network">شبکه</system:String>
 	<system:String x:Key="Words.NetworkDrive">درایو شبکه</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">اتصال امن</system:String>
 	<system:String x:Key="Words.SecureProtocol">پروتکل امن</system:String>
 	<system:String x:Key="Words.Send.Opinion">ارسال نظر</system:String>
+	<system:String x:Key="Words.Service">سرویس</system:String>
+	<system:String x:Key="Words.ServiceKey">کلید خدمات</system:String>
 	<system:String x:Key="Words.Settings">تنظیمات</system:String>
 	<system:String x:Key="Words.Share">اشتراک گذاری</system:String>
 	<system:String x:Key="Words.ShareWithOther">با دیگران به اشتراک بگذارید</system:String>

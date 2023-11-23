@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Inserisci l'ID della chiave di accesso</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Inserisci l'ID account</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Inserisci un nome per il bucket</system:String>
+	<system:String x:Key="Messages.EnterCompany">Inserisci un'azienda</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Si prega di inserire un hostname oppure un indirizzo IP</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Inserisci uno spazio dei nomi</system:String>
 	<system:String x:Key="Messages.EnterPassword">Si prega di inserire una password</system:String>
 	<system:String x:Key="Messages.EnterPort">Si prega di inserire un numero di porta(1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Inserisci la chiave di accesso segreta</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Si prega di inserire un URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Inserisci un URL che inizi con https o http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Si prega di inserire un username</system:String>
+	<system:String x:Key="Messages.EnterValue">Per favore inserisci un valore</system:String>
 	<system:String x:Key="Messages.EnterVolume">Si prega di inserire un'etichetta di volume valida</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Lo spazio di archiviazione della cache non è sufficiente. Faresti meglio ad aumentare lo spazio di archiviazione.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Impossibile connettersi alla memoria remota. Per favore controlla la tua connessione Internet e prova di nuovo.</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Pulisci log</system:String>
 	<system:String x:Key="Words.Code">Codice</system:String>
 	<system:String x:Key="Words.Community">Comunità</system:String>
+	<system:String x:Key="Words.Company">Azienda</system:String>
 	<system:String x:Key="Words.Connect">Connettere</system:String>
 	<system:String x:Key="Words.Connected">Collegato</system:String>
 	<system:String x:Key="Words.CountLeft">Sono partiti</system:String>
@@ -186,11 +190,12 @@
 	<system:String x:Key="Words.LocalDisk">Disco locale</system:String>
 	<system:String x:Key="Words.Login">Login</system:String>
 	<system:String x:Key="Words.MySubscription">Il mio abbonamento</system:String>
+	<system:String x:Key="Words.Namespace">Spazio dei nomi</system:String>
 	<system:String x:Key="Words.NOW">ORA</system:String>
 	<system:String x:Key="Words.Network">Rete</system:String>
 	<system:String x:Key="Words.NetworkDrive">Drive di rete</system:String>
 	<system:String x:Key="Words.NewDrive">Nuovo drive</system:String>
-	<system:String x:Key="Words.No">No</system:String>
+	<system:String x:Key="Words.No">NO</system:String>
 	<system:String x:Key="Words.Notice">Avviso</system:String>
 	<system:String x:Key="Words.Ok">Ok</system:String>
 	<system:String x:Key="Words.OneDrive.Files">File</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Connessione sicura</system:String>
 	<system:String x:Key="Words.SecureProtocol">Protocollo sicuro</system:String>
 	<system:String x:Key="Words.Send.Opinion">Invia opinione</system:String>
+	<system:String x:Key="Words.Service">Servizio</system:String>
+	<system:String x:Key="Words.ServiceKey">Chiave di servizio</system:String>
 	<system:String x:Key="Words.Settings">Impostazioni</system:String>
 	<system:String x:Key="Words.Share">Condividere</system:String>
 	<system:String x:Key="Words.ShareWithOther">Condividi con gli altri</system:String>

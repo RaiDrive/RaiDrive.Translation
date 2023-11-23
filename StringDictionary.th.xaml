@@ -16,7 +16,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">กรุณากรอกไอดีคีย์การเข้าถึง</system:String>
 	<system:String x:Key="Messages.EnterAccountID">กรุณากรอก ID บัญชี</system:String>
 	<system:String x:Key="Messages.EnterBucketName">โปรดป้อนชื่อที่ฝากข้อมูล</system:String>
+	<system:String x:Key="Messages.EnterCompany">กรุณากรอกชื่อบริษัท</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">โปรดกรอกชื่อโฮสต์หรือที่อยู่ไอพี</system:String>
+	<system:String x:Key="Messages.EnterNamespace">กรุณาใส่เนมสเปซ</system:String>
 	<system:String x:Key="Messages.EnterPassword">โปรดกรอกรหัสผ่าน</system:String>
 	<system:String x:Key="Messages.EnterPort">โปรดกรอกหมายเลขพอร์ต (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">กรุณากรอกคีย์ลับการเข้าถึง</system:String>
@@ -26,6 +28,7 @@
 	<system:String x:Key="Messages.EnterURL">โปรดกรอกลิ้งก์</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">โปรดป้อน URL ที่ขึ้นต้นด้วย https หรือ http</system:String>
 	<system:String x:Key="Messages.EnterUsername">โปรดกรอกชื่อผู้ใช้</system:String>
+	<system:String x:Key="Messages.EnterValue">กรุณาใส่ค่า</system:String>
 	<system:String x:Key="Messages.EnterVolume">โปรดกรอกชื่อไดร์ฟที่ถูกต้อง</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">พื้นที่จัดเก็บแคชไม่เพียงพอ คุณต้องเพิ่มพื้นที่จัดเก็บให้มากขึ้น</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">ไม่สามารถเชื่อมต่อกับพื้นที่จัดเก็บระยะไกลได้ โปรดตรวจสอบการเชื่อมต่อแล้วลองใหม่อีกครั้ง</system:String>
@@ -141,6 +144,7 @@
 	<system:String x:Key="Words.ClearLog">ล้างบันทึก</system:String>
 	<system:String x:Key="Words.Code">โค้ด</system:String>
 	<system:String x:Key="Words.Community">คอมมูนิตี้</system:String>
+	<system:String x:Key="Words.Company">บริษัท</system:String>
 	<system:String x:Key="Words.Connect">เชื่อมต่อ</system:String>
 	<system:String x:Key="Words.Connected">เชื่อมต่อแล้ว</system:String>
 	<system:String x:Key="Words.CountLeft">เหลือ</system:String>
@@ -187,6 +191,7 @@
 	<system:String x:Key="Words.LocalDisk">ดิสก์บนเครื่อง</system:String>
 	<system:String x:Key="Words.Login">เข้าสู่ระบบ</system:String>
 	<system:String x:Key="Words.MySubscription">การสมัครของฉัน</system:String>
+	<system:String x:Key="Words.Namespace">เนมสเปซ</system:String>
 	<system:String x:Key="Words.NOW">ตอนนี้</system:String>
 	<system:String x:Key="Words.Network">เครือข่าย</system:String>
 	<system:String x:Key="Words.NetworkDrive">ไดร์ฟเครือข่าย</system:String>
@@ -224,6 +229,8 @@
 	<system:String x:Key="Words.SecureConnection">การเชื่อมต่อปลอดภัย</system:String>
 	<system:String x:Key="Words.SecureProtocol">โปรโตคอลปลอดภัย</system:String>
 	<system:String x:Key="Words.Send.Opinion">ส่งความคิดเห็น</system:String>
+	<system:String x:Key="Words.Service">บริการ</system:String>
+	<system:String x:Key="Words.ServiceKey">คีย์บริการ</system:String>
 	<system:String x:Key="Words.Settings">ตั้งค่า</system:String>
 	<system:String x:Key="Words.Share">แบ่งปัน</system:String>
 	<system:String x:Key="Words.ShareWithOther">แชร์กับคนอื่น</system:String>

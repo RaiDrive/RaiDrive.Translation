@@ -17,7 +17,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">من فضلك أدخل Access Key ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">الرجاء إدخال معرف الحساب</system:String>
 	<system:String x:Key="Messages.EnterBucketName">الرجاء إدخال اسم المستودع</system:String>
+	<system:String x:Key="Messages.EnterCompany">الرجاء إدخال شركة</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">الرجاء ادخال اسم أو عنوان الخادم</system:String>
+	<system:String x:Key="Messages.EnterNamespace">الرجاء إدخال مساحة الاسم</system:String>
 	<system:String x:Key="Messages.EnterPassword">ادخل كملة المرور</system:String>
 	<system:String x:Key="Messages.EnterPort">الرجاء اختيار رقم المنفذ(1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">من فضلك أدخل Secret Access Key</system:String>
@@ -27,6 +29,7 @@
 	<system:String x:Key="Messages.EnterURL">الرجاء ادخال العنوان</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">الرجاء إدخال عنوان URL يبدأ https أو http</system:String>
 	<system:String x:Key="Messages.EnterUsername">ادخل اسم المستخدم</system:String>
+	<system:String x:Key="Messages.EnterValue">ادخل قيمه من فضلك</system:String>
 	<system:String x:Key="Messages.EnterVolume">الرجاء اختيار اسم وحدة تخزين مناسب</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">مساحة الذاكرة المؤقتة غير كافية. من الأفضل زيادة مساحة التخزين.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">فشل الاتصال بوحدة التخزين البعيدة. الرجاء التحقق من اتصالك بالانترنت وإعادة المحاولة مرة أخرى.</system:String>
@@ -142,6 +145,7 @@
 	<system:String x:Key="Words.ClearLog">حدف السجل</system:String>
 	<system:String x:Key="Words.Code">الرمز</system:String>
 	<system:String x:Key="Words.Community">المجتمع</system:String>
+	<system:String x:Key="Words.Company">شركة</system:String>
 	<system:String x:Key="Words.Connect">اتصل</system:String>
 	<system:String x:Key="Words.Connected">متصل</system:String>
 	<system:String x:Key="Words.CountLeft">المتبقي</system:String>
@@ -188,6 +192,7 @@
 	<system:String x:Key="Words.LocalDisk">قرص محلي</system:String>
 	<system:String x:Key="Words.Login">الدخول</system:String>
 	<system:String x:Key="Words.MySubscription">اشتراكي</system:String>
+	<system:String x:Key="Words.Namespace">مساحة الاسم</system:String>
 	<system:String x:Key="Words.NOW">الآن</system:String>
 	<system:String x:Key="Words.Network">شبكة</system:String>
 	<system:String x:Key="Words.NetworkDrive">محرك الشبكة</system:String>
@@ -225,6 +230,8 @@
 	<system:String x:Key="Words.SecureConnection">الاتصال الآمن</system:String>
 	<system:String x:Key="Words.SecureProtocol">الاتصال الآمن</system:String>
 	<system:String x:Key="Words.Send.Opinion">أرسل رأيك</system:String>
+	<system:String x:Key="Words.Service">خدمة</system:String>
+	<system:String x:Key="Words.ServiceKey">مفتاح الخدمة</system:String>
 	<system:String x:Key="Words.Settings">الإعدادات</system:String>
 	<system:String x:Key="Words.Share">شارك</system:String>
 	<system:String x:Key="Words.ShareWithOther">مشارك مع الآخرين</system:String>

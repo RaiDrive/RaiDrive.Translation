@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Vă rugăm să introduceți ID-ul cheii de acces</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Vă rugăm să introduceți ID-ul contului</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Introduceți un nume de grup</system:String>
+	<system:String x:Key="Messages.EnterCompany">Vă rugăm să introduceți o companie</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Introduceți un hostname sau o adresa IP</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Vă rugăm să introduceți un spațiu de nume</system:String>
 	<system:String x:Key="Messages.EnterPassword">Introduceți o parola</system:String>
 	<system:String x:Key="Messages.EnterPort">Introduceți port (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Vă rugăm să introduceți cheia de acces secretă</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Introduceți o adresa URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Vă rugăm să introduceți o adresă URL începând cu https sau http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Introduceți un username</system:String>
+	<system:String x:Key="Messages.EnterValue">Va rugăm să introduceți o valoare</system:String>
 	<system:String x:Key="Messages.EnterVolume">Introduceți o etichetă de volum validă</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Spațiul de stocare a cache-ului nu este suficient. Ar fi mai bine să creșteți spațiul de stocare.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Imposibil de conectat la spațiul de stocare de la distanță. Verificați conexiunea la internet și încercați din nou.</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Șterge log</system:String>
 	<system:String x:Key="Words.Code">Cod</system:String>
 	<system:String x:Key="Words.Community">Comunitate</system:String>
+	<system:String x:Key="Words.Company">Companie</system:String>
 	<system:String x:Key="Words.Connect">Conectați</system:String>
 	<system:String x:Key="Words.Connected">Conectat</system:String>
 	<system:String x:Key="Words.CountLeft">Rămas</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">Disc local</system:String>
 	<system:String x:Key="Words.Login">Logare</system:String>
 	<system:String x:Key="Words.MySubscription">Abonamentul meu</system:String>
+	<system:String x:Key="Words.Namespace">Spațiu de nume</system:String>
 	<system:String x:Key="Words.NOW">ACUM</system:String>
 	<system:String x:Key="Words.Network">Reţea</system:String>
 	<system:String x:Key="Words.NetworkDrive">Drive de rețea</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Conexiune Securizată</system:String>
 	<system:String x:Key="Words.SecureProtocol">Protocol securizat</system:String>
 	<system:String x:Key="Words.Send.Opinion">Trimite păreri</system:String>
+	<system:String x:Key="Words.Service">Serviciu</system:String>
+	<system:String x:Key="Words.ServiceKey">Cheie de serviciu</system:String>
 	<system:String x:Key="Words.Settings">Preferințe</system:String>
 	<system:String x:Key="Words.Share">Acțiune</system:String>
 	<system:String x:Key="Words.ShareWithOther">Distribuie altora</system:String>

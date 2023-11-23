@@ -16,7 +16,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Veuillez entrer l'ID de la clé d'accès</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Veuillez saisir l'identifiant du compte</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Veuillez saisir un nom de compartiment</system:String>
+	<system:String x:Key="Messages.EnterCompany">Veuillez entrer une entreprise</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Veuillez entrer un nom d'hôte ou une adresse IP</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Veuillez entrer un espace de nom</system:String>
 	<system:String x:Key="Messages.EnterPassword">Veuillez entrer un mot de passe</system:String>
 	<system:String x:Key="Messages.EnterPort">Veuillez entrer un numéro de port (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Veuillez entrer la clé d'accès secrète</system:String>
@@ -26,6 +28,7 @@
 	<system:String x:Key="Messages.EnterURL">Veuillez entrer une URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Veuillez entrer une URL commençant par https ou http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Veuillez entrer un nom d'utilisateur</system:String>
+	<system:String x:Key="Messages.EnterValue">entrer un nombre, SVP</system:String>
 	<system:String x:Key="Messages.EnterVolume">Veuillez entrer une étiquette de volume valide</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">L'espace de stockage du cache n'est pas suffisant. Vous feriez mieux d'augmenter l'espace de stockage.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Impossible de se connecter au stockage à distance. Veuillez vérifier votre connexion Internet et réessayer.</system:String>
@@ -141,6 +144,7 @@
 	<system:String x:Key="Words.ClearLog">Effacer le journal</system:String>
 	<system:String x:Key="Words.Code">Code</system:String>
 	<system:String x:Key="Words.Community">Communauté</system:String>
+	<system:String x:Key="Words.Company">Entreprise</system:String>
 	<system:String x:Key="Words.Connect">Connexion</system:String>
 	<system:String x:Key="Words.Connected">Lié</system:String>
 	<system:String x:Key="Words.CountLeft">A gauche</system:String>
@@ -159,7 +163,7 @@
 	<system:String x:Key="Words.Encryption">Chiffrement</system:String>
 	<system:String x:Key="Words.Endpoint">Point final</system:String>
 	<system:String x:Key="Words.Error">Erreur</system:String>
-	<system:String x:Key="Words.Etc">etc</system:String>
+	<system:String x:Key="Words.Etc">etc.</system:String>
 	<system:String x:Key="Words.Example.EmailAddress">id@exemple.com</system:String>
 	<system:String x:Key="Words.Example.HostAddress">host.exemple.com</system:String>
 	<system:String x:Key="Words.Exit">Sortie</system:String>
@@ -187,6 +191,7 @@
 	<system:String x:Key="Words.LocalDisk">Disque local</system:String>
 	<system:String x:Key="Words.Login">Connexion</system:String>
 	<system:String x:Key="Words.MySubscription">Mon abonnement</system:String>
+	<system:String x:Key="Words.Namespace">Espace de noms</system:String>
 	<system:String x:Key="Words.NOW">MAINTENANT</system:String>
 	<system:String x:Key="Words.Network">Réseau</system:String>
 	<system:String x:Key="Words.NetworkDrive">Lecteur réseau</system:String>
@@ -224,6 +229,8 @@
 	<system:String x:Key="Words.SecureConnection">Connexion sécurisée</system:String>
 	<system:String x:Key="Words.SecureProtocol">Protocole de sécurité</system:String>
 	<system:String x:Key="Words.Send.Opinion">Envoyer un avis</system:String>
+	<system:String x:Key="Words.Service">Service</system:String>
+	<system:String x:Key="Words.ServiceKey">Clé de service</system:String>
 	<system:String x:Key="Words.Settings">Paramètres</system:String>
 	<system:String x:Key="Words.Share">Partager</system:String>
 	<system:String x:Key="Words.ShareWithOther">Partagez avec les autres</system:String>

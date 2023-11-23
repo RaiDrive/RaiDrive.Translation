@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Please enter Access Key ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Please enter Account ID</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Please enter a bucket name</system:String>
+	<system:String x:Key="Messages.EnterCompany">Please enter a company</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Please enter a hostname or IP address</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Please enter a namespace</system:String>
 	<system:String x:Key="Messages.EnterPassword">Please enter a password</system:String>
 	<system:String x:Key="Messages.EnterPort">Please enter a port number (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Please enter Secret Access Key</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Please enter URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Please enter a URL starting https or http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Please enter a username</system:String>
+	<system:String x:Key="Messages.EnterValue">Please enter a value</system:String>
 	<system:String x:Key="Messages.EnterVolume">Please enter a valid volume label</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">The cache storage space is not enough. You'd better to increase storage space.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Unable to connect to remote storage. Please check your internet connection and try again.</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Clear log</system:String>
 	<system:String x:Key="Words.Code">Code</system:String>
 	<system:String x:Key="Words.Community">Community</system:String>
+	<system:String x:Key="Words.Company">Company</system:String>
 	<system:String x:Key="Words.Connect">Connect</system:String>
 	<system:String x:Key="Words.Connected">Connected</system:String>
 	<system:String x:Key="Words.CountLeft">Left</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">Local Disk</system:String>
 	<system:String x:Key="Words.Login">Login</system:String>
 	<system:String x:Key="Words.MySubscription">My Subscription</system:String>
+	<system:String x:Key="Words.Namespace">Namespace</system:String>
 	<system:String x:Key="Words.NOW">NOW</system:String>
 	<system:String x:Key="Words.Network">Network</system:String>
 	<system:String x:Key="Words.NetworkDrive">Network Drive</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Secure Connection</system:String>
 	<system:String x:Key="Words.SecureProtocol">Secure Protocol</system:String>
 	<system:String x:Key="Words.Send.Opinion">Send Opinion</system:String>
+	<system:String x:Key="Words.Service">Service</system:String>
+	<system:String x:Key="Words.ServiceKey">Service Key</system:String>
 	<system:String x:Key="Words.Settings">Settings</system:String>
 	<system:String x:Key="Words.Share">Share</system:String>
 	<system:String x:Key="Words.ShareWithOther">Share with others</system:String>

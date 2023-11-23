@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Kérjük, adja meg a hozzáférési kulcs azonosítóját</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Kérjük, adja meg a számlaazonosítót</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Kérjük, adja meg a csoport nevét</system:String>
+	<system:String x:Key="Messages.EnterCompany">Kérjük, adjon meg egy céget</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Kérem adjon meg egy kiszolgálónevet vagy IP címet</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Adjon meg egy névteret</system:String>
 	<system:String x:Key="Messages.EnterPassword">Kérem adjon meg egy jelszavat</system:String>
 	<system:String x:Key="Messages.EnterPort">Kérem adjon meg egy portszámot (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Kérjük, adja meg a titkos hozzáférési kulcsot</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Kérem adjon meg egy URL címet</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Kérjük, adjon meg egy https-sel vagy http-vel kezdődő URL-t</system:String>
 	<system:String x:Key="Messages.EnterUsername">Kérem adjon meg egy felhasználónevet</system:String>
+	<system:String x:Key="Messages.EnterValue">Adjon meg egy értéket</system:String>
 	<system:String x:Key="Messages.EnterVolume">Kérem adjon meg egy érvényes kötetcímkét</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">A gyorsítótár tárhely nem elegendő. Ajánlott megnövelni a tárhely méretét.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Nem lehetséges csatlakozni a távoli tárhelyhez. Kérem ellenőrizze az internetkapcsolatot, és próbálja újra!</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Napló törlése</system:String>
 	<system:String x:Key="Words.Code">Kód</system:String>
 	<system:String x:Key="Words.Community">Közösség</system:String>
+	<system:String x:Key="Words.Company">Vállalat</system:String>
 	<system:String x:Key="Words.Connect">Csatlakozás</system:String>
 	<system:String x:Key="Words.Connected">Kapcsolódva</system:String>
 	<system:String x:Key="Words.CountLeft">Maradt</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">Helyi lemez</system:String>
 	<system:String x:Key="Words.Login">Bejelentkezés</system:String>
 	<system:String x:Key="Words.MySubscription">Előfizetésem</system:String>
+	<system:String x:Key="Words.Namespace">Névtér</system:String>
 	<system:String x:Key="Words.NOW">MOST</system:String>
 	<system:String x:Key="Words.Network">Hálózat</system:String>
 	<system:String x:Key="Words.NetworkDrive">Hálózati meghajtó</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Biztonságos kapcsolat</system:String>
 	<system:String x:Key="Words.SecureProtocol">Biztonságos protokoll</system:String>
 	<system:String x:Key="Words.Send.Opinion">Vélemény elküldése</system:String>
+	<system:String x:Key="Words.Service">Szolgáltatás</system:String>
+	<system:String x:Key="Words.ServiceKey">Szervizkulcs</system:String>
 	<system:String x:Key="Words.Settings">Beállítások</system:String>
 	<system:String x:Key="Words.Share">Ossza meg</system:String>
 	<system:String x:Key="Words.ShareWithOther">Oszd meg másokkal</system:String>

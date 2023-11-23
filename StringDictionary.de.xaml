@@ -16,7 +16,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Bitte gib den Access Key ID ein.</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Bitte geben Sie die Konto-ID ein</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Bitte geben Sie einen Bucket-Namen ein</system:String>
+	<system:String x:Key="Messages.EnterCompany">Bitte geben Sie ein Unternehmen ein</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Bitte geben Sie Hostname und IP Adresse ein</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Bitte geben Sie einen Namensraum ein</system:String>
 	<system:String x:Key="Messages.EnterPassword">Bitte geben Sie ein Passwort ein</system:String>
 	<system:String x:Key="Messages.EnterPort">Bitte geben sie eine Port Nummer ein (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Bitte gib den Secret Access Key ein.</system:String>
@@ -26,6 +28,7 @@
 	<system:String x:Key="Messages.EnterURL">Bitte geben Sie eine URL ein</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Bitte geben Sie eine URL ein, die mit https oder http beginnt</system:String>
 	<system:String x:Key="Messages.EnterUsername">Bitte geben Sie einen Benutzernamen ein</system:String>
+	<system:String x:Key="Messages.EnterValue">Bitte einen Wert eingeben</system:String>
 	<system:String x:Key="Messages.EnterVolume">Bitte wählen sie ein gültiges Label</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Der Cache Speicher reicht nicht aus. Bitte geben Sie Speicher frei.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Verbundung zum Speicher nicht möglich. Prüfen Sie Ihre Internetverbindung und versuche Sie es erneut.</system:String>
@@ -141,6 +144,7 @@
 	<system:String x:Key="Words.ClearLog">Log leeren</system:String>
 	<system:String x:Key="Words.Code">Code</system:String>
 	<system:String x:Key="Words.Community">Gemeinschaft</system:String>
+	<system:String x:Key="Words.Company">Unternehmen</system:String>
 	<system:String x:Key="Words.Connect">Verbinden</system:String>
 	<system:String x:Key="Words.Connected">Verbunden</system:String>
 	<system:String x:Key="Words.CountLeft">Übrig</system:String>
@@ -159,7 +163,7 @@
 	<system:String x:Key="Words.Encryption">Verschlüsselung</system:String>
 	<system:String x:Key="Words.Endpoint">Endpunkt</system:String>
 	<system:String x:Key="Words.Error">Fehler</system:String>
-	<system:String x:Key="Words.Etc">etc</system:String>
+	<system:String x:Key="Words.Etc">usw</system:String>
 	<system:String x:Key="Words.Example.EmailAddress">mail@beispiel.com</system:String>
 	<system:String x:Key="Words.Example.HostAddress">host.beispiel.com</system:String>
 	<system:String x:Key="Words.Exit">Schließen</system:String>
@@ -187,6 +191,7 @@
 	<system:String x:Key="Words.LocalDisk">Lokale Festplatte</system:String>
 	<system:String x:Key="Words.Login">Anmeldung</system:String>
 	<system:String x:Key="Words.MySubscription">Mein Abonnement</system:String>
+	<system:String x:Key="Words.Namespace">Namensraum</system:String>
 	<system:String x:Key="Words.NOW">JETZT</system:String>
 	<system:String x:Key="Words.Network">Netzwerk</system:String>
 	<system:String x:Key="Words.NetworkDrive">Netzwerkadresse</system:String>
@@ -207,7 +212,7 @@
 	<system:String x:Key="Words.Progress">Fortschritt</system:String>
 	<system:String x:Key="Words.Project">Projekt</system:String>
 	<system:String x:Key="Words.Properties">Eigenschaften</system:String>
-	<system:String x:Key="Words.Proxy">Proxy</system:String>
+	<system:String x:Key="Words.Proxy">Stellvertreter</system:String>
 	<system:String x:Key="Words.Public">Öffentlich</system:String>
 	<system:String x:Key="Words.Read">Lesen</system:String>
 	<system:String x:Key="Words.ReadOnly">Schreibgeschützt</system:String>
@@ -224,6 +229,8 @@
 	<system:String x:Key="Words.SecureConnection">Sichere Verbindung</system:String>
 	<system:String x:Key="Words.SecureProtocol">Sicherheitsprotokoll</system:String>
 	<system:String x:Key="Words.Send.Opinion">Meinung Senden</system:String>
+	<system:String x:Key="Words.Service">Service</system:String>
+	<system:String x:Key="Words.ServiceKey">Serviceschlüssel</system:String>
 	<system:String x:Key="Words.Settings">Einstellungen</system:String>
 	<system:String x:Key="Words.Share">Teilen</system:String>
 	<system:String x:Key="Words.ShareWithOther">Mit anderen teilen</system:String>

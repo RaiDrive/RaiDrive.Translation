@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Моля, въведете идентификатор на ключа за достъп</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Моля, въведете ID на акаунта</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Моля, въведете име на кофа</system:String>
+	<system:String x:Key="Messages.EnterCompany">Моля, въведете фирма</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Моля, въведете име на хост или IP адрес</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Моля, въведете пространство от имена</system:String>
 	<system:String x:Key="Messages.EnterPassword">Моля, въведете парола</system:String>
 	<system:String x:Key="Messages.EnterPort">Моля, въведете номер на порт (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Моля, въведете тайния ключ за достъп</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Моля, въведете URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Моля, въведете URL, започващ с https или http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Моля, въведете потребителско име</system:String>
+	<system:String x:Key="Messages.EnterValue">Моля, въведете стойност</system:String>
 	<system:String x:Key="Messages.EnterVolume">Моля, въведете валидно име за диска</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Мястото за съхранение в кеша не е достатъчно. По-добре увеличете пространството за съхранение.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Не може да се свържете с отдалечено хранилище. Проверете вашата интернет връзка и опитайте отново.</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Изчистване на дневника</system:String>
 	<system:String x:Key="Words.Code">Код</system:String>
 	<system:String x:Key="Words.Community">Общност</system:String>
+	<system:String x:Key="Words.Company">Компания</system:String>
 	<system:String x:Key="Words.Connect">Свързване</system:String>
 	<system:String x:Key="Words.Connected">Свързани</system:String>
 	<system:String x:Key="Words.CountLeft">Остава</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">Локален диск</system:String>
 	<system:String x:Key="Words.Login">Вход</system:String>
 	<system:String x:Key="Words.MySubscription">Моят абонамент</system:String>
+	<system:String x:Key="Words.Namespace">Пространство от имена</system:String>
 	<system:String x:Key="Words.NOW">СЕГА</system:String>
 	<system:String x:Key="Words.Network">Мрежа</system:String>
 	<system:String x:Key="Words.NetworkDrive">Мрежово устройство</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Сигурна връзка</system:String>
 	<system:String x:Key="Words.SecureProtocol">Сигурен протокол</system:String>
 	<system:String x:Key="Words.Send.Opinion">Изпратете мнение</system:String>
+	<system:String x:Key="Words.Service">Обслужване</system:String>
+	<system:String x:Key="Words.ServiceKey">Сервизен ключ</system:String>
 	<system:String x:Key="Words.Settings">Настройки</system:String>
 	<system:String x:Key="Words.Share">Дял</system:String>
 	<system:String x:Key="Words.ShareWithOther">Споделено с други</system:String>

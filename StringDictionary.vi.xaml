@@ -18,7 +18,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Vui lòng nhập ID khóa truy cập</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Vui lòng nhập ID tài khoản</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Vui lòng nhập tên bucket</system:String>
+	<system:String x:Key="Messages.EnterCompany">Vui lòng nhập một công ty</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Vui lòng nhập tên máy chủ hoặc địa chỉ IP</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Vui lòng nhập một không gian tên</system:String>
 	<system:String x:Key="Messages.EnterPassword">Vui lòng nhập mật khẩu</system:String>
 	<system:String x:Key="Messages.EnterPort">Vui lòng nhập giá trị cổng (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Vui lòng nhập Khóa truy cập bí mật</system:String>
@@ -28,6 +30,7 @@
 	<system:String x:Key="Messages.EnterURL">Vui lòng nhập đường link</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Vui lòng nhập URL bắt đầu bằng https hoặc http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Vui lòng nhập tên tài khoản</system:String>
+	<system:String x:Key="Messages.EnterValue">Vui lòng nhập một giá trị</system:String>
 	<system:String x:Key="Messages.EnterVolume">Vui lòng nhập thông tin hợp lệ</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Dung lượng lưu trữ bộ nhớ cache không đủ. Bạn nên tăng dung lượng lưu trữ.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Không thể kết nối với bộ nhớ từ xa. Vui lòng kiểm tra kết nối internet của bạn và thử lại.</system:String>
@@ -143,6 +146,7 @@
 	<system:String x:Key="Words.ClearLog">Dọn nhật ký</system:String>
 	<system:String x:Key="Words.Code">Mã số</system:String>
 	<system:String x:Key="Words.Community">Cộng đồng</system:String>
+	<system:String x:Key="Words.Company">Công ty</system:String>
 	<system:String x:Key="Words.Connect">Kết nối</system:String>
 	<system:String x:Key="Words.Connected">Đã kết nối</system:String>
 	<system:String x:Key="Words.CountLeft">Bên trái</system:String>
@@ -189,6 +193,7 @@
 	<system:String x:Key="Words.LocalDisk">Đĩa cục bộ</system:String>
 	<system:String x:Key="Words.Login">Đăng nhập</system:String>
 	<system:String x:Key="Words.MySubscription">Đăng ký của tôi</system:String>
+	<system:String x:Key="Words.Namespace">không gian tên</system:String>
 	<system:String x:Key="Words.NOW">NGAY</system:String>
 	<system:String x:Key="Words.Network">Mạng</system:String>
 	<system:String x:Key="Words.NetworkDrive">Phân vùng mạng</system:String>
@@ -226,6 +231,8 @@
 	<system:String x:Key="Words.SecureConnection">Kết nối an toàn</system:String>
 	<system:String x:Key="Words.SecureProtocol">Giao thức an toàn</system:String>
 	<system:String x:Key="Words.Send.Opinion">Gửi ý kiến</system:String>
+	<system:String x:Key="Words.Service">Dịch vụ</system:String>
+	<system:String x:Key="Words.ServiceKey">Khóa dịch vụ</system:String>
 	<system:String x:Key="Words.Settings">Cài đặt</system:String>
 	<system:String x:Key="Words.Share">Chia sẻ</system:String>
 	<system:String x:Key="Words.ShareWithOther">Chia sẻ với người khác</system:String>

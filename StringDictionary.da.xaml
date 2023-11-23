@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Indtast venligst adgangsnøgle-id</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Indtast venligst konto-id</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Indtast venligst et spandnavn</system:String>
+	<system:String x:Key="Messages.EnterCompany">Indtast venligst en virksomhed</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Indtast venligst et værtsnavn eller en IP-adresse</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Indtast venligst et navneområde</system:String>
 	<system:String x:Key="Messages.EnterPassword">Indtast venligst en adgangskode</system:String>
 	<system:String x:Key="Messages.EnterPort">Indtast venligst et portnummer (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Indtast venligst hemmelig adgangsnøgle</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Indtast venligst en URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Indtast venligst en URL, der starter https eller http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Indtast venligst et brugernavn</system:String>
+	<system:String x:Key="Messages.EnterValue">Indtast venligst en værdi</system:String>
 	<system:String x:Key="Messages.EnterVolume">Indtast venligst et gyldigt drevnavn</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Størrelsen på cache-lageret er ikke stor nok. Forøg størrelsen på lageret.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Ude af stand til at forbinde til fjerndrevet. Kontroller venligst din internetforbindelse og prøv igen.</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Slet log</system:String>
 	<system:String x:Key="Words.Code">Kode</system:String>
 	<system:String x:Key="Words.Community">Fællesskab</system:String>
+	<system:String x:Key="Words.Company">Selskab</system:String>
 	<system:String x:Key="Words.Connect">Forbind</system:String>
 	<system:String x:Key="Words.Connected">Forbundet</system:String>
 	<system:String x:Key="Words.CountLeft">Tilbage</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">Lokal disk</system:String>
 	<system:String x:Key="Words.Login">Log ind</system:String>
 	<system:String x:Key="Words.MySubscription">Mit abonnement</system:String>
+	<system:String x:Key="Words.Namespace">Navneområde</system:String>
 	<system:String x:Key="Words.NOW">NU</system:String>
 	<system:String x:Key="Words.Network">Netværk</system:String>
 	<system:String x:Key="Words.NetworkDrive">Netværksdrev</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Sikker Forbindelse</system:String>
 	<system:String x:Key="Words.SecureProtocol">Sikker Protokol</system:String>
 	<system:String x:Key="Words.Send.Opinion">Send din mening</system:String>
+	<system:String x:Key="Words.Service">Service</system:String>
+	<system:String x:Key="Words.ServiceKey">Servicenøgle</system:String>
 	<system:String x:Key="Words.Settings">Indstillinger</system:String>
 	<system:String x:Key="Words.Share">Del</system:String>
 	<system:String x:Key="Words.ShareWithOther">Del med andre</system:String>

@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Пожалуйста, введите ID ключа</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Пожалуйста, введите идентификатор учетной записи</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Пожалуйста, введите название корзины</system:String>
+	<system:String x:Key="Messages.EnterCompany">Пожалуйста, введите компанию</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Введите имя хоста или IP-адрес</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Пожалуйста, введите пространство имен</system:String>
 	<system:String x:Key="Messages.EnterPassword">Введите пароль</system:String>
 	<system:String x:Key="Messages.EnterPort">Укажите порт (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Пожалуйста, введите секретный ключ</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Введите URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Пожалуйста, введите URL, начинающийся с https или http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Введите логин</system:String>
+	<system:String x:Key="Messages.EnterValue">Пожалуйста, введите значение</system:String>
 	<system:String x:Key="Messages.EnterVolume">Введите допустимую метку тома</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Недостаточно места для хранения кэша. Увеличьте место для хранения.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Не удаётся подключиться к удалённому хранилищу. Проверьте подключение к Интернету и повторите попытку.</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Очистить журнал</system:String>
 	<system:String x:Key="Words.Code">Код</system:String>
 	<system:String x:Key="Words.Community">Сообщество</system:String>
+	<system:String x:Key="Words.Company">Компания</system:String>
 	<system:String x:Key="Words.Connect">Подключить</system:String>
 	<system:String x:Key="Words.Connected">Подключено</system:String>
 	<system:String x:Key="Words.CountLeft">Осталось</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">Локальный диск</system:String>
 	<system:String x:Key="Words.Login">Войти</system:String>
 	<system:String x:Key="Words.MySubscription">Моя подписка</system:String>
+	<system:String x:Key="Words.Namespace">Пространство имен</system:String>
 	<system:String x:Key="Words.NOW">СЕЙЧАС</system:String>
 	<system:String x:Key="Words.Network">Сеть</system:String>
 	<system:String x:Key="Words.NetworkDrive">Сетевой диск</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Безопасное подключение</system:String>
 	<system:String x:Key="Words.SecureProtocol">Безопасный протокол</system:String>
 	<system:String x:Key="Words.Send.Opinion">Отправить мнение</system:String>
+	<system:String x:Key="Words.Service">Услуга</system:String>
+	<system:String x:Key="Words.ServiceKey">Сервисный ключ</system:String>
 	<system:String x:Key="Words.Settings">Настройки</system:String>
 	<system:String x:Key="Words.Share">Делиться</system:String>
 	<system:String x:Key="Words.ShareWithOther">Предоставлено другим</system:String>

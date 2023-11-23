@@ -16,7 +16,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Sila masukkan ID Kekunci Akses</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Sila masukkan ID Akaun</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Sila masukkan nama baldi</system:String>
+	<system:String x:Key="Messages.EnterCompany">Sila masukkan syarikat</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Sila isi nama hos atau alamat IP</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Sila masukkan ruang nama</system:String>
 	<system:String x:Key="Messages.EnterPassword">Sila isi kata laluan</system:String>
 	<system:String x:Key="Messages.EnterPort">Sila isi nombor port (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Sila masukkan Kekunci Akses Rahsia</system:String>
@@ -26,6 +28,7 @@
 	<system:String x:Key="Messages.EnterURL">Sila isi URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Sila masukkan URL bermula https atau http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Sila isi nama pengguna</system:String>
+	<system:String x:Key="Messages.EnterValue">Sila masukkan nilai</system:String>
 	<system:String x:Key="Messages.EnterVolume">Sila masukkan tanda pemacu yang sah</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Ruang simpanan cache tidak mencukupi. Sebaiknya anda menambahkan ruangan pemyimpanan.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Tidak dapat menyambungkan simpanan luar. Sila semak sambungan rangkaian anda dan cuba lagi.</system:String>
@@ -141,6 +144,7 @@
 	<system:String x:Key="Words.ClearLog">Padam log</system:String>
 	<system:String x:Key="Words.Code">Kod</system:String>
 	<system:String x:Key="Words.Community">Komuniti</system:String>
+	<system:String x:Key="Words.Company">Syarikat</system:String>
 	<system:String x:Key="Words.Connect">Sambungkan</system:String>
 	<system:String x:Key="Words.Connected">Bersambung</system:String>
 	<system:String x:Key="Words.CountLeft">Tinggal</system:String>
@@ -187,6 +191,7 @@
 	<system:String x:Key="Words.LocalDisk">Pemacu Setempat</system:String>
 	<system:String x:Key="Words.Login">Log Masuk</system:String>
 	<system:String x:Key="Words.MySubscription">Langganan saya</system:String>
+	<system:String x:Key="Words.Namespace">Ruang nama</system:String>
 	<system:String x:Key="Words.NOW">SEKARANG</system:String>
 	<system:String x:Key="Words.Network">Rangkaian</system:String>
 	<system:String x:Key="Words.NetworkDrive">Pemacu Rangkaian</system:String>
@@ -224,6 +229,8 @@
 	<system:String x:Key="Words.SecureConnection">Sambungan Selamat</system:String>
 	<system:String x:Key="Words.SecureProtocol">Protokol Selamat</system:String>
 	<system:String x:Key="Words.Send.Opinion">Hantar Pandangan</system:String>
+	<system:String x:Key="Words.Service">Perkhidmatan</system:String>
+	<system:String x:Key="Words.ServiceKey">Kunci Perkhidmatan</system:String>
 	<system:String x:Key="Words.Settings">Tetapan</system:String>
 	<system:String x:Key="Words.Share">Kongsi</system:String>
 	<system:String x:Key="Words.ShareWithOther">Kongsi dengan yang lain</system:String>

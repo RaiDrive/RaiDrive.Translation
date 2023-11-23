@@ -15,7 +15,9 @@
 	<system:String x:Key="Messages.EnterAccessKeyID">Wprowadź Access Key ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Wprowadź identyfikator konta</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Wprowadź nazwę zasobnika</system:String>
+	<system:String x:Key="Messages.EnterCompany">Wprowadź firmę</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Wprowadź nazwę serwera lub adres IP</system:String>
+	<system:String x:Key="Messages.EnterNamespace">Wprowadź przestrzeń nazw</system:String>
 	<system:String x:Key="Messages.EnterPassword">Wprowadź hasło</system:String>
 	<system:String x:Key="Messages.EnterPort">Wprowadź numer portu (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Wprowadź Secret Access Key</system:String>
@@ -25,6 +27,7 @@
 	<system:String x:Key="Messages.EnterURL">Wprowadź adres URL</system:String>
 	<system:String x:Key="Messages.EnterURLStarting">Wprowadź adres URL zaczynający się od https lub http</system:String>
 	<system:String x:Key="Messages.EnterUsername">Wprowadź nazwę użytkownika</system:String>
+	<system:String x:Key="Messages.EnterValue">proszę wprowadzić wartość</system:String>
 	<system:String x:Key="Messages.EnterVolume">Wprowadź poprawne oznaczenie woliumu</system:String>
 	<system:String x:Key="Messages.Error.CacheDiskFull">Pamięć na pliki cache jest niewystarczająca. Zwolnij miejsce na dysku.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Połączenie do zdalnego dysku jest niemożliwe. Sprawdź swoje połączenie internetowe i spróbuj ponownie.</system:String>
@@ -140,6 +143,7 @@
 	<system:String x:Key="Words.ClearLog">Wyczyść logi</system:String>
 	<system:String x:Key="Words.Code">Kod</system:String>
 	<system:String x:Key="Words.Community">Społeczność</system:String>
+	<system:String x:Key="Words.Company">Firma</system:String>
 	<system:String x:Key="Words.Connect">Połącz</system:String>
 	<system:String x:Key="Words.Connected">Połączony</system:String>
 	<system:String x:Key="Words.CountLeft">Lewy</system:String>
@@ -186,6 +190,7 @@
 	<system:String x:Key="Words.LocalDisk">Lokalny dysk</system:String>
 	<system:String x:Key="Words.Login">Zaloguj sie</system:String>
 	<system:String x:Key="Words.MySubscription">Moja subskrypcja</system:String>
+	<system:String x:Key="Words.Namespace">Przestrzeń nazw</system:String>
 	<system:String x:Key="Words.NOW">Terz</system:String>
 	<system:String x:Key="Words.Network">Sieć</system:String>
 	<system:String x:Key="Words.NetworkDrive">Dysk sieciowy</system:String>
@@ -223,6 +228,8 @@
 	<system:String x:Key="Words.SecureConnection">Bezpieczne połączenie</system:String>
 	<system:String x:Key="Words.SecureProtocol">Bezpieczny protokół</system:String>
 	<system:String x:Key="Words.Send.Opinion">Wyślij opcje</system:String>
+	<system:String x:Key="Words.Service">Praca</system:String>
+	<system:String x:Key="Words.ServiceKey">Klucz serwisowy</system:String>
 	<system:String x:Key="Words.Settings">Ustawienia</system:String>
 	<system:String x:Key="Words.Share">Udział</system:String>
 	<system:String x:Key="Words.ShareWithOther">Podziel się z innymi</system:String>
