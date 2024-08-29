@@ -3,7 +3,7 @@
 		<system:String>kostefun</system:String>
 	</x:Array>
 	<system:String x:Key="Language.English">Russian</system:String>
-	<system:String x:Key="Language.Native">русский</system:String>
+	<system:String x:Key="Language.Native">Русский</system:String>
 	<system:String x:Key="Language.Tags">ru</system:String>
 
 	<system:String x:Key="Messages.Cache.FolderNotSupport">Временная папка должна быть на локальном диске. Сетевой диск не поддерживается.</system:String>
@@ -67,13 +67,13 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">Выберите приватный ключ</system:String>
 	<system:String x:Key="Messages.SelectedPath">Выбранный путь</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Выберите удалённую папку для хранения файлов</system:String>
-	<system:String x:Key="Messages.Service.Alive">Нажмите OK, чтобы оживить RaiDrive.</system:String>
+	<system:String x:Key="Messages.Service.Alive">Нажмите OK, чтобы RaiDrive стал активен.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">Служба RaiDrive была остановлена.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Функционал вашей подписки будет отключен, а диски будут переподключены. Сохраните файл(ы) или закройте приложение.</system:String>
 	<system:String x:Key="Messages.SignOut.Question2">Вы уверены, что хотите выйти?</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">Текущая сессия запрошена для возврата в другую сессию{0}. Все диски будут переподключены. Сохраните файл(ы) или закройте приложение.</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">Это будет применено после {0}, для немедленного применения нажмите кнопку OK.</system:String>
-	<system:String x:Key="Messages.SureDelete">Удалить безвозвратно "{0} ({1})" ?</system:String>
+	<system:String x:Key="Messages.SureDelete">Удалить безвозвратно &quot;{0} ({1})&quot;?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">Размер диска неизвестен</system:String>
 	<system:String x:Key="Messages.Upgrade.New">Вы можете установить новую версию</system:String>
 	<system:String x:Key="Messages.Upgrade.NewVersion">Возможно обновление до версии {0}</system:String>
@@ -90,10 +90,10 @@
 	<system:String x:Key="Phrases.FilePreview">Предварительный просмотр файла</system:String>
 	<system:String x:Key="Phrases.FilesystemWatcher">Мониторинг доступа к файлам</system:String>
 	<system:String x:Key="Phrases.FolderUrl">URL папки</system:String>
-	<system:String x:Key="Phrases.FolderUrlID">URL-адрес папки или идентификатор</system:String>
+	<system:String x:Key="Phrases.FolderUrlID">URL папки или идентификатор</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Следить за последними</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">Версия для бизнеса</system:String>
-	<system:String x:Key="Phrases.KeepModifiedDate">Постарайся сохранить "Дата изменена" при копировании</system:String>
+	<system:String x:Key="Phrases.KeepModifiedDate">Постарайтесь сохранить &quot;Дата изменена&quot; при копировании</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Подключать при загрузке</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Подключать при входе</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Подключать при запуске программы</system:String>
@@ -102,7 +102,7 @@
 	<system:String x:Key="Phrases.OpenRaiDrive">Открыть RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Перезаписать целевой</system:String>
 	<system:String x:Key="Phrases.PerformanceExtension">Быстрое копирование/Перемещение/Удаление для удаленного хранилища</system:String>
-	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive - переподключение</system:String>
+	<system:String x:Key="Phrases.RaiDriveReconnect">Переподключение RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Добавить в автозагрузку</system:String>
 	<system:String x:Key="Phrases.RenameSource">Переименовать исходный</system:String>
 	<system:String x:Key="Phrases.RunAtBoot">Запускать программу вместе с Windows</system:String>
@@ -186,11 +186,11 @@
 	<system:String x:Key="Words.Language">Язык</system:String>
 	<system:String x:Key="Words.License">Лицензия</system:String>
 	<system:String x:Key="Words.Lifetime">Хранить</system:String>
-	<system:String x:Key="Words.Like">Лайк</system:String>
+	<system:String x:Key="Words.Like">Нравится</system:String>
 	<system:String x:Key="Words.LocalDisk">Локальный диск</system:String>
 	<system:String x:Key="Words.Login">Войти</system:String>
 	<system:String x:Key="Words.MySubscription">Моя подписка</system:String>
-	<system:String x:Key="Words.Namespace">Пространство имен</system:String>
+	<system:String x:Key="Words.Namespace">Пространство имён</system:String>
 	<system:String x:Key="Words.NOW">СЕЙЧАС</system:String>
 	<system:String x:Key="Words.Network">Сеть</system:String>
 	<system:String x:Key="Words.NetworkDrive">Сетевой диск</system:String>
@@ -213,7 +213,7 @@
 	<system:String x:Key="Words.Properties">Свойства</system:String>
 	<system:String x:Key="Words.Proxy">Прокси</system:String>
 	<system:String x:Key="Words.Public">Публичный</system:String>
-	<system:String x:Key="Words.Read">чтение</system:String>
+	<system:String x:Key="Words.Read">Чтение</system:String>
 	<system:String x:Key="Words.ReadOnly">Только чтение</system:String>
 	<system:String x:Key="Words.Reading">Чтение</system:String>
 	<system:String x:Key="Words.Ready">Готов</system:String>
@@ -222,8 +222,8 @@
 	<system:String x:Key="Words.Remove">Удалить</system:String>
 	<system:String x:Key="Words.Retry">Повторить</system:String>
 	<system:String x:Key="Words.Save">Сохранить</system:String>
-	<system:String x:Key="Words.Second">секунд</system:String>
-	<system:String x:Key="Words.Seconds">секунд</system:String>
+	<system:String x:Key="Words.Second">секунда</system:String>
+	<system:String x:Key="Words.Seconds">секунды</system:String>
 	<system:String x:Key="Words.SecretAccessKey">Ключ доступа</system:String>
 	<system:String x:Key="Words.SecureConnection">Безопасное подключение</system:String>
 	<system:String x:Key="Words.SecureProtocol">Безопасный протокол</system:String>
@@ -231,7 +231,7 @@
 	<system:String x:Key="Words.Service">Услуга</system:String>
 	<system:String x:Key="Words.ServiceKey">Сервисный ключ</system:String>
 	<system:String x:Key="Words.Settings">Настройки</system:String>
-	<system:String x:Key="Words.Share">Делиться</system:String>
+	<system:String x:Key="Words.Share">Поделиться</system:String>
 	<system:String x:Key="Words.ShareWithOther">Предоставлено другим</system:String>
 	<system:String x:Key="Words.SharedWithMe">Предоставлено мне</system:String>
 	<system:String x:Key="Words.SignIn">Войти</system:String>
@@ -263,7 +263,7 @@
 	<system:String x:Key="Words.Username">Логин</system:String>
 	<system:String x:Key="Words.VolumeLabel">Метка тома</system:String>
 	<system:String x:Key="Words.WritableDrive">Записываемый диск</system:String>
-	<system:String x:Key="Words.Write">запись</system:String>
+	<system:String x:Key="Words.Write">Запись</system:String>
 	<system:String x:Key="Words.Writing">Запись</system:String>
 	<system:String x:Key="Words.Yes">Да</system:String>
 </ResourceDictionary>
