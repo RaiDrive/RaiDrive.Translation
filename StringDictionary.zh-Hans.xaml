@@ -8,10 +8,12 @@
 	<system:String x:Key="Language.Native">中文（简体）</system:String>
 	<system:String x:Key="Language.Tags">zh-Hans</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">它适用于复制、移动或重命名文件和文件夹。</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">您的临时文件夹必须为本地驱动器上的文件夹, 不支持网络驱动器.</system:String>
 	<system:String x:Key="Messages.CheckAddress">请检查地址是否正确.</system:String>
 	<system:String x:Key="Messages.CheckPort">连接被重置, 请检查端口 {0} 是否正确.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">请仔细检查协议 {0} 和端口 {1} 是否正确.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">它会尝试立即检查远程文件的更改。</system:String>
 	<system:String x:Key="Messages.CurrentVersion">当前版本为 {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">委派已终止</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">请输入 Access Key ID</system:String>
@@ -53,6 +55,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">在当前版本里，您可以最多建立 8 个驱动器</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">挂载到文件夹仅在基本或动态NTFS卷上的空文件夹上可用。</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">要挂载到文件夹，需要勾选“模拟本地磁盘”选项</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">设备驱动程序安装失败。</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">欢迎，这是安装的最后一步，将安装设备驱动程序。</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">系统上未安装设备驱动程序. 您需要重新安装 RaiDrive.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive 尚未准备好启动, 您需要重启系统.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox 支持 Internet Explorer 10, 11. 建议您安装 Internet Explorer 11.</system:String>
@@ -69,6 +73,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">您可以选择一个私钥文件</system:String>
 	<system:String x:Key="Messages.SelectedPath">选择文件夹</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">选择要存储文件的远程目录</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">我们开始使用 RaiDrive 好吗？</system:String>
 	<system:String x:Key="Messages.Service.Alive">请按 [确定] 按钮, RaiDrive 会重新启动.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">RaiDrive 服务已停止.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">您的订阅功能将被禁用. 所有驱动器将重新连接. 请保存文件并关闭相应的应用程序.</system:String>
@@ -86,6 +91,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">无痕浏览</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">使用 RaiDrive 连接中</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">删除文件夹</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">设备驱动</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">重复的路径</system:String>
 	<system:String x:Key="Phrases.FileInUse">正在使用的文件: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV 文件锁</system:String>
@@ -95,7 +101,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">文件夹路径或 ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">保持最新</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">商业版本</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">立即获取文件属性</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">复制时尝试保持原修改日期</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">维护文件和文件夹的“修改日期”</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">启动 Windows 后自动连接</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">登录 Windows 后自动连接</system:String>
 	<system:String x:Key="Phrases.MountAtStart">启动 RaiDrive 后自动连接</system:String>
@@ -103,7 +111,7 @@
 	<system:String x:Key="Phrases.OfflineMode">离线模式</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">启动 RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">覆盖目标文件</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">对远程存储启用快速复制/移动/删除</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">对远程存储启用快速复制/移动/删除</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive 重连</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">添加到启动项</system:String>
 	<system:String x:Key="Phrases.RenameSource">重命名源文件</system:String>
@@ -111,10 +119,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">在连接虚拟驱动器后打开文件资源管理器</system:String>
 	<system:String x:Key="Phrases.SelectFolder">选择文件夹</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">重启 RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">启动RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">可用空间 {0} / 总容量 {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">切换到{0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">异步提交存储更改</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">允许虚拟驱动器使用自定义图标</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">不可用的选项</system:String>
 	<system:String x:Key="Words.AccessKeyID">访问密钥 ID</system:String>
 	<system:String x:Key="Words.Account">账户</system:String>
 	<system:String x:Key="Words.AccountId">帐户ID</system:String>
@@ -191,6 +201,7 @@
 	<system:String x:Key="Words.Like">赞</system:String>
 	<system:String x:Key="Words.LocalDisk">模拟本地磁盘</system:String>
 	<system:String x:Key="Words.Login">登录</system:String>
+	<system:String x:Key="Words.Management">管理</system:String>
 	<system:String x:Key="Words.MySubscription">我的订阅</system:String>
 	<system:String x:Key="Words.Namespace">命名空间</system:String>
 	<system:String x:Key="Words.NOW">立刻</system:String>
@@ -220,6 +231,7 @@
 	<system:String x:Key="Words.Reading">读取中</system:String>
 	<system:String x:Key="Words.Ready">就绪</system:String>
 	<system:String x:Key="Words.Reason">原因</system:String>
+	<system:String x:Key="Words.Reboot">重启</system:String>
 	<system:String x:Key="Words.RemoteFolder">远程目录</system:String>
 	<system:String x:Key="Words.Remove">删除</system:String>
 	<system:String x:Key="Words.Retry">重试</system:String>

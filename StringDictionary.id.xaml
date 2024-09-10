@@ -7,10 +7,12 @@
 	<system:String x:Key="Language.Native">Indonesia</system:String>
 	<system:String x:Key="Language.Tags">id</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Ini berlaku saat menyalin, memindahkan, atau mengganti nama file dan folder.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">Folder temporary harus berupa folder pada drive disk lokal. Network drive tidak didukung.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Cek address.</system:String>
 	<system:String x:Key="Messages.CheckPort">Silakan periksa port{0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Harap periksa protokol{0} dan port{1}.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Ia mencoba untuk segera memeriksa perubahan file jarak jauh.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Versi saat ini adalah {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegasi dibatalkan</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Masukan Kunci Akses ID</system:String>
@@ -52,6 +54,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">Hingga 8 drive dapat dibuat di versi saat ini</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">Jalur folder mount point hanya tersedia pada folder kosong dibagian volume NTFS dasar atau dinamis.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">Untuk menetapkan folder, opsi publik Disk Lokal diperlukan</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">Instalasi driver perangkat gagal.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Selamat datang, ini adalah langkah terakhir instalasi dan driver perangkat akan diinstal.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">Driver perangkat tidak diinstal pada sistem Anda. Anda perlu menginstal ulang RaiDrive.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive belum siap untuk memulai, Anda perlu memulai ulang sistem.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox mendukung Internet Explorer 10, 11. Anda sebaiknya menginstal Internet Explorer 11.</system:String>
@@ -68,6 +72,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">Anda dapat memilih berkas kunci privat</system:String>
 	<system:String x:Key="Messages.SelectedPath">Jalur yang Dipilih</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Pilih remote folder dimana file akan disimpan</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">Bagaimana kalau kita mulai dengan RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Tekan tombol OK, unuk RaiDrive bisa berjalan dengan sempurna</system:String>
 	<system:String x:Key="Messages.Service.Stoped">Layanan RaiDrive dihentikan</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Fitur berlangganan Anda akan dinonaktifkan dan semua drive akan dihubungkan kembali. Harap simpan file atau tutup aplikasi.</system:String>
@@ -85,6 +90,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Jelajahi Secara Pribadi</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Terkoneksi dengan RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Hapus drive</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Pengemudi perangkat</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplikasi yang Dipilih</system:String>
 	<system:String x:Key="Phrases.FileInUse">Berkas yang sedang digunakan: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">Kunci File WebDAV</system:String>
@@ -94,7 +100,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">URL folder atau ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Ikuti terbaru</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">untuk versi bisnis</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Dapatkan properti file secara instan</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Pertahankan "tanggal termodifikasi" ketika menyalin</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">Pertahankan "Tanggal diubah" pada file dan folder</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Hubungkan kembali saat boot</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Hubungkan kembali saat sign-in</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Hubungkan kembali saat program dimulai</system:String>
@@ -102,7 +110,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Modus luring</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Buka RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Timpa target</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Hapus/Salin/Pindah cepat pada penyimpanan jarak jauh</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Hapus/Salin/Pindah cepat pada penyimpanan jarak jauh</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Hubungkan kembali RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Daftarkan ke Startup</system:String>
 	<system:String x:Key="Phrases.RenameSource">Rubah nama asal</system:String>
@@ -110,10 +118,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Jalankan File Explorer ketika drive sudah terkoneksi</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Pilih folder</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Hidupkan RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">Mulai RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} gratis dari {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Beralih ke {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Pembaruan penyimpanan secara asinkron</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Gunakan custom icon pada drive yang terhubung</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Opsi tidak tersedia</system:String>
 	<system:String x:Key="Words.AccessKeyID">Kunci Akses ID</system:String>
 	<system:String x:Key="Words.Account">Akun</system:String>
 	<system:String x:Key="Words.AccountId">ID Akun</system:String>
@@ -190,6 +200,7 @@
 	<system:String x:Key="Words.Like">Sukai</system:String>
 	<system:String x:Key="Words.LocalDisk">Disk lokal</system:String>
 	<system:String x:Key="Words.Login">Gabung</system:String>
+	<system:String x:Key="Words.Management">Pengelolaan</system:String>
 	<system:String x:Key="Words.MySubscription">Langganan saya</system:String>
 	<system:String x:Key="Words.Namespace">Ruang nama</system:String>
 	<system:String x:Key="Words.NOW">SEKARANG</system:String>
@@ -219,6 +230,7 @@
 	<system:String x:Key="Words.Reading">Membaca</system:String>
 	<system:String x:Key="Words.Ready">Siap</system:String>
 	<system:String x:Key="Words.Reason">Alasan</system:String>
+	<system:String x:Key="Words.Reboot">Menyalakan ulang</system:String>
 	<system:String x:Key="Words.RemoteFolder">Folder jarak jauh</system:String>
 	<system:String x:Key="Words.Remove">Hapus</system:String>
 	<system:String x:Key="Words.Retry">Ulangi</system:String>

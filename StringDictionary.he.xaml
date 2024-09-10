@@ -6,10 +6,12 @@
 	<system:String x:Key="Language.Native">עברית</system:String>
 	<system:String x:Key="Language.Tags">he</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">זה חל בעת העתקה, העברה או שינוי שמות של קבצים ותיקיות.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">התיקיה הזמנית חייבת להיות תיקיה בכונן הדיסק המקומי. כונן רשת אינו נתמך.</system:String>
 	<system:String x:Key="Messages.CheckAddress">אנא בדוק את הכתובת.</system:String>
 	<system:String x:Key="Messages.CheckPort">בדוק את היציאה{0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">אנא בדוק שוב את הפרוטוקול{0} והיציאה{1}.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">הוא מנסה לבדוק באופן מיידי שינויים בקבצים מרוחקים.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">הגרסה הנוכחית היא {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">המשלחת בוטלה</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">נא להזין את מזהה מפתח הגישה</system:String>
@@ -51,6 +53,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">ניתן ליצור עד 8 כוננים בגרסה הנוכחית</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">נתיבים לתיקיות נקודת הר זמינים רק בתיקיות ריקות באמצעי אחסון NTFS בסיסיים או דינמיים.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">נדרשת האפשרות Public של Local Disk כדי לעלות לתיקיה</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">התקנת מנהל ההתקן נכשלה.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">ברוך הבא, זהו השלב האחרון בהתקנה ומנהלי ההתקן יותקנו.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">מנהל ההתקן אינו מותקן במערכת שלך. אתה צריך להתקין מחדש את RaiDrive.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive לא מוכן להפעלה, אתה צריך להפעיל מחדש את המערכת.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox תומך ב-Internet Explorer 10, 11. כדאי שתתקין את Internet Explorer 11.</system:String>
@@ -67,6 +71,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">אתה יכול לבחור קובץ מפתח פרטי</system:String>
 	<system:String x:Key="Messages.SelectedPath">נתיב נבחר</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">בחר תיקיה מרוחקת שבה יאוחסנו קבצים</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">שנתחיל עם RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Alive">אנא לחץ על כפתור אישור, RaiDrive יהיה בחיים.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">שירות RaiDrive הופסק.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">תכונות המנוי שלך יושבתו וכל הכוננים יחוברו מחדש. נא לשמור קבצים או סגור אפליקציות</system:String>
@@ -84,6 +89,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">דפדוף בפרטי</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">מחובר באמצעות RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">מחק את הכונן</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">מנהל התקן</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">נתיב משוכפל</system:String>
 	<system:String x:Key="Phrases.FileInUse">קבצים בשימוש: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">נעילת קבצים של WebDAV</system:String>
@@ -93,7 +99,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">כתובת URL או מזהה של התיקייה</system:String>
 	<system:String x:Key="Phrases.FollowLatest">עקוב אחר אחרון</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">עבור הגרסה העסקית</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">קבל מאפייני קובץ באופן מיידי</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">נסה לשמור על "תאריך שינוי" בעת ההעתקה</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">שמור על "תאריך שינוי" של קבצים ותיקיות</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">התחבר מחדש בעת האתחול</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">התחבר מחדש בכניסה</system:String>
 	<system:String x:Key="Phrases.MountAtStart">התחבר מחדש עם תחילת התוכנית</system:String>
@@ -101,7 +109,7 @@
 	<system:String x:Key="Phrases.OfflineMode">מצב לא מקוון</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">פתח את RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">החלף יעד</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">העתקה/הזזה/מחיקה מהירה לאחסון מרחוק</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">העתקה/הזזה/מחיקה מהירה לאחסון מרחוק</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive התחבר מחדש</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">הרשמה ל-Startup</system:String>
 	<system:String x:Key="Phrases.RenameSource">שנה את שם המקור</system:String>
@@ -109,10 +117,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">הפעל את סייר הקבצים כאשר הכונן מחובר</system:String>
 	<system:String x:Key="Phrases.SelectFolder">בחר תיקייה</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">להחיות את RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">הפעל את RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} חינם של {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">עבר ל-{0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">עדכן שינויים באחסון באופן אסינכרוני</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">השתמש בסמל המותאם אישית בכונן מחובר</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">אפשרות לא זמינה</system:String>
 	<system:String x:Key="Words.AccessKeyID">מזהה מפתח גישה</system:String>
 	<system:String x:Key="Words.Account">חֶשְׁבּוֹן</system:String>
 	<system:String x:Key="Words.AccountId">מזהה חשבון</system:String>
@@ -189,6 +199,7 @@
 	<system:String x:Key="Words.Like">כמו</system:String>
 	<system:String x:Key="Words.LocalDisk">דיסק מקומי</system:String>
 	<system:String x:Key="Words.Login">התחברות</system:String>
+	<system:String x:Key="Words.Management">הַנהָלָה</system:String>
 	<system:String x:Key="Words.MySubscription">המנוי שלי</system:String>
 	<system:String x:Key="Words.Namespace">מרחב שמות</system:String>
 	<system:String x:Key="Words.NOW">עַכשָׁיו</system:String>
@@ -218,6 +229,7 @@
 	<system:String x:Key="Words.Reading">קריאה</system:String>
 	<system:String x:Key="Words.Ready">מוּכָן</system:String>
 	<system:String x:Key="Words.Reason">סיבה</system:String>
+	<system:String x:Key="Words.Reboot">לְאַתחֵל</system:String>
 	<system:String x:Key="Words.RemoteFolder">תיקיה מרוחקת</system:String>
 	<system:String x:Key="Words.Remove">לְהַסִיר</system:String>
 	<system:String x:Key="Words.Retry">נסה שוב</system:String>

@@ -6,10 +6,12 @@
 	<system:String x:Key="Language.Native">română</system:String>
 	<system:String x:Key="Language.Tags">ro</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Se aplică la copierea, mutarea sau redenumirea fișierelor și folderelor.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">Folderul temporar trebuie să fie un folder de pe unitatea de disc locală. Unitatea de rețea nu este acceptată.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Verificați adresa.</system:String>
 	<system:String x:Key="Messages.CheckPort">Verificați port{0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Reverificați modul protocol{0} și port{1}.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Încearcă să verifice imediat dacă există modificări ale fișierelor de la distanță.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Versiunea curentă e {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegare anulată</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Vă rugăm să introduceți ID-ul cheii de acces</system:String>
@@ -51,6 +53,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">Pot fi create până la 8 diskuri în versiunea curentă</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">Căile folderului punct de montaj sunt disponibile numai pe dosarele goale, pe volume NTFS de bază sau dinamice.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">Pentru a atribui un dosar, opțiunea publică pe disc local este necesară</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">Instalarea driverului de dispozitiv a eșuat.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Bun venit, acesta este pasul final al instalării și driverele de dispozitiv vor fi instalate.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">Driverul de dispozitiv nu este instalat pe sistem. Trebuie să reinstalați RaiDrive.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">Raidrive nu este gata să pornească, Trebuie să reporniți sistemul.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox suportă Internet Explorer 10, 11. Este recomandat să instalați Internet Explorer 11.</system:String>
@@ -67,6 +71,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">puteți selecta fișierul cu cheia privată</system:String>
 	<system:String x:Key="Messages.SelectedPath">Calea selectată</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Selectați un dosar la distanță unde vor fi stocate fișierele</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">Să începem cu RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Apăsați butonul OK și RaiDrive va reporni.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">Serviciul RaiDrive a fost oprit.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Caracteristicile abonamentului vor fi dezactivate și toate unitățile vor fi reconectate. Salvați fișierul (e) sau închideți aplicația (ele).</system:String>
@@ -84,6 +89,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Navighează în mod privat</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Connectat de RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Șterge drive</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Driver de dispozitiv</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Cale duplicată</system:String>
 	<system:String x:Key="Phrases.FileInUse">Fișier(e) în uz: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">Blocare fișier WebDAV</system:String>
@@ -93,7 +99,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">Adresa URL a folderului sau ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">urmarețte ultimele</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">pentru versiunea business</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Obțineți proprietățile fișierului instantaneu</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Încercați să păstrați „Data de modificare” când copiați</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">Mențineți „Data modificării” fișierelor și folderelor</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Reconectați-vă la pornire</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Reconectați-vă la logare</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Reconectați-vă la pornirea programului</system:String>
@@ -101,7 +109,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Modul offline</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Deschide RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Suprascrieți ținta</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Copiere/Mutare/Ștergere rapidă pentru stocare la distanță</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Copiere/Mutare/Ștergere rapidă pentru stocare la distanță</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Reconectare RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Înregistrați-vă la Startup</system:String>
 	<system:String x:Key="Phrases.RenameSource">Redenumiți sursa</system:String>
@@ -109,10 +117,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Rulați File Explorer când un drive este conectat</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Selectează folder</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Reinițializează RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">Porniți RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} disponibil din {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Comutare la {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Actualizați modificările de stocare în mod asincron</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Utilizarea pictogramei particularizate pe o unitate conectată</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Opțiune indisponibilă</system:String>
 	<system:String x:Key="Words.AccessKeyID">ID-ul cheii de acces</system:String>
 	<system:String x:Key="Words.Account">Cont</system:String>
 	<system:String x:Key="Words.AccountId">Cont ID</system:String>
@@ -189,6 +199,7 @@
 	<system:String x:Key="Words.Like">Ca</system:String>
 	<system:String x:Key="Words.LocalDisk">Disc local</system:String>
 	<system:String x:Key="Words.Login">Logare</system:String>
+	<system:String x:Key="Words.Management">management</system:String>
 	<system:String x:Key="Words.MySubscription">Abonamentul meu</system:String>
 	<system:String x:Key="Words.Namespace">Spațiu de nume</system:String>
 	<system:String x:Key="Words.NOW">ACUM</system:String>
@@ -218,6 +229,7 @@
 	<system:String x:Key="Words.Reading">Citind</system:String>
 	<system:String x:Key="Words.Ready">Disponibil</system:String>
 	<system:String x:Key="Words.Reason">Motiv</system:String>
+	<system:String x:Key="Words.Reboot">Reporniți</system:String>
 	<system:String x:Key="Words.RemoteFolder">Folder la distanță</system:String>
 	<system:String x:Key="Words.Remove">Înlătură</system:String>
 	<system:String x:Key="Words.Retry">Reîncearcă</system:String>

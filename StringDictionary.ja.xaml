@@ -8,10 +8,12 @@
 	<system:String x:Key="Language.Native">日本語</system:String>
 	<system:String x:Key="Language.Tags">ja</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">ファイルやフォルダーをコピー、移動、または名前変更するときに適用されます。</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">一時フォルダの指定はローカルディスクドライブのフォルダのみ可能です ネットワークドライブを指定することはできません</system:String>
 	<system:String x:Key="Messages.CheckAddress">アドレスを確認してください</system:String>
 	<system:String x:Key="Messages.CheckPort">ポート番号{0}を確認してください</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">protocol{0}とポート番号{1}を確認してください</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">リモート ファイルの変更をすぐに確認しようとします。</system:String>
 	<system:String x:Key="Messages.CurrentVersion">現在のバージョンは {0} です</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">権限移譲を中止</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">アクセスキーIDを入力</system:String>
@@ -53,6 +55,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">現在のバージョンでは最大8のドライブを作成できます</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">マウントポイントのフォルダーパスは、ベーシックまたはダイナミックNTFSボリュームの空のフォルダーでのみ使用できます。</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">フォルダを割り当てるには、ローカルディスク公開オプションが必要です</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">デバイス ドライバーのインストールに失敗しました。</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">ようこそ。これはインストールの最終ステップであり、デバイス ドライバーがインストールされます。</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">デバイスドライバーがインストールされていません RaiDriveを再インストールしてください</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive起動の準備が完了していません 再起動する必要があります</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">DropboxはInternet Explorer 10, 11バージョンをサポートしています Internet Explorer 11の使用をお勧めします</system:String>
@@ -69,6 +73,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">秘密鍵ファイルを選択できます</system:String>
 	<system:String x:Key="Messages.SelectedPath">選択パス</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">ファイルが保存されるリモートフォルダを選択してください</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">RaiDriveを始めてみませんか？</system:String>
 	<system:String x:Key="Messages.Service.Alive">OKボタンをクリックしてください RaiDriveを再起動します</system:String>
 	<system:String x:Key="Messages.Service.Stoped">RaiDrive Serviceが中止されました</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">サブスクリプション機能が無効になり、すべてのドライブが再接続されます。 ファイルを保存するか、アプリケーションを閉じてください。</system:String>
@@ -86,6 +91,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">プライベートブラウジング</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDriveによってマウント</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">ドライブ削除</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">デバイスドライバ</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">重複パス</system:String>
 	<system:String x:Key="Phrases.FileInUse">使用中のファイル: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAVファイルロック</system:String>
@@ -95,7 +101,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">フォルダーURLまたはID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">最新表示</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">ビジネスバージョン用</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">ファイルのプロパティを即座に取得</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">コピー時に "変更日時" を維持するようにする</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">ファイルとフォルダーの「更新日」を維持する</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">再起動時に再接続</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">プログラムの起動時にドライブをマウント</system:String>
 	<system:String x:Key="Phrases.MountAtStart">プログラムの起動時に再接続</system:String>
@@ -103,7 +111,7 @@
 	<system:String x:Key="Phrases.OfflineMode">オフラインモード</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDriveを表示</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">ターゲットを上書きする</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">リモートストレージのクイックコピー/移動/削除</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">リモートストレージのクイックコピー/移動/削除</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDriveの再接続</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">スタートアップへ登録</system:String>
 	<system:String x:Key="Phrases.RenameSource">ソースの名前を変更</system:String>
@@ -111,10 +119,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">ドライブがマウントされる時にエクスプローラーを起動</system:String>
 	<system:String x:Key="Phrases.SelectFolder">フォルダ選択</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">RaiDriveを再起動</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">RaiDriveを起動する</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">空き領域 {0}/{1}  {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">{0}に切り替えました</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">ストレージの変更を非同期で更新する</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">接続ドライブにカスタムアイコンを使用する</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">使用できないオプション</system:String>
 	<system:String x:Key="Words.AccessKeyID">アクセスキーID</system:String>
 	<system:String x:Key="Words.Account">アカウント</system:String>
 	<system:String x:Key="Words.AccountId">アカウントID</system:String>
@@ -191,6 +201,7 @@
 	<system:String x:Key="Words.Like">いいね</system:String>
 	<system:String x:Key="Words.LocalDisk">ローカルディスク</system:String>
 	<system:String x:Key="Words.Login">ログイン</system:String>
+	<system:String x:Key="Words.Management">管理</system:String>
 	<system:String x:Key="Words.MySubscription">サブスクリプション</system:String>
 	<system:String x:Key="Words.Namespace">名前空間</system:String>
 	<system:String x:Key="Words.NOW">今</system:String>
@@ -220,6 +231,7 @@
 	<system:String x:Key="Words.Reading">読み込み中</system:String>
 	<system:String x:Key="Words.Ready">準備</system:String>
 	<system:String x:Key="Words.Reason">原因</system:String>
+	<system:String x:Key="Words.Reboot">リブート</system:String>
 	<system:String x:Key="Words.RemoteFolder">リモートフォルダ</system:String>
 	<system:String x:Key="Words.Remove">削除</system:String>
 	<system:String x:Key="Words.Retry">再試行</system:String>

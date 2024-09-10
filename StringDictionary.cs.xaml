@@ -6,10 +6,12 @@
 	<system:String x:Key="Language.Native">čeština</system:String>
 	<system:String x:Key="Language.Tags">cs</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Platí při kopírování, přesouvání nebo přejmenovávání souborů a složek.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">Dočasná složka musí být umístěna na lokálním disku. Síťové disky nejsou podporovány.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Prosím zkontrolujte zadanou adresu.</system:String>
 	<system:String x:Key="Messages.CheckPort">Zkontrolujte zadaný port{0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Prosím, zkontrolujte znovu zvolený protokol{0} a port{1}.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Pokusí se okamžitě zkontrolovat změny vzdáleného souboru.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Současné verze: {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Operace přerušena</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Prosím zadejte ID přístupového klíče</system:String>
@@ -51,6 +53,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">V této verzi může být připojeno až 8 jednotek.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">Cesta ke složce je k dispozici pouze u prázdných složek na základních nebo dynamických svazcích NTFS.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">Tato složka vyžaduje veřejnou složku umístěnou na místním disku</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">Instalace ovladače zařízení se nezdařila.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Vítejte, toto je poslední krok instalace a ovladače zařízení budou nainstalovány.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">RaiDrive musí být reinstalováno - chyba ovladače systému souborů.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive se nyní nemůže spustit, je třeba restartovat váš počítač.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox podporuje Internet Explorer 10, 11. Doporučujeme Internet Explorer 11.</system:String>
@@ -67,6 +71,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">zvolte privátní klíč</system:String>
 	<system:String x:Key="Messages.SelectedPath">Vybraná cesta.</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Zvolte vzdálenou složku do které budou soubory nahrávány.</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">Můžeme začít s RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Prosím, klikněte na oživit, RaiDrive se pokusí obnovit službu na pozadí.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">Služba RaiDrive neodpovídá.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Budete automaticky odhlášeni. Všechny disky budou automaticky odpojeny. Uložte soubor(y) nebo ukončete aplikaci. Následně se můžete znovu přihlásit.</system:String>
@@ -84,6 +89,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Procházet v soukromí</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Připojeno pomocí RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Odebrat úložiště</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Ovladač zařízení</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplicitní cesta.</system:String>
 	<system:String x:Key="Phrases.FileInUse">Soubor(y) jsou používány: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV soubor je uzamčen</system:String>
@@ -93,7 +99,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">URL složky nebo ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Poslední verze</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">pro PRO verzi</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Získejte vlastnosti souboru okamžitě</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Zachovat "datum změny" při kopírování</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">Udržujte "Datum úpravy" souborů a složek</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Připojit při bootování</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Připojit při přihlášení</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Připojit při startu</system:String>
@@ -101,7 +109,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Offline mód</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Otevřít RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Přepsat cílový soubor</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Rychlé kopírování/přesun/mazání souborů ve vzdáleném úložišti</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Rychlé kopírování/přesun/mazání souborů ve vzdáleném úložišti</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Znovu připojit RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Spouštět při startu systému</system:String>
 	<system:String x:Key="Phrases.RenameSource">Přejmenovat zdroj</system:String>
@@ -109,10 +117,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Otevřít automaticky Průzkumník pro připojení jednotky?</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Zvolte složku</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Oživit RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">Spusťte RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} volno z {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Přepnuto na {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Synchronizaci provádět ansynchronně</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Použít vlastní ikonu pro připojený disk</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Nedostupná možnost</system:String>
 	<system:String x:Key="Words.AccessKeyID">ID přístupového klíče</system:String>
 	<system:String x:Key="Words.Account">Účet</system:String>
 	<system:String x:Key="Words.AccountId">Číslo účtu</system:String>
@@ -189,6 +199,7 @@
 	<system:String x:Key="Words.Like">Jako</system:String>
 	<system:String x:Key="Words.LocalDisk">Místní disk</system:String>
 	<system:String x:Key="Words.Login">Přihlášení</system:String>
+	<system:String x:Key="Words.Management">Řízení</system:String>
 	<system:String x:Key="Words.MySubscription">Má předplatná</system:String>
 	<system:String x:Key="Words.Namespace">Jmenný prostor</system:String>
 	<system:String x:Key="Words.NOW">Nyní</system:String>
@@ -218,6 +229,7 @@
 	<system:String x:Key="Words.Reading">Čtení</system:String>
 	<system:String x:Key="Words.Ready">Připraven</system:String>
 	<system:String x:Key="Words.Reason">Důvod</system:String>
+	<system:String x:Key="Words.Reboot">Restartujte</system:String>
 	<system:String x:Key="Words.RemoteFolder">Vzdálená složka</system:String>
 	<system:String x:Key="Words.Remove">Odebrat</system:String>
 	<system:String x:Key="Words.Retry">Opakovat</system:String>

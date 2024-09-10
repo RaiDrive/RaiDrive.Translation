@@ -6,10 +6,12 @@
 	<system:String x:Key="Language.Native">italiano</system:String>
 	<system:String x:Key="Language.Tags">it</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Si applica quando si copia, si sposta o si rinominano file e cartelle.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">La cartella temporanea deve essere una cartella sull'unità disco locale. L'unità di rete non è supportata.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Si prega di controllare l'indirizzo.</system:String>
 	<system:String x:Key="Messages.CheckPort">Si prega di controllare la porta {0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Si prega di ricontrollare il protocollo {0} e la porta {1}.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Tenta di verificare immediatamente le modifiche ai file remoti.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">La versione corrente è {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegazione interrotta</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Inserisci l'ID della chiave di accesso</system:String>
@@ -51,6 +53,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">È possibile creare fino a 8 unità nella versione corrente</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">Il percorso della cartella del punto di montaggio è disponibile solo in cartelle vuote nel volume NTFS predefinito o dinamico.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">Per assegnare una cartella, è richiesta l'opzione pubblica Disco locale</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">L'installazione del driver del dispositivo non è riuscita.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Benvenuto, questo è il passaggio finale dell'installazione e i driver del dispositivo verranno installati.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">Il driver di dispositivo non è installato sul tuo sistema. È necessario reinstallare RaiDrive.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive non è pronto per l'avvio, è necessario riavviare il sistema.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox supporta Internet Explorer 10, 11. È consigliabile installare Internet Explorer 11.</system:String>
@@ -67,6 +71,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">E' possibile selezionare il file della chiave privata</system:String>
 	<system:String x:Key="Messages.SelectedPath">Seleziona Path</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Seleziona una cartella remota in cui verranno archiviati i file</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">Iniziamo con RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Si prega di premere il tasto OK, RaiDrive sarà attivato.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">RaiDrive Il servizio è stato interrotto.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Le funzioni dell'abbonamento saranno disabilitate e tutte le unità saranno ricollegate. Si prega di salvare i file o chiudere le applicazioni.</system:String>
@@ -84,6 +89,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Navigare in privato</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Connesso a RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Cancella drive</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Driver del dispositivo</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplica Path</system:String>
 	<system:String x:Key="Phrases.FileInUse">File in uso: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">Blocco file WebDAV</system:String>
@@ -93,7 +99,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">URL cartella o ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Segui l'ultimo</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">per la versione commerciale</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Ottieni immediatamente le proprietà dei file</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Cerca di mantenere "Data di modifica" durante la copia</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">Mantieni la "Data di modifica" di file e cartelle</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Riconnettersi all'avvio</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Riconnetti all'accesso</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Riconnettersi all'avvio del programma</system:String>
@@ -101,7 +109,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Modalità offline</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Apri RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Sovrascrivi obiettivo</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Copia/Sposta/Cancella veloce per l'archiviazione remota</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Copia/Sposta/Cancella veloce per l'archiviazione remota</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Riconnetti RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Registrati all'avvio</system:String>
 	<system:String x:Key="Phrases.RenameSource">Rinomina sorgente</system:String>
@@ -109,10 +117,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Avvia File Explorer quando viene connesso un drive</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Seleziona la cartella</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Ripristina RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">Avvia RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} liberi di {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Passato a {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Aggiorna le modifiche allo spazio di archiviazione in modo asincrono</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Utilizzare l'icona personalizzata su un'unità connessa</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Opzione non disponibile</system:String>
 	<system:String x:Key="Words.AccessKeyID">ID chiave di accesso</system:String>
 	<system:String x:Key="Words.Account">Account</system:String>
 	<system:String x:Key="Words.AccountId">Account ID</system:String>
@@ -189,6 +199,7 @@
 	<system:String x:Key="Words.Like">Piace</system:String>
 	<system:String x:Key="Words.LocalDisk">Disco locale</system:String>
 	<system:String x:Key="Words.Login">Login</system:String>
+	<system:String x:Key="Words.Management">Gestione</system:String>
 	<system:String x:Key="Words.MySubscription">Il mio abbonamento</system:String>
 	<system:String x:Key="Words.Namespace">Spazio dei nomi</system:String>
 	<system:String x:Key="Words.NOW">ORA</system:String>
@@ -218,6 +229,7 @@
 	<system:String x:Key="Words.Reading">Lettura</system:String>
 	<system:String x:Key="Words.Ready">Pronto</system:String>
 	<system:String x:Key="Words.Reason">Motivo</system:String>
+	<system:String x:Key="Words.Reboot">Riavviare</system:String>
 	<system:String x:Key="Words.RemoteFolder">Cartella remota</system:String>
 	<system:String x:Key="Words.Remove">Rimuovi</system:String>
 	<system:String x:Key="Words.Retry">Riprova</system:String>

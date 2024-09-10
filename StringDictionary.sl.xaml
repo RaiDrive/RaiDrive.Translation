@@ -6,10 +6,12 @@
 	<system:String x:Key="Language.Native">slovenščina</system:String>
 	<system:String x:Key="Language.Tags">sl</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Uporablja se pri kopiranju, premikanju ali preimenovanju datotek in map.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">Začasna mapa mora biti mapa na lokalnem disku. Omrežni pogon ni podprt.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Preverite naslov.</system:String>
 	<system:String x:Key="Messages.CheckPort">Preverite vrata{0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Še enkrat preverite protokol{0} in vrata{1}.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Poskuša takoj preveriti spremembe datotek na daljavo.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Trenutna različica je {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegiranje prekinjeno</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Vnesite ID ključa za dostop</system:String>
@@ -51,6 +53,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">V trenutni različici je mogoče ustvariti do 8 pogonov</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">Poti do mape točke priklopa so na voljo samo v praznih mapah na osnovnih ali dinamičnih nosilcih NTFS.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">Za pripenjanje v mapo je potrebna javna možnost lokalnega diska</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">Namestitev gonilnika naprave ni uspela.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Dobrodošli, to je zadnji korak namestitve in gonilniki naprav bodo nameščeni.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">Gonilnik naprave ni nameščen v vašem sistemu. Ponovno morate namestiti RaiDrive.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive ni pripravljen za zagon. Potrebujete ponovni zagon sistema.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox podpira Internet Explorer 10, 11. Raje namestite Internet Explorer 11.</system:String>
@@ -67,6 +71,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">lahko izberete datoteko z zasebnim ključem</system:String>
 	<system:String x:Key="Messages.SelectedPath">Izbrana pot</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Izberite oddaljeno mapo, v kateri bodo shranjene datoteke</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">Naj začnemo z RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Pritisnite gumb OK, RaiDrive bo živ.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">Storitev RaiDrive je bila ustavljena.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Vaše naročniške funkcije bodo onemogočene in vsi pogoni bodo znova povezani. Shranite datoteko ali zaprite aplikacijo</system:String>
@@ -84,6 +89,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Brskajte zasebno</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Povezan z RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Izbriši pogon</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Gonilnik naprave</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Podvojena pot</system:String>
 	<system:String x:Key="Phrases.FileInUse">Datoteke v uporabi: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">Zaklepanje datoteke WebDAV</system:String>
@@ -93,7 +99,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">URL ali ID mape</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Spremljajte najnovejše</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">za poslovno različico</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Takoj pridobite lastnosti datoteke</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Pri kopiranju poskušajte obdržati "Datum spremembe".</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">Ohranite "Datum spremembe" datotek in map</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Znova vzpostavite povezavo ob zagonu</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Znova vzpostavite povezavo ob prijavi</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Ponovno vzpostavite povezavo ob zagonu programa</system:String>
@@ -101,7 +109,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Način brez povezave</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Odprite RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Prepiši cilj</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Hitro kopiranje/premaknitev/brisanje za oddaljeno shranjevanje</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Hitro kopiranje/premaknitev/brisanje za oddaljeno shranjevanje</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive Reconnect</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Registrirajte se v Startup</system:String>
 	<system:String x:Key="Phrases.RenameSource">Preimenuj vir</system:String>
@@ -109,10 +117,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Zaženite File Explorer, ko je pogon povezan</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Izberite mapo</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Oživite RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">Zaženite RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} brez {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Preklopljen na {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Posodobite spremembe pomnilnika asinhrono</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Uporabite ikono po meri na povezanem pogonu</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Nerazpoložljiva možnost</system:String>
 	<system:String x:Key="Words.AccessKeyID">ID ključa za dostop</system:String>
 	<system:String x:Key="Words.Account">Account</system:String>
 	<system:String x:Key="Words.AccountId">ID računa</system:String>
@@ -189,6 +199,7 @@
 	<system:String x:Key="Words.Like">Všeč mi je</system:String>
 	<system:String x:Key="Words.LocalDisk">Lokalni disk</system:String>
 	<system:String x:Key="Words.Login">Vpiši se</system:String>
+	<system:String x:Key="Words.Management">Upravljanje</system:String>
 	<system:String x:Key="Words.MySubscription">Moja naročnina</system:String>
 	<system:String x:Key="Words.Namespace">Imenski prostor</system:String>
 	<system:String x:Key="Words.NOW">ZDAJ</system:String>
@@ -218,6 +229,7 @@
 	<system:String x:Key="Words.Reading">Branje</system:String>
 	<system:String x:Key="Words.Ready">pripravljena</system:String>
 	<system:String x:Key="Words.Reason">Razlog</system:String>
+	<system:String x:Key="Words.Reboot">Znova zaženite</system:String>
 	<system:String x:Key="Words.RemoteFolder">Oddaljena mapa</system:String>
 	<system:String x:Key="Words.Remove">Odstrani</system:String>
 	<system:String x:Key="Words.Retry">Poskusite znova</system:String>

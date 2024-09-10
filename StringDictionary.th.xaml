@@ -7,10 +7,12 @@
 	<system:String x:Key="Language.Native">ไทย</system:String>
 	<system:String x:Key="Language.Tags">th</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">ใช้เมื่อคัดลอก ย้าย หรือเปลี่ยนชื่อไฟล์และโฟลเดอร์</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">โฟลเดอร์ชั่วคราวต้องอยู่ที่ดิสก์ในเครื่อง ไม่รองรับไดร์ฟบนเครือข่าย</system:String>
 	<system:String x:Key="Messages.CheckAddress">โปรดตรวจสอบที่อยู่</system:String>
 	<system:String x:Key="Messages.CheckPort">โปรดติ๊กพอร์ต {0}</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">โปรดติ๊กโปรโตคอล {0} และพอร์ต {1}</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">ระบบจะพยายามตรวจสอบการเปลี่ยนแปลงไฟล์ระยะไกลทันที</system:String>
 	<system:String x:Key="Messages.CurrentVersion">เวอร์ชั่นปัจจุบันคือ {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">การมอบหมายถูกยกเลิก</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">กรุณากรอกไอดีคีย์การเข้าถึง</system:String>
@@ -52,6 +54,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">เวอร์ชั่นนี้สามารถสร้างได้สูงสุด 8 ไดร์ฟ</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">เส้นทางโฟลเดอร์จุดเมาท์ จะใช้ได้กับโฟลเดอร์ที่ว่างเปล่าในไดรฟ์ข้อมูล NTFS แบบพื้นฐานหรือแบบไดนามิกเท่านั้น</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">ในการกำหนดโฟลเดอร์จำเป็นต้องใช้ตัวเลือดิสก์บนเครื่องแบบสาธารณะ</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">การติดตั้งไดรเวอร์อุปกรณ์ล้มเหลว</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">ยินดีต้อนรับ นี่เป็นขั้นตอนสุดท้ายของการติดตั้ง และไดรเวอร์อุปกรณ์จะได้รับการติดตั้ง</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">ไดร์เวอร์อุปกรณ์ไม่ได้ถูกติดตั้งบนระบบของคุณ คุณจำเป็นต้องติดตั้ง RaiDrive ใหม่อีกครั้ง</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive ไม่พร้อมทำงาน คุณจำเป็นต้องเริ่มระบบใหม่ก่อน</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox รองรับ Internet Explorer เวอร์ชั่น 10, 11 แนะนำให้ติดตั้ง Internet Explorer เวอร์ชั่น 11</system:String>
@@ -68,6 +72,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">คุณอาจต้องเลือกไฟล์คีย์ส่วนตัว</system:String>
 	<system:String x:Key="Messages.SelectedPath">เลือกที่ตั้ง</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">เลือกไฟล์จากโฟลเดอร์ระยะไกลที่คุณต้องการเก็บไว้</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">เรามาเริ่มต้นกับ RaiDrive กันดีไหม?</system:String>
 	<system:String x:Key="Messages.Service.Alive">โปรดกดปุ่มตกลงเพื่อฟื้น RaiDrive</system:String>
 	<system:String x:Key="Messages.Service.Stoped">บริการ RaiDrive ถูกหยุด</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">คุณสมบัติการสมัครของคุณจะถูกปิดใช้งานและไดรฟ์ทั้งหมดจะทำการเชื่อมต่อใหม่ โปรดบันทึกไฟล์หรือปิดแอปพลิเคชั่น</system:String>
@@ -85,6 +90,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">เปิดแบบไม่ระบุตัวตน</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">เชื่อมต่อโดย RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">ลบไดร์ฟ</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">ไดรเวอร์อุปกรณ์</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">ที่ตั้งซ้ำ</system:String>
 	<system:String x:Key="Phrases.FileInUse">ไฟล์ที่ใช้งานอยู่: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">ป้องกันไฟล์บน WebDAV</system:String>
@@ -94,7 +100,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">ลิ้งก์โฟลเดอร์หรือไอดี</system:String>
 	<system:String x:Key="Phrases.FollowLatest">ติดตามล่าสุด</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">สำหรับเวอร์ชั่นธุรกิจ</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">รับคุณสมบัติไฟล์ทันที</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">ลองเก็บ "วันที่แก้ไข" เมื่อทำการคัดลอก</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">รักษา "วันที่แก้ไข" ของไฟล์และโฟลเดอร์</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">เชื่อมต่อใหม่เมื่อเริ่มต้นระบบ</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">เชื่อมต่อใหม่เมื่อเข้าสู่ระบบ</system:String>
 	<system:String x:Key="Phrases.MountAtStart">เชื่อมต่อใหม่เมื่อเริ่มโปรแกรม</system:String>
@@ -102,7 +110,7 @@
 	<system:String x:Key="Phrases.OfflineMode">โหมดออฟไลน์</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">เปิด RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">เขียนทับปลายทาง</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">คัดลอก/ย้าย/ลบด่วนสำหรับพื้นที่จัดเก็บระยะไกล</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">คัดลอก/ย้าย/ลบด่วนสำหรับพื้นที่จัดเก็บระยะไกล</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">เชื่อมต่อ RaiDrive อีกครั้ง</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">กำหนดค่าเมื่อเริ่มทำงาน</system:String>
 	<system:String x:Key="Phrases.RenameSource">เปลี่ยนชื่อต้นทาง</system:String>
@@ -110,10 +118,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">เริ่ม File Explorer เมื่อไดร์ฟถูกเชื่อมต่อ</system:String>
 	<system:String x:Key="Phrases.SelectFolder">เลือกโฟลเดอร์</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">ฟื้นฟู RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">เริ่ม RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} ว่างจาก {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">เปลี่ยนเป็น {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">อัปเดทการเปลี่ยนแปลงพื้นที่เป็นระยะ</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">ใช้ไอคอนที่กำหนดเองบนไดร์ฟที่เชื่อมต่อ</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">ตัวเลือกที่ไม่พร้อมใช้งาน</system:String>
 	<system:String x:Key="Words.AccessKeyID">ไอดีคีย์การเข้าถึง</system:String>
 	<system:String x:Key="Words.Account">บัญชี</system:String>
 	<system:String x:Key="Words.AccountId">หมายเลขบัญชี</system:String>
@@ -190,6 +200,7 @@
 	<system:String x:Key="Words.Like">ชอบ</system:String>
 	<system:String x:Key="Words.LocalDisk">ดิสก์บนเครื่อง</system:String>
 	<system:String x:Key="Words.Login">เข้าสู่ระบบ</system:String>
+	<system:String x:Key="Words.Management">การจัดการ</system:String>
 	<system:String x:Key="Words.MySubscription">การสมัครของฉัน</system:String>
 	<system:String x:Key="Words.Namespace">เนมสเปซ</system:String>
 	<system:String x:Key="Words.NOW">ตอนนี้</system:String>
@@ -219,6 +230,7 @@
 	<system:String x:Key="Words.Reading">กำลังอ่าน</system:String>
 	<system:String x:Key="Words.Ready">พร้อม</system:String>
 	<system:String x:Key="Words.Reason">เหตุผล</system:String>
+	<system:String x:Key="Words.Reboot">รีบูต</system:String>
 	<system:String x:Key="Words.RemoteFolder">โฟลเดอร์ระยะไกล</system:String>
 	<system:String x:Key="Words.Remove">นำออก</system:String>
 	<system:String x:Key="Words.Retry">ลองใหม่</system:String>

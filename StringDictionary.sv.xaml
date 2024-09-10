@@ -6,10 +6,12 @@
 	<system:String x:Key="Language.Native">svenska</system:String>
 	<system:String x:Key="Language.Tags">sv</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Det gäller när du kopierar, flyttar eller byter namn på filer och mappar.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">Den temporära mappen måste vara en mapp på den lokala diskenheten. Nätverksenheter stöds inte.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Vänlig kontrollera adressen.</system:String>
 	<system:String x:Key="Messages.CheckPort">Vänligen kontrollera port{0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Vänligen dubbelkolla protokollet {0} och port{1}.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Den försöker omedelbart söka efter fjärrfiländringar.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Nuvarande version är {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegation avbruten</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Vänligen ange åtkomstnyckel-ID</system:String>
@@ -51,6 +53,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">Upp till 8 enheter kan läggas till i nuvarande version</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">Sökvägar för monteringspunkter är endast tillgängliga i tomma mappar på grundläggande eller dynamiska NTFS-volymer.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">Det offentliga inställningen för lokal disk krävs för att monteras i mappen</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">Installationen av enhetsdrivrutinen misslyckades.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Välkommen, detta är det sista steget i installationen och drivrutinerna kommer att installeras.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">Enhetsdrivrutinen är inte installerad på ditt system. Du måste installera om RaiDrive.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive är inte redo att starta, Du måste starta om systemet.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox stöder Internet Explorer 10, 11. Du bör installera Internet Explorer 11.</system:String>
@@ -67,6 +71,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">Du kan välja en privat nyckelfil</system:String>
 	<system:String x:Key="Messages.SelectedPath">Vald sökväg</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Välj en fjärrmapp där filer ska lagras</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">Ska vi börja med RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Vänligen tryck på OK-knappen, RaiDrive kommer återupplivas.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">RaiDrive Tjänsten stoppades.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Dina prenumerationsfunktioner inaktiveras och alla enheter kommer att anslutas igen. Spara fil(er) eller stäng applikation(er)</system:String>
@@ -84,6 +89,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Surfa privat</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Ansluten av RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Radera disk</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Drivrutin</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplicerad sökväg</system:String>
 	<system:String x:Key="Phrases.FileInUse">Fil(er) som används: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV Fillås</system:String>
@@ -93,7 +99,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">mapp URL eller ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Följ senaste</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">för företags version</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Få filegenskaper direkt</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Försök att behålla "Datum modifierad" vid kopiering</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">Behåll "Ändrad datum" för filer och mappar</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Återanslut vid start</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Återanslut vid inloggning</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Återanslut vid programstart</system:String>
@@ -101,7 +109,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Offlineläge</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Öppna RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Skriv över målet</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Snabbkopiering/flyttning/radering för fjärrlagring</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Snabbkopiering/flyttning/radering för fjärrlagring</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive återanslut</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Registrera vid uppstart</system:String>
 	<system:String x:Key="Phrases.RenameSource">Byt namn på källa</system:String>
@@ -109,10 +117,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Kör utforskaren när enheten är ansluten</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Ange mapp</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Återuppliva RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">Starta RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} ledigt av {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Bytte till {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Uppdatera lagringsändringar asynkront</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Använd anpassad ikon på en ansluten enhet</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Ej tillgängligt alternativ</system:String>
 	<system:String x:Key="Words.AccessKeyID">Åtkomstnyckel-ID</system:String>
 	<system:String x:Key="Words.Account">Konto</system:String>
 	<system:String x:Key="Words.AccountId">konto-id</system:String>
@@ -189,6 +199,7 @@
 	<system:String x:Key="Words.Like">Gilla</system:String>
 	<system:String x:Key="Words.LocalDisk">Lokal Enhet</system:String>
 	<system:String x:Key="Words.Login">logga in</system:String>
+	<system:String x:Key="Words.Management">Förvaltning</system:String>
 	<system:String x:Key="Words.MySubscription">Mitt prenumeration</system:String>
 	<system:String x:Key="Words.Namespace">Namnutrymme</system:String>
 	<system:String x:Key="Words.NOW">NU</system:String>
@@ -218,6 +229,7 @@
 	<system:String x:Key="Words.Reading">Läsa</system:String>
 	<system:String x:Key="Words.Ready">Redo</system:String>
 	<system:String x:Key="Words.Reason">Anledning</system:String>
+	<system:String x:Key="Words.Reboot">Starta om</system:String>
 	<system:String x:Key="Words.RemoteFolder">Fjärrmapp</system:String>
 	<system:String x:Key="Words.Remove">Radera</system:String>
 	<system:String x:Key="Words.Retry">Försök igen</system:String>

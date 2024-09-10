@@ -6,10 +6,12 @@
 	<system:String x:Key="Language.Native">magyar</system:String>
 	<system:String x:Key="Language.Tags">hu</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Fájlok és mappák másolására, áthelyezésére vagy átnevezésére vonatkozik.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">Az ideiglenes mappának a helyi lemezmeghajtón kell lennie. A hálózati meghajtó nem támogatott.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Kérem ellenőrizze a címet!</system:String>
 	<system:String x:Key="Messages.CheckPort">Kérem ellenőrizze a portot{0}!</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Kérem ellenőrizze a protokollt{0} és a portot{1}!</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Megkísérli azonnal ellenőrizni a távoli fájlmódosításokat.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Aktuális verziószám: {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Átruházás megszakítva</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Kérjük, adja meg a hozzáférési kulcs azonosítóját</system:String>
@@ -51,6 +53,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">Maximum 8 meghajtó hozható létre az aktuális verzióban</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">A mappák beillesztési útvonalai csak üres mappákban érhetők el alap- vagy dinamikus NTFS köteteken.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">Egy mappa hozzárendeléséhez a Helyi lemez nyilvános opcióra van szükség</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">Az eszközillesztő telepítése sikertelen.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Üdvözöljük, ez a telepítés utolsó lépése, és az eszközillesztők telepítésre kerülnek.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">Az eszköz illesztőprogram nincs feltelepítve. Újra kell telepítenie a RaiDrive-ot!</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">A RaiDrive nem áll készen az indulásra, újra kell indítania a rendszert.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">A Dropbox az Internet Explorer 10, 11 verzióit támogatja. Ajánlott az Internet Explorer 11 feltelepítése.</system:String>
@@ -67,6 +71,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">kiválaszthat egy privát kulcsfájlt</system:String>
 	<system:String x:Key="Messages.SelectedPath">Kiválasztott útvonal</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Kérem válasszon egy távoli mappát, ahol a fájlok tárolásra fognak kerülni!</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">Kezdjük a RaiDrive-val?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Kérem kattintson a Rendben gombra, és a RaiDrive elindul.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">A RaiDrive szolgáltatás leállt.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Az előfizetési funkciók le vannak tiltva, és az összes meghajtó újra fog csatlakozni. Kérjük, mentse el a fájlokat vagy zárja be az alkalmazásokat!</system:String>
@@ -84,6 +89,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Privát böngészés</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDrive által csatlakozva</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Meghajtó törlése</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Eszközvezérlő</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplikált útvonal</system:String>
 	<system:String x:Key="Phrases.FileInUse">Használatban lévő fájlok: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV fájlzár</system:String>
@@ -93,7 +99,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">mappa URL vagy azonosító</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Legfrissebb követése</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">az üzleti verzióhoz</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">A fájltulajdonságok azonnali megszerzése</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Másoláskor próbálja meg megtartani a „Módosítás dátuma” szöveget</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">A fájlok és mappák „módosítási dátuma” megőrzése</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Csatlakoztassa újra a rendszerindításkor</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Újracsatlakoztatás bejelentkezéskor</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Csatlakozzon újra a program indításakor</system:String>
@@ -101,7 +109,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Offline mód</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDrive megnyitása</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Cél felülírása</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Gyors másolás/áthelyezés/törlés távoli tároláshoz</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Gyors másolás/áthelyezés/törlés távoli tároláshoz</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive újracsatlakozás</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Regisztráljon a Startupba</system:String>
 	<system:String x:Key="Phrases.RenameSource">Forrás átnevezése</system:String>
@@ -109,10 +117,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Fájlkezelő futtatása, amikor egy meghajtó csatlakozik</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Mappa kiválasztása</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">RaiDrive újraindítása</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">Indítsa el a RaiDrive-ot</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} szabad {1} {2}-ból</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Átváltás: {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">A tárhelyváltozások aszinkron frissítése</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Egyéni ikon használata a csatlakoztatott meghajtón</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Nem elérhető opció</system:String>
 	<system:String x:Key="Words.AccessKeyID">Hozzáférési kulcs azonosítója</system:String>
 	<system:String x:Key="Words.Account">Fiók</system:String>
 	<system:String x:Key="Words.AccountId">felhasználónév</system:String>
@@ -189,6 +199,7 @@
 	<system:String x:Key="Words.Like">Kedvelés</system:String>
 	<system:String x:Key="Words.LocalDisk">Helyi lemez</system:String>
 	<system:String x:Key="Words.Login">Bejelentkezés</system:String>
+	<system:String x:Key="Words.Management">Menedzsment</system:String>
 	<system:String x:Key="Words.MySubscription">Előfizetésem</system:String>
 	<system:String x:Key="Words.Namespace">Névtér</system:String>
 	<system:String x:Key="Words.NOW">MOST</system:String>
@@ -218,6 +229,7 @@
 	<system:String x:Key="Words.Reading">Olvasás</system:String>
 	<system:String x:Key="Words.Ready">Kész</system:String>
 	<system:String x:Key="Words.Reason">Ok</system:String>
+	<system:String x:Key="Words.Reboot">Indítsa újra</system:String>
 	<system:String x:Key="Words.RemoteFolder">Távoli mappa</system:String>
 	<system:String x:Key="Words.Remove">Eltávolít</system:String>
 	<system:String x:Key="Words.Retry">Újra</system:String>

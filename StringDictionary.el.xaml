@@ -6,10 +6,12 @@
 	<system:String x:Key="Language.Native">Ελληνικά</system:String>
 	<system:String x:Key="Language.Tags">el</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Ισχύει κατά την αντιγραφή, μετακίνηση ή μετονομασία αρχείων και φακέλων.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">Ο προσωρινός φάκελος πρέπει να είναι φάκελος στην τοπική μονάδα δίσκου. Η μονάδα δίσκου δικτύου δεν υποστηρίζεται.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Παρακαλώ ελέγξτε την διεύθυνση.</system:String>
 	<system:String x:Key="Messages.CheckPort">Παρακαλώ ελέγξτε τη θύρα{0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Παρακαλώ ελέγξτε καλά το πρωτόκολλο{0} και την θύρα{1}..</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Προσπαθεί να ελέγξει αμέσως για απομακρυσμένες αλλαγές αρχείων.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Τρέχουσα έκδοση {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Άρνηση delegation</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Παρακαλώ καταχωρίστε Access Key ID</system:String>
@@ -51,6 +53,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">Μπορούν να δημιουργηθούν μέχρι και 8 μονάδες στην τρέχουσα έκδοση</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">Οι διαδρομές φακέλων σημείου προσάρτησης είναι διαθέσιμες μόνο σε κενούς φακέλους σε βασικούς ή δυναμικούς τόμους NTFS.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">Για να αντιστοιχίσετε ένα φάκελο, απαιτείται η επιλογή "Τοπικός Δίσκος δημόσιος"</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">Η εγκατάσταση του προγράμματος οδήγησης συσκευής απέτυχε.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Καλώς ορίσατε, αυτό είναι το τελευταίο βήμα της εγκατάστασης και τα προγράμματα οδήγησης συσκευών θα εγκατασταθούν.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">Το πρόγραμμα οδήγησης συσκευής δεν είναι εγκατεστημένο στο σύστημά σας. Πρέπει να εγκαταστήσετε ξανά το RaiDrive.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive δεν είναι έτοιμο να ξεκινήσει, πρέπει να κάνετε επανεκκίνηση το σύστημα σας.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Το Dropbox υποστηρίζει τον Internet Explorer 10, 11. Θα πρέπει να εγκαταστήσετε τον Internet Explorer 11 καλύτερα.</system:String>
@@ -67,6 +71,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">επιλέξτε ένα private key αρχείο</system:String>
 	<system:String x:Key="Messages.SelectedPath">Επιλεγμένη διαδρομή</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Επιλέξτε έναν απομακρυσμένο φάκελο όπου θα αποθηκευτούν τα αρχεία</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">Θα ξεκινήσουμε με το RaiDrive;</system:String>
 	<system:String x:Key="Messages.Service.Alive">Παρακαλώ πατήστε το ΟΚ, το RaiDrive θα ζωντανέψει.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">Η υπηρεσία του RaiDrive σταμάτησε.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Οι συνδρομητικές σας δυνατότητες θα απενεργοποιηθούν και όλες οι μονάδες θα επανασυνδεθούν. Αποθηκεύστε τα αρχεία ή κλείστε τις εφαρμογές</system:String>
@@ -84,6 +89,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Απόρρητη περιήγηση</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Συνδέθηκε από το RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Διαγραφή τόμου</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Πρόγραμμα οδήγησης συσκευής</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Διπλοεγγεγραμμένη διαδρομή</system:String>
 	<system:String x:Key="Phrases.FileInUse">Αρχείο(α) σε χρήση: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV κλείδωμα αρχείου</system:String>
@@ -93,7 +99,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">URL διεύθυνση ή ID του τόμου</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Ακολουθήστε το τελευταίο</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">για την έκδοση business</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Λάβετε ιδιότητες αρχείου άμεσα</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Προσπάθησε να κράτησεις την "Ημερομηνία μεταβολής" κατά την αντιγραφή</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">Διατηρήστε την "Ημερομηνία τροποποίησης" αρχείων και φακέλων</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Επανασύνδεση τόμων κατά την επανεκκίνηση του υπολογιστή</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Επανασύνδεση τόμων κατά την σύνδεση σας</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Επανασύνδεση τόμων κατά την εκκίνηση</system:String>
@@ -101,7 +109,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Λειτουργία εκτός σύνδεσης</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Άνοιγμα του RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Αντικατάσταση αρχείου</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Γρήγορη Αντιγραφή/Μετακίνηση/Διαγραφή για απομακρυσμένο μέσο αποθήκευσης</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Γρήγορη Αντιγραφή/Μετακίνηση/Διαγραφή για απομακρυσμένο μέσο αποθήκευσης</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive Επανασύνδεση</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Είναι ενεργό κατά την εκκίνηση;</system:String>
 	<system:String x:Key="Phrases.RenameSource">Μετονομασία πηγής</system:String>
@@ -109,10 +117,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Άνοιξε τον Windows Explorer κατά την σύνδεση</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Επιλογή φακέλου</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Ανάσταση του RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">Εκκινήστε το RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} ελεύθερα από {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Γύρισε σε {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Ενημερώστε τις αλλαγές στο μέσο αποθήκευσης ασύγχρονα</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Χρησιμοποιήστε το προσαρμοσμένο εικονίδιο σε μια συνδεδεμένη μονάδα δίσκου</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Μη διαθέσιμη επιλογή</system:String>
 	<system:String x:Key="Words.AccessKeyID">Αναγνωριστικό κλειδιού πρόσβασης</system:String>
 	<system:String x:Key="Words.Account">Λογαριασμός</system:String>
 	<system:String x:Key="Words.AccountId">Αναγνωριστικό λογαριασμού</system:String>
@@ -189,6 +199,7 @@
 	<system:String x:Key="Words.Like">Σαν</system:String>
 	<system:String x:Key="Words.LocalDisk">Τοπική μονάδα δίσκου</system:String>
 	<system:String x:Key="Words.Login">Σύνδεση</system:String>
+	<system:String x:Key="Words.Management">Διαχείριση</system:String>
 	<system:String x:Key="Words.MySubscription">Η συνδρομή μου</system:String>
 	<system:String x:Key="Words.Namespace">Χώρος ονομάτων</system:String>
 	<system:String x:Key="Words.NOW">ΤΩΡΑ</system:String>
@@ -218,6 +229,7 @@
 	<system:String x:Key="Words.Reading">Ανάγνωση</system:String>
 	<system:String x:Key="Words.Ready">Έτοιμο</system:String>
 	<system:String x:Key="Words.Reason">Λόγος</system:String>
+	<system:String x:Key="Words.Reboot">Επανεκκίνηση</system:String>
 	<system:String x:Key="Words.RemoteFolder">Απομακρυσμενος φάκελος</system:String>
 	<system:String x:Key="Words.Remove">Αφαίρεση</system:String>
 	<system:String x:Key="Words.Retry">Επανάληψη</system:String>

@@ -9,10 +9,12 @@
 	<system:String x:Key="Language.Native">Tiếng Việt</system:String>
 	<system:String x:Key="Language.Tags">vi</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Nó áp dụng khi sao chép, di chuyển hoặc đổi tên tệp và thư mục.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">Thư mục tạm thời phải là một thư mục trên ổ đĩa thực trên máy tính. Ổ đĩa mạng không được hỗ trợ.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Vui lòng kiểm tra địa chỉ.</system:String>
 	<system:String x:Key="Messages.CheckPort">Vui lòng kiểm tra cổng {0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Vui lòng kiểm tra kỹ giao thức {0} và cổng {1}.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Nó cố gắng kiểm tra ngay các thay đổi tập tin từ xa.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Phiên bản hiện tại là {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Ủy quyền bị hủy bỏ</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Vui lòng nhập ID khóa truy cập</system:String>
@@ -54,6 +56,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">Có thể tạo tối đa 8 ổ đĩa trong phiên bản hiện tại</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">Đường dẫn thư mục Mount point chỉ khả dụng trên các thư mục trống trên các khối NTFS cơ bản hoặc động.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">Để gán thư mục, tùy chọn công khai Đĩa cục bộ là bắt buộc</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">Cài đặt trình điều khiển thiết bị không thành công.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Chào mừng, đây là bước cài đặt cuối cùng và trình điều khiển thiết bị sẽ được cài đặt.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">Trình điều khiển thiết bị chưa được cài đặt trên hệ thống của bạn. Bạn cần cài đặt lại RaiDrive.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive chưa sẵn sàng khởi động, bạn cần khởi động lại hệ thống.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox hỗ trợ Internet Explorer 10, 11. Bạn nên cài đặt Internet Explorer 11.</system:String>
@@ -70,6 +74,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">bạn có thể chọn tệp khóa riêng</system:String>
 	<system:String x:Key="Messages.SelectedPath">Chọn đường dẫn</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Chọn một thư mục từ xa nơi các tệp sẽ được lưu trữ</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">Chúng ta bắt đầu với RaiDrive nhé?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Hãy nhấn nút OK, RaiDrive sẽ hoạt động lại.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">Dịch vụ RaiDrive đã bị dừng.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Các tính năng đăng ký của bạn sẽ bị vô hiệu hóa và tất cả các ổ đĩa sẽ được kết nối lại. Vui lòng lưu (các) tệp hoặc đóng ứng dụng.</system:String>
@@ -87,6 +92,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Duyệt web ở chế độ riêng tư</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Được kết nối bởi RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Xóa phân vùng</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Trình điều khiển thiết bị</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Trùng đường dẫn</system:String>
 	<system:String x:Key="Phrases.FileInUse">Tệp đang được Sử dụng: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">Khóa tệp WebDAV</system:String>
@@ -96,7 +102,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">URL thư mục hoặc ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Theo dõi mới nhất</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">cho phiên bản doanh nghiệp</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Nhận thuộc tính tệp ngay lập tức</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Cố gắng giữ "Ngày sửa đổi" khi sao chép</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">Duy trì "Ngày sửa đổi" của tệp và thư mục</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Kết nối lại khi khởi động</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Tự động kết nối lại sau khi khởi động</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Kết nối lại khi bắt đầu chương trình</system:String>
@@ -104,7 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Chế độ ngoại tuyến</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Mở RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Ghi đè mục tiêu</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Sao chép/Di chuyển/Xóa nhanh để lưu trữ từ xa</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Sao chép/Di chuyển/Xóa nhanh để lưu trữ từ xa</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Kết nối lại RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Bật tự động khởi động</system:String>
 	<system:String x:Key="Phrases.RenameSource">Đổi tên nguồn</system:String>
@@ -112,10 +120,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Mở File Explorer khi dịch vụ được kết nối</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Chọn thư mục</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Sửa lại RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">Bắt đầu RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} trống của {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Đã chuyển sang {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Cập nhật các thay đổi về bộ nhớ không đồng bộ</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Sử dụng biểu tượng tùy chỉnh trên một ổ đĩa được kết nối</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Tùy chọn không khả dụng</system:String>
 	<system:String x:Key="Words.AccessKeyID">ID khóa truy cập</system:String>
 	<system:String x:Key="Words.Account">Tài khoản</system:String>
 	<system:String x:Key="Words.AccountId">ID tài khoản</system:String>
@@ -136,7 +146,7 @@
 	<system:String x:Key="Words.Brand.WD">WD</system:String>
 	<system:String x:Key="Words.Brand.ipTIME">ipTIME</system:String>
 	<system:String x:Key="Words.Browser">Trình duyệt</system:String>
-	<system:String x:Key="Words.Bucket">Bucket</system:String>
+	<system:String x:Key="Words.Bucket">Gầu múc</system:String>
 	<system:String x:Key="Words.Cache">Bộ nhớ cache</system:String>
 	<system:String x:Key="Words.Cancel">Hủy</system:String>
 	<system:String x:Key="Words.Capacity">Dung lượng</system:String>
@@ -192,6 +202,7 @@
 	<system:String x:Key="Words.Like">Thích</system:String>
 	<system:String x:Key="Words.LocalDisk">Đĩa cục bộ</system:String>
 	<system:String x:Key="Words.Login">Đăng nhập</system:String>
+	<system:String x:Key="Words.Management">Sự quản lý</system:String>
 	<system:String x:Key="Words.MySubscription">Đăng ký của tôi</system:String>
 	<system:String x:Key="Words.Namespace">không gian tên</system:String>
 	<system:String x:Key="Words.NOW">NGAY</system:String>
@@ -221,6 +232,7 @@
 	<system:String x:Key="Words.Reading">Đang đọc</system:String>
 	<system:String x:Key="Words.Ready">Sẵn sàng</system:String>
 	<system:String x:Key="Words.Reason">Lý do</system:String>
+	<system:String x:Key="Words.Reboot">Khởi động lại</system:String>
 	<system:String x:Key="Words.RemoteFolder">Thư mục từ xa</system:String>
 	<system:String x:Key="Words.Remove">Xóa</system:String>
 	<system:String x:Key="Words.Retry">Thử lại</system:String>

@@ -7,10 +7,12 @@
 	<system:String x:Key="Language.Native">Melayu</system:String>
 	<system:String x:Key="Language.Tags">ms</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Ia terpakai apabila menyalin, mengalihkan atau menamakan semula fail dan folder.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">Folder sementara mestilah folder pada pemacu setempat. Pemacu rangkaian tidak disokong.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Sila semak alamat.</system:String>
 	<system:String x:Key="Messages.CheckPort">Sila semak port{0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Sila semak berganda protokol{0} dan port{1}.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Ia cuba untuk segera menyemak perubahan fail jauh.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Versi semasa ialah {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegasi dibatalkan</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Sila masukkan ID Kekunci Akses</system:String>
@@ -52,6 +54,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">Versi semasa boleh mencipta sehingga 8 pemacu</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">Memuat titik laluan folder hanya tersedia untuk folder kosong dalam paduan NTFS asas atau dinamik.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">Pilihan Awam bagi Pemacu Tempatan diperlukan untuk memuat ke folder</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">Pemasangan pemacu peranti gagal.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Selamat datang, ini adalah langkah terakhir pemasangan dan pemacu peranti akan dipasang.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">Pemacu peranti tidak dipasang di komputer anda. Anda mesti memasang semula RaiDrive.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive tidak bersedia untuk dimulakan, Anda perlu memulakan semula sistem.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox menyokong Internet Explorer 10, 11. Sebaiknya anda memasang Internet Explorer 11.</system:String>
@@ -68,6 +72,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">anda boleh memilih fail kunci peribadi</system:String>
 	<system:String x:Key="Messages.SelectedPath">Laluan Dipilih</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Pilih folder luar dimana fail akan disimpan</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">Bolehkah kita mulakan dengan RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Sila tekan butang OK, RaiDrive akan dihidupkan semula.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">Servis RaiDrive telah dihentikan.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Ciri-ciri langganan anda akan dimatikan dan semua pemacu akan disambung semula. Sila simpan fail atau tutup aplikasi.</system:String>
@@ -85,6 +90,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Layari secara sulit</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Bersambung dengan RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Padam pemacu</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Pemacu peranti</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Pendua Dipilih</system:String>
 	<system:String x:Key="Phrases.FileInUse">Fail yang sedang digunakan: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">Kunci Fail WebDAV</system:String>
@@ -94,7 +100,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">URL folder atau ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Ikuti Terkini</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">untuk versi perniagaan</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Dapatkan sifat fail serta-merta</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Cuba kekalkan "Tarikh  yang diubah" ketika menyalin</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">Kekalkan "Tarikh diubah suai" fail dan folder</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Sambung semula ketika but</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Sambung semula ketika mendaftar-masuk</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Sambung semula ketika program dimulakan</system:String>
@@ -102,7 +110,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Mod luar talian</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Buka RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Ganti pilihan</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Salin/Pindah/Padam pantas untuk penyimpanan jarak jauh</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Salin/Pindah/Padam pantas untuk penyimpanan jarak jauh</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Sambungkan semula RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Daftar ke Pemula Sistem</system:String>
 	<system:String x:Key="Phrases.RenameSource">Nama semula sumber</system:String>
@@ -110,10 +118,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Jalankan Pelayar Fail apabila pemacu disambungkan</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Pilih folder</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Hidupkan semula RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">Mulakan RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} kosong dari {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Beralih kepada {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Kemas kini perubahan simpanan tidak segerak</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Gunakan ikon tersuai pada pemacu yang disambungkan</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Pilihan tidak tersedia</system:String>
 	<system:String x:Key="Words.AccessKeyID">ID Kekunci Akses</system:String>
 	<system:String x:Key="Words.Account">Akaun</system:String>
 	<system:String x:Key="Words.AccountId">ID Akaun</system:String>
@@ -190,6 +200,7 @@
 	<system:String x:Key="Words.Like">Suka</system:String>
 	<system:String x:Key="Words.LocalDisk">Pemacu Setempat</system:String>
 	<system:String x:Key="Words.Login">Log Masuk</system:String>
+	<system:String x:Key="Words.Management">Pengurusan</system:String>
 	<system:String x:Key="Words.MySubscription">Langganan saya</system:String>
 	<system:String x:Key="Words.Namespace">Ruang nama</system:String>
 	<system:String x:Key="Words.NOW">SEKARANG</system:String>
@@ -219,6 +230,7 @@
 	<system:String x:Key="Words.Reading">Membaca</system:String>
 	<system:String x:Key="Words.Ready">Sedia</system:String>
 	<system:String x:Key="Words.Reason">Sebab</system:String>
+	<system:String x:Key="Words.Reboot">But semula</system:String>
 	<system:String x:Key="Words.RemoteFolder">Folder Luar</system:String>
 	<system:String x:Key="Words.Remove">Padam</system:String>
 	<system:String x:Key="Words.Retry">Cuba Semula</system:String>

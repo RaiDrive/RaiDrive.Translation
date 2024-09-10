@@ -8,10 +8,12 @@
 	<system:String x:Key="Language.Native">中文（繁體）</system:String>
 	<system:String x:Key="Language.Tags">zh-Hant</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">它適用於複製、移動或重新命名檔案和資料夾。</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">暫存資料夾必須是本機磁碟機上的資料夾。不支援網路磁碟機。</system:String>
 	<system:String x:Key="Messages.CheckAddress">請檢查位址是否正確。</system:String>
 	<system:String x:Key="Messages.CheckPort">請檢查連接埠 {0}。</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">請仔細檢查協定 {0} 和連接埠 {1} 是否正確。</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">它嘗試立即檢查遠端文件更改。</system:String>
 	<system:String x:Key="Messages.CurrentVersion">目前版本是 {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">委派已中止</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">請輸入存取金鑰ID</system:String>
@@ -53,6 +55,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">可在目前版本中建立多達 8 個磁碟機</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">掛載點資料夾路徑僅在基本或動態 NTFS 磁碟區上的空資料夾上可用。</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">要分配資料夾，需要「本機磁碟」公用選項</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">設備驅動程式安裝失敗。</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">歡迎，這是安裝的最後一步，將安裝裝置驅動程式。</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">系統內未安裝裝置驅動程式。您需要重新安裝 RaiDrive。</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive 尚未準備好啟動，您需要重新啟動系統。</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox 支援 Internet Explorer 10、11。您最好安裝 Internet Explorer 11。</system:String>
@@ -69,6 +73,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">您可以選擇一個私密金鑰檔案</system:String>
 	<system:String x:Key="Messages.SelectedPath">選取的路徑</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">選擇要儲存檔案的遠端資料夾</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">我們可以開始使用 RaiDrive 嗎？</system:String>
 	<system:String x:Key="Messages.Service.Alive">請按下 [確定] 按鈕，RaiDrive 會重新運作。</system:String>
 	<system:String x:Key="Messages.Service.Stoped">RaiDrive 服務已停止。</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">您的訂閱功能將被停用，所有磁碟機將重新連線。請儲存檔案或關閉應用程式。</system:String>
@@ -86,6 +91,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">私密瀏覽</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">已由 RaiDrive 連線</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">刪除磁碟機</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">裝置驅動</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">重複的路徑</system:String>
 	<system:String x:Key="Phrases.FileInUse">正在使用的檔案：{0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV 檔案鎖定</system:String>
@@ -95,7 +101,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">資料夾網址或 ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">保持最新 (Follow Latest)</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">商業版本</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">立即取得檔案屬性</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">複製時嘗試保留原「修改日期」</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">維護文件和資料夾的“修改日期”</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">啟動時重新連線</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">登入時重新連線</system:String>
 	<system:String x:Key="Phrases.MountAtStart">程式執行時重新連線</system:String>
@@ -103,7 +111,7 @@
 	<system:String x:Key="Phrases.OfflineMode">離線模式</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">開啟 RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">覆寫目的檔案</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">啟用遠端儲存體快速複製/移動/刪除</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">啟用遠端儲存體快速複製/移動/刪除</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive 重新連線</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">註冊到系統啟動</system:String>
 	<system:String x:Key="Phrases.RenameSource">重新命名來源檔案</system:String>
@@ -111,10 +119,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">在磁碟機連線後啟動檔案總管</system:String>
 	<system:String x:Key="Phrases.SelectFolder">選擇資料夾</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">重啟 RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">啟動 RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">可用容量 {0} / 總容量 {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">切換到 {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">儲存變更非同步更新</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">在已連線磁碟機上使用自訂圖示</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">不可用的選項</system:String>
 	<system:String x:Key="Words.AccessKeyID">存取金鑰ID</system:String>
 	<system:String x:Key="Words.Account">帳號</system:String>
 	<system:String x:Key="Words.AccountId">帳號 ID</system:String>
@@ -191,6 +201,7 @@
 	<system:String x:Key="Words.Like">讚</system:String>
 	<system:String x:Key="Words.LocalDisk">本機磁碟</system:String>
 	<system:String x:Key="Words.Login">登入</system:String>
+	<system:String x:Key="Words.Management">管理</system:String>
 	<system:String x:Key="Words.MySubscription">我的訂閱</system:String>
 	<system:String x:Key="Words.Namespace">命名空間</system:String>
 	<system:String x:Key="Words.NOW">立刻</system:String>
@@ -220,6 +231,7 @@
 	<system:String x:Key="Words.Reading">讀取中</system:String>
 	<system:String x:Key="Words.Ready">就緒</system:String>
 	<system:String x:Key="Words.Reason">原因</system:String>
+	<system:String x:Key="Words.Reboot">重啟</system:String>
 	<system:String x:Key="Words.RemoteFolder">遠端資料夾</system:String>
 	<system:String x:Key="Words.Remove">移除</system:String>
 	<system:String x:Key="Words.Retry">重試</system:String>

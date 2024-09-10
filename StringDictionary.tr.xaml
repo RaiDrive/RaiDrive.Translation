@@ -6,10 +6,12 @@
 	<system:String x:Key="Language.Native">Türkçe</system:String>
 	<system:String x:Key="Language.Tags">tr</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Dosya ve klasörleri kopyalarken, taşırken veya yeniden adlandırırken geçerlidir.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">Geçici depolama klasörü bilgisayarınızda olmak zorunda. Ağ sürücüleri desteklenmemektedir.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Lütfen adresi kontrol ediniz.</system:String>
 	<system:String x:Key="Messages.CheckPort">Lütfen portu{0} kontrol ediniz.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Lütfen bağlantı protokolünü{0} ve portu {1} tekrar kontrol ediniz.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Uzaktaki dosya değişikliklerini hemen kontrol etmeye çalışır.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Kullanmakta olduğunuz sürüm: {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Yetkilendirme durduruldu</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Lütfen Access Key ID'nizi giriniz.</system:String>
@@ -51,6 +53,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">Bu versiyon 8 sürücüye kadar destek vermektedir.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">Bağlama noktası klasör yolları yalnızca temel veya dinamik NTFS birimlerindeki boş klasörlerde kullanılabilir.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">Klasöre ilişkilendirmek için Yerel Diskin herkese açık seçeneği seçilmelidir</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">Aygıt sürücüsü kurulumu başarısız oldu.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Hoş geldiniz, bu kurulumun son adımıdır ve aygıt sürücüleri yüklenecektir.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">RaiDrive sürücüsü bilgisayarınızda bulunamadı. RaiDrive'ı tekrar kurmanız gerekmekte.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive çalışmak için henüz hazır değil. Lütfen sisteminizi yeniden başlatınız.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox Internet Explorer 10 ve 11 i desteklemekte. 11 versiyonunu kurmanız önerilir.</system:String>
@@ -67,6 +71,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">Private key ekleyebilirsiniz.</system:String>
 	<system:String x:Key="Messages.SelectedPath">Seçilen dosya yolu</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Dosyaların yükleneceği klasörü seçiniz.</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">RaiDrive'a başlayalım mı?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Onayınız ardından RaiDrive normale dönecektir.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">RaiDrive Servisi durdu.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Tüm üyelik özellikleri devre dışı bırakılacak, tüm sürücülere yeniden bağlanılacaktır. Lütfen bağımlı uygulamaları kapatınız.</system:String>
@@ -84,6 +89,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Gizli olarak göz atma</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDrive ile bağlantı kuruldu.</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Sürücüyü sil</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Aygıt sürücüsü</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Kopyalanmış dosya yolu</system:String>
 	<system:String x:Key="Phrases.FileInUse">Kullanımdaki Dosya(lar): {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV Dosya Kilidi</system:String>
@@ -93,7 +99,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">klasör URL'i veya ID'si</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Sonuncuyu takip et</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">Business versiyonu için</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Dosya özelliklerini anında alın</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Kopyalama sırasında "Değiştirme tarihi"ni korumaya çalışın</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">Dosya ve klasörlerin "Değiştirilme tarihini" koruyun</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Başlangıçta Bağlan</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Otomatik Bağlan</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Program Başlatıldığında Bağlan</system:String>
@@ -101,7 +109,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Çevrimdışı mod</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDrive'ı Aç</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Hedefin üzerine yaz</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Uzak depolama için Hızlı Kopyalama/Taşıma/Silme</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Uzak depolama için Hızlı Kopyalama/Taşıma/Silme</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive'a tekrar bağlan.</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Windows ile Başlat</system:String>
 	<system:String x:Key="Phrases.RenameSource">Kaynağı yeniden adlandır</system:String>
@@ -109,10 +117,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Dosya bağlantısı sağlandığında dosya yöneticisini aç.</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Dosya seç</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">RaiDrive'ı onar.</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">RaiDrive'ı başlatın</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{1} {2} alanınızın {0} {2}'ı boş</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">{0}'a geçildi.</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Depolama değişikliklerini eşzamansız olarak güncelle</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Özel RaiDrive iconunu kullan.</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Kullanılamayan seçenek</system:String>
 	<system:String x:Key="Words.AccessKeyID">Erişim Anahtarı Kimliği</system:String>
 	<system:String x:Key="Words.Account">Hesap</system:String>
 	<system:String x:Key="Words.AccountId">Hesap Kimliği</system:String>
@@ -189,6 +199,7 @@
 	<system:String x:Key="Words.Like">Beğen</system:String>
 	<system:String x:Key="Words.LocalDisk">Yerel Disk</system:String>
 	<system:String x:Key="Words.Login">Giriş Yap</system:String>
+	<system:String x:Key="Words.Management">Yönetmek</system:String>
 	<system:String x:Key="Words.MySubscription">Üyeliğim</system:String>
 	<system:String x:Key="Words.Namespace">Ad alanı</system:String>
 	<system:String x:Key="Words.NOW">Şimdi</system:String>
@@ -218,6 +229,7 @@
 	<system:String x:Key="Words.Reading">Okuma</system:String>
 	<system:String x:Key="Words.Ready">Hazır</system:String>
 	<system:String x:Key="Words.Reason">Neden</system:String>
+	<system:String x:Key="Words.Reboot">Yeniden başlat</system:String>
 	<system:String x:Key="Words.RemoteFolder">Uzaktaki Dosya</system:String>
 	<system:String x:Key="Words.Remove">Sil</system:String>
 	<system:String x:Key="Words.Retry">Tekrar Dene</system:String>

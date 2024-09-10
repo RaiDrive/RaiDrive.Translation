@@ -7,10 +7,12 @@
 	<system:String x:Key="Language.Native">한국어</system:String>
 	<system:String x:Key="Language.Tags">ko</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">파일 및 폴더를 복사하거나 이동하거나 이름을 바꿀 때 적용됩니다.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">임시폴더는 로컬 디스크 드라이브의 폴더만 가능합니다. 네트워크 드라이브는 지원하지 않습니다.</system:String>
 	<system:String x:Key="Messages.CheckAddress">연결 주소를 다시 확인해보세요.</system:String>
 	<system:String x:Key="Messages.CheckPort">연결 포트{0}를 다시 확인해보세요.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">프로토콜{0}과 포트{1}를 다시 확인해보세요.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">원격 파일 변경 사항을 즉시 확인하려고 시도합니다.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">현재 버전은 {0} 입니다.</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">권한위임 중단</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">엑세스 키 ID를 입력해 주세요</system:String>
@@ -52,6 +54,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">현재 버전에서는 최대 8개의 드라이브를 만들 수 있습니다.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">탑재 지점 폴더 경로는 NTFS 볼륨의 빈 폴더만 가능합니다.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">폴더에 마운트하려면 반드시 로컬 디스크의 공개 옵션을 활성화해야 합니다</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">장치 드라이버 설치에 실패했습니다.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">환영합니다. 이것이 설치의 마지막 단계이며 장치 드라이버가 설치됩니다.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">디바이스 드라이버가 설치되지 않았습니다. RaiDrive를 다시 설치햐야 합니다.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive를 시작할 준비가 안되었습니다. 재부팅이 필요합니다.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">드롭박스는 인터넷 익스플로러 10 이상을 지원합니다. 인터넷 익스플로러 11 설치를 권장합니다.</system:String>
@@ -68,6 +72,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">개인키 파일을 선택할 수 있습니다</system:String>
 	<system:String x:Key="Messages.SelectedPath">선택 경로</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">파일이 저장될 원격폴더를 선택하세요</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">RaiDrive를 시작해볼까요?</system:String>
 	<system:String x:Key="Messages.Service.Alive">확인을 눌러주세요. RaiDrive가 다시 시작됩니다.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">RaiDrive Service가 중지되었습니다.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">구독한 기능을 사용할 수 없으며, 모든 드라이브를 다시 연결합니다. 파일을 저장하거나 응용프로그램을 닫으십시오.</system:String>
@@ -85,6 +90,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">시크릿 브라우징</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDrive에 의해 연결됨</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">드라이브 삭제</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">장치 드라이버</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">중복 경로</system:String>
 	<system:String x:Key="Phrases.FileInUse">사용중인 파일: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV 파일잠금</system:String>
@@ -94,7 +100,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">폴더 URL 또는 ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">최신 보기</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">비즈니스 버전용</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">즉시 파일 속성 가져오기</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">파일 복사할 때, 수정한 날짜 유지시도</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">파일 및 폴더의 "수정 날짜" 유지</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">부팅시에 자동연결</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">로그인시에 자동연결</system:String>
 	<system:String x:Key="Phrases.MountAtStart">프로그램 시작시에 자동연결</system:String>
@@ -102,7 +110,7 @@
 	<system:String x:Key="Phrases.OfflineMode">오프라인 모드</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDrive 열기</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">덮어쓰기</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">스토리지에서 빠른 복사/이동/삭제</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">스토리지에서 빠른 복사/이동/삭제</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive 재연결</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">시작프로그램에 등록</system:String>
 	<system:String x:Key="Phrases.RenameSource">이름변경</system:String>
@@ -110,10 +118,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">드라이브가 연결 될 때 파일 탐색기를 실행</system:String>
 	<system:String x:Key="Phrases.SelectFolder">폴더 선택</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">RaiDrive 다시 시작</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">RaiDrive 시작</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{1} 중 {0} 사용 가능 {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">{0}으로 전환</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">스토리지 변경사항을 비동기적으로 갱신</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">연결된 드라이브에 사용자 정의 아이콘 사용</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">사용할 수 없는 옵션</system:String>
 	<system:String x:Key="Words.AccessKeyID">엑세스 키 ID</system:String>
 	<system:String x:Key="Words.Account">계정</system:String>
 	<system:String x:Key="Words.AccountId">계정 ID</system:String>
@@ -190,6 +200,7 @@
 	<system:String x:Key="Words.Like">좋아요</system:String>
 	<system:String x:Key="Words.LocalDisk">로컬 디스크</system:String>
 	<system:String x:Key="Words.Login">로그인</system:String>
+	<system:String x:Key="Words.Management">관리</system:String>
 	<system:String x:Key="Words.MySubscription">나의 구독</system:String>
 	<system:String x:Key="Words.Namespace">네임스페이스</system:String>
 	<system:String x:Key="Words.NOW">지금</system:String>
@@ -219,6 +230,7 @@
 	<system:String x:Key="Words.Reading">읽는중</system:String>
 	<system:String x:Key="Words.Ready">준비</system:String>
 	<system:String x:Key="Words.Reason">원인</system:String>
+	<system:String x:Key="Words.Reboot">재부팅</system:String>
 	<system:String x:Key="Words.RemoteFolder">원격폴더</system:String>
 	<system:String x:Key="Words.Remove">삭제</system:String>
 	<system:String x:Key="Words.Retry">다시 시도</system:String>

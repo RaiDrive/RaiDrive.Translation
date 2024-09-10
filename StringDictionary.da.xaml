@@ -6,10 +6,12 @@
 	<system:String x:Key="Language.Native">dansk</system:String>
 	<system:String x:Key="Language.Tags">da</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Det gælder, når du kopierer, flytter eller omdøber filer og mapper.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">Den midlertidige mappe skal være på et lokalt diskdrev. Netværksdrev er ikke understøttet.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Kontroller venligst adressen.</system:String>
 	<system:String x:Key="Messages.CheckPort">Kontroller venligst port{0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Kontroller venligst protokol{0} og port{1} igen.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Den forsøger med det samme at tjekke for fjernfilændringer.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Nuværende version er {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegationen afbrudt</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Indtast venligst adgangsnøgle-id</system:String>
@@ -51,6 +53,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">Op til 8 drev kan oprettes i den nuværende version</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">Mappepunktsstier til montering er kun tilgængelige på tomme mapper på grundlæggende eller dynamiske NTFS-volumener.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">For at tildele en mappe er den offentlige mulighed for Lokal disk obligatorisk</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">Installation af enhedsdriver mislykkedes.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Velkommen, dette er det sidste trin i installationen, og enhedsdriverne vil blive installeret.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">Enhedsdriveren er ikke installeret på dit system. Du er nød til at geninstallere RaiDrive.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive er ikke klar til at starte, en genstart af systemet er påkrævet.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox understøtter Internet Explorer 10, 11. Det er anbefalet at du installerer Internet Explorer 11.</system:String>
@@ -67,6 +71,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">du kan her vælge din private nøgle</system:String>
 	<system:String x:Key="Messages.SelectedPath">Valgt sti</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Vælg en fjernmappe hvor filerne vil blive gemt</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">Skal vi komme i gang med RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Tryk på OK og RaiDrive vil live op.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">Servicen RaiDrive blev stoppet.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Dine abonnementsfunktioner bliver deaktiveret, og alle drev vil blive tilsluttet igen. Gem venligst fil (er) eller luk ansøgning (er).</system:String>
@@ -84,6 +89,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Privat brug af internettet</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Forbundet af RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Slet drev</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Enhedsdriver</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplikeret sti</system:String>
 	<system:String x:Key="Phrases.FileInUse">Fil(er) i brug: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV fillås</system:String>
@@ -93,7 +99,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">Mappe-URL eller ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Følg Seneste</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">til business-versionen</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Få filegenskaber med det samme</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Prøv at beholde "Dato ændret", når du kopierer</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">Vedligehold "Modificeret dato" af filer og mapper</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Tilslut igen ved opstart</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Genforbind ved login</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Tilslut igen ved programstart</system:String>
@@ -101,7 +109,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Offline tilstand</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Åbn RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Overskriv mål</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Hurtig kopi/flytt/slet til fjernlagring</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Hurtig kopi/flytt/slet til fjernlagring</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive Genforbind</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Tilmeld dig Startup</system:String>
 	<system:String x:Key="Phrases.RenameSource">Omdøb kilden</system:String>
@@ -109,10 +117,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Kør fil-explorer når et drev er forbundet</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Vælg mappe</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Genopliv RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">Start RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} ledig af {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Skiftet til {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Opdater lagerændringer asynkront</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Brug det brugerdefinerede ikon på et tilsluttet drev</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Utilgængelig mulighed</system:String>
 	<system:String x:Key="Words.AccessKeyID">Adgangsnøgle-id</system:String>
 	<system:String x:Key="Words.Account">Konto</system:String>
 	<system:String x:Key="Words.AccountId">Konto-id</system:String>
@@ -189,6 +199,7 @@
 	<system:String x:Key="Words.Like">Synes om</system:String>
 	<system:String x:Key="Words.LocalDisk">Lokal disk</system:String>
 	<system:String x:Key="Words.Login">Log ind</system:String>
+	<system:String x:Key="Words.Management">Ledelse</system:String>
 	<system:String x:Key="Words.MySubscription">Mit abonnement</system:String>
 	<system:String x:Key="Words.Namespace">Navneområde</system:String>
 	<system:String x:Key="Words.NOW">NU</system:String>
@@ -218,6 +229,7 @@
 	<system:String x:Key="Words.Reading">Læsning</system:String>
 	<system:String x:Key="Words.Ready">Klar</system:String>
 	<system:String x:Key="Words.Reason">Årsag</system:String>
+	<system:String x:Key="Words.Reboot">Genstart</system:String>
 	<system:String x:Key="Words.RemoteFolder">Destinationsmappe</system:String>
 	<system:String x:Key="Words.Remove">Fjern</system:String>
 	<system:String x:Key="Words.Retry">Forsøg igen</system:String>

@@ -6,10 +6,12 @@
 	<system:String x:Key="Language.Native">English</system:String>
 	<system:String x:Key="Language.Tags">en</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">It applies when copying, moving, or renaming files and folders.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">The temporary folder must be a folder on the local disk drive. Network drive is not supported.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Please check the address.</system:String>
 	<system:String x:Key="Messages.CheckPort">Please check the port{0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Please double check the protocol{0} and port{1}.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">It attempts to immediately check for remote file changes.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Current version is {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegation aborted</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Please enter Access Key ID</system:String>
@@ -51,6 +53,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">Up to 8 drives can be created in the current version</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">Mount point folder paths are available only on empty folders on basic or dynamic NTFS volumes.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">The Public option of Local Disk is required to mount to folder</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">Device driver installation failed.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Welcome, this is the final step of installation and the device drivers will be installed.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">Device driver is not installed on your system. You need reinstall RaiDrive.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive is not ready to start, You need restart system.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox supports Internet Explorer 10, 11. You'd better install Internet Explorer 11.</system:String>
@@ -67,6 +71,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">you may select private key file</system:String>
 	<system:String x:Key="Messages.SelectedPath">Selected Path</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Select a remote folder where files will be stored</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">Shall we get started with RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Please press OK button, RaiDrive will be alive.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">RaiDrive Service was stopped.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Your subscription features will be disabled and all drives will be reconnected. Please save file(s) or close application(s)</system:String>
@@ -84,6 +89,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Browse in private</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Connected by RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Delete drive</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Device driver</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplicated Path</system:String>
 	<system:String x:Key="Phrases.FileInUse">File(s) In Use: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV File Lock</system:String>
@@ -93,7 +99,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">folder URL or ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Follow Latest</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">for the business version</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Get file properties instantly</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">Maintain &quot;Date modified&quot; of files and folders</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Reconnect at boot</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Reconnect at sign-in</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Reconnect at program start</system:String>
@@ -101,7 +109,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Offline mode</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Open RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Overwrite target</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Quick Copy/Move/Delete for remote storage</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive Reconnect</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Register to Startup</system:String>
 	<system:String x:Key="Phrases.RenameSource">Rename source</system:String>
@@ -109,10 +117,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Run File Explorer when the drive is connected</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Select folder</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Revive RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">Start RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} free of {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Switched to {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Update storage changes asynchronously</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Use the custom icon on a connected drive</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Unavailable option</system:String>
 	<system:String x:Key="Words.AccessKeyID">Access Key ID</system:String>
 	<system:String x:Key="Words.Account">Account</system:String>
 	<system:String x:Key="Words.AccountId">Account ID</system:String>
@@ -189,6 +199,7 @@
 	<system:String x:Key="Words.Like">Like</system:String>
 	<system:String x:Key="Words.LocalDisk">Local Disk</system:String>
 	<system:String x:Key="Words.Login">Login</system:String>
+	<system:String x:Key="Words.Management">Management</system:String>
 	<system:String x:Key="Words.MySubscription">My Subscription</system:String>
 	<system:String x:Key="Words.Namespace">Namespace</system:String>
 	<system:String x:Key="Words.NOW">NOW</system:String>
@@ -218,6 +229,7 @@
 	<system:String x:Key="Words.Reading">Reading</system:String>
 	<system:String x:Key="Words.Ready">Ready</system:String>
 	<system:String x:Key="Words.Reason">Reason</system:String>
+	<system:String x:Key="Words.Reboot">Reboot</system:String>
 	<system:String x:Key="Words.RemoteFolder">Remote Folder</system:String>
 	<system:String x:Key="Words.Remove">Remove</system:String>
 	<system:String x:Key="Words.Retry">Retry</system:String>

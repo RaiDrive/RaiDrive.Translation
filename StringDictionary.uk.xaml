@@ -6,10 +6,12 @@
 	<system:String x:Key="Language.Native">українська</system:String>
 	<system:String x:Key="Language.Tags">uk</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Він застосовується під час копіювання, переміщення або перейменування файлів і папок.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">Тимчасова папка повинна бути на локальному диску. Мережевий диск не підтримується.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Перевірте адресу.</system:String>
 	<system:String x:Key="Messages.CheckPort">Перевірте порт {0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Двічі перевірте протокол {0} і порт {1}.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Він намагається негайно перевірити віддалені зміни файлів.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Поточна версія {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Делегування перервано</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Введіть ідентифікатор ключа</system:String>
@@ -51,6 +53,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">У поточній версії можна створити до 8 дисків</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">Шляхи до точок монтування доступні лише в порожніх папках на базових або динамічних томах NTFS.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">Для призначення папки потрібен параметр публічного локального диска</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">Помилка встановлення драйвера пристрою.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Ласкаво просимо! Це останній крок встановлення, і драйвери пристроїв будуть встановлені.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">Драйвер пристрою не встановлений у вашій системі. Потрібно перевстановити RaiDrive.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive не готовий до запуску. Потрібно перезавантажити систему.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox підтримує Internet Explorer 10 та 11. Краще встановити Internet Explorer 11.</system:String>
@@ -67,6 +71,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">виберіть приватний ключ</system:String>
 	<system:String x:Key="Messages.SelectedPath">Вибраний шлях</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Виберіть віддалену папку для зберігання файлів</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">Почнемо з RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Натисніть OK, щоб перепідключити RaiDrive.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">Службу RaiDrive зупинено.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Функції вашої передплати будуть вимкнені, а всі диски перепідключені. Збережіть файли або закрийте програму</system:String>
@@ -84,6 +89,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Перегляд в анонімному режимі</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Підключено через RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Видалити диск</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Драйвер пристрою</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Дубльований шлях</system:String>
 	<system:String x:Key="Phrases.FileInUse">Використано файлів: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">Блокування файлів WebDAV</system:String>
@@ -93,7 +99,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">URL-адреса папки або ідентифікатор</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Стежити за останніми</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">для бізнес-версії</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Миттєво отримуйте властивості файлу</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Намагатися зберігати "Дату змінення" при копіюванні</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">Підтримуйте "Дата зміни" файлів і папок</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Підключати при запуску системи</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Підключати при вході в систему</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Підключати при запуску програми</system:String>
@@ -101,7 +109,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Автономний режим</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Відкрити RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Перезаписати цільовий</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Швидке копіювання/переміщення/видалення для віддаленого сховища</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Швидке копіювання/переміщення/видалення для віддаленого сховища</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Перепідключення RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Додати в автозавантаження</system:String>
 	<system:String x:Key="Phrases.RenameSource">Перейменувати початковий</system:String>
@@ -109,10 +117,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Відкривати папку в Провіднику після підключення</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Вибрати папку</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Відновлення RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">Запустіть RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} вільно з {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Змінено на {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Асинхронне оновлення змін сховища</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Піктограма RaiDrive на підключеному диску</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Недоступний варіант</system:String>
 	<system:String x:Key="Words.AccessKeyID">Ідентифікатор ключа</system:String>
 	<system:String x:Key="Words.Account">Обліковий запис</system:String>
 	<system:String x:Key="Words.AccountId">Номер рахунку</system:String>
@@ -189,6 +199,7 @@
 	<system:String x:Key="Words.Like">Подобається</system:String>
 	<system:String x:Key="Words.LocalDisk">Локальний диск</system:String>
 	<system:String x:Key="Words.Login">Увійти</system:String>
+	<system:String x:Key="Words.Management">управління</system:String>
 	<system:String x:Key="Words.MySubscription">Моя передплата</system:String>
 	<system:String x:Key="Words.Namespace">Простір імен</system:String>
 	<system:String x:Key="Words.NOW">ЗАРАЗ</system:String>
@@ -218,6 +229,7 @@
 	<system:String x:Key="Words.Reading">Читання</system:String>
 	<system:String x:Key="Words.Ready">Готовий</system:String>
 	<system:String x:Key="Words.Reason">Причина</system:String>
+	<system:String x:Key="Words.Reboot">Перезавантаження</system:String>
 	<system:String x:Key="Words.RemoteFolder">Віддалена папка</system:String>
 	<system:String x:Key="Words.Remove">Видалити</system:String>
 	<system:String x:Key="Words.Retry">Повторити</system:String>

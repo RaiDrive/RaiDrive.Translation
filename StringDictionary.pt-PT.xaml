@@ -6,10 +6,12 @@
 	<system:String x:Key="Language.Native">português (Portugal)</system:String>
 	<system:String x:Key="Language.Tags">pt-PT</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Aplica-se ao copiar, mover ou renomear arquivos e pastas.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">A pasta temporária deve ser uma pasta na unidade de disco local. A unidade de rede não é suportada.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Por favor, verifique o endereço.</system:String>
 	<system:String x:Key="Messages.CheckPort">Por favor, verifique a porta{0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Por favor, verifique o protocolo{0} e a porta{1}.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Ele tenta verificar imediatamente alterações remotas em arquivos.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">A versão atual é {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegação abortada</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Por favor, indique chave de acesso ID</system:String>
@@ -51,6 +53,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">Até 8 unidades podem ser criadas na versão atual</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">Os caminhos de pasta do ponto de montagem estão disponíveis apenas em pastas vazias em volumes NTFS básicos ou dinâmicos.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">Para atribuir uma pasta, a opção pública Disco Local é necessária</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">A instalação do driver de dispositivo falhou.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Bem-vindo, esta é a etapa final da instalação e os drivers do dispositivo serão instalados.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">O driver do dispositivo não está instalado no seu sistema. Você precisa reinstalar o RaiDrive.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">O RaiDrive não está pronto para iniciar. Você precisa reiniciar o sistema.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">O Dropbox suporta o Internet Explorer 10, 11. É melhor instalar o Internet Explorer 11.</system:String>
@@ -67,6 +71,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">você pode selecionar o arquivo de chave privada</system:String>
 	<system:String x:Key="Messages.SelectedPath">Caminho Selecionado</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Selecione uma pasta remota onde os arquivos serão armazenados</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">Vamos começar com o RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Por favor, pressione o botão OK, o RaiDrive estará vivo.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">O Serviço RaiDrive foi parado.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Seus recursos de assinatura serão desativados e todas as unidades serão reconectadas. Salve os arquivos ou feche os aplicativos</system:String>
@@ -84,6 +89,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Navegue em privado</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Conectado por RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Excluir unidade</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Driver do dispositivo</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Caminho duplicado</system:String>
 	<system:String x:Key="Phrases.FileInUse">Arquivo(s) em uso: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">Bloqueio de arquivo WebDAV</system:String>
@@ -93,7 +99,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">URL ou ID da pasta</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Seguir mais recentes</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">para a versão empresa</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Obtenha propriedades de arquivo instantaneamente</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Tente manter "Data de modificação" ao copiar</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">Manter "Data de modificação" de arquivos e pastas</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Reconectar no boot</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Reconectar ao fazer login</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Reconectar no início do programa</system:String>
@@ -101,7 +109,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Modo offline</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Abra o RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Sobrescrever destino</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Quick Copy/Move/Delete para armazenamento remoto</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Quick Copy/Move/Delete para armazenamento remoto</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive Reconectar</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Registre-se na Inicialização</system:String>
 	<system:String x:Key="Phrases.RenameSource">Renomear fonte</system:String>
@@ -109,10 +117,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Execute o File Explorer quando uma unidade estiver conectada</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Selecione uma pasta</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Reviver RaiDrive</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">Inicie o RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} livre de {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Mudou para {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Atualize as alterações de armazenamento de forma assíncrona</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Use o ícone personalizado em uma unidade conectada</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Opção indisponível</system:String>
 	<system:String x:Key="Words.AccessKeyID">ID da chave de acesso</system:String>
 	<system:String x:Key="Words.Account">Conta</system:String>
 	<system:String x:Key="Words.AccountId">ID da conta</system:String>
@@ -162,7 +172,7 @@
 	<system:String x:Key="Words.Encryption">Criptografia</system:String>
 	<system:String x:Key="Words.Endpoint">Ponto final</system:String>
 	<system:String x:Key="Words.Error">Erro</system:String>
-	<system:String x:Key="Words.Etc">etc</system:String>
+	<system:String x:Key="Words.Etc">etc.</system:String>
 	<system:String x:Key="Words.Example.EmailAddress">id@example.com</system:String>
 	<system:String x:Key="Words.Example.HostAddress">host.exemplo.com</system:String>
 	<system:String x:Key="Words.Exit">Saída</system:String>
@@ -189,8 +199,9 @@
 	<system:String x:Key="Words.Like">Gostar</system:String>
 	<system:String x:Key="Words.LocalDisk">Disco Local</system:String>
 	<system:String x:Key="Words.Login">Entrar</system:String>
+	<system:String x:Key="Words.Management">Gerenciamento</system:String>
 	<system:String x:Key="Words.MySubscription">Minha Assinatura</system:String>
-	<system:String x:Key="Words.Namespace">Namespace</system:String>
+	<system:String x:Key="Words.Namespace">Espaço para nome</system:String>
 	<system:String x:Key="Words.NOW">AGORA</system:String>
 	<system:String x:Key="Words.Network">Rede</system:String>
 	<system:String x:Key="Words.NetworkDrive">Unidade de rede</system:String>
@@ -211,13 +222,14 @@
 	<system:String x:Key="Words.Progress">Progresso</system:String>
 	<system:String x:Key="Words.Project">Projeto</system:String>
 	<system:String x:Key="Words.Properties">Propriedades</system:String>
-	<system:String x:Key="Words.Proxy">Proxy</system:String>
+	<system:String x:Key="Words.Proxy">Procurador</system:String>
 	<system:String x:Key="Words.Public">Público</system:String>
 	<system:String x:Key="Words.Read">Ler</system:String>
 	<system:String x:Key="Words.ReadOnly">Somente leitura</system:String>
 	<system:String x:Key="Words.Reading">Leitura</system:String>
 	<system:String x:Key="Words.Ready">Pronto</system:String>
 	<system:String x:Key="Words.Reason">Razão</system:String>
+	<system:String x:Key="Words.Reboot">Reinício</system:String>
 	<system:String x:Key="Words.RemoteFolder">Pasta Remota</system:String>
 	<system:String x:Key="Words.Remove">Retirar</system:String>
 	<system:String x:Key="Words.Retry">Tentar novamente</system:String>

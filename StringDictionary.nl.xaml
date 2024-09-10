@@ -7,10 +7,12 @@
 	<system:String x:Key="Language.Native">Nederlands</system:String>
 	<system:String x:Key="Language.Tags">nl</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Het is van toepassing bij het kopiëren, verplaatsen of hernoemen van bestanden en mappen.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">De tijdelijke map moet zich op je PC bevinden.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Controleer het adres</system:String>
 	<system:String x:Key="Messages.CheckPort">Controleer de poort{0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Controleer protocol{0} en poort{1}.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Er wordt geprobeerd onmiddellijk te controleren op bestandswijzigingen op afstand.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Huidige versie: {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Overdracht afgebroken</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Toegangssleutel ID invoeren</system:String>
@@ -52,6 +54,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">In de huidige versie kunnen maximaal 8 diensten worden verbonden</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">Mount point-directorypaden kunnen alleen worden gebruikt met lege mappen op basis- of dynamische NTFS-volumes.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">Om een ​​map toe te wijzen, is de openbare optie Lokale schijf vereist</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">Installatie van het apparaatstuurprogramma is mislukt.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">Welkom, dit is de laatste stap van de installatie en de stuurprogramma's worden geïnstalleerd.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">Het stuurprogramma is niet geladen. Installeer RaiDrive opnieuw.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive is niet gereed. Start de PC opnieuw op.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox ondersteunt IE10 en IE11. Installeer Internet Explorer 11.</system:String>
@@ -68,6 +72,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">Kies een persoonlijke sleutel</system:String>
 	<system:String x:Key="Messages.SelectedPath">Gekozen pad</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">Selecteer een map waarin bestanden worden opgeslagen</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">Zullen we aan de slag gaan met RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Druk op "Okee" om RaiDrive opnieuw op te starten.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">RaiDrive dienst is onderbroken.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Uw abonnementsfuncties worden uitgeschakeld en alle stations worden opnieuw verbonden. Bewaar bestand (en) of sluit applicatie (s).</system:String>
@@ -85,6 +90,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Privé browsen</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Verbonden met behulp van RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Schijf verwijderen</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">Stuurprogramma</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Gekopieerd pad</system:String>
 	<system:String x:Key="Phrases.FileInUse">Bestand(en) in gebruik: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV bestandsvergrendeling</system:String>
@@ -94,7 +100,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">Map-URL of ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Volg de laatste</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">voor de zakelijke versie</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Krijg direct bestandseigenschappen</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Probeer "Wijzigingsdatum" te handhaven bij kopiëren</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">Onderhoud "Datum gewijzigd" van bestanden en mappen</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Opnieuw verbinden bij opstarten</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Verbinden bij aanmelden</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Opnieuw verbinden bij starten</system:String>
@@ -102,7 +110,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Offline modus</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDrive openen</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Doel overschrijven</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">Snel kopiëren/verplaatsen/Verwijderen voor externe opslag</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">Snel kopiëren/verplaatsen/Verwijderen voor externe opslag</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive opnieuw verbinden</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Registreren bij Opstarten</system:String>
 	<system:String x:Key="Phrases.RenameSource">Bron hernoemen</system:String>
@@ -110,10 +118,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">Start Verkenner bij verbinding met een station</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Map kiezen</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">RaiDrive herstarten</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">Start RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} beschikbaar van {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Overgeschakeld naar {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Opslagwijzigingen asynchroon bijwerken</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Gebruik aangepast icoon voor een verbonden schijf</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">Niet beschikbare optie</system:String>
 	<system:String x:Key="Words.AccessKeyID">Toegangssleutel ID</system:String>
 	<system:String x:Key="Words.Account">Registratie</system:String>
 	<system:String x:Key="Words.AccountId">Account ID</system:String>
@@ -190,6 +200,7 @@
 	<system:String x:Key="Words.Like">Graag willen</system:String>
 	<system:String x:Key="Words.LocalDisk">Lokale schijf</system:String>
 	<system:String x:Key="Words.Login">Aanmelden</system:String>
+	<system:String x:Key="Words.Management">Beheer</system:String>
 	<system:String x:Key="Words.MySubscription">Mijn abonnement</system:String>
 	<system:String x:Key="Words.Namespace">Naamruimte</system:String>
 	<system:String x:Key="Words.NOW">NU</system:String>
@@ -219,6 +230,7 @@
 	<system:String x:Key="Words.Reading">Lezen</system:String>
 	<system:String x:Key="Words.Ready">Gereed</system:String>
 	<system:String x:Key="Words.Reason">Reden</system:String>
+	<system:String x:Key="Words.Reboot">Opnieuw opstarten</system:String>
 	<system:String x:Key="Words.RemoteFolder">Externe map</system:String>
 	<system:String x:Key="Words.Remove">Verwijderen</system:String>
 	<system:String x:Key="Words.Retry">Opnieuw proberen</system:String>

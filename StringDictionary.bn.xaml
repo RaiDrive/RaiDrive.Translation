@@ -6,10 +6,12 @@
 	<system:String x:Key="Language.Native">বাংলা</system:String>
 	<system:String x:Key="Language.Tags">bn</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">ফাইল এবং ফোল্ডারগুলি অনুলিপি, সরানো বা পুনঃনামকরণ করার সময় এটি প্রযোজ্য।</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">অস্থায়ী ফোল্ডারটি স্থানীয় ডিস্ক ড্রাইভের একটি ফোল্ডার হতে হবে। নেটওয়ার্ক ড্রাইভ সমর্থিত নয়।</system:String>
 	<system:String x:Key="Messages.CheckAddress">ঠিকানা চেক করুন.</system:String>
 	<system:String x:Key="Messages.CheckPort">অনুগ্রহ করে পোর্টটি পরীক্ষা করুন{0}।</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">অনুগ্রহ করে প্রোটোকল{0} এবং পোর্ট{1} দুবার চেক করুন৷</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">এটি অবিলম্বে দূরবর্তী ফাইল পরিবর্তনের জন্য চেক করার চেষ্টা করে।</system:String>
 	<system:String x:Key="Messages.CurrentVersion">বর্তমান সংস্করণ হল {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">প্রতিনিধি দল বাতিল হয়ে গেছে</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">অনুগ্রহ করে অ্যাক্সেস কী আইডি লিখুন</system:String>
@@ -51,6 +53,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">বর্তমান সংস্করণে 8টি পর্যন্ত ড্রাইভ তৈরি করা যাবে</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">মাউন্ট পয়েন্ট ফোল্ডার পাথ শুধুমাত্র মৌলিক বা গতিশীল NTFS ভলিউমের খালি ফোল্ডারে উপলব্ধ।</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">ফোল্ডারে মাউন্ট করার জন্য লোকাল ডিস্কের পাবলিক বিকল্পটি প্রয়োজন</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">ডিভাইস ড্রাইভার ইনস্টলেশন ব্যর্থ হয়েছে.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">স্বাগতম, এটি ইনস্টলেশনের চূড়ান্ত ধাপ এবং ডিভাইস ড্রাইভার ইনস্টল করা হবে।</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">ডিভাইস ড্রাইভার আপনার সিস্টেমে ইনস্টল করা নেই. আপনাকে RaiDrive পুনরায় ইনস্টল করতে হবে।</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive শুরু করার জন্য প্রস্তুত নয়, আপনার সিস্টেম পুনরায় চালু করতে হবে।</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">ড্রপবক্স ইন্টারনেট এক্সপ্লোরার 10, 11 সমর্থন করে। আপনি ইন্টারনেট এক্সপ্লোরার 11 ইনস্টল করা ভাল।</system:String>
@@ -67,6 +71,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">আপনি ব্যক্তিগত কী ফাইল নির্বাচন করতে পারেন</system:String>
 	<system:String x:Key="Messages.SelectedPath">নির্বাচিত পথ</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">একটি দূরবর্তী ফোল্ডার নির্বাচন করুন যেখানে ফাইল সংরক্ষণ করা হবে</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">আমরা কি RaiDrive দিয়ে শুরু করব?</system:String>
 	<system:String x:Key="Messages.Service.Alive">অনুগ্রহ করে ওকে বোতাম টিপুন, RaiDrive জীবিত হবে।</system:String>
 	<system:String x:Key="Messages.Service.Stoped">RaiDrive পরিষেবা বন্ধ করা হয়েছে।</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">আপনার সদস্যতা বৈশিষ্ট্যগুলি অক্ষম করা হবে এবং সমস্ত ড্রাইভ পুনরায় সংযুক্ত করা হবে৷ অনুগ্রহ করে ফাইল(গুলি) সংরক্ষণ করুন বা অ্যাপ্লিকেশন(গুলি) বন্ধ করুন</system:String>
@@ -84,6 +89,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">ব্যক্তিগতভাবে ব্রাউজ করুন</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDrive দ্বারা সংযুক্ত</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">ড্রাইভ মুছুন</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">ডিভাইস ড্রাইভার</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">সদৃশ পথ</system:String>
 	<system:String x:Key="Phrases.FileInUse">ফাইল(গুলি) ব্যবহার হচ্ছে: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV ফাইল লক</system:String>
@@ -93,7 +99,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">ফোল্ডার URL বা আইডি</system:String>
 	<system:String x:Key="Phrases.FollowLatest">সর্বশেষ অনুসরণ করুন</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">ব্যবসায়িক সংস্করণের জন্য</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">অবিলম্বে ফাইল বৈশিষ্ট্য পান</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">কপি করার সময় "তারিখ পরিবর্তন" রাখার চেষ্টা করুন</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">ফাইল এবং ফোল্ডারগুলির "তারিখ পরিবর্তন" বজায় রাখুন</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">বুট এ পুনরায় সংযোগ করুন</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">সাইন-ইন করার সময় পুনরায় সংযোগ করুন৷</system:String>
 	<system:String x:Key="Phrases.MountAtStart">প্রোগ্রাম শুরুতে পুনরায় সংযোগ করুন</system:String>
@@ -101,7 +109,7 @@
 	<system:String x:Key="Phrases.OfflineMode">নীরব কার্যপদ্ধতি</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDrive খুলুন</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">লক্ষ্য ওভাররাইট করুন</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">রিমোট স্টোরেজের জন্য দ্রুত কপি/মুভ/মুছুন</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">রিমোট স্টোরেজের জন্য দ্রুত কপি/মুভ/মুছুন</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive পুনরায় সংযোগ করুন</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">স্টার্টআপে নিবন্ধন করুন</system:String>
 	<system:String x:Key="Phrases.RenameSource">উৎসের নাম পরিবর্তন করুন</system:String>
@@ -109,10 +117,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">ড্রাইভ সংযুক্ত হলে ফাইল এক্সপ্লোরার চালান</system:String>
 	<system:String x:Key="Phrases.SelectFolder">ফোল্ডার নির্বাচন করুন</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">RaiDrive পুনরুজ্জীবিত করুন</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">RaiDrive শুরু করুন</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{1} {2} এর মধ্যে {0} বিনামূল্যে</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">{0} এ স্যুইচ করা হয়েছে</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">আপডেট সঞ্চয়স্থান অ্যাসিঙ্ক্রোনাস পরিবর্তন</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">একটি সংযুক্ত ড্রাইভে কাস্টম আইকন ব্যবহার করুন</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">অনুপলব্ধ বিকল্প</system:String>
 	<system:String x:Key="Words.AccessKeyID">অ্যাক্সেস কী আইডি</system:String>
 	<system:String x:Key="Words.Account">হিসাব</system:String>
 	<system:String x:Key="Words.AccountId">অ্যাকাউন্ট আইডি</system:String>
@@ -189,6 +199,7 @@
 	<system:String x:Key="Words.Like">লাইক</system:String>
 	<system:String x:Key="Words.LocalDisk">স্থানীয় ডিস্ক</system:String>
 	<system:String x:Key="Words.Login">প্রবেশ করুন</system:String>
+	<system:String x:Key="Words.Management">ব্যবস্থাপনা</system:String>
 	<system:String x:Key="Words.MySubscription">আমার সদস্যতা</system:String>
 	<system:String x:Key="Words.Namespace">নামস্থান</system:String>
 	<system:String x:Key="Words.NOW">এখন</system:String>
@@ -218,6 +229,7 @@
 	<system:String x:Key="Words.Reading">পড়া</system:String>
 	<system:String x:Key="Words.Ready">প্রস্তুত</system:String>
 	<system:String x:Key="Words.Reason">কারণ</system:String>
+	<system:String x:Key="Words.Reboot">রিবুট করুন</system:String>
 	<system:String x:Key="Words.RemoteFolder">দূরবর্তী ফোল্ডার</system:String>
 	<system:String x:Key="Words.Remove">অপসারণ</system:String>
 	<system:String x:Key="Words.Retry">পুনরায় চেষ্টা করা</system:String>

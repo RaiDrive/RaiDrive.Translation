@@ -8,10 +8,12 @@
 	<system:String x:Key="Language.Native">العربية</system:String>
 	<system:String x:Key="Language.Tags">ar</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">وينطبق ذلك عند نسخ الملفات والمجلدات أو نقلها أو إعادة تسميتها.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">المجلد المؤقت لابد أن يكون موجودا في القرص المحلي. مجلد الشبكة غير مدعوم.</system:String>
 	<system:String x:Key="Messages.CheckAddress">الرجاء التأكد من العنوان.</system:String>
 	<system:String x:Key="Messages.CheckPort">الرجاء التأكد من المنفذ {0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">الرجاء التأكد {0} من والمنفذ {1}.</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">يحاول التحقق فورًا من تغييرات الملف البعيد.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">الإصدارة الحالية هي {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">تم سحب التفويض</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">من فضلك أدخل Access Key ID</system:String>
@@ -53,6 +55,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">يمكن إنشاء حتى 8 محركات أقراص في هذه النسخة</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">تتوفر مسارات مجلد نقطة التحميل فقط على المجلدات الفارغة على وحدات تخزين NTFS الأساسية أو الحيوية.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">وجب ان يكون المجلد عام</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">فشل تثبيت برنامج تشغيل الجهاز.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">مرحبًا، هذه هي الخطوة الأخيرة من التثبيت وسيتم تثبيت برامج تشغيل الجهاز.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">المحرك غير مثبت في جهازك. عليك إعادة تثبيت البرنامج.</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">البرنامج ليس جاهزا للبدء. يجب عليك إعادة تشغيل النظام.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox يدعم متصفح انترنت اكسبلورر 10,11. يفضل استخدام النسخة 11.</system:String>
@@ -69,6 +73,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">يمكنك اختيار الملف الخاص بالمفتاح الخاص</system:String>
 	<system:String x:Key="Messages.SelectedPath">المسار الذي تم اختياره</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">اختر المجلد عن بعد حيث سيتم تخزين الملفات</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">هل نبدأ مع RaiDrive؟</system:String>
 	<system:String x:Key="Messages.Service.Alive">اختر موافق ليتم تشغيل البرنامج.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">تم إيقاف خدمة RaiDrive</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">جميع مميزات اشتراكك ستتعطل، وسنعيد الاتصال بأقراصك. يرجى حفظ ملفاتك أو قفل التطبيقات</system:String>
@@ -86,6 +91,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">تصفح سري</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">تم الاتصال عن طريق RaiDrive</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">حذف محرك أقراص</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">برنامج تشغيل الجهاز</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">المسار المكرر</system:String>
 	<system:String x:Key="Phrases.FileInUse">الملفات المستعملة: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">قرص WebDAV مقيد</system:String>
@@ -95,7 +101,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">معرف رابط المجلد</system:String>
 	<system:String x:Key="Phrases.FollowLatest">متابعة الجديد</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">لنسخة الأعمال</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">احصل على خصائص الملف على الفور</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">حاول إبقاء "تاريخ التعديل" كما هو عند النسخ</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">الحفاظ على "تاريخ التعديل" للملفات والمجلدات</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">إعادة اتصال عند إقلاع النظام</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">إعادة الاتصال عند تسجيل الدخول</system:String>
 	<system:String x:Key="Phrases.MountAtStart">إعادة اتصال عند تشغيل البرنامج</system:String>
@@ -103,7 +111,7 @@
 	<system:String x:Key="Phrases.OfflineMode">وضع غير متصل بالشبكة</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">تشغيل RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">يستبدل الهدف</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">النسخ والنقل والحذف السريع للملفات سوف</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">النسخ والنقل والحذف السريع للملفات سوف</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">إعادة الاتصال</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">إضافة إلى بدء التشغيل</system:String>
 	<system:String x:Key="Phrases.RenameSource">يعيد تسمية المصدر</system:String>
@@ -111,10 +119,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">فتح مستكشف الملفات عند توصيل محرك الأقراص</system:String>
 	<system:String x:Key="Phrases.SelectFolder">اختيار مجلد</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">استعادة البرنامج</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">ابدأ تشغيل RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} خالية من {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">تم التغيير إلى {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">تحديث الملفات بالتزامن</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">استخدام أيقونة خاصة لقرص متصل</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">خيار غير متاح</system:String>
 	<system:String x:Key="Words.AccessKeyID">هوية مفتاح الدخول</system:String>
 	<system:String x:Key="Words.Account">الحساب</system:String>
 	<system:String x:Key="Words.AccountId">معرف الحساب</system:String>
@@ -191,6 +201,7 @@
 	<system:String x:Key="Words.Like">إعجاب</system:String>
 	<system:String x:Key="Words.LocalDisk">قرص محلي</system:String>
 	<system:String x:Key="Words.Login">الدخول</system:String>
+	<system:String x:Key="Words.Management">إدارة</system:String>
 	<system:String x:Key="Words.MySubscription">اشتراكي</system:String>
 	<system:String x:Key="Words.Namespace">مساحة الاسم</system:String>
 	<system:String x:Key="Words.NOW">الآن</system:String>
@@ -220,6 +231,7 @@
 	<system:String x:Key="Words.Reading">قراءة</system:String>
 	<system:String x:Key="Words.Ready">مستعد</system:String>
 	<system:String x:Key="Words.Reason">السبب</system:String>
+	<system:String x:Key="Words.Reboot">اعادة التشغيل</system:String>
 	<system:String x:Key="Words.RemoteFolder">مجلد عن بعد</system:String>
 	<system:String x:Key="Words.Remove">حذف</system:String>
 	<system:String x:Key="Words.Retry">حاول مجددا</system:String>

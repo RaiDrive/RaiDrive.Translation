@@ -6,10 +6,12 @@
 	<system:String x:Key="Language.Native">فارسی</system:String>
 	<system:String x:Key="Language.Tags">fa</system:String>
 
+	<system:String x:Key="Messages.ApplyOnCopyMoveRename">هنگام کپی کردن، جابجایی یا تغییر نام فایل ها و پوشه ها اعمال می شود.</system:String>
 	<system:String x:Key="Messages.Cache.FolderNotSupport">فولدر موقت باید داخل هارد دیسک داخلی باشد، از درایو های شبکه نمی توانید برای این استفاده کنید</system:String>
 	<system:String x:Key="Messages.CheckAddress">خطا در اتصال، لطفا آدرس را بررسی کنید</system:String>
 	<system:String x:Key="Messages.CheckPort">لطفا این پورت را بررسی کنید{0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">لطفا این پروتکل({0}) و پورت({1}) را بررسی کنید</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">سعی می کند فوراً تغییرات فایل از راه دور را بررسی کند.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">نسخه فعلی {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">لغو فعالیت ها</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">لطفاً شناسه کلید دسترسی را وارد کنید</system:String>
@@ -51,6 +53,8 @@
 	<system:String x:Key="Messages.Maximum.Drive">حداکثر تا 8 درایو در این نسخه می توان ایجاد کرد</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Condition">مسیرهای پوشه Mount point فقط در پوشه های خالی با حجم پایه یا پویا NTFS در دسترس هستند.</system:String>
 	<system:String x:Key="Messages.MountPointFolder.Mandatory">برای اختصاص یک پوشه ، گزینه عمومی دیسک محلی مورد نیاز است</system:String>
+	<system:String x:Key="Messages.DriverInstallFailed">نصب درایور دستگاه ناموفق بود.</system:String>
+	<system:String x:Key="Messages.NotReadyDriverFinalStep">خوش آمدید، این مرحله نهایی نصب است و درایورهای دستگاه نصب خواهند شد.</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">درایور لازم روی سیستم نصب نشده، باید برنامه رای-درایو را دوباره نصب کنید</system:String>
 	<system:String x:Key="Messages.NotReadyReboot">برنامه رای-درایو آماده شروع نیست، باید سیستم را ریستارت کنید</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">سرویس دراپ باکس از اینترنت اکسپلورر 10 و 11 استفاده می کند، بهتر است نسخه 11 را نصب کنید</system:String>
@@ -67,6 +71,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">می توانید فایل کلید خصوصی را انتخاب کنید</system:String>
 	<system:String x:Key="Messages.SelectedPath">مسیر انتخابی</system:String>
 	<system:String x:Key="Messages.SeleteTargetFolder">یک فولدر ریموت انتخاب کنید تا فایل ها در آن ذخیره شوند</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">آیا باید با RaiDrive شروع کنیم؟</system:String>
 	<system:String x:Key="Messages.Service.Alive">لطفا دکمه تایید را بزنید، برنامه دوباره احیا می شود</system:String>
 	<system:String x:Key="Messages.Service.Stoped">سرویس مربوط به برنامه بسته شده است</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">ویژگی های اشتراک شما غیرفعال می شود و همه درایوها دوباره وصل می شوند. لطفاً فایل(ها) را ذخیره کنید یا برنامه(ها) را ببندید</system:String>
@@ -84,6 +89,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">به صورت خصوصی مرور کنید</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">متصل با رای-درایو</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">درایو را حذف کن</system:String>
+	<system:String x:Key="Phrases.DeviceDriver">درایور دستگاه</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">مسیر تکراری</system:String>
 	<system:String x:Key="Phrases.FileInUse">فایل(های) در حال استفاده: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">قفل فابل WebDAV</system:String>
@@ -93,7 +99,9 @@
 	<system:String x:Key="Phrases.FolderUrlID">URL پوشه یا شناسه</system:String>
 	<system:String x:Key="Phrases.FollowLatest">دنبال کردن آخرین</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">برای نسخه تجاری</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">ویژگی های فایل را فورا دریافت کنید</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">سعی کنید هنگام کپی کردن، "تاریخ اصلاح" را حفظ کنید</system:String>
+	<system:String x:Key="Phrases.MaintainModifiedDate">"تاریخ اصلاح" فایل ها و پوشه ها را حفظ کنید</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">در هنگام بوت مجدد وصل شوید</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">اتصال حین ورود به ویندوز</system:String>
 	<system:String x:Key="Phrases.MountAtStart">در شروع برنامه دوباره وصل شوید</system:String>
@@ -101,7 +109,7 @@
 	<system:String x:Key="Phrases.OfflineMode">حالت آفلاین</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">باز کردن برنامه</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">بازنویسی هدف</system:String>
-	<system:String x:Key="Phrases.PerformanceExtension">کپی/انتقال/حذف سریع برای ذخیره سازی از راه دور</system:String>
+	<system:String x:Key="Phrases.QuickCopyMoveDelete">کپی/انتقال/حذف سریع برای ذخیره سازی از راه دور</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">اتصال دوباره برنامه</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">ثبت نام در استارتاپ</system:String>
 	<system:String x:Key="Phrases.RenameSource">تغییر نام منبع</system:String>
@@ -109,10 +117,12 @@
 	<system:String x:Key="Phrases.RunAtConnect">اجرای "مرورگر فایل" به محض اتصال موفق یک درایو</system:String>
 	<system:String x:Key="Phrases.SelectFolder">فولدر را انتخاب کن</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">فعال کردن دوباره برنامه</system:String>
+	<system:String x:Key="Phrases.StartRaiDrive">RaiDrive را راه اندازی کنید</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} رایگان از {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">تغییر به {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">به روز رسانی فضای ذخیره سازی به صورت ناهمزمان تغییر می کند</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">از یک آیکون دلخواه برای نمایش درایو متصل شده استفاده کن</system:String>
+	<system:String x:Key="Phrases.UnavailableOption">گزینه در دسترس نیست</system:String>
 	<system:String x:Key="Words.AccessKeyID">دسترسی به شناسه کلید</system:String>
 	<system:String x:Key="Words.Account">حساب کاربری</system:String>
 	<system:String x:Key="Words.AccountId">شناسه حساب</system:String>
@@ -189,6 +199,7 @@
 	<system:String x:Key="Words.Like">لایک فیسبوک</system:String>
 	<system:String x:Key="Words.LocalDisk">هارد داخلی</system:String>
 	<system:String x:Key="Words.Login">ورود</system:String>
+	<system:String x:Key="Words.Management">مدیریت</system:String>
 	<system:String x:Key="Words.MySubscription">اشتراک من</system:String>
 	<system:String x:Key="Words.Namespace">فضای نام</system:String>
 	<system:String x:Key="Words.NOW">الان</system:String>
@@ -218,6 +229,7 @@
 	<system:String x:Key="Words.Reading">خواندن</system:String>
 	<system:String x:Key="Words.Ready">آماده</system:String>
 	<system:String x:Key="Words.Reason">دلیل</system:String>
+	<system:String x:Key="Words.Reboot">راه اندازی مجدد</system:String>
 	<system:String x:Key="Words.RemoteFolder">فولدر ریموت</system:String>
 	<system:String x:Key="Words.Remove">حذف</system:String>
 	<system:String x:Key="Words.Retry">تلاش دوباره</system:String>
