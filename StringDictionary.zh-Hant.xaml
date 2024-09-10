@@ -13,7 +13,7 @@
 	<system:String x:Key="Messages.CheckAddress">請檢查位址是否正確。</system:String>
 	<system:String x:Key="Messages.CheckPort">請檢查連接埠 {0}。</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">請仔細檢查協定 {0} 和連接埠 {1} 是否正確。</system:String>
-	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">它嘗試立即檢查遠端文件更改。</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">它嘗試立即檢查遠端檔案更改。</system:String>
 	<system:String x:Key="Messages.CurrentVersion">目前版本是 {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">委派已中止</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">請輸入存取金鑰ID</system:String>
@@ -158,7 +158,7 @@
 	<system:String x:Key="Words.Company">公司</system:String>
 	<system:String x:Key="Words.Connect">連線</system:String>
 	<system:String x:Key="Words.Connected">已連線</system:String>
-	<system:String x:Key="Words.CountLeft">剩菜</system:String>
+	<system:String x:Key="Words.CountLeft">剩餘</system:String>
 	<system:String x:Key="Words.Current">目前</system:String>
 	<system:String x:Key="Words.Default">預設</system:String>
 	<system:String x:Key="Words.Delete">刪除</system:String>
@@ -243,7 +243,7 @@
 	<system:String x:Key="Words.SecureProtocol">安全協定</system:String>
 	<system:String x:Key="Words.Send.Opinion">傳送意見</system:String>
 	<system:String x:Key="Words.Service">服務</system:String>
-	<system:String x:Key="Words.ServiceKey">服務鍵</system:String>
+	<system:String x:Key="Words.ServiceKey">服務金鑰</system:String>
 	<system:String x:Key="Words.Settings">設定</system:String>
 	<system:String x:Key="Words.Share">共用</system:String>
 	<system:String x:Key="Words.ShareWithOther">與他人共用</system:String>
