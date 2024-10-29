@@ -65,6 +65,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Active Directory 下提供的非受控网络</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">您的账号不受 Active Directory 管理. 请联系 Active Directory 管理员或网络管理员或使用个人账号登陆.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">未找到路径 {0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">需要密码来包含凭证。</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">请按 [确定] 按钮, 必须重新连接远程存储才能使更改的设置生效.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">同步可能较慢</system:String>
 	<system:String x:Key="Messages.RetryAfter">{0} 秒后重试.</system:String>
@@ -89,7 +90,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">不可使用如下保留名称:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">在连接时输入账号密码</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">无痕浏览</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">清除现有连接</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">使用 RaiDrive 连接中</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">包括凭证</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">删除文件夹</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">设备驱动</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">重复的路径</system:String>
@@ -111,6 +114,7 @@
 	<system:String x:Key="Phrases.OfflineMode">离线模式</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">启动 RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">覆盖目标文件</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">强制密码</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">对远程存储启用快速复制/移动/删除</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive 重连</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">添加到启动项</system:String>

@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Неуправляемый домен Active Directory</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Active Directory не управляется вашей учётной записью. Свяжитесь с администратором домена и Active Directory или войдите в систему с личной учётной записью.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Путь не найден. Проверьте путь{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Для включения учетных данных требуется пароль.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Чтобы изменения настроек вступили в силу, нужно переподключить внешнее хранилище. Нажмите OK.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Реакция может быть медленной</system:String>
 	<system:String x:Key="Messages.RetryAfter">Повтор через {0} сек.</system:String>
@@ -78,7 +79,7 @@
 	<system:String x:Key="Messages.SignOut.Question2">Вы уверены, что хотите выйти?</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">Текущая сессия запрошена для возврата в другую сессию{0}. Все диски будут переподключены. Сохраните файл(ы) или закройте приложение.</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">Это будет применено после {0}, для немедленного применения нажмите кнопку OK.</system:String>
-	<system:String x:Key="Messages.SureDelete">Удалить безвозвратно &quot;{0} ({1})&quot;?</system:String>
+	<system:String x:Key="Messages.SureDelete">Удалить безвозвратно "{0} ({1})"?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">Размер диска неизвестен</system:String>
 	<system:String x:Key="Messages.Upgrade.New">Вы можете установить новую версию</system:String>
 	<system:String x:Key="Messages.Upgrade.NewVersion">Возможно обновление до версии {0}</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Не используйте следующие зарезервированные имена:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Подключение с разными аккаунтами</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Режим инкогнито</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Очистить существующее соединение</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Подключено RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Включая учетные данные</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Удалить диск</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Драйвер устройства</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Дублированный путь</system:String>
@@ -100,7 +103,7 @@
 	<system:String x:Key="Phrases.FollowLatest">Следить за последними</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">Версия для бизнеса</system:String>
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Получите свойства файла мгновенно</system:String>
-	<system:String x:Key="Phrases.KeepModifiedDate">Постарайтесь сохранить &quot;Дата изменена&quot; при копировании</system:String>
+	<system:String x:Key="Phrases.KeepModifiedDate">Постарайтесь сохранить "Дата изменена" при копировании</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">Сохранение «Даты изменения» файлов и папок.</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Подключать при загрузке</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Подключать при входе</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Автономный режим</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Открыть RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Перезаписать целевой</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Пароль обязателен</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Быстрое копирование/Перемещение/Удаление для удаленного хранилища</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Переподключение RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Добавить в автозагрузку</system:String>

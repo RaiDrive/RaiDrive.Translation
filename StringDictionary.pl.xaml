@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Domena niezarządzana przez Active Directory</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Twoje konto jest niezarządzane przez Active Directory. Skontaktuj się z administratem domeny lub zaloguj się na konto osobiste.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Nie znaleziono ścieżki. Sprawdź ją{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Wymagane jest podanie hasła zawierającego dane uwierzytelniające.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Wciśnij przyciks OK, musisz uruchomić ponownie dysk aby osiągnąć efekt.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Odpowiedź może być powolna</system:String>
 	<system:String x:Key="Messages.RetryAfter">Ponownie powtórzenie {0} second(s).</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Nie używaj zarezerwowanych nazw:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Połącz przy użyciu innych poświadczeń</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Przeglądanie w trybie prywatnym</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Wyczyść istniejące połączenie</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Połączony przez RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">W tym dane uwierzytelniające</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Usuń dysk</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Sterownik urządzenia</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Zduplikowana ścieżka</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Tryb offline</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Uruchom RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Zastąp cel</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Hasło obowiązkowe</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Szybkie kopiowanie/przenoszenie/usuwanie do zdalnego przechowywania</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Zrestartuj RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Zarejstruj się</system:String>

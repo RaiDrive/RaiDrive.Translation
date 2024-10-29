@@ -64,6 +64,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Domaine non géré par Active Directory</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Votre compte n'est pas géré par Active Directory. Vous devez contacter Active Directory ou l'administrateur du domaine ou vous connecter en tant que compte personnel.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Chemin non trouvé. Vérifiez le chemin{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Un mot de passe est requis pour inclure les informations d'identification.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Veuillez appuyer sur la touche OK, vous devez reconnecter la mémoire de la télécommande pour que les paramètres modifiés prennent effet.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Une réponse peut être lente</system:String>
 	<system:String x:Key="Messages.RetryAfter">Réessayer après {0} seconde(s).</system:String>
@@ -88,7 +89,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">N'utilisez pas les noms réservés suivants :</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Connexion à l'aide de différents identifiants</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Naviguer en mode privé</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Effacer la connexion existante</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Connecté par RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Y compris les informations d'identification</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Effacer le lecteur</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Pilote de périphérique</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Chemin dupliqué</system:String>
@@ -110,6 +113,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Mode hors-ligne</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Ouvrir RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Remplacer la cible</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Mot de passe obligatoire</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Copier/Déplacer/Supprimer rapidement pour le stockage à distance</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Reconnexion RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">S'inscrire au démarrage</system:String>

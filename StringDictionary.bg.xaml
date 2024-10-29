@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Неуправляван домейн от Active Directory</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Вашият акаунт не се управлява от Active Directory. Трябва да се свържете с администратора на Active Directory или домейна или да влезете като личен акаунт.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Пътят не е намерен. Моля, проверете пътя {0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Изисква се парола за включване на идентификационни данни.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">За да влязат в сила прменените настройки трябва да се свържете отново с отдалеченото хранилище, моля натиснете OK.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Отговорът може да е бавен</system:String>
 	<system:String x:Key="Messages.RetryAfter">Повторен опит след {0} секунди.</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Не исползваййте следните запазени имена:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Свързвай с различен акаунт</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Поверително сърфиране</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Изчистете съществуващата връзка</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Свързан от RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Включително акредитивни данни</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Изтриване на устройство</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Драйвер на устройството</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Дублиран път</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Офлайн режим</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Отваряне на RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Презаписване на целта</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Паролата е задължителна</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Бързо Копиране/Преместване/Изриване за отдалечените хранилища</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive - повторно свързване</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Регистрирай при стартиране</system:String>

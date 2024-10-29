@@ -64,6 +64,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Active Directory로 관리되지 않는 도메인</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Active Directory로 관리되지 않는 계정입니다. Active Directory 또는 도메인 관리자에게 문의하거나 개인 계정으로 로그인해야 합니다.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">경로를 찾을 수 없습니다. 경로{0}를 확인해보세요.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">자격 증명을 포함하려면 비밀번호가 필요합니다.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">확인 버튼을 눌러주세요. 변경된 설정을 적용하려면 원격 드라이브를 다시 연결해야 합니다.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">반응이 느려질 수 있습니다</system:String>
 	<system:String x:Key="Messages.RetryAfter">{0} 초 후에 다시 확인합니다.</system:String>
@@ -88,7 +89,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">아래의 예약된 이름을 사용할 수 없습니다:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">연결할 때마다 새로 로그인</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">시크릿 브라우징</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">기존 연결 지우기</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDrive에 의해 연결됨</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">자격 증명 포함</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">드라이브 삭제</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">장치 드라이버</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">중복 경로</system:String>
@@ -110,6 +113,7 @@
 	<system:String x:Key="Phrases.OfflineMode">오프라인 모드</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDrive 열기</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">덮어쓰기</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">비밀번호 필수</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">스토리지에서 빠른 복사/이동/삭제</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive 재연결</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">시작프로그램에 등록</system:String>

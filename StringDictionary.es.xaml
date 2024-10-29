@@ -64,6 +64,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Dominio no gestionado por Active Directory</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Su cuenta no está siendo gestionada por Active Directory. Contacte con el administrador de Dominio o Active Directory, o bien inicie sesión con cuenta personal.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Ruta no encontrada. Compruebe la ruta {0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Se requiere una contraseña para incluir credenciales.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Por favor pulse el botón OK, debe reconectar el almacenamiento remoto para que se apliquen las opciones cambiadas.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">La respuesta puede ser lenta</system:String>
 	<system:String x:Key="Messages.RetryAfter">Reintentar en {0} segundo(s).</system:String>
@@ -88,7 +89,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">No use los siguientes nombres reservados:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Conectar con otras credenciales</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Navegar en privado</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Borrar conexión existente</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Conectado con RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Incluyendo credenciales</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Eliminar Unidad</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Controlador de dispositivo</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Ruta duplicada</system:String>
@@ -110,6 +113,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Modo offline</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Abrir RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Sobrescribir Destino</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Contraseña obligatoria</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Copia Rápida/Mover/Eliminar del acceso remoto</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Reconectar RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Registrar al iniciar el sistema</system:String>

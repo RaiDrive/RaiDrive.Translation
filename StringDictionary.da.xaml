@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Domænet er ikke administreret af Active Directory</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Din konto er ikke administreret af Active Directory. Du bør kontakte Active Directory eller domæneadministratoren eller logge ind på en personlig konto</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Stien blev ikke fundet. Kontroller stien{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Der kræves en adgangskode for at inkludere legitimationsoplysninger.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Tryk på OK, Du skal genforbinde til fjerndrev for at ændringerne træder i kraft.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Et svar kan være langsomt</system:String>
 	<system:String x:Key="Messages.RetryAfter">Prøv igen efter {0} sekund(er).</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Brug ikke følgende reserverede navne:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Forbind med andre login-oplysninger</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Privat brug af internettet</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Ryd eksisterende forbindelse</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Forbundet af RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Inklusiv legitimationsoplysninger</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Slet drev</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Enhedsdriver</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplikeret sti</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Offline tilstand</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Åbn RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Overskriv mål</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Adgangskode obligatorisk</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Hurtig kopi/flytt/slet til fjernlagring</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive Genforbind</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Tilmeld dig Startup</system:String>

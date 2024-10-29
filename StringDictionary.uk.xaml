@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Некерований домен Active Directory</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Active Directory не керується вашим обліковим записом. Зверніться до адміністратора Active Directory або домену або увійдіть в особистий обліковий запис.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Шлях не існує. Перевірте шлях{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Для введення облікових даних потрібен пароль.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Натисніть OK і змінені параметри наберуть чинності після перепідключення віддаленого сховища.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Реакція може бути повільною</system:String>
 	<system:String x:Key="Messages.RetryAfter">Повторити через {0} секунд.</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Не використовуйте зарезервовані імена:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Вхід з іншими обліковими даними</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Перегляд в анонімному режимі</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Очистити наявне підключення</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Підключено через RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Включно з обліковими даними</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Видалити диск</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Драйвер пристрою</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Дубльований шлях</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Автономний режим</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Відкрити RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Перезаписати цільовий</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Пароль обов'язковий</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Швидке копіювання/переміщення/видалення для віддаленого сховища</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Перепідключення RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Додати в автозавантаження</system:String>

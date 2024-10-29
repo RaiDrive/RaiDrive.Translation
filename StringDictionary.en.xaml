@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Unmanaged domain by Active Directory</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Your account is not managed by Active Directory. You should contact Active Directory or domain administrator or sign in as a personal account.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Path not found. Check the path{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">A password is required to include credentials.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Please press OK button, You must reconnect the remote storage for the changed settings to take effect.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">A response may be slow</system:String>
 	<system:String x:Key="Messages.RetryAfter">Retry after {0} second(s).</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Do not use the following reserved names:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Connect using different credentials</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Browse in private</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Clear existing connection</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Connected by RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Including credentials</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Delete drive</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Device driver</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplicated Path</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Offline mode</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Open RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Overwrite target</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Password mandatory</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Quick Copy/Move/Delete for remote storage</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive Reconnect</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Register to Startup</system:String>

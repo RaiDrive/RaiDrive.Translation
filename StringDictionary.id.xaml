@@ -64,6 +64,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Domain tidak dikelola oleh Direktori Aktif</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Akun Anda tidak dikelola oleh Active Directory. Anda harus menghubungi Active Directory atau administrator domain atau masuk sebagai akun pribadi.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">jalur tidak ditemukan. Periksa jalur{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Kata sandi diperlukan untuk menyertakan kredensial.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Silakan tekan tombol OK, Anda harus menghubungkan kembali remote storage agar pengaturan yang diubah berlaku.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Respon mungkin terlambat.</system:String>
 	<system:String x:Key="Messages.RetryAfter">Ulangi setelah {0} (per)detik.</system:String>
@@ -88,7 +89,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Jangan gunakan nama yang dipesan berikut ini:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Terhubung menggunakan kredensial yang berbeda</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Jelajahi Secara Pribadi</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Hapus koneksi yang ada</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Terkoneksi dengan RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Termasuk kredensial</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Hapus drive</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Pengemudi perangkat</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplikasi yang Dipilih</system:String>
@@ -110,6 +113,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Modus luring</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Buka RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Timpa target</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Kata sandi wajib diisi</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Hapus/Salin/Pindah cepat pada penyimpanan jarak jauh</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Hubungkan kembali RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Daftarkan ke Startup</system:String>

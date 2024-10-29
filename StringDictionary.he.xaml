@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">דומיין לא מנוהל על ידי Active Directory</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">החשבון שלך אינו מנוהל על ידי Active Directory. עליך לפנות ל-Active Directory או למנהל הדומיין או להיכנס כחשבון אישי.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">נתיב לא נמצא. בדוק את הנתיב{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">נדרשת סיסמה כדי לכלול אישורים.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">אנא לחץ על לחצן אישור, עליך לחבר מחדש את האחסון המרוחק כדי שההגדרות שהשתנו ייכנסו לתוקף.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">תגובה עשויה להיות איטית</system:String>
 	<system:String x:Key="Messages.RetryAfter">נסה שוב לאחר {0} שניות.</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">אל תשתמש בשמות השמורים הבאים:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">התחבר באמצעות אישורים שונים</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">דפדוף בפרטי</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">נקה את החיבור הקיים</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">מחובר באמצעות RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">כולל אישורים</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">מחק את הכונן</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">מנהל התקן</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">נתיב משוכפל</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">מצב לא מקוון</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">פתח את RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">החלף יעד</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">סיסמא חובה</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">העתקה/הזזה/מחיקה מהירה לאחסון מרחוק</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive התחבר מחדש</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">הרשמה ל-Startup</system:String>

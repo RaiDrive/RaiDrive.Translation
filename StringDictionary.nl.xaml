@@ -64,6 +64,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Onbekend Active Directory Domein</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Je registratie wordt niet beheerd door Active Directory. Neem contact op met de Active Directory of domeinbeheerder of log in met een persoonlijke registratie.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Pad niet gevonden: {0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Er is een wachtwoord vereist om inloggegevens te kunnen invoeren.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Druk op "Okee" verbind opnieuw om de wijzigingen door te voeren.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Reactie kan traag zijn</system:String>
 	<system:String x:Key="Messages.RetryAfter">Nieuwe poging over {0} seconde(n).</system:String>
@@ -88,7 +89,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">De volgende namen zijn al gereserveerd en niet bruikbaar:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Met andere registratie aanmelden</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Privé browsen</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Bestaande verbinding wissen</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Verbonden met behulp van RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Inclusief referenties</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Schijf verwijderen</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Stuurprogramma</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Gekopieerd pad</system:String>
@@ -110,6 +113,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Offline modus</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDrive openen</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Doel overschrijven</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Wachtwoord verplicht</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Snel kopiëren/verplaatsen/Verwijderen voor externe opslag</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive opnieuw verbinden</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Registreren bij Opstarten</system:String>

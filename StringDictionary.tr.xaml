@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Active Directory tarafından yönetilmeyen etki alanı</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Hesabınız Active Directory tarafından yönetilmiyor. Active Directory veya etki alanı yöneticisiyle iletişime geçmeli veya kişisel bir hesap olarak oturum açmalısınız.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Dosya yolu bulunamadı. Lütfen dosya yolunuzu{0} kontrol ediniz.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Kimlik bilgilerini eklemek için bir şifre gereklidir.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Ayarların geçerli olamsı için uzak sunucuya yeniden bağlanılması gerekmekte.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Yanıt yavaş olabilir</system:String>
 	<system:String x:Key="Messages.RetryAfter">{0} saniye sonra tekrar dene.</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Bu isimler rezerve olduğundan kullanmamalısınız:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Farklı Kimlik Kullanarak Bağlan</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Gizli olarak göz atma</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Mevcut bağlantıyı temizle</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDrive ile bağlantı kuruldu.</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Kimlik bilgileri dahil</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Sürücüyü sil</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Aygıt sürücüsü</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Kopyalanmış dosya yolu</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Çevrimdışı mod</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDrive'ı Aç</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Hedefin üzerine yaz</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Şifre zorunludur</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Uzak depolama için Hızlı Kopyalama/Taşıma/Silme</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive'a tekrar bağlan.</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Windows ile Başlat</system:String>

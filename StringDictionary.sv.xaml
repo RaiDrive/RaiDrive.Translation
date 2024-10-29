@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Okontrollerad domän av Active Directory</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Ditt konto hanteras inte av Active Directory. Du bör kontakta Active Directory, domänadministratör eller logga in som ett personligt konto.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Sökvägen hittades inte. Kontrollera sökvägen{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Ett lösenord krävs för att inkludera autentiseringsuppgifter.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Vänligen tryck på OK-knappen, Du måste återansluta fjärrlagringen för att de ändrade inställningarna ska träda i kraft.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Ett svar kan vara långsamt</system:String>
 	<system:String x:Key="Messages.RetryAfter">Försöker igen om {0} sekund(er).</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Använd inte följande reserverade namn:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Anslut med andra uppgifter</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Surfa privat</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Rensa befintlig anslutning</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Ansluten av RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Inklusive meriter</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Radera disk</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Drivrutin</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplicerad sökväg</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Offlineläge</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Öppna RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Skriv över målet</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Lösenord obligatoriskt</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Snabbkopiering/flyttning/radering för fjärrlagring</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive återanslut</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Registrera vid uppstart</system:String>

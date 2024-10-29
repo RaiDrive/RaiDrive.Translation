@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">„Active Directory“ nevaldomas domenas</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Jūsų paskyros netvarko „Active Directory“. Turėtumėte susisiekti su „Active Directory“ arba domeno administratoriumi arba prisijungti kaip asmeninė paskyra.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Kelias nerastas. Patikrinkite kelią{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Norint įtraukti kredencialus, reikalingas slaptažodis.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Paspauskite mygtuką Gerai. Turite iš naujo prijungti nuotolinę saugyklą, kad pakeisti nustatymai įsigaliotų.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Atsakymas gali būti lėtas</system:String>
 	<system:String x:Key="Messages.RetryAfter">Bandykite dar kartą po {0} sekundės.</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Nenaudokite šių rezervuotų pavadinimų:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Prisijunkite naudodami skirtingus kredencialus</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Naršymas privačiuoju režimu</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Išvalyti esamą ryšį</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Sujungė RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Įskaitant kredencialus</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Ištrinti diską</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Įrenginio tvarkyklė</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Pasikartojantis kelias</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Režimas neprisijungus</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Atidarykite „RaiDrive“.</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Perrašyti tikslą</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Slaptažodis privalomas</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Greitas kopijavimas / perkėlimas / ištrynimas nuotoliniam saugojimui</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">„RaiDrive“ iš naujo prisijunkite</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Užsiregistruokite „Startup“.</system:String>

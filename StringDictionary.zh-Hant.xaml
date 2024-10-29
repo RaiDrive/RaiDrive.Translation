@@ -65,6 +65,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Active Directory 下提供的非受控網域</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">您的帳號不受 Active Directory 管理。您應該聯絡 Active Directory 管理員或網域管理員或以個人帳號登入。</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">找不到路徑 {0} 。</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">需要密碼才能包含憑證。</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">請按下 [確定] 按鈕，您必須重新連線遠端儲存空間才能使變更的設定生效。</system:String>
 	<system:String x:Key="Messages.ResponseSlow">回應可能很慢</system:String>
 	<system:String x:Key="Messages.RetryAfter">在 {0} 秒後再試一次。</system:String>
@@ -89,7 +90,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">請勿使用以下的保留名稱：</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">使用不同的憑證連線</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">私密瀏覽</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">清除現有連接</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">已由 RaiDrive 連線</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">包括憑證</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">刪除磁碟機</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">裝置驅動</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">重複的路徑</system:String>
@@ -111,6 +114,7 @@
 	<system:String x:Key="Phrases.OfflineMode">離線模式</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">開啟 RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">覆寫目的檔案</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">密碼必填</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">啟用遠端儲存體快速複製/移動/刪除</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive 重新連線</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">註冊到系統啟動</system:String>

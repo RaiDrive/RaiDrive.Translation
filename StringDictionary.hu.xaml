@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Active Directory által nem kezelt domain</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">A fiókot nem kezeli az Active Directory. Lépjen kapcsolatba az Active Directory-val vagy a domain rendszergazdával, vagy jelentkezzen be személyes fiókkal!</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Útvonal nem található. Kérem ellenőrizze az útvonalat{0}!</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">A hitelesítő adatok megadásához jelszó szükséges.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Kérem kattintson a Rendben gombra! A megváltozott beállítások életbe lépéséhez újra kell csatlakoztatnia a távoli tárhelyet.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">A válasz lassú lehet</system:String>
 	<system:String x:Key="Messages.RetryAfter">Újrapróbálkozás {0} másodperc múlva.</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Ne használja a következő lekorlátozott neveket:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Csatlakozás más azonosítóval</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Privát böngészés</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Meglévő kapcsolat törlése</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDrive által csatlakozva</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Beleértve a hitelesítő adatokat</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Meghajtó törlése</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Eszközvezérlő</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplikált útvonal</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Offline mód</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDrive megnyitása</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Cél felülírása</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Jelszó kötelező</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Gyors másolás/áthelyezés/törlés távoli tároláshoz</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive újracsatlakozás</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Regisztráljon a Startupba</system:String>

@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">সক্রিয় ডিরেক্টরি দ্বারা অব্যবস্থাপিত ডোমেন</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">আপনার অ্যাকাউন্ট সক্রিয় ডিরেক্টরি দ্বারা পরিচালিত হয় না. আপনার সক্রিয় ডিরেক্টরি বা ডোমেন প্রশাসকের সাথে যোগাযোগ করা উচিত বা ব্যক্তিগত অ্যাকাউন্ট হিসাবে সাইন ইন করা উচিত।</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">পথ খুঁজে পাওয়া যায় না. পথ পরীক্ষা করুন{0}।</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">শংসাপত্রগুলি অন্তর্ভুক্ত করার জন্য একটি পাসওয়ার্ড প্রয়োজন৷</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">অনুগ্রহ করে ওকে বোতাম টিপুন, পরিবর্তিত সেটিংস কার্যকর করার জন্য আপনাকে অবশ্যই দূরবর্তী সঞ্চয়স্থান পুনরায় সংযোগ করতে হবে৷</system:String>
 	<system:String x:Key="Messages.ResponseSlow">একটি প্রতিক্রিয়া ধীর হতে পারে</system:String>
 	<system:String x:Key="Messages.RetryAfter">{0} সেকেন্ডের পরে আবার চেষ্টা করুন।</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">নিম্নলিখিত সংরক্ষিত নাম ব্যবহার করবেন না:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">বিভিন্ন শংসাপত্র ব্যবহার করে সংযোগ করুন</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">ব্যক্তিগতভাবে ব্রাউজ করুন</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">বিদ্যমান সংযোগ সাফ করুন</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDrive দ্বারা সংযুক্ত</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">শংসাপত্র সহ</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">ড্রাইভ মুছুন</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">ডিভাইস ড্রাইভার</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">সদৃশ পথ</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">নীরব কার্যপদ্ধতি</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDrive খুলুন</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">লক্ষ্য ওভাররাইট করুন</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">পাসওয়ার্ড বাধ্যতামূলক</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">রিমোট স্টোরেজের জন্য দ্রুত কপি/মুভ/মুছুন</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive পুনরায় সংযোগ করুন</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">স্টার্টআপে নিবন্ধন করুন</system:String>

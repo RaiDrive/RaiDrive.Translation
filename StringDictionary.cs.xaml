@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Tento systém není spravován v rámci Active Directory.</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Váš účet není spravován pomocí Active Directory. Kontaktujte svého správce nebo použijte lokální (osobní) účet.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Cesta nebyla nalezena. Zkontrolujte zadaný port{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Pro zadání přihlašovacích údajů je vyžadováno heslo.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Stisknte OK a pokuste se znovu připojit vzdálené úložiště, aby se provedené změny aplikovaly.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Odezva může být pomalejší</system:String>
 	<system:String x:Key="Messages.RetryAfter">Opakuji pokus zbývá: {0} sekund.</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Tento název je vyhrazen a nelze ho použít:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Propojit za pomoci jiných pověření</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Procházet v soukromí</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Vymazat stávající připojení</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Připojeno pomocí RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Včetně pověření</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Odebrat úložiště</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Ovladač zařízení</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplicitní cesta.</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Offline mód</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Otevřít RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Přepsat cílový soubor</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Heslo je povinné</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Rychlé kopírování/přesun/mazání souborů ve vzdáleném úložišti</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Znovu připojit RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Spouštět při startu systému</system:String>

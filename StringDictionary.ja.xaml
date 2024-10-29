@@ -65,6 +65,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Active Directoryで管理されていないドメイン</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Active Directoryで管理されていないアカウントです 個人アカウントでログインするか、Active Directoryまたは管理者にお問い合わせください</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">パスが見つかりません パス{0}を確認してください</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">資格情報を含めるにはパスワードが必要です。</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">OKボタンをクリックしてください 変更された設定を反映するにはリモートドライブの再マウントが必要です</system:String>
 	<system:String x:Key="Messages.ResponseSlow">応答が遅い場合があります</system:String>
 	<system:String x:Key="Messages.RetryAfter">{0} 秒後に再度確認します</system:String>
@@ -89,7 +90,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">下段の予約されたドライブ名は入力できません:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">ドライブをマウントする度にログイン</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">プライベートブラウジング</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">既存の接続をクリア</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDriveによってマウント</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">資格情報を含む</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">ドライブ削除</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">デバイスドライバ</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">重複パス</system:String>
@@ -111,6 +114,7 @@
 	<system:String x:Key="Phrases.OfflineMode">オフラインモード</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDriveを表示</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">ターゲットを上書きする</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">パスワード必須</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">リモートストレージのクイックコピー/移動/削除</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDriveの再接続</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">スタートアップへ登録</system:String>

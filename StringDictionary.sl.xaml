@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Neupravljana domena s strani Active Directory</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Vašega računa ne upravlja Active Directory. Obrnite se na Active Directory ali skrbnika domene ali se prijavite kot osebni račun.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Pot ni najdena. Preverite pot{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Za vključitev poverilnic je potrebno geslo.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Prosimo, pritisnite gumb OK. Da bodo spremenjene nastavitve začele veljati, morate znova povezati oddaljeni pomnilnik.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Odziv je lahko počasen</system:String>
 	<system:String x:Key="Messages.RetryAfter">Poskusite znova po {0} sekundah.</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Ne uporabljajte naslednjih rezerviranih imen:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Povežite se z uporabo različnih poverilnic</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Brskajte zasebno</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Počisti obstoječo povezavo</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Povezan z RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Vključno s poverilnicami</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Izbriši pogon</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Gonilnik naprave</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Podvojena pot</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Način brez povezave</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Odprite RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Prepiši cilj</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Geslo obvezno</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Hitro kopiranje/premaknitev/brisanje za oddaljeno shranjevanje</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive Reconnect</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Registrirajte se v Startup</system:String>

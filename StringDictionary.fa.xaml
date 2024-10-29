@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">دامنه مدیریت نشده توسط Active Directory</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">حساب کاربری شما توسط Active Directory مدیریت نشده، شما باید با ادمین دامنه تماس بگیرید یا با حساب کاربری خودتان وارد شوید.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">مسیر پیدا نشد، این مسیر را بررسی کنید{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">یک رمز عبور برای درج مدارک لازم است.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">لطفا دکمه تایید را بزنید، شما باید دوباره به ریموت متصل شوید تا تغییرات تنظیمات اعمال شوند</system:String>
 	<system:String x:Key="Messages.ResponseSlow">پاسخ ممکن است کند باشد</system:String>
 	<system:String x:Key="Messages.RetryAfter">تلاش مجدد بعد از {0} ثانیه(s).</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">از این اسامی رزرو شده استفاده نکنید</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">ورود اطلاعات حساب حین اتصال</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">به صورت خصوصی مرور کنید</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">اتصال موجود را پاک کنید</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">متصل با رای-درایو</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">از جمله مدارک</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">درایو را حذف کن</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">درایور دستگاه</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">مسیر تکراری</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">حالت آفلاین</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">باز کردن برنامه</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">بازنویسی هدف</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">رمز عبور اجباری</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">کپی/انتقال/حذف سریع برای ذخیره سازی از راه دور</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">اتصال دوباره برنامه</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">ثبت نام در استارتاپ</system:String>

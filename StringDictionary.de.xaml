@@ -64,6 +64,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Unbekannte Active Directory Domain</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Ihr Account wird nicht von Active Directory verwaltet. Sie sollten den Active Directory oder Domain Administrator kontaktieren oder sich als Persönlicher Account anmelden.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Pfad nicht gefunden: {0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Zur Einbeziehung der Anmeldeinformationen ist ein Kennwort erforderlich.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Bitte drücken sie OK und verbinden sie den Speicer erneut um Änderungen wirksam zu machen.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Eine Antwort könnte langsam sein</system:String>
 	<system:String x:Key="Messages.RetryAfter">Neu versuchen in {0} sekunde(n).</system:String>
@@ -88,7 +89,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Folgende Namen sind reserviert und nicht benutzbar:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Mit anderem Account anmelden</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Privates Surfen</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Bestehende Verbindung löschen</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Verbunden durch RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Einschließlich Anmeldeinformationen</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Adresse Löschen</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Gerätetreiber</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Kopierter Pfad</system:String>
@@ -110,6 +113,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Offline-Modus</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDrive öffnen</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Ziel überschreiben</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Passwort obligatorisch</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Schnelles Kopieren/Verschieben/Löschen für den Remote-Speicher</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive erneut verbinden</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Programm beim Hochfahren starten</system:String>

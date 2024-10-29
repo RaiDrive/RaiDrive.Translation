@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Domeniu neadministrat de Active Directory</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Contul dvs. nu este gestionat de Active Directory. Trebuie să contactați Active Directory sau administratorul domeniului sau să vă conectați cu un cont personal.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Calea nu a fost găsită. Verificați path{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Este necesară o parolă pentru a include acreditările.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Apăsați butonul OK, Trebuie să reconectați stocarea la distanță pentru ca setările modificate să aibă efect.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Un răspuns poate fi lent</system:String>
 	<system:String x:Key="Messages.RetryAfter">Încearcă dupa {0} secundă(e).</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Nu folosiți urmatoarele nume rezervate:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Conectați-vă folosind credențiale diferite</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Navighează în mod privat</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Ștergeți conexiunea existentă</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Connectat de RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Inclusiv acreditările</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Șterge drive</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Driver de dispozitiv</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Cale duplicată</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Modul offline</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Deschide RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Suprascrieți ținta</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Parola obligatorie</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Copiere/Mutare/Ștergere rapidă pentru stocare la distanță</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Reconectare RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Înregistrați-vă la Startup</system:String>

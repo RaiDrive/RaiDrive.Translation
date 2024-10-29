@@ -65,6 +65,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">نطاق ليس تحت إدارة Active Directory.</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">الحساب المستخدم ليس تحت إدارة Active Directory. اتصل بمسؤول النظام أو حاول تسجيل الدخول بحساب محلي.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">هذا المسار غير موجود. تحقق من المسار{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">يجب إدخال كلمة مرور لتشمل بيانات الاعتماد.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">اختر موافق. تأكد من تشغيل وحدة التخزين البعيدة ليتم تطبيق الإعدادات الجديدة.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">فد تكون الاستجابة بطيئة</system:String>
 	<system:String x:Key="Messages.RetryAfter">أعد المحاولة بعد {0} ثوان.</system:String>
@@ -89,7 +90,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">لا يسمح باستخدام هذه الأسماء المحجوزة:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">استخدام بيانات دخول مختلفة</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">تصفح سري</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">مسح الاتصال الحالي</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">تم الاتصال عن طريق RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">بما في ذلك بيانات الاعتماد</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">حذف محرك أقراص</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">برنامج تشغيل الجهاز</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">المسار المكرر</system:String>
@@ -111,6 +114,7 @@
 	<system:String x:Key="Phrases.OfflineMode">وضع غير متصل بالشبكة</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">تشغيل RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">يستبدل الهدف</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">كلمة المرور إلزامية</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">النسخ والنقل والحذف السريع للملفات سوف</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">إعادة الاتصال</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">إضافة إلى بدء التشغيل</system:String>

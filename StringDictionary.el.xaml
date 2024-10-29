@@ -63,6 +63,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Μη διαχειρίσιμος κατάλογος από την υπηρεσία καταλόγου Active Directory</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Ο λογαριασμός σας δεν διαχειρίζεται από την υπηρεσία καταλόγου Active Directory. Θα πρέπει να επικοινωνήσετε με την υπηρεσία καταλόγου Active Directory ή το διαχειριστή τομέα ή να συνδεθείτε με προσωπικό λογαριασμό.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Διαδρομή δεν βρέθηκε. Παρακαλώ ελέγξτε τη διαδρομή{0}.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Απαιτείται κωδικός πρόσβασης για να περιλαμβάνει τα διαπιστευτήρια.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Παρακαλώ πατήστε το ΟΚ, πρέπει να επανασυνδέσετε το απομακρυσμένο αποθηκευτικό χώρο για να ισχύσει η αλλαγή των ρυθμίσεων.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Η ανταπόκριση μπορεί να είναι αργή</system:String>
 	<system:String x:Key="Messages.RetryAfter">Δοκιμάστε ξανά μετά από {0} δευτερόλεπτα(ό).</system:String>
@@ -87,7 +88,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Μην χρησιμοποιείτε τα παρακάτω αποκλειστικά ονόματα:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Σύνδεση με διαφορετικά στοιχεία χρήστη</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Απόρρητη περιήγηση</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Εκκαθάριση υπάρχουσας σύνδεσης</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Συνδέθηκε από το RaiDrive</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Συμπεριλαμβανομένων των διαπιστευτηρίων</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Διαγραφή τόμου</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Πρόγραμμα οδήγησης συσκευής</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Διπλοεγγεγραμμένη διαδρομή</system:String>
@@ -109,6 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Λειτουργία εκτός σύνδεσης</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Άνοιγμα του RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Αντικατάσταση αρχείου</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Υποχρεωτικός κωδικός πρόσβασης</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Γρήγορη Αντιγραφή/Μετακίνηση/Διαγραφή για απομακρυσμένο μέσο αποθήκευσης</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive Επανασύνδεση</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Είναι ενεργό κατά την εκκίνηση;</system:String>
