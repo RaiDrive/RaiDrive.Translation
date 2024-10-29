@@ -275,7 +275,7 @@
 	<system:String x:Key="Words.Timeout">หมดเวลา</system:String>
 	<system:String x:Key="Words.TransferMode">โหมดถ่ายโอน</system:String>
 	<system:String x:Key="Words.Update">อัปเดท</system:String>
-	<system:String x:Key="Words.Upgrade">อัปเดท</system:String>
+	<system:String x:Key="Words.Upgrade">อัพเกรด</system:String>
 	<system:String x:Key="Words.Upload">อัปโหลด</system:String>
 	<system:String x:Key="Words.Username">ชื่อผู้ใช้</system:String>
 	<system:String x:Key="Words.VolumeLabel">ชื่อไดร์ฟ</system:String>
