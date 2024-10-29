@@ -25,7 +25,7 @@ Your contribution can be recorded through the "Pull Request".
 | [StringDictionary.id.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.id.xaml) | Indonesian | <sub>[alif72](https://github.com/alif72), [vzrenggamani](https://github.com/vzrenggamani)</sub> |
 | [StringDictionary.it.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.it.xaml) | Italian | <sub>[gabrig11](https://github.com/gabrig11)</sub> |
 | [StringDictionary.ja.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ja.xaml) | Japanese | <sub>[wizard872](https://github.com/wizard872), [yuk7](https://github.com/yuk7), [Kai-Z-JP](https://github.com/kai-z-jp)</sub> |
-| [StringDictionary.ko.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ko.xaml) | Korean | <sub>[RaiDrive](https://www.raidrive.com), [endorphin-pk](https://github.com/endorphin-pk)</sub> |
+| [StringDictionary.ko.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ko.xaml) | Korean | <sub>[RaiDrive](https://www.raidrive.com), [concertypin](https://github.com/concertypin)</sub> |
 | [StringDictionary.lt.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.lt.xaml) | Lithuanian | <sub>Darius Ribinskas</sub> |
 | [StringDictionary.ms.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ms.xaml) | Malay | <sub>[MOLOKAL](https://github.com/molokal) , [niskala5570](https://github.com/niskala5570)</sub> |
 | [StringDictionary.nl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.nl.xaml) | Dutch | <sub>[RemboIII](https://github.com/RemboIII), [Paultje52](https://github.com/Paultje52)</sub> |
