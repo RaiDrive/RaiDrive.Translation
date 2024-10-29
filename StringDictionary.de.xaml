@@ -113,7 +113,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Offline-Modus</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDrive öffnen</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Ziel überschreiben</system:String>
-	<system:String x:Key="Phrases.PasswordMandatory">Passwort obligatorisch</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Passwort erforderlich</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Schnelles Kopieren/Verschieben/Löschen für den Remote-Speicher</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive erneut verbinden</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Programm beim Hochfahren starten</system:String>
