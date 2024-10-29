@@ -1,10 +1,10 @@
 ## RaiDrive Translation Project
 
-Some of language source files are initialized, but not be translated completely yet.
+The language files have been translated, but it’s necessary to verify that they are used correctly and properly applied. 
 
-Please give us your helps for the untranslated languages, and improving for the translated language as well.
+Additional updates are always welcome, so please feel free to contribute through a "Pull Request." 
 
-Your contribution can be recorded through the "Pull Request".
+We always appreciate the contributions of our contributors.
 
 | File name | Language | Contributors |
 | ----------|:----------:|:----------- |
