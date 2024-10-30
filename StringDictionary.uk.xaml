@@ -16,8 +16,8 @@
 	<system:String x:Key="Messages.Delegation.Aborted">Делегування перервано</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Введіть ідентифікатор ключа</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Введіть ідентифікатор облікового запису</system:String>
-	<system:String x:Key="Messages.EnterBucketName">Введіть назву сегмента</system:String>
-	<system:String x:Key="Messages.EnterCompany">Будь ласка, введіть компанію</system:String>
+	<system:String x:Key="Messages.EnterBucketName">Введіть назву бакета</system:String>
+	<system:String x:Key="Messages.EnterCompany">Введіть компанію</system:String>
 	<system:String x:Key="Messages.EnterIPAddress">Введіть ім'я хосту або IP-адресу</system:String>
 	<system:String x:Key="Messages.EnterNamespace">Введіть простір імен</system:String>
 	<system:String x:Key="Messages.EnterPassword">Введіть пароль</system:String>
@@ -269,7 +269,7 @@
 	<system:String x:Key="Words.StorageAccount">Обліковий запис сховища</system:String>
 	<system:String x:Key="Words.Subscription">Передплата</system:String>
 	<system:String x:Key="Words.TemporaryPath">Кеш</system:String>
-	<system:String x:Key="Words.Tenant">Клієнти</system:String>
+	<system:String x:Key="Words.Tenant">Орендар</system:String>
 	<system:String x:Key="Words.Time">Час</system:String>
 	<system:String x:Key="Words.Timeout">Очікування</system:String>
 	<system:String x:Key="Words.TransferMode">Режим передачі</system:String>
