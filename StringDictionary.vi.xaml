@@ -88,7 +88,8 @@
 	<system:String x:Key="Messages.Upgrade.NewVersion">Bạn có thể nâng cấp lên phiên bản {0}</system:String>
 	<system:String x:Key="Messages.Upgrade.Uptodate">Bạn đang sử dụng phiên bản mới nhất</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">Tên không thể chứa những ký tự sau:</system:String>
-	<system:String x:Key="Messages.VolumeInvalidStr">Không sử dụng các tên sau:</system:String>
+	<system:String x:Key="Messages.VolumeInvalidStr">Không sử dụng các tên sau:
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Cần có mật khẩu để bao gồm thông tin xác thực.</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Kết nối bằng tài khoản khác</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Duyệt web ở chế độ riêng tư</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Xóa kết nối hiện có</system:String>
@@ -130,6 +131,9 @@
 	<system:String x:Key="Phrases.UpdateChangeAsync">Cập nhật các thay đổi về bộ nhớ không đồng bộ</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Sử dụng biểu tượng tùy chỉnh trên một ổ đĩa được kết nối</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">Tùy chọn không khả dụng</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Xóa bỏ kết nối hiện tại</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Bao gồm thông tin xác thực</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Mật khẩu là bắt buộc</system:String>
 	<system:String x:Key="Words.AccessKeyID">ID khóa truy cập</system:String>
 	<system:String x:Key="Words.Account">Tài khoản</system:String>
 	<system:String x:Key="Words.AccountId">ID tài khoản</system:String>
