@@ -91,7 +91,7 @@
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">시크릿 브라우징</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">기존 연결 지우기</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDrive에 의해 연결됨</system:String>
-	<system:String x:Key="Phrases.CredentialsIncluding">자격 증명 포함</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">자격 증명도 내보내기</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">드라이브 삭제</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">장치 드라이버</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">중복 경로</system:String>
@@ -113,7 +113,7 @@
 	<system:String x:Key="Phrases.OfflineMode">오프라인 모드</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">RaiDrive 열기</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">덮어쓰기</system:String>
-	<system:String x:Key="Phrases.PasswordMandatory">비밀번호 필수</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">비밀번호 설정 필수</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">스토리지에서 빠른 복사/이동/삭제</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive 재연결</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">시작프로그램에 등록</system:String>
