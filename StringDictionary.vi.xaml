@@ -89,12 +89,9 @@
 	<system:String x:Key="Messages.Upgrade.Uptodate">Bạn đang sử dụng phiên bản mới nhất</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">Tên không thể chứa những ký tự sau:</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">Không sử dụng các tên sau:</system:String>
-	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Cần có mật khẩu để bao gồm thông tin xác thực.</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Kết nối bằng tài khoản khác</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Duyệt web ở chế độ riêng tư</system:String>
-	<system:String x:Key="Phrases.ClearExistingConnection">Xóa kết nối hiện có</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Được kết nối bởi RaiDrive</system:String>
-	<system:String x:Key="Phrases.CredentialsIncluding">Bao gồm thông tin xác thực</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Xóa phân vùng</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Trình điều khiển thiết bị</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Trùng đường dẫn</system:String>
@@ -116,7 +113,6 @@
 	<system:String x:Key="Phrases.OfflineMode">Chế độ ngoại tuyến</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Mở RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Ghi đè mục tiêu</system:String>
-	<system:String x:Key="Phrases.PasswordMandatory">Mật khẩu bắt buộc</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Sao chép/Di chuyển/Xóa nhanh để lưu trữ từ xa</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Kết nối lại RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Bật tự động khởi động</system:String>
