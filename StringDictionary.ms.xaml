@@ -64,7 +64,7 @@
 	<system:String x:Key="Messages.OAuth.InvalidClient">Domain tidak diurus oleh Direktori Aktif</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">Akaun anda tidak diurus oleh Direktori Aktif. Anda patut hubungi Direktori Aktif atau pentadbir domain atau daftar masuk sebagai akaun peribadi.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Laluan tidak dijumpai. Semak laluan{0}.</system:String>
-	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Kata laluan diperlukan untuk memasukkan bukti kelayakan.</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">Kata laluan diperlukan untuk menyertakan bukti kelayakan.</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">Sila tekan butang OK, Anda mesti menyambung semula simpanan luar untuk tetapan yang diubah diterapkan.</system:String>
 	<system:String x:Key="Messages.ResponseSlow">Gerak balas mungkin lambat</system:String>
 	<system:String x:Key="Messages.RetryAfter">Cuba semula selepas {0} saat.</system:String>
@@ -89,9 +89,9 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">Jangan guna nama yang telah diperuntukkan ini:</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Sambung menggunakan akaun berlainan</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Layari secara sulit</system:String>
-	<system:String x:Key="Phrases.ClearExistingConnection">Kosongkan sambungan sedia ada</system:String>
+	<system:String x:Key="Phrases.ClearExistingConnection">Padam sambungan sedia ada</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Bersambung dengan RaiDrive</system:String>
-	<system:String x:Key="Phrases.CredentialsIncluding">Termasuk kelayakan</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">Termasuk bukti kelayakan</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Padam pemacu</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Pemacu peranti</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Pendua Dipilih</system:String>
@@ -113,7 +113,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Mod luar talian</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Buka RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Ganti pilihan</system:String>
-	<system:String x:Key="Phrases.PasswordMandatory">Kata laluan wajib</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Kata laluan wajib diisi</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Salin/Pindah/Padam pantas untuk penyimpanan jarak jauh</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Sambungkan semula RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Daftar ke Pemula Sistem</system:String>
