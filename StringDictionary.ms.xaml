@@ -273,7 +273,7 @@
 	<system:String x:Key="Words.Tenant">Penyewa</system:String>
 	<system:String x:Key="Words.Time">Masa</system:String>
 	<system:String x:Key="Words.Timeout">Masa tamat</system:String>
-	<system:String x:Key="Words.TransferMode">Mod Permindahan</system:String>
+	<system:String x:Key="Words.TransferMode">Mod Pemindahan</system:String>
 	<system:String x:Key="Words.Update">Kemas Kini</system:String>
 	<system:String x:Key="Words.Upgrade">Naik Taraf</system:String>
 	<system:String x:Key="Words.Upload">Muat Naik</system:String>
