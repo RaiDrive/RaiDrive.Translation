@@ -115,7 +115,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Chế độ ngoại tuyến</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Mở RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Ghi đè mục tiêu</system:String>
-	<system:String x:Key="Phrases.PasswordMandatory">Mật khẩu bắt buộc</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Mật khẩu là bắt buộc</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Sao chép/Di chuyển/Xóa nhanh để lưu trữ từ xa</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">Kết nối lại RaiDrive</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Bật tự động khởi động</system:String>
