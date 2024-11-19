@@ -19,6 +19,7 @@ We always appreciate the contributions of our contributors.
 | [StringDictionary.es.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.es.xaml) | Spanish | <sub>[Claudio Osorio](https://github.com/Claudio-Osorio), [juangacovas](https://github.com/juangacovas)</sub> |
 | [StringDictionary.fa.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.fa.xaml) | Persian | <sub>[Highdeger](https://github.com/Highdeger)</sub> |
 | [StringDictionary.fr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.fr.xaml) | French | <sub>[jeromeFa](https://github.com/jeromeFa), [DoryanR](https://github.com/DoryanR)</sub> |
+| [StringDictionary.he.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.he.xaml) | Hebrew | <sub></sub> |
 | [StringDictionary.hi.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.hi.xaml) | Hindi | <sub></sub> |
 | [StringDictionary.hr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.hr.xaml) | Croatian | <sub></sub> |
 | [StringDictionary.hu.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.hu.xaml) | Hungarian | <sub>[lostprophet](https://github.com/lostprophet)</sub> |
