@@ -112,7 +112,7 @@
 	<system:String x:Key="Phrases.OfflineMode">Λειτουργία εκτός σύνδεσης</system:String>
 	<system:String x:Key="Phrases.OpenRaiDrive">Άνοιγμα του RaiDrive</system:String>
 	<system:String x:Key="Phrases.OverwriteTarget">Αντικατάσταση αρχείου</system:String>
-	<system:String x:Key="Phrases.PasswordMandatory">Υποχρεωτικός κωδικός πρόσβασης</system:String>
+	<system:String x:Key="Phrases.PasswordMandatory">Υποχρεωτικός o κωδικός πρόσβασης</system:String>
 	<system:String x:Key="Phrases.QuickCopyMoveDelete">Γρήγορη Αντιγραφή/Μετακίνηση/Διαγραφή για απομακρυσμένο μέσο αποθήκευσης</system:String>
 	<system:String x:Key="Phrases.RaiDriveReconnect">RaiDrive Επανασύνδεση</system:String>
 	<system:String x:Key="Phrases.RegisterToStartup">Είναι ενεργό κατά την εκκίνηση;</system:String>
