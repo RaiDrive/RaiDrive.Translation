@@ -10,7 +10,7 @@
 	<system:String x:Key="Messages.Cache.FolderNotSupport">La cartella temporanea deve essere una cartella nell'unità disco locale. L'unità di rete non è supportata.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Controlla l'indirizzo.</system:String>
 	<system:String x:Key="Messages.CheckPort">Controlla la porta {0}.</system:String>
-	<system:String x:Key="Messages.CheckProtocolPort">Ricontrollare il protocollo {0} e la porta {1}.</system:String>
+	<system:String x:Key="Messages.CheckProtocolPort">Ricontrolla il protocollo {0} e la porta {1}.</system:String>
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Tenta di verificare immediatamente le modifiche ai file remoti.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">La versione attuale è: {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegazione interrotta</system:String>
