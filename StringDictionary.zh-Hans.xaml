@@ -18,7 +18,7 @@
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">它会尝试立即检查远程文件的更改。</system:String>
 	<system:String x:Key="Messages.CurrentVersion">当前版本为 {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">委派已终止</system:String>
-	<system:String x:Key="Messages.EmailSentSuccess">電子郵件已成功發送。</system:String>
+	<system:String x:Key="Messages.EmailSentSuccess">电子邮件发送成功。</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">请输入 Access Key ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">请输入账号</system:String>
 	<system:String x:Key="Messages.EnterBucketName">请输入存储桶名称</system:String>
@@ -89,8 +89,8 @@
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">将在 {0} 之后生效。按 [确定] 按钮立即生效。</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc3">由于所有许可证均已兑换，您的许可证已转移给以下用户：</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc4">请保存文件或关闭应用程序。</system:String>
-	<system:String x:Key="Messages.Subscription.Switched.Desc5">经过以下时间后，它将自动切换到{0}。</system:String>
-	<system:String x:Key="Messages.Subscription.Switched.Desc6">您将在以下时间后自动退出。</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">倒计时后，许可证将自动切换到{0}。</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc6">倒计时后，将自动退出。</system:String>
 	<system:String x:Key="Messages.SureDelete">您确定要永久删除 "{0} ({1})" 吗？</system:String>
 	<system:String x:Key="Messages.UnknownSpace">未知空间容量</system:String>
 	<system:String x:Key="Messages.Upgrade.New">您可以升级到最新版本</system:String>
@@ -99,7 +99,7 @@
 	<system:String x:Key="Messages.VolumeInvalidChar">卷标不能含有以下字符:</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">不可使用如下保留名称:</system:String>
 	<system:String x:Key="Messages.WaitForMoment">请稍候</system:String>
-	<system:String x:Key="Messages.WelcomeToRaiDrive">欢迎来到 RaiDrive</system:String>
+	<system:String x:Key="Messages.WelcomeToRaiDrive">欢迎使用 RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">在连接时输入账号密码</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">无痕浏览</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">清除现有连接</system:String>
@@ -123,7 +123,7 @@
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">立即获取文件属性</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">复制时尝试保持原修改日期</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">维护文件和文件夹的“修改日期”</system:String>
-	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">像 USB 驱动器一样安装云存储</system:String>
+	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">以 USB 驱动器形式挂载云存储</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">启动 Windows 后自动连接</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">登录 Windows 后自动连接</system:String>
 	<system:String x:Key="Phrases.MountAtStart">启动 RaiDrive 后自动连接</system:String>
@@ -180,7 +180,7 @@
 	<system:String x:Key="Words.Company">公司</system:String>
 	<system:String x:Key="Words.Connect">连接</system:String>
 	<system:String x:Key="Words.Connected">已连接</system:String>
-	<system:String x:Key="Words.CountLeft">剩菜</system:String>
+	<system:String x:Key="Words.CountLeft">剩余计数</system:String>
 	<system:String x:Key="Words.Current">当前</system:String>
 	<system:String x:Key="Words.Default">默认</system:String>
 	<system:String x:Key="Words.Delete">删除</system:String>
