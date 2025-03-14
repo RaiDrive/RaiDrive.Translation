@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>yuk7</system:String>
 		<system:String>wizard872</system:String>
@@ -16,6 +18,7 @@
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">リモート ファイルの変更をすぐに確認しようとします。</system:String>
 	<system:String x:Key="Messages.CurrentVersion">現在のバージョンは {0} です</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">権限移譲を中止</system:String>
+	<system:String x:Key="Messages.EmailSentSuccess">メールは正常に送信されました。</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">アクセスキーIDを入力</system:String>
 	<system:String x:Key="Messages.EnterAccountID">アカウントIDを入力してください</system:String>
 	<system:String x:Key="Messages.EnterBucketName">バケット名を入力してください</system:String>
@@ -23,6 +26,7 @@
 	<system:String x:Key="Messages.EnterIPAddress">ホスト名またはIPアドレスを入力してください</system:String>
 	<system:String x:Key="Messages.EnterNamespace">名前空間を入力してください</system:String>
 	<system:String x:Key="Messages.EnterPassword">パスワードを入力してください</system:String>
+	<system:String x:Key="Messages.EnterPIN">PINを入力してください</system:String>
 	<system:String x:Key="Messages.EnterPort">ポート番号を入力してください (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">シークレットアクセスキーを入力</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">ストレージアカウント名を入力</system:String>
@@ -37,6 +41,7 @@
 	<system:String x:Key="Messages.Error.ConnectInternet">リモートストレージをマウントできません インターネット接続を確認してから再度お試しください</system:String>
 	<system:String x:Key="Messages.Error.DiskLetterExist">ドライブラベルまたはドライブ名を変更する必要があります</system:String>
 	<system:String x:Key="Messages.Error.IncorrectPassword">入力されたパスワードが正しくありません。もう一度やり直してください。</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPIN">PINが間違っています。もう一度お試しください</system:String>
 	<system:String x:Key="Messages.Error.MethodNotAllowed">パス{0}が有効なパスであるか確認してください</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveAuth">権限付与または認証に失敗しました 再認証しますか?</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveLimit">ダウンロードの割り当て量を超えています ダウンロード制限は {0} です</system:String>
@@ -45,6 +50,7 @@
 	<system:String x:Key="Messages.Error.Unauthorized">認証に失敗しました ユーザーID(パスワード)を確認してください</system:String>
 	<system:String x:Key="Messages.ExistVolume">既に存在しているドライブ名です</system:String>
 	<system:String x:Key="Messages.ExitConfirm">終了の前に全てのドライブのマウントを解除しますか?</system:String>
+	<system:String x:Key="Messages.ExportByEmail">エクスポートファイルは電子メールで送信されます。</system:String>
 	<system:String x:Key="Messages.FileLock.DependsWebDAV">WebDAVサーバーに依存</system:String>
 	<system:String x:Key="Messages.FileLock.NotSupport">サーバーはサポートしていない可能性があります</system:String>
 	<system:String x:Key="Messages.FolderExist">既に含まれているフォルダです</system:String>
@@ -81,6 +87,10 @@
 	<system:String x:Key="Messages.SignOut.Question2">ログアウトしてもよろしいですか？</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">あなたの現在のセッションはあなたの他のセッション{0}から戻るように要求されました。 すべてのドライブが再接続されます。 ファイルを保存するか、アプリケーションを閉じてください。</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">{0}の後に適用されます。すぐにOKボタンを押してください。</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc3">すべてのライセンスが使用されたため、ライセンスは次のユーザーに譲渡されました:</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc4">ファイルを保存するか、アプリケーションを閉じてください。</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">以下の時間以降は自動的に{0}に切り替わります。</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc6">以下の時間以降は自動的にサインアウトされます。</system:String>
 	<system:String x:Key="Messages.SureDelete">永久的に "{0} ({1})" を削除しますか?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">不明な空き領域</system:String>
 	<system:String x:Key="Messages.Upgrade.New">新しいバージョンにアップデートできます</system:String>
@@ -88,13 +98,18 @@
 	<system:String x:Key="Messages.Upgrade.Uptodate">最新バージョンです</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">ドライブ名に次のような文字は入力できません:</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">下段の予約されたドライブ名は入力できません:</system:String>
+	<system:String x:Key="Messages.WaitForMoment">しばらくお待ちください</system:String>
+	<system:String x:Key="Messages.WelcomeToRaiDrive">RaiDriveへようこそ</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">ドライブをマウントする度にログイン</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">プライベートブラウジング</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">既存の接続をクリア</system:String>
+	<system:String x:Key="Phrases.ConfirmPIN">PINの確認</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDriveによってマウント</system:String>
+	<system:String x:Key="Phrases.ConnectAfterUnlock">ロック解除後に接続</system:String>
 	<system:String x:Key="Phrases.CredentialsIncluding">資格情報を含む</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">ドライブ削除</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">デバイスドライバ</system:String>
+	<system:String x:Key="Phrases.DisconnectAfterIdleTime">アイドル時間後に切断</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">重複パス</system:String>
 	<system:String x:Key="Phrases.FileInUse">使用中のファイル: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAVファイルロック</system:String>
@@ -104,9 +119,11 @@
 	<system:String x:Key="Phrases.FolderUrlID">フォルダーURLまたはID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">最新表示</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">ビジネスバージョン用</system:String>
+	<system:String x:Key="Phrases.FourDigits">4桁</system:String>
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">ファイルのプロパティを即座に取得</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">コピー時に "変更日時" を維持するようにする</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">ファイルとフォルダーの「更新日」を維持する</system:String>
+	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">クラウドストレージをUSBドライブのようにマウントする</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">再起動時に再接続</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">プログラムの起動時にドライブをマウント</system:String>
 	<system:String x:Key="Phrases.MountAtStart">プログラムの起動時に再接続</system:String>
@@ -128,6 +145,7 @@
 	<system:String x:Key="Phrases.Subscription.Switched">{0}に切り替えました</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">ストレージの変更を非同期で更新する</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">接続ドライブにカスタムアイコンを使用する</system:String>
+	<system:String x:Key="Phrases.UseAppLock">アプリケーションロックを使用する</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">使用できないオプション</system:String>
 	<system:String x:Key="Words.AccessKeyID">アクセスキーID</system:String>
 	<system:String x:Key="Words.Account">アカウント</system:String>
@@ -190,6 +208,7 @@
 	<system:String x:Key="Words.Folder">フォルダ</system:String>
 	<system:String x:Key="Words.FreeSpace">空き領域</system:String>
 	<system:String x:Key="Words.General">一般</system:String>
+	<system:String x:Key="Words.GetLicense">ライセンスを取得</system:String>
 	<system:String x:Key="Words.GoogleDrive.Computers">パソコン</system:String>
 	<system:String x:Key="Words.GoogleDrive.MyDrive">マイドライブ</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">共有ドライブ</system:String>
@@ -197,6 +216,7 @@
 	<system:String x:Key="Words.GoogleDrive.SharedWithMe">共有アイテム</system:String>
 	<system:String x:Key="Words.Help">ヘルプ</system:String>
 	<system:String x:Key="Words.Hide">隠す</system:String>
+	<system:String x:Key="Words.IdleTime">アイドルタイム</system:String>
 	<system:String x:Key="Words.Import">インポート</system:String>
 	<system:String x:Key="Words.Key">キー</system:String>
 	<system:String x:Key="Words.Language">言語</system:String>
@@ -204,6 +224,7 @@
 	<system:String x:Key="Words.Lifetime">有効期限</system:String>
 	<system:String x:Key="Words.Like">いいね</system:String>
 	<system:String x:Key="Words.LocalDisk">ローカルディスク</system:String>
+	<system:String x:Key="Words.Lock">ロック</system:String>
 	<system:String x:Key="Words.Login">ログイン</system:String>
 	<system:String x:Key="Words.Management">管理</system:String>
 	<system:String x:Key="Words.MySubscription">サブスクリプション</system:String>
@@ -275,6 +296,7 @@
 	<system:String x:Key="Words.Time">時刻</system:String>
 	<system:String x:Key="Words.Timeout">タイムアウト</system:String>
 	<system:String x:Key="Words.TransferMode">転送モード</system:String>
+	<system:String x:Key="Words.Unlock">ロック解除</system:String>
 	<system:String x:Key="Words.Update">アップデート</system:String>
 	<system:String x:Key="Words.Upgrade">アップデート</system:String>
 	<system:String x:Key="Words.Upload">アップロード</system:String>

@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>SadPencil</system:String>
 		<system:String>Hulen</system:String>
@@ -16,6 +18,7 @@
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">它嘗試立即檢查遠端檔案更改。</system:String>
 	<system:String x:Key="Messages.CurrentVersion">目前版本是 {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">委派已中止</system:String>
+	<system:String x:Key="Messages.EmailSentSuccess">電子郵件已成功發送。</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">請輸入存取金鑰ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">請輸入帳號</system:String>
 	<system:String x:Key="Messages.EnterBucketName">請輸入貯體名稱</system:String>
@@ -23,6 +26,7 @@
 	<system:String x:Key="Messages.EnterIPAddress">請輸入主機名稱或 IP 位址</system:String>
 	<system:String x:Key="Messages.EnterNamespace">請輸入命名空間</system:String>
 	<system:String x:Key="Messages.EnterPassword">請輸入密碼</system:String>
+	<system:String x:Key="Messages.EnterPIN">請輸入您的 PIN 碼</system:String>
 	<system:String x:Key="Messages.EnterPort">請輸入連接埠號碼 (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">請輸入私密存取金鑰</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">請輸入儲存體帳戶名稱</system:String>
@@ -37,6 +41,7 @@
 	<system:String x:Key="Messages.Error.ConnectInternet">無法連接到遠端儲存空間。請檢查您的網路連線並再試一次。</system:String>
 	<system:String x:Key="Messages.Error.DiskLetterExist">您必須變更磁碟機代號或磁碟機名稱。</system:String>
 	<system:String x:Key="Messages.Error.IncorrectPassword">輸入的密碼不正確。請再試一次。</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPIN">PIN 不正確。請重試。</system:String>
 	<system:String x:Key="Messages.Error.MethodNotAllowed">請檢查路徑 {0} 是否存在，或者是否授予了存取權限。</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveAuth">授權或身份驗證失敗。是否要重新驗證？</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveLimit">已超出下載配額。下載限制是受到 {0} 的原則限制。</system:String>
@@ -45,6 +50,7 @@
 	<system:String x:Key="Messages.Error.Unauthorized">驗證失敗。請檢查您的帳號 (密碼)。</system:String>
 	<system:String x:Key="Messages.ExistVolume">此名稱已存在</system:String>
 	<system:String x:Key="Messages.ExitConfirm">您確定要在退出前中斷所有連線嗎？</system:String>
+	<system:String x:Key="Messages.ExportByEmail">匯出文件將透過電子郵件發送。</system:String>
 	<system:String x:Key="Messages.FileLock.DependsWebDAV">是否支援該功能取決於 WebDAV 伺服器</system:String>
 	<system:String x:Key="Messages.FileLock.NotSupport">您的伺服器可能不支援</system:String>
 	<system:String x:Key="Messages.FolderExist">此資料夾已包含在內。</system:String>
@@ -81,6 +87,10 @@
 	<system:String x:Key="Messages.SignOut.Question2">您確定要登出嗎？</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">您目前的工作階段已被請求由您的其他工作階段 {0} 返回。所有磁碟機都將重新連線。請儲存檔案或關閉應用程式。</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">將在 {0} 之後套用，按下 [確定] 按鈕立即生效。</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc3">由於所有許可證均已兌換，您的許可證已轉移給以下用戶：</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc4">請儲存檔案或關閉應用程式。</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">經過以下時間後，它將自動切換到{0}。</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc6">您將在以下時間後自動退出。</system:String>
 	<system:String x:Key="Messages.SureDelete">您確定要永久刪除「{0} ({1})」嗎？</system:String>
 	<system:String x:Key="Messages.UnknownSpace">未知空間容量</system:String>
 	<system:String x:Key="Messages.Upgrade.New">您可以升級到新版本</system:String>
@@ -88,13 +98,18 @@
 	<system:String x:Key="Messages.Upgrade.Uptodate">您正在使用最新版本</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">磁碟區標籤不能包含下列任何字元：</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">請勿使用以下的保留名稱：</system:String>
+	<system:String x:Key="Messages.WaitForMoment">請稍候</system:String>
+	<system:String x:Key="Messages.WelcomeToRaiDrive">歡迎來到 RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">使用不同的憑證連線</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">私密瀏覽</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">清除現有連接</system:String>
+	<system:String x:Key="Phrases.ConfirmPIN">確認 PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">已由 RaiDrive 連線</system:String>
+	<system:String x:Key="Phrases.ConnectAfterUnlock">解鎖後連接</system:String>
 	<system:String x:Key="Phrases.CredentialsIncluding">包括憑證</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">刪除磁碟機</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">裝置驅動</system:String>
+	<system:String x:Key="Phrases.DisconnectAfterIdleTime">空閒時間過後斷開連接</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">重複的路徑</system:String>
 	<system:String x:Key="Phrases.FileInUse">正在使用的檔案：{0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV 檔案鎖定</system:String>
@@ -104,9 +119,11 @@
 	<system:String x:Key="Phrases.FolderUrlID">資料夾網址或 ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">保持最新 (Follow Latest)</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">商業版本</system:String>
+	<system:String x:Key="Phrases.FourDigits">4 位數</system:String>
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">立即取得檔案屬性</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">複製時嘗試保留原「修改日期」</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">維護文件和資料夾的“修改日期”</system:String>
+	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">像 USB 隨身碟一樣安裝雲端存儲</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">啟動時重新連線</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">登入時重新連線</system:String>
 	<system:String x:Key="Phrases.MountAtStart">程式執行時重新連線</system:String>
@@ -128,6 +145,7 @@
 	<system:String x:Key="Phrases.Subscription.Switched">切換到 {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">儲存變更非同步更新</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">在已連線磁碟機上使用自訂圖示</system:String>
+	<system:String x:Key="Phrases.UseAppLock">使用應用程式鎖</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">不可用的選項</system:String>
 	<system:String x:Key="Words.AccessKeyID">存取金鑰ID</system:String>
 	<system:String x:Key="Words.Account">帳號</system:String>
@@ -190,6 +208,7 @@
 	<system:String x:Key="Words.Folder">資料夾</system:String>
 	<system:String x:Key="Words.FreeSpace">可用空間</system:String>
 	<system:String x:Key="Words.General">一般</system:String>
+	<system:String x:Key="Words.GetLicense">取得許可證</system:String>
 	<system:String x:Key="Words.GoogleDrive.Computers">電腦</system:String>
 	<system:String x:Key="Words.GoogleDrive.MyDrive">我的雲端硬碟</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">共用磁碟機</system:String>
@@ -197,6 +216,7 @@
 	<system:String x:Key="Words.GoogleDrive.SharedWithMe">與我共用</system:String>
 	<system:String x:Key="Words.Help">幫助</system:String>
 	<system:String x:Key="Words.Hide">隱藏</system:String>
+	<system:String x:Key="Words.IdleTime">空閒時間</system:String>
 	<system:String x:Key="Words.Import">匯入</system:String>
 	<system:String x:Key="Words.Key">金鑰</system:String>
 	<system:String x:Key="Words.Language">語言</system:String>
@@ -204,6 +224,7 @@
 	<system:String x:Key="Words.Lifetime">存留時間</system:String>
 	<system:String x:Key="Words.Like">讚</system:String>
 	<system:String x:Key="Words.LocalDisk">本機磁碟</system:String>
+	<system:String x:Key="Words.Lock">鎖</system:String>
 	<system:String x:Key="Words.Login">登入</system:String>
 	<system:String x:Key="Words.Management">管理</system:String>
 	<system:String x:Key="Words.MySubscription">我的訂閱</system:String>
@@ -275,6 +296,7 @@
 	<system:String x:Key="Words.Time">時間</system:String>
 	<system:String x:Key="Words.Timeout">逾時</system:String>
 	<system:String x:Key="Words.TransferMode">傳輸模式</system:String>
+	<system:String x:Key="Words.Unlock">開鎖</system:String>
 	<system:String x:Key="Words.Update">檢查更新</system:String>
 	<system:String x:Key="Words.Upgrade">升級</system:String>
 	<system:String x:Key="Words.Upload">上傳</system:String>

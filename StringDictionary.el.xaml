@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>SQLtattoo</system:String>
 	</x:Array>
@@ -14,6 +16,7 @@
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Προσπαθεί να ελέγξει αμέσως για απομακρυσμένες αλλαγές αρχείων.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Τρέχουσα έκδοση {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Άρνηση delegation</system:String>
+	<system:String x:Key="Messages.EmailSentSuccess">Το email στάλθηκε με επιτυχία.</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Παρακαλώ καταχωρίστε Access Key ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Εισαγάγετε το αναγνωριστικό λογαριασμού</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Εισαγάγετε ένα όνομα κάδου</system:String>
@@ -21,6 +24,7 @@
 	<system:String x:Key="Messages.EnterIPAddress">Καταχωρίστε ένα όνομα υπολογιστή ή διεύθυνση IP</system:String>
 	<system:String x:Key="Messages.EnterNamespace">Εισαγάγετε έναν χώρο ονομάτων</system:String>
 	<system:String x:Key="Messages.EnterPassword">Παρακαλώ καταχωρίστε τον Κωδικό χρήστη</system:String>
+	<system:String x:Key="Messages.EnterPIN">Εισαγάγετε το PIN σας</system:String>
 	<system:String x:Key="Messages.EnterPort">Επιλέξτε ένα αριθμό θύρας (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Παρακαλώ καταχωρίστε Secret Access Key</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">Παρακαλώ καταχωρίστε το όνομα του Storage account</system:String>
@@ -35,6 +39,7 @@
 	<system:String x:Key="Messages.Error.ConnectInternet">Δεν είναι δυνατή η σύνδεση με απομακρυσμένο αποθηκευτικό χώρο. Ελέγξτε τη σύνδεση στο Internet και δοκιμάστε ξανά.</system:String>
 	<system:String x:Key="Messages.Error.DiskLetterExist">Πρέπει να αλλάξετε το γράμμα της μονάδας δίσκου ή το όνομα της μονάδας δίσκου.</system:String>
 	<system:String x:Key="Messages.Error.IncorrectPassword">Ο κωδικός που δώσατε είναι λάθος. Δοκιμάστε πάλι.</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPIN">Το PIN είναι λανθασμένο. Δοκιμάστε ξανά.</system:String>
 	<system:String x:Key="Messages.Error.MethodNotAllowed">Ελέγξτε εάν υπάρχει η διαδρομή {0} ή εάν έχει παραχωρηθεί πρόσβαση.</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveAuth">Η εξουσιοδότηση ή ο έλεγχος ταυτότητας απέτυχαν. Θα θέλατε να επαληθεύσετε ξανά την ταυτότητά σας?</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveLimit">Υπέρβαση της ποσόστωσης λήψης. Οι περιορισμοί λήψης είναι η πολιτική του {0}.</system:String>
@@ -43,6 +48,7 @@
 	<system:String x:Key="Messages.Error.Unauthorized">Η ταυτοποίηση απέτυχε. Ελέγξτε τον λογαριασμό σας (κωδικός πρόσβασης).</system:String>
 	<system:String x:Key="Messages.ExistVolume">Το όνομα αυτό υπάρχει ήδη</system:String>
 	<system:String x:Key="Messages.ExitConfirm">Είστε βέβαιοι ότι θέλετε να αποσυνδέσετε όλες τις συνδέσεις πριν από την έξοδο?</system:String>
+	<system:String x:Key="Messages.ExportByEmail">Το αρχείο εξαγωγής θα σταλεί με email.</system:String>
 	<system:String x:Key="Messages.FileLock.DependsWebDAV">Εξαρτάται από τον διακομιστή WebDAV</system:String>
 	<system:String x:Key="Messages.FileLock.NotSupport">Ο διακομιστής σας μπορεί να μην το υποστηρίζει</system:String>
 	<system:String x:Key="Messages.FolderExist">Αυτός ο φάκελος υπάρχει ήδη.</system:String>
@@ -79,6 +85,10 @@
 	<system:String x:Key="Messages.SignOut.Question2">Ειστε σίγουροι ότι θέλετε να αποσυνδεθείτε;</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">Η τρέχουσα συνεδρία σας έχει ζητηθεί να επιστρέψει από την άλλη συνεδρία σας {0}. Όλες οι μονάδες δίσκου θα επανασυνδεθούν. Αποθηκεύστε τα αρχεία ή κλείστε τις εφαρμογές</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">Θα εφαρμοστεί μετά από {0}, πατήστε το πλήκτρο OΚ για να είναι άμεση.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc3">Η άδειά σας έχει μεταφερθεί στον ακόλουθο χρήστη επειδή όλες οι άδειες έχουν εξαργυρωθεί:</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc4">Αποθηκεύστε αρχεία ή κλείστε τις εφαρμογές.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">Μετά την παρακάτω ώρα, θα αλλάξει αυτόματα σε {0}.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc6">Θα αποσυνδεθείτε αυτόματα μετά την παρακάτω ώρα.</system:String>
 	<system:String x:Key="Messages.SureDelete">Είστε βέβαιοι ότι θέλετε να διαγράψετε οριστικά "{0} ({1})" ?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">Άγνωστος χώρος</system:String>
 	<system:String x:Key="Messages.Upgrade.New">Μπορείτε να αναβαθμίσετε στην νέα έκδοση</system:String>
@@ -86,13 +96,18 @@
 	<system:String x:Key="Messages.Upgrade.Uptodate">Χρησιμοποιείται ήδη την τελευταία έκδοση</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">Μια ετικέτα τόμου δεν μπορεί να περιέχει κανέναν από τους παρακάτω χαρακτήρες:</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">Μην χρησιμοποιείτε τα παρακάτω αποκλειστικά ονόματα:</system:String>
+	<system:String x:Key="Messages.WaitForMoment">Περιμένετε λίγο</system:String>
+	<system:String x:Key="Messages.WelcomeToRaiDrive">Καλώς ήρθατε στο RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Σύνδεση με διαφορετικά στοιχεία χρήστη</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Απόρρητη περιήγηση</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Εκκαθάριση υπάρχουσας σύνδεσης</system:String>
+	<system:String x:Key="Phrases.ConfirmPIN">Επιβεβαίωση PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Συνδέθηκε από το RaiDrive</system:String>
+	<system:String x:Key="Phrases.ConnectAfterUnlock">Σύνδεση μετά το ξεκλείδωμα</system:String>
 	<system:String x:Key="Phrases.CredentialsIncluding">Συμπεριλαμβανομένων των διαπιστευτηρίων</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Διαγραφή τόμου</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Πρόγραμμα οδήγησης συσκευής</system:String>
+	<system:String x:Key="Phrases.DisconnectAfterIdleTime">Αποσυνδέστε μετά το χρόνο αδράνειας</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Διπλοεγγεγραμμένη διαδρομή</system:String>
 	<system:String x:Key="Phrases.FileInUse">Αρχείο(α) σε χρήση: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV κλείδωμα αρχείου</system:String>
@@ -102,9 +117,11 @@
 	<system:String x:Key="Phrases.FolderUrlID">URL διεύθυνση ή ID του τόμου</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Ακολουθήστε το τελευταίο</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">για την έκδοση business</system:String>
+	<system:String x:Key="Phrases.FourDigits">4 ψηφία</system:String>
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Λάβετε ιδιότητες αρχείου άμεσα</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Προσπάθησε να κράτησεις την "Ημερομηνία μεταβολής" κατά την αντιγραφή</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">Διατηρήστε την "Ημερομηνία τροποποίησης" αρχείων και φακέλων</system:String>
+	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">Τοποθετήστε ένα Cloud Storage σαν μονάδα USB</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Επανασύνδεση τόμων κατά την επανεκκίνηση του υπολογιστή</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Επανασύνδεση τόμων κατά την σύνδεση σας</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Επανασύνδεση τόμων κατά την εκκίνηση</system:String>
@@ -126,6 +143,7 @@
 	<system:String x:Key="Phrases.Subscription.Switched">Γύρισε σε {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Ενημερώστε τις αλλαγές στο μέσο αποθήκευσης ασύγχρονα</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Χρησιμοποιήστε το προσαρμοσμένο εικονίδιο σε μια συνδεδεμένη μονάδα δίσκου</system:String>
+	<system:String x:Key="Phrases.UseAppLock">Χρησιμοποιήστε το κλείδωμα εφαρμογής</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">Μη διαθέσιμη επιλογή</system:String>
 	<system:String x:Key="Words.AccessKeyID">Αναγνωριστικό κλειδιού πρόσβασης</system:String>
 	<system:String x:Key="Words.Account">Λογαριασμός</system:String>
@@ -188,6 +206,7 @@
 	<system:String x:Key="Words.Folder">Φάκελος</system:String>
 	<system:String x:Key="Words.FreeSpace">Ελεύθερος χώρος</system:String>
 	<system:String x:Key="Words.General">Γενικά</system:String>
+	<system:String x:Key="Words.GetLicense">Λήψη άδειας χρήσης</system:String>
 	<system:String x:Key="Words.GoogleDrive.Computers">Υπολογιστές</system:String>
 	<system:String x:Key="Words.GoogleDrive.MyDrive">Ο τόμος μου</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">Κοινόχρηστες μονάδες δίσκου</system:String>
@@ -195,6 +214,7 @@
 	<system:String x:Key="Words.GoogleDrive.SharedWithMe">Μοιράζονται με εμένα</system:String>
 	<system:String x:Key="Words.Help">Βοήθεια</system:String>
 	<system:String x:Key="Words.Hide">Κρυφό</system:String>
+	<system:String x:Key="Words.IdleTime">Ώρα αδράνειας</system:String>
 	<system:String x:Key="Words.Import">Εισαγωγή</system:String>
 	<system:String x:Key="Words.Key">Κλειδί</system:String>
 	<system:String x:Key="Words.Language">Γλώσσα</system:String>
@@ -202,6 +222,7 @@
 	<system:String x:Key="Words.Lifetime">Χρόνος</system:String>
 	<system:String x:Key="Words.Like">Σαν</system:String>
 	<system:String x:Key="Words.LocalDisk">Τοπική μονάδα δίσκου</system:String>
+	<system:String x:Key="Words.Lock">Κλειδαριά</system:String>
 	<system:String x:Key="Words.Login">Σύνδεση</system:String>
 	<system:String x:Key="Words.Management">Διαχείριση</system:String>
 	<system:String x:Key="Words.MySubscription">Η συνδρομή μου</system:String>
@@ -273,6 +294,7 @@
 	<system:String x:Key="Words.Time">Χρόνος</system:String>
 	<system:String x:Key="Words.Timeout">Λήξη χρονικού ορίου</system:String>
 	<system:String x:Key="Words.TransferMode">Λειτουργία μεταφοράς</system:String>
+	<system:String x:Key="Words.Unlock">Ξεκλειδώνω</system:String>
 	<system:String x:Key="Words.Update">Ενημέρωση</system:String>
 	<system:String x:Key="Words.Upgrade">Αναβάθμιση</system:String>
 	<system:String x:Key="Words.Upload">Μεταφόρτωση</system:String>

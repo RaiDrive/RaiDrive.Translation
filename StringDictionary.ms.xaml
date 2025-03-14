@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>ΜΟLΟΚΛL</system:String>
 		<system:String>Niskala5570</system:String>
@@ -15,6 +17,7 @@
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Ia cuba untuk segera menyemak perubahan fail jauh.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Versi semasa ialah {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegasi dibatalkan</system:String>
+	<system:String x:Key="Messages.EmailSentSuccess">E-mel telah berjaya dihantar.</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Sila masukkan ID Kekunci Akses</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Sila masukkan ID Akaun</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Sila masukkan nama baldi</system:String>
@@ -22,6 +25,7 @@
 	<system:String x:Key="Messages.EnterIPAddress">Sila isi nama hos atau alamat IP</system:String>
 	<system:String x:Key="Messages.EnterNamespace">Sila masukkan ruang nama</system:String>
 	<system:String x:Key="Messages.EnterPassword">Sila isi kata laluan</system:String>
+	<system:String x:Key="Messages.EnterPIN">Sila masukkan PIN anda</system:String>
 	<system:String x:Key="Messages.EnterPort">Sila isi nombor port (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Sila masukkan Kekunci Akses Rahsia</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">Sila masukkan nama akaun Simpanan</system:String>
@@ -36,6 +40,7 @@
 	<system:String x:Key="Messages.Error.ConnectInternet">Tidak dapat menyambungkan simpanan luar. Sila semak sambungan rangkaian anda dan cuba lagi.</system:String>
 	<system:String x:Key="Messages.Error.DiskLetterExist">Anda mesti ubah huruf atau nama pemacu.</system:String>
 	<system:String x:Key="Messages.Error.IncorrectPassword">Kata laluan yang anda masukkan salah. Sila cuba semula.</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPIN">PIN tidak betul. Sila cuba lagi.</system:String>
 	<system:String x:Key="Messages.Error.MethodNotAllowed">Sila semak sama ada laluan{0} wujud ataupun telah dibenarkan.</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveAuth">Pembenaran dan pengesahan gagal. Anda ingin mengesahkannya semula?</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveLimit">Kuota muat turun telah dicapai. Sekatan muat turun adalah polisi {0}.</system:String>
@@ -44,6 +49,7 @@
 	<system:String x:Key="Messages.Error.Unauthorized">Pengesahan gagal. Sila semak akaun anda (kata laluan).</system:String>
 	<system:String x:Key="Messages.ExistVolume">Nama ini sudah ada/digunakan</system:String>
 	<system:String x:Key="Messages.ExitConfirm">Adakah anda pasti ingin memutuskan semua sambungan sebelum keluar?</system:String>
+	<system:String x:Key="Messages.ExportByEmail">Fail eksport akan dihantar melalui e-mel.</system:String>
 	<system:String x:Key="Messages.FileLock.DependsWebDAV">bergantung kepada pelayan WebDAV</system:String>
 	<system:String x:Key="Messages.FileLock.NotSupport">Pelayan anda mungkin tidak menyokong</system:String>
 	<system:String x:Key="Messages.FolderExist">Folder ini telah pun dimasukkan.</system:String>
@@ -80,6 +86,10 @@
 	<system:String x:Key="Messages.SignOut.Question2">Adakah anda pasti ingin mendaftar keluar?</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">Sesi semasa anda telah diminta untuk kembali oleh sesi lain anda {0}. Semua pemacu akan disambung semula. Sila simpan fail atau tutup aplikasi.</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">Ia akan ditetapkan selepas {0}, tekan butang OK untuk teruskan.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc3">Lesen anda telah dipindahkan kepada pengguna berikut kerana semua lesen telah ditebus:</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc4">Sila simpan fail atau tutup aplikasi.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">Selepas masa di bawah, ia akan bertukar secara automatik kepada {0}.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc6">Anda akan dilog keluar secara automatik selepas masa di bawah.</system:String>
 	<system:String x:Key="Messages.SureDelete">Adakah anda pasti ingin memadam "{0} ({1})" secara kekal?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">Ruang tidak diketahui</system:String>
 	<system:String x:Key="Messages.Upgrade.New">Anda boleh menaiktaraf ke versi baharu</system:String>
@@ -87,13 +97,18 @@
 	<system:String x:Key="Messages.Upgrade.Uptodate">Anda menggunakan versi terkini</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">Tanda pemacu tidak boleh mengandungi sebarang aksara berikut:</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">Jangan guna nama yang telah diperuntukkan ini:</system:String>
+	<system:String x:Key="Messages.WaitForMoment">Sila tunggu sebentar</system:String>
+	<system:String x:Key="Messages.WelcomeToRaiDrive">Selamat datang ke RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Sambung menggunakan akaun berlainan</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Layari secara sulit</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Padam sambungan sedia ada</system:String>
+	<system:String x:Key="Phrases.ConfirmPIN">Sahkan PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Bersambung dengan RaiDrive</system:String>
+	<system:String x:Key="Phrases.ConnectAfterUnlock">Sambung selepas buka kunci</system:String>
 	<system:String x:Key="Phrases.CredentialsIncluding">Termasuk bukti kelayakan</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Padam pemacu</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Pemacu peranti</system:String>
+	<system:String x:Key="Phrases.DisconnectAfterIdleTime">Putuskan sambungan selepas masa melahu</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Pendua Dipilih</system:String>
 	<system:String x:Key="Phrases.FileInUse">Fail yang sedang digunakan: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">Kunci Fail WebDAV</system:String>
@@ -103,9 +118,11 @@
 	<system:String x:Key="Phrases.FolderUrlID">URL folder atau ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Ikuti Terkini</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">untuk versi perniagaan</system:String>
+	<system:String x:Key="Phrases.FourDigits">4 digit</system:String>
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Dapatkan sifat fail serta-merta</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Cuba kekalkan "Tarikh  yang diubah" ketika menyalin</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">Kekalkan "Tarikh diubah suai" fail dan folder</system:String>
+	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">Lekapkan Storan Awan seperti pemacu USB</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Sambung semula ketika but</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Sambung semula ketika mendaftar-masuk</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Sambung semula ketika program dimulakan</system:String>
@@ -127,6 +144,7 @@
 	<system:String x:Key="Phrases.Subscription.Switched">Beralih kepada {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Kemas kini perubahan simpanan tidak segerak</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Gunakan ikon tersuai pada pemacu yang disambungkan</system:String>
+	<system:String x:Key="Phrases.UseAppLock">Gunakan kunci aplikasi</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">Pilihan tidak tersedia</system:String>
 	<system:String x:Key="Words.AccessKeyID">ID Kekunci Akses</system:String>
 	<system:String x:Key="Words.Account">Akaun</system:String>
@@ -189,6 +207,7 @@
 	<system:String x:Key="Words.Folder">folder</system:String>
 	<system:String x:Key="Words.FreeSpace">Ruang bebas</system:String>
 	<system:String x:Key="Words.General">Umum</system:String>
+	<system:String x:Key="Words.GetLicense">Dapatkan Lesen</system:String>
 	<system:String x:Key="Words.GoogleDrive.Computers">Komputer</system:String>
 	<system:String x:Key="Words.GoogleDrive.MyDrive">Pemacu Saya</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">Pemacu yang dikongsi</system:String>
@@ -196,6 +215,7 @@
 	<system:String x:Key="Words.GoogleDrive.SharedWithMe">Dikongsi dengan saya</system:String>
 	<system:String x:Key="Words.Help">BANTUAN</system:String>
 	<system:String x:Key="Words.Hide">Sembunyi</system:String>
+	<system:String x:Key="Words.IdleTime">Masa terbiar</system:String>
 	<system:String x:Key="Words.Import">Import</system:String>
 	<system:String x:Key="Words.Key">Kekunci</system:String>
 	<system:String x:Key="Words.Language">Bahasa</system:String>
@@ -203,6 +223,7 @@
 	<system:String x:Key="Words.Lifetime">Jangka Hayat</system:String>
 	<system:String x:Key="Words.Like">Suka</system:String>
 	<system:String x:Key="Words.LocalDisk">Pemacu Setempat</system:String>
+	<system:String x:Key="Words.Lock">Kunci</system:String>
 	<system:String x:Key="Words.Login">Log Masuk</system:String>
 	<system:String x:Key="Words.Management">Pengurusan</system:String>
 	<system:String x:Key="Words.MySubscription">Langganan saya</system:String>
@@ -274,6 +295,7 @@
 	<system:String x:Key="Words.Time">Masa</system:String>
 	<system:String x:Key="Words.Timeout">Masa tamat</system:String>
 	<system:String x:Key="Words.TransferMode">Mod Pemindahan</system:String>
+	<system:String x:Key="Words.Unlock">Buka kunci</system:String>
 	<system:String x:Key="Words.Update">Kemas Kini</system:String>
 	<system:String x:Key="Words.Upgrade">Naik Taraf</system:String>
 	<system:String x:Key="Words.Upload">Muat Naik</system:String>

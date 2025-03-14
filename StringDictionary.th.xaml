@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>yutthaphon</system:String>
 		<system:String>naruepanart</system:String>
@@ -15,6 +17,7 @@
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">ระบบจะพยายามตรวจสอบการเปลี่ยนแปลงไฟล์ระยะไกลทันที</system:String>
 	<system:String x:Key="Messages.CurrentVersion">เวอร์ชั่นปัจจุบันคือ {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">การมอบหมายถูกยกเลิก</system:String>
+	<system:String x:Key="Messages.EmailSentSuccess">อีเมล์ถูกส่งไปเรียบร้อยแล้ว</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">กรุณากรอกไอดีคีย์การเข้าถึง</system:String>
 	<system:String x:Key="Messages.EnterAccountID">กรุณากรอก ID บัญชี</system:String>
 	<system:String x:Key="Messages.EnterBucketName">โปรดป้อนชื่อที่ฝากข้อมูล</system:String>
@@ -22,6 +25,7 @@
 	<system:String x:Key="Messages.EnterIPAddress">โปรดกรอกชื่อโฮสต์หรือที่อยู่ไอพี</system:String>
 	<system:String x:Key="Messages.EnterNamespace">กรุณาใส่เนมสเปซ</system:String>
 	<system:String x:Key="Messages.EnterPassword">โปรดกรอกรหัสผ่าน</system:String>
+	<system:String x:Key="Messages.EnterPIN">กรุณากรอกรหัส PIN ของคุณ</system:String>
 	<system:String x:Key="Messages.EnterPort">โปรดกรอกหมายเลขพอร์ต (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">กรุณากรอกคีย์ลับการเข้าถึง</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">กรุณากรอกชื่อบัญชีที่เก็บข้อมูล</system:String>
@@ -36,6 +40,7 @@
 	<system:String x:Key="Messages.Error.ConnectInternet">ไม่สามารถเชื่อมต่อกับพื้นที่จัดเก็บระยะไกลได้ โปรดตรวจสอบการเชื่อมต่อแล้วลองใหม่อีกครั้ง</system:String>
 	<system:String x:Key="Messages.Error.DiskLetterExist">คุณต้องเปลี่ยนอักษรไดร์ฟหรือชื่อไดร์ฟ</system:String>
 	<system:String x:Key="Messages.Error.IncorrectPassword">รหัสที่คุณกรอกไม่ถูกต้อง โปรดลองอีกครั้ง</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPIN">PIN ไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง</system:String>
 	<system:String x:Key="Messages.Error.MethodNotAllowed">โปรดตรวจสอบหากที่ตั้ง {0} ไม่มีอยู่หรือไม่สามารถเข้าถึงได้</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveAuth">การตรวจสอบสิทธิ์ล้มเหลว คุณต้องการตรวจสอบใหม่อีกครั้งหรือไม่?</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveLimit">เกินโควตาการดาวน์โหลดแล้ว ขีดจำกัดการดาวน์โหลดเป็นไปตามนโยบายของ {0}</system:String>
@@ -44,6 +49,7 @@
 	<system:String x:Key="Messages.Error.Unauthorized">การรับรองล้มเหลว โปรดตรวจสอบบัญชีของคุณ (รหัสผ่าน)</system:String>
 	<system:String x:Key="Messages.ExistVolume">มีชื่อนี้อยู่แล้ว</system:String>
 	<system:String x:Key="Messages.ExitConfirm">คุณต้องการตัดการเชื่อมต่อทั้งหมดก่อนจะออกหรือไม่?</system:String>
+	<system:String x:Key="Messages.ExportByEmail">ไฟล์ส่งออกจะถูกส่งไปทางอีเมล์</system:String>
 	<system:String x:Key="Messages.FileLock.DependsWebDAV">ขึ้นอยู่กับเซิร์ฟเวอร์ WebDAV</system:String>
 	<system:String x:Key="Messages.FileLock.NotSupport">เซิร์ฟเวอร์ของคุณอาจไม่รองรับ</system:String>
 	<system:String x:Key="Messages.FolderExist">มีโฟลเดอร์นี้อยู่แล้ว</system:String>
@@ -80,6 +86,10 @@
 	<system:String x:Key="Messages.SignOut.Question2">คุณแน่ใจว่าคุณต้องการที่จะออกจากระบบ?</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">เซสชั่นปัจจุบันของคุณถูกขอให้ส่งคืนโดยเซสชั่นอื่นของคุณ {0} ไดรฟ์ทั้งหมดจะทำการเชื่อมต่อใหม่ โปรดบันทึกไฟล์หรือปิดแอปพลิเคชั่น</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">มันจะถูกนำไปใช้หลังจาก {0}, กดปุ่มตกลงเพื่อทำทันที</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc3">ใบอนุญาตของคุณได้รับการโอนให้กับผู้ใช้รายต่อไปนี้เนื่องจากใบอนุญาตทั้งหมดได้รับการแลกรับแล้ว:</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc4">กรุณาบันทึกไฟล์หรือปิดแอปพลิเคชัน</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">หลังจากเวลาที่กำหนดด้านล่าง ระบบจะเปลี่ยนเป็น {0} โดยอัตโนมัติ</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc6">คุณจะออกจากระบบโดยอัตโนมัติหลังจากเวลาที่ระบุด้านล่าง</system:String>
 	<system:String x:Key="Messages.SureDelete">คุณต้องการที่จะลบ "{0} ({1})" ทันทีหรือไม่?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">ไม่รู้พื้นที่</system:String>
 	<system:String x:Key="Messages.Upgrade.New">คุณสามารถอัปเดทเป็นเวอร์ชั่นใหม่</system:String>
@@ -87,13 +97,18 @@
 	<system:String x:Key="Messages.Upgrade.Uptodate">เวอร์ชั่นที่ใช้อยู่เป็นเวอร์ชั่นล่าสุด</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">ชื่อไดร์ฟต้องไม่ประกอบด้วยตัวอักษรต่อไปนี้ :</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">ห้ามใช้คำสงวนต่อไปนี้ :</system:String>
+	<system:String x:Key="Messages.WaitForMoment">กรุณารอสักครู่</system:String>
+	<system:String x:Key="Messages.WelcomeToRaiDrive">ยินดีต้อนรับสู่ RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">เชื่อมต่อโดยใช้ใบรับรองที่ต่างกัน</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">เปิดแบบไม่ระบุตัวตน</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">ล้างการเชื่อมต่อที่มีอยู่</system:String>
+	<system:String x:Key="Phrases.ConfirmPIN">ยืนยันรหัส PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">เชื่อมต่อโดย RaiDrive</system:String>
+	<system:String x:Key="Phrases.ConnectAfterUnlock">เชื่อมต่อหลังจากปลดล็อค</system:String>
 	<system:String x:Key="Phrases.CredentialsIncluding">รวมถึงข้อมูลประจำตัว</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">ลบไดร์ฟ</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">ไดรเวอร์อุปกรณ์</system:String>
+	<system:String x:Key="Phrases.DisconnectAfterIdleTime">ตัดการเชื่อมต่อหลังจากไม่ได้ใช้งาน</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">ที่ตั้งซ้ำ</system:String>
 	<system:String x:Key="Phrases.FileInUse">ไฟล์ที่ใช้งานอยู่: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">ป้องกันไฟล์บน WebDAV</system:String>
@@ -103,9 +118,11 @@
 	<system:String x:Key="Phrases.FolderUrlID">ลิ้งก์โฟลเดอร์หรือไอดี</system:String>
 	<system:String x:Key="Phrases.FollowLatest">ติดตามล่าสุด</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">สำหรับเวอร์ชั่นธุรกิจ</system:String>
+	<system:String x:Key="Phrases.FourDigits">4 หลัก</system:String>
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">รับคุณสมบัติไฟล์ทันที</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">ลองเก็บ "วันที่แก้ไข" เมื่อทำการคัดลอก</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">รักษา "วันที่แก้ไข" ของไฟล์และโฟลเดอร์</system:String>
+	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">ติดตั้งที่จัดเก็บข้อมูลบนคลาวด์เหมือนไดรฟ์ USB</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">เชื่อมต่อใหม่เมื่อเริ่มต้นระบบ</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">เชื่อมต่อใหม่เมื่อเข้าสู่ระบบ</system:String>
 	<system:String x:Key="Phrases.MountAtStart">เชื่อมต่อใหม่เมื่อเริ่มโปรแกรม</system:String>
@@ -127,6 +144,7 @@
 	<system:String x:Key="Phrases.Subscription.Switched">เปลี่ยนเป็น {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">อัปเดทการเปลี่ยนแปลงพื้นที่เป็นระยะ</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">ใช้ไอคอนที่กำหนดเองบนไดร์ฟที่เชื่อมต่อ</system:String>
+	<system:String x:Key="Phrases.UseAppLock">ใช้ล็อคแอพพลิเคชั่น</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">ตัวเลือกที่ไม่พร้อมใช้งาน</system:String>
 	<system:String x:Key="Words.AccessKeyID">ไอดีคีย์การเข้าถึง</system:String>
 	<system:String x:Key="Words.Account">บัญชี</system:String>
@@ -189,6 +207,7 @@
 	<system:String x:Key="Words.Folder">โฟลเดอร์</system:String>
 	<system:String x:Key="Words.FreeSpace">ที่ว่าง</system:String>
 	<system:String x:Key="Words.General">ทั่วไป</system:String>
+	<system:String x:Key="Words.GetLicense">รับใบอนุญาต</system:String>
 	<system:String x:Key="Words.GoogleDrive.Computers">คอมพิวเตอร์</system:String>
 	<system:String x:Key="Words.GoogleDrive.MyDrive">ไดรฟ์ของฉัน</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">แชร์ไดร์ฟ</system:String>
@@ -196,6 +215,7 @@
 	<system:String x:Key="Words.GoogleDrive.SharedWithMe">แชร์กับฉัน</system:String>
 	<system:String x:Key="Words.Help">ช่วยเหลือ</system:String>
 	<system:String x:Key="Words.Hide">ซ่อน</system:String>
+	<system:String x:Key="Words.IdleTime">เวลาว่าง</system:String>
 	<system:String x:Key="Words.Import">นำเข้า</system:String>
 	<system:String x:Key="Words.Key">คีย์</system:String>
 	<system:String x:Key="Words.Language">ภาษา</system:String>
@@ -203,6 +223,7 @@
 	<system:String x:Key="Words.Lifetime">ตลอดชีพ</system:String>
 	<system:String x:Key="Words.Like">ชอบ</system:String>
 	<system:String x:Key="Words.LocalDisk">ดิสก์บนเครื่อง</system:String>
+	<system:String x:Key="Words.Lock">ล็อค</system:String>
 	<system:String x:Key="Words.Login">เข้าสู่ระบบ</system:String>
 	<system:String x:Key="Words.Management">การจัดการ</system:String>
 	<system:String x:Key="Words.MySubscription">การสมัครของฉัน</system:String>
@@ -274,6 +295,7 @@
 	<system:String x:Key="Words.Time">เวลา</system:String>
 	<system:String x:Key="Words.Timeout">หมดเวลา</system:String>
 	<system:String x:Key="Words.TransferMode">โหมดถ่ายโอน</system:String>
+	<system:String x:Key="Words.Unlock">ปลดล็อค</system:String>
 	<system:String x:Key="Words.Update">อัปเดท</system:String>
 	<system:String x:Key="Words.Upgrade">อัพเกรด</system:String>
 	<system:String x:Key="Words.Upload">อัปโหลด</system:String>

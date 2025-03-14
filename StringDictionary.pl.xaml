@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>a-w11</system:String>
 	</x:Array>
@@ -14,6 +16,7 @@
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Próbuje natychmiast sprawdzić, czy nie nastąpiły zmiany w plikach zdalnych.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Aktualna wersja {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegacja została przerwana</system:String>
+	<system:String x:Key="Messages.EmailSentSuccess">Wiadomość e-mail została pomyślnie wysłana.</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Wprowadź Access Key ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Wprowadź identyfikator konta</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Wprowadź nazwę zasobnika</system:String>
@@ -21,6 +24,7 @@
 	<system:String x:Key="Messages.EnterIPAddress">Wprowadź nazwę serwera lub adres IP</system:String>
 	<system:String x:Key="Messages.EnterNamespace">Wprowadź przestrzeń nazw</system:String>
 	<system:String x:Key="Messages.EnterPassword">Wprowadź hasło</system:String>
+	<system:String x:Key="Messages.EnterPIN">Proszę wpisać swój PIN</system:String>
 	<system:String x:Key="Messages.EnterPort">Wprowadź numer portu (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Wprowadź Secret Access Key</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">Wprowadź nazwę konta storage</system:String>
@@ -35,6 +39,7 @@
 	<system:String x:Key="Messages.Error.ConnectInternet">Połączenie do zdalnego dysku jest niemożliwe. Sprawdź swoje połączenie internetowe i spróbuj ponownie.</system:String>
 	<system:String x:Key="Messages.Error.DiskLetterExist">Musisz zmienić oznaczenie lub nazwę dysku.</system:String>
 	<system:String x:Key="Messages.Error.IncorrectPassword">Wprowadzone hasło jest niepoprawne. Spróbuj ponownie.</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPIN">PIN jest nieprawidłowy. Spróbuj ponownie.</system:String>
 	<system:String x:Key="Messages.Error.MethodNotAllowed">Sprawdź czy ta ścieżka{0} jest poprawka lub nadane są odpowiednie uprawnienia.</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveAuth">Autoryzacja lub uwierzytelnienie zakończyło się niepowiedzeniem. Chcesz spróbować ponownie?</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveLimit">Limit pobierania został przekroczony. Ograniczenia pobierania są zasadami programu {0}.</system:String>
@@ -43,6 +48,7 @@
 	<system:String x:Key="Messages.Error.Unauthorized">Uwierzytelnienie nie powiodło się. Sprawdź wprowadzone dane (password).</system:String>
 	<system:String x:Key="Messages.ExistVolume">Ta nazwa już występuje</system:String>
 	<system:String x:Key="Messages.ExitConfirm">Jesteś pewny aby zakończyć połączenia dyskowe przed wyjściem?</system:String>
+	<system:String x:Key="Messages.ExportByEmail">Plik eksportowy zostanie wysłany e-mailem.</system:String>
 	<system:String x:Key="Messages.FileLock.DependsWebDAV">bazuje na serwerze WebDAV</system:String>
 	<system:String x:Key="Messages.FileLock.NotSupport">Twój serwer może nie obsługiwać</system:String>
 	<system:String x:Key="Messages.FolderExist">Ten folder jest już dołączony.</system:String>
@@ -79,6 +85,10 @@
 	<system:String x:Key="Messages.SignOut.Question2">Czy na pewno chcesz się wylogować?</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">Twoja bieżąca sesja została poproszona o powrót przez inną sesję {0}. Wszystkie dyski zostaną ponownie połączone. Zapisz plik (i) lub zamknij aplikacje.</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">Zostanie zastosowany po {0}, naciśnij przycisk OK, aby być natychmiastowym.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc3">Twoja licencja została przeniesiona na następującego użytkownika, ponieważ wszystkie licencje zostały wykorzystane:</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc4">Proszę zapisać plik(i) lub zamknąć aplikację(i).</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">Po upłynięciu podanego poniżej czasu nastąpi automatyczne przełączenie na {0}.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc6">Po upłynięciu podanego poniżej czasu nastąpi automatyczne wylogowanie.</system:String>
 	<system:String x:Key="Messages.SureDelete">Jesteś pewny aby usunąc permanentnie? "{0} ({1})" ?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">Nieznana pojemność</system:String>
 	<system:String x:Key="Messages.Upgrade.New">Możesz aktualizować program do nowej wersji</system:String>
@@ -86,13 +96,18 @@
 	<system:String x:Key="Messages.Upgrade.Uptodate">Świetnie! Używasz najnowszej wersji!</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">Oznaczenie woliumu nie może zawierać tych znaków:</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">Nie używaj zarezerwowanych nazw:</system:String>
+	<system:String x:Key="Messages.WaitForMoment">Proszę chwilę poczekać</system:String>
+	<system:String x:Key="Messages.WelcomeToRaiDrive">Witamy w RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Połącz przy użyciu innych poświadczeń</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Przeglądanie w trybie prywatnym</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Wyczyść istniejące połączenie</system:String>
+	<system:String x:Key="Phrases.ConfirmPIN">Potwierdź PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Połączony przez RaiDrive</system:String>
+	<system:String x:Key="Phrases.ConnectAfterUnlock">Połącz po odblokowaniu</system:String>
 	<system:String x:Key="Phrases.CredentialsIncluding">W tym dane uwierzytelniające</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Usuń dysk</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Sterownik urządzenia</system:String>
+	<system:String x:Key="Phrases.DisconnectAfterIdleTime">Rozłącz po czasie bezczynności</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Zduplikowana ścieżka</system:String>
 	<system:String x:Key="Phrases.FileInUse">Plik(i) w użyciu: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV - plik zablokowany</system:String>
@@ -102,9 +117,11 @@
 	<system:String x:Key="Phrases.FolderUrlID">Adres URL folderu lub identyfikator</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Śledź poprzednie</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">wprowadź klucz aktywacyjny</system:String>
+	<system:String x:Key="Phrases.FourDigits">4 cyfry</system:String>
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Natychmiast uzyskaj właściwości pliku</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Staraj się zachować „Data modyfikacji” podczas kopiowania</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">Zachowaj „Datę modyfikacji” plików i folderów</system:String>
+	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">Zamontuj pamięć masową w chmurze, taką jak dysk USB</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Uruchom razem ze starem systemu</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Połącz automatycznie</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Podłącz dyski ze startem programu</system:String>
@@ -126,6 +143,7 @@
 	<system:String x:Key="Phrases.Subscription.Switched">Przełączono na {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Aktualizuj zmiany pamięci asynchronicznie</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Użyj podstawowej ikony systemu Windows</system:String>
+	<system:String x:Key="Phrases.UseAppLock">Użyj blokady aplikacji</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">Opcja niedostępna</system:String>
 	<system:String x:Key="Words.AccessKeyID">Pubiczny Access Key ID</system:String>
 	<system:String x:Key="Words.Account">Konto</system:String>
@@ -188,6 +206,7 @@
 	<system:String x:Key="Words.Folder">Teczka</system:String>
 	<system:String x:Key="Words.FreeSpace">Wolne miejsce</system:String>
 	<system:String x:Key="Words.General">Ogólne</system:String>
+	<system:String x:Key="Words.GetLicense">Uzyskaj licencję</system:String>
 	<system:String x:Key="Words.GoogleDrive.Computers">Komputery</system:String>
 	<system:String x:Key="Words.GoogleDrive.MyDrive">Mój dysk</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">Dyski współdzielone</system:String>
@@ -195,6 +214,7 @@
 	<system:String x:Key="Words.GoogleDrive.SharedWithMe">Udostępnione dla mnie</system:String>
 	<system:String x:Key="Words.Help">POMOC</system:String>
 	<system:String x:Key="Words.Hide">Ukrywać</system:String>
+	<system:String x:Key="Words.IdleTime">Czas bezczynności</system:String>
 	<system:String x:Key="Words.Import">Import</system:String>
 	<system:String x:Key="Words.Key">Klucz</system:String>
 	<system:String x:Key="Words.Language">Język</system:String>
@@ -202,6 +222,7 @@
 	<system:String x:Key="Words.Lifetime">Dożywotnio</system:String>
 	<system:String x:Key="Words.Like">Polub</system:String>
 	<system:String x:Key="Words.LocalDisk">Lokalny dysk</system:String>
+	<system:String x:Key="Words.Lock">Zamek</system:String>
 	<system:String x:Key="Words.Login">Zaloguj sie</system:String>
 	<system:String x:Key="Words.Management">Kierownictwo</system:String>
 	<system:String x:Key="Words.MySubscription">Moja subskrypcja</system:String>
@@ -273,6 +294,7 @@
 	<system:String x:Key="Words.Time">Czas</system:String>
 	<system:String x:Key="Words.Timeout">Koniec czasu</system:String>
 	<system:String x:Key="Words.TransferMode">Tryb transferu</system:String>
+	<system:String x:Key="Words.Unlock">Odblokować</system:String>
 	<system:String x:Key="Words.Update">Aktualizacja</system:String>
 	<system:String x:Key="Words.Upgrade">Aktualizuj!</system:String>
 	<system:String x:Key="Words.Upload">Przekazać plik</system:String>

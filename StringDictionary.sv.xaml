@@ -1,9 +1,11 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>imprex92</system:String>
 	</x:Array>
 	<system:String x:Key="Language.English">Swedish</system:String>
-	<system:String x:Key="Language.Native">Svenska</system:String>
+	<system:String x:Key="Language.Native">svenska</system:String>
 	<system:String x:Key="Language.Tags">sv</system:String>
 
 	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Gäller när du kopierar, flyttar eller byter namn på filer och mappar.</system:String>
@@ -14,6 +16,7 @@
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Försök omedelbart söka efter filändringar på fjärran server.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Nuvarande version är {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegation avbröts</system:String>
+	<system:String x:Key="Messages.EmailSentSuccess">E-postmeddelandet skickades.</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Vänligen ange åtkomst-ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Ange konto-ID</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Vänligen ange ett bucket-namn</system:String>
@@ -21,6 +24,7 @@
 	<system:String x:Key="Messages.EnterIPAddress">Vänligen ange värdnamn eller IP-adress</system:String>
 	<system:String x:Key="Messages.EnterNamespace">Ange ett namnutrymme</system:String>
 	<system:String x:Key="Messages.EnterPassword">Vänligen ange ett lösenord</system:String>
+	<system:String x:Key="Messages.EnterPIN">Ange din PIN-kod</system:String>
 	<system:String x:Key="Messages.EnterPort">Vänligen ange ett port-nummer (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Vänligen ange hemlig åtkomstnyckel</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">Vänligen ange lagringskontots namn</system:String>
@@ -35,6 +39,7 @@
 	<system:String x:Key="Messages.Error.ConnectInternet">Det går inte att ansluta till fjärrlagring. Kontrollera din internetanslutning och försök igen.</system:String>
 	<system:String x:Key="Messages.Error.DiskLetterExist">Du måste ändra enhetsbeteckning eller enhetsnamn.</system:String>
 	<system:String x:Key="Messages.Error.IncorrectPassword">Lösenordet du angav är felaktigt. Vänligen försök igen.</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPIN">PIN-koden är felaktig. Försök igen.</system:String>
 	<system:String x:Key="Messages.Error.MethodNotAllowed">Vänligen kontrollera att sökvägen{0} existerar eller om åtkomst är beviljat.</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveAuth">Autentisering misslyckades. Vill du försöka igen?</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveLimit">Nedladdningskvoten har överskridits. Nedladdningsbegränsningar är policyn för {0}.</system:String>
@@ -43,6 +48,7 @@
 	<system:String x:Key="Messages.Error.Unauthorized">Autentisering misslyckades. Kontrollera dina inloggningsuppgifter (lösenord).</system:String>
 	<system:String x:Key="Messages.ExistVolume">Namnet finns redan</system:String>
 	<system:String x:Key="Messages.ExitConfirm">Är du säker på att du vill koppla ifrån alla anslutningar innan du avslutar?</system:String>
+	<system:String x:Key="Messages.ExportByEmail">Exportfilen kommer att skickas via e-post.</system:String>
 	<system:String x:Key="Messages.FileLock.DependsWebDAV">Beroende på WebDAV server</system:String>
 	<system:String x:Key="Messages.FileLock.NotSupport">Din server kanske inte stöder</system:String>
 	<system:String x:Key="Messages.FolderExist">Den här mappen är redan inkluderad.</system:String>
@@ -79,6 +85,10 @@
 	<system:String x:Key="Messages.SignOut.Question2">Är du säker på att du vill logga ut?</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">Din nuvarande session har begärt att återuppta din andra session {0}. Alla enheter kommer att återanslutas. Spara fil(er) eller stäng applikation(er)</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">Appliceras efter {0}, tryck OK för att göra det omedelbart.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc3">Din licens har överförts till följande användare eftersom alla licenser har lösts in:</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc4">Spara fil(er) eller stäng applikation(er).</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">Efter tiden nedan växlar den automatiskt till {0}.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc6">Du kommer automatiskt att loggas ut efter tiden nedan.</system:String>
 	<system:String x:Key="Messages.SureDelete">Är du säker på att du vill permanent radera "{0} ({1})" ?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">Okänt utrymme</system:String>
 	<system:String x:Key="Messages.Upgrade.New">Du kan uppgradera till den nya versionen</system:String>
@@ -86,13 +96,18 @@
 	<system:String x:Key="Messages.Upgrade.Uptodate">Du använder den senaste versionen</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">En volyms etikett kan inte innehålla följande tecken:</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">Använd inte följande reserverade namn:</system:String>
+	<system:String x:Key="Messages.WaitForMoment">Vänta ett ögonblick</system:String>
+	<system:String x:Key="Messages.WelcomeToRaiDrive">Välkommen till RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Anslut med andra autentiseringsuppgifter</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Surfa privat</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Rensa befintlig anslutning</system:String>
+	<system:String x:Key="Phrases.ConfirmPIN">Bekräfta PIN-koden</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Ansluten av RaiDrive</system:String>
+	<system:String x:Key="Phrases.ConnectAfterUnlock">Anslut efter upplåsning</system:String>
 	<system:String x:Key="Phrases.CredentialsIncluding">Inklusive inloggningsuppgifter</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Ta bort enhet</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Drivrutin</system:String>
+	<system:String x:Key="Phrases.DisconnectAfterIdleTime">Koppla bort efter vilotid</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplicerad sökväg</system:String>
 	<system:String x:Key="Phrases.FileInUse">Fil(er) som används: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV fillås</system:String>
@@ -102,9 +117,11 @@
 	<system:String x:Key="Phrases.FolderUrlID">Mapp-URL eller ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Följ senaste</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">För företagsversion</system:String>
+	<system:String x:Key="Phrases.FourDigits">4 siffror</system:String>
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Få filegenskaper direkt</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Försök att behålla "ändringsdatum" vid kopiering</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">Behåll "Ändringsdatum" för filer och mappar</system:String>
+	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">Montera en molnlagring som en USB-enhet</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Återanslut vid start</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Återanslut vid inloggning</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Återanslut vid programstart</system:String>
@@ -126,6 +143,7 @@
 	<system:String x:Key="Phrases.Subscription.Switched">Bytte till {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Uppdatera lagringsändringar asynkront</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Använd anpassad ikon på en ansluten enhet</system:String>
+	<system:String x:Key="Phrases.UseAppLock">Använd applikationslås</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">Ej tillgängligt alternativ</system:String>
 	<system:String x:Key="Words.AccessKeyID">Åtkomstnyckel-ID</system:String>
 	<system:String x:Key="Words.Account">Konto</system:String>
@@ -188,6 +206,7 @@
 	<system:String x:Key="Words.Folder">Mapp</system:String>
 	<system:String x:Key="Words.FreeSpace">Ledigt utrymme</system:String>
 	<system:String x:Key="Words.General">Allmänt</system:String>
+	<system:String x:Key="Words.GetLicense">Skaffa licens</system:String>
 	<system:String x:Key="Words.GoogleDrive.Computers">Datorer</system:String>
 	<system:String x:Key="Words.GoogleDrive.MyDrive">Min enhet</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">Delade enheter</system:String>
@@ -195,6 +214,7 @@
 	<system:String x:Key="Words.GoogleDrive.SharedWithMe">Delade med mig</system:String>
 	<system:String x:Key="Words.Help">Hjälp</system:String>
 	<system:String x:Key="Words.Hide">Dölj</system:String>
+	<system:String x:Key="Words.IdleTime">Inaktiv tid</system:String>
 	<system:String x:Key="Words.Import">Importera</system:String>
 	<system:String x:Key="Words.Key">Nyckel</system:String>
 	<system:String x:Key="Words.Language">Språk</system:String>
@@ -202,6 +222,7 @@
 	<system:String x:Key="Words.Lifetime">Livstid</system:String>
 	<system:String x:Key="Words.Like">Gilla</system:String>
 	<system:String x:Key="Words.LocalDisk">Lokal enhet</system:String>
+	<system:String x:Key="Words.Lock">Låsa</system:String>
 	<system:String x:Key="Words.Login">Logga in</system:String>
 	<system:String x:Key="Words.Management">Hantering</system:String>
 	<system:String x:Key="Words.MySubscription">Min prenumeration</system:String>
@@ -273,6 +294,7 @@
 	<system:String x:Key="Words.Time">Tid</system:String>
 	<system:String x:Key="Words.Timeout">Timeout</system:String>
 	<system:String x:Key="Words.TransferMode">Överföringsläge</system:String>
+	<system:String x:Key="Words.Unlock">Låsa upp</system:String>
 	<system:String x:Key="Words.Update">Uppdatera</system:String>
 	<system:String x:Key="Words.Upgrade">Uppgradera</system:String>
 	<system:String x:Key="Words.Upload">Ladda upp</system:String>

@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>foxhnd</system:String>
 	</x:Array>
@@ -14,6 +16,7 @@
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Încearcă să verifice imediat dacă există modificări ale fișierelor de la distanță.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Versiunea curentă e {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegare anulată</system:String>
+	<system:String x:Key="Messages.EmailSentSuccess">E-mailul a fost trimis cu succes.</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Vă rugăm să introduceți ID-ul cheii de acces</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Vă rugăm să introduceți ID-ul contului</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Introduceți un nume de grup</system:String>
@@ -21,6 +24,7 @@
 	<system:String x:Key="Messages.EnterIPAddress">Introduceți un hostname sau o adresa IP</system:String>
 	<system:String x:Key="Messages.EnterNamespace">Vă rugăm să introduceți un spațiu de nume</system:String>
 	<system:String x:Key="Messages.EnterPassword">Introduceți o parola</system:String>
+	<system:String x:Key="Messages.EnterPIN">Vă rugăm să introduceți codul PIN</system:String>
 	<system:String x:Key="Messages.EnterPort">Introduceți port (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Vă rugăm să introduceți cheia de acces secretă</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">Introduceți numele contului de stocare</system:String>
@@ -35,6 +39,7 @@
 	<system:String x:Key="Messages.Error.ConnectInternet">Imposibil de conectat la spațiul de stocare de la distanță. Verificați conexiunea la internet și încercați din nou.</system:String>
 	<system:String x:Key="Messages.Error.DiskLetterExist">Trebuie să schimbați litera sau numele drive-ului.</system:String>
 	<system:String x:Key="Messages.Error.IncorrectPassword">Parola introdusă nu este corectă. Vă rugăm să încercați din nou.</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPIN">PIN-ul este incorect. Vă rugăm să încercați din nou.</system:String>
 	<system:String x:Key="Messages.Error.MethodNotAllowed">Verificați dacă path{0} există sau dacă accesul este permis.</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveAuth">Autorizarea sau autentificarea au eșuat. Doriți să vă autentificați din nou?</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveLimit">Limita de descărcare a fost depășită. Restricțiile de descărcare sunt politica {0}.</system:String>
@@ -43,6 +48,7 @@
 	<system:String x:Key="Messages.Error.Unauthorized">Autentificarea a eșuat. Verificați-vă contul (parola).</system:String>
 	<system:String x:Key="Messages.ExistVolume">Acest nume există deja</system:String>
 	<system:String x:Key="Messages.ExitConfirm">Sigur doriți să deconectați toate conexiunile înainte de a ieși?</system:String>
+	<system:String x:Key="Messages.ExportByEmail">Fișierul de export va fi trimis prin e-mail.</system:String>
 	<system:String x:Key="Messages.FileLock.DependsWebDAV">depinde de serverul WebDAV</system:String>
 	<system:String x:Key="Messages.FileLock.NotSupport">Este posibil ca serverul să nu accepte</system:String>
 	<system:String x:Key="Messages.FolderExist">Acest folder este deja inclus.</system:String>
@@ -79,6 +85,10 @@
 	<system:String x:Key="Messages.SignOut.Question2">Ești sigur că dorești să te înscrii?</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">Sesiunea curentă a fost solicitată să revină la cealaltă sesiune {0}. Toate unitățile vor fi reconectate. Salvați fișierul (e) sau închideți aplicația (ele).</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">Se va aplica după {0}, apăsați butonul OK pentru a fi imediat.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc3">Licența dvs. a fost transferată următorului utilizator deoarece toate licențele au fost valorificate:</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc4">Salvați fișierele sau închideți aplicațiile.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">După timpul de mai jos, se va comuta automat la {0}.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc6">Veți fi deconectat automat după ora de mai jos.</system:String>
 	<system:String x:Key="Messages.SureDelete">Sigur doriți să ștergeți definitiv "{0} ({1})" ?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">Spațiu necunoscut</system:String>
 	<system:String x:Key="Messages.Upgrade.New">Puteți să faceți upgrade la noua versiune</system:String>
@@ -86,13 +96,18 @@
 	<system:String x:Key="Messages.Upgrade.Uptodate">Utilizați cea mai recentă versiune</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">O etichetă de volum nu poate conține nici unul dintre următoarele caractere:</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">Nu folosiți urmatoarele nume rezervate:</system:String>
+	<system:String x:Key="Messages.WaitForMoment">Vă rugăm să așteptați un moment</system:String>
+	<system:String x:Key="Messages.WelcomeToRaiDrive">Bun venit la RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Conectați-vă folosind credențiale diferite</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Navighează în mod privat</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Ștergeți conexiunea existentă</system:String>
+	<system:String x:Key="Phrases.ConfirmPIN">Confirmați codul PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Connectat de RaiDrive</system:String>
+	<system:String x:Key="Phrases.ConnectAfterUnlock">Conectați-vă după deblocare</system:String>
 	<system:String x:Key="Phrases.CredentialsIncluding">Inclusiv acreditările</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Șterge drive</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Driver de dispozitiv</system:String>
+	<system:String x:Key="Phrases.DisconnectAfterIdleTime">Deconectați-vă după timpul de inactivitate</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Cale duplicată</system:String>
 	<system:String x:Key="Phrases.FileInUse">Fișier(e) în uz: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">Blocare fișier WebDAV</system:String>
@@ -102,9 +117,11 @@
 	<system:String x:Key="Phrases.FolderUrlID">Adresa URL a folderului sau ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">urmarețte ultimele</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">pentru versiunea business</system:String>
+	<system:String x:Key="Phrases.FourDigits">4 cifre</system:String>
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Obțineți proprietățile fișierului instantaneu</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Încercați să păstrați „Data de modificare” când copiați</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">Mențineți „Data modificării” fișierelor și folderelor</system:String>
+	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">Montați o unitate de stocare în cloud ca o unitate USB</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Reconectați-vă la pornire</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Reconectați-vă la logare</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Reconectați-vă la pornirea programului</system:String>
@@ -126,6 +143,7 @@
 	<system:String x:Key="Phrases.Subscription.Switched">Comutare la {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Actualizați modificările de stocare în mod asincron</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Utilizarea pictogramei particularizate pe o unitate conectată</system:String>
+	<system:String x:Key="Phrases.UseAppLock">Utilizați blocarea aplicației</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">Opțiune indisponibilă</system:String>
 	<system:String x:Key="Words.AccessKeyID">ID-ul cheii de acces</system:String>
 	<system:String x:Key="Words.Account">Cont</system:String>
@@ -188,6 +206,7 @@
 	<system:String x:Key="Words.Folder">Pliant</system:String>
 	<system:String x:Key="Words.FreeSpace">Spațiu liber</system:String>
 	<system:String x:Key="Words.General">General</system:String>
+	<system:String x:Key="Words.GetLicense">Obțineți licență</system:String>
 	<system:String x:Key="Words.GoogleDrive.Computers">Computere</system:String>
 	<system:String x:Key="Words.GoogleDrive.MyDrive">Contul meu Drive</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">Drive-uri partajate</system:String>
@@ -195,6 +214,7 @@
 	<system:String x:Key="Words.GoogleDrive.SharedWithMe">Acces permis pentru mine</system:String>
 	<system:String x:Key="Words.Help">AJUTOR</system:String>
 	<system:String x:Key="Words.Hide">Ascunde</system:String>
+	<system:String x:Key="Words.IdleTime">Timp inactiv</system:String>
 	<system:String x:Key="Words.Import">Import</system:String>
 	<system:String x:Key="Words.Key">Cheie</system:String>
 	<system:String x:Key="Words.Language">Limbă</system:String>
@@ -202,6 +222,7 @@
 	<system:String x:Key="Words.Lifetime">Durata de viață</system:String>
 	<system:String x:Key="Words.Like">Ca</system:String>
 	<system:String x:Key="Words.LocalDisk">Disc local</system:String>
+	<system:String x:Key="Words.Lock">Blocare</system:String>
 	<system:String x:Key="Words.Login">Logare</system:String>
 	<system:String x:Key="Words.Management">management</system:String>
 	<system:String x:Key="Words.MySubscription">Abonamentul meu</system:String>
@@ -273,6 +294,7 @@
 	<system:String x:Key="Words.Time">Timp</system:String>
 	<system:String x:Key="Words.Timeout">Pauză</system:String>
 	<system:String x:Key="Words.TransferMode">Mod transfer</system:String>
+	<system:String x:Key="Words.Unlock">Deblocați</system:String>
 	<system:String x:Key="Words.Update">Actualizări</system:String>
 	<system:String x:Key="Words.Upgrade">Modernizare</system:String>
 	<system:String x:Key="Words.Upload">Încărcați</system:String>

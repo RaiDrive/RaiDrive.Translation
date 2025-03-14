@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>SadPencil</system:String>
 		<system:String>whwlsfb</system:String>
@@ -16,6 +18,7 @@
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">它会尝试立即检查远程文件的更改。</system:String>
 	<system:String x:Key="Messages.CurrentVersion">当前版本为 {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">委派已终止</system:String>
+	<system:String x:Key="Messages.EmailSentSuccess">電子郵件已成功發送。</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">请输入 Access Key ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">请输入账号</system:String>
 	<system:String x:Key="Messages.EnterBucketName">请输入存储桶名称</system:String>
@@ -23,6 +26,7 @@
 	<system:String x:Key="Messages.EnterIPAddress">请输入主机名称或 IP 地址</system:String>
 	<system:String x:Key="Messages.EnterNamespace">请输入命名空间</system:String>
 	<system:String x:Key="Messages.EnterPassword">请输入密码</system:String>
+	<system:String x:Key="Messages.EnterPIN">请输入您的 PIN 码</system:String>
 	<system:String x:Key="Messages.EnterPort">请输入端口号 (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">请输入 Secret Access Key</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">请输入存储账户的名称</system:String>
@@ -37,6 +41,7 @@
 	<system:String x:Key="Messages.Error.ConnectInternet">无法连接到远程服务器。请检查网络连接情况并重试。</system:String>
 	<system:String x:Key="Messages.Error.DiskLetterExist">您必须修改驱动器盘符或卷标。</system:String>
 	<system:String x:Key="Messages.Error.IncorrectPassword">您输入的密码不正确。请再次输入。</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPIN">PIN 码不正确。请重试。</system:String>
 	<system:String x:Key="Messages.Error.MethodNotAllowed">请检查路径 {0} 是否存在，或是否授予了读写权限。</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveAuth">授权或身份认证失败。是否重新认证？</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveLimit">已超出下载配额。下载限额为： {0}。</system:String>
@@ -45,6 +50,7 @@
 	<system:String x:Key="Messages.Error.Unauthorized">认证失败。请检查您的账号密码。</system:String>
 	<system:String x:Key="Messages.ExistVolume">卷标已存在</system:String>
 	<system:String x:Key="Messages.ExitConfirm">确定在退出前断开所有连接吗？</system:String>
+	<system:String x:Key="Messages.ExportByEmail">导出文件将通过电子邮件发送。</system:String>
 	<system:String x:Key="Messages.FileLock.DependsWebDAV">是否支持该功能取决于 WebDAV 服务器</system:String>
 	<system:String x:Key="Messages.FileLock.NotSupport">您的服务器可能不支持</system:String>
 	<system:String x:Key="Messages.FolderExist">该文件夹已存在。</system:String>
@@ -81,6 +87,10 @@
 	<system:String x:Key="Messages.SignOut.Question2">确实要注销吗？</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">您的当前会话已由您的其他会话 {0} 请求返回。所有驱动器将重新连接。请保存文件并关闭相应的应用程序。</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">将在 {0} 之后生效。按 [确定] 按钮立即生效。</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc3">由于所有许可证均已兑换，您的许可证已转移给以下用户：</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc4">请保存文件或关闭应用程序。</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">经过以下时间后，它将自动切换到{0}。</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc6">您将在以下时间后自动退出。</system:String>
 	<system:String x:Key="Messages.SureDelete">您确定要永久删除 "{0} ({1})" 吗？</system:String>
 	<system:String x:Key="Messages.UnknownSpace">未知空间容量</system:String>
 	<system:String x:Key="Messages.Upgrade.New">您可以升级到最新版本</system:String>
@@ -88,13 +98,18 @@
 	<system:String x:Key="Messages.Upgrade.Uptodate">您正在使用最新版本</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">卷标不能含有以下字符:</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">不可使用如下保留名称:</system:String>
+	<system:String x:Key="Messages.WaitForMoment">请稍候</system:String>
+	<system:String x:Key="Messages.WelcomeToRaiDrive">欢迎来到 RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">在连接时输入账号密码</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">无痕浏览</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">清除现有连接</system:String>
+	<system:String x:Key="Phrases.ConfirmPIN">确认 PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">使用 RaiDrive 连接中</system:String>
+	<system:String x:Key="Phrases.ConnectAfterUnlock">解锁后连接</system:String>
 	<system:String x:Key="Phrases.CredentialsIncluding">包括登录凭据</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">删除文件夹</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">设备驱动</system:String>
+	<system:String x:Key="Phrases.DisconnectAfterIdleTime">空闲时间过后断开连接</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">重复的路径</system:String>
 	<system:String x:Key="Phrases.FileInUse">正在使用的文件: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV 文件锁</system:String>
@@ -104,9 +119,11 @@
 	<system:String x:Key="Phrases.FolderUrlID">文件夹路径或 ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">保持最新</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">商业版本</system:String>
+	<system:String x:Key="Phrases.FourDigits">4 位数字</system:String>
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">立即获取文件属性</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">复制时尝试保持原修改日期</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">维护文件和文件夹的“修改日期”</system:String>
+	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">像 USB 驱动器一样安装云存储</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">启动 Windows 后自动连接</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">登录 Windows 后自动连接</system:String>
 	<system:String x:Key="Phrases.MountAtStart">启动 RaiDrive 后自动连接</system:String>
@@ -128,6 +145,7 @@
 	<system:String x:Key="Phrases.Subscription.Switched">切换到 {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">异步提交存储更改</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">允许虚拟驱动器使用自定义图标</system:String>
+	<system:String x:Key="Phrases.UseAppLock">使用应用程序锁</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">不可用的选项</system:String>
 	<system:String x:Key="Words.AccessKeyID">访问密钥 ID</system:String>
 	<system:String x:Key="Words.Account">账户</system:String>
@@ -190,6 +208,7 @@
 	<system:String x:Key="Words.Folder">文件夹</system:String>
 	<system:String x:Key="Words.FreeSpace">可用空间</system:String>
 	<system:String x:Key="Words.General">常规</system:String>
+	<system:String x:Key="Words.GetLicense">获取许可证</system:String>
 	<system:String x:Key="Words.GoogleDrive.Computers">计算机</system:String>
 	<system:String x:Key="Words.GoogleDrive.MyDrive">我的云端硬盘</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">共享的驱动器</system:String>
@@ -197,6 +216,7 @@
 	<system:String x:Key="Words.GoogleDrive.SharedWithMe">与我共享</system:String>
 	<system:String x:Key="Words.Help">帮助</system:String>
 	<system:String x:Key="Words.Hide">隐藏</system:String>
+	<system:String x:Key="Words.IdleTime">空闲时间</system:String>
 	<system:String x:Key="Words.Import">导入</system:String>
 	<system:String x:Key="Words.Key">密钥</system:String>
 	<system:String x:Key="Words.Language">语言</system:String>
@@ -204,6 +224,7 @@
 	<system:String x:Key="Words.Lifetime">持续时间</system:String>
 	<system:String x:Key="Words.Like">赞</system:String>
 	<system:String x:Key="Words.LocalDisk">模拟本地磁盘</system:String>
+	<system:String x:Key="Words.Lock">锁</system:String>
 	<system:String x:Key="Words.Login">登录</system:String>
 	<system:String x:Key="Words.Management">管理</system:String>
 	<system:String x:Key="Words.MySubscription">我的订阅</system:String>
@@ -275,6 +296,7 @@
 	<system:String x:Key="Words.Time">时间</system:String>
 	<system:String x:Key="Words.Timeout">超时</system:String>
 	<system:String x:Key="Words.TransferMode">传输模式</system:String>
+	<system:String x:Key="Words.Unlock">开锁</system:String>
 	<system:String x:Key="Words.Update">检查更新</system:String>
 	<system:String x:Key="Words.Upgrade">升级</system:String>
 	<system:String x:Key="Words.Upload">上传</system:String>

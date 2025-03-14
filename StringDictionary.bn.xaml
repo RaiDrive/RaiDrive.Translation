@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>RaiDrive</system:String>
 	</x:Array>
@@ -14,6 +16,7 @@
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">এটি অবিলম্বে দূরবর্তী ফাইল পরিবর্তনের জন্য চেক করার চেষ্টা করে।</system:String>
 	<system:String x:Key="Messages.CurrentVersion">বর্তমান সংস্করণ হল {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">প্রতিনিধি দল বাতিল হয়ে গেছে</system:String>
+	<system:String x:Key="Messages.EmailSentSuccess">ইমেলটি সফলভাবে পাঠানো হয়েছে।</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">অনুগ্রহ করে অ্যাক্সেস কী আইডি লিখুন</system:String>
 	<system:String x:Key="Messages.EnterAccountID">অনুগ্রহ করে অ্যাকাউন্ট আইডি লিখুন</system:String>
 	<system:String x:Key="Messages.EnterBucketName">একটি বালতি নাম লিখুন দয়া করে</system:String>
@@ -21,6 +24,7 @@
 	<system:String x:Key="Messages.EnterIPAddress">অনুগ্রহ করে একটি হোস্টনাম বা আইপি ঠিকানা লিখুন</system:String>
 	<system:String x:Key="Messages.EnterNamespace">অনুগ্রহ করে একটি নামস্থান লিখুন৷</system:String>
 	<system:String x:Key="Messages.EnterPassword">একটি পাসওয়ার্ড লিখুন</system:String>
+	<system:String x:Key="Messages.EnterPIN">আপনার পিন লিখুন।</system:String>
 	<system:String x:Key="Messages.EnterPort">অনুগ্রহ করে একটি পোর্ট নম্বর লিখুন (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">দয়া করে গোপন অ্যাক্সেস কী লিখুন</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">দয়া করে স্টোরেজ অ্যাকাউন্টের নাম লিখুন</system:String>
@@ -35,6 +39,7 @@
 	<system:String x:Key="Messages.Error.ConnectInternet">দূরবর্তী সঞ্চয়স্থানে সংযোগ করতে অক্ষম৷ আপনার ইন্টারনেট সংযোগ পরীক্ষা করুন এবং আবার চেষ্টা করুন.</system:String>
 	<system:String x:Key="Messages.Error.DiskLetterExist">আপনাকে অবশ্যই ড্রাইভ লেটার বা ড্রাইভের নাম পরিবর্তন করতে হবে।</system:String>
 	<system:String x:Key="Messages.Error.IncorrectPassword">আপনার দেওয়া পাসওয়ার্ডটি সঠিক নয়। অনুগ্রহপূর্বক আবার চেষ্টা করুন.</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPIN">পিনটি ভুল। অনুগ্রহ করে আবার চেষ্টা করুন।</system:String>
 	<system:String x:Key="Messages.Error.MethodNotAllowed">অনুগ্রহ করে চেক করুন পাথ{0} আছে কিনা বা অ্যাক্সেস দেওয়া হয়েছে কিনা।</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveAuth">অনুমোদন বা প্রমাণীকরণ ব্যর্থ হয়েছে৷ আপনি কি পুনরায় প্রমাণীকরণ করতে চান?</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveLimit">ডাউনলোড কোটা অতিক্রম করা হয়েছে. ডাউনলোড সীমাবদ্ধতা হল {0} এর নীতি৷</system:String>
@@ -43,6 +48,7 @@
 	<system:String x:Key="Messages.Error.Unauthorized">প্রমাণীকরণ ব্যর্থ হয়েছে. অনুগ্রহ করে আপনার অ্যাকাউন্ট (পাসওয়ার্ড) চেক করুন।</system:String>
 	<system:String x:Key="Messages.ExistVolume">এই নামটি ইতিমধ্যেই বিদ্যমান</system:String>
 	<system:String x:Key="Messages.ExitConfirm">আপনি কি প্রস্থান করার আগে সমস্ত সংযোগ বিচ্ছিন্ন করার বিষয়ে নিশ্চিত?</system:String>
+	<system:String x:Key="Messages.ExportByEmail">রপ্তানি ফাইলটি ইমেলের মাধ্যমে পাঠানো হবে।</system:String>
 	<system:String x:Key="Messages.FileLock.DependsWebDAV">WebDAV সার্ভারের উপর নির্ভর করে</system:String>
 	<system:String x:Key="Messages.FileLock.NotSupport">আপনার সার্ভার সমর্থন নাও হতে পারে</system:String>
 	<system:String x:Key="Messages.FolderExist">এই ফোল্ডার ইতিমধ্যে অন্তর্ভুক্ত করা হয়েছে.</system:String>
@@ -79,6 +85,10 @@
 	<system:String x:Key="Messages.SignOut.Question2">আপনি সাইন আউট করতে চান?</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">আপনার বর্তমান সেশনটি আপনার অন্য সেশনে ফিরে আসার জন্য অনুরোধ করা হয়েছে{0}। সমস্ত ড্রাইভ পুনরায় সংযোগ করা হবে। অনুগ্রহ করে ফাইল(গুলি) সংরক্ষণ করুন বা অ্যাপ্লিকেশন(গুলি) বন্ধ করুন</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">এটি {0} এর পরে প্রয়োগ করা হবে, অবিলম্বে ওকে বোতাম টিপুন৷</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc3">আপনার লাইসেন্স নিম্নলিখিত ব্যবহারকারীর কাছে স্থানান্তরিত হয়েছে কারণ সমস্ত লাইসেন্স ভাঙানো হয়েছে:</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc4">অনুগ্রহ করে ফাইল(গুলি) সংরক্ষণ করুন অথবা অ্যাপ্লিকেশন(গুলি) বন্ধ করুন।</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">নিচের সময় শেষ হওয়ার পর, এটি স্বয়ংক্রিয়ভাবে {0} এ চলে যাবে।</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc6">নিচের সময় পরে আপনাকে স্বয়ংক্রিয়ভাবে সাইন আউট করা হবে।</system:String>
 	<system:String x:Key="Messages.SureDelete">আপনি কি "{0} ({1})" স্থায়ীভাবে মুছে ফেলার বিষয়ে নিশ্চিত?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">অজানা স্থান</system:String>
 	<system:String x:Key="Messages.Upgrade.New">আপনি নতুন সংস্করণ আপগ্রেড করতে পারেন</system:String>
@@ -86,13 +96,18 @@
 	<system:String x:Key="Messages.Upgrade.Uptodate">আপনি সর্বশেষ সংস্করণ ব্যবহার করছেন</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">একটি ভলিউম লেবেলে নিম্নলিখিত অক্ষরগুলির মধ্যে কোনোটি থাকতে পারে না:</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">নিম্নলিখিত সংরক্ষিত নাম ব্যবহার করবেন না:</system:String>
+	<system:String x:Key="Messages.WaitForMoment">দয়া করে একটু অপেক্ষা করুন।</system:String>
+	<system:String x:Key="Messages.WelcomeToRaiDrive">RaiDrive-এ স্বাগতম।</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">বিভিন্ন শংসাপত্র ব্যবহার করে সংযোগ করুন</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">ব্যক্তিগতভাবে ব্রাউজ করুন</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">বিদ্যমান সংযোগ সাফ করুন</system:String>
+	<system:String x:Key="Phrases.ConfirmPIN">পিন নিশ্চিত করুন</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDrive দ্বারা সংযুক্ত</system:String>
+	<system:String x:Key="Phrases.ConnectAfterUnlock">আনলক করার পরে সংযোগ করুন</system:String>
 	<system:String x:Key="Phrases.CredentialsIncluding">শংসাপত্র সহ</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">ড্রাইভ মুছুন</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">ডিভাইস ড্রাইভার</system:String>
+	<system:String x:Key="Phrases.DisconnectAfterIdleTime">নিষ্ক্রিয় সময়ের পরে সংযোগ বিচ্ছিন্ন করুন</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">সদৃশ পথ</system:String>
 	<system:String x:Key="Phrases.FileInUse">ফাইল(গুলি) ব্যবহার হচ্ছে: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV ফাইল লক</system:String>
@@ -102,9 +117,11 @@
 	<system:String x:Key="Phrases.FolderUrlID">ফোল্ডার URL বা আইডি</system:String>
 	<system:String x:Key="Phrases.FollowLatest">সর্বশেষ অনুসরণ করুন</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">ব্যবসায়িক সংস্করণের জন্য</system:String>
+	<system:String x:Key="Phrases.FourDigits">৪টি সংখ্যা</system:String>
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">অবিলম্বে ফাইল বৈশিষ্ট্য পান</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">কপি করার সময় "তারিখ পরিবর্তন" রাখার চেষ্টা করুন</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">ফাইল এবং ফোল্ডারগুলির "তারিখ পরিবর্তন" বজায় রাখুন</system:String>
+	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">USB ড্রাইভের মতো ক্লাউড স্টোরেজ মাউন্ট করুন</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">বুট এ পুনরায় সংযোগ করুন</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">সাইন-ইন করার সময় পুনরায় সংযোগ করুন৷</system:String>
 	<system:String x:Key="Phrases.MountAtStart">প্রোগ্রাম শুরুতে পুনরায় সংযোগ করুন</system:String>
@@ -126,6 +143,7 @@
 	<system:String x:Key="Phrases.Subscription.Switched">{0} এ স্যুইচ করা হয়েছে</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">আপডেট সঞ্চয়স্থান অ্যাসিঙ্ক্রোনাস পরিবর্তন</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">একটি সংযুক্ত ড্রাইভে কাস্টম আইকন ব্যবহার করুন</system:String>
+	<system:String x:Key="Phrases.UseAppLock">অ্যাপ্লিকেশন লক ব্যবহার করুন</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">অনুপলব্ধ বিকল্প</system:String>
 	<system:String x:Key="Words.AccessKeyID">অ্যাক্সেস কী আইডি</system:String>
 	<system:String x:Key="Words.Account">হিসাব</system:String>
@@ -188,6 +206,7 @@
 	<system:String x:Key="Words.Folder">ফোল্ডার</system:String>
 	<system:String x:Key="Words.FreeSpace">মুক্ত স্থান</system:String>
 	<system:String x:Key="Words.General">সাধারণ</system:String>
+	<system:String x:Key="Words.GetLicense">লাইসেন্স পান</system:String>
 	<system:String x:Key="Words.GoogleDrive.Computers">কম্পিউটার</system:String>
 	<system:String x:Key="Words.GoogleDrive.MyDrive">আমার চালনা</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">শেয়ার্ড ড্রাইভ</system:String>
@@ -195,6 +214,7 @@
 	<system:String x:Key="Words.GoogleDrive.SharedWithMe">আমার সাথে ভাগ</system:String>
 	<system:String x:Key="Words.Help">সাহায্য</system:String>
 	<system:String x:Key="Words.Hide">লুকান</system:String>
+	<system:String x:Key="Words.IdleTime">অলস সময়</system:String>
 	<system:String x:Key="Words.Import">আমদানি</system:String>
 	<system:String x:Key="Words.Key">চাবি</system:String>
 	<system:String x:Key="Words.Language">ভাষা</system:String>
@@ -202,6 +222,7 @@
 	<system:String x:Key="Words.Lifetime">আজীবন</system:String>
 	<system:String x:Key="Words.Like">লাইক</system:String>
 	<system:String x:Key="Words.LocalDisk">স্থানীয় ডিস্ক</system:String>
+	<system:String x:Key="Words.Lock">তালা</system:String>
 	<system:String x:Key="Words.Login">প্রবেশ করুন</system:String>
 	<system:String x:Key="Words.Management">ব্যবস্থাপনা</system:String>
 	<system:String x:Key="Words.MySubscription">আমার সদস্যতা</system:String>
@@ -273,6 +294,7 @@
 	<system:String x:Key="Words.Time">সময়</system:String>
 	<system:String x:Key="Words.Timeout">সময় শেষ</system:String>
 	<system:String x:Key="Words.TransferMode">স্থানান্তর মোড</system:String>
+	<system:String x:Key="Words.Unlock">আনলক করুন</system:String>
 	<system:String x:Key="Words.Update">হালনাগাদ</system:String>
 	<system:String x:Key="Words.Upgrade">আপগ্রেড করুন</system:String>
 	<system:String x:Key="Words.Upload">আপলোড করুন</system:String>

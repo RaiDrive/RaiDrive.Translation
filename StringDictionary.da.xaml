@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>NenoRMa1eN</system:String>
 	</x:Array>
@@ -14,6 +16,7 @@
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Den forsøger med det samme at tjekke for fjernfilændringer.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Nuværende version er {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Delegationen afbrudt</system:String>
+	<system:String x:Key="Messages.EmailSentSuccess">E-mailen blev sendt.</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Indtast venligst adgangsnøgle-id</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Indtast venligst konto-id</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Indtast venligst et spandnavn</system:String>
@@ -21,6 +24,7 @@
 	<system:String x:Key="Messages.EnterIPAddress">Indtast venligst et værtsnavn eller en IP-adresse</system:String>
 	<system:String x:Key="Messages.EnterNamespace">Indtast venligst et navneområde</system:String>
 	<system:String x:Key="Messages.EnterPassword">Indtast venligst en adgangskode</system:String>
+	<system:String x:Key="Messages.EnterPIN">Indtast venligst din PIN-kode</system:String>
 	<system:String x:Key="Messages.EnterPort">Indtast venligst et portnummer (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Indtast venligst hemmelig adgangsnøgle</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">Indtast et lagerkontonavn</system:String>
@@ -35,6 +39,7 @@
 	<system:String x:Key="Messages.Error.ConnectInternet">Ude af stand til at forbinde til fjerndrevet. Kontroller venligst din internetforbindelse og prøv igen.</system:String>
 	<system:String x:Key="Messages.Error.DiskLetterExist">Du skal ændre drevbogstavet eller drevnavnet.</system:String>
 	<system:String x:Key="Messages.Error.IncorrectPassword">Den adgangskode, du indtastede, er ikke korrekt. Prøv igen.</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPIN">PIN-koden er forkert. Prøv venligst igen.</system:String>
 	<system:String x:Key="Messages.Error.MethodNotAllowed">Kontroller venligst at stien{0} eksisterer og at du har tilladelser.</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveAuth">Autorisation eller godkendelse fejlede. Vil du prøve at godkende igen ?</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveLimit">Download-begrænsningen er overskredet. Download-begrænsningen er politikken af {0}.</system:String>
@@ -43,6 +48,7 @@
 	<system:String x:Key="Messages.Error.Unauthorized">Godkendelse fejlede. Kontroller venligst dine kontooplysninger (adgangskode).</system:String>
 	<system:String x:Key="Messages.ExistVolume">Dette navn eksisterer allerede</system:String>
 	<system:String x:Key="Messages.ExitConfirm">Er du sikker på at du vil afbryde alle forbindelser før afslutning?</system:String>
+	<system:String x:Key="Messages.ExportByEmail">Eksportfilen sendes via e-mail.</system:String>
 	<system:String x:Key="Messages.FileLock.DependsWebDAV">afhænger af WebDAV server</system:String>
 	<system:String x:Key="Messages.FileLock.NotSupport">Din server understøtter måske ikke</system:String>
 	<system:String x:Key="Messages.FolderExist">Denne mappe er allerede inkluderet.</system:String>
@@ -79,6 +85,10 @@
 	<system:String x:Key="Messages.SignOut.Question2">Er du sikker på, at du vil logge ud?</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">Din nuværende session er blevet bedt om at vende tilbage med din anden session {0}. Alle drev vil blive tilsluttet igen. Gem venligst fil (er) eller luk ansøgning (er).</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">Den vil blive anvendt efter {0}, tryk på OK knappen for at være omgående.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc3">Din licens er blevet overført til følgende bruger, fordi alle licenser er blevet indløst:</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc4">Gem venligst fil(er) eller luk applikation(er).</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">Efter nedenstående tid skifter den automatisk til {0}.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc6">Du bliver automatisk logget ud efter nedenstående tidspunkt.</system:String>
 	<system:String x:Key="Messages.SureDelete">Er du sikkert på at du vil slette "{0} ({1})" permanent ?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">Ukendt plads</system:String>
 	<system:String x:Key="Messages.Upgrade.New">Du kan opgradere til den nyeste version</system:String>
@@ -86,13 +96,18 @@
 	<system:String x:Key="Messages.Upgrade.Uptodate">Du bruger den seneste version</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">Et drevnavn kan ikke indeholde følgende karakterer:</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">Brug ikke følgende reserverede navne:</system:String>
+	<system:String x:Key="Messages.WaitForMoment">Vent venligst et øjeblik</system:String>
+	<system:String x:Key="Messages.WelcomeToRaiDrive">Velkommen til RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Forbind med andre login-oplysninger</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Privat brug af internettet</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Ryd eksisterende forbindelse</system:String>
+	<system:String x:Key="Phrases.ConfirmPIN">Bekræft PIN-kode</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Forbundet af RaiDrive</system:String>
+	<system:String x:Key="Phrases.ConnectAfterUnlock">Tilslut efter oplåsning</system:String>
 	<system:String x:Key="Phrases.CredentialsIncluding">Inklusiv legitimationsoplysninger</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Slet drev</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Enhedsdriver</system:String>
+	<system:String x:Key="Phrases.DisconnectAfterIdleTime">Afbryd forbindelsen efter inaktiv tid</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplikeret sti</system:String>
 	<system:String x:Key="Phrases.FileInUse">Fil(er) i brug: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV fillås</system:String>
@@ -102,9 +117,11 @@
 	<system:String x:Key="Phrases.FolderUrlID">Mappe-URL eller ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Følg Seneste</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">til business-versionen</system:String>
+	<system:String x:Key="Phrases.FourDigits">4 cifre</system:String>
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Få filegenskaber med det samme</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Prøv at beholde "Dato ændret", når du kopierer</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">Vedligehold "Modificeret dato" af filer og mapper</system:String>
+	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">Monter en Cloud Storage som et USB-drev</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Tilslut igen ved opstart</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Genforbind ved login</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Tilslut igen ved programstart</system:String>
@@ -126,6 +143,7 @@
 	<system:String x:Key="Phrases.Subscription.Switched">Skiftet til {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Opdater lagerændringer asynkront</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Brug det brugerdefinerede ikon på et tilsluttet drev</system:String>
+	<system:String x:Key="Phrases.UseAppLock">Brug applikationslås</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">Utilgængelig mulighed</system:String>
 	<system:String x:Key="Words.AccessKeyID">Adgangsnøgle-id</system:String>
 	<system:String x:Key="Words.Account">Konto</system:String>
@@ -188,6 +206,7 @@
 	<system:String x:Key="Words.Folder">Mappe</system:String>
 	<system:String x:Key="Words.FreeSpace">Ledig plads</system:String>
 	<system:String x:Key="Words.General">Generelt</system:String>
+	<system:String x:Key="Words.GetLicense">Få licens</system:String>
 	<system:String x:Key="Words.GoogleDrive.Computers">Computere</system:String>
 	<system:String x:Key="Words.GoogleDrive.MyDrive">Mit drev</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">Fællesdrev</system:String>
@@ -195,6 +214,7 @@
 	<system:String x:Key="Words.GoogleDrive.SharedWithMe">Delt med mig</system:String>
 	<system:String x:Key="Words.Help">HJÆLP</system:String>
 	<system:String x:Key="Words.Hide">Skjule</system:String>
+	<system:String x:Key="Words.IdleTime">Inaktiv tid</system:String>
 	<system:String x:Key="Words.Import">Importere</system:String>
 	<system:String x:Key="Words.Key">Nøgle</system:String>
 	<system:String x:Key="Words.Language">Sprog</system:String>
@@ -202,6 +222,7 @@
 	<system:String x:Key="Words.Lifetime">Livstid</system:String>
 	<system:String x:Key="Words.Like">Synes om</system:String>
 	<system:String x:Key="Words.LocalDisk">Lokal disk</system:String>
+	<system:String x:Key="Words.Lock">Låse</system:String>
 	<system:String x:Key="Words.Login">Log ind</system:String>
 	<system:String x:Key="Words.Management">Ledelse</system:String>
 	<system:String x:Key="Words.MySubscription">Mit abonnement</system:String>
@@ -273,6 +294,7 @@
 	<system:String x:Key="Words.Time">Tid</system:String>
 	<system:String x:Key="Words.Timeout">Tiden er gået</system:String>
 	<system:String x:Key="Words.TransferMode">Overførselstilstand</system:String>
+	<system:String x:Key="Words.Unlock">Lås op</system:String>
 	<system:String x:Key="Words.Update">Opdater</system:String>
 	<system:String x:Key="Words.Upgrade">Opgrader</system:String>
 	<system:String x:Key="Words.Upload">Upload</system:String>

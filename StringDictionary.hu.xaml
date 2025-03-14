@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>lostprophet</system:String>
 	</x:Array>
@@ -14,6 +16,7 @@
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Megkísérli azonnal ellenőrizni a távoli fájlmódosításokat.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Aktuális verziószám: {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Átruházás megszakítva</system:String>
+	<system:String x:Key="Messages.EmailSentSuccess">Az e-mailt sikeresen elküldtük.</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Kérjük, adja meg a hozzáférési kulcs azonosítóját</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Kérjük, adja meg a számlaazonosítót</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Kérjük, adja meg a csoport nevét</system:String>
@@ -21,6 +24,7 @@
 	<system:String x:Key="Messages.EnterIPAddress">Kérem adjon meg egy kiszolgálónevet vagy IP címet</system:String>
 	<system:String x:Key="Messages.EnterNamespace">Adjon meg egy névteret</system:String>
 	<system:String x:Key="Messages.EnterPassword">Kérem adjon meg egy jelszavat</system:String>
+	<system:String x:Key="Messages.EnterPIN">Kérjük, adja meg PIN-kódját</system:String>
 	<system:String x:Key="Messages.EnterPort">Kérem adjon meg egy portszámot (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Kérjük, adja meg a titkos hozzáférési kulcsot</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">Kérjük, adja meg a Storage-fiók nevét</system:String>
@@ -35,6 +39,7 @@
 	<system:String x:Key="Messages.Error.ConnectInternet">Nem lehetséges csatlakozni a távoli tárhelyhez. Kérem ellenőrizze az internetkapcsolatot, és próbálja újra!</system:String>
 	<system:String x:Key="Messages.Error.DiskLetterExist">Meg kell változtatnia a meghajtó betűjelét vagy nevét.</system:String>
 	<system:String x:Key="Messages.Error.IncorrectPassword">A megadott jelszó nem helyes. Kérjük, próbálja újra!</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPIN">A PIN kód helytelen. Kérjük, próbálja újra</system:String>
 	<system:String x:Key="Messages.Error.MethodNotAllowed">Kérem ellenőrizze, hogy az útvonal{0} létezik-e, vagy engedélyezett-e az elérése!</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveAuth">Az engedélyezés vagy hitelesítés nem sikerült. Szeretné újraérvényesíteni?</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveLimit">Letöltési korlátozás meghaladva. A letöltési korlátozás a következő szabályozása: {0}.</system:String>
@@ -43,6 +48,7 @@
 	<system:String x:Key="Messages.Error.Unauthorized">Hitelesítés sikertelen. Kérem ellenőrizze a fiókját (password)!</system:String>
 	<system:String x:Key="Messages.ExistVolume">Ez a név már létezik</system:String>
 	<system:String x:Key="Messages.ExitConfirm">Biztosan szét akarja csatlakoztatni az összes kapcsolatot a kilépés előtt?</system:String>
+	<system:String x:Key="Messages.ExportByEmail">Az exportfájlt e-mailben küldjük el.</system:String>
 	<system:String x:Key="Messages.FileLock.DependsWebDAV">a WebDAV kiszolgálótól függ</system:String>
 	<system:String x:Key="Messages.FileLock.NotSupport">Előfordulhat, hogy a kiszolgáló nem támogatja</system:String>
 	<system:String x:Key="Messages.FolderExist">Már tartalmazza ezt a mappát.</system:String>
@@ -79,6 +85,10 @@
 	<system:String x:Key="Messages.SignOut.Question2">Biztosan szeretne kijelentkezni?</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">A jelenlegi munkamenetét egy másik munkamenete{0} a visszatérésre kérte. Minden meghajtó újra fog csatlakozni. Kérjük, mentse el a fájlokat vagy zárja be az alkalmazásokat!</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">Ezt a műveletet {0} után kell alkalmazni, a Rendben gomb megnyomásával azonnal érvényesítésre kerül.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc3">Az Ön licence átkerült a következő felhasználóhoz, mert az összes licencet beváltották:</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc4">Kérjük, mentse a fájl(oka)t, vagy zárja be az alkalmazás(oka)t.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">Az alábbi idő letelte után automatikusan átvált a következőre: {0}.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc6">Az alábbi idő letelte után automatikusan kijelentkeztetjük.</system:String>
 	<system:String x:Key="Messages.SureDelete">Biztosan szeretné véglegesen törölni: "{0} ({1})" ?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">Ismeretlen tárhely</system:String>
 	<system:String x:Key="Messages.Upgrade.New">Frissíthet az új verzióra</system:String>
@@ -86,13 +96,18 @@
 	<system:String x:Key="Messages.Upgrade.Uptodate">A legfrissebb verziót használja</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">Egy kötetcímke nem tartalmazhatja a következő karakterek egyikét sem:</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">Ne használja a következő lekorlátozott neveket:</system:String>
+	<system:String x:Key="Messages.WaitForMoment">Kérjük, várjon egy pillanatot</system:String>
+	<system:String x:Key="Messages.WelcomeToRaiDrive">Üdvözöljük a RaiDrive-ban</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Csatlakozás más azonosítóval</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Privát böngészés</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Meglévő kapcsolat törlése</system:String>
+	<system:String x:Key="Phrases.ConfirmPIN">Erősítse meg a PIN kódot</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDrive által csatlakozva</system:String>
+	<system:String x:Key="Phrases.ConnectAfterUnlock">Csatlakozás feloldás után</system:String>
 	<system:String x:Key="Phrases.CredentialsIncluding">Beleértve a hitelesítő adatokat</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Meghajtó törlése</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Eszközvezérlő</system:String>
+	<system:String x:Key="Phrases.DisconnectAfterIdleTime">Az üresjárati idő után szakítsa meg a kapcsolatot</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplikált útvonal</system:String>
 	<system:String x:Key="Phrases.FileInUse">Használatban lévő fájlok: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV fájlzár</system:String>
@@ -102,9 +117,11 @@
 	<system:String x:Key="Phrases.FolderUrlID">mappa URL vagy azonosító</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Legfrissebb követése</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">az üzleti verzióhoz</system:String>
+	<system:String x:Key="Phrases.FourDigits">4 számjegy</system:String>
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">A fájltulajdonságok azonnali megszerzése</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Másoláskor próbálja meg megtartani a „Módosítás dátuma” szöveget</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">A fájlok és mappák „módosítási dátuma” megőrzése</system:String>
+	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">Csatlakoztasson egy felhőtárolót, mint egy USB-meghajtót</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Csatlakoztassa újra a rendszerindításkor</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Újracsatlakoztatás bejelentkezéskor</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Csatlakozzon újra a program indításakor</system:String>
@@ -126,6 +143,7 @@
 	<system:String x:Key="Phrases.Subscription.Switched">Átváltás: {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">A tárhelyváltozások aszinkron frissítése</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Egyéni ikon használata a csatlakoztatott meghajtón</system:String>
+	<system:String x:Key="Phrases.UseAppLock">Alkalmazászár használata</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">Nem elérhető opció</system:String>
 	<system:String x:Key="Words.AccessKeyID">Hozzáférési kulcs azonosítója</system:String>
 	<system:String x:Key="Words.Account">Fiók</system:String>
@@ -188,6 +206,7 @@
 	<system:String x:Key="Words.Folder">Mappa</system:String>
 	<system:String x:Key="Words.FreeSpace">Szabad hely</system:String>
 	<system:String x:Key="Words.General">Általános</system:String>
+	<system:String x:Key="Words.GetLicense">Szerezzen licencet</system:String>
 	<system:String x:Key="Words.GoogleDrive.Computers">Számítógépek</system:String>
 	<system:String x:Key="Words.GoogleDrive.MyDrive">Saját meghajtó</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">Megosztott meghajtók</system:String>
@@ -195,6 +214,7 @@
 	<system:String x:Key="Words.GoogleDrive.SharedWithMe">Velem megosztva</system:String>
 	<system:String x:Key="Words.Help">SÚGÓ</system:String>
 	<system:String x:Key="Words.Hide">Elrejt</system:String>
+	<system:String x:Key="Words.IdleTime">Holtidő</system:String>
 	<system:String x:Key="Words.Import">Importálás</system:String>
 	<system:String x:Key="Words.Key">Kulcs</system:String>
 	<system:String x:Key="Words.Language">Nyelv</system:String>
@@ -202,6 +222,7 @@
 	<system:String x:Key="Words.Lifetime">Élettartam</system:String>
 	<system:String x:Key="Words.Like">Kedvelés</system:String>
 	<system:String x:Key="Words.LocalDisk">Helyi lemez</system:String>
+	<system:String x:Key="Words.Lock">Zár</system:String>
 	<system:String x:Key="Words.Login">Bejelentkezés</system:String>
 	<system:String x:Key="Words.Management">Menedzsment</system:String>
 	<system:String x:Key="Words.MySubscription">Előfizetésem</system:String>
@@ -273,6 +294,7 @@
 	<system:String x:Key="Words.Time">Idő</system:String>
 	<system:String x:Key="Words.Timeout">Időtúllépés</system:String>
 	<system:String x:Key="Words.TransferMode">Átviteli mód</system:String>
+	<system:String x:Key="Words.Unlock">Kinyit</system:String>
 	<system:String x:Key="Words.Update">Frissítés</system:String>
 	<system:String x:Key="Words.Upgrade">Frissítés</system:String>
 	<system:String x:Key="Words.Upload">Feltöltése</system:String>

@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>NenoRMa1eN</system:String>
 	</x:Array>
@@ -14,6 +16,7 @@
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Pokusí se okamžitě zkontrolovat změny vzdáleného souboru.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Současné verze: {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">Operace přerušena</system:String>
+	<system:String x:Key="Messages.EmailSentSuccess">E-mail byl úspěšně odeslán.</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Prosím zadejte ID přístupového klíče</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Zadejte ID účtu</system:String>
 	<system:String x:Key="Messages.EnterBucketName">Zadejte název segmentu</system:String>
@@ -21,6 +24,7 @@
 	<system:String x:Key="Messages.EnterIPAddress">Prosím zadejte jméno hostitele nebo adresu</system:String>
 	<system:String x:Key="Messages.EnterNamespace">Zadejte jmenný prostor</system:String>
 	<system:String x:Key="Messages.EnterPassword">Zadejte heslo</system:String>
+	<system:String x:Key="Messages.EnterPIN">Zadejte prosím svůj PIN</system:String>
 	<system:String x:Key="Messages.EnterPort">Zadaejte číslo portu (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Prosím zadejte tajný přístupový klíč</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">Prosím zadejte název uživatelského účtu</system:String>
@@ -35,6 +39,7 @@
 	<system:String x:Key="Messages.Error.ConnectInternet">Připojení vzdálené jednotky se nezdařilo. Funguje vám internet?</system:String>
 	<system:String x:Key="Messages.Error.DiskLetterExist">Musíte změnit přirazené písmeno jednotky.</system:String>
 	<system:String x:Key="Messages.Error.IncorrectPassword">Heslo, které jste zadali, není správné. Zkuste to prosím znovu.</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPIN">Kód PIN je nesprávný. Zkuste to prosím znovu.</system:String>
 	<system:String x:Key="Messages.Error.MethodNotAllowed">Prosím zkontrolujte, zda cesta{0} existuje a zda je přístupná.</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveAuth">Autorizace nebo autentifikace selhala. Přejete si opakovat akci?</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveLimit">Limit pro stahování/nahrávání je překročen. Omezení je způsobeno: {0}.</system:String>
@@ -43,6 +48,7 @@
 	<system:String x:Key="Messages.Error.Unauthorized">Ověření uživatele selhalo. Prosím, zkontrolujte zadané údaje.</system:String>
 	<system:String x:Key="Messages.ExistVolume">Tento název již existuje</system:String>
 	<system:String x:Key="Messages.ExitConfirm">Jste si jistí, že chcete program ukončit a s ním i všechna aktivní spojení?</system:String>
+	<system:String x:Key="Messages.ExportByEmail">Exportní soubor bude odeslán e-mailem.</system:String>
 	<system:String x:Key="Messages.FileLock.DependsWebDAV">závisí na WebDAV serveru</system:String>
 	<system:String x:Key="Messages.FileLock.NotSupport">Váš server nemusí podporovat</system:String>
 	<system:String x:Key="Messages.FolderExist">Tato složka je již zahrnuta ve vašem výběru.</system:String>
@@ -79,6 +85,10 @@
 	<system:String x:Key="Messages.SignOut.Question2">Opravdu se chcete odhlásit?</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">Vaše aktuální relace byla požádána o návrat vaší další relací {0}. Všechny disky budou znovu připojeny. Uložte soubor (y) nebo ukončete aplikaci (aplikace).</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">Bude aplikován po {0}, okamžité stisknutí tlačítka Ok.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc3">Vaše licence byla převedena na následujícího uživatele, protože všechny licence byly uplatněny:</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc4">Prosím uložte soubor(y) nebo zavřete aplikace.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">Po uplynutí níže uvedeného času se automaticky přepne na {0}.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc6">Po uplynutí níže uvedeného času budete automaticky odhlášeni.</system:String>
 	<system:String x:Key="Messages.SureDelete">Opravdu chcete pernamentně odstranit následující "{0} ({1})" ?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">Neznámé úložiště</system:String>
 	<system:String x:Key="Messages.Upgrade.New">Nová verze programu je dostupná.</system:String>
@@ -86,13 +96,18 @@
 	<system:String x:Key="Messages.Upgrade.Uptodate">Využíváte poslední vydanou verzi</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">Popis či název úložiště nemůže obsahovat tyto znaky:</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">Tento název je vyhrazen a nelze ho použít:</system:String>
+	<system:String x:Key="Messages.WaitForMoment">Počkejte prosím chvíli</system:String>
+	<system:String x:Key="Messages.WelcomeToRaiDrive">Vítejte v RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Propojit za pomoci jiných pověření</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Procházet v soukromí</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Vymazat stávající připojení</system:String>
+	<system:String x:Key="Phrases.ConfirmPIN">Potvrďte PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Připojeno pomocí RaiDrive</system:String>
+	<system:String x:Key="Phrases.ConnectAfterUnlock">Připojte po odemknutí</system:String>
 	<system:String x:Key="Phrases.CredentialsIncluding">Včetně pověření</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Odebrat úložiště</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Ovladač zařízení</system:String>
+	<system:String x:Key="Phrases.DisconnectAfterIdleTime">Po době nečinnosti odpojte</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Duplicitní cesta.</system:String>
 	<system:String x:Key="Phrases.FileInUse">Soubor(y) jsou používány: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">WebDAV soubor je uzamčen</system:String>
@@ -102,9 +117,11 @@
 	<system:String x:Key="Phrases.FolderUrlID">URL složky nebo ID</system:String>
 	<system:String x:Key="Phrases.FollowLatest">Poslední verze</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">pro PRO verzi</system:String>
+	<system:String x:Key="Phrases.FourDigits">4 číslice</system:String>
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Získejte vlastnosti souboru okamžitě</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Zachovat "datum změny" při kopírování</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">Udržujte "Datum úpravy" souborů a složek</system:String>
+	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">Připojte cloudové úložiště jako jednotku USB</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Připojit při bootování</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Připojit při přihlášení</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Připojit při startu</system:String>
@@ -126,6 +143,7 @@
 	<system:String x:Key="Phrases.Subscription.Switched">Přepnuto na {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Synchronizaci provádět ansynchronně</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Použít vlastní ikonu pro připojený disk</system:String>
+	<system:String x:Key="Phrases.UseAppLock">Použijte zámek aplikací</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">Nedostupná možnost</system:String>
 	<system:String x:Key="Words.AccessKeyID">ID přístupového klíče</system:String>
 	<system:String x:Key="Words.Account">Účet</system:String>
@@ -188,6 +206,7 @@
 	<system:String x:Key="Words.Folder">Složka</system:String>
 	<system:String x:Key="Words.FreeSpace">Volné místo</system:String>
 	<system:String x:Key="Words.General">Obecné</system:String>
+	<system:String x:Key="Words.GetLicense">Získejte licenci</system:String>
 	<system:String x:Key="Words.GoogleDrive.Computers">Počítače</system:String>
 	<system:String x:Key="Words.GoogleDrive.MyDrive">Můj disk</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">Týmové disky</system:String>
@@ -195,6 +214,7 @@
 	<system:String x:Key="Words.GoogleDrive.SharedWithMe">Sdíleno se mnou</system:String>
 	<system:String x:Key="Words.Help">POMOC</system:String>
 	<system:String x:Key="Words.Hide">Skrýt</system:String>
+	<system:String x:Key="Words.IdleTime">Doba nečinnosti</system:String>
 	<system:String x:Key="Words.Import">Import</system:String>
 	<system:String x:Key="Words.Key">Klíč</system:String>
 	<system:String x:Key="Words.Language">Jazyk</system:String>
@@ -202,6 +222,7 @@
 	<system:String x:Key="Words.Lifetime">Životnost</system:String>
 	<system:String x:Key="Words.Like">Jako</system:String>
 	<system:String x:Key="Words.LocalDisk">Místní disk</system:String>
+	<system:String x:Key="Words.Lock">Zámek</system:String>
 	<system:String x:Key="Words.Login">Přihlášení</system:String>
 	<system:String x:Key="Words.Management">Řízení</system:String>
 	<system:String x:Key="Words.MySubscription">Má předplatná</system:String>
@@ -273,6 +294,7 @@
 	<system:String x:Key="Words.Time">Čas</system:String>
 	<system:String x:Key="Words.Timeout">Časový limit</system:String>
 	<system:String x:Key="Words.TransferMode">Režim přenosu</system:String>
+	<system:String x:Key="Words.Unlock">Odemknout</system:String>
 	<system:String x:Key="Words.Update">Aktualizovat</system:String>
 	<system:String x:Key="Words.Upgrade">Upgradovat</system:String>
 	<system:String x:Key="Words.Upload">Nahrát</system:String>
