@@ -24,7 +24,7 @@ We always appreciate the contributions of our contributors.
 | [StringDictionary.hr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.hr.xaml) | Croatian | <sub></sub> |
 | [StringDictionary.hu.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.hu.xaml) | Hungarian | <sub>[lostprophet](https://github.com/lostprophet)</sub> |
 | [StringDictionary.id.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.id.xaml) | Indonesian | <sub>[alif72](https://github.com/alif72), [vzrenggamani](https://github.com/vzrenggamani)</sub> |
-| [StringDictionary.it.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.it.xaml) | Italian | <sub>[gabrig11](https://github.com/gabrig11),[bovirus](https://github.com/bovirus)</sub> |
+| [StringDictionary.it.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.it.xaml) | Italian | <sub>[gabrig11](https://github.com/gabrig11), [bovirus](https://github.com/bovirus)</sub> |
 | [StringDictionary.ja.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ja.xaml) | Japanese | <sub>[wizard872](https://github.com/wizard872), [yuk7](https://github.com/yuk7), [Kai-Z-JP](https://github.com/kai-z-jp)</sub> |
 | [StringDictionary.ko.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ko.xaml) | Korean | <sub>[RaiDrive](https://www.raidrive.com), [concertypin](https://github.com/concertypin)</sub> |
 | [StringDictionary.lt.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.lt.xaml) | Lithuanian | <sub>Darius Ribinskas</sub> |
@@ -32,9 +32,9 @@ We always appreciate the contributions of our contributors.
 | [StringDictionary.nl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.nl.xaml) | Dutch | <sub>[RemboIII](https://github.com/RemboIII), [Paultje52](https://github.com/Paultje52)</sub> |
 | [StringDictionary.pl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pl.xaml) | Polish | <sub>[adrianwnuk](https://github.com/adrianwnuk)</sub> |
 | [StringDictionary.pt-PT.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-PT.xaml) | Portuguese (Portugal) | <sub>[Wolf-Wind](https://github.com/Wolf-Wind)</sub> |
-| [StringDictionary.pt-BR.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-BR.xaml) | Portuguese (Brazil) | <sub>[fidodone](https://github.com/fidodone),[louanfontenele](https://github.com/louanfontenele)</sub> |
+| [StringDictionary.pt-BR.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.pt-BR.xaml) | Portuguese (Brazil) | <sub>[fidodone](https://github.com/fidodone), [louanfontenele](https://github.com/louanfontenele)</sub> |
 | [StringDictionary.ro.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ro.xaml) | Romanian | <sub>[foxhnd](https://github.com/foxhnd)</sub> |
-| [StringDictionary.ru.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ru.xaml) | Russian | <sub>[kostefun](https://github.com/kostefun)</sub> | <sub>[kostefun](https://github.com/viktoron)</sub> |
+| [StringDictionary.ru.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.ru.xaml) | Russian | <sub>[kostefun](https://github.com/kostefun)</sub>, <sub>[kostefun](https://github.com/viktoron)</sub> |
 | [StringDictionary.sl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.sl.xaml) | Slovenian | <sub></sub> |
 | [StringDictionary.sv.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.sv.xaml) | Swedish | <sub>[imprex92](https://github.com/imprex92)</sub> |
 | [StringDictionary.th.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.th.xaml) | Thai | <sub>[yutthaphon](https://github.com/yutthaphon), [naruepanart](https://github.com/naruepanart)</sub> |
