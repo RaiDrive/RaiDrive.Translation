@@ -49,7 +49,7 @@
 	<system:String x:Key="Messages.Error.Unauthorized">Ошибка аутентификации. Проверьте свою учётную запись (пароль).</system:String>
 	<system:String x:Key="Messages.ExistVolume">Это имя существует</system:String>
 	<system:String x:Key="Messages.ExitConfirm">Отключить все подключения перед выходом?</system:String>
-	<system:String x:Key="Messages.ExportByEmail">Экспортный файл будет отправлен по электронной почте.</system:String>
+	<system:String x:Key="Messages.ExportByEmail">Файл экспорта будет отправлен по электронной почте.</system:String>
 	<system:String x:Key="Messages.FileLock.DependsWebDAV">зависит от сервера WebDAV</system:String>
 	<system:String x:Key="Messages.FileLock.NotSupport">Ваш сервер может не поддерживать</system:String>
 	<system:String x:Key="Messages.FolderExist">Эта папка уже включена</system:String>
@@ -86,9 +86,9 @@
 	<system:String x:Key="Messages.SignOut.Question2">Вы уверены, что хотите выйти?</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">Текущая сессия запрошена для возврата в другую сессию{0}. Все диски будут переподключены. Сохраните файл(ы) или закройте приложение.</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">Это будет применено после {0}, для немедленного применения нажмите кнопку OK.</system:String>
-	<system:String x:Key="Messages.Subscription.Switched.Desc3">Ваша лицензия была передана следующему пользователю, поскольку все лицензии были погашены:</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc3">Ваша лицензия была передана следующему пользователю, поскольку все лицензии были использованы:</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc4">Пожалуйста, сохраните файл(ы) или закройте приложение(я).</system:String>
-	<system:String x:Key="Messages.Subscription.Switched.Desc5">По истечении указанного ниже времени он автоматически переключится на {0}.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">По истечении указанного ниже времени она автоматически переключится на {0}.</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc6">Вы автоматически выйдете из системы по истечении указанного ниже времени.</system:String>
 	<system:String x:Key="Messages.SureDelete">Удалить безвозвратно "{0} ({1})"?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">Размер диска неизвестен</system:String>
@@ -97,14 +97,14 @@
 	<system:String x:Key="Messages.Upgrade.Uptodate">Вы используете новейшую версию</system:String>
 	<system:String x:Key="Messages.VolumeInvalidChar">Метка тома не может содержать следующие символы:</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">Не используйте следующие зарезервированные имена:</system:String>
-	<system:String x:Key="Messages.WaitForMoment">Пожалуйста, подождите немного.</system:String>
+	<system:String x:Key="Messages.WaitForMoment">Пожалуйста, подождите немного</system:String>
 	<system:String x:Key="Messages.WelcomeToRaiDrive">Добро пожаловать в RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Подключение с разными аккаунтами</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Режим инкогнито</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Очистить существующее соединение</system:String>
 	<system:String x:Key="Phrases.ConfirmPIN">Подтвердите ПИН-код</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Подключено RaiDrive</system:String>
-	<system:String x:Key="Phrases.ConnectAfterUnlock">Подключиться после разблокировки</system:String>
+	<system:String x:Key="Phrases.ConnectAfterUnlock">Подключение после разблокировки</system:String>
 	<system:String x:Key="Phrases.CredentialsIncluding">Включая учетные данные</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Удалить диск</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Драйвер устройства</system:String>
@@ -223,7 +223,7 @@
 	<system:String x:Key="Words.Lifetime">Хранить</system:String>
 	<system:String x:Key="Words.Like">Нравится</system:String>
 	<system:String x:Key="Words.LocalDisk">Локальный диск</system:String>
-	<system:String x:Key="Words.Lock">Замок</system:String>
+	<system:String x:Key="Words.Lock">Блокировка</system:String>
 	<system:String x:Key="Words.Login">Войти</system:String>
 	<system:String x:Key="Words.Management">Управление</system:String>
 	<system:String x:Key="Words.MySubscription">Моя подписка</system:String>
