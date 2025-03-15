@@ -24,7 +24,7 @@
 	<system:String x:Key="Messages.EnterIPAddress">Введіть ім'я хосту або IP-адресу</system:String>
 	<system:String x:Key="Messages.EnterNamespace">Введіть простір імен</system:String>
 	<system:String x:Key="Messages.EnterPassword">Введіть пароль</system:String>
-	<system:String x:Key="Messages.EnterPIN">Будь ласка, введіть свій PIN-код</system:String>
+	<system:String x:Key="Messages.EnterPIN">Введіть свій PIN-код</system:String>
 	<system:String x:Key="Messages.EnterPort">Введіть номер порту (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Введіть секретний ключ доступу</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">Введіть ім'я облікового запису сховища</system:String>
@@ -38,8 +38,8 @@
 	<system:String x:Key="Messages.Error.CacheDiskFull">Недостатньо місця для зберігання кешу. Збільшіть місце для зберігання.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Не вдається підключитися до віддаленого сховища. Перевірте підключення до Інтернету та повторіть спробу.</system:String>
 	<system:String x:Key="Messages.Error.DiskLetterExist">Потрібно змінити букву або ім'я диска.</system:String>
-	<system:String x:Key="Messages.Error.IncorrectPassword">Введений пароль неправильний. Повторіть спробу.</system:String>
-	<system:String x:Key="Messages.Error.IncorrectPIN">PIN-код неправильний. Спробуйте ще раз.</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPassword">Пароль неправильний. Повторіть спробу.</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPIN">PIN-код неправильний. Повторіть спробу.</system:String>
 	<system:String x:Key="Messages.Error.MethodNotAllowed">Перевірте, чи існує шлях {0} і чи надано доступ.</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveAuth">Помилка авторизації або автентифікації. Повторити спробу?</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveLimit">Перевищено квоту завантажень. Обмеження завантажень - це політика {0}.</system:String>
@@ -86,8 +86,8 @@
 	<system:String x:Key="Messages.Subscription.Switched.Desc1">Інший сеанс попросив повернути ваш поточний сеанс {0}. Всі диски будуть перепідключені. Збережіть файли або закрийте програму</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc2">Буде застосовано після {0}, щоб зробити це негайно натисніть кнопку OK.</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc3">Вашу ліцензію передано такому користувачеві, оскільки всі ліцензії викуплено:</system:String>
-	<system:String x:Key="Messages.Subscription.Switched.Desc4">Будь ласка, збережіть файл(и) або закрийте програму(и).</system:String>
-	<system:String x:Key="Messages.Subscription.Switched.Desc5">Через вказаний нижче час він автоматично переключиться на {0}.</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc4">Збережіть файл(и) або закрийте програму(и).</system:String>
+	<system:String x:Key="Messages.Subscription.Switched.Desc5">Через вказаний нижче час вона автоматично переключиться на {0}.</system:String>
 	<system:String x:Key="Messages.Subscription.Switched.Desc6">Ви автоматично вийдете з системи через вказаний нижче час.</system:String>
 	<system:String x:Key="Messages.SureDelete">Остаточно видалити "{0} ({1})" ?</system:String>
 	<system:String x:Key="Messages.UnknownSpace">Розмір диска невідомий</system:String>
@@ -107,7 +107,7 @@
 	<system:String x:Key="Phrases.CredentialsIncluding">Включно з обліковими даними</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">Видалити диск</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">Драйвер пристрою</system:String>
-	<system:String x:Key="Phrases.DisconnectAfterIdleTime">Відключення після простою</system:String>
+	<system:String x:Key="Phrases.DisconnectAfterIdleTime">Відключати після простою</system:String>
 	<system:String x:Key="Phrases.DuplicatedPath">Дубльований шлях</system:String>
 	<system:String x:Key="Phrases.FileInUse">Використано файлів: {0}</system:String>
 	<system:String x:Key="Phrases.FileLock.WebDAV">Блокування файлів WebDAV</system:String>
@@ -143,7 +143,7 @@
 	<system:String x:Key="Phrases.Subscription.Switched">Змінено на {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Асинхронне оновлення змін сховища</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Піктограма RaiDrive на підключеному диску</system:String>
-	<system:String x:Key="Phrases.UseAppLock">Використовуйте блокування програми</system:String>
+	<system:String x:Key="Phrases.UseAppLock">Блокувати програму</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">Недоступний параметр</system:String>
 	<system:String x:Key="Words.AccessKeyID">Ідентифікатор ключа</system:String>
 	<system:String x:Key="Words.Account">Обліковий запис</system:String>
@@ -211,7 +211,7 @@
 	<system:String x:Key="Words.GoogleDrive.MyDrive">Мій диск</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">Спільні диски</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedLink">Спільне посилання</system:String>
-	<system:String x:Key="Words.GoogleDrive.SharedWithMe">Спільні зі мною</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedWithMe">Доступні мені</system:String>
 	<system:String x:Key="Words.Help">Довідка</system:String>
 	<system:String x:Key="Words.Hide">Приховати</system:String>
 	<system:String x:Key="Words.IdleTime">Час простою</system:String>
@@ -222,7 +222,7 @@
 	<system:String x:Key="Words.Lifetime">Зберігати</system:String>
 	<system:String x:Key="Words.Like">Подобається</system:String>
 	<system:String x:Key="Words.LocalDisk">Локальний диск</system:String>
-	<system:String x:Key="Words.Lock">Замок</system:String>
+	<system:String x:Key="Words.Lock">Блокування</system:String>
 	<system:String x:Key="Words.Login">Увійти</system:String>
 	<system:String x:Key="Words.Management">Керування</system:String>
 	<system:String x:Key="Words.MySubscription">Моя передплата</system:String>
