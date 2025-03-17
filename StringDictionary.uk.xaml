@@ -24,7 +24,7 @@
 	<system:String x:Key="Messages.EnterIPAddress">Введіть ім'я хосту або IP-адресу</system:String>
 	<system:String x:Key="Messages.EnterNamespace">Введіть простір імен</system:String>
 	<system:String x:Key="Messages.EnterPassword">Введіть пароль</system:String>
-	<system:String x:Key="Messages.EnterPIN">Введіть свій PIN-код</system:String>
+	<system:String x:Key="Messages.EnterPIN">Будь ласка, введіть свій PIN-код</system:String>
 	<system:String x:Key="Messages.EnterPort">Введіть номер порту (1 ~ 65535)</system:String>
 	<system:String x:Key="Messages.EnterSecretAccessKey">Введіть секретний ключ доступу</system:String>
 	<system:String x:Key="Messages.EnterStorageAccount">Введіть ім'я облікового запису сховища</system:String>
@@ -38,7 +38,7 @@
 	<system:String x:Key="Messages.Error.CacheDiskFull">Недостатньо місця для зберігання кешу. Збільшіть місце для зберігання.</system:String>
 	<system:String x:Key="Messages.Error.ConnectInternet">Не вдається підключитися до віддаленого сховища. Перевірте підключення до Інтернету та повторіть спробу.</system:String>
 	<system:String x:Key="Messages.Error.DiskLetterExist">Потрібно змінити букву або ім'я диска.</system:String>
-	<system:String x:Key="Messages.Error.IncorrectPassword">Пароль неправильний. Повторіть спробу.</system:String>
+	<system:String x:Key="Messages.Error.IncorrectPassword">Введений пароль неправильний. Повторіть спробу.</system:String>
 	<system:String x:Key="Messages.Error.IncorrectPIN">PIN-код неправильний. Повторіть спробу.</system:String>
 	<system:String x:Key="Messages.Error.MethodNotAllowed">Перевірте, чи існує шлях {0} і чи надано доступ.</system:String>
 	<system:String x:Key="Messages.Error.RemoteDriveAuth">Помилка авторизації або автентифікації. Повторити спробу?</system:String>
@@ -143,7 +143,7 @@
 	<system:String x:Key="Phrases.Subscription.Switched">Змінено на {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Асинхронне оновлення змін сховища</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Піктограма RaiDrive на підключеному диску</system:String>
-	<system:String x:Key="Phrases.UseAppLock">Блокувати програму</system:String>
+	<system:String x:Key="Phrases.UseAppLock">Використовуйте блокування програми</system:String>
 	<system:String x:Key="Phrases.UnavailableOption">Недоступний параметр</system:String>
 	<system:String x:Key="Words.AccessKeyID">Ідентифікатор ключа</system:String>
 	<system:String x:Key="Words.Account">Обліковий запис</system:String>
@@ -211,7 +211,7 @@
 	<system:String x:Key="Words.GoogleDrive.MyDrive">Мій диск</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedDrives">Спільні диски</system:String>
 	<system:String x:Key="Words.GoogleDrive.SharedLink">Спільне посилання</system:String>
-	<system:String x:Key="Words.GoogleDrive.SharedWithMe">Доступні мені</system:String>
+	<system:String x:Key="Words.GoogleDrive.SharedWithMe">Спільні зі мною</system:String>
 	<system:String x:Key="Words.Help">Довідка</system:String>
 	<system:String x:Key="Words.Hide">Приховати</system:String>
 	<system:String x:Key="Words.IdleTime">Час простою</system:String>
