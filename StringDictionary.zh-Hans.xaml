@@ -18,7 +18,7 @@
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">它会尝试立即检查远程文件的更改。</system:String>
 	<system:String x:Key="Messages.CurrentVersion">当前版本为 {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">委派已终止</system:String>
-	<system:String x:Key="Messages.EmailSentSuccess">電子郵件已成功發送。</system:String>
+	<system:String x:Key="Messages.EmailSentSuccess">电子邮件发送成功。</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">请输入 Access Key ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">请输入账号</system:String>
 	<system:String x:Key="Messages.EnterBucketName">请输入存储桶名称</system:String>
@@ -99,7 +99,7 @@
 	<system:String x:Key="Messages.VolumeInvalidChar">卷标不能含有以下字符:</system:String>
 	<system:String x:Key="Messages.VolumeInvalidStr">不可使用如下保留名称:</system:String>
 	<system:String x:Key="Messages.WaitForMoment">请稍候</system:String>
-	<system:String x:Key="Messages.WelcomeToRaiDrive">欢迎来到 RaiDrive</system:String>
+	<system:String x:Key="Messages.WelcomeToRaiDrive">欢迎使用 RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">在连接时输入账号密码</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">无痕浏览</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">清除现有连接</system:String>
