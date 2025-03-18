@@ -121,7 +121,7 @@
 	<system:String x:Key="Phrases.GetFilePropertiesInstantly">Ottieni immediatamente le proprietà dei file</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">Cerca di mantenere "Data modifica" durante la copia</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">Mantieni la "Data modifica" di file e cartelle</system:String>
-	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">Monta uno storage cloud come unità USB</system:String>
+	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">Monta uno Cloud Storage come unità USB</system:String>
 	<system:String x:Key="Phrases.MountAtBoot">Riconnettiti all'avvio</system:String>
 	<system:String x:Key="Phrases.MountAtSignIn">Riconnettiti all'accesso</system:String>
 	<system:String x:Key="Phrases.MountAtStart">Riconnetterti all'avvio del programma</system:String>
