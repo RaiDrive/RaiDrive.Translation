@@ -180,7 +180,7 @@
 	<system:String x:Key="Words.Company">公司</system:String>
 	<system:String x:Key="Words.Connect">连接</system:String>
 	<system:String x:Key="Words.Connected">已连接</system:String>
-	<system:String x:Key="Words.CountLeft">剩菜</system:String>
+	<system:String x:Key="Words.CountLeft">剩余</system:String>
 	<system:String x:Key="Words.Current">当前</system:String>
 	<system:String x:Key="Words.Default">默认</system:String>
 	<system:String x:Key="Words.Delete">删除</system:String>
