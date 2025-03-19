@@ -1,6 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>holao09</system:String>
 		<system:String>vigstudio</system:String>
@@ -80,7 +78,7 @@
 	<system:String x:Key="Messages.SelectLocalDrive">Vui lòng chọn một thư mục trên PC</system:String>
 	<system:String x:Key="Messages.SelectPrivateKeyPath">bạn có thể chọn tệp khóa riêng</system:String>
 	<system:String x:Key="Messages.SelectedPath">Chọn đường dẫn</system:String>
-	<system:String x:Key="Messages.SeleteTargetFolder">Chọn một thư mục từ xa để lưu trữ tệp</system:String>
+	<system:String x:Key="Messages.SelectTargetFolder">Chọn một thư mục từ xa để lưu trữ tệp</system:String>
 	<system:String x:Key="Messages.Service.GetStarted">Chúng ta bắt đầu với RaiDrive nhé?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Hãy nhấn nút OK, RaiDrive sẽ hoạt động lại.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">Dịch vụ RaiDrive đã bị dừng.</system:String>
@@ -143,6 +141,7 @@
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Sửa lại RaiDrive</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">Bắt đầu RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} trống của {1} {2}</system:String>
+	<system:String x:Key="Phrases.Subscription.Switch">Chuyển sang {0}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Đã chuyển sang {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Cập nhật các thay đổi về bộ nhớ không đồng bộ</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Sử dụng biểu tượng tùy chỉnh trên một ổ đĩa được kết nối</system:String>

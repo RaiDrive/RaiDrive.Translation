@@ -1,6 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>yutthaphon</system:String>
 		<system:String>naruepanart</system:String>
@@ -78,7 +76,7 @@
 	<system:String x:Key="Messages.SelectLocalDrive">โปรดเลือกโฟลเดอร์บนพีซีของคุณ</system:String>
 	<system:String x:Key="Messages.SelectPrivateKeyPath">คุณอาจต้องเลือกไฟล์คีย์ส่วนตัว</system:String>
 	<system:String x:Key="Messages.SelectedPath">เลือกที่ตั้ง</system:String>
-	<system:String x:Key="Messages.SeleteTargetFolder">เลือกไฟล์จากโฟลเดอร์ระยะไกลที่คุณต้องการเก็บไว้</system:String>
+	<system:String x:Key="Messages.SelectTargetFolder">เลือกไฟล์จากโฟลเดอร์ระยะไกลที่คุณต้องการเก็บไว้</system:String>
 	<system:String x:Key="Messages.Service.GetStarted">เรามาเริ่มต้นกับ RaiDrive กันดีไหม?</system:String>
 	<system:String x:Key="Messages.Service.Alive">โปรดกดปุ่มตกลงเพื่อฟื้น RaiDrive</system:String>
 	<system:String x:Key="Messages.Service.Stoped">บริการ RaiDrive ถูกหยุด</system:String>
@@ -141,6 +139,7 @@
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">ฟื้นฟู RaiDrive</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">เริ่ม RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} ว่างจาก {1} {2}</system:String>
+	<system:String x:Key="Phrases.Subscription.Switch">สลับไปที่ {0}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">เปลี่ยนเป็น {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">อัปเดทการเปลี่ยนแปลงพื้นที่เป็นระยะ</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">ใช้ไอคอนที่กำหนดเองบนไดร์ฟที่เชื่อมต่อ</system:String>

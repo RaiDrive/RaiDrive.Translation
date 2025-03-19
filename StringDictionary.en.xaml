@@ -77,7 +77,7 @@
 	<system:String x:Key="Messages.SelectLocalDrive">Please select a folder on your PC</system:String>
 	<system:String x:Key="Messages.SelectPrivateKeyPath">you may select private key file</system:String>
 	<system:String x:Key="Messages.SelectedPath">Selected Path</system:String>
-	<system:String x:Key="Messages.SeleteTargetFolder">Select a remote folder where files will be stored</system:String>
+	<system:String x:Key="Messages.SelectTargetFolder">Select a remote folder where files will be stored</system:String>
 	<system:String x:Key="Messages.Service.GetStarted">Shall we get started with RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Please press OK button, RaiDrive will be alive.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">RaiDrive Service was stopped.</system:String>
@@ -140,6 +140,7 @@
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Revive RaiDrive</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">Start RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} free of {1} {2}</system:String>
+	<system:String x:Key="Phrases.Subscription.Switch">Switch to {0}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Switched to {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Update storage changes asynchronously</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Use the custom icon on a connected drive</system:String>

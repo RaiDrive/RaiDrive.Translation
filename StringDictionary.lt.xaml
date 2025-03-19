@@ -1,6 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>Darius Ribinskas</system:String>
 	</x:Array>
@@ -77,7 +75,7 @@
 	<system:String x:Key="Messages.SelectLocalDrive">Pasirinkite aplanką savo kompiuteryje</system:String>
 	<system:String x:Key="Messages.SelectPrivateKeyPath">galite pasirinkti privataus rakto failą</system:String>
 	<system:String x:Key="Messages.SelectedPath">Pasirinktas kelias</system:String>
-	<system:String x:Key="Messages.SeleteTargetFolder">Pasirinkite nuotolinį aplanką, kuriame bus saugomi failai</system:String>
+	<system:String x:Key="Messages.SelectTargetFolder">Pasirinkite nuotolinį aplanką, kuriame bus saugomi failai</system:String>
 	<system:String x:Key="Messages.Service.GetStarted">Ar pradėsime su RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Paspauskite mygtuką Gerai, RaiDrive bus gyvas.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">„RaiDrive“ paslauga buvo sustabdyta.</system:String>
@@ -140,6 +138,7 @@
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Atgaivinkite RaiDrive</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">Paleiskite „RaiDrive“.</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} nemokamai iš {1} {2}</system:String>
+	<system:String x:Key="Phrases.Subscription.Switch">Perjungti į {0}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Perjungta į {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Atnaujinkite saugyklos pakeitimus asinchroniškai</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Naudokite tinkintą piktogramą prijungtame diske</system:String>

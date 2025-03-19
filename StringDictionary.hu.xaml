@@ -1,6 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>lostprophet</system:String>
 	</x:Array>
@@ -77,7 +75,7 @@
 	<system:String x:Key="Messages.SelectLocalDrive">Kérem válasszon ki egy mappát a számítógépen</system:String>
 	<system:String x:Key="Messages.SelectPrivateKeyPath">kiválaszthat egy privát kulcsfájlt</system:String>
 	<system:String x:Key="Messages.SelectedPath">Kiválasztott útvonal</system:String>
-	<system:String x:Key="Messages.SeleteTargetFolder">Kérem válasszon egy távoli mappát, ahol a fájlok tárolásra fognak kerülni!</system:String>
+	<system:String x:Key="Messages.SelectTargetFolder">Kérem válasszon egy távoli mappát, ahol a fájlok tárolásra fognak kerülni!</system:String>
 	<system:String x:Key="Messages.Service.GetStarted">Kezdjük a RaiDrive-val?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Kérem kattintson a Rendben gombra, és a RaiDrive elindul.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">A RaiDrive szolgáltatás leállt.</system:String>
@@ -140,6 +138,7 @@
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">RaiDrive újraindítása</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">Indítsa el a RaiDrive-ot</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} szabad {1} {2}-ból</system:String>
+	<system:String x:Key="Phrases.Subscription.Switch">Váltás erre: {0}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Átváltás: {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">A tárhelyváltozások aszinkron frissítése</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Egyéni ikon használata a csatlakoztatott meghajtón</system:String>

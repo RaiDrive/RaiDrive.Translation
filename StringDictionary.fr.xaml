@@ -1,6 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>JeromeFa</system:String>
 		<system:String>DoryanR</system:String>
@@ -78,7 +76,7 @@
 	<system:String x:Key="Messages.SelectLocalDrive">Veuillez sélectionner un dossier sur votre PC</system:String>
 	<system:String x:Key="Messages.SelectPrivateKeyPath">vous pouvez sélectionner le fichier de clé privée</system:String>
 	<system:String x:Key="Messages.SelectedPath">Chemin d'accès sélectionné</system:String>
-	<system:String x:Key="Messages.SeleteTargetFolder">Sélectionnez un dossier distant dans lequel les fichiers seront stockés</system:String>
+	<system:String x:Key="Messages.SelectTargetFolder">Sélectionnez un dossier distant dans lequel les fichiers seront stockés</system:String>
 	<system:String x:Key="Messages.Service.GetStarted">Devons-nous commencer avec RaiDrive ?</system:String>
 	<system:String x:Key="Messages.Service.Alive">Veuillez appuyer sur la touche OK, RaiDrive sera en vie.</system:String>
 	<system:String x:Key="Messages.Service.Stoped">Le service RaiDrive a été arrêté.</system:String>
@@ -141,6 +139,7 @@
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Ravivez RaiDrive</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">Démarrer RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} libre de {1} {2}</system:String>
+	<system:String x:Key="Phrases.Subscription.Switch">Passer à {0}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Commutation sur {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Mettre à jour les modifications de stockage de manière asynchrone</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Utiliser l'icône personnalisée sur un lecteur connecté</system:String>

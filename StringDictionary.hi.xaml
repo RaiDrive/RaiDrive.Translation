@@ -1,6 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>RaiDrive</system:String>
 	</x:Array>
@@ -77,7 +75,7 @@
 	<system:String x:Key="Messages.SelectLocalDrive">कृपया अपने पीसी पर एक फ़ोल्डर का चयन करें</system:String>
 	<system:String x:Key="Messages.SelectPrivateKeyPath">आप निजी कुंजी फ़ाइल का चयन कर सकते हैं</system:String>
 	<system:String x:Key="Messages.SelectedPath">चयनित पथ</system:String>
-	<system:String x:Key="Messages.SeleteTargetFolder">एक दूरस्थ फ़ोल्डर का चयन करें जहां फ़ाइलें संग्रहीत की जाएंगी</system:String>
+	<system:String x:Key="Messages.SelectTargetFolder">एक दूरस्थ फ़ोल्डर का चयन करें जहां फ़ाइलें संग्रहीत की जाएंगी</system:String>
 	<system:String x:Key="Messages.Service.GetStarted">क्या हम RaiDrive से शुरुआत करें?</system:String>
 	<system:String x:Key="Messages.Service.Alive">कृपया ओके बटन दबाएं, रायड्राइव जीवित रहेगा।</system:String>
 	<system:String x:Key="Messages.Service.Stoped">रायड्राइव सेवा बंद कर दी गई थी।</system:String>
@@ -140,6 +138,7 @@
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">रायड्राइव को पुनर्जीवित करें</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">रायड्राइव प्रारंभ करें</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} {1} {2} से मुक्त</system:String>
+	<system:String x:Key="Phrases.Subscription.Switch">{0} पर स्विच करें</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">{0} पर स्विच किया गया</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">भंडारण परिवर्तनों को अतुल्यकालिक रूप से अपडेट करें</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">कनेक्टेड ड्राइव पर कस्टम आइकन का उपयोग करें</system:String>
