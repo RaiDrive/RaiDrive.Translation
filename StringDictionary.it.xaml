@@ -140,7 +140,7 @@
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Ripristina RaiDrive</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">Avvia RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} liberi su {1} {2}</system:String>
-	<system:String x:Key="Phrases.Subscription.Switch">Passato a {0}</system:String>
+	<system:String x:Key="Phrases.Subscription.Switch">Passa a {0}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switched">Passato a {0}</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Aggiorna le modifiche allo spazio di archiviazione in modo asincrono</system:String>
 	<system:String x:Key="Phrases.UseDriveIcon">Usa l'icona personalizzata per un'unità connessa</system:String>
