@@ -139,7 +139,7 @@
 	<system:String x:Key="Phrases.RunAtConnect">Відкривати папку в Провіднику після підключення</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Вибрати папку</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Відновити RaiDrive</system:String>
-	<system:String x:Key="Phrases.SimultaneousTransfer">Одночасний трансфер</system:String>
+	<system:String x:Key="Phrases.SimultaneousTransfer">Одночасна передача</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">Запустити RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} вільно з {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switch">Перейти на {0}</system:String>
