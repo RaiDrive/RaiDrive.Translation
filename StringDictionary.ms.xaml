@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>ΜΟLΟΚΛL</system:String>
 		<system:String>Niskala5570</system:String>
@@ -99,6 +101,7 @@
 	<system:String x:Key="Messages.WelcomeToRaiDrive">Selamat datang ke RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Sambung menggunakan akaun berlainan</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Layari secara sulit</system:String>
+	<system:String x:Key="Phrases.ChunkedUpload">Muat naik berpotongan</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Padam sambungan sedia ada</system:String>
 	<system:String x:Key="Phrases.ConfirmPIN">Sahkan PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Bersambung dengan RaiDrive</system:String>
@@ -137,6 +140,7 @@
 	<system:String x:Key="Phrases.RunAtConnect">Jalankan Pelayar Fail apabila pemacu disambungkan</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Pilih folder</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Hidupkan semula RaiDrive</system:String>
+	<system:String x:Key="Phrases.SimultaneousTransfer">Pemindahan serentak</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">Mulakan RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} kosong dari {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switch">Tukar kepada {0}</system:String>

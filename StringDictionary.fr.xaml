@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>JeromeFa</system:String>
 		<system:String>DoryanR</system:String>
@@ -99,6 +101,7 @@
 	<system:String x:Key="Messages.WelcomeToRaiDrive">Bienvenue sur RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Connexion à l'aide de différents identifiants</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Naviguer en mode privé</system:String>
+	<system:String x:Key="Phrases.ChunkedUpload">Téléchargement fragmenté</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Effacer la connexion existante</system:String>
 	<system:String x:Key="Phrases.ConfirmPIN">Confirmer le code PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Connecté par RaiDrive</system:String>
@@ -137,6 +140,7 @@
 	<system:String x:Key="Phrases.RunAtConnect">Exécutez l'Explorateur de fichiers lorsque le lecteur est connecté</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Sélectionner le dossier</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Ravivez RaiDrive</system:String>
+	<system:String x:Key="Phrases.SimultaneousTransfer">Transfert simultané</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">Démarrer RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} libre de {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switch">Passer à {0}</system:String>

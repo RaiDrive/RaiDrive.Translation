@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>RaiDrive</system:String>
 	</x:Array>
@@ -98,6 +100,7 @@
 	<system:String x:Key="Messages.WelcomeToRaiDrive">Dobrodošli v RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Povežite se z uporabo različnih poverilnic</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Brskajte zasebno</system:String>
+	<system:String x:Key="Phrases.ChunkedUpload">Razdeljeno nalaganje</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Počisti obstoječo povezavo</system:String>
 	<system:String x:Key="Phrases.ConfirmPIN">Potrdite PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Povezan z RaiDrive</system:String>
@@ -136,6 +139,7 @@
 	<system:String x:Key="Phrases.RunAtConnect">Zaženite File Explorer, ko je pogon povezan</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Izberite mapo</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Oživite RaiDrive</system:String>
+	<system:String x:Key="Phrases.SimultaneousTransfer">Simultani prenos</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">Zaženite RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} brez {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switch">Preklopi na {0}</system:String>

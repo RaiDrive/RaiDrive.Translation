@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>holao09</system:String>
 		<system:String>vigstudio</system:String>
@@ -101,6 +103,7 @@
 	<system:String x:Key="Messages.WelcomeToRaiDrive">Chào mừng đến với RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Kết nối bằng tài khoản khác</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Duyệt web ở chế độ riêng tư</system:String>
+	<system:String x:Key="Phrases.ChunkedUpload">Tải lên theo khối</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Xóa kết nối hiện có</system:String>
 	<system:String x:Key="Phrases.ConfirmPIN">Xác nhận mã PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Được kết nối bởi RaiDrive</system:String>
@@ -139,6 +142,7 @@
 	<system:String x:Key="Phrases.RunAtConnect">Mở File Explorer khi dịch vụ được kết nối</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Chọn thư mục</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Sửa lại RaiDrive</system:String>
+	<system:String x:Key="Phrases.SimultaneousTransfer">Chuyển giao đồng thời</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">Bắt đầu RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} trống của {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switch">Chuyển sang {0}</system:String>

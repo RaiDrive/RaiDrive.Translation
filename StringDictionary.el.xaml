@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>SQLtattoo</system:String>
 	</x:Array>
@@ -98,6 +100,7 @@
 	<system:String x:Key="Messages.WelcomeToRaiDrive">Καλώς ήρθατε στο RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Σύνδεση με διαφορετικά στοιχεία χρήστη</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Απόρρητη περιήγηση</system:String>
+	<system:String x:Key="Phrases.ChunkedUpload">Τεμαχισμένη μεταφόρτωση</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Εκκαθάριση υπάρχουσας σύνδεσης</system:String>
 	<system:String x:Key="Phrases.ConfirmPIN">Επιβεβαίωση PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Συνδέθηκε από το RaiDrive</system:String>
@@ -136,6 +139,7 @@
 	<system:String x:Key="Phrases.RunAtConnect">Άνοιξε τον Windows Explorer κατά την σύνδεση</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Επιλογή φακέλου</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Ανάσταση του RaiDrive</system:String>
+	<system:String x:Key="Phrases.SimultaneousTransfer">Ταυτόχρονη μεταφορά</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">Εκκινήστε το RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} ελεύθερα από {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switch">Εναλλαγή σε {0}</system:String>

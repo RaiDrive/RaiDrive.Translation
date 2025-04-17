@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>alif72</system:String>
 		<system:String>vzrenggamani</system:String>
@@ -99,6 +101,7 @@
 	<system:String x:Key="Messages.WelcomeToRaiDrive">Selamat datang di RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Terhubung menggunakan kredensial yang berbeda</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Jelajahi Secara Pribadi</system:String>
+	<system:String x:Key="Phrases.ChunkedUpload">Unggahan berpotongan</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Hapus koneksi yang ada</system:String>
 	<system:String x:Key="Phrases.ConfirmPIN">Konfirmasi PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Terkoneksi dengan RaiDrive</system:String>
@@ -137,6 +140,7 @@
 	<system:String x:Key="Phrases.RunAtConnect">Jalankan File Explorer ketika drive sudah terkoneksi</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Pilih folder</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Hidupkan RaiDrive</system:String>
+	<system:String x:Key="Phrases.SimultaneousTransfer">Transfer simultan</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">Mulai RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} gratis dari {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switch">Beralih ke {0}</system:String>

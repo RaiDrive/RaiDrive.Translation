@@ -1,4 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>foxhnd</system:String>
 	</x:Array>
@@ -98,6 +100,7 @@
 	<system:String x:Key="Messages.WelcomeToRaiDrive">Bun venit la RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Conectați-vă folosind credențiale diferite</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Navighează în mod privat</system:String>
+	<system:String x:Key="Phrases.ChunkedUpload">Încărcare fragmentată</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Ștergeți conexiunea existentă</system:String>
 	<system:String x:Key="Phrases.ConfirmPIN">Confirmați codul PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Connectat de RaiDrive</system:String>
@@ -136,6 +139,7 @@
 	<system:String x:Key="Phrases.RunAtConnect">Rulați File Explorer când un drive este conectat</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Selectează folder</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Reinițializează RaiDrive</system:String>
+	<system:String x:Key="Phrases.SimultaneousTransfer">Transfer simultan</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">Porniți RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} disponibil din {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switch">Comutați la {0}</system:String>
