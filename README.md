@@ -38,7 +38,7 @@ We always appreciate the contributions of our contributors.
 | [StringDictionary.sl.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.sl.xaml) | Slovenian | <sub></sub> |
 | [StringDictionary.sv.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.sv.xaml) | Swedish | <sub>[imprex92](https://github.com/imprex92)</sub> |
 | [StringDictionary.th.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.th.xaml) | Thai | <sub>[yutthaphon](https://github.com/yutthaphon), [naruepanart](https://github.com/naruepanart)</sub> |
-| [StringDictionary.tr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.tr.xaml) | Turkish | <sub>[ilkmon](https://github.com/ilkmon)</sub> |
+| [StringDictionary.tr.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.tr.xaml) | Turkish | <sub>[ilkmon](https://github.com/ilkmon), [muratozerce](https://github.com/muratozerce)</sub> |
 | [StringDictionary.uk.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.uk.xaml) | Ukrainian | <sub>[Lan72](https://github.com/Lan72)</sub> |
 | [StringDictionary.vi.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.vi.xaml) | Vietnamese | <sub>[holao09](https://github.com/holao09), [vigstudio](https://github.com/vigstudio), [prpjzz](https://github.com/prpjzz), [duyplus](https://github.com/duyplus), [ktvdung](https://github.com/ktvdung)</sub> |
 | [StringDictionary.zh-Hans.xaml](https://github.com/RaiDrive/Translation/blob/master/StringDictionary.zh-Hans.xaml) | Chinese (Simplified) | <sub>[whwlsfb](https://github.com/whwlsfb), [SadPencil](https://github.com/SadPencil), [dustofsoul](https://github.com/dustofsoul)</sub> |
