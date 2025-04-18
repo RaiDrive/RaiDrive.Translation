@@ -102,7 +102,7 @@
 	<system:String x:Key="Messages.WelcomeToRaiDrive">مرحباً بكم في RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">استخدام بيانات دخول مختلفة</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">تصفح مخفي</system:String>
-	<system:String x:Key="Phrases.ChunkedUpload">تقسيم اثناء الرفع</system:String>
+	<system:String x:Key="Phrases.ChunkedUpload">تحميل مجزأ</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">مسح الاتصال الحالي</system:String>
 	<system:String x:Key="Phrases.ConfirmPIN">تأكيد رقم التعريف الشخصي (PIN)</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">تم الاتصال عن طريق RaiDrive</system:String>
@@ -141,7 +141,7 @@
 	<system:String x:Key="Phrases.RunAtConnect">فتح مستكشف الملفات عند توصيل محرك الأقراص</system:String>
 	<system:String x:Key="Phrases.SelectFolder">اختيار مجلد</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">استعادة البرنامج</system:String>
-	<system:String x:Key="Phrases.SimultaneousTransfer">نقل متزامن</system:String>
+	<system:String x:Key="Phrases.SimultaneousTransfer">النقل المتزامن</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">ابدأ تشغيل RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} خالية من {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switch">التبديل إلى {0}</system:String>
