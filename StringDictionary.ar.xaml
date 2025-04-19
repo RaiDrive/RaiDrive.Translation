@@ -101,7 +101,7 @@
 	<system:String x:Key="Messages.WaitForMoment">الرجاء الانتظار لحظة</system:String>
 	<system:String x:Key="Messages.WelcomeToRaiDrive">مرحباً بكم في RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">استخدام بيانات دخول مختلفة</system:String>
-	<system:String x:Key="Phrases.Browser.BrowseInPrivate">تصفح سري</system:String>
+	<system:String x:Key="Phrases.Browser.BrowseInPrivate">تصفح مخفي</system:String>
 	<system:String x:Key="Phrases.ChunkedUpload">تحميل مجزأ</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">مسح الاتصال الحالي</system:String>
 	<system:String x:Key="Phrases.ConfirmPIN">تأكيد رقم التعريف الشخصي (PIN)</system:String>
