@@ -156,6 +156,7 @@
 	<system:String x:Key="Words.AdvancedOptions">Zaawansowane opcje</system:String>
 	<system:String x:Key="Words.All">Wszystko</system:String>
 	<system:String x:Key="Words.Anonymous">Anonimowy</system:String>
+	<system:String x:Key="Words.ApplicationToken">Token aplikacji</system:String>
 	<system:String x:Key="Words.Apply">Zatwierdź</system:String>
 	<system:String x:Key="Words.AutoStart">Automatyczny start</system:String>
 	<system:String x:Key="Words.Backup">Kopia zapasowa</system:String>

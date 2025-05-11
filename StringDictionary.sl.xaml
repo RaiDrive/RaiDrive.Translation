@@ -156,6 +156,7 @@
 	<system:String x:Key="Words.AdvancedOptions">Napredne možnosti</system:String>
 	<system:String x:Key="Words.All">Vse</system:String>
 	<system:String x:Key="Words.Anonymous">Anonimno</system:String>
+	<system:String x:Key="Words.ApplicationToken">Žeton aplikacije</system:String>
 	<system:String x:Key="Words.Apply">Prijavite se</system:String>
 	<system:String x:Key="Words.AutoStart">Samodejni zagon</system:String>
 	<system:String x:Key="Words.Backup">Rezerva</system:String>

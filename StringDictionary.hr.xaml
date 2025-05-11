@@ -156,6 +156,7 @@
 	<system:String x:Key="Words.AdvancedOptions">Napredne opcije</system:String>
 	<system:String x:Key="Words.All">svi</system:String>
 	<system:String x:Key="Words.Anonymous">Anonimno</system:String>
+	<system:String x:Key="Words.ApplicationToken">Token aplikacije</system:String>
 	<system:String x:Key="Words.Apply">primijeniti</system:String>
 	<system:String x:Key="Words.AutoStart">Automatsko pokretanje</system:String>
 	<system:String x:Key="Words.Backup">Sigurnosna kopija</system:String>

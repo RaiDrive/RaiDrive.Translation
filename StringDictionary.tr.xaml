@@ -157,6 +157,7 @@
 	<system:String x:Key="Words.AdvancedOptions">Gelişmiş seçenekler</system:String>
 	<system:String x:Key="Words.All">Hepsi</system:String>
 	<system:String x:Key="Words.Anonymous">Anonim</system:String>
+	<system:String x:Key="Words.ApplicationToken">Uygulama belirteci</system:String>
 	<system:String x:Key="Words.Apply">Uygula</system:String>
 	<system:String x:Key="Words.AutoStart">Otomatik Başlat</system:String>
 	<system:String x:Key="Words.Backup">Yedekle</system:String>

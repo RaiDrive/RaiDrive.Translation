@@ -156,6 +156,7 @@
 	<system:String x:Key="Words.AdvancedOptions">उन्नत विकल्प</system:String>
 	<system:String x:Key="Words.All">सभी</system:String>
 	<system:String x:Key="Words.Anonymous">अनाम</system:String>
+	<system:String x:Key="Words.ApplicationToken">आवेदन टोकन</system:String>
 	<system:String x:Key="Words.Apply">आवेदन करना</system:String>
 	<system:String x:Key="Words.AutoStart">ऑटो स्टार्ट</system:String>
 	<system:String x:Key="Words.Backup">बैकअप</system:String>

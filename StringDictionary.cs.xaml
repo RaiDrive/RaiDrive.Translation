@@ -156,6 +156,7 @@
 	<system:String x:Key="Words.AdvancedOptions">Pokročilé možnosti</system:String>
 	<system:String x:Key="Words.All">Vše</system:String>
 	<system:String x:Key="Words.Anonymous">Anonymní přihlášení</system:String>
+	<system:String x:Key="Words.ApplicationToken">Token aplikace</system:String>
 	<system:String x:Key="Words.Apply">Použít</system:String>
 	<system:String x:Key="Words.AutoStart">Automatický start</system:String>
 	<system:String x:Key="Words.Backup">Záloha</system:String>

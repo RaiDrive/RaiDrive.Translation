@@ -156,6 +156,7 @@
 	<system:String x:Key="Words.AdvancedOptions">Išplėstiniai nustatymai</system:String>
 	<system:String x:Key="Words.All">Visi</system:String>
 	<system:String x:Key="Words.Anonymous">Anonimas</system:String>
+	<system:String x:Key="Words.ApplicationToken">Programos prieigos raktas</system:String>
 	<system:String x:Key="Words.Apply">Taikyti</system:String>
 	<system:String x:Key="Words.AutoStart">Automatinis paleidimas</system:String>
 	<system:String x:Key="Words.Backup">Atsarginė kopija</system:String>

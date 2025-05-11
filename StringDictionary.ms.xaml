@@ -157,6 +157,7 @@
 	<system:String x:Key="Words.AdvancedOptions">Pilihan Selebihnya</system:String>
 	<system:String x:Key="Words.All">Semua</system:String>
 	<system:String x:Key="Words.Anonymous">Tanpa Nama</system:String>
+	<system:String x:Key="Words.ApplicationToken">Token permohonan</system:String>
 	<system:String x:Key="Words.Apply">Tetapkan</system:String>
 	<system:String x:Key="Words.AutoStart">Auto Mula</system:String>
 	<system:String x:Key="Words.Backup">Sandaran</system:String>

@@ -156,6 +156,7 @@
 	<system:String x:Key="Words.AdvancedOptions">گزینه های پیشرفته</system:String>
 	<system:String x:Key="Words.All">همه</system:String>
 	<system:String x:Key="Words.Anonymous">ناشناس</system:String>
+	<system:String x:Key="Words.ApplicationToken">توکن برنامه</system:String>
 	<system:String x:Key="Words.Apply">اعمال</system:String>
 	<system:String x:Key="Words.AutoStart">شروع خودکار</system:String>
 	<system:String x:Key="Words.Backup">پشتیبان گیری</system:String>

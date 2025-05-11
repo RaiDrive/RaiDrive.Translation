@@ -157,6 +157,7 @@
 	<system:String x:Key="Words.AdvancedOptions">ตัวเลือกขั้นสูง</system:String>
 	<system:String x:Key="Words.All">ทั้งหมด</system:String>
 	<system:String x:Key="Words.Anonymous">ไม่ระบุตัวตน</system:String>
+	<system:String x:Key="Words.ApplicationToken">โทเค็นแอปพลิเคชัน</system:String>
 	<system:String x:Key="Words.Apply">ใช้งาน</system:String>
 	<system:String x:Key="Words.AutoStart">เริ่มอัตโนมัติ</system:String>
 	<system:String x:Key="Words.Backup">สำรอง</system:String>

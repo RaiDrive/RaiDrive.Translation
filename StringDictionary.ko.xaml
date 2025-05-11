@@ -157,6 +157,7 @@
 	<system:String x:Key="Words.AdvancedOptions">고급 옵션</system:String>
 	<system:String x:Key="Words.All">전체</system:String>
 	<system:String x:Key="Words.Anonymous">익명</system:String>
+	<system:String x:Key="Words.ApplicationToken">애플리케이션 토큰</system:String>
 	<system:String x:Key="Words.Apply">적용</system:String>
 	<system:String x:Key="Words.AutoStart">자동시작</system:String>
 	<system:String x:Key="Words.Backup">백업</system:String>

@@ -158,6 +158,7 @@
 	<system:String x:Key="Words.AdvancedOptions">進階選項</system:String>
 	<system:String x:Key="Words.All">全部</system:String>
 	<system:String x:Key="Words.Anonymous">匿名</system:String>
+	<system:String x:Key="Words.ApplicationToken">應用程式令牌</system:String>
 	<system:String x:Key="Words.Apply">套用</system:String>
 	<system:String x:Key="Words.AutoStart">自動開始</system:String>
 	<system:String x:Key="Words.Backup">備份</system:String>

@@ -156,6 +156,7 @@
 	<system:String x:Key="Words.AdvancedOptions">אפשרויות מתקדמות</system:String>
 	<system:String x:Key="Words.All">את כל</system:String>
 	<system:String x:Key="Words.Anonymous">בעילום שם</system:String>
+	<system:String x:Key="Words.ApplicationToken">אסימון אפליקציה</system:String>
 	<system:String x:Key="Words.Apply">להגיש מועמדות</system:String>
 	<system:String x:Key="Words.AutoStart">התחלה אוטומטית</system:String>
 	<system:String x:Key="Words.Backup">גיבוי</system:String>

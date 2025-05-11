@@ -156,6 +156,7 @@
 	<system:String x:Key="Words.AdvancedOptions">উন্নত বিকল্প</system:String>
 	<system:String x:Key="Words.All">সব</system:String>
 	<system:String x:Key="Words.Anonymous">বেনামী</system:String>
+	<system:String x:Key="Words.ApplicationToken">আবেদন টোকেন</system:String>
 	<system:String x:Key="Words.Apply">আবেদন করুন</system:String>
 	<system:String x:Key="Words.AutoStart">স্বয়ংক্রিয় শুরু</system:String>
 	<system:String x:Key="Words.Backup">ব্যাকআপ</system:String>

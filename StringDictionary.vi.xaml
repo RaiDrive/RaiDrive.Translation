@@ -159,6 +159,7 @@
 	<system:String x:Key="Words.AdvancedOptions">Tùy chọn nâng cao</system:String>
 	<system:String x:Key="Words.All">Tất cả</system:String>
 	<system:String x:Key="Words.Anonymous">Ẩn danh</system:String>
+	<system:String x:Key="Words.ApplicationToken">Mã thông báo ứng dụng</system:String>
 	<system:String x:Key="Words.Apply">Áp dụng</system:String>
 	<system:String x:Key="Words.AutoStart">Bắt đầu tự động</system:String>
 	<system:String x:Key="Words.Backup">Sao lưu</system:String>

@@ -158,6 +158,7 @@
 	<system:String x:Key="Words.AdvancedOptions">إعدادات متقدمة</system:String>
 	<system:String x:Key="Words.All">الكل</system:String>
 	<system:String x:Key="Words.Anonymous">وصول كمجهول</system:String>
+	<system:String x:Key="Words.ApplicationToken">رمز التطبيق</system:String>
 	<system:String x:Key="Words.Apply">تطبيق</system:String>
 	<system:String x:Key="Words.AutoStart">تشغيل تلقائي</system:String>
 	<system:String x:Key="Words.Backup">نسخة احتياطية</system:String>

@@ -157,6 +157,7 @@
 	<system:String x:Key="Words.AdvancedOptions">Дополнительные настройки</system:String>
 	<system:String x:Key="Words.All">Все</system:String>
 	<system:String x:Key="Words.Anonymous">Анонимно</system:String>
+	<system:String x:Key="Words.ApplicationToken">Токен приложения</system:String>
 	<system:String x:Key="Words.Apply">Применить</system:String>
 	<system:String x:Key="Words.AutoStart">Автозапуск</system:String>
 	<system:String x:Key="Words.Backup">Копия</system:String>

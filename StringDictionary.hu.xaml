@@ -156,6 +156,7 @@
 	<system:String x:Key="Words.AdvancedOptions">Haladó beállítások</system:String>
 	<system:String x:Key="Words.All">Mind</system:String>
 	<system:String x:Key="Words.Anonymous">Névtelen</system:String>
+	<system:String x:Key="Words.ApplicationToken">Alkalmazástoken</system:String>
 	<system:String x:Key="Words.Apply">Alkalmaz</system:String>
 	<system:String x:Key="Words.AutoStart">Aut. indítás</system:String>
 	<system:String x:Key="Words.Backup">Mentés</system:String>

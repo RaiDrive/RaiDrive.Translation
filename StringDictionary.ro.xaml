@@ -156,6 +156,7 @@
 	<system:String x:Key="Words.AdvancedOptions">Opțiuni avansate</system:String>
 	<system:String x:Key="Words.All">Toate</system:String>
 	<system:String x:Key="Words.Anonymous">Anonim</system:String>
+	<system:String x:Key="Words.ApplicationToken">Tokenul aplicației</system:String>
 	<system:String x:Key="Words.Apply">Aplică</system:String>
 	<system:String x:Key="Words.AutoStart">Pornește automat</system:String>
 	<system:String x:Key="Words.Backup">Backup</system:String>
