@@ -103,7 +103,7 @@
 	<system:String x:Key="Messages.WelcomeToRaiDrive">Chào mừng đến với RaiDrive</system:String>
 	<system:String x:Key="Phrases.AuthAtConnect">Kết nối bằng tài khoản khác</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">Duyệt web ở chế độ riêng tư</system:String>
-	<system:String x:Key="Phrases.ChunkedUpload">Tải lên theo khối</system:String>
+	<system:String x:Key="Phrases.ChunkedUpload">Tải lên từng phần</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">Xóa kết nối hiện có</system:String>
 	<system:String x:Key="Phrases.ConfirmPIN">Xác nhận mã PIN</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">Được kết nối bởi RaiDrive</system:String>
@@ -142,7 +142,7 @@
 	<system:String x:Key="Phrases.RunAtConnect">Mở File Explorer khi dịch vụ được kết nối</system:String>
 	<system:String x:Key="Phrases.SelectFolder">Chọn thư mục</system:String>
 	<system:String x:Key="Phrases.Service.ReviveRaiDrive">Sửa lại RaiDrive</system:String>
-	<system:String x:Key="Phrases.SimultaneousTransfer">Chuyển giao đồng thời</system:String>
+	<system:String x:Key="Phrases.SimultaneousTransfer">Truyền đồng thời</system:String>
 	<system:String x:Key="Phrases.StartRaiDrive">Bắt đầu RaiDrive</system:String>
 	<system:String x:Key="Phrases.State.Space.Format">{0} trống của {1} {2}</system:String>
 	<system:String x:Key="Phrases.Subscription.Switch">Chuyển sang {0}</system:String>
@@ -159,7 +159,7 @@
 	<system:String x:Key="Words.AdvancedOptions">Tùy chọn nâng cao</system:String>
 	<system:String x:Key="Words.All">Tất cả</system:String>
 	<system:String x:Key="Words.Anonymous">Ẩn danh</system:String>
-	<system:String x:Key="Words.ApplicationToken">Mã thông báo ứng dụng</system:String>
+	<system:String x:Key="Words.ApplicationToken">Token ứng dụng</system:String>
 	<system:String x:Key="Words.Apply">Áp dụng</system:String>
 	<system:String x:Key="Words.AutoStart">Bắt đầu tự động</system:String>
 	<system:String x:Key="Words.Backup">Sao lưu</system:String>
