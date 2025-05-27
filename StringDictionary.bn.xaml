@@ -3,6 +3,7 @@
 					xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>RaiDrive</system:String>
+		<system:String>Zubair Ibn Zamir</system:String>
 	</x:Array>
 	<system:String x:Key="Language.English">Bangla</system:String>
 	<system:String x:Key="Language.Native">বাংলা</system:String>
@@ -13,7 +14,7 @@
 	<system:String x:Key="Messages.CheckAddress">ঠিকানা চেক করুন.</system:String>
 	<system:String x:Key="Messages.CheckPort">অনুগ্রহ করে পোর্টটি পরীক্ষা করুন{0}।</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">অনুগ্রহ করে প্রোটোকল{0} এবং পোর্ট{1} দুবার চেক করুন৷</system:String>
-	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">এটি অবিলম্বে রিমোট ফাইল পরিবর্তন চেক করার চেষ্টা করে।</system:String>
+	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">এটি অবিলম্বে দূরবর্তী ফাইল পরিবর্তনের জন্য চেক করার চেষ্টা করে।</system:String>
 	<system:String x:Key="Messages.CurrentVersion">বর্তমান সংস্করণ হল {0}</system:String>
 	<system:String x:Key="Messages.Delegation.Aborted">প্রতিনিধিত্ব বাতিল হয়ে গেছে</system:String>
 	<system:String x:Key="Messages.EmailSentSuccess">ইমেলটি সফলভাবে পাঠানো হয়েছে।</system:String>
@@ -62,14 +63,14 @@
 	<system:String x:Key="Messages.DriverInstallFailed">ডিভাইস ড্রাইভার ইনস্টলেশন ব্যর্থ হয়েছে.</system:String>
 	<system:String x:Key="Messages.NotReadyDriverFinalStep">স্বাগতম, এটি ইনস্টলেশনের চূড়ান্ত ধাপ এবং ডিভাইস ড্রাইভার ইনস্টল করা হবে।</system:String>
 	<system:String x:Key="Messages.NotReadyDriver">ডিভাইস ড্রাইভার আপনার সিস্টেমে ইনস্টল করা নেই. আপনাকে RaiDrive পুনরায় ইনস্টল করতে হবে।</system:String>
-	<system:String x:Key="Messages.NotReadyReboot">RaiDrive শুরু করার জন্য প্রস্তুত নয়, আপনার সিস্টেম রিস্টার্ট করতে হবে।</system:String>
+	<system:String x:Key="Messages.NotReadyReboot">RaiDrive শুরু করার জন্য প্রস্তুত নয়, আপনার সিস্টেম পুনরায় চালু করতে হবে।</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">ড্রপবক্স ইন্টারনেট এক্সপ্লোরার 10, 11 সমর্থন করে। আপনার জন্য ইন্টারনেট এক্সপ্লোরার 11 ইনস্টল করা ভালো।</system:String>
 	<system:String x:Key="Messages.NotSupportNetworkDrive">RaiDrive একটি নেটওয়ার্ক ড্রাইভ সমর্থন করে না।</system:String>
 	<system:String x:Key="Messages.NotSupportRaiDrive">RaiDrive নিজে থেকে সংযোগ করার জন্য একটি ড্রাইভ সমর্থন করে না।</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClient">সক্রিয় ডিরেক্টরি দ্বারা অব্যবস্থাপিত ডোমেন</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">আপনার অ্যাকাউন্ট সক্রিয় ডিরেক্টরি দ্বারা পরিচালিত হয় না. আপনার সক্রিয় ডিরেক্টরি বা ডোমেন প্রশাসকের সাথে যোগাযোগ করা উচিত বা ব্যক্তিগত অ্যাকাউন্ট হিসাবে সাইন ইন করা উচিত।</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">পথ খুঁজে পাওয়া যায় না. পথ পরীক্ষা করুন{0}।</system:String>
-	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">পরিচয় অন্তর্ভুক্ত করার জন্য একটি পাসওয়ার্ড প্রয়োজন৷</system:String>
+	<system:String x:Key="Messages.PasswordRequiredIncludeCredentials">শংসাপত্রগুলি অন্তর্ভুক্ত করার জন্য একটি পাসওয়ার্ড প্রয়োজন৷</system:String>
 	<system:String x:Key="Messages.ReconnectForChangingSettings">অনুগ্রহ করে ওকে বোতাম টিপুন, পরিবর্তিত সেটিংস কার্যকর করার জন্য আপনাকে অবশ্যই দূরবর্তী সঞ্চয়স্থান পুনরায় সংযোগ করতে হবে৷</system:String>
 	<system:String x:Key="Messages.ResponseSlow">একটি প্রতিক্রিয়া ধীর হতে পারে</system:String>
 	<system:String x:Key="Messages.RetryAfter">{0} সেকেন্ডের পরে আবার চেষ্টা করুন।</system:String>
@@ -78,7 +79,7 @@
 	<system:String x:Key="Messages.SelectPrivateKeyPath">আপনি ব্যক্তিগত কী ফাইল নির্বাচন করতে পারেন</system:String>
 	<system:String x:Key="Messages.SelectedPath">নির্বাচিত পাথ</system:String>
 	<system:String x:Key="Messages.SelectTargetFolder">একটি দূরবর্তী ফোল্ডার নির্বাচন করুন যেখানে ফাইল সংরক্ষণ করা হবে</system:String>
-	<system:String x:Key="Messages.Service.GetStarted">আমরা কি RaiDrive শুরু করব?</system:String>
+	<system:String x:Key="Messages.Service.GetStarted">আমরা কি RaiDrive দিয়ে শুরু করব?</system:String>
 	<system:String x:Key="Messages.Service.Alive">অনুগ্রহ করে ওকে বোতাম টিপুন, RaiDrive জীবিত হবে।</system:String>
 	<system:String x:Key="Messages.Service.Stoped">RaiDrive পরিষেবা বন্ধ করা হয়েছে।</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">আপনার সদস্যতা বৈশিষ্ট্যগুলি অক্ষম করা হবে এবং সমস্ত ড্রাইভ পুনরায় সংযুক্ত করা হবে৷ অনুগ্রহ করে ফাইল(গুলি) সংরক্ষণ করুন বা অ্যাপ্লিকেশন(গুলি) বন্ধ করুন</system:String>
@@ -98,14 +99,14 @@
 	<system:String x:Key="Messages.VolumeInvalidStr">নিম্নলিখিত সংরক্ষিত নাম ব্যবহার করবেন না:</system:String>
 	<system:String x:Key="Messages.WaitForMoment">দয়া করে একটু অপেক্ষা করুন।</system:String>
 	<system:String x:Key="Messages.WelcomeToRaiDrive">RaiDrive-এ স্বাগতম।</system:String>
-	<system:String x:Key="Phrases.AuthAtConnect">বিভিন্ন ইউজারনেম-পাসওয়ার্ড ব্যবহার করে সংযোগ করুন</system:String>
+	<system:String x:Key="Phrases.AuthAtConnect">বিভিন্ন শংসাপত্র ব্যবহার করে সংযোগ করুন</system:String>
 	<system:String x:Key="Phrases.Browser.BrowseInPrivate">ব্যক্তিগতভাবে ব্রাউজ করুন</system:String>
 	<system:String x:Key="Phrases.ChunkedUpload">খণ্ডিত আপলোড</system:String>
 	<system:String x:Key="Phrases.ClearExistingConnection">বিদ্যমান সংযোগ সাফ করুন</system:String>
 	<system:String x:Key="Phrases.ConfirmPIN">পিন নিশ্চিত করুন</system:String>
 	<system:String x:Key="Phrases.ConnectByRaiDrive">RaiDrive দ্বারা সংযুক্ত</system:String>
 	<system:String x:Key="Phrases.ConnectAfterUnlock">আনলক করার পরে সংযোগ করুন</system:String>
-	<system:String x:Key="Phrases.CredentialsIncluding">ইউজারনেম-পাসওয়ার্ড সহ</system:String>
+	<system:String x:Key="Phrases.CredentialsIncluding">শংসাপত্র সহ</system:String>
 	<system:String x:Key="Phrases.DeleteDrive">ড্রাইভ মুছুন</system:String>
 	<system:String x:Key="Phrases.DeviceDriver">ডিভাইস ড্রাইভার</system:String>
 	<system:String x:Key="Phrases.DisconnectAfterIdleTime">নিষ্ক্রিয় সময়ের পরে সংযোগ বিচ্ছিন্ন করুন</system:String>
@@ -119,7 +120,7 @@
 	<system:String x:Key="Phrases.FollowLatest">সর্বশেষটি অনুসরণ করুন</system:String>
 	<system:String x:Key="Phrases.ForBusinessVersion">ব্যবসায়িক সংস্করণের জন্য</system:String>
 	<system:String x:Key="Phrases.FourDigits">৪টি সংখ্যা</system:String>
-	<system:String x:Key="Phrases.GetFilePropertiesInstantly">অবিলম্বে ফাইলের তথ্য ও বৈশিষ্ট্য পান</system:String>
+	<system:String x:Key="Phrases.GetFilePropertiesInstantly">অবিলম্বে ফাইল বৈশিষ্ট্য পান</system:String>
 	<system:String x:Key="Phrases.KeepModifiedDate">কপি করার সময় "তারিখ পরিবর্তন" রাখার চেষ্টা করুন</system:String>
 	<system:String x:Key="Phrases.MaintainModifiedDate">ফাইল এবং ফোল্ডারগুলির "তারিখ পরিবর্তন" বজায় রাখুন</system:String>
 	<system:String x:Key="Phrases.Motto.CloudStorageLikeUsbDrive">USB ড্রাইভের মতো ক্লাউড স্টোরেজ মাউন্ট করুন</system:String>
@@ -304,8 +305,8 @@
 	<system:String x:Key="Words.Upload">আপলোড করুন</system:String>
 	<system:String x:Key="Words.Username">ব্যবহারকারীর নাম</system:String>
 	<system:String x:Key="Words.VolumeLabel">শব্দোচ্চতার মাত্রা</system:String>
-	<system:String x:Key="Words.WritableDrive">রাইটের যোগ্য ড্রাইভ</system:String>
-	<system:String x:Key="Words.Write">রাইট করুন</system:String>
-	<system:String x:Key="Words.Writing">রাইট করা হচ্ছে</system:String>
+	<system:String x:Key="Words.WritableDrive">লেখার যোগ্য ড্রাইভ</system:String>
+	<system:String x:Key="Words.Write">লিখুন</system:String>
+	<system:String x:Key="Words.Writing">লেখা</system:String>
 	<system:String x:Key="Words.Yes">হ্যাঁ</system:String>
 </ResourceDictionary>
