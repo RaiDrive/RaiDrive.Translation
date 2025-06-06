@@ -15,7 +15,7 @@
 	<system:String x:Key="Messages.CheckProtocolPort">Παρακαλώ ελέγξτε καλά το πρωτόκολλο{0} και την θύρα{1}..</system:String>
 	<system:String x:Key="Messages.CheckRemoteOnGetFileInfo">Προσπαθεί να ελέγξει αμέσως για απομακρυσμένες αλλαγές αρχείων.</system:String>
 	<system:String x:Key="Messages.CurrentVersion">Τρέχουσα έκδοση {0}</system:String>
-	<system:String x:Key="Messages.Delegation.Aborted">Άρνηση delegation</system:String>
+	<system:String x:Key="Messages.Delegation.Aborted">Ακύρωση ανάθεσης</system:String>
 	<system:String x:Key="Messages.EmailSentSuccess">Το email στάλθηκε με επιτυχία.</system:String>
 	<system:String x:Key="Messages.EnterAccessKeyID">Παρακαλώ καταχωρίστε Access Key ID</system:String>
 	<system:String x:Key="Messages.EnterAccountID">Εισαγάγετε το αναγνωριστικό λογαριασμού</system:String>
