@@ -156,7 +156,7 @@
 	<system:String x:Key="Words.AdvancedOptions">Προχωρημένες επιλογές</system:String>
 	<system:String x:Key="Words.All">Όλα</system:String>
 	<system:String x:Key="Words.Anonymous">Ανώνυμος</system:String>
-	<system:String x:Key="Words.ApplicationToken">Token εφαρμογής</system:String>
+	<system:String x:Key="Words.ApplicationToken">διακριτικό εφαρμογής</system:String>
 	<system:String x:Key="Words.Apply">Εφαρμογή</system:String>
 	<system:String x:Key="Words.AutoStart">Αυτόματη εκκίνηση</system:String>
 	<system:String x:Key="Words.Backup">Αντίγραφο ασφαλείας</system:String>
