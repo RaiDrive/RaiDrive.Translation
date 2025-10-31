@@ -1,6 +1,7 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-					xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>Kasukoi</system:String>
 		<system:String>LordDamionDevil Maurice</system:String>
@@ -299,6 +300,7 @@
 	<system:String x:Key="Words.Time">Zeit</system:String>
 	<system:String x:Key="Words.Timeout">Zeitüberschreitung</system:String>
 	<system:String x:Key="Words.TransferMode">Übertragungsmodus</system:String>
+	<system:String x:Key="Words.Type">Typ</system:String>
 	<system:String x:Key="Words.Unlock">Freischalten</system:String>
 	<system:String x:Key="Words.Update">Aktualisieren</system:String>
 	<system:String x:Key="Words.Upgrade">Aktualisierung</system:String>

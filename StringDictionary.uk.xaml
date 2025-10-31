@@ -1,6 +1,7 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-					xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>Alexey Lugin</system:String>
 	</x:Array>
@@ -298,6 +299,7 @@
 	<system:String x:Key="Words.Time">Час</system:String>
 	<system:String x:Key="Words.Timeout">Очікування</system:String>
 	<system:String x:Key="Words.TransferMode">Режим передачі</system:String>
+	<system:String x:Key="Words.Type">Тип</system:String>
 	<system:String x:Key="Words.Unlock">Розблокувати</system:String>
 	<system:String x:Key="Words.Update">Оновити</system:String>
 	<system:String x:Key="Words.Upgrade">Покращити</system:String>

@@ -1,6 +1,7 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-					xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>RaiDrive</system:String>
 		<system:String>Zubair Ibn Zamir</system:String>
@@ -299,6 +300,7 @@
 	<system:String x:Key="Words.Time">সময়</system:String>
 	<system:String x:Key="Words.Timeout">সময় শেষ</system:String>
 	<system:String x:Key="Words.TransferMode">স্থানান্তর মোড</system:String>
+	<system:String x:Key="Words.Type">আদর্শ</system:String>
 	<system:String x:Key="Words.Unlock">আনলক করুন</system:String>
 	<system:String x:Key="Words.Update">হালনাগাদ</system:String>
 	<system:String x:Key="Words.Upgrade">আপগ্রেড করুন</system:String>

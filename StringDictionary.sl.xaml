@@ -1,6 +1,7 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-					xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>RaiDrive</system:String>
 	</x:Array>
@@ -298,6 +299,7 @@
 	<system:String x:Key="Words.Time">Čas</system:String>
 	<system:String x:Key="Words.Timeout">Odmor</system:String>
 	<system:String x:Key="Words.TransferMode">Način prenosa</system:String>
+	<system:String x:Key="Words.Type">Vrsta</system:String>
 	<system:String x:Key="Words.Unlock">Odkleni</system:String>
 	<system:String x:Key="Words.Update">Nadgradnja</system:String>
 	<system:String x:Key="Words.Upgrade">Nadgradnja</system:String>

@@ -1,6 +1,7 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-					xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>ΜΟLΟΚΛL</system:String>
 		<system:String>Niskala5570</system:String>
@@ -299,6 +300,7 @@
 	<system:String x:Key="Words.Time">Masa</system:String>
 	<system:String x:Key="Words.Timeout">Masa tamat</system:String>
 	<system:String x:Key="Words.TransferMode">Mod Pemindahan</system:String>
+	<system:String x:Key="Words.Type">taip</system:String>
 	<system:String x:Key="Words.Unlock">Buka kunci</system:String>
 	<system:String x:Key="Words.Update">Kemas Kini</system:String>
 	<system:String x:Key="Words.Upgrade">Naik Taraf</system:String>

@@ -1,6 +1,7 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-					xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>SadPencil</system:String>
 		<system:String>whwlsfb</system:String>
@@ -300,6 +301,7 @@
 	<system:String x:Key="Words.Time">时间</system:String>
 	<system:String x:Key="Words.Timeout">超时</system:String>
 	<system:String x:Key="Words.TransferMode">传输模式</system:String>
+	<system:String x:Key="Words.Type">类型</system:String>
 	<system:String x:Key="Words.Unlock">开锁</system:String>
 	<system:String x:Key="Words.Update">检查更新</system:String>
 	<system:String x:Key="Words.Upgrade">升级</system:String>

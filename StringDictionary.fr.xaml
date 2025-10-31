@@ -1,6 +1,7 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-					xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>JeromeFa</system:String>
 		<system:String>DoryanR</system:String>
@@ -157,7 +158,7 @@
 	<system:String x:Key="Words.AdvancedOptions">Options avancées</system:String>
 	<system:String x:Key="Words.All">Tout</system:String>
 	<system:String x:Key="Words.Anonymous">Anonyme</system:String>
-	<system:String x:Key="Words.ApplicationToken">Jeton d&#39;application</system:String>
+	<system:String x:Key="Words.ApplicationToken">Jeton d'application</system:String>
 	<system:String x:Key="Words.Apply">Appliquer</system:String>
 	<system:String x:Key="Words.AutoStart">Démarrage automatique</system:String>
 	<system:String x:Key="Words.Backup">Sauvegarde</system:String>
@@ -299,6 +300,7 @@
 	<system:String x:Key="Words.Time">Heure</system:String>
 	<system:String x:Key="Words.Timeout">Temps libre</system:String>
 	<system:String x:Key="Words.TransferMode">Mode de transfert</system:String>
+	<system:String x:Key="Words.Type">Taper</system:String>
 	<system:String x:Key="Words.Unlock">Ouvrir</system:String>
 	<system:String x:Key="Words.Update">Mise à jour</system:String>
 	<system:String x:Key="Words.Upgrade">Mise à niveau</system:String>

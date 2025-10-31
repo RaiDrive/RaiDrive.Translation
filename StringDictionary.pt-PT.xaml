@@ -1,6 +1,7 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-					xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>Wolf-Wind</system:String>
 	</x:Array>
@@ -298,6 +299,7 @@
 	<system:String x:Key="Words.Time">Tempo</system:String>
 	<system:String x:Key="Words.Timeout">Tempo esgotado</system:String>
 	<system:String x:Key="Words.TransferMode">Modo de transferência</system:String>
+	<system:String x:Key="Words.Type">Tipo</system:String>
 	<system:String x:Key="Words.Unlock">Desbloquear</system:String>
 	<system:String x:Key="Words.Update">Atualizar</system:String>
 	<system:String x:Key="Words.Upgrade">Atualizar</system:String>

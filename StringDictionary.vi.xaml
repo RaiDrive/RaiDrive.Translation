@@ -1,6 +1,7 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-					xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>holao09</system:String>
 		<system:String>vigstudio</system:String>
@@ -301,6 +302,7 @@
 	<system:String x:Key="Words.Time">Thời gian</system:String>
 	<system:String x:Key="Words.Timeout">Thời gian dừng</system:String>
 	<system:String x:Key="Words.TransferMode">Chế độ truyền</system:String>
+	<system:String x:Key="Words.Type">Kiểu</system:String>
 	<system:String x:Key="Words.Unlock">Mở khóa</system:String>
 	<system:String x:Key="Words.Update">Cập nhật</system:String>
 	<system:String x:Key="Words.Upgrade">Nâng cấp</system:String>
