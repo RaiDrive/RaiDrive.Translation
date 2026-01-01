@@ -1,7 +1,6 @@
-﻿<ResourceDictionary
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>Alexey Lugin</system:String>
 	</x:Array>
@@ -259,6 +258,7 @@
 	<system:String x:Key="Words.Reading">Читання</system:String>
 	<system:String x:Key="Words.Ready">Готовий</system:String>
 	<system:String x:Key="Words.Reason">Причина</system:String>
+	<system:String x:Key="Words.Region">Регіон</system:String>
 	<system:String x:Key="Words.Reboot">Перезавантажити</system:String>
 	<system:String x:Key="Words.RemoteFolder">Віддалена папка</system:String>
 	<system:String x:Key="Words.Remove">Видалити</system:String>

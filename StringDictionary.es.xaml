@@ -1,7 +1,6 @@
-﻿<ResourceDictionary
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>realstylishguy</system:String>
 		<system:String>juangacovas</system:String>
@@ -260,6 +259,7 @@
 	<system:String x:Key="Words.Reading">Leyendo</system:String>
 	<system:String x:Key="Words.Ready">Listo</system:String>
 	<system:String x:Key="Words.Reason">Razón</system:String>
+	<system:String x:Key="Words.Region">Región</system:String>
 	<system:String x:Key="Words.Reboot">Reiniciar</system:String>
 	<system:String x:Key="Words.RemoteFolder">Carpeta remota</system:String>
 	<system:String x:Key="Words.Remove">Eliminar</system:String>

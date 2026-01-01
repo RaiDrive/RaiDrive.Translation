@@ -1,7 +1,6 @@
-﻿<ResourceDictionary
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>Mugahedb</system:String>
 		<system:String>Abu3safeer</system:String>
@@ -261,6 +260,7 @@
 	<system:String x:Key="Words.Reading">قراءة</system:String>
 	<system:String x:Key="Words.Ready">مستعد</system:String>
 	<system:String x:Key="Words.Reason">السبب</system:String>
+	<system:String x:Key="Words.Region">منطقة</system:String>
 	<system:String x:Key="Words.Reboot">اعادة التشغيل</system:String>
 	<system:String x:Key="Words.RemoteFolder">مجلد عن بعد</system:String>
 	<system:String x:Key="Words.Remove">حذف</system:String>

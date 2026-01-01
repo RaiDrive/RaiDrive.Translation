@@ -1,7 +1,6 @@
-﻿<ResourceDictionary
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>RaiDrive</system:String>
 	</x:Array>
@@ -259,6 +258,7 @@
 	<system:String x:Key="Words.Reading">קריאה</system:String>
 	<system:String x:Key="Words.Ready">מוּכָן</system:String>
 	<system:String x:Key="Words.Reason">סיבה</system:String>
+	<system:String x:Key="Words.Region">אֵזוֹר</system:String>
 	<system:String x:Key="Words.Reboot">לְאַתחֵל</system:String>
 	<system:String x:Key="Words.RemoteFolder">תיקיה מרוחקת</system:String>
 	<system:String x:Key="Words.Remove">לְהַסִיר</system:String>

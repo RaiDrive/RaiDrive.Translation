@@ -1,7 +1,6 @@
-﻿<ResourceDictionary
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>bovirus gabrigli</system:String>
 	</x:Array>
@@ -259,6 +258,7 @@
 	<system:String x:Key="Words.Reading">Lettura</system:String>
 	<system:String x:Key="Words.Ready">Pronto</system:String>
 	<system:String x:Key="Words.Reason">Motivo</system:String>
+	<system:String x:Key="Words.Region">Regione</system:String>
 	<system:String x:Key="Words.Reboot">Riavvia</system:String>
 	<system:String x:Key="Words.RemoteFolder">Cartella remota</system:String>
 	<system:String x:Key="Words.Remove">Rimuovi</system:String>

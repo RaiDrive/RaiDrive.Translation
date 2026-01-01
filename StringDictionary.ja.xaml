@@ -1,7 +1,6 @@
-﻿<ResourceDictionary
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>yuk7</system:String>
 		<system:String>wizard872</system:String>
@@ -261,6 +260,7 @@
 	<system:String x:Key="Words.Reading">読み込み中</system:String>
 	<system:String x:Key="Words.Ready">準備</system:String>
 	<system:String x:Key="Words.Reason">原因</system:String>
+	<system:String x:Key="Words.Region">リージョン</system:String>
 	<system:String x:Key="Words.Reboot">リブート</system:String>
 	<system:String x:Key="Words.RemoteFolder">リモートフォルダ</system:String>
 	<system:String x:Key="Words.Remove">削除</system:String>

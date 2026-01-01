@@ -1,7 +1,6 @@
-﻿<ResourceDictionary
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>yutthaphon</system:String>
 		<system:String>naruepanart</system:String>
@@ -260,6 +259,7 @@
 	<system:String x:Key="Words.Reading">กำลังอ่าน</system:String>
 	<system:String x:Key="Words.Ready">พร้อม</system:String>
 	<system:String x:Key="Words.Reason">เหตุผล</system:String>
+	<system:String x:Key="Words.Region">ภูมิภาค</system:String>
 	<system:String x:Key="Words.Reboot">รีบูต</system:String>
 	<system:String x:Key="Words.RemoteFolder">โฟลเดอร์ระยะไกล</system:String>
 	<system:String x:Key="Words.Remove">นำออก</system:String>

@@ -1,7 +1,6 @@
-﻿<ResourceDictionary
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
 		<system:String>Highdeger</system:String>
 	</x:Array>
@@ -259,6 +258,7 @@
 	<system:String x:Key="Words.Reading">خواندن</system:String>
 	<system:String x:Key="Words.Ready">آماده</system:String>
 	<system:String x:Key="Words.Reason">دلیل</system:String>
+	<system:String x:Key="Words.Region">منطقه</system:String>
 	<system:String x:Key="Words.Reboot">راه اندازی مجدد</system:String>
 	<system:String x:Key="Words.RemoteFolder">فولدر ریموت</system:String>
 	<system:String x:Key="Words.Remove">حذف</system:String>
